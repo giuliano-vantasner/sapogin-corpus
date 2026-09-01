@@ -1,0 +1,55 @@
+schema_version: 1
+inherits: vantasnerdan/substrate-framework governance
+authority_order:
+  - accepted_release
+  - accepted_claim_registry   # GC-* entries in claims.yaml (our adjudications)
+  - adjudicated_campaign
+  - source_claim_corpus       # SC-* extracted claims (data, not doctrine)
+  - proposal
+  - attempt
+principles:
+  chronology_is_not_authority: true
+  campaigns_are_immutable: true
+  claims_are_promoted_individually: true
+  source_claims_are_append_only: true
+  extraction_faithfulness_is_the_oracle: true
+  verification_is_executed_not_narrated: true
+  provenance_travels_with_corpus: true
+  failure_is_not_completion: true
+  no_early_stopping: true
+  anti_gate_ceremony_theater: true
+  one_commissioned_review_per_pr: true
+  max_concurrent_subagents: 3
+claim_id_prefixes:
+  source: SC
+  corpus: GC
+claim_types:
+  - experimental
+  - physical
+  - physics
+  - mathematical
+claim_facets:
+  - theory
+  - phenomenology
+  - experiment
+  - measurement
+  - recipe
+  - material
+  - process
+  - procedure
+  - schematic
+  - geometry
+priorities:
+  - core
+  - normal
+core_priority_topics:
+  - isotope transmutation
+  - catalysis
+  - EVO generation
+  - electrical path
+analysis_lens:
+  framework: CQED (substrate-framework QED module family) — battle testing
+  designated_by_user: pending   # rebind here if Dan names a different codebase
+campaign_order:
+  - practical_layer_first
+  - mathematical_models_and_theory_after

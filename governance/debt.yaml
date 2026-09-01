@@ -1,0 +1,11 @@
+schema_version: 1
+# Named gaps in the corpus. Campaigns resolve these; resolved entries are
+# marked, never deleted.
+entries: []
+#  - id: DB-001
+#    status: open            # open|in_campaign|resolved|wontfix(user)
+#    statement: "..."
+#    source_claims: [SC-AR07-001]
+#    kind: contradiction|physics_conflict|internal_inconsistency|load_bearing_assumption
+#    campaign: null
+#    resolution: null

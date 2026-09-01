@@ -1,0 +1,3 @@
+schema_version: 1
+# doc_id -> {claim_file, extractor, extracted, reviewed_by, zero_claim_document, pending}
+documents: {}

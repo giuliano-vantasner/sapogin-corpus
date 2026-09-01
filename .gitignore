@@ -1,0 +1,10 @@
+# scratch and derived
+__pycache__/
+*.pyc
+.scratch/
+tools/scratch/
+
+# large working artifacts regenerated from committed sources
+# (papers/ PDFs ARE committed; papers/text/ are derived)
+papers/text/
+.gitnexus/

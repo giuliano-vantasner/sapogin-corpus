@@ -1,0 +1,1 @@
+import{_ as r,r as o,o as t,c as a,b as c}from"./app.9df49b5c.js";const n={},s={"bg-slate-100":"","dark:bg-[#181818]":"","h-full":"",center:"","teal-700":"","dark:gray-200":""};function _(l,d){const e=o("router-view");return t(),a("main",s,[c(e)])}var i=r(n,[["render",_]]);export{i as default};

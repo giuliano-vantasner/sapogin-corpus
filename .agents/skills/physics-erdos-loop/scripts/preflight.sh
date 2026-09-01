@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+python_bin="python3"
+if [ -x "$repo_root/.venv/bin/python" ]; then
+  python_bin="$repo_root/.venv/bin/python"
+fi
+ok=0
+warn=0
+
+good() { printf '  [ok]   %s\n' "$1"; ok=$((ok + 1)); }
+miss() { printf '  [WARN] %s\n' "$1"; warn=$((warn + 1)); }
+
+echo "physics-erdos-loop preflight"
+echo "Oracles and tooling:"
+if "$python_bin" -c 'import sympy,numpy,scipy,yaml' 2>/dev/null; then
+  good "Python symbolic/numeric stack"
+else
+  miss "sympy/numpy/scipy/PyYAML stack incomplete"
+fi
+if command -v lean >/dev/null 2>&1 && command -v lake >/dev/null 2>&1; then
+  good "Lean/Lake available"
+else
+  miss "Lean/Lake unavailable; run scripts/setup_lean.sh before formal claims"
+fi
+if command -v memory >/dev/null 2>&1; then
+  good "pipx-managed agent-memory CLI available ($(memory --version))"
+else
+  miss "memory CLI unavailable; run scripts/bootstrap.sh"
+fi
+
+echo "Governance surfaces:"
+for path in AGENTS.md governance/claims.yaml governance/releases/current.yaml memory-templates/research-arc.md; do
+  if [ -f "$repo_root/$path" ]; then
+    good "$path"
+  else
+    miss "$path missing"
+  fi
+done
+
+echo "Repository state:"
+git -C "$repo_root" status --short --branch || true
+echo "ok=$ok warn=$warn"
