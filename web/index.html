@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>sapogin-corpus explorer</title>
+<style>
+  :root { --bg:#14161a; --panel:#1d2026; --edge:#2c313a; --fg:#d7dae0; --dim:#8a919c;
+          --accent:#4da3ff; --core:#ffb84d; }
+  * { box-sizing: border-box; }
+  body { margin:0; height:100vh; display:flex; flex-direction:column;
+         font:14px/1.45 system-ui,sans-serif; background:var(--bg); color:var(--fg); }
+  header { display:flex; gap:12px; align-items:center; padding:8px 14px;
+           background:var(--panel); border-bottom:1px solid var(--edge); flex-wrap:wrap; }
+  header h1 { font-size:15px; margin:0 12px 0 0; white-space:nowrap; }
+  header a { color:var(--dim); font-size:12px; text-decoration:none; }
+  #search { flex:1; min-width:260px; max-width:520px; padding:6px 10px; border-radius:6px;
+            border:1px solid var(--edge); background:var(--bg); color:var(--fg); }
+  .chips { display:flex; gap:6px; flex-wrap:wrap; }
+  .chip { padding:3px 9px; border-radius:12px; font-size:12px; cursor:pointer;
+          border:1px solid var(--edge); color:var(--dim); user-select:none; }
+  .chip.on { color:#fff; border-color:transparent; }
+  main { flex:1; display:flex; min-height:0; }
+  #graph { flex:1.4; min-width:0; }
+  #side { flex:1; max-width:520px; min-width:340px; overflow-y:auto; background:var(--panel);
+          border-left:1px solid var(--edge); padding:14px 18px; }
+  h2 { font-size:15px; margin:14px 0 6px; } h3 { font-size:13px; margin:12px 0 4px; color:var(--dim); }
+  .claim { border:1px solid var(--edge); border-radius:8px; padding:8px 10px; margin:8px 0;
+           cursor:pointer; }
+  .claim:hover { border-color:var(--accent); }
+  .claim.sel { border-color:var(--accent); background:#22303f; }
+  .cid { font-family:ui-monospace,monospace; font-size:12px; color:var(--accent); }
+  .pri-core { color:var(--core); font-size:11px; font-weight:600; }
+  .meta { color:var(--dim); font-size:12px; margin-top:2px; }
+  .quote { font-size:12px; color:var(--dim); font-style:italic; margin-top:4px;
+           border-left:2px solid var(--edge); padding-left:8px; }
+  .kv { font-size:12px; margin:2px 0; } .kv b { color:var(--dim); font-weight:500; }
+  table { border-collapse:collapse; font-size:12px; width:100%; }
+  td,th { border:1px solid var(--edge); padding:3px 7px; text-align:left; }
+  th { color:var(--dim); font-weight:500; }
+  .md h1 { font-size:16px; } .md h2 { font-size:14px; color:var(--accent); } .md table { margin:8px 0; }
+  .btn { padding:4px 10px; border-radius:6px; border:1px solid var(--edge); background:none;
+         color:var(--fg); cursor:pointer; font-size:12px; }
+  .btn.on { border-color:var(--accent); color:var(--accent); }
+  #legend { display:flex; gap:10px; padding:4px 14px; font-size:11px; color:var(--dim);
+            background:var(--panel); border-top:1px solid var(--edge); flex-wrap:wrap; }
+  .sw { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:3px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>sapogin-corpus</h1>
+  <input id="search" placeholder="search 1,641 claims — id, statement, tags, quote…">
+  <div class="chips" id="chips"></div>
+  <button class="btn" id="modeBtn">view: clusters</button>
+</header>
+<main>
+  <div id="graph"></div>
+  <div id="side"><h2>sapogin-corpus</h2>
+    <p class="meta">1,641 source claims · 65 documents · 145 clusters · 8 buckets.
+    Click a cluster node to open it. Search matches ids, English statements,
+    tags, and Russian quotes. Every claim links to its source PDF page.</p>
+    <h3>Data model</h3>
+    <p class="meta">SC-* = source claim (verbatim-faithful, provenance-pinned,
+    data not doctrine). Clusters are PROPOSALS pending Dan's campaign split.
+    <span class="pri-core">core</span> = transmutation / catalysis / EVO /
+    electrical path (Tiziano priority).</p>
+  </div>
+</main>
+<div id="legend"></div>
+<script src="vendor/vis-network.min.js"></script>
+<script src="vendor/minisearch.min.js"></script>
+<script src="vendor/marked.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
