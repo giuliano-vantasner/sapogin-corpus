@@ -77,6 +77,7 @@
             background:var(--panel); border-top:1px solid var(--edge); flex-wrap:wrap; }
   .sw { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:3px; }
 </style>
+<link rel="stylesheet" href="mobile.css">
 </head>
 <body>
 <header>
@@ -84,8 +85,17 @@
   <input id="search" placeholder="search 1,641 claims — id, statement, tags, quote…">
   <div class="chips" id="chips"></div>
   <button class="btn" id="modeBtn">view: graph</button>
+  <button class="btn" id="mobileViewBtn" type="button" aria-controls="graph side" aria-pressed="false">View graph</button>
 </header>
 <noscript>
+  <style>
+    @media (max-width:720px) {
+      body { height:auto; min-height:100vh; min-height:100dvh; overflow:auto; }
+      header, noscript + main, #legend { display:none; }
+      noscript { display:block; }
+      noscript main { position:static; min-height:100vh; min-height:100dvh; overflow:visible; }
+    }
+  </style>
   <main style="display:block">
   <section style="max-width:860px;margin:24px auto;padding:0 18px;font-size:14px;line-height:1.5">
     <h2>sapogin-corpus — 1,641 provenance-pinned claims (LENR/EVO research)</h2>
@@ -114,9 +124,9 @@
   </main>
 </noscript>
 <main>
-  <div id="graph"></div>
+  <div id="graph" role="region" aria-label="Corpus graph"></div>
   <div id="dragbar" title="drag to resize the results panel"></div>
-  <div id="side"></div>
+  <div id="side" role="region" aria-label="Corpus results" tabindex="-1"></div>
 </main>
 <div id="legend"></div>
 <script src="vendor/vis-network.min.js"></script>
@@ -124,5 +134,6 @@
 <script src="vendor/marked.min.js"></script>
 <script src="data.js"></script>
 <script src="app.js"></script>
+<script src="mobile-layout.js"></script>
 </body>
 </html>
