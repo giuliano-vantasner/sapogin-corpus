@@ -1,0 +1,1125 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: BR04
+  section: brochure
+  title_ru: Механизм генерации избыточной энергии самовращающейся электрической стрелкой
+  title_en: Mechanism of excess energy generation by a self-rotating electric arrow
+  file: papers/brochure/mekhanizm-generatsii-izbytochnoy-energii-samovrashchayushcheysya-elektricheskoy.pdf
+  source_url: http://146.190.233.254/docs/brochure/Механизм генерации избыточной энергии самовращающейся
+    электрической стрелкой.pdf
+  md5: 92e2e5d83727d3f01704a361a5e40fe7
+  pages_total: 56
+  retrieved: '2026-08-31'
+claims:
+- id: SC-BR04-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: которые позволяют создать энергетически закольцованную и совмещённую в пространстве цепочку
+    явлений, позволяющих циклически воспроизводить избыточную электрическую энергию.
+  statement_en: The authors assert that mirror physical principles acting in rotating mechano-electric
+    and electro-mechanical systems allow creating an energetically closed, spatially coincident chain
+    of phenomena that cyclically reproduces excess electric energy, with the "Source" and the "Motor"
+    at the same place of the chain exchanging AC energy continuously.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3 (Закольцованная энергетическая цепочка третьего рода)
+  tags:
+  - excess-energy
+  - closed-energy-chain
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-002
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 8
+  quote_ru: 1. Затухающие колебания в системе (режим 1). Очень похожи на экспоненциальные. Реализуются
+    при добротности контура Q<10.
+  statement_en: 'The authors assert that in an LC circuit with a harmonically varied reactive element
+    at parametric resonance (modulation frequency equal to twice the circuit resonance), for reduced modulation
+    amplitude 0.2 there exist three classes of solutions: damped oscillations for Q<10 (mode 1), stationary
+    beats for 10<Q<100 (mode 2), and unbounded parametric-instability growth for Q>=100 (mode 3), with
+    the growth increment strongly dependent on the reduced modulation amplitude in (0,1).'
+  quantities:
+  - 'mode 1: Q<10'
+  - 'mode 2: 10<Q<100'
+  - 'mode 3: Q >= 100'
+  - приведённая амплитуда модуляции = 0,2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4 (последовательный колебательный контур)
+  tags:
+  - parametric-resonance
+  - instability
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-003
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 8
+  quote_ru: Эксперименты проводились на цилиндрической ёмкости, которая имела ротор и статор. Она содержала
+    26 дисков диаметром 28,5 см, разделённых каждый на 16 радиальных секторов. Расстояние между соседними
+    дисками равно 2 мм.
+  statement_en: 'The authors describe the Mandelstam-Papaleksi experimental capacitor: a cylindrical rotor-stator
+    capacitance with 26 disks of 28.5 cm diameter, each divided into 16 radial sectors, with 2 mm spacing
+    between neighboring disks; the Paschen law gives breakdown field about 2.5 kV/mm at atmospheric pressure,
+    the working voltage approached but did not exceed the 5 kV breakdown value, and a 5 kV spark gap was
+    connected in parallel so mode 3 was unreachable, with transition into the beat mode 2 regulated by
+    a variable resistance.'
+  quantities:
+  - 26 дисков
+  - диаметр 28,5 см
+  - 16 радиальных секторов
+  - зазор 2 мм
+  - пробойная напряжённость ~2,5 кВ/мм
+  - рабочее напряжение ~5 кВ
+  equations: []
+  materials:
+  - цилиндрическая ёмкость с ротором и статором
+  - разрядник на 5 кВ
+  geometry:
+  - 26 disks, 28.5 cm diameter, 16 radial sectors each, 2 mm inter-disk spacing
+  procedure_steps:
+  - rotate the capacitor rotor by a motor
+  - keep working voltage below the 5 kV breakdown protected by a parallel spark gap
+  - regulate the beat mode by variable resistance
+  measurements: []
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - mandelstam-papaleksi
+  - capacitor
+  - geometry
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-BR04-004
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 9
+  quote_ru: Невозмущённая ёмкость системы в СИ (1 см = 1,11
+  statement_en: 'The authors recompute the Mandelstam-Papaleksi parameters: rotor rotation frequency 50
+    Hz (period 0.02 s), capacitance variation period 1.25 ms (800 Hz), circuit resonance 400 Hz, unperturbed
+    capacitance C0 = 5.65 nF, inductance L = 27.7 H with mean current 73 mA; from Q = 10 (beat mode) the
+    ohmic resistance R = 7 kOhm; the amplitude energy of the capacitor is 71 mJ and the power 56 W, more
+    than twice the figures cited in the original work.'
+  quantities:
+  - частота вращения 50 Гц
+  - период изменения ёмкости 1,25 мс
+  - частота изменения ёмкости 800 Гц
+  - резонанс 400 Гц
+  - C0 = 5,65 нФ
+  - L = 27,7 Гн
+  - средний ток 73 мА
+  - Q = 10
+  - R = 7 кОм
+  - энергия 71 мДж
+  - мощность 56 Вт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mandelstam-papaleksi
+  - parameters
+  - correction
+  notes: Quote truncated before pdftotext-mangled unit; full parameter list from page 9 prose.
+  relations: []
+- id: SC-BR04-005
+  type: physical
+  facet: experiment
+  priority: normal
+  page: 9
+  quote_ru: Это был первый советский преобразователь с 50 Гц, 220 В в 400 Гц, 5000 В.
+  statement_en: The authors assert that Mandelstam and Papaleksi were the first to propose an electromechanical
+    AC-to-AC converter, experimentally confirmed the mechano-electric energy conversion principle, and
+    built the first Soviet converter from 50 Hz, 220 V to 400 Hz, 5000 V, which found no application at
+    the time.
+  quantities:
+  - 50 Гц, 220 В в 400 Гц, 5000 В
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mandelstam-papaleksi
+  - ac-ac-converter
+  - priority-claim
+  notes: ''
+  relations: []
+- id: SC-BR04-006
+  type: physical
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Причина в том, что в генераторе их конструктива нельзя использовать режим 3 параметрической
+    неустойчивости с положительным инкрементом нарастания колебаний до пробойного состояния.
+  statement_en: The authors interpret the cited 92% efficiency of the Mandelstam-Papaleksi generator as
+    the ratio of output electric power to input (grid) power, arguing it could not exceed 100% because
+    the design could not use mode 3 parametric instability with positive growth increment up to breakdown.
+  quantities:
+  - КПД 92%
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - efficiency
+  - interpretation
+  notes: ''
+  relations: []
+- id: SC-BR04-007
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 10
+  quote_ru: 1. Амплитудное значение заряда на ёмкости Qm=28,3 мкКл
+  statement_en: 'The authors estimate the scale quantities of the Mandelstam-Papaleksi storage: amplitude
+    charge on the capacitance Qm = 28.3 microcoulomb, energy parameter W = Qm*U = 141 mJ (equal to the
+    motor torque moment), capacitor volume V = 9.76e-3 m3, stored energy density Wv = Qm*U/V = 14.5 J/m3,
+    and volume power density over the 2.5 ms oscillation period Pv = 5.8 kW/m3 (400 times Wv).'
+  quantities:
+  - Qm = 28,3 мкКл
+  - W = 141 мДж
+  - V = 9,76·10-3 м3
+  - Wv = 14,5 Дж/м3
+  - Pv = 5,8 кВт/м3
+  equations:
+  - W = Q_m U
+  - W_v = Q_m U / V
+  materials: []
+  geometry:
+  - capacitor volume 9.76e-3 m3
+  procedure_steps: []
+  measurements:
+  - quantity: volume power density
+    value: '5.8'
+    unit: кВт/м3
+    conditions: over 2.5 ms oscillation period, Mandelstam-Papaleksi scale estimates
+  schematic_refs: []
+  tags:
+  - energy-balance
+  - estimates
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-008
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 10
+  quote_ru: требуется объёмная плотность мощности 700 Вт/м3. Это измеренное экспериментальное значение.
+  statement_en: 'The authors report their own experimental value: mechanical spinning of the arrow (or
+    any capacitor) by the electromechanical method using an air discharge requires a volume power density
+    of 700 W/m3 (rounded up to 0.8 kW/m3); subtracting this from the Mandelstam-Papaleksi Pv = 5.8 kW/m3
+    leaves about 5 kW/m3 of excess power they claim the installation could deliver to a consumer continuously.'
+  quantities:
+  - 700 Вт/м3 (измерено)
+  - 0,8 кВт/м3 (с запасом)
+  - избыток ~5 кВт/м3
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: volume power density required for electromechanical spinning via air discharge
+    value: '700'
+    unit: Вт/м3
+    conditions: own verification experiments, section 5
+  schematic_refs: []
+  tags:
+  - energy-balance
+  - excess-power
+  - electrical-path
+  - over-unity
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-BR04-009
+  type: physics
+  facet: theory
+  priority: core
+  page: 13
+  quote_ru: Три года назад нами была найдена математическая модель, которая позволяет описать периодическое
+    нарастание заряда в последовательном колебательном контуре с гармонически изменяющимся реактивным
+    параметром, и выяснить физические причины этого красивейшего явления
+  statement_en: 'The authors state they found a mathematical model (ordinary linear second-order ODE with
+    variable coefficients, three dimensionless parameters: Q, frequency ratio, reduced modulation depth)
+    describing periodic charge growth in a series circuit with a harmonically varying reactive parameter;
+    the equation admits no order reduction (no conservation-law integrals), has only the trivial analytic
+    solution, and Runge-Kutta simulation shows three kinds of periodic solutions (damped at low Q, beats
+    at medium Q, unbounded growth at high Q at twice the modulation frequency).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - model
+  - instability
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-010
+  type: physics
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: Высокая добротность контура является достаточным условием для возникновения электрической
+    неустойчивости. Необходимым условием нарастания является отношение частот.
+  statement_en: The authors assert that high circuit Q is a sufficient condition for the electric instability
+    (also obtainable with fixed capacitance by varying the inductance harmonically at doubled frequency,
+    again only in a high-Q circuit), the necessary condition for growth is the frequency ratio, and the
+    growth increment depends essentially on the reduced modulation amplitude.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - instability
+  - conditions
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR04-011
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 14
+  quote_ru: Для этих значений амплитуда заряда в контуре увеличивается в 4,9 раза на восьми периодах колебаний.
+    При значении приведённой амплитуды 80% на том же количестве периодов, амплитуда зарядов в контуре
+    возрастает более чем в 10 000 раз
+  statement_en: 'The authors report numerical solutions for a high-Q circuit (Q=100, modulation at doubled
+    frequency): at 20% reduced modulation amplitude the charge amplitude grows 4.9-fold over eight oscillation
+    periods; at 80% modulation amplitude it grows more than 10,000-fold over the same number of periods;
+    the qualitative behavior is independent of initial conditions (two classes checked: zero initial charge
+    with unit derivative, maximal charge with zero derivative).'
+  quantities:
+  - Q=100
+  - 'модуляция 20%: рост в 4,9 раза за 8 периодов'
+  - 'модуляция 80%: рост более чем в 10 000 раз за 8 периодов'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: charge amplitude growth
+    value: 4.9x (20% modulation) / >10000x (80% modulation)
+    unit: раз
+    conditions: numerical Runge-Kutta solution, Q=100, n=2, 8 periods
+  schematic_refs:
+  - Рис. 6
+  tags:
+  - simulation
+  - instability
+  - increment
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-012
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 14
+  quote_ru: В реальных колебательных системах обнаруженное явление электрической неустойчивости колебательного
+    контура должно приводить к деградации элементов цепи. Чаще всего его обнаруживают по разрушению ёмкости.
+  statement_en: The authors assert that in real oscillating systems the circuit electric instability should
+    degrade circuit elements, most often detected by destruction of the capacitance, and that no such
+    destruction occurred in the Mandelstam-Papaleksi experiments because a spark gap parallel to the air
+    capacitor protected it from breakdown.
+  quantities: []
+  equations: []
+  materials:
+  - воздушный конденсатор
+  - разрядник
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - instability
+  - degradation
+  - phenomenology
+  notes: ''
+  relations: []
+- id: SC-BR04-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: Даже для комнатных температур шумовая разность потенциалов настолько велика, что неустойчивость
+    плазмы проводника может спровоцировать неустойчивость колебательного контура, во время изменения его
+    ёмкости внешним образом.
+  statement_en: The authors assert that even at room temperature the Johnson-Nyquist noise potential difference
+    is large enough that the conductor-plasma instability can provoke instability of an oscillating circuit
+    during external capacitance variation; the high-Q circuit selects the resonant frequency from the
+    thermal noise and swings it up to breakdown; with each pump half-period collective fields entrain
+    ever more free electrons until nearly all oscillate in phase, and the external energy input through
+    the varying capacitance compensates dissipation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - johnson-noise
+  - conductor-plasma
+  - instability
+  - electrical-path
+  - debt-candidate
+  notes: Mechanism claim linking thermal noise to parametric charge growth; suspect physics flagged debt-candidate.
+  relations: []
+- id: SC-BR04-014
+  type: physical
+  facet: process
+  priority: core
+  page: 18
+  quote_ru: Благодаря неустойчивости плазмы проводника избыточную энергию, выбрасываемую ею в контур,
+    всегда можно накопить. Для этого нужно во время подавить развитие неустойчивости. Это позволяет сделать
+    высоковольтный разряд ёмкости в воздух.
+  statement_en: The authors assert that the excess energy ejected by the conductor-plasma instability
+    into the circuit can always be accumulated by timely suppression of the instability development, which
+    is achieved by a high-voltage discharge of the capacitance into air; varying the distance between
+    the air-capacitor plates regulates the instability-cutoff voltage.
+  quantities: []
+  equations: []
+  materials:
+  - воздушный конденсатор
+  geometry:
+  - regulation by varying air-gap distance
+  procedure_steps:
+  - let the instability charge the capacitance
+  - discharge into air at a set breakdown voltage to suppress further growth
+  - regulate the cutoff voltage by plate spacing
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - storage
+  - process
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-015
+  type: physical
+  facet: schematic
+  priority: core
+  page: 19
+  quote_ru: в качестве электроёмкости используются неподвижные П-образные пластины конденсатора 3. Они
+    подключены к колебательному контуру. Внутри пластин П-образного конденсатора 3 вращается один или
+    несколько акриловых (виниловых) диска 1 с набором радиальных проводящих секторов 2
+  statement_en: 'The authors present the variable-capacitance design: fixed П-shaped capacitor plates
+    (item 3) connected to the oscillating circuit, with one or several acrylic (vinyl) disks (item 1)
+    carrying radial conducting sectors (item 2) of thin aluminum or copper foil rotating inside the plates;
+    disk rotation at constant angular velocity harmonically modulates the capacitance, driving charge
+    growth and instability, with instability cutoff at air breakdown between sectors and plates at closest
+    approach.'
+  quantities: []
+  equations: []
+  materials:
+  - П-образные пластины конденсатора
+  - акриловые (виниловые) диски
+  - радиальные проводящие секторы из тонкой алюминиевой либо медной фольги
+  geometry:
+  - П-shaped plates with rotating sector disk inside
+  procedure_steps:
+  - connect the П-shaped plates to the oscillating circuit
+  - rotate the sector disk at constant angular velocity
+  - cap charge growth by air breakdown at minimal plate-sector distance
+  measurements: []
+  schematic_refs:
+  - Рис. 7 (переменная ёмкость контура, items 1-3)
+  tags:
+  - schematic
+  - variable-capacitor
+  - geometry
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-016
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 35
+  quote_ru: дополнительную механическую энергию вращения конденсатора с радиальными проводящими секторами
+    поставляет пробой воздуха между проводящим сектором и П-образными электродами, подводящими высокое
+    напряжение.
+  statement_en: 'The authors state the conclusion of their 2017 experiments: the additional mechanical
+    rotational energy of a capacitor with radial conducting sectors is supplied by air breakdown between
+    the conducting sector and the П-shaped high-voltage electrodes; the breakdown briefly swaps the charges
+    on the sector so that it is attracted to the electrodes before breakdown and repelled after; without
+    air breakdown the arrow of the rotor always stops.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - experiment
+  - breakdown
+  - electromechanical
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-017
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 21
+  quote_ru: Третий случай – практически равномерное движение концов стрелки вертушки по окружности. Такой
+    случай устанавливается в системе при условии наличия пробоя воздушного промежутка между стрелкой и
+    высоковольтными электродами.
+  statement_en: 'The authors report three qualitatively distinct motion regimes of the high-voltage rotor
+    (Franklin-arrow wheel between axisymmetric pin electrodes): (1) angle-finite oscillations about the
+    equilibrium direction (the line through the HV electrodes) without air breakdown, normally damping
+    to rest; (2) infinite rotation that stops and converts to finite motion settling at equilibrium; (3)
+    practically uniform circular motion of the arrow ends, established only when air breakdown occurs
+    between the arrow and the HV electrodes; rotation speed depends on applied voltage, electrode shape,
+    friction and air-resistance torques.'
+  quantities: []
+  equations: []
+  materials:
+  - двухполюсная стрелка Франклина
+  - осесимметричные штырьковые электроды
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 8 (Высоковольтная вертушка из стрелки Франклина)
+  tags:
+  - experiment
+  - motion-regimes
+  - breakdown
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR04-018
+  type: physical
+  facet: schematic
+  priority: core
+  page: 22
+  quote_ru: Макет представляет собой «электрическую» стрелку на вертикальной оси, которая располагается
+    вдоль линий напряжённости внешнего электрического поля, подобно тому, как магнитная стрелка располагается
+    вдоль силовых линий внешнего магнитного поля.
+  statement_en: The mock-up is an electric arrow on a vertical axis aligned along the field lines of an
+    external electric field, placed between two small-diameter cylindrical electrodes with a large potential
+    difference; free-electron redistribution induces opposite-sign charges at the arrow ends forming what
+    the authors call a dipole macroscopic plasmoid; at minimal arrow-end-to-electrode distance air breakdown
+    flips the induced charge signs, so the arrow is attracted before breakdown and repelled after, sustaining
+    rotation.
+  quantities: []
+  equations: []
+  materials:
+  - электрическая стрелка
+  - два цилиндрических электрода малого диаметра
+  geometry:
+  - vertical rotation axis
+  - cylindrical electrodes of small diameter
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 9, Рис. 10
+  tags:
+  - schematic
+  - mockup
+  - dipole
+  - plasmoid
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR04-019
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 24
+  quote_ru: он совпадает с периодом малых колебаний диполя и имеет вид
+  statement_en: The authors derive from the dipole-rotator solution that the circulation period of a uniformly
+    rotating electric arrow coincides with the small-oscillation period of a dipole, T0 = 2*pi*sqrt(J/(pE))
+    (J moment of inertia about the rotation axis, p = ql dipole moment, E field strength), so the period
+    decreases with growing field strength; they report this dependence was checked qualitatively and its
+    fulfillment experimentally detected.
+  quantities: []
+  equations:
+  - T_0 = 2\pi\sqrt{J/(pE)}
+  - p = ql
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: field dependence of rotation period
+    value: qualitative verification
+    unit: ''
+    conditions: E-dependence checked qualitatively; fulfillment experimentally detected
+  schematic_refs:
+  - Рис. 10
+  tags:
+  - dipole
+  - rotation-period
+  - derivation
+  - experiment
+  notes: Formula mangled by pdftotext; best-effort reconstruction, OCR-degraded.
+  relations: []
+- id: SC-BR04-020
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 26
+  quote_ru: Различные бактерии имеют от 13 до 17 радиальных секторов.
+  statement_en: 'The authors assert that bacterial flagellar motors (Nature, January 2018) realize the
+    same electromechanical principle: inside an axisymmetric bacterium body of order 100 nm diameter are
+    several layers of conducting membranes each containing radial conducting sectors in a propeller arrangement,
+    with different bacteria having 13 to 17 radial sectors; the reported torque range is 1300-2000 pN*nm,
+    from which they estimate about 20 separated charges per membrane at a breakdown field strength in
+    liquid of 5 mV/nm, i.e. one to two electrons per conducting sector.'
+  quantities:
+  - диаметр ~100 нм
+  - 13–17 радиальных секторов
+  - момент 1300–2000 пН·нм
+  - пробойная напряжённость 5 мВ/нм
+  - ~20 электронов на мембрану
+  - 1–2 электрона на сектор
+  equations: []
+  materials: []
+  geometry:
+  - bacterium body ~100 nm diameter
+  - radial sectors in membrane layers
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 11 (моторы жгутиковых бактерий)
+  tags:
+  - flagellar-motor
+  - biophysics
+  - analogy
+  - debt-candidate
+  notes: Electron-count estimate from breakdown-field assumption is suspect; flagged debt-candidate.
+  relations: []
+- id: SC-BR04-021
+  type: physical
+  facet: process
+  priority: core
+  page: 27
+  quote_ru: В момент разряда за один проход проводящего сектора мимо П- образного конденсатора происходит
+    перекачка накопленной энергии плазменной неустойчивости в энергию тока смещения Максвелла, в свою
+    очередь, закачивающего энергию в индуктивность контура.
+  statement_en: 'The authors describe the closed energy chain (ЗЭЦ) operation: an initial mechanical impulse
+    to the sector disk separates charges and creates dipole plasmoids in the sectors; the fluctuating
+    sector potential provokes circuit instability producing high voltage on the П-shaped capacitor plates;
+    at each sector discharge the accumulated plasma-instability energy is transferred into Maxwell displacement
+    current energy which pumps the circuit inductance; attraction before discharge and same-sign repulsion
+    after discharge preserves the mechanical torque direction, and each of the disk sectors supplies excess
+    energy once per revolution, enough to cover dissipative, resistive and load losses, after which the
+    system rotates steadily without external power.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - spin the sector disk slightly to initiate charge separation
+  - instability builds high voltage on the П-shaped plates
+  - sector discharge transfers instability energy into displacement current and circuit inductance
+  - attraction/repulsion across each discharge sustains rotation
+  measurements: []
+  schematic_refs:
+  - Рис. 7
+  tags:
+  - closed-chain
+  - process
+  - displacement-current
+  - electrical-path
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-BR04-022
+  type: physical
+  facet: measurement
+  priority: core
+  page: 28
+  quote_ru: Порядок пробивной напряжённости электрического поля воздуха при комнатной температуре и нормальных
+    условиях следует из закона Пашена 25 кВ/cм=2,5 кВ/мм=2,5 В/мкм.
+  statement_en: The authors state the breakdown field strength of air at room temperature and normal conditions
+    from the Paschen law as 25 kV/cm = 2.5 kV/mm = 2.5 V/micrometer; with disk-to-plate gaps of 2 to 5
+    mm per edge, 10 to 25 kV must be applied to the П-shaped electrodes to sustain disk rotation; the
+    characteristic rotation period of such disks with horizontal axis is close to 1 to 2 seconds.
+  quantities:
+  - 25 кВ/см = 2,5 кВ/мм = 2,5 В/мкм
+  - зазоры 2–5 мм
+  - 10–25 кВ
+  - период вращения 1–2 с
+  equations: []
+  materials: []
+  geometry:
+  - disk-to-plate gap 2-5 mm per edge
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - breakdown
+  - paschen
+  - voltage
+  - geometry
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR04-023
+  type: physical
+  facet: recipe
+  priority: core
+  page: 28
+  quote_ru: Уменьшение диаметра самого диска до размеров в 10 миллиметров с суммарным зазором в 1 мкм
+    уменьшит потери на трение и увеличит его угловую скорость вращения.
+  statement_en: The authors propose a mini-disk rotor of 10 mm diameter with total gap of 1 micrometer
+    to reduce friction losses and increase angular velocity; the mini-disk-rotor would spin from two 1.5
+    V batteries or generate the same voltage, implementable only in MEMS technologies.
+  quantities:
+  - диаметр 10 мм
+  - суммарный зазор 1 мкм
+  - две батарейки по 1,5 В
+  equations: []
+  materials:
+  - мини-диск-ротор
+  geometry:
+  - disk diameter 10 mm
+  - total gap 1 micrometer
+  procedure_steps:
+  - fabricate mini disk rotor in MEMS technology
+  - drive or harvest at 3 V (two 1.5 V batteries)
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - mini-rotor
+  - MEMS
+  - geometry
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR04-024
+  type: physical
+  facet: theory
+  priority: core
+  page: 29
+  quote_ru: В настоящее время известно несколько самовращающихся двигателей и источников переменного напряжения,
+    которые не требуют подведения к ним внешней электрической энергии.
+  statement_en: The authors list known self-rotating motors and AC sources requiring no external electric
+    energy — the Howard R. Johnson magnetic motor, the A.V. Slobodyan generator converting energy stored
+    in neodymium magnets into alternating current (a 10 kW generator), and P. Baumann's Swiss "Testatika"
+    built 40 years ago — and assert these devices work on the described physical principles with the inductance
+    of rotating coils as the harmonically modulated reactive parameter supplying the excess energy; the
+    key technical characteristics (Johnson torque and load, Slobodyan continuous-runtime and magnet-replacement
+    interval) are unknown to the authors.
+  quantities:
+  - 10-киловаттный генератор Слободяна
+  equations: []
+  materials:
+  - неодимовые магниты
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - johnson
+  - slobodyan
+  - testatika
+  - free-energy-devices
+  - electrical-path
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-BR04-025
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 30
+  quote_ru: Проведённые нами эксперименты показывают, что для постоянного вращения одиночной алюминиевой
+    электрической стрелки длиной 100 мм, толщиной 3,5 мм, требуется подвод высоковольтной мощности порядка
+    2,5 мВт.
+  statement_en: 'The authors report their experiments: constant rotation of a single aluminum electric
+    arrow of length 100 mm and thickness 3.5 mm requires high-voltage power supply of order 2.5 mW; the
+    arrow rotates at 2 Hz, indicating a mean volume power density consumed by the physical effect of order
+    0.7 kW/m3.'
+  quantities:
+  - стрелка 100 мм x 3,5 мм
+  - мощность ~2,5 мВт
+  - частота 2 Гц
+  - плотность мощности ~0,7 кВт/м3
+  equations: []
+  materials:
+  - алюминиевая электрическая стрелка
+  geometry:
+  - arrow length 100 mm, thickness 3.5 mm
+  procedure_steps: []
+  measurements:
+  - quantity: HV power for constant rotation
+    value: '2.5'
+    unit: мВт
+    conditions: single aluminum arrow, 100 mm x 3.5 mm, rotating at 2 Hz
+  - quantity: volume power density
+    value: '0.7'
+    unit: кВт/м3
+    conditions: derived from the arrow experiment
+  schematic_refs: []
+  tags:
+  - experiment
+  - arrow
+  - power
+  - electrical-path
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-BR04-026
+  type: physical
+  facet: theory
+  priority: core
+  page: 30
+  quote_ru: Накопитель начинает вырабатывать электрическую энергию в момент, когда его запускают в движение,
+    и прекращает её вырабатывать тогда, когда движение останавливают.
+  statement_en: The authors assert the plasma-instability energy storage is a small electromechanical
+    device working at room temperatures (unlike controlled fusion), requires no fuel, and produces electric
+    energy exactly while it is kept in motion; they estimate from the Mandelstam-Papaleksi experiments
+    that a 1 m3 installation could continuously produce about 5.8 kW per hour with losses of 0.8 kW per
+    hour.
+  quantities:
+  - объём 1 м3
+  - 5,8 квт в час
+  - потери 0,8 квт в час
+  equations: []
+  materials: []
+  geometry:
+  - 1 m3 installation volume
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - storage
+  - room-temperature
+  - no-fuel
+  - energy-balance
+  - electrical-path
+  - over-unity
+  - debt-candidate
+  notes: kW-per-hour phrasing preserved from source; the balance claim is suspect and flagged debt-candidate.
+  relations: []
+- id: SC-BR04-027
+  type: physical
+  facet: process
+  priority: core
+  page: 31
+  quote_ru: Появляющиеся на выступах зарядовые кластеры и плазмоиды позволяют увеличить скорость катализа
+    в десятки раз.
+  statement_en: The authors assert that charge clusters and plasmoids appearing on sharp protrusions of
+    metallized grids operated at high voltages (wastewater treatment facilities) allow increasing the
+    catalysis rate by tens of times.
+  quantities:
+  - увеличение скорости катализа в десятки раз
+  equations: []
+  materials:
+  - металлизированные сетки с острийными выступами
+  geometry:
+  - sharp protrusions (tips) on metallized grids
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - catalysis
+  - charge-clusters
+  - plasmoids
+  - high-voltage
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR04-028
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 31
+  quote_ru: Повышение коэффициента полезного действия таких нагревателей потребует перехода на нагрев
+    воды вихревыми токами, которые понижают температуру её кипения при атмосферном давлении до 700С.
+  statement_en: The authors assert that heating water by eddy (vortex) currents lowers its boiling temperature
+    at atmospheric pressure to 70 degrees Celsius, which would raise the efficiency of electric fresh-water
+    evaporation heaters.
+  quantities:
+  - температура кипения 70 °C
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - eddy-currents
+  - boiling-point
+  - fresh-water
+  - debt-candidate
+  notes: Boiling-point depression claim is suspect; flagged debt-candidate. "700С" = 70 °C with degree
+    sign lost.
+  relations: []
+- id: SC-BR04-029
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 44
+  quote_ru: Из табл. 1 видно, что для реализации технологии создания высокодобротных контуров с электрической
+    неустойчивостью на промышленной частоте 50 Гц в заданном диапазоне изменения омических сопротивлений
+    требуются достаточно большие индуктивности от 1,6 Гн до 32 Гн и достаточно большие высоковольтные
+    ёмкости, изменяющиеся в диапазоне от 0,32 мкФ до 6,4 мкФ.
+  statement_en: 'The authors tabulate (Таблица 1) required inductances and unperturbed capacitances of
+    an instability-generating circuit at 50 Hz mains frequency with Q=100 and resistance from 5 to 100
+    Ohm: L = QR/(2*pi*nu) spans 1.6 H to 32 H and C0 = (2*pi*nu*Q*R)^-1 spans 6.366 uF down to 0.318 uF.'
+  quantities:
+  - L = 1,6–32 Гн
+  - C0 = 6,4–0,32 мкФ
+  - R = 5–100 Ом
+  - ν = 50 Гц
+  - Q = 100
+  equations:
+  - L = QR/(2\pi\nu)
+  - C_0 = (2\pi\nu Q R)^{-1}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - circuit-design
+  - calculated-table
+  - instability
+  notes: ''
+  relations: []
+- id: SC-BR04-030
+  type: physics
+  facet: theory
+  priority: core
+  page: 44
+  quote_ru: 'В системах с гармонической накачкой ёмкостью (или индуктивностью) существуют три вида периодических
+    колебаний заряда: затухающие, биения и колебания с положительным инкрементом нарастания.'
+  statement_en: The authors conclude (appendix) that systems with harmonic capacitance (or inductance)
+    pumping exhibit three kinds of periodic charge oscillations — damped, beats, and positive-increment
+    growing — realized in low-, medium-, and high-Q systems respectively; the base circuit parameters
+    (Q, reduced modulation amplitude, pump-to-resonance frequency ratio) allow computing instability growth
+    increments for any technical installation built per the given schematic, enabling their certification
+    by the increment of mechano-electric energy conversion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conclusion
+  - instability
+  - certification
+  - electrical-path
+  notes: Appendix 1 duplicates the full text of AR06 (Токовая неустойчивость колебательного контура).
+  relations: []
+- id: SC-BR04-031
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 46
+  quote_ru: В настоящее время ею построены несколько различных установок на мощность 100 Вт, 300 Вт, 3
+    кВт и 10 кВт, которые используются общиной для своего производства.
+  statement_en: The authors report that the Testatika community in Linden (Switzerland) operates several
+    installations rated 100 W, 300 W, 3 kW and 10 kW for its own production, pays nothing to the electric
+    companies, and refuses to sell the devices; first descriptions appeared in Stefan Marinov's 1989 Austrian
+    book, and despite detailed color drawings published by the Russian Faradey-Lab for the last 15 years
+    no one has yet replicated the installation.
+  quantities:
+  - 100 Вт
+  - 300 Вт
+  - 3 кВт
+  - 10 кВт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - baumann
+  - marinov
+  - free-energy-devices
+  - debt-candidate
+  notes: Second-hand report of Testatika installations; flagged debt-candidate.
+  relations: []
+- id: SC-BR04-032
+  type: physics
+  facet: theory
+  priority: core
+  page: 49
+  quote_ru: 'Исследование статических решений модели указывает на возможность существования трёх видов
+    плазмоидов в двухкомпонентной плазме: электронейтрального, заряженного положительно (электронный кластер
+    в дырочной плазме), либо заряженного отрицательно (электронный кластер в электронной плазме), что
+    совпадает с наблюдениями.'
+  statement_en: 'The authors assert that study of static solutions of the model (Pustovoit-type equations)
+    indicates three kinds of plasmoids can exist in a two-component plasma: electrically neutral, positively
+    charged (electron cluster in hole plasma), or negatively charged (electron cluster in electron plasma),
+    matching observations; non-static solutions give the temporal formation sequence: a neutral plasma
+    region arises, instability rapidly develops, and a single positive or negative plasmoid forms whose
+    charges are held by a self-consistent field until its energy is radiated away.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoids
+  - two-component-plasma
+  - electron-cluster
+  - theory
+  notes: ''
+  relations: []
+- id: SC-BR04-033
+  type: physics
+  facet: theory
+  priority: core
+  page: 50
+  quote_ru: Мы утверждаем, что на каждый элемент объёма протяжённого одноимённо заряженного тела, находящееся
+    во внешнем неоднородном электрическом
+  statement_en: 'The authors assert that on every volume element of an extended like-charged body in an
+    external non-uniform electric field act two volume forces: the electric force f1 = rho*E (summed over
+    all plasmoid charges) and a force proportional to the field pressure gradient f2 = E*div(E)/4*pi acting
+    on the local mass-density distribution of the plasmoid charges; this "bi-force" interaction of extended
+    charged bodies is asymmetric — like and unlike charged bodies follow different force-distance laws
+    because the electric and gradient forces act in different directions — explaining attraction of the
+    arrow end to the plate before discharge and repulsion after the discharge flips the signs.'
+  quantities: []
+  equations:
+  - f_1 = \rho E
+  - f_2 = E\,\mathrm{div}E / 4\pi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-force
+  - force-asymmetry
+  - theory
+  - debt-candidate
+  notes: Quote truncated before pdftotext-mangled formula; force laws from page 50. Nonstandard force
+    claim flagged debt-candidate.
+  relations: []
+- id: SC-BR04-034
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 50
+  quote_ru: Микроразряды приводят к появлению сухого потрескивания и образованию озона, что и наблюдается
+    в Тестатике.
+  statement_en: The authors assert that the micro-discharges of the arrow on the П-shaped capacitor plates
+    produce dry crackling sounds and ozone formation, which is exactly what is observed in the Testatika
+    machine.
+  quantities: []
+  equations: []
+  materials:
+  - озон
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - microdischarge
+  - ozone
+  - testatika
+  - phenomenology
+  notes: ''
+  relations: []
+- id: SC-BR04-035
+  type: physics
+  facet: theory
+  priority: core
+  page: 51
+  quote_ru: Причина этого в том, что такая энергетика использует физические свойства электрического поля,
+    которое оказывается первичным по отношению к полю магнитному.
+  statement_en: The authors assert that the plasma-instability excess-energy direction is a powerful alternative
+    to electricity production via Faraday electromagnetic induction because it uses properties of the
+    electric field, which they claim is primary relative to the magnetic field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - e-field-primary
+  - faraday-alternative
+  - theory
+  - debt-candidate
+  notes: Field-primacy claim is suspect; flagged debt-candidate.
+  relations: []
+- id: SC-BR04-036
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 48
+  quote_ru: 'Но эксперимент указывает на нечто неожиданное: механическое вращение в рассмотренной системе
+    может быть преобразовано в электрическую энергию, которая затем накапливается до пробоя конденсатора.'
+  statement_en: The authors contrast the electrostatic circulation theorem (a point charge moving in a
+    closed loop in a static non-uniform field does no work over a full revolution) with the experimental
+    claim that mechanical rotation in a circuit with periodically varying capacitance under constant voltage
+    is converted into electric energy that accumulates up to capacitor breakdown; Mandelstam and Papaleksi,
+    lacking an explanation, buried the effect in the term "parametric resonance".
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - circulation-theorem
+  - paradox
+  - experiment-vs-theory
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

@@ -1,0 +1,1425 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR07
+  section: articles
+  title_ru: Токовихревая планарная интегральная индуктивность цилиндрической проводящей плёнки (обзор)
+  title_en: Eddy-current planar integral inductance of a cylindrical conducting film (review)
+  file: papers/articles/tokovikhrevaya-planarnaya-integralnaya-induktivnost-tsilindricheskoy-provodyashc.pdf
+  source_url: http://146.190.233.254/docs/articles/Токовихревая планарная интегральная индуктивность цилиндрической
+    проводящей плёнки (обзор).pdf
+  md5: f36469c4b3e02b77938621a1fd36786c
+  pages_total: 22
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR07-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Предложен метод расчёта индуктивности сплошного немагнитного проводящего цилиндра произвольных геометрических
+    размеров с азимутальной плотностью вихревого тока при наличии омических потерь и магнитных свойств токов Фуко.
+  statement_en: A method is proposed for calculating the inductance of a solid nonmagnetic conducting cylinder of
+    arbitrary geometric dimensions with azimuthal eddy-current density in the presence of ohmic losses and magnetic
+    properties of Foucault (eddy) currents; radial distributions of the azimuthal component of the eddy electric
+    field strength, Foucault current densities, and specific thermal power released in a local region of the cylinder
+    are obtained.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - eddy-currents
+  - inductance
+  - cylinder
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Получены радиальные распределения азимутальной компоненты вектора напряженности вихревого электрического
+    поля, плотности токов Фуко, удельной тепловой мощности, выделяемой в локальной области проводящего цилиндра.
+    Из энергетических соображений получена формула для динамической частотно-зависимой индуктивности сплошного цилиндра.
+    Из неё следует, что динамическая индуктивность обращается в нуль для двух характеристических частот системы
+    и имеет положительные и отрицательные значения. Предложен метод расчёта частотно-независимой токовихревой индуктивности
+    тонкой проводящей цилиндрической плёнки.
+  statement_en: From energy considerations a formula is obtained for the dynamic frequency-dependent inductance
+    of a solid cylinder; the dynamic inductance vanishes at two characteristic frequencies of the system and takes
+    positive and negative values; a method is proposed for calculating the frequency-independent eddy-current inductance
+    of a thin conducting cylindrical film.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dynamic-inductance
+  - negative-inductance
+  - thin-film
+  - debt-candidate
+  - electrical-path
+  notes: Negative inductance is the hallmark nonstandard claim of this line of work — flagged for debt clustering.
+  relations: []
+- id: SC-AR07-003
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Исследуется наноразмерный эффект, возникающий в планарной индуктивности с перспективной технологией
+    «проводящая плёнка внутри токового кольца».
+  statement_en: A nanoscale effect arising in a planar inductance with the perspective 'conducting film inside current
+    ring' technology (CFICR technology) is studied.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nanoscale-effect
+  - CFICR
+  - planar-inductance
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-004
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 2
+  quote_ru: Они имели растущие частотные зависимости добротности, которые достигали максимума на частоте около 2-х
+    гигагерц и затем спадали к нулю на частотах около 7-8 Ггц. Как известно, нуль добротности индуктивности соответствует
+    нулю индуктивности.
+  statement_en: 'In May 1999 Yue and Wong proposed a new technological solution for planar inductors, studying three
+    variants of planar placement of a spiral inductor, silicon substrate, and screen (solid or patterned): NGS (no
+    ground shield), SGS (solid ground shield), PGS (patterned ground shield); the NGS and PGS structures exhibited
+    growing quality-factor frequency dependences reaching a maximum near 2 GHz and then falling to zero near 7-8
+    GHz; zero Q of an inductance corresponds to zero inductance; no quantitative explanations of the properties
+    of the new class of inductances were offered.'
+  quantities:
+  - Q maximum near 2 GHz
+  - Q zero near 7-8 GHz
+  equations: []
+  materials:
+  - silicon substrate
+  - patterned/solid metal screen
+  geometry:
+  - planar spiral inductor
+  procedure_steps: []
+  measurements:
+  - quantity: Q maximum frequency
+    value: '2'
+    unit: GHz
+    conditions: NGS and PGS inductor structures
+  - quantity: Q zero frequency
+    value: 7-8
+    unit: GHz
+    conditions: NGS and PGS inductor structures
+  schematic_refs: []
+  tags:
+  - planar-inductors
+  - NGS
+  - PGS
+  - quality-factor
+  notes: Review of Yue & Wong 1999 results.
+  relations: []
+- id: SC-AR07-005
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 2
+  quote_ru: Эксперименты не только подтвердили ход частотных зависимостей добротности, найденные в [1], но и обнаружили
+    тот факт, что на гигагерцах индуктивность RPGS - индуктора (Radial Patterned Ground Shield) может обратиться
+    в нуль, а на более высоких частотах даже стать отрицательной.
+  statement_en: 'A planar inductance with cylindrical geometry was created in [2]: a cylindrical spiral loaded on
+    a layered cylindrical structure of modified silicon layers on a conducting copper substrate with a radially-patterned
+    screen; the experiments confirmed the Q frequency dependences found in [1] and also discovered that at gigahertz
+    frequencies the inductance of the RPGS inductor (Radial Patterned Ground Shield) can vanish and at higher frequencies
+    even become negative.'
+  quantities: []
+  equations: []
+  materials:
+  - modified silicon layers
+  - conducting copper substrate
+  geometry:
+  - cylindrical spiral on layered cylindrical structure
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - RPGS
+  - negative-inductance
+  - experiment
+  - electrical-path
+  - debt-candidate
+  notes: Reported experimental negative inductance — central disputed fact of this literature.
+  relations: []
+- id: SC-AR07-006
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 2
+  quote_ru: Но термин «отрицательная индуктивность» оказался для технологов, работающих на СВЧ, таким фантастическим
+    и непонятным, что измерения в [2] многими были поставлены под сомнение.
+  statement_en: The term 'negative inductance' turned out to be so fantastic and incomprehensible for microwave
+    technologists that the measurements in [2] were called into doubt by many; probably for this reason the 2011
+    New York monograph [3] did not even mention it.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - negative-inductance
+  - controversy
+  notes: ''
+  relations: []
+- id: SC-AR07-007
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 3
+  quote_ru: Проведённые с различным количеством двойных слоёв (один двойной слой из Al и Cu имел толщину 200 нм)
+    эксперименты показали, при количестве слоёв, начиная с шести, частотная зависимость индуктивности содержит участки,
+    на которых индуктивность принимает отрицательные значения.
+  statement_en: 'In 2009 researchers from Ohio again encountered the fact that a multilayer integral inductance
+    can become negative: experiments with different numbers of double layers (one double layer of Al and Cu had
+    a thickness of 200 nm) showed that, starting from six layers, the frequency dependence of the inductance contains
+    segments on which the inductance takes negative values.'
+  quantities:
+  - double layer (Al+Cu) thickness 200 nm
+  - negative-L segments from 6 layers up
+  equations: []
+  materials:
+  - Al
+  - Cu
+  geometry:
+  - double layers 200 nm thick
+  procedure_steps: []
+  measurements:
+  - quantity: threshold layer count for negative inductance segments
+    value: '6'
+    unit: double layers
+    conditions: Al/Cu double layers, 200 nm each
+  schematic_refs: []
+  tags:
+  - multilayer-film
+  - negative-inductance
+  - Al
+  - Cu
+  - experiment
+  - electrical-path
+  notes: Review of Widjaja & Sarangan (US patent application 20090261936) results.
+  relations: []
+- id: SC-AR07-008
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 2
+  quote_ru: Эксперименты не только подтвердили ход частотных зависимостей добротности, найденные в [1], но и обнаружили
+    тот факт, что на гигагерцах индуктивность RPGS - индуктора (Radial Patterned Ground Shield) может обратиться
+    в нуль, а на более высоких частотах даже стать отрицательной.
+  statement_en: The experiments in [4] also discovered that the inductance of a system consisting of two double
+    layers can be positive and practically frequency-independent; no physical models explaining the results were
+    proposed in that work.
+  quantities: []
+  equations: []
+  materials:
+  - Al
+  - Cu
+  geometry:
+  - two double layers
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frequency-independent-inductance
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-009
+  type: physical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Ток индуктора создавал своё переменное магнитное поле и магнитное поле отклика, формируемое токами Фуко,
+    в проводящей плёнке. Взаимодействие тока индуктора с суммарным магнитным полем и приводило к появлению таких
+    частотных характеристик, что его индуктивность на определённых частотах была положительной, а на других – отрицательной.
+  statement_en: 'All the listed inductors are arranged approximately identically: the inductor''s magnetic field
+    lines were loaded on a conducting or semiconducting film adjacent to the spiral inductor; the inductor current
+    created its own alternating magnetic field and a response magnetic field formed by Foucault currents in the
+    conducting film; the interaction of the inductor current with the total magnetic field led to frequency characteristics
+    in which the inductance is positive at certain frequencies and negative at others.'
+  quantities: []
+  equations: []
+  materials:
+  - conducting or semiconducting film
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - response-field
+  - foucault-currents
+  - mechanism
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Предлагаемый ниже подход позволяет объяснить не только существование частотно-зависимой токовихревой
+    индуктивности, которая на определённых частотах может быть отрицательной, но и указать на возможность существования
+    частотно-независимой положительной индуктивности.
+  statement_en: The approach proposed below allows explaining not only the existence of a frequency-dependent eddy-current
+    inductance which can be negative at certain frequencies, but also indicating the possibility of the existence
+    of a frequency-independent positive inductance.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - eddy-current-inductance
+  notes: ''
+  relations: []
+- id: SC-AR07-011
+  type: physics
+  facet: geometry
+  priority: normal
+  page: 4
+  quote_ru: цилиндр, как геометрическое тело, переходит в плёнку при условии h<R, а в тонкую цилиндрическую плёнку
+    при условии h<<R.
+  statement_en: A solid nonmagnetic conducting cylinder is placed in an external uniform alternating magnetic field
+    directed along the z axis with Bz = B0·cos(ωt) (1), B0 = const independent of cylindrical coordinates, bounded
+    radially by the cylinder outer radius R and axially by arbitrary cylinder height h; as a geometric body the
+    cylinder becomes a film under the condition h < R and a thin cylindrical film under h << R.
+  quantities: []
+  equations:
+  - B_z = B_0\cos(\omega t)
+  materials: []
+  geometry:
+  - cylinder radius R, height h; film at h<R; thin film at h<<R
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - geometry
+  - film-condition
+  notes: ''
+  relations: []
+- id: SC-AR07-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Впервые экспериментальное доказательство существования такой возможной ориентации вихревого электрического
+    поля было обнаружено при создании бетатронов – индукционных ускорителей электронов.
+  statement_en: With this orientation the alternating magnetic field can generate in the cylinder a vortex electric
+    field E = (0, Eφ, 0) with a single azimuthal component; the first experimental proof of the existence of such
+    an orientation of a vortex electric field was found in the creation of betatrons — induction electron accelerators,
+    in which electron acceleration is performed precisely by a vortex electric field whose field lines are concentric
+    circles formed by a specially shaped electromagnet; the second possible orientation with two components E =
+    (Er, Eφ, 0) is not realized.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - vortex-electric-field
+  - betatron
+  notes: ''
+  relations: []
+- id: SC-AR07-013
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Из (8) видно, что плотность тока Фуко в однородной проводящей среде =const также является линейной
+    функцией радиуса и также зависит от времени, как и Eφ j  j0 (r ) sin t , (9) где j0(r) связано с масштабом
+  statement_en: The field components are related by the first Maxwell equation in projections (rot E)z = −∂Bz/∂t
+    (2); assuming the vortex electric field phase coincides with the rate of change of the magnetic field, Eφ =
+    E₀(r)·sin(ωt) (3), gives (1/r)∂(rE₀)/∂r = ωB₀ (4) with solution E₀(r) = ωB₀r/2 + C₁/r (5); removing the singularity
+    at r → 0 by C₁ = 0 makes the azimuthal component a linear function of radius with scale E* = ωB₀R/2 = πfB₀R
+    (6), so E₀(r) = E*·r/R for 0 ≤ r ≤ R (7).
+  quantities:
+  - E* = pi f B0 R
+  equations:
+  - (\mathrm{rot}\,\mathbf{E})_z = -\partial B_z/\partial t
+  - E_\varphi = E_0(r)\sin(\omega t)
+  - \frac{1}{r}\frac{\partial}{\partial r}(rE_0) = \omega B_0
+  - E_0(r) = \omega B_0 r/2 + C_1/r
+  - E^* = \pi f B_0 R
+  - E_0(r) = E^* r/R
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - maxwell-equation
+  - linear-profile
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR07-014
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: 'Из соотношения (10) видно, что при прочих равных условиях масштаб тока может достигать больших значений
+    на высоких частотах для проводящей среды с малым значением удельного сопротивления . Удельная тепловая мощность,
+    выделяемая в локальной области проводника при протекании токов Фуко, рассчитывается из закона Джоуля Ленца:
+    r2 pv  j2  p* sin 2 t , (12) R2 где p*  j*2   2 f 2 B02 R 2 /  (13)  масштаб объемной плотности тепловой
+    мощности. Как видно из (13), удельная мощность уже пропорциональна квадрату частоты и для проводящей среды с
+    произвольным значением удельного сопротивления'
+  statement_en: The electric field in the conducting cylinder creates Foucault eddy currents whose density j = (0,
+    jφ, 0) is calculated from the differential Ohm's law jφ = Eφ/ρ (8), ρ being the resistivity; in a homogeneous
+    medium the Foucault current density is also a linear function of radius, jφ = j₀(r)·sin(ωt) (9) with j₀(r) =
+    j*·r/R (11) and current-density scale j* = πfB₀R/ρ (10); under equal conditions the current scale can reach
+    large values at high frequencies for media with low resistivity.
+  quantities:
+  - j* = pi f B0 R / rho
+  equations:
+  - j_\varphi = E_\varphi/\rho
+  - j^* = \pi f B_0 R/\rho
+  - j_0(r) = j^* r/R
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - foucault-current-density
+  - ohm-law
+  notes: ''
+  relations: []
+- id: SC-AR07-015
+  type: physical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Как видно из (13), удельная мощность уже пропорциональна квадрату частоты и для проводящей среды с произвольным
+    значением удельного сопротивления оказывается наиболее значительным на внешней границе цилиндра. Это может приводить
+    к перегреву его внешней боковой поверхности на высокой частоте.
+  statement_en: 'The specific thermal power released in a local region of the conductor by Foucault currents is
+    calculated from the Joule-Lenz law: pv = ρjφ² = p*·(r²/R²)·sin²ωt (12) with the volume heat-power density scale
+    p* = ρj*² = π²f²B₀²R²/ρ (13); the specific power is proportional to the square of the frequency and is most
+    significant at the outer boundary of the cylinder, which can lead to overheating of its outer lateral surface
+    at high frequency.'
+  quantities:
+  - p* = pi^2 f^2 B0^2 R^2 / rho
+  equations:
+  - p_v = \rho j_\varphi^2 = p^*\frac{r^2}{R^2}\sin^2\omega t
+  - p^* = \pi^2 f^2 B_0^2 R^2/\rho
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - joule-lenz
+  - thermal-power
+  - overheating
+  notes: ''
+  relations: []
+- id: SC-AR07-016
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Вихревой ток, индуцированный во всём цилиндре, может быть получен из интегрирования плотности тока
+  statement_en: 'The thermal power released in the whole cylinder is P = ∫pv dv = P*·sin²ωt (14) with P* = p*πR²h/2
+    = π³f²B₀²R⁴h/(2ρ) (15); the eddy current induced in the whole cylinder is obtained by integrating the current
+    density: i = ∫j ds = i*·sin ωt (16) with the induction-current scale i* = j*hR/2 = πfB₀hR²/(2ρ) (17).'
+  quantities:
+  - P* = pi^3 f^2 B0^2 R^4 h/(2 rho)
+  - i* = pi f B0 h R^2/(2 rho)
+  equations:
+  - P = P^*\sin^2\omega t
+  - i = i^*\sin\omega t
+  - i^* = \pi f B_0 h R^2/(2\rho)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - total-power
+  - induced-current
+  notes: ''
+  relations: []
+- id: SC-AR07-017
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Интегрируя (18) для начального условия B1z (0)  0 , получим
+  statement_en: The eddy Foucault-current density creates the cylinder's own response magnetic field B1 with projections
+    B1r and B1z, the direction of B1z opposite to the external field B0 at all points; assuming B1r independent
+    of z, the response-field distribution follows from the second Maxwell equation in projections (rot B1)φ = −∂B1z/∂r
+    = μ₀jφ (18); integrating with B1z(0) = 0 gives B1z = −B1*(r/R)²·sin ωt (19) with B1* = μ₀j*R/2 (20); B1* is
+    related to the external induction by the dimensionless parameter B1* = βB0 (21), β = μ₀πR²f/2ρ = f/f* (22),
+    where f* = 2ρ/(μ₀πR²) (23) is the frequency scale of the system.
+  quantities:
+  - B1* = mu0 j* R/2
+  - beta = f/f*
+  - f* = 2 rho/(mu0 pi R^2)
+  equations:
+  - (\mathrm{rot}\,\mathbf{B}_1)_\varphi = -\partial B_{1z}/\partial r = \mu_0 j_\varphi
+  - B_{1z} = -B^*(r/R)^2\sin\omega t
+  - B^* = \beta B_0
+  - \beta = \mu_0\pi R^2 f/2\rho
+  - f^* = 2\rho/(\mu_0\pi R^2)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - response-field
+  - frequency-scale
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR07-018
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Интегрирование за период скалярного произведения 2 B0 B1 обращается в нуль из-за наличия фазового сдвига
+     / 2 между индукциями B1 и B0.
+  statement_en: 'The magnetic energy entering the cylinder averaged over the period T is <W> = (1/T)∫∫(B²/2μ₀)dVdt
+    (24) with the resulting induction B = B0 + B1 (25); <W> consists of the mean external-field energy <W0> = B0²πR²h/4μ₀
+    (26) and the mean response-field energy <W1> = (B0²πR²h/4μ₀)·(β²/3) (27); integration of the scalar product
+    2B0·B1 over a period vanishes because of the π/2 phase shift between B1 and B0, so a peculiar interference arises
+    that sums both energies: <W> = <W0> + <W1> (28).'
+  quantities:
+  - <W0> = B0^2 pi R^2 h/(4 mu0)
+  equations:
+  - \langle W\rangle = \langle W_0\rangle + \langle W_1\rangle
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - magnetic-energy
+  - interference
+  notes: 'OCR-degraded: integrals partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR07-019
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Подставляя в (28) и (29) вычисленные энергии, получим частотную зависимость для приведённой токовихревой
+    индуктивности цилиндра из энергетических соотношений
+  statement_en: 'The magnetic energy introduced per period is spent on heating Wq and on the part stored in the
+    system inductance: <W> = Wq + L⟨i²⟩/2 (29); the heat Wq = P*/2f = 2πβ⟨W0⟩ (30) and ⟨i²⟩ = i*²/2 (31) give, from
+    energy relations, the frequency dependence of the reduced eddy-current inductance of the cylinder L/L* = (1
+    + β²/3 − 2πβ)/β² (32), where L* = μ₀πR²/h (33) is the inductance scale depending only on the cylinder''s geometric
+    dimensions and taking large values for thin films at h/R ≪ 1.'
+  quantities:
+  - L* = mu0 pi R^2/h
+  equations:
+  - \langle W\rangle = W_q + L\langle i^2\rangle/2
+  - \frac{L}{L^*} = \frac{1 + \beta^2/3 - 2\pi\beta}{\beta^2}
+  - L^* = \mu_0\pi R^2/h
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dynamic-inductance
+  - energy-balance
+  - electrical-path
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR07-020
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Нули индуктивности делят весь частотный интервал на три части.
+  statement_en: 'As seen from (32), the cylinder inductance vanishes at two characteristic frequencies F1 and F2
+    (F1 < F2): F1/f* = 3π(1 − sqrt(1 − 1/3π²)) ≈ 0.1605 (34) and F2/f* = 3π(1 + sqrt(1 − 1/3π²)) ≈ 18.69 (35); the
+    zeros divide the frequency interval into three parts: in the low-frequency interval (0 < f < F1) the inductance
+    is positive, decreasing with frequency (weak ferromagnetism of Foucault currents); in the mid-frequency interval
+    (F1 < f < F2) it takes negative values (strong diamagnetism), with minimum Lmin = (1/3 − π²)L* ≈ −9.536L* at
+    f = f*/π ≈ 0.3183f*; in the high-frequency interval (F2 < f < ∞) it is positive again; at extremely high frequencies
+    it stops depending on frequency and tends to L∞ = L*/3, indicating the distinctive property of the dynamic inductance
+    — absence of a cutoff frequency.'
+  quantities:
+  - F1/f* = 0.1605
+  - F2/f* = 18.69
+  - Lmin = -9.536 L* at f = 0.3183 f*
+  - L(infinity) = L*/3
+  equations:
+  - F_1/f^* = 3\pi(1-\sqrt{1-1/3\pi^2}) \approx 0.1605
+  - F_2/f^* = 3\pi(1+\sqrt{1-1/3\pi^2}) \approx 18.69
+  - L_{min} = (1/3 - \pi^2)L^*
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - characteristic-frequencies
+  - negative-inductance
+  - ferromagnetism
+  - diamagnetism
+  - debt-candidate
+  - electrical-path
+  notes: Interpretation of L sign via 'ferromagnetism/diamagnetism of Foucault currents' — suspect framing, flagged.
+  relations: []
+- id: SC-AR07-021
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 8
+  quote_ru: На шести двойных слоях наблюдают две характеристические частоты (два нуля индуктивности), находящиеся
+    несимметрично по обе стороны от её минимального значения. На десяти двойных слоях наблюдают только верхнюю характеристическую
+    частоту. На тридцати двойных слоях в выбранный для экспериментов частотный диапазон ни один нуль индуктивности
+    не попал.
+  statement_en: 'Experiments with multilayer films (number of double layers greater than 2) in [4] indicate good
+    qualitative agreement of the theoretical frequency dependence of the negative inductance in the mid-frequency
+    range with experiment: on six double layers two characteristic frequencies (two inductance zeros) are observed,
+    asymmetric about the minimum; on ten double layers only the upper characteristic frequency is observed; on thirty
+    double layers no inductance zero fell into the frequency range chosen for the experiments.'
+  quantities:
+  - 6, 10, 30 double layers
+  equations: []
+  materials:
+  - multilayer films
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: inductance zeros observed
+    value: 2 (6 layers); 1 (10 layers); 0 (30 layers)
+    unit: count
+    conditions: multilayer films, experiments of [4]
+  schematic_refs: []
+  tags:
+  - multilayer-film
+  - negative-inductance
+  - experiment
+  - electrical-path
+  notes: ''
+  relations:
+  - to: SC-AR07-020
+    kind: supports
+- id: SC-AR07-022
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Существование особенности индуктивности приводит к тому, что динамическая индуктивность не переходит
+    в статическую индуктивность на низких частотах.
+  statement_en: 'A substantial shortcoming of the model is that at ultra-low frequencies compared with the frequency
+    scale the L(f) dependence has an unremovable singularity: the induced Foucault current squared is proportional
+    to the frequency squared, and since the dynamic inductance is the proportionality coefficient between magnetic-field
+    energy and current squared, the frequency squared enters the denominator; as f → 0 heating losses become small,
+    the response field weak, the external-field energy constant — the current tending to zero gives an L increase
+    ~ 1/f²; consequently the dynamic inductance does not pass into the static inductance at low frequencies, while
+    in the experiments of [2] such a transition is always observed.'
+  quantities:
+  - singularity ~ 1/f^2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - low-frequency-singularity
+  - model-limitation
+  - debt-candidate
+  notes: Acknowledged model defect.
+  relations: []
+- id: SC-AR07-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Он может быть применён для расчёта микроскопических индуктивностей в интервале высоких, сверхвысоких
+    и крайне высоких частот, который начинается с частоты порядка 100 МГц.
+  statement_en: 'The presence of the singularity at ultra-low frequencies points to the merit of the proposed method:
+    it can be applied to calculating microscopic inductances in the interval of high, ultrahigh, and extremely high
+    frequencies beginning at about 100 MHz; experimental studies of the real dynamic inductance of a cylindrical
+    film at ultra-low frequencies would allow setting limits on the lower cutoff frequency existing in the model,
+    below which the theory will strongly diverge from experiment.'
+  quantities:
+  - applicability from ~100 MHz
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - applicability-domain
+  - cutoff-frequency
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-024
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Нуль дискриминанта уравнения (36) указывает на то, что при равенстве
+  statement_en: 'If the magnetic energy supplied by the radial component B1r of the response field is counted in
+    (29), the reduced cylinder inductance acquires a second independent parameter α — the relative positive contribution
+    of the radial component: 1 + β²/3 + α = 2πβ + β²L/L* (36), α = ∫B1r²dV/(B0²πR²h) (37); this contribution does
+    not remove the low-frequency singularity but shifts the characteristic frequencies: β₁ = 3π − sqrt(9π² − 3(1+α))
+    (38), β₂ = 3π + sqrt(9π² − 3(1+α)) (39); the zero of the discriminant at α = α₀ = 3π² − 1 (40) makes the roots
+    equal and the inductance zero; for 0 < α < α₀ = 28.6 there is a frequency interval of negative inductance; for
+    α > α₀ there are no roots and the inductance is positive at all frequencies (Foucault currents showing only
+    weak ferromagnetic properties).'
+  quantities:
+  - alpha_0 = 3 pi^2 - 1 = 28.6
+  equations:
+  - 1 + \beta^2/3 + \alpha = 2\pi\beta + \beta^2 L/L^*
+  - \alpha = \int_V B_{1r}^2\,dV/(B_0^2\pi R^2 h)
+  - \beta_1 = 3\pi - \sqrt{9\pi^2 - 3(1+\alpha)}
+  - \beta_2 = 3\pi + \sqrt{9\pi^2 - 3(1+\alpha)}
+  - \alpha_0 = 3\pi^2 - 1
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - radial-component
+  - characteristic-frequencies
+  notes: 'OCR-degraded: formulas partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR07-025
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Как показывают сравнения вычислений с известными экспериментами, параметр  для сплошной цилиндрической
+    плёнки близок к нулю.
+  statement_en: 'Table 1 gives six points of the dependence of the reduced characteristic frequencies β₁, β₂ on
+    α (α = 0: 0.160/18.689; α = 6: 1.189/17.660; α = 12: 2.366/16.484; α = 18: 3.783/15.066; α = 24: 5.706/13.143;
+    α = 27: 7.228/11.622); with growing α the roots approach each other, narrowing the mid-frequency interval of
+    strong diamagnetic properties; comparisons with known experiments show that α for a solid cylindrical film is
+    close to zero, its effect to be accounted in cylindrical films with ring geometry of finite radial thickness.'
+  quantities:
+  - 'alpha: 0, 6, 12, 18, 24, 27'
+  - 'beta1: 0.160…7.228'
+  - 'beta2: 18.689…11.622'
+  - alpha ~ 0 for solid cylindrical film
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - table
+  - characteristic-frequencies
+  notes: Section material published in [6-9, 12].
+  relations: []
+- id: SC-AR07-026
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 11
+  quote_ru: Она может быть частотно-независимой в определённом диапазоне частот и принимать как положительные, так
+    и отрицательные значения.
+  statement_en: 'As experiments of the American researchers in [4] show, besides the dynamic inductance two more
+    states of eddy-current inductance are possible: it can be frequency-independent in a certain frequency range
+    and take both positive and negative values; in these states both weak ferromagnetic and strong diamagnetic properties
+    of Foucault currents again manifest themselves.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - inductance-states
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-027
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 15
+  quote_ru: Как показывают эксперименты [4], величины R и h – могут совпадать с геометрическими размерами одиночного
+    элементарного токового вихря, который возбуждается в проводящей плёнке. При соотношении h<R толщина цилиндрической
+    плёнки будет совпадать с толщиной одиночного элементарного токового вихря только для случая, когда толщина плёнки
+    меньше 500 нм.
+  statement_en: For the thin film the Maxwell equation is written with a clarifying sign multiplier σ = ±1 reflecting
+    two possible orientations of the vortex electric field rotor relative to the original direction of B0; as experiments
+    in [4] show, σ = −1 arises in films tens and hundreds of nanometers thick; in such ultra-thin films the Foucault
+    currents form a frequency-independent positive inductance, displaying weak ferromagnetic properties; this effect
+    manifests itself only in conducting films with thickness from 10 to 500 nm.
+  quantities:
+  - film thickness 10–500 nm (sigma = -1)
+  equations:
+  - (\mathrm{rot}\,\mathbf{E})_z = -\sigma\,\partial B_z/\partial t
+  materials:
+  - conducting films
+  geometry:
+  - 'film thickness: tens and hundreds of nm'
+  procedure_steps: []
+  measurements:
+  - quantity: sigma = -1 thickness window
+    value: 10–500
+    unit: nm
+    conditions: frequency-independent positive inductance
+  schematic_refs: []
+  tags:
+  - sigma-sign
+  - ultra-thin-film
+  - nanoscale-effect
+  - electrical-path
+  - debt-candidate
+  notes: The σ sign-flip rule is the paper's key ad hoc device — flagged for debt clustering.
+  relations: []
+- id: SC-AR07-028
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Значение   1 реализуется при протекании токов Фуко в проводящих цилиндрах в макроскопических масштабах,
+    когда проявляются их сильные диамагнитные свойства.
+  statement_en: The value σ = +1 is realized when Foucault currents flow in conducting cylinders at macroscopic
+    scales, where their strong diamagnetic properties manifest themselves; the heights of the conducting cylinders
+    must then be greater than the radius and considerably greater than 1 μm; such values transform the film into
+    a cylinder whose Foucault currents are usually diamagnetic for certain spatial distributions of the inductor
+    magnetic fields.
+  quantities:
+  - cylinder height > radius and >> 1 um (sigma = +1)
+  equations: []
+  materials: []
+  geometry:
+  - height > radius, >> 1 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sigma-sign
+  - macroscopic-cylinder
+  - diamagnetism
+  notes: ''
+  relations: []
+- id: SC-AR07-029
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: Направление проекции B1z во всех точках цилиндра противоположно внешнему магнитному полю В0. В этом
+    и заключается основная причина диамагнетизма, проявляемого токами Фуко.
+  statement_en: For the film geometry the response magnetic field B1 has a single projection B1z whose direction
+    at all points of the cylinder is opposite to the external magnetic field B0 — herein lies the main cause of
+    the diamagnetism displayed by Foucault currents; as shown below, phase relations between the interacting fields
+    also play an exceptionally important role.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - diamagnetism-cause
+  - phase-relations
+  notes: ''
+  relations: []
+- id: SC-AR07-030
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: Из (64), (65) видно, что средний поток внешнего поля за полупериод всегда обращается в нуль, а среднее
+    значение потока поля отклика может быть как положительным, так и отрицательным.
+  statement_en: The time-averaged flux inductance is defined by Φ̄ = LΦ·ī (60), where <Φ> is the total flux averaged
+    over a half-period crossing the film, formed by the external field B0 and the response field B1, and <i> the
+    mean unidirectional current over the half-period; the external-field flux is Φ0 = B0πR²cos ωt (61), the response-field
+    flux Φ1 = −σ(πR²/2)B1*sin ωt (62); the mean external flux over a half-period always vanishes (64), while the
+    mean response-field flux equals −σR²B1* (65) and can be positive or negative.
+  quantities:
+  - <Phi1> = -sigma R^2 B1*
+  equations:
+  - \Phi_0 = B_0\pi R^2\cos\omega t
+  - \Phi_1 = -\sigma\frac{\pi R^2}{2}B^*\sin\omega t
+  - \langle\Phi_0\rangle = 0
+  - \langle\Phi_1\rangle = -\sigma R^2 B^*
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - flux-averaging
+  - sign-of-flux
+  notes: ''
+  relations: []
+- id: SC-AR07-031
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 15
+  quote_ru: Из (66) следует, что средняя за полупериод индуктивность планарного токового слоя зависит только от
+    геометрических размеров плёнки, но не зависит от частоты и может быть как положительной, так и отрицательной
+    величиной.
+  statement_en: 'Substituting (64) and (65) into (63) with the relation (60) gives LΦ = μ₀πR²/2h (66): the half-period-averaged
+    inductance of the planar current layer depends only on the geometric dimensions of the film, does not depend
+    on frequency, and can be positive or negative; its value is 2 times smaller than the dynamic-inductance scale
+    (33) and is determined only by the film dimensions.'
+  quantities:
+  - L_Phi = mu0 pi R^2/(2h)
+  equations:
+  - L_\Phi = \frac{\mu_0\pi R^2}{2h}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - flux-inductance
+  - frequency-independent
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-032
+  type: physics
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: При выполнении неравенства    0 (вклад радиальной компоненты в магнитную энергию цилиндра велик)
+    у частотной зависимости индуктивности корней нет и индуктивность цилиндра положительна для любых частот. В этом
+    случае токи Фуко проявляют только слабые ферромагнитные свойства.
+  statement_en: 'As experiments [4] show, R and h can coincide with the geometric dimensions of a single elementary
+    current vortex excited in the conducting film; at h < R the cylindrical-film thickness coincides with the thickness
+    of a single elementary current vortex only when the film thickness is less than 500 nm; under these conditions
+    a positive frequency-independent flux inductance is realized and the Foucault currents display weak ferromagnetic
+    properties; the cause is σ = −1: the response field is directed along z during a half-period and creates a positive
+    averaged flux; on the second half-period the flux-inductance value remains the same because the response-field
+    flux and the eddy current reverse their values.'
+  quantities:
+  - film thickness < 500 nm (single elementary vortex)
+  equations: []
+  materials: []
+  geometry:
+  - film thickness < 500 nm at h < R
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - elementary-current-vortex
+  - nanoscale-effect
+  - electrical-path
+  - debt-candidate
+  notes: The 'single elementary current vortex' concept is the load-bearing assumption of the nanoscale effect —
+    flagged.
+  relations: []
+- id: SC-AR07-033
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Если h>1 мкм и условие h<R не выполнено (возникает проводящий цилиндр), то возможны случаи, когда проводящий
+    цилиндр находится, либо в состоянии отрицательной частотно-независимой индуктивности
+  statement_en: 'If h > 1 μm and the condition h < R is not fulfilled (a conducting cylinder arises), possible cases
+    are: the conducting cylinder in a state of negative frequency-independent inductance (Foucault currents showing
+    strong diamagnetic properties at macroscopic scales), or in a state of frequency-dependent dynamic inductance
+    vanishing at two characteristic frequencies; the negative frequency-independent inductance for σ = +1 arises
+    because the response field is directed against the z axis during a half-period, creating a negative averaged
+    flux; on the second half-period the flux-inductance value remains the same.'
+  quantities:
+  - h > 1 um (cylinder regime)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - state-selection
+  - negative-inductance
+  notes: ''
+  relations: []
+- id: SC-AR07-034
+  type: physics
+  facet: geometry
+  priority: core
+  page: 16
+  quote_ru: Таблица 2. – Геометрические размеры плёнки для индуктивности 10 нГн.
+  statement_en: 'In modern chips an acceptable value of integral inductance is 10 nH; Table 2 gives film thicknesses
+    in nanometers and corresponding radii in micrometers giving a fixed film inductance of 10 nH: h = 50, 100, 150,
+    200, 250, 300, 350, 400, 450, 500 nm corresponds to R = 16, 23, 28, 32, 36, 39, 42, 45, 48, 50 μm; calculations
+    for film thickness above 500 nm are not given because the single elementary current vortex excited in the film
+    may then become unstable and pass into another frequency-dependent dynamic-inductance state.'
+  quantities:
+  - target inductance 10 nH
+  - h = 50…500 nm
+  - R = 16…50 um
+  equations: []
+  materials:
+  - conducting film
+  geometry:
+  - h = 50–500 nm; R = 16–50 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 2
+  tags:
+  - chip-inductance
+  - film-geometry
+  - table
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-035
+  type: physics
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: Табл. 2 указывает на возможность дальнейшего уменьшения площади, занимаемой интегральной индуктивностью.
+    Такое уменьшение может привести к достижению предельных значений поверхностной плотности индуктивности вплоть
+    до порядка 10 Гн/м2.
+  statement_en: The operating frequency range of such a film is determined by the frequency scale (59), does not
+    depend on film thickness, and lies within 0.1f* < f < 10f* (67); Table 2 points to the possibility of further
+    reduction of the area occupied by the integral inductance, which can lead to limiting values of surface inductance
+    density of up to the order of 10 H/m².
+  quantities:
+  - working range 0.1f* < f < 10f*
+  - surface inductance density up to ~10 H/m^2
+  equations:
+  - 0.1f^* < f < 10f^*
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frequency-range
+  - surface-density
+  notes: ''
+  relations: []
+- id: SC-AR07-036
+  type: physics
+  facet: geometry
+  priority: core
+  page: 17
+  quote_ru: Однако такое конструктивно-технологическое решение уменьшает численное значение индуктивности до единиц
+    наногенри (она изменяется в диапазоне от 0,5 до 3,5 нГн для геометрических размеров от 20 мкм до 100 мкм, [10]).
+  statement_en: Planar inductors realized on dielectric substrates as multi-turn round, spiral, square, or more
+    complex shapes are widely used in modern communication and telecommunication devices in 'system-on-chip' or
+    'system-in-package' structures; for the microwave range an integral inductance is sometimes made as a single
+    turn of metal film sputtered on the substrate forming a current ring; however this design reduces the inductance
+    to units of nanohenry (from 0.5 to 3.5 nH for geometric sizes from 20 μm to 100 μm).
+  quantities:
+  - 'single-turn L: 0.5–3.5 nH for 20–100 um sizes'
+  equations: []
+  materials:
+  - sputtered metal film
+  geometry:
+  - sizes 20–100 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - single-turn-inductor
+  - cmos
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-037
+  type: physics
+  facet: recipe
+  priority: core
+  page: 17
+  quote_ru: Во внутреннюю область витка (токового кольца) из металлической пленки толщиной h1 введена дополнительная
+    тонкая пленка толщиной h2<<h1 радиусом R<R1 из материала,
+  statement_en: 'The proposed planar-inductance construction (Fig. 5) uses the discovered nanoscale effect with
+    the known single-turn topology: into the inner region of the turn (current ring) of metal film of thickness
+    h1 an additional thin film of thickness h2 << h1 and radius R < R1 is introduced, made of a material with specified
+    conductivity and having no electric contact with the turn; notation: R — radius of the additional thin film,
+    h2 — its thickness, R1 — inner radius of the turn, R2 — outer radius of the turn, 1 and 2 — terminals of the
+    integral inductance for inclusion in an electronic circuit.'
+  quantities:
+  - h2 << h1
+  - R < R1
+  equations: []
+  materials:
+  - metal film (turn)
+  - additional thin conducting film
+  geometry:
+  - turn thickness h1
+  - additional film thickness h2 << h1, radius R < R1
+  - turn inner radius R1, outer radius R2
+  procedure_steps:
+  - form single-turn current ring of metal film thickness h1 on substrate
+  - place additional thin film h2 << h1, radius R < R1 inside the ring area without electric contact
+  - connect terminals 1 and 2
+  measurements: []
+  schematic_refs:
+  - Рис. 5
+  tags:
+  - CFICR
+  - device-design
+  - thin-film
+  - electrical-path
+  notes: CFICR technology construction recipe. Sentence continues on p.18 ('обладающего заданной электропроводностью
+    и не имеющего электрического контакта с витком') — cross-page split.
+  relations: []
+- id: SC-AR07-038
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 18
+  quote_ru: Индуктивность конструкции L (рис. 5) относительно выводов 1 и 2 складывается из двух составляющих
+  statement_en: 'The inductance L of the construction (Fig. 5) between terminals 1 and 2 consists of two components:
+    L = Lк + Lф (68), where Lк is the inductance of the turn (current ring), calculable from formulas and graphs
+    of [10], and Lф is the flux inductance of the additional thin cylindrical film h2, calculated by relation (66)
+    with h replaced by h2.'
+  quantities: []
+  equations:
+  - L = L_k + L_\Phi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - inductance-composition
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-039
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 17
+  quote_ru: Табл. 2 указывает на возможность дальнейшего уменьшения площади, занимаемой интегральной индуктивностью.
+    Такое уменьшение может привести к достижению предельных значений поверхностной плотности индуктивности вплоть
+    до порядка 10 Гн/м2. Наноразмерный эффект перспективной технологии «проводящая плёнка в токовом кольца». Планарные
+    индуктивности, которые реализуются на диэлектрической подложке в виде многовитковых круглых, спиральных, квадратных
+    или более сложных геометрических форм широко используются в современных устройствах связи и телекоммуникаций
+    в структурах «система на кристалле» или «система в корпусе» [10]. В ряде случаев интегральная индуктивность,
+    предназначенная для СВЧ диапазона, выполняется в виде одного витка [10] из напыляемой на подложку металлической
+    пленки, образующей токовое кольцо. Однако такое конструктивно-технологическое решение уменьшает численное значение
+    индуктивности до единиц наногенри (она изменяется в диапазоне от 0,5 до 3,5 нГн для геометрических размеров
+    от 20 мкм до 100 мкм, [10]). Рассмотрим конструкцию планарной индуктивности, которая использует обнаруженный
+    выше наноразмерный эффект при своей реализации. Она приведена на рис. 5 и использует известную одновитковую
+    топологию её создания [10]. Дополнительная Токовое тонкая пленка кольцо R A B R2 R1 1 2 Подложка а) Дополнительная
+    Токовое тонкая пленка кольцо R h2 h1 Подложка б) Рис. 5. Предлагаемая конструкция индуктивности (а) и ее разрез
+    по вертикальному сечению АВ (б) Во внутреннюю область витка (токового кольца) из металлической пленки толщиной
+    h1 введена дополнительная тонкая пленка толщиной h2
+  statement_en: 'Table 3 gives the flux inductance Lф calculated from (66) for a thin film of radius R = 50 μm as
+    a function of thickness h2: h2 = 50, 100, 150, 200, 250, 300, 350 nm gives Lф = 100, 50, 33.3, 25, 20, 16.7,
+    14.3 nH; the total positive inductance of the system is determined from (68).'
+  quantities:
+  - R = 50 um
+  - h2 = 50 nm -> LPhi = 100 nH
+  - h2 = 100 nm -> 50 nH
+  - h2 = 150 nm -> 33.3 nH
+  - h2 = 200 nm -> 25 nH
+  - h2 = 250 nm -> 20 nH
+  - h2 = 300 nm -> 16.7 nH
+  - h2 = 350 nm -> 14.3 nH
+  equations: []
+  materials: []
+  geometry:
+  - film radius 50 um; thickness 50-350 nm
+  procedure_steps: []
+  measurements:
+  - quantity: flux inductance L_phi at h2=100 nm
+    value: '50'
+    unit: nH
+    conditions: R = 50 um, from eq. (66)
+  - quantity: flux inductance L_phi at h2=50 nm
+    value: '100'
+    unit: nH
+    conditions: R = 50 um, from eq. (66)
+  schematic_refs:
+  - Таблица 3
+  tags:
+  - flux-inductance
+  - table
+  - electrical-path
+  notes: Computed values from (66).
+  relations: []
+- id: SC-AR07-040
+  type: physics
+  facet: material
+  priority: core
+  page: 16
+  quote_ru: Таблица 2. – Геометрические размеры плёнки для индуктивности 10 нГн. h (нм) 50 100 150 200 250 R (мкм)
+    16 23 28 32 36 h (нм) 300 350 400 450 500 R (мкм
+  statement_en: 'The resistivity of the thin film does not affect the inductance value between terminals 1 and 2
+    — it changes only the frequency range in which such inductance remains frequency-independent; the working-frequency
+    range is estimated from condition (67); Table 4 gives the frequency scale for a conducting film of radius 50
+    μm: copper (resistivity 15.5·10⁻⁹ Ω·m) — 3.14·10⁶ Hz; aluminium (25.0·10⁻⁹) — 5.0·10⁶ Hz; tungsten (48.9·10⁻⁹)
+    — 10.0·10⁶ Hz; nickel (61.4·10⁻⁹) — 12.4·10⁶ Hz; nichrome (1.0·10⁻⁶) — 203·10⁶ Hz; electronic silicon KEF (1.0·10⁻³)
+    — 203·10⁹ Hz.'
+  quantities:
+  - 'copper: 15.5e-9 ohm m -> f* = 3.14e6 Hz'
+  - 'aluminium: 25.0e-9 -> 5.0e6 Hz'
+  - 'tungsten: 48.9e-9 -> 10.0e6 Hz'
+  - 'nickel: 61.4e-9 -> 12.4e6 Hz'
+  - 'nichrome: 1.0e-6 -> 203e6 Hz'
+  - 'silicon KEF: 1.0e-3 -> 203e9 Hz'
+  equations: []
+  materials:
+  - copper
+  - aluminium
+  - tungsten
+  - nickel
+  - nichrome
+  - electronic silicon (KEF)
+  geometry:
+  - film radius 50 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 4
+  tags:
+  - materials
+  - frequency-scale
+  - table
+  - electrical-path
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-AR07-041
+  type: physics
+  facet: recipe
+  priority: core
+  page: 19
+  quote_ru: Из табл. 3 и 4 видно, что использование, например, алюминия при напылении дополнительной тонкой плёнки
+    радиусом R=50 мкм и толщиной h2=100 нм позволит получить индуктивность тонкой плёнки Lф=50 нГн. Такая плёнка
+    будет обеспечивать частотно-независимую индуктивность в диапазоне частот от 0,5 до 50 МГц.
+  statement_en: 'From Tables 3 and 4: sputtering, for example, aluminium for the additional thin film of radius
+    R = 50 μm and thickness h2 = 100 nm gives a film inductance Lф = 50 nH frequency-independent in the range from
+    0.5 to 50 MHz; a nichrome film of the same geometric sizes provides constant inductance from 20 MHz to 2 GHz;
+    copper — from 0.3 to 30 MHz; tungsten — from 1 to 100 MHz; nickel — from 1.2 to 120 MHz; silicon — from 20 GHz
+    to 2 THz.'
+  quantities:
+  - 'Al: L_phi = 50 nH at 0.5–50 MHz'
+  - 'nichrome: 20 MHz–2 GHz'
+  - 'copper: 0.3–30 MHz'
+  - 'tungsten: 1–100 MHz'
+  - 'nickel: 1.2–120 MHz'
+  - 'silicon: 20 GHz–2 THz'
+  equations: []
+  materials:
+  - aluminium
+  - nichrome
+  - copper
+  - tungsten
+  - nickel
+  - silicon
+  geometry:
+  - R = 50 um, h2 = 100 nm
+  procedure_steps:
+  - sputter additional thin film of chosen material with R = 50 um, h2 = 100 nm inside current ring
+  measurements: []
+  schematic_refs:
+  - Таблица 3
+  - Таблица 4
+  tags:
+  - materials
+  - frequency-range
+  - CFICR
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-042
+  type: physics
+  facet: theory
+  priority: core
+  page: 19
+  quote_ru: Как видно из табл. 3, индуктивность изменяется в диапазоне от 100 нГн до 14 нГн, что значительно лучше
+    (в 7-50 раз) максимальной индуктивности известных в КМОП – традиционных технологиях, достигаемых в одном слое
+    [11].
+  statement_en: 'The proposed construction of positive planar inductance with the ''conducting film in current ring''
+    technology has essential advantages in the achievable microscopic integral inductance compared with the classical
+    single-turn solution; the nanoscale effect discovered experimentally in [4] and confirmed theoretically in this
+    work allows realizing higher microscopic inductance: per Table 3 the inductance varies from 100 nH to 14 nH,
+    which is significantly better (7-50 times) than the maximum inductance of known CMOS traditional technologies
+    achieved in a single layer; the choice of the film material resistivity allows shifting the operating frequency
+    range of the proposed inductance into a specified frequency band.'
+  quantities:
+  - L range 14–100 nH
+  - 7–50x better than single-layer CMOS
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 3
+  tags:
+  - CFICR
+  - cmos-comparison
+  - nanoscale-effect
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-043
+  type: physics
+  facet: theory
+  priority: core
+  page: 19
+  quote_ru: Особую роль в них играет геометрия токового индуктора. По геометрии создаваемых силовых линий магнитного
+    поля токовые индукторы следует классифицировать как открытые и закрытые.
+  statement_en: 'Experiments performed with single-layer and multilayer conducting films, and with conducting cylindrical
+    rods, indicate the following features of obtaining positive or negative eddy-current inductance: the geometry
+    of the current inductor plays a special role; by the geometry of the created magnetic field lines, current inductors
+    should be classified as open and closed.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - open-closed-inductors
+  - classification
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR07-044
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: К закрытым индукторам отнесём классические соленоиды конечной длины.
+  statement_en: Closed inductors are the classic finite-length solenoids, in which the mean density of magnetic
+    field lines inside is always higher than outside; the solenoid inductance and its cutoff frequency can be influenced
+    in various ways, the most essential changes obtained by connecting the magnetic field lines with conducting
+    rods or films of various layer counts, the films installed across the field lines in the inner region of the
+    solenoid.
+  quantities: []
+  equations: []
+  materials:
+  - conducting rods or films
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - closed-inductors
+  - solenoid
+  notes: ''
+  relations: []
+- id: SC-AR07-045
+  type: physics
+  facet: theory
+  priority: normal
+  page: 20
+  quote_ru: Для тонкой плёнки, с наноскопической толщиной, положительная индуктивность соленоида может существенно
+    возрасти.
+  statement_en: For a film of nanoscopic thickness the positive inductance of the solenoid can grow substantially,
+    with a frequency-independent inductance arising that can strongly increase the cutoff frequency; in a thick
+    or multilayer film a dynamic-inductance state is possible, with the total system inductance having positive
+    values at different frequencies differing from the original solenoid inductance.
+  quantities: []
+  equations: []
+  materials:
+  - thin film
+  - thick/multilayer film
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - solenoid-film
+  - frequency-independent-inductance
+  notes: ''
+  relations: []
+- id: SC-AR07-046
+  type: physics
+  facet: theory
+  priority: normal
+  page: 20
+  quote_ru: Заполнение проводником всего пространства внутри соленоида даёт максимальный эффект отрицательной индуктивности,
+    вносимой проводящим стержнем. Но при этом суммарная индуктивность системы соленоид-стержень всегда будет уменьшена,
+    но останется положительной.
+  statement_en: Placing the solenoid on a semiconducting or conducting substrate binds only an insignificant part
+    of the external magnetic field lines, weakly changing the resulting solenoid inductance and its cutoff frequency;
+    filling the entire space inside the solenoid with a conductor gives the maximal negative-inductance effect introduced
+    by the conducting rod, but the total inductance of the solenoid-rod system will always be reduced while remaining
+    positive.
+  quantities: []
+  equations: []
+  materials:
+  - conducting rod
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - solenoid-rod
+  - negative-inductance-contribution
+  notes: ''
+  relations: []
+- id: SC-AR07-047
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: Расположение с одной стороны такого индуктора проводящей плёнки, с наноскопической толщиной, увеличит
+    суммарную положительную индуктивность системы. Она будет частотно-независимой. Расположение с разных сторон
+    спирального индуктора двух одинаковых проводящих плёнок с наноскопической толщиной ещё больше увеличит положительную
+    суммарную индуктивность системы с сохранением её частотных свойств. Расположение с одной стороны спирали либо
+    толстой проводящей, либо многослойной плёнки может дать состояние динамической индуктивности. В этом случае
+    суммарная индуктивность системы станет отрицательной и будет зависеть от частоты. Расположение с обеих сторон
+    спирали таких плёнок ещё больше увеличит отрицательную индуктивность системы.
+  statement_en: 'Open inductors are those made as a planar spiral, creating magnetic field lines symmetrically located
+    in both half-spaces: placing a conducting film of nanoscopic thickness on one side of such an inductor increases
+    the total positive inductance of the system, which becomes frequency-independent; placing two identical nanoscopic-thickness
+    conducting films on different sides of the spiral inductor further increases the positive total inductance preserving
+    its frequency properties; a thick or multilayer film on one side can give a dynamic-inductance state — the total
+    system inductance becomes negative and frequency-dependent; films on both sides further increase the negative
+    inductance, and increasing the number of layers raises the total negative inductance of the open system proportionally
+    to their count.'
+  quantities: []
+  equations: []
+  materials:
+  - nanoscopic-thickness films
+  - thick/multilayer films
+  geometry:
+  - films on one or both sides of planar spiral
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - open-inductors
+  - planar-spiral
+  - film-placement
+  - electrical-path
+  notes: ''
+  relations: []

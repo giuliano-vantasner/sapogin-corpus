@@ -1,0 +1,17 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE01
+  section: teaching
+  title_ru: 60 Лет в Строю
+  title_en: 60 Years in Service
+  file: papers/teaching/60-let-v-stroyu.pdf
+  source_url: http://146.190.233.254/docs/teaching/60 Лет в Строю.pdf
+  md5: 10ae4be2542064bd0d660d16509c7f54
+  pages_total: 4
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

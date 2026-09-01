@@ -1,0 +1,250 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE03
+  section: teaching
+  title_ru: Вертикальные колебания на пружине в однородном поле силы тяжести
+  title_en: Vertical oscillations of a weight on a spring in a uniform gravitational field
+  file: papers/teaching/vertikalnye-kolebaniya-na-pruzhine-v-odnorodnom-pole-sily-tyazhesti.pdf
+  source_url: http://146.190.233.254/docs/teaching/Вертикальные колебания на пружине в однородном поле
+    силы тяжести.pdf
+  md5: 94d05f554b21fa49a01f716f326cd434
+  pages_total: 7
+  retrieved: '2026-08-31'
+claims:
+- id: SC-TE03-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: 'вертикальные колебания груза на пружине делятся на два класса: малые колебания с отрицательной
+    полной энергией и колебания с положительной полной энергией.'
+  statement_en: 'The authors assert that vertical oscillations of a weight on a spring in a uniform gravitational
+    field divide into two classes: small oscillations with negative total energy (reduced energy ranging
+    from -1/2 to 0) and oscillations with positive total energy.'
+  quantities:
+  - 'negative-energy class: reduced energy in range -1/2 to 0'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2 (effective potential energy)
+  tags:
+  - oscillations
+  - spring-pendulum
+  - mechanics
+  - energy-classes
+  notes: ''
+  relations: []
+- id: SC-TE03-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Вертикальные гармонические колебания груза на пружине в однородном поле силы тяжести совершаются
+    на частоте, совпадающей с частотой колебаний пружинного маятника. Она не зависит от ускорения свободного
+    падения.
+  statement_en: The authors assert that vertical harmonic oscillations of a weight on a spring in a uniform
+    gravitational field occur at a frequency coinciding with the oscillation frequency of a spring pendulum,
+    and that this frequency does not depend on the gravitational acceleration.
+  quantities: []
+  equations:
+  - \omega_0^2 = k/m
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - oscillations
+  - frequency
+  - spring-pendulum
+  - mechanics
+  notes: ''
+  relations: []
+- id: SC-TE03-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Период вертикальных колебаний также не зависит от амплитуды колебаний маятника на пружине.
+    Это отличает их от немалых колебаний математического маятника в однородном поле силы тяжести.
+  statement_en: The authors assert that the period of vertical oscillations of a spring pendulum does
+    not depend on the oscillation amplitude, which distinguishes them from finite-amplitude oscillations
+    of a mathematical pendulum in a uniform gravitational field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - oscillations
+  - period
+  - amplitude-independence
+  - mechanics
+  notes: ''
+  relations: []
+- id: SC-TE03-004
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Из (10) видно, что амплитуда вертикальных колебаний маятника зависит от значения его полной
+    механической энергии
+  statement_en: The authors derive that the amplitude of vertical oscillations of the spring pendulum
+    depends on the total mechanical energy as A = sqrt(1 + 2*epsilon) (reduced units), i.e. nonlinearly
+    increasing with energy.
+  quantities: []
+  equations:
+  - A = \sqrt{1 + 2\varepsilon}
+  - y = x/x* = 1 + \sqrt{1 + 2\varepsilon}\cdot\sin(\omega_0 t + \varphi)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3 (amplitude vs total energy, epsilon from 0.5 to +1)
+  tags:
+  - oscillations
+  - amplitude
+  - derivation
+  notes: Formula symbols lost by pdftotext; equations best-effort reconstruction, OCR-degraded.
+  relations: []
+- id: SC-TE03-005
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: В системе с медленно изменяющимися параметрами сохраняется приведённая энергия системы, играющая
+    роль адиабатического инварианта. При медленном изменении потенциальной энергии равновесного состояния
+    груза, вызванной уменьшением коэффициента жёсткости, энергия колебаний груза уменьшается.
+  statement_en: The authors assert that in a system with slowly varying parameters the reduced energy
+    of the system is conserved as an adiabatic invariant, and that a slow decrease of the spring stiffness
+    coefficient decreases the oscillation energy, hence also the oscillation amplitude and the amplitude
+    values of the oscillation velocity.
+  quantities: []
+  equations:
+  - J/\pi = 2E/\omega_0^2 = E/kx^{*2} = E/mg^2
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - adiabatic-invariant
+  - oscillations
+  - derivation
+  notes: Invariant forms eq. (15) reconstructed best-effort, OCR-degraded.
+  relations: []
+- id: SC-TE03-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Из (11) следует закон уменьшения амплитуды колебательной скорости пружины при уменьшении отношения
+    m / k для любых полных энергий колебаний.
+  statement_en: The authors derive from the velocity solution that the amplitude of the oscillation velocity
+    of the spring decreases as the mass-to-stiffness ratio m/k decreases, for any total oscillation energy.
+  quantities: []
+  equations:
+  - v(t) = g\sqrt{m/k}\,\sqrt{1 + 2\varepsilon}\,\cos(\omega_0 t + \varphi)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - oscillations
+  - velocity-amplitude
+  - derivation
+  notes: Velocity law eq. (11) reconstructed best-effort, OCR-degraded.
+  relations: []
+- id: SC-TE03-007
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Как видно из (12), ускорение движения груза с нулевой полной энергией совпадает с ускорением
+    свободного падения и не зависит от массы груза и коэффициента жёсткости пружины.
+  statement_en: The authors derive that the acceleration of a weight with zero total energy coincides
+    with the gravitational acceleration and is independent of the weight mass and the spring stiffness
+    coefficient.
+  quantities: []
+  equations:
+  - a(t) = g(1 - x/x*)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - oscillations
+  - acceleration
+  - derivation
+  notes: Acceleration law eq. (12) reconstructed best-effort, OCR-degraded.
+  relations: []
+- id: SC-TE03-008
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 5
+  quote_ru: В табл. 1 представлены расчёты амплитуды
+  statement_en: 'The authors tabulate calculated velocity-amplitude values of the oscillating weight at
+    zero total energy: v0 = 10^-1, 10^-2, 10^-3, 10^-4 m/s for m/k = 10^-4, 10^-6, 10^-8, 10^-10 s^2 respectively.'
+  quantities:
+  - v0 = 10-1 м/с при m/k = 10-4 c2
+  - v0 = 10-2 м/с при m/k = 10-6 c2
+  - v0 = 10-3 м/с при m/k = 10-8 c2
+  - v0 = 10-4 м/с при m/k = 10-10 c2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: velocity amplitude vs mass/stiffness ratio
+    value: 10^-1..10^-4 m/s for m/k = 10^-4..10^-10 s^2
+    unit: м/с
+    conditions: zero total energy of the weight
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - oscillations
+  - calculated-table
+  - velocity-amplitude
+  notes: Quote cut before a pdftotext-mangled symbol; table values transcribed from Таблица 1.
+  relations: []
+- id: SC-TE03-009
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 7
+  quote_ru: Проведённые эксперименты по исследованию независимости периода вертикальных колебаний груза
+    от ускорения свободного падения указывают на удовлетворительное совпадение результатов с полученными
+    расчётами.
+  statement_en: The authors report experiments (by A.K. Atamanchenko) on the independence of the period
+    of vertical oscillations of a weight from gravitational acceleration, indicating satisfactory agreement
+    with the calculations.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - experiments on the independence of the vertical-oscillation period from gravitational acceleration
+    (ref. Atamanchenko, lab works 10-11 kl., Taganrog, 2007)
+  measurements: []
+  schematic_refs: []
+  tags:
+  - experiment
+  - period
+  - gravitation
+  - verification
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

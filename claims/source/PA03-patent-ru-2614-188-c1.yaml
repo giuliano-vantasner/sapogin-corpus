@@ -1,0 +1,308 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: PA03
+  section: patents
+  title_ru: Планарная индуктивность (патент RU 2 614 188 C1)
+  title_en: Planar inductance (patent RU 2 614 188 C1)
+  file: papers/patents/patent-ru-2614-188-c1.pdf
+  source_url: http://146.190.233.254/docs/patents/Патент RU 2614 188 C1.pdf
+  md5: 056efc237999df6f5e5d419f3af01901
+  pages_total: 19
+  retrieved: '2026-09-01'
+claims:
+- id: SC-PA03-001
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 14
+  quote_ru: '1. Планарная индуктивность, содержащая как минимум один виток (1) из металлической пленки толщиной
+    h1, расположенный на изолирующей подложке (2), первый (3) и второй (4) выводы интегральной индуктивности для
+    ее включения в электронную схему, отличающаяся тем, что во внутреннюю область витка (1) из Стр.: 14 RU 2 614
+    188 C1 металлической пленки толщиной h1 введена дополнительная тонкая пленка (5) толщиной h2<<h1 из материала,
+    обладающего заданной электропроводностью и не имеющего электрического контакта с витком (1) планарной индуктивности.'
+  statement_en: 'Patent claim 1 (verbatim): a planar inductance containing at least one coil (1) of metal film of
+    thickness h1 located on an insulating substrate (2), with first (3) and second (4) integrated-inductance terminals
+    for connection into an electronic circuit, characterized in that an additional thin film (5) of thickness h2
+    << h1, made of a material with specified electrical conductivity and having no electrical contact with the coil
+    (1), is inserted into the inner region of the coil (1).'
+  quantities: []
+  equations: []
+  materials:
+  - металлическая пленка толщиной h1
+  - дополнительная тонкая пленка h2<<h1
+  - изолирующая подложка (2)
+  geometry:
+  - h2 << h1 (толщина дополнительной пленки от десятков до сотен нанометров)
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 2
+  - Фиг. 4
+  tags:
+  - electrical
+  - patent-claim
+  - planar-inductance
+  - nanofilm
+  notes: Patent claim (formula of invention, item 1) extracted verbatim. quote keeps pdftotext column/page artifacts
+    (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA03-002
+  type: physics
+  facet: material
+  priority: normal
+  page: 15
+  quote_ru: 2. Планарная индуктивность по п. 1, отличающаяся тем, что заданная 5 электропроводность материала дополнительной
+    тонкой пленки 5 соответствует электропроводности меди.
+  statement_en: 'Patent claims 2-7 (verbatim group): the planar inductance of claim 1, characterized in that the
+    specified electrical conductivity of the additional thin film 5 material corresponds to the conductivity of
+    copper (claim 2), aluminum (claim 3), tungsten (claim 4), nickel (claim 5), nichrome (claim 6), or electronic
+    silicon (claim 7).'
+  quantities: []
+  equations: []
+  materials:
+  - медь
+  - алюминий
+  - вольфрам
+  - никель
+  - нихром
+  - электронный кремний
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - patent-claim
+  - materials
+  notes: Patent claims (formula of invention, items 2-7) extracted as a verbatim group; each names the film material.
+    quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA03-003
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 5
+  quote_ru: 'По существу в настоящем изобретении предлагается увеличить в 5-50 раз 45 поверхностную плотность индуктивности
+    путем расположения на той же площади кристалла дополнительной тонкой пленки 5. Причем толщина h2 этой пленки
+    должна находиться в диапазоне от десятков до сотен нанометров. При других значениях толщины h2 заявляемый положительный
+    результат не обеспечивается, т.к. он связан с Стр.: 5 RU 2 614 188 C1 наноразмерными эффектами.'
+  statement_en: The invention essentially proposes increasing the surface inductance density 5-50 times by placing
+    an additional thin film 5 on the same chip area; the film thickness h2 must lie in the range from tens to hundreds
+    of nanometers — at other h2 values the claimed positive result is not achieved because it is connected with
+    nanoscale effects.
+  quantities:
+  - плотность индуктивности × 5–50
+  - h2 = десятки–сотни нм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - nanofilm
+  - surface-inductance-density
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim. quote keeps pdftotext
+    column/page artifacts verbatim.
+  relations: []
+- id: SC-PA03-004
+  type: physics
+  facet: measurement
+  priority: normal
+  page: 6
+  quote_ru: Это позволяет обеспечить частотнонезависимую планарную индуктивность L в диапазоне частот от 0,3 до
+    30 МГц.
+  statement_en: 'The specified film conductivity sets the frequency-independent inductance range: copper gives a
+    frequency-independent planar inductance L in 0.3-30 MHz, aluminum in 0.5-50 MHz, tungsten in 1-100 MHz, nickel
+    in 1.2-120 MHz, nichrome in 20 MHz-2 GHz, and electronic silicon in 20 GHz-2 THz.'
+  quantities:
+  - 'медь: 0,3–30 МГц'
+  - 'алюминий: 0,5–50 МГц'
+  - 'вольфрам: 1–100 МГц'
+  - 'никель: 1,2–120 МГц'
+  - 'нихром: 20 МГц–2 ГГц'
+  - 'электронный кремний: 20 ГГц–2 ТГц'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 4
+  tags:
+  - electrical
+  - frequency-ranges
+  - materials
+  notes: ''
+  relations: []
+- id: SC-PA03-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: В таких сверхтонких пленках токи Фуко формируют 10 частотнонезависимую положительную индуктивность Lф,
+    которая приводится к выводам 3 и 4 интегральной индуктивности, проявляя свои неожиданные парамагнитные свойства.
+  statement_en: 'In cylindrical films of tens and hundreds of nanometers thickness (per experiments of American
+    technologists [36]) the value σ=-1 arises: Foucault (eddy) currents form a frequency-independent positive flow
+    inductance Lф referred to the inductance terminals 3 and 4, displaying unexpected paramagnetic properties; σ=+1
+    is realized for eddy currents in conducting cylinders at macroscopic scales, which display their natural diamagnetic
+    properties (the cylinder height h2 then must exceed its radius R and significantly exceed 1 µm).'
+  quantities:
+  - 'σ = -1 (наноплёнки): парамагнитные свойства'
+  - 'σ = +1 (макроцилиндры): диамагнитные свойства'
+  - h2 > R и h2 >> 1 мкм (для σ=+1)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 4
+  - Фиг. 5
+  tags:
+  - electrical
+  - eddy-currents
+  - paramagnetism
+  - diamagnetism
+  - nanofilm
+  - debt-candidate
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA03-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Из (27) следует, что средняя за полупериод потоковая индуктивность Lф 45 дополнительной тонкой пленки
+    5 не зависит от частоты и может быть как положительной, так и отрицательной величиной.
+  statement_en: From (27), the half-period-averaged flow inductance Lф of the additional thin film does not depend
+    on frequency and can be either positive or negative; at h2<R the film thickness coincides with the elementary
+    current-vortex thickness only for h2 below one micron, where a positive frequency-independent flow inductance
+    is realized and the eddy currents display unexpected paramagnetic properties; at h2>1 µm with h2<R violated,
+    the conducting cylinder is either in negative frequency-independent inductance (strong diamagnetism at macroscopic
+    scales) or in frequency-dependent dynamic inductance vanishing at two characteristic frequencies.
+  quantities:
+  - Lф не зависит от частоты; знак ±
+  - положительная Lф при h2 < 1 мкм (h2<R)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 5
+  tags:
+  - electrical
+  - flow-inductance
+  - nanofilm
+  - debt-candidate
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA03-007
+  type: physics
+  facet: measurement
+  priority: normal
+  page: 11
+  quote_ru: Из таблиц 1 и 2 видно, что использование, например, алюминия при напылении дополнительной тонкой пленки
+    5 радиусом R=50 мкм и толщиной h2=100 нм позволяет
+  statement_en: 'From tables 1 and 2: using, e.g., aluminum for the deposited additional thin film of radius R=50
+    µm and thickness h2=100 nm gives an introduced film inductance Lф=50 nH referred to the inductance terminals
+    3 and 4, frequency-independent in 0.5-50 MHz; nichrome for the same geometry keeps the inductance constant in
+    20 MHz-2 GHz.'
+  quantities:
+  - R = 50 мкм
+  - h2 = 100 нм
+  - Lф = 50 нГн (алюминий)
+  - 0,5–50 МГц (Al)
+  - 20 МГц–2 ГГц (нихром)
+  equations: []
+  materials:
+  - алюминий
+  - нихром
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: вносимая индуктивность Lф
+    value: '50'
+    unit: нГн
+    conditions: алюминиевая плёнка R=50 мкм, h2=100 нм
+  schematic_refs:
+  - Табл. 1
+  - Табл. 2
+  tags:
+  - electrical
+  - measurement
+  - design-values
+  notes: ''
+  relations: []
+- id: SC-PA03-008
+  type: physics
+  facet: measurement
+  priority: normal
+  page: 12
+  quote_ru: Данные табл. 3 указывают на возможность дальнейшего уменьшения площади, занимаемой интегральной индуктивностью
+    с предлагаемой конструкцией. Такое уменьшение может привести к достижению предельных значений поверхностной
+    плотности индуктивности вплоть до 9,8 Гн/м2.
+  statement_en: 'Table 3 data indicate the possibility of further reducing the area occupied by the integrated inductance
+    of the proposed construction, up to limiting surface inductance densities of 9.8 H/m2; computer modeling (tables
+    1 and 2) confirms the claimed task: changing the additional thin film thickness from 50 nm to 350 nm changes
+    the inductance in the range from 100 to 14 nH, which is significantly better (5-50 times) than the maximum single-turn
+    inductance of known constructions achieved in one layer.'
+  quantities:
+  - предельная плотность индуктивности до 9,8 Гн/м2
+  - h2 = 50–350 нм ⇒ L = 100–14 нГн
+  - в 5–50 раз лучше одновитковых
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: поверхностная плотность индуктивности
+    value: до 9,8
+    unit: Гн/м2
+    conditions: предлагаемая конструкция с дополнительной тонкой плёнкой
+  - quantity: индуктивность при h2 = 50–350 нм
+    value: 100–14
+    unit: нГн
+    conditions: моделирование, табл. 1-2
+  schematic_refs:
+  - Табл. 3
+  tags:
+  - electrical
+  - surface-inductance-density
+  - modeling
+  notes: ''
+  relations: []
+- id: SC-PA03-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: 'За счет обнаруженных наноэффектов она позволяет реализовать в 5÷50 раз более высокие Стр.: 12 RU 2
+    614 188 C1 значения индуктивности, но только при строго определенных значениях толщин h2<<h1.'
+  statement_en: Thanks to the discovered nano-effects the proposed integrated-inductance construction allows realizing
+    5-50 times higher inductance values, but only at strictly defined thicknesses h2<<h1; the choice of the additional
+    thin film material allows shifting the working frequency range of the claimed inductance into a given frequency
+    band (the coil (current ring) inductance Lк for ~50 µm geometries does not exceed 1 nH up to frequencies of
+    order 1 GHz).
+  quantities:
+  - L × 5–50 при h2 << h1
+  - Lк ≤ 1 нГн до ~1 ГГц (геометрия ~50 мкм)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - nano-effects
+  - frequency-tuning
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim.
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

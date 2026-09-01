@@ -1,0 +1,791 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: WO04
+  section: works
+  title_ru: Каноническая физика гравитации, электричества и магнетизма для наукоёмких технологий
+  title_en: Canonical physics of gravitation, electricity and magnetism for science-intensive technologies
+  file: papers/works/kanonicheskaya-fizika-gravitatsii-elektrichestva-i-magnetizma-dlya-naukoyomnykh.pdf
+  source_url: http://146.190.233.254/docs/works/Каноническая физика гравитации, электричества и магнетизма для наукоёмных
+    технологий.pdf
+  md5: 4dbdff0fa85366ba6c2da0303854ea9e
+  pages_total: 10
+  retrieved: '2026-09-01'
+claims:
+- id: SC-WO04-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Канонические методы отношу к разделу знаний, называемому «аналитические методы в физике». Мощь этих
+    методов в том, что они позволяют представить решение задачи в известных физических переменных, наблюдаемых затем
+    в экспериментах.
+  statement_en: In solving various physical problems the quality of their mathematical description plays the most
+    important role; the nature of physical phenomena is very deeply revealed by the so-called canonical methods
+    of solving a certain class of differential equations, discovered in mathematical physics by the Irishman W.R.
+    Hamilton almost 200 years ago; the author classes canonical methods under the branch of knowledge called 'analytical
+    methods in physics'; the power of these methods is that they allow representing the solution of a problem in
+    known physical variables subsequently observed in experiments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - canonical-methods
+  - hamilton
+  - methodology
+  notes: ''
+  relations: []
+- id: SC-WO04-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: 'Каноны представляли собой законы сохранения, существующие при решении разнообразных задач: закон сохранения
+    энергии, закон сохранения импульса, момента импульса и их компонент.'
+  statement_en: 'Not so many such mathematical canons have been found in physics over 200 years; they first appeared
+    in Newtonian mechanics, gas- and hydrostatics, and optics; the canons were conservation laws existing in the
+    solution of various problems: the energy conservation law, the momentum conservation law, the angular momentum
+    law and their components.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conservation-laws
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO04-003
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: В 2000-ом году мне удалось найти математический канон нового, недавно экспериментально открытого, физического
+    объекта, названного «зарядовый кластер», К. Шоулдерс (Бодега, США, 1970 г.). Именно каноническое описание, основанное
+    на законе сохранения полного давления в газе взаимодействующих зарядов, и переводит зарядовый кластер в новый
+    физический объект.
+  statement_en: In 2000 the author managed to find the mathematical canon of a new, recently experimentally discovered
+    physical object named 'charge cluster' (K. Shoulders, Bodega, USA, 1970); precisely the canonical description
+    based on the conservation law of full pressure in the gas of interacting charges converts the charge cluster
+    into a new physical object.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - full-pressure-conservation
+  - EV
+  - shoulders
+  notes: ''
+  relations: []
+- id: SC-WO04-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Замечу, что открытие этого объекта не получило официального признания Нобелевского Комитета.
+  statement_en: The discovery of this object did not receive official recognition of the Nobel Committee; the Russian
+    Academy of Sciences placed this discovery into the category of 'discoveries' and stopped researching charge
+    clusters in its subdivisions.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recognition
+  - ran
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO04-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Интеграл позволил понять физические причины кратковременного удержания скопления одноимённых зарядов
+    в ограниченной области пространства.
+  statement_en: Later mathematical canons were built for other collective phenomena connected with gravitation (interaction
+    of mass particles) and the magnetic field (interaction of currents); the canonical description defined the Hamilton
+    Function of the considered systems as the integral of full pressure; the integral allowed understanding the
+    physical causes of the short-term retention of an accumulation of like charges in a bounded region of space;
+    the theory showed that both plane and cylindrical layers and charge bubbles can be held by the pressure of the
+    collective electric field of the system just as magnetic-field pressure holds hot plasma in thermonuclear fusion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - full-pressure-integral
+  - retention
+  - charge-bubbles
+  notes: ''
+  relations: []
+- id: SC-WO04-006
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Расчёт физических параметров микронных пузырьков зарядов с высокой степенью точности совпал с экспериментами
+    первооткрывателя этого объекта Кена Шоулдерса, называемого в наших научных технических кругах «Пророком твердотельной
+    микроэлектроники».
+  statement_en: The calculation of the physical parameters of micron charge bubbles coincided with high accuracy
+    with the experiments of the discoverer of this object Ken Shoulders, called in our scientific-technical circles
+    the 'Prophet of solid-state microelectronics'.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - model-validation
+  - charge-bubbles
+  - EV
+  - shoulders
+  notes: ''
+  relations: []
+- id: SC-WO04-007
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: В 2003 году математические результаты работы были проверены академиком Национальной Академии Наук Украины,
+    физиком, Барьяхтаром В.Г., давшим им самую высокую оценку.
+  statement_en: Over 10 years from 1990 about 20 scientific works were published by the author and the monograph
+    'Mechanisms of matter retention by a self-consistent field' was prepared and published; it was familiarized
+    with and supported by rector of the Kazan Chemical-Technological Institute Dyakonov S.G., RAS academicians Babeshko
+    V.A. and Krasovsky A.A.; in 2003 the mathematical results of the work were checked by academician of the National
+    Academy of Sciences of Ukraine, physicist Baryakhtar V.G., who gave them the highest evaluation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - aprobation
+  - baryakhtar
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO04-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Считаю, что Учёный совет не мог дать квалифицированную оценку этой работы, так как в его составе не
+    было ни одного доктора физико-математических наук, занимающегося темой «зарядовые кластеры» и имеющего опубликованные
+    научные работы по этой теме.
+  statement_en: In 2004 a meeting took place of the commission conducting the expertise of the doctoral dissertation
+    'Mechanisms of matter retention by a self-consistent field', unanimously defended at RSU, at the 'Institute
+    of Applied Physics of RAS'; the author considers the Academic Council could not give a qualified evaluation
+    of this work since its composition included not a single doctor of physical-mathematical sciences engaged in
+    the topic 'charge clusters' having published scientific works on this topic; the physical canon not understood
+    by the expertise turned out to be a 'Camel' that did not fit into the 'Needle's Eye' of requirements imposed
+    on doctoral dissertations in radiophysics.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - doctoral-expertise
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO04-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: В связи с этим, в моей стране новая физическая парадигма коллективно взаимодействующих систем в гравитации,
+    электричестве и магнетизме, официального признания радиофизиками не получила.
+  statement_en: In this connection, in the author's country the new physical paradigm of collectively interacting
+    systems in gravitation, electricity and magnetism did not receive official recognition from radiophysicists.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - paradigm
+  - recognition
+  notes: ''
+  relations: []
+- id: SC-WO04-010
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Канонические методы решения были обнаружены мною в 2000-ом году для уравнений, общий вид которых, по
+    структуре, совпадает с уравнением Пуассона специального вида
+  statement_en: The canonical solution methods were discovered by the author in 2000 for equations whose general
+    form coincides in structure with the Poisson equation of a special kind Δφ = f(φ) (1); in the case of plane
+    symmetry the equation has the form φ″ = f(φ) (2).
+  quantities: []
+  equations:
+  - \Delta\varphi = f(\varphi)
+  - \varphi'' = f(\varphi)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - poisson-equation
+  - canonical-methods
+  notes: 'OCR-degraded: glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-WO04-011
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Вводя обобщённую потенциальную функцию U ( )   f ( )d , приходим к интегралу «живых сил» (по терминологии
+    Э. Камке)
+  statement_en: 'In equation (2) the order of the differential equation can be lowered and the Hamilton function
+    of the system obtained as the integral of full pressure; the algorithm for this class of equations is given
+    in Kamke''s ''Handbook of Ordinary Differential Equations'', chapter VI, p. 139: multiplying both sides of (2)
+    by 2φ′ and writing d(φ′²)/dx = 2φ′f(φ), introducing the generalized potential function U(φ) = −∫f(φ)dφ leads
+    to the integral of ''living forces'' (in Kamke''s terminology): φ′²/2 + U(φ) = P = const (3).'
+  quantities: []
+  equations:
+  - \frac{d(\varphi'^2)}{dx} = 2\varphi' f(\varphi)
+  - \frac{\varphi'^2}{2} + U(\varphi) = P = \mathrm{const}
+  - U(\varphi) = -\int f(\varphi)\,d\varphi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - living-forces-integral
+  - kamke
+  - full-pressure
+  notes: 'OCR-degraded: glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-WO04-012
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: 'Во всех указанных коллективно взаимодействующих физических системах сохраняется полное давление, которое
+    всегда содержит в себе два слагаемых: давление поля и давление частиц (либо зарядов, либо токов).'
+  statement_en: 'In the class of considered equations the function φ can play the role of a coordinate-dependent
+    potential; the derivative over the coordinate is the field strength (gravitational, electric, or magnetic);
+    the square of the strength, up to a constant quantity, coincides with the field pressure; the potential function
+    plays the role of the pressure of either mass particles (gravitation), or like charges (electrostatics), or
+    currents flowing in conductors (magnetism); in all the indicated collectively interacting physical systems the
+    full pressure is conserved, which always contains two terms: the field pressure and the pressure of the particles
+    (either charges or currents).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - full-pressure
+  - field-pressure
+  - interpretation
+  notes: ''
+  relations: []
+- id: SC-WO04-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Фундаментальный закон сохранения в рассматриваемых разделах физики имеет такой же высокий уровень значимости,
+    какой, в свое время, в механике имел закон сохранения механической энергии.
+  statement_en: The fundamental conservation law in the considered branches of physics has the same high level of
+    significance which the mechanical energy conservation law once had in mechanics.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conservation-law
+  - significance
+  notes: ''
+  relations: []
+- id: SC-WO04-014
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: 'Теперь, полученное соотношение (2) можно трактовать как равенство градиентов давлений поля и давления
+    частиц, порождающих это поле. Что означает: все рассматриваемые системы удерживаются в ограниченной области
+    пространства градиентом давления собственного коллективного поля.'
+  statement_en: 'The physical causes of the conservation law are exceptional: if (3) is differentiated with respect
+    to the coordinate one arrives at equation (2); the obtained relation (2) can be treated as the equality of the
+    pressure gradients of the field and of the pressure of the particles generating this field; this means that
+    all the considered systems are held in a bounded region of space by the pressure gradient of their own collective
+    field; further integration in (3) is usually carried out in the class of even functions; all solutions contain
+    the integral of full pressure of the gaseous system and depend on it.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pressure-gradient
+  - retention
+  - even-functions
+  notes: ''
+  relations: []
+- id: SC-WO04-015
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Р. Эмден в 1907 году в монографии «Газовые шары» угадал математическую структуру конечного уравнения
+    в виде (1). Он считал, что уравнение описывает равновесные состояния газовых шаров.
+  statement_en: 'Researchers stumbled upon equation (1) at the beginning of the last century: R. Emden in 1907 in
+    the monograph ''Gas balls'' guessed the mathematical structure of the final equation in the form (1); he considered
+    the equation described the equilibrium states of gas balls but failed to find meaningful physical solutions.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO04-016
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: В 1914 году нобелевский лауреат М. Лауэ в статье «Термоэлектроны» угадал структуру уравнения, которое
+    по виду было похоже на уравнение Р. Эмдена, но описывало равновесное состояние одноимённых зарядов.
+  statement_en: In 1914 the Nobel laureate M. Laue in the article 'Thermoelectrons' guessed the structure of an
+    equation similar in form to R. Emden's equation but describing the equilibrium state of like charges; M. Laue
+    also failed to see the fundamental conservation law of the system, considering it an arbitrary constant.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - laue
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO04-017
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: В 50-х годах прошлого века советский физик-теоретик Я. Френкель в своей монографии «Статистическая физика»
+    построил две системы уравнений.
+  statement_en: 'In the 1950s of the last century the Soviet theoretical physicist Ya. Frenkel in his monograph
+    ''Statistical Physics'' built two systems of equations: one described a gas of collectively interacting gravitating
+    particles, the other a gas of charged particles of one sign; these systems of equations reduced, in the final
+    analysis, to equations coinciding with the equations of R. Emden and M. Laue; but Ya. Frenkel apparently did
+    not know this, because his work does not refer to this coincidence; in his opinion both systems of equations
+    described states of gaseous substance held by a self-consistent field.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frenkel
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO04-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Существующий в этих системах интеграл полного давления порождает универсальные силы полевого происхождения,
+    удерживающие разнообразные газовые скопления.
+  statement_en: The integral of full pressure existing in these systems generates universal forces of field origin
+    retaining various gas accumulations; by historical justice the forces of field origin discovered by the author
+    should be named the Emden-Laue-Frenkel forces, after outstanding physicists of the world of the last century.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - universal-forces
+  - field-origin
+  - emden-laue-frenkel
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO04-019
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: В гравитационной теории не искривлённого пространства- времени эти силы удерживают массовые частицы
+    от коллапса и от пинча.
+  statement_en: In the gravitational theory of non-curved spacetime these forces hold mass particles from collapse
+    and from pinch; in systems of like charges these forces either hold electrons from collapse and pinch or hold
+    positive charges from Coulomb repulsion; in magnetism the same forces either throw the alternating current onto
+    the surface of the conductor (skin effect) or form a hollow current tube inside the conductor — the Current
+    Crowding Effect (Effect of Supercompression of Current).
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - hollow current tube inside conductor
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - universal-forces
+  - skin-effect
+  - current-crowding
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO04-020
+  type: physics
+  facet: geometry
+  priority: normal
+  page: 5
+  quote_ru: Каноническая форма скопления – газовый пузырь с тонкой стенкой, внутри которого вещества нет.
+  statement_en: 'Gas of mass particles: it can take the most diverse forms with different symmetries — plane, cylindrical,
+    disk, spherical, toroidal; it can be shapeless formations localized in a bounded region of space; the canonical
+    form of the accumulation is a gas bubble with a thin wall inside which there is no substance; the sizes depend
+    on the temperature, number, and mass of the particles held by the collective field; the radii can be from 1
+    km to solar-system sizes and above; the atmospheres of the accumulations can have a sharp boundary or be diffuse
+    — everything depends on the ratio of the temperatures: the gas temperature and the characteristic temperature
+    of the system.'
+  quantities:
+  - radii from 1 km to solar-system sizes and above
+  equations: []
+  materials: []
+  geometry:
+  - thin-wall gas bubble
+  - radii 1 km to solar-system scale
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gas-bubble
+  - geometry
+  - mass-particles
+  notes: ''
+  relations: []
+- id: SC-WO04-021
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: 'Типичные пузыри, наблюдаемые в космосе: газовые туманности, звёзды, нейтронные звёзды, пульсары, квазары.
+    Солнце – плазменный газовый пузырь с высокой температурой 107 К.'
+  statement_en: 'Typical bubbles observed in space: gas nebulae, stars, neutron stars, pulsars, quasars; the Sun
+    is a plasma gas bubble with a high temperature of 10^7 K; the wall thickness of the solar bubble can be an order
+    of magnitude less than the radius; it is unclear how the huge pressure forces arising inside any star can be
+    compensated by the very weak gravitational forces.'
+  quantities:
+  - Sun temperature 1e7 K
+  - wall thickness ~ order less than radius
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - stars
+  - sun
+  - gas-bubble
+  - debt-candidate
+  notes: 'OCR-degraded: superscript flattened (107 = 10^7).'
+  relations: []
+- id: SC-WO04-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Тунгусский феномен – холодный газовый пузырь из ледяной пыли. Был выброшен в космос ледяными гейзерами
+    Энцелада.
+  statement_en: The Tunguska phenomenon is a cold gas bubble of icy dust thrown into space by the icy geysers of
+    Enceladus; estimates show that the outer radius of the bubble could be ~10 km and the inner ~1 km; the retained
+    mass from 10^8 to 10^10 tons of ice; black holes in the centers of galaxies with masses from 10^6 to 10^9 solar
+    masses are gas bubbles of neutrons, hydrogen, or helium of solar-system sizes and temperature from 10^11 to
+    10^12 K.
+  quantities:
+  - outer radius ~10 km, inner ~1 km
+  - retained mass 1e8–1e10 tons of ice
+  - SMBH masses 1e6–1e9 solar masses
+  - SMBH temperature 1e11–1e12 K
+  equations: []
+  materials:
+  - icy dust
+  - neutrons
+  - hydrogen
+  - helium
+  geometry:
+  - bubble outer radius ~10 km, inner ~1 km
+  - SMBH bubbles of solar-system sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - enceladus
+  - black-holes
+  - gas-bubbles
+  - debt-candidate
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-WO04-023
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Энергия взаимодействия массовых частиц с полем (энергия связи) огромна и может быть как положительной,
+    так и отрицательной величиной.
+  statement_en: The interaction energy of mass particles with the field (binding energy) is enormous and can be
+    both a positive and a negative quantity; it will increase or decrease the observed mass of the accumulation
+    compared with the additive one.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - binding-energy
+  - mass-defect
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO04-024
+  type: physics
+  facet: geometry
+  priority: core
+  page: 5
+  quote_ru: 'Каноническая форма скопления – газовый пузырь с тонкой стенкой, внутри которого вещества нет. Размеры
+    зависят от температуры, числа и массы частиц, удерживаемых коллективным полем. Радиусы могут быть от 1 км до
+    размеров солнечной системы и выше. Атмосферы скоплений могут быть с резкой границей и с диффузной. Всё зависит
+    от соотношения температур: температуры газа и характеристической температуры системы. Типичные пузыри, наблюдаемые
+    в космосе: газовые туманности, звёзды, нейтронные звёзды, пульсары, квазары. Солнце – плазменный газовый пузырь
+    с высокой температурой 107 К. Толщина стенки солнечного пузыря может быть на порядок меньше радиуса. Непонятно,
+    как огромные силы давления, возникающие внутри любой звезды, могут быть скомпенсированы очень слабыми гравитационными
+    силами? Тунгусский феномен – холодный газовый пузырь из ледяной пыли. Был выброшен в космос ледяными гейзерами
+    Энцелада. Оценки показывают, что внешний радиус пузыря мог быть 10 км, а внутренний 1 км. Удерживаемая масса
+    от 108 до 1010 тонн льда. Чёрные дыры в центрах галактик с массами от 106 до 109 масс Солнца  газовые пузыри
+    из нейтронов, водорода, либо гелия размерами в солнечную систему и температурой от 1011 до 1012 К. Энергия взаимодействия
+    массовых частиц с полем (энергия связи) огромна и может быть как положительной, так и отрицательной величиной.
+    Она будет увеличивать, либо уменьшать наблюдаемую массу скопления по сравнению с аддитивной. Газ зарядов. Может
+    принимать самые разнообразные формы с различной симметрией: плоской, цилиндрической, дисковой, сферической и
+    тороидальной. Может быть бесформенными образованиями, локализованными в ограниченной области пространства. Каноническая
+    форма скопления – газовый пузырь с тонкой стенкой, внутри которого зарядов нет.'
+  statement_en: 'Gas of charges: it can take the most diverse forms with different symmetries — plane, cylindrical,
+    disk, spherical, toroidal; it can be shapeless formations localized in a bounded region of space; the canonical
+    form of the accumulation is a gas bubble with a thin wall inside which there are no charges; it can have a plane,
+    tubular, and toroidal configuration; the sizes depend on the temperature, number, and magnitude of the particle
+    charges held by the collective field; the radii can be from 50 cm to nuclear sizes; the atmospheres of the accumulations
+    can have a sharp boundary, be diffuse, and have a feature at the boundary; everything depends on the ratio of
+    the temperatures — of the charge gas and the characteristic temperature of the system — and also on the sign
+    of the charges of the accumulation; the distributions of a gas of like positive charges differ from the distributions
+    of a gas of negative charges; a gas plasma with uncompensated charge has its own class of distributions which
+    can be finite at the boundary.'
+  quantities:
+  - radii from 50 cm to nuclear sizes
+  equations: []
+  materials: []
+  geometry:
+  - thin-wall charge bubble; plane, tubular, toroidal configurations
+  - radii 50 cm to nuclear sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-gas
+  - geometry
+  - charge-bubbles
+  notes: ''
+  relations: []
+- id: SC-WO04-025
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: 'Только каноническая теория электричества смогла разрешить древний парадокс электростатики: одноимённые
+    заряды, сообщённые металлической поверхности, удерживаются от разлёта градиентом давлением собственного электрического
+    поля.'
+  statement_en: 'Typical charge bubbles observed in nature: a thin-wall charge bubble arising on the surface of
+    a metal ball at its charging — in electrostatics the bubble radius coincides with the radius of the ball; only
+    the canonical theory of electricity was able to resolve the ancient paradox of electrostatics: like charges
+    imparted to a metal surface are held from dispersal by the pressure gradient of their own electric field.'
+  quantities: []
+  equations: []
+  materials:
+  - metal ball
+  geometry:
+  - bubble radius = ball radius
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrostatics-paradox
+  - retention
+  - charge-bubbles
+  notes: ''
+  relations: []
+- id: SC-WO04-026
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: Прикатодный зарядовый кластер К.Шоулдерса микронных размеров в газе электронов.
+  statement_en: 'Typical charge bubbles observed in nature also include: Shoulders'' near-cathode charge cluster
+    of micron sizes in an electron gas; spherical plasmoids in the atmosphere; laboratory prototypes of ball lightning
+    and ball lightning itself — a thin-wall bubble with uncompensated charge; charge clusters discovered in diverse
+    experiments with anomalous energy release during current flow in gaseous, liquid, and solid media; space-charge
+    waves (SCW) observed in a conductor during current flow — a periodic sequence of charge bubbles; beaded lightning
+    consists of a sequence of plasmoid bubbles; the nucleus of any atom is the smallest thin-wall charge bubble
+    in nature of fermi sizes with a high temperature of the order of 10^11 K.'
+  quantities:
+  - atomic nucleus temperature ~ 1e11 K
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders-cluster
+  - ball-lightning
+  - space-charge-waves
+  - nucleus
+  - beaded-lightning
+  notes: 'OCR-degraded: superscript flattened (1011 = 10^11).'
+  relations: []
+- id: SC-WO04-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Энергия взаимодействия зарядов с полем (энергия связи) огромна и может быть как положительной, так и
+    отрицательной величиной.
+  statement_en: The interaction energy of charges with the field (binding energy) is enormous and can be both positive
+    and negative; in some cases it can be two-three orders greater than the binding energy of the uranium-235 nucleus;
+    the interaction energy is stored and usually radiated in the processes of synthesis/decay of charge bubbles;
+    if charge bubbles form between metal electrodes, the decay of a bubble throws the excess energy into the capacitor
+    in the form of a Maxwell displacement current closed onto the electrodes; it replenishes the energy of the electric
+    circuit of the system in which the charge bubbles formed.
+  quantities:
+  - binding energy 2–3 orders above U-235 binding energy (in some cases)
+  equations: []
+  materials:
+  - metal electrodes
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - binding-energy
+  - synthesis-decay
+  - displacement-current
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO04-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Пузырьки зарядов, движущиеся между металлическими электродами, образуют конденсатор с осциллирующим
+    дипольным моментом.
+  statement_en: Charge bubbles moving between metal electrodes form a capacitor with an oscillating dipole moment;
+    the oscillating dipole moment creates a Maxwell current whose magnitude is proportional to the rate of change
+    of the flux of the electric induction vector (the law of electrodynamical induction (EDI) lost in time, in which
+    a variable flux of the electric field generates a variable Maxwell displacement current); the processes of generation
+    of alternating displacement current do not obey the energy conservation laws; the EDI law allows creating devices
+    for converting alternating current both with power reduction and with superunity power increase in an electric
+    circuit — an exceptionally promising direction of creating various technical devices autonomously supplying
+    inexhaustible electric energy to the consumer.
+  quantities: []
+  equations: []
+  materials:
+  - metal electrodes
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ODDM
+  - electrodynamical-induction
+  - superunity-conversion
+  - perpetual-energy
+  - debt-candidate
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO04-029
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Газ токов. Любой ток, текущий в металле, представляет собой поток заряженных частиц одного знака, приходящих
+    из источника.
+  statement_en: 'Gas of currents: any current flowing in a metal represents a flow of charged particles of one sign
+    arriving from the source; on the one hand the Coulomb force acts between them; on the other hand, currents of
+    one direction attract each other by the Ampere force; the moving charges will also interact with the fields
+    of the crystal lattice and with their own field; the interaction must depend substantially on the amplitude
+    and frequency of the flowing current, the diameter of the wire, and its resistivity; the text then asks how
+    to explain the incomprehensible phenomenon arising during current flow — like charges are not thrown off the
+    surface by Coulomb forces.'
+  quantities: []
+  equations: []
+  materials:
+  - metal
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-gas
+  - coulomb-force
+  - ampere-force
+  notes: ''
+  relations: []

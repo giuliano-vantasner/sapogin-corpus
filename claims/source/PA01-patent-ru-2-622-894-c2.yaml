@@ -1,0 +1,204 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: PA01
+  section: patents
+  title_ru: Планарная индуктивность с расширенным частотным диапазоном (патент RU 2 622 894 C2)
+  title_en: Planar inductance with extended frequency range (patent RU 2 622 894 C2)
+  file: papers/patents/patent-ru-2-622-894-c2.pdf
+  source_url: http://146.190.233.254/docs/patents/Патент RU 2 622 894 C2.pdf
+  md5: 5b69b08ef938637d52d5d2d42d416e70
+  pages_total: 16
+  retrieved: '2026-09-01'
+claims:
+- id: SC-PA01-001
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 9
+  quote_ru: 1. Планарная индуктивность с расширенным частотным диапазоном, содержащая первый (1) сигнальный и второй
+    (2) общий выводы индуктивности, которые соединены по поверхности подложки (3) металлической пленкой (4), образующей
+    витки планарной индуктивности, первый (5) неинвертирующий повторитель напряжения, вход которого 35 соединен
+    с первым (6) участком металлической пленки (4), связанным с первым (1) сигнальным выводом индуктивности, общий
+    металлический слой (7), на котором размещена подложка (3), отличающаяся тем, что в схему введен первый (8) неинвертирующий
+    повторитель тока с низким входным и высоким выходным сопротивлениями, выход которого соединен с первым (6) участком
+    металлической 40 пленки (4), связанным с первым (1) сигнальным выводом индуктивности, а вход через первый (9)
+    корректирующий конденсатор подключен к выходу первого (5) неинвертирующего повторителя напряжения.
+  statement_en: 'Patent claim 1 (verbatim): a planar inductance with extended frequency range containing a first
+    (1) signal and second (2) common terminals connected along the substrate (3) surface by a metal film (4) forming
+    the planar-inductance coils, a first (5) non-inverting voltage follower whose input is connected to the first
+    (6) section of the metal film (4) tied to the first (1) signal terminal, and a common metal layer (7) carrying
+    the substrate (3), characterized in that a first (8) non-inverting current follower with low input and high
+    output impedances is introduced into the circuit, its output connected to the first (6) section of the metal
+    film (4) and its input, through a first (9) correcting capacitor, connected to the output of the first (5) non-inverting
+    voltage follower.'
+  quantities: []
+  equations: []
+  materials:
+  - металлическая пленка (4)
+  - подложка (3)
+  - общий металлический слой (7)
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 2
+  tags:
+  - electrical
+  - patent-claim
+  - planar-inductance
+  notes: Patent claim (formula of invention, item 1) extracted verbatim; legal-technical claim. quote keeps pdftotext
+    column/page artifacts (line numbers, page headers) verbatim. quote keeps pdftotext column/page artifacts verbatim.
+  relations: []
+- id: SC-PA01-002
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 9
+  quote_ru: 2. Планарная индуктивность с расширенным частотным диапазоном по п. 1, отличающаяся тем, что коэффициент
+    передачи по току первого (7) неинвертирующего 45 повторителя тока и коэффициент передачи по напряжению первого
+    (5) неинвертирующего повторителя напряжения близки к единице.
+  statement_en: 'Patent claim 2 (verbatim): the planar inductance of claim 1, characterized in that the current
+    transfer coefficient of the first (7) non-inverting current follower and the voltage transfer coefficient of
+    the first (5) non-inverting voltage follower are close to unity (Ki≈1, Ky≈1).'
+  quantities:
+  - Ki ≈ 1
+  - Ky ≈ 1
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - patent-claim
+  notes: Patent claim (formula of invention, item 2) extracted verbatim. quote keeps pdftotext column/page artifacts
+    (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA01-003
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 9
+  quote_ru: '3. Планарная индуктивность с расширенным частотным диапазоном по п. 1, отличающаяся тем, что металлическая
+    пленка (4), образующая витки планарной Стр.: 9 RU 2 622 894 C2 индуктивности, содержит, кроме упомянутого в
+    п. 1 первого (6) участка металлической пленки (4), последовательно соединенные по длине второй (10) и N-й (11)
+    (N=3, 4, …) дополнительные участки металлической пленки (4), к электрическим выводам от которых подключены входы
+    соответственно второго (12) и N-го (13) (N=3, 4, …) 5 неинвертирующих повторителей напряжения, а также выходы
+    второго (14) и N-го (15) (N=3, 4, …) неинвертирующих повторителей тока с низким входным и высоким выходным сопротивлениями,
+    причем между выходами второго (12) и N-го (13) (N=3, 4, …) неинвертирующих повторителей напряжения и входами
+    второго (14) и N-го (15) (N=3, 4, …) неинвертирующих повторителей тока включены соответствующие второй 10 (16)
+    и N-й (17) (N=3, 4, …) корректирующие конденсаторы.'
+  statement_en: 'Patent claim 3 (verbatim): the planar inductance of claim 1, characterized in that the metal film
+    (4) forming the coils contains, besides the first (6) section, a second (10) and an N-th (11) (N=3,4,...) additional
+    film sections connected in series along the length, to whose electrical terminals the inputs of the second (12)
+    and N-th (13) non-inverting voltage followers and the outputs of the second (14) and N-th (15) non-inverting
+    current followers are connected, with corresponding second (16) and N-th (17) correcting capacitors inserted
+    between the voltage-follower outputs and the current-follower inputs.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 2
+  tags:
+  - electrical
+  - patent-claim
+  - planar-inductance
+  notes: Patent claim (formula of invention, item 3) extracted verbatim. quote keeps pdftotext column/page artifacts
+    (line numbers, page headers) verbatim. quote keeps pdftotext column/page artifacts verbatim.
+  relations: []
+- id: SC-PA01-004
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 5
+  quote_ru: Основная задача предлагаемого изобретения состоит в расширении диапазона 40 рабочих частот планарной
+    индуктивности без применения в ее конструкции проводящего лепесткового экрана.
+  statement_en: The main object of the invention is to extend the working-frequency range of the planar inductance
+    without using a conducting petal screen in its construction, which essentially simplifies the inductance design
+    because the number of deposited conducting layers decreases (the closest prototype, US 6.833.603, requires a
+    special conducting screen under the metal-film coils, without which the own resonance frequency ω0 takes small
+    values).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 1
+  - Фиг. 2
+  tags:
+  - electrical
+  - planar-inductance
+  - frequency-range
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA01-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Из формулы (3) следует, что при Ki=1, Ky=1 за счет выбора отношения емкостей 20 корректирующих конденсаторов
+    18 (С18) и 9 (С9) (например, С9≈С18) можно обеспечить увеличение ω0 заявляемой интегральной индуктивности в
+    несколько раз.
+  statement_en: 'From formula (3): at Ki=1, Ky=1, by choosing the ratio of the correcting-capacitor capacitances
+    18 (C18) and 9 (C9) (e.g. C9≈C18) the own resonance frequency ω0 of the claimed integrated inductance can be
+    increased several times; the graphs of figs. 5, 6, 8, 9 show that ω0 increases (depending on the inductance
+    parasitic capacitances) by a factor of 2-4.'
+  quantities:
+  - ω0 ↑ в несколько раз (С9≈С18)
+  - ω0 ↑ в 2-4 раза (моделирование)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 5
+  - Фиг. 6
+  - Фиг. 8
+  - Фиг. 9
+  tags:
+  - electrical
+  - resonance-frequency
+  - compensation
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim. quote keeps pdftotext
+    column/page artifacts verbatim.
+  relations: []
+- id: SC-PA01-006
+  type: physics
+  facet: material
+  priority: normal
+  page: 8
+  quote_ru: 'например, при использовании транзисторов SiGe техпроцесса (IHP, Германия) с fα=200- Стр.: 8 RU 2 622
+    894 C2 300 ГГц, неинвертирующий усилитель тока 8 и неинвертирующий повторитель напряжения 5 могут работать в
+    крайне высоком диапазоне частот (50÷80 ГГц), обеспечивая эффективную компенсацию паразитных емкостей.'
+  statement_en: The claimed inductance uses non-inverting current amplifiers (e.g. common-base stages) and non-inverting
+    voltage followers (emitter followers etc.); with SiGe-process transistors (IHP, Germany) with fα=200-300 GHz,
+    the non-inverting current amplifier 8 and voltage follower 5 can operate in the extremely high frequency range
+    50-80 GHz, providing effective compensation of parasitic capacitances.
+  quantities:
+  - fα(SiGe) = 200–300 ГГц
+  - рабочий диапазон компенсации 50–80 ГГц
+  equations: []
+  materials:
+  - SiGe транзисторы
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - SiGe
+  - frequency-range
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim.
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

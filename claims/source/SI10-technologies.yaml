@@ -1,0 +1,586 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI10
+  section: site
+  title_ru: Наукоёмкие технологии
+  title_en: Science-Intensive Technologies
+  file: site/technologies.md
+  source_url: https://sapogin.com/technologies
+  md5: 75ffd894709d02cee66072d40c108a6e
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI10-001
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Приближение «Армагеддона» передовых нанотехнологий
+  quote_ru: 'Передовые нано-технологии Китая при изготовлении транзисторов с размерами меньше 5 нм столкнулись с проблемой: транзисторы стали взрываться.'
+  statement_en: Sapogin reports advanced Chinese nanotechnologies manufacturing sub-5-nm transistors have hit the problem that transistors began to explode.
+  quantities:
+  - transistor size < 5 nm
+  equations: []
+  materials: []
+  geometry:
+  - transistors below 5 nm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nanotechnology
+  - transistor-explosions
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-002
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Приближение «Армагеддона» передовых нанотехнологий
+  quote_ru: прямолинейный ток цилиндрического проводника с диаметром меньше 20 нм, на гигагерцах, выдавливается из проводника наружу за счёт известного скин-эффекта. Выдавливание тока на поверхность настолько
+    сильное, что внутри тока образуется цилиндрическая полость, в которой нет зарядов.
+  statement_en: Sapogin asserts that in a cylindrical conductor of diameter below 20 nm at gigahertz frequencies the current is expelled outward by the skin effect so strongly that a charge-free cylindrical
+    cavity forms inside the current.
+  quantities:
+  - wire diameter < 20 nm
+  - 'frequency: GHz'
+  equations: []
+  materials: []
+  geometry:
+  - cylindrical conductor, internal charge-free cavity
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nanowire
+  - skin-effect
+  - evo-generation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-003
+  type: physical
+  facet: process
+  priority: core
+  page: § Приближение «Армагеддона» передовых нанотехнологий
+  quote_ru: Электроны, вышедшие на поверхность проводника, не выбрасываются наружу действием силы Кулона, а образуют зарядовый кластер внешней оболочки с очень тонкой стенкой. Кластер одноимённых зарядов
+    удерживается в стенке давлением собственного электрического поля так же, как давление магнитного поля удерживает горячую плазму при термоядерном синтезе. Равновесие давления токов и давления поля заканчивается
+    взрывом на скачке удельного сопротивления проводника на p-n переходе.
+  statement_en: Sapogin asserts electrons emerging at the conductor surface form a thin-walled outer-shell charge cluster held in the wall by its own electric-field pressure (as magnetic pressure holds
+    hot plasma in fusion), and the current-pressure/field-pressure equilibrium ends in an explosion at the conductor's resistivity jump on a p-n junction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - very thin-walled outer shell cluster
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo-generation
+  - p-n-junction
+  - explosion
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-004
+  type: physics
+  facet: theory
+  priority: core
+  page: § Приближение «Армагеддона» передовых нанотехнологий
+  quote_ru: Приближающийся «Армагеддон» нано-технологий поможет решить проблему создания новых технических устройств, работающих на кольцевых токах Ампера-Фуко, имеющих радиусы 0,1 нм и меньше. На них можно
+    реализовать суб-нано компьютеры и технические устройства с самым низким потреблением электрической энергии.
+  statement_en: Sapogin asserts the approaching 'Armageddon' of nanotechnologies will help create devices operating on Ampère–Foucault ring currents of radii 0.1 nm and less, enabling sub-nano computers
+    and ultra-low-power devices.
+  quantities:
+  - ring current radius <= 0.1 nm
+  equations: []
+  materials: []
+  geometry:
+  - ring currents of radius 0.1 nm and less
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - sub-nano-computers
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-005
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Неисчерпаемык источники энергии на токе смещения Максвелла
+  quote_ru: Последние 50 лет проводились многочисленные эксперименты, в которых фиксировалось аномальное выделение энергии. В экспериментах использовались два электрода конденсатора, между которыми помещались
+    различные проводящие среды (газообразные, жидкие, твёрдые).
+  statement_en: Sapogin reports that over the last 50 years numerous experiments recorded anomalous energy release using two capacitor electrodes with various conducting media (gaseous, liquid, solid) placed
+    between them.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - anomalous-energy
+  - two-electrode-experiments
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-006
+  type: physics
+  facet: theory
+  priority: core
+  page: § Неисчерпаемык источники энергии на токе смещения Максвелла
+  quote_ru: Анализ электрических свойств обсуждаемых схем указал на существование в них неизвестного ранее физического принципа преобразования мощности током смещения Максвелла, который позволяет понять,
+    объяснить и рассчитать неожиданное перераспределение энергии в упомянутых схемах.
+  statement_en: Sapogin asserts analysis of the discussed circuits' electrical properties revealed a previously unknown physical principle of power conversion by the Maxwell displacement current, which
+    explains and quantifies the unexpected energy redistribution in those circuits.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - displacement-current
+  - power-conversion
+  - over-unity
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-007
+  type: physics
+  facet: theory
+  priority: core
+  page: § Неисчерпаемык источники энергии на токе смещения Максвелла
+  quote_ru: В заметке сформулирован закон электродинамической индукции, порождающий ток смещения Максвелла. Исследуются физические свойства конденсатора с осциллирующим дипольным моментом.
+  statement_en: Sapogin states the note formulates the law of electrodynamic induction generating the Maxwell displacement current and investigates the physical properties of a capacitor with an oscillating
+    dipole moment.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edi-law
+  - oscillating-dipole
+  - kodm
+  notes: ''
+  relations: []
+- id: SC-SI10-008
+  type: physics
+  facet: process
+  priority: core
+  page: § Неисчерпаемык источники энергии на токе смещения Максвелла
+  quote_ru: Предложена закольцованная энергетическая цепочка, позволяющая создать автономный, персональный, неисчерпаемый источник электрической энергии переменного тока.
+  statement_en: Sapogin proposes a closed-loop energy chain enabling an autonomous, personal, inexhaustible source of AC electric energy.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - closed-loop-energy-chain
+  - inexhaustible-source
+  - over-unity
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-009
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § Устройства сверхединичного преобразования мощности на токе смещения Максвелла
+  quote_ru: Он смог «рассмотреть» пикосекундную структуру тока, возникающего между двумя электродами в вакууме, при импульсном напряжении порядка 10 кВ. Оказалось, что ток в вакуумном промежутке, ограниченным
+    острийным катодом и планарным анодом, может дробиться на порции размерами до 10-и микрометров, содержащие в кластере от 10^(8) до 10^(11) электронов.
+  statement_en: 'Sapogin reports Shoulders resolved the picosecond current structure between two electrodes in vacuum at pulsed voltage of order 10 kV: current in the vacuum gap bounded by a tip cathode
+    and planar anode can fragment into portions up to 10 micrometres in size containing 1e8 to 1e11 electrons per cluster.'
+  quantities:
+  - pulse voltage ~ 10 kV
+  - portion size up to 10 micrometres
+  - cluster charge 1e8..1e11 electrons
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: pulse voltage
+    value: ~10
+    unit: kV
+    conditions: vacuum gap, tip cathode, planar anode
+  - quantity: portion size
+    value: up to 10
+    unit: um
+    conditions: current fragmentation
+  - quantity: cluster electron count
+    value: 1e8..1e11
+    unit: electrons
+    conditions: per portion
+  schematic_refs: []
+  tags:
+  - shoulders
+  - charge-cluster
+  - evo
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-010
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Устройства сверхединичного преобразования мощности на токе смещения Максвелла
+  quote_ru: Теперь порция зарядов многими Воспринимается, как локализованный на короткое время в ограниченной области пространства пузырёк зарядов, имеющий тонкую стенку.
+  statement_en: Sapogin asserts the charge portion is now perceived by many as a charge bubble localized briefly in a bounded region of space, having a thin wall.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-bubble
+  - evo
+  - terminology
+  notes: Source capitalization 'Воспринимается' mid-sentence preserved verbatim.
+  relations: []
+- id: SC-SI10-011
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Устройства сверхединичного преобразования мощности на токе смещения Максвелла
+  quote_ru: Похожие явления, связанные с дискретностью протекающего тока в проводящих средах, были обнаружены в газовом разряде водородной плазмы Б. Каторгиным [2] (НПО Энергомаш, Химки, 2009). Г. Месяц
+    в потоке взрывной термоэлектронной эмиссии обнаружил «эктоны» - лавину электронов из металла [3].
+  statement_en: Sapogin reports similar current-discreteness phenomena in conducting media were found by B. Katorgin in hydrogen-plasma gas discharge (NPO Energomash, Khimki, 2009), and G. Mesyats discovered
+    'ectons' — avalanches of electrons from metal — in explosive thermionic emission flow.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - katorgin
+  - mesyats
+  - ectons
+  - current-discreteness
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI10-012
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Устройства сверхединичного преобразования мощности на токе смещения Максвелла
+  quote_ru: Изучение высоковольтного электролиза в тяжёлой воде Флейшманом и Понсом косвенно показало наличие пузырьков зарядов, обогащающих ток. Считаю, что за аномальное выделение тепла были ответственны
+    процессы синтеза-распада пузырьков заряда, а не холодный синтез ядер.
+  statement_en: Sapogin asserts study of high-voltage electrolysis in heavy water by Fleischmann and Ponds indirectly showed the presence of charge bubbles enriching the current, and that anomalous heat
+    release was caused by charge-bubble synthesis-decay processes, not cold nuclear fusion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fleischmann-pons
+  - charge-bubbles
+  - anomalous-heat
+  - cnf-adjudication
+  - transmutation
+  notes: Sapogin's own adjudication of the excess-heat cause.
+  relations: []
+- id: SC-SI10-013
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § Устройства сверхединичного преобразования мощности на токе смещения Максвелла
+  quote_ru: В некоторых случаях фиксировалось большое выделение тепла, а в других случаях выделение тепла не наблюдалось.
+  statement_en: Sapogin reports that in high-voltage two-electrode experiments across various conducting media, in some cases large heat release was recorded while in others no heat release was observed.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - anomalous-heat
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-014
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § Электрические накопители избыточной энергии искусственной плазменной неустойчивости – энергетическая бездна человечества
+  quote_ru: В настоящее время ею построены несколько различных установок на мощность 100 Вт, 300 Вт, 3 кВт и 10 кВт, которые используются общиной для своего производства.
+  statement_en: Sapogin reports Baumann's Methernitha community has built several Testatika installations rated 100 W, 300 W, 3 kW and 10 kW, used by the community for its own production.
+  quantities:
+  - 'installation powers: 100 W, 300 W, 3 kW, 10 kW'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: installation power ratings
+    value: 100 W, 300 W, 3 kW, 10 kW
+    unit: W
+    conditions: Methernitha community, Linden, Switzerland
+  schematic_refs: []
+  tags:
+  - testatika
+  - baumann
+  - methernitha
+  - over-unity
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI10-015
+  type: physics
+  facet: theory
+  priority: core
+  page: § Электрические накопители избыточной энергии искусственной плазменной неустойчивости – энергетическая бездна человечества
+  quote_ru: Пока диск крутится, она непрерывно выделяет энергию, то есть система имеет положительный энергетический инкремент. Вырабатываемой избыточной энергии за период движения системы оказывается достаточным,
+    чтобы перекрыть все диссипативные потери, существующие в установке за тот же период.
+  statement_en: Sapogin asserts the combined motor-generator system continuously releases energy while the disk spins — a positive energy increment — with the surplus energy per motion period sufficient
+    to cover all dissipative losses of the installation in the same period.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - positive-energy-increment
+  - over-unity
+  - testatika
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-016
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: § Электрические накопители избыточной энергии искусственной плазменной неустойчивости – энергетическая бездна человечества
+  quote_ru: Насколько нам известно, подобную установку не удалось пока повторить никому, не смотря на то, что её подробные цветные чертежи выложены в Интернет российской лабораторией Faradey-Lab уже на
+    протяжении последних 15 лет.
+  statement_en: Sapogin reports that, as far as he knows, no one has yet replicated a Testatika-like installation, despite detailed color drawings posted online by the Russian Faradey-Lab laboratory for
+    the last 15 years.
+  quantities:
+  - drawings online for ~15 years
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - replication-status
+  - faradey-lab
+  notes: ''
+  relations: []
+- id: SC-SI10-017
+  type: physics
+  facet: theory
+  priority: core
+  page: § Устройства сверхединичного преобразования энергии на пузырьках зарядов (физический аспект)
+  quote_ru: В процессах синтеза/распада закон сохранения энергии не выполняется. Для синтеза пузырька нужно небольшое количество энергии, а его распад возвращает в плазму на два-три порядка большее количество
+    энергии.
+  statement_en: 'Sapogin asserts the law of energy conservation does not hold in charge-bubble synthesis/decay: synthesizing a bubble takes a small amount of energy while its decay returns to the plasma
+    an amount two to three orders of magnitude larger.'
+  quantities:
+  - decay energy = 100..1000 x synthesis energy
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - over-unity
+  - synthesis-decay
+  - charge-bubbles
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI10-018
+  type: physics
+  facet: process
+  priority: core
+  page: § Устройства сверхединичного преобразования энергии на пузырьках зарядов (физический аспект)
+  quote_ru: Ячейкой электрической цепи, совершающей сверхединичное преобразование энергии, могут быть различные электрические разрядники с парой электродов, в которых возникают процессы синтеза/распада
+    микроскопических пузырьков заряда.
+  statement_en: Sapogin asserts the over-unity conversion cell of the electric circuit can be various electric spark gaps with an electrode pair in which synthesis/decay of microscopic charge bubbles occurs.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spark-gap
+  - over-unity
+  - charge-bubbles
+  - evo-generation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI10-019
+  type: physics
+  facet: theory
+  priority: core
+  page: § Неисчерпаемые Источники Электричества – Блеф или Прорывные Технологии?
+  quote_ru: Он обусловлен синтезом/распадом нового физического объекта, Электронно-Дырочного Пузыря (ЭДП), который возникает при тепловом движении нагретой плазмы, и порождается термоэлектрическим эффектом.
+  statement_en: Sapogin asserts a new microscopic plasma energy-exchange mechanism exists, driven by synthesis/decay of a new physical object, the Electron-Hole Bubble (EDP), arising from thermal motion
+    of heated plasma and produced by the thermoelectric effect.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edp
+  - electron-hole-bubble
+  - thermoelectric
+  - plasma
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI10-020
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Неисчерпаемые Источники Электричества – Блеф или Прорывные Технологии?
+  quote_ru: Если в плазме возникает область, у которой температура в центре ниже, чем на периферии, то электроны перемещаются к холодному центру, и образуют сжимающийся ЭДП. Если в локальной области температура
+    больше, чем на периферии, то электроны уходят от центра и образуют расширяющийся ЭДП.
+  statement_en: Sapogin asserts a plasma region cooler at the centre than the periphery drives electrons to the cold centre forming a compressing EDP, while a locally hotter region drives electrons from
+    the centre forming an expanding EDP.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edp
+  - compression-expansion
+  - charge-bubble
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI10-021
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Неисчерпаемые Источники Электричества – Блеф или Прорывные Технологии?
+  quote_ru: ЭДП имеет несколько ипостасей. Он может быть плазмоидом, шаровой молнией или зарядовым кластером. Процесс синтеза/распада ЭДП в плазме может быть циклическим. Синтез – создаёт топливо. Распад
+    – его сжигает и ЭДП исчезает.
+  statement_en: 'Sapogin asserts the EDP has several guises — plasmoid, ball lightning, or charge cluster — and its plasma synthesis/decay can be cyclic: synthesis creates the fuel, decay burns it and the
+    EDP disappears until thermal motion synthesizes a new one.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edp
+  - plasmoid
+  - ball-lightning
+  - charge-cluster
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI10-022
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Неисчерпаемые Источники Электричества – Блеф или Прорывные Технологии?
+  quote_ru: Механизм синтеза/распада ЭДП может предоставить конкурирующее объяснение аномального выделения тепла в опытах Флейшмана-Понса, Каторгина-Марина, Росси-Фокарди.
+  statement_en: Sapogin asserts the EDP synthesis/decay mechanism can provide a competing explanation for the anomalous heat release in the experiments of Fleischmann–Pons, Katorgin–Marin, and Rossi–Focardi.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edp
+  - fleischmann-pons
+  - rossi-focardi
+  - katorgin
+  - anomalous-heat
+  - transmutation-adjacent
+  notes: ''
+  relations: []
+- id: SC-SI10-023
+  type: physics
+  facet: theory
+  priority: core
+  page: § СПОСОБЫ ИЗВЛЕЧЕНИЯ ЭНЕРГИИ КОРОТКОЖИВУЩИМИ ПУЗЫРЬКАМИ ЗАРЯДОВ ПЛАЗМЫ
+  quote_ru: Все устройства извлечения энергии оказываются токовыми. Источником тока в них является ток смещения Максвелла, известный в электродинамике. В некоторых устройствах он может быть таким большим,
+    что порождаемый им тепловой нагрев взрывает плазму. Введена критическая плотность тока смещения для замкнутой энергетической цепочки.
+  statement_en: Sapogin asserts all energy-extraction devices turn out to be current-based with the Maxwell displacement current as the current source; in some devices it can be so large that the resulting
+    heating explodes the plasma, and a critical displacement-current density for a closed energy chain has been introduced.
+  quantities:
+  - critical displacement-current density introduced
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - displacement-current
+  - critical-current-density
+  - over-unity
+  - electrical-path
+  notes: Comparative characteristics of Mandelstam–Papaleksi, Baumann, and Dzhanibekov–Sapogin experiments at room temperature are given on the page.
+  relations: []
+- id: SC-SI10-024
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § СПОСОБЫ ИЗВЛЕЧЕНИЯ ЭНЕРГИИ КОРОТКОЖИВУЩИМИ ПУЗЫРЬКАМИ ЗАРЯДОВ ПЛАЗМЫ
+  quote_ru: Найдены физические причины выделения большой тепловой и электромагнитной энергии в модели уединённого конденсатора с нагретыми металлическими опилками.
+  statement_en: Sapogin asserts physical causes were found for the release of large thermal and electromagnetic energy in the model of an isolated capacitor with heated metal filings.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - heated-filings-capacitor
+  - anomalous-energy
+  - electrical-path
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

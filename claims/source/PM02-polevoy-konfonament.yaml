@@ -1,0 +1,575 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: PM02
+  section: perpetual_motion
+  title_ru: Invisible Bubbles with Liquid Wall from Dark Plasma of the Sun (Полевой конфайнмент)
+  title_en: Invisible Bubbles with Liquid Wall from Dark Plasma of the Sun
+  file: papers/perpetual_motion/polevoy-konfonament.pdf
+  source_url: https://drive.google.com/file/d/1u3rlxmdkjE8-CIH6pN3361mp6l3Ih0ax/view?usp=sharing
+  md5: 8c97f71d59ba049de9bf705bd10246a5
+  pages_total: 18
+  retrieved: '2026-09-01'
+claims:
+- id: SC-PM02-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: The article presents fragments of canonical physics of mass particles’ collective interaction. Equations
+    of self- consistent statics of mass particles and their solutions are given. The integral of "living forces"
+    in plane symmetry is found. It allows to validate the field confinement of matter by a self-consistent field.
+    A pair of forces of field origin, holding the layer in a static equilibrium state, is found - the compression
+    force and the expansion force.
+  statement_en: 'The article presents fragments of the canonical physics of mass particles'' collective interaction:
+    equations of self-consistent statics of mass particles and their solutions are given; the integral of ''living
+    forces'' in plane symmetry is found, allowing validation of the field confinement of matter by a self-consistent
+    field; a pair of field-origin forces holding the layer in static equilibrium — the compression force and the
+    expansion force — is found.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-confinement
+  - self-consistent-field
+  - canonical-physics
+  notes: ''
+  relations: []
+- id: SC-PM02-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: An approximate solution to the problem of matter distribution in a hollow cold cluster with uniform
+    temperature is found in spherical field traps of the first kind. The approximate solution is verified by numerical
+    simulation. An exact solution is found for potential distribution in a field trap of the second kind.
+  statement_en: An approximate solution to the problem of matter distribution in a hollow cold cluster with uniform
+    temperature is found for spherical field traps of the first kind; the approximate solution is verified by numerical
+    simulation; an exact solution is found for the potential distribution in a field trap of the second kind.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-traps
+  - solution
+  notes: ''
+  relations: []
+- id: SC-PM02-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Estimates show that mass spectra of hollow neutron clusters with temperatures from 1011 to 1012 K can
+    be identified with masses of objects observed in centers of galaxies.
+  statement_en: Estimates show that mass spectra of hollow neutron clusters with temperatures from 10^11 to 10^12
+    K can be identified with the masses of objects observed in the centers of galaxies.
+  quantities:
+  - T = 10^11–10^12 K
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - neutron-clusters
+  - supermassive-black-holes
+  - debt-candidate
+  notes: exponents flattened in the source ('1011 to 1012 K' = 10^11 to 10^12 K).
+  relations: []
+- id: SC-PM02-004
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 1
+  quote_ru: A hypothesis has been put forward about the existence of invisible gas bubbles of small radii and large
+    masses with low temperatures. Flying out from dark plasma of the Sun, filled balls, due to expansion and cooling
+    activity of gas, turn into thin-walled bubbles with liquid wall. The expansion process transfers them to the
+    class of dark matter.
+  statement_en: 'A hypothesis is put forward about the existence of invisible gas bubbles of small radii and large
+    masses with low temperatures: flying out from the dark plasma of the Sun, filled balls, due to expansion and
+    cooling of the gas, turn into thin-walled bubbles with a liquid wall; the expansion process transfers them to
+    the class of dark matter.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - invisible-bubbles
+  - dark-matter
+  - sun
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM02-005
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 1
+  quote_ru: Collisions with invisible bubbles can be responsible for depressurization of spacecraft, for inelastic
+    impacts on station windows, and even for unsuccessful landings of space modules on the Moon. Processing the
+    trajectory measurements of lunar modules’ unsuccessful landing will confirm or refute the hypothesis of their
+    collisions with invisible bubbles.
+  statement_en: Collisions with invisible bubbles can be responsible for depressurization of spacecraft, for inelastic
+    impacts on station windows, and even for unsuccessful landings of space modules on the Moon; processing the
+    trajectory measurements of lunar modules' unsuccessful landings will confirm or refute the hypothesis of their
+    collisions with invisible bubbles.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spacecraft
+  - invisible-bubbles
+  - verification-plan
+  notes: ''
+  relations: []
+- id: SC-PM02-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: The first works were published by Lane and Emden. Two classes of ordinary differential equations of
+    the second order were constructed. The first class described filled gas spheres in polytropic states with non-uniform
+    temperature. The second class - the Emden E-equation, which describes a gas accumulation with a uniform temperature
+    [1].
+  statement_en: The first equilibrium-problem works for a substance of mass particles in an isolated gas sphere
+    were published by Lane and Emden; two classes of second-order ordinary differential equations were constructed
+    — the first described filled gas spheres in polytropic states with non-uniform temperature, the second is the
+    Emden E-equation describing a gas accumulation with uniform temperature; the static equilibrium of mass particles
+    was assumed to be maintained by two forces, the attractive force and the repulsive gas-pressure force.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - lane
+  - history
+  notes: ''
+  relations: []
+- id: SC-PM02-007
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: For gas with spherical symmetry Emden did not find a solution that would give the maximum density in
+    the center of sphere. As shown in the work, the reason could be that the equation had an unexpected class of
+    solutions for hollow sphere with no matter in
+  statement_en: For gas with spherical symmetry Emden did not find a solution giving the maximum density at the
+    sphere center; the reason, as shown in the work, could be that the equation had an unexpected class of solutions
+    for a hollow sphere with no matter in its center.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - hollow-sphere
+  notes: quote truncated at the page-1 footer; continues 'the center of it.'
+  relations: []
+- id: SC-PM02-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Bernoulli force coincides with the pressure gradient of collective field and the system of particles
+    is held in limited region of space by this field. The equations describe the field confinement of matter.
+  statement_en: The Bernoulli force coincides with the pressure gradient of the collective field and the system
+    of particles is held in a limited region of space by this field — the equations describe the field confinement
+    of matter; this new understanding allows finding solutions of the Emden-Frenkel equations for gas balls with
+    a cavity and for thin-walled bubbles.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-confinement
+  - bernoulli
+  - self-consistent-field
+  notes: ''
+  relations: []
+- id: SC-PM02-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: It is seen from the table 3, that the mass of the field trap of first kind is more than the mass of
+    the field trap of second kind under the same parameters. This distinction increases with α growth.
+  statement_en: From table 3, the mass of the field trap of first kind is greater than the mass of the field trap
+    of second kind under the same parameters, and this distinction increases with α growth; the mass of the first-kind
+    field trap increases with the growth of the state parameter α; the increase of the number density n0 leads to
+    a decrease of the trap's mass and of the cluster's external radius at constant α — the inverse is also true.
+  quantities:
+  - M(1st kind) > M(2nd kind) при одинаковых параметрах
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Table 3
+  tags:
+  - field-traps
+  - numerical-simulation
+  notes: ''
+  relations: []
+- id: SC-PM02-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: The simulation shows that the growth of cluster’s temperature on the order (for identical state parameters)
+    leads to the growth of mass of the field traps of second kind more than an order. At the same time the range
+    of their masses exceeds the range of masses of the field traps of first kind under original temperature with
+    negligible changing of external radius of the cluster.
+  statement_en: The simulation shows that growing the cluster's temperature by an order (for identical state parameters)
+    grows the mass of the second-kind field traps by more than an order, while their mass range exceeds that of
+    the first-kind traps at the original temperature with negligible change of the cluster's external radius.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-traps
+  - temperature-scaling
+  notes: ''
+  relations: []
+- id: SC-PM02-011
+  type: physics
+  facet: measurement
+  priority: normal
+  page: 16
+  quote_ru: The external dimensions of clusters under the lower values n0 exceed the mean radius of Solar system
+    from 10-th to 18-th times only.
+  statement_en: The external dimensions of clusters under the lower values n0 exceed the mean radius of the Solar
+    system (taken as the greater semi-axis of Pluto's orbit, ~0.6·10^15 cm) by factors from the 10th to the 18th
+    power only.
+  quantities:
+  - R(кластеров) = 10^10 – 10^18 радиусов Солнечной системы
+  - радиус орбиты Плутона ~ 0,6·10^15 см
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - clusters
+  - scale-estimate
+  notes: the source line carries a stray superscript '15' artifact and the flattened exponent '0,61015 см' = 0.6·10^15
+    cm.
+  relations: []
+- id: SC-PM02-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: Then masses of the field traps of second kind get into 106 M s  M 2  109 M s range. They have the
+    external radius r2, which
+  statement_en: At the temperature T = 10^11 K and close packing in intermediate states the hollow radius is r1
+    = 3.42·10^5 cm and the parameter is 1.41·10^-6 << 1 at the upper n0 value; then the masses of the second-kind
+    field traps fall into the range 10^6 Ms ≤ M2 ≤ 10^9 Ms with an external radius r2 in the range from 8·10^12
+    to 8·10^15 cm.
+  quantities:
+  - M2 = 10^6–10^9 M_s
+  - r2 = 8·10^12 – 8·10^15 см
+  - T = 10^11 К
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-traps
+  - neutron-clusters
+  notes: quote contains the source's private-use OCR glyphs verbatim (flattened formula '106 M s ... 109 M s' =
+    10^6–10^9 solar masses).
+  relations: []
+- id: SC-PM02-013
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: A trap with mass of 10 Ms consists of inhomogeneous gas.
+  statement_en: 'The wall of a first-kind field trap of mass 10^9 Ms can contain a set of layers of varying density:
+    a super-dense layer of ~10^5 g/cm3, a metal-density layer of ~10^4 g/cm3, a liquid layer of ~10^3 g/cm3, and
+    a gas layer <10^2 g/cm3, while a trap of mass 10^6 Ms consists of inhomogeneous gas; the wall of a large-mass
+    second-kind trap can also contain a set of layers, the densest layer starting from the hollow surface r1 and
+    the inhomogeneous gas adjacent to the external radius r2.'
+  quantities:
+  - 'слои стенки: ~10^5, ~10^4, ~10^3, <10^2 г/см3'
+  - ловушка 10^6 M_s — неоднородный газ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-traps
+  - layer-structure
+  notes: ''
+  relations: []
+- id: SC-PM02-014
+  type: physics
+  facet: measurement
+  priority: normal
+  page: 16
+  quote_ru: Note that from relation (7.11) we can obtain the observed value of average temperature of the Sun. It
+    can be under the
+  statement_en: 'From relation (7.11) one can obtain the observed value of the Sun''s average temperature: under
+    the assumption that a uniformly heated sphere is completely filled with liquid plasma at d=R, the temperature
+    is 1.1·10^7 K, coinciding with the Chandrasekhar model estimate with fine resolution.'
+  quantities:
+  - T(Солнце, средняя) = 1,1·10^7 К
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sun
+  - temperature
+  - chandrasekhar
+  notes: quote truncated at the page footer; the continuation 'assumption that a uniformly heated sphere...' follows
+    in a duplicated OCR block.
+  relations: []
+- id: SC-PM02-015
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 16
+  quote_ru: and a temperature of 1 K, with a liquid wall thickness of 0.1 cm, they have a mass of ~ 2.5
+  statement_en: 'Canonical physics of mass-particle interaction predicts the existence of low-temperature plasma
+    clusters of small radii and large masses, identifiable with heavy invisible thin-walled bubbles: from (7.11),
+    a bubble with a radius of ~1.4·10^5 cm at a temperature of 1 K and a liquid wall thickness of 0.1 cm has a mass
+    of ~2.5·10^14 g.'
+  quantities:
+  - R ≈ 1,4·10^5 см (в тексте «140 105 см»)
+  - T = 1 К
+  - стенка 0,1 см
+  - m ≈ 2,5·10^14 г
+  equations: []
+  materials: []
+  geometry:
+  - радиус ~1,4·10^5 см
+  - толщина жидкой стенки 0,1 см
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - invisible-bubbles
+  - dark-matter
+  - debt-candidate
+  notes: the source's exponent glyphs are displaced by OCR ('2.5·10^14 g' printed as '2.5·10 g.that 14'); quote
+    truncated before the displaced glyph; values recorded in quantities.
+  relations: []
+- id: SC-PM02-016
+  type: physics
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: The values of the masses of balls containing liquid plasma should be reduced from six to nine orders
+    of magnitude. The reason
+  statement_en: 'The masses of balls containing liquid solar plasma should be reduced by six to nine orders of magnitude:
+    the reason is that the balls fly out from the surface of the Sun, whose temperature is thousands of times lower
+    than inside the Sun, and as they move they are stripped by the plasma of the solar corona; flying out into vacuum,
+    the filled balls turn into thin-walled bubbles with liquid wall (density 1 g/cm3) due to the expansion of the
+    bubble and its cooling.'
+  quantities:
+  - массы жидкоплазменных шаров ниже на 6–9 порядков
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - invisible-bubbles
+  - sun
+  - solar-corona
+  notes: quote truncated at the column break; the continuation 'is that balls fly out...' follows in the duplicated
+    OCR block.
+  relations: []
+- id: SC-PM02-017
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 17
+  quote_ru: temperature of hydrogen atom 1.2.105 K (for a neutron it is on 2-3 orders of magnitude higher), transfers
+    these bubbles to the class
+  statement_en: The cooling of a bubble to a temperature lower than the excitation temperature of the hydrogen atom,
+    1.2·10^5 K (for a neutron it is 2-3 orders of magnitude higher), transfers these bubbles to the class of non-radiating
+    matter — they become invisible; thus a new class of matter is formed, consisting of known substance — dark matter
+    of the near-solar space.
+  quantities:
+  - T(возбуждения водорода) = 1,2·10^5 К
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dark-matter
+  - invisible-bubbles
+  - non-radiating
+  notes: the source prints '1.2.105 K' (flattened 1.2·10^5 K).
+  relations: []
+- id: SC-PM02-018
+  type: physical
+  facet: measurement
+  priority: normal
+  page: 17
+  quote_ru: The "damaging" factor of bubble's action should be considered its momentum. The average speed of solar
+    wind is ~ 105 cm/s. With a bubble radius of 140.105 cm (temperature 1 K), a liquid wall thickness of 0.1 cm,
+    its mass reduced by 106 times is ~ 250 tons, and reduced on another three orders of magnitude is 250 kg. The
+    invisible bubble has a in the range from 2.5.108 kgm/s to 2.5.105 kgm/s. A train, consisting of 20 carriages
+    by 60 tons’ weigh of each and traveling with the speed from 210 m/s to 0.2 m/s, has the same momentum.
+  statement_en: 'The ''damaging'' factor of a bubble''s action should be considered its momentum: the average solar-wind
+    speed is ~10^5 cm/s; a bubble with radius 1.4·10^5 cm (temperature 1 K) and liquid wall thickness 0.1 cm has
+    a mass of ~250 tons when reduced by 10^6 times, and 250 kg when reduced by another three orders of magnitude;
+    the invisible bubble''s momentum lies in the range from 2.5·10^8 to 2.5·10^5 kg·m/s — a train of 20 carriages
+    of 60 tons each traveling at 210 m/s to 0.2 m/s has the same momentum.'
+  quantities:
+  - v(солнечный ветер) ≈ 10^5 см/с
+  - m ≈ 250 т (после ×10^6 снижения) или 250 кг
+  - импульс 2,5·10^8 – 2,5·10^5 кг·м/с
+  - 'аналог: поезд 20 вагонов × 60 т при 210–0,2 м/с'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: импульс невидимого пузыря
+    value: 2,5·10^8 – 2,5·10^5
+    unit: кг·м/с
+    conditions: радиус 1,4·10^5 см, стенка 0,1 см, T=1 К
+  schematic_refs: []
+  tags:
+  - invisible-bubbles
+  - momentum
+  - spacecraft
+  notes: exponents flattened in source ('105 cm' = 10^5 cm, '2.5.108 kgm/s' = 2.5·10^8 kg·m/s).
+  relations: []
+- id: SC-PM02-019
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 17
+  quote_ru: The soft collision of such bubble with the spacecraft or station can end the mission of the last ingloriously.
+    The collision can shift it from intended trajectory and change the speed. Besides, there may be not any mechanical
+    damage to devices.
+  statement_en: 'A soft collision of such a bubble with a spacecraft or station can end its mission ingloriously:
+    the collision can shift it from the intended trajectory and change its speed while leaving no mechanical damage
+    to the devices; the authors are sure that the invisible ''solar artillery'' may also be responsible for the
+    observed losses of communication satellites; the probability of successful spacecraft flight in near-Earth or
+    near-Moon space is at present greatly exaggerated, and a motion-security service for spacecraft in near-solar
+    space monitoring flights during ''solar thunderstorms'' should be considered.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spacecraft
+  - invisible-bubbles
+  - solar-artillery
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM02-020
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 17
+  quote_ru: A similar crater structure on metal was first discovered by K. Shoulders in 1980. It arose when micron-sized
+    heated bubble of charges hit flat titanium surface and registered the existence of new physical object - a cluster
+    of charges of the same sign [13].
+  statement_en: 'Heated gas bubbles with a thin wall and a radius close to 100 km or more could have left their
+    mark on the Moon''s surface, forming a typical class of craters with a ridge of matter melted in the form of
+    a ring and a smooth surface texture inside the ridge (fig. 3); a similar crater structure on metal was first
+    discovered by K. Shoulders in 1980 — it arose when a micron-sized heated bubble of charges hit a flat titanium
+    surface, registering the existence of a new physical object: a cluster of charges of the same sign.'
+  quantities: []
+  equations: []
+  materials:
+  - титан (плоская поверхность)
+  geometry:
+  - 'кратеры: гребень расплава кольцом, гладкая текстура внутри'
+  - радиус лунных пузырей ~100 км и более
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Fig. 3
+  tags:
+  - evo
+  - кластер
+  - shoulders
+  - moon-craters
+  - titanium
+  notes: ''
+  relations: []
+- id: SC-PM02-021
+  type: physics
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: The Tunguska phenomenon could have been a hollow, loose cosmic "snowball" of enormous mass, consisting
+    of ice dust particles of nanoscopic dimensions (details in [14]). It was ejected by ice geysers from the depths
+    of the Enceladus – the sixty-first satellite of the Saturn.
+  statement_en: The Tunguska phenomenon could have been a hollow, loose cosmic 'snowball' of enormous mass consisting
+    of ice dust particles of nanoscopic dimensions, ejected by ice geysers from the depths of Enceladus, the sixty-first
+    satellite of Saturn; the particle-flow density of such an ice 'bubble' falling to the ground is significantly
+    lower in the center than in the neighboring layers (per the bubble-fall solution found in [14]), so the destruction
+    at the fall epicenter is minimal and coincides with the observations of the Kulik expedition — the memory of
+    the fall is still preserved by the mast forest, not felled, remaining at the epicenter.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - enceladus
+  - ice-bubble
+  - debt-candidate
+  notes: ''
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

@@ -1,0 +1,18 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE10
+  section: teaching
+  title_ru: Пособие для учителей о профилактике зависимости детей от курения
+  title_en: Teachers guide on preventing children smoking dependence
+  file: papers/teaching/posobie-dlya-uchiteley-o-profilaktike-zavisimosti-detey-ot-kureniya.pdf
+  source_url: http://146.190.233.254/docs/teaching/Пособие для учителей о профилактике зависимости детей
+    от курения.pdf
+  md5: dbf190ceebbd9dbf8bc9de2e8d4c67f0
+  pages_total: 15
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

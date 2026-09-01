@@ -1,0 +1,805 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR09
+  section: articles
+  title_ru: Электрическая неустойчивость к формированию плоских электронных кластеров в двухкомпонентной плазме
+  title_en: Electrical instability of the formation of flat electron clusters in a two-component plasma
+  file: papers/articles/elektricheskaya-neustoychivost-k-formirovaniyu-ploskikh-elektronnykh-klasterov-v.pdf
+  source_url: http://146.190.233.254/docs/articles/Электрическая неустойчивость к формированию плоских электронных
+    кластеров в двухкомпонентной плазме.pdf
+  md5: e83b56573fb5b1a5669f1942b56cf6d5
+  pages_total: 13
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR09-001
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Так, группой Голубничего П.И. наблюдались долгоживущие светящиеся объекты (ДСО) миллиметровых радиусов
+    в очищенной воде [1]. Шабанов Г.Д. зафиксировал светящийся поверхностный разряд в водопроводной воде, формирующий
+    разнообразные по форме светящиеся воздушные плёнки, имеющие сантиметровые размеры [2].
+  statement_en: 'Over the last thirty years experiments on passing powerful short electric pulses through various
+    conducting media were carried out in physical laboratories of many countries: the group of P.I. Golubnichiy
+    observed long-lived glowing objects (LLO) of millimeter radii in purified water; G.D. Shabanov registered a
+    luminous surface discharge in tap water forming luminous air films of various shapes with centimeter sizes.'
+  quantities:
+  - 'LLO radii: millimeters'
+  - 'air films: centimeter sizes'
+  equations: []
+  materials:
+  - purified water
+  - tap water
+  geometry:
+  - glowing objects of mm radii
+  - glowing air films of cm sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - long-lived-glowing-objects
+  - discharge
+  - plasmoids
+  - water
+  - electrical-path
+  notes: Review of Golubnichiy and Shabanov experiments.
+  relations: []
+- id: SC-AR09-002
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Светящийся объект возникает как локализованное в пространстве образование очень быстро (по-видимому,
+    микросекунды). В течение времени жизни объект высвечивает накопленную электрическую энергию (миллисекунды и
+    секунды) и исчезает.
+  statement_en: Decreasing the volumes of the media into which a large electric power is introduced for a short
+    time decreases the geometric sizes of the glowing formations down to micron ones; in all experiments the behavior
+    of the glowing objects is very similar to the manifestations noted in ball lightning; the glowing object arises
+    as a spatially localized formation very fast (apparently microseconds), during its lifetime radiates the accumulated
+    electric energy (milliseconds and seconds), and disappears.
+  quantities:
+  - 'formation time: microseconds (apparent)'
+  - 'radiation time: milliseconds to seconds'
+  equations: []
+  materials: []
+  geometry:
+  - glowing formations down to micron sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid-lifetime
+  - energy-storage
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR09-003
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: 'Экспериментально выяснено, что он может пребывать в различных электрических состояниях: электронейтральном,
+    положительно заряженном и отрицательно заряженном. Перечисленные свойства объекта позволяют отнести его к классу
+    плазмоидов и микроплазмоидов с высокой температурой.'
+  statement_en: 'Researchers note the macroscopic separation of charges arising inside the object; it has been experimentally
+    clarified that the object can reside in different electrical states: electrically neutral, positively charged,
+    and negatively charged; the listed properties allow classifying it as plasmoids and microplasmoids with high
+    temperature.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-separation
+  - plasmoid-states
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR09-004
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: В заметке делается попытка построить приближённую физико- математическую модель генерации таких плазмоидов
+    в двухкомпонентной плазме, которая бы адекватно описывала их наблюдаемые электрические свойства.
+  statement_en: The note attempts to build an approximate physical-mathematical model of the generation of such
+    plasmoids in a two-component plasma that would adequately describe their observed electrical properties.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid-generation-model
+  - two-component-plasma
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR09-005
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: 'описывается системой трёх дифференциальных уравнений в частных производных:'
+  statement_en: 'In the authors'' view, the process of plasmoid formation by a collective electric field in a two-component
+    plasma with uniform temperature is described by a system of three PDEs: enE + kT∇n + mnνu = 0 (1) — equilibrium
+    of an elementary volume of nonstatic plasma; ∂n/∂t + div(nu) = 0 (2) — continuity equation; div E = 4πe(n₀ −
+    n) (3) — Poisson equation (CGS), with E the collective electric field strength, n0 the positive-background charge
+    concentration, n the drifting electron concentration, e the elementary charge, T the absolute temperature, m
+    the electron mass, u the electron drift velocity, ν the electron-background collision frequency, k the Boltzmann
+    constant.'
+  quantities: []
+  equations:
+  - e n\mathbf{E} + kT\nabla n + m n \nu \mathbf{u} = 0
+  - \partial n/\partial t + \nabla\cdot(n\mathbf{u}) = 0
+  - \nabla\cdot\mathbf{E} = 4\pi e(n_0-n)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - model-equations
+  - plasma
+  - electrical-path
+  notes: 'OCR-degraded: vector glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR09-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Но поскольку в ней дополнительно учитывается наличие плотности постоянного тока в направлении оси x
+    системы, то полученные там результаты с результатами, полученными ниже, практически не соприкасаются.
+  statement_en: A similar problem was posed in [3] (Pustovoyt), but since it additionally accounts for a constant
+    current density in the x direction of the system, the results obtained there practically do not touch the results
+    obtained below.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pustovoyt
+  - related-work
+  notes: ''
+  relations: []
+- id: SC-AR09-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: 3) после формирования плазмоид переходит в возможное статическое состояние плазмы и живёт бесконечно
+    долго; 4) сформированный плазмоид имеет однородную температуру и не излучает;
+  statement_en: 'The problem is solved under the following assumptions: (1) system (1)-(3) describes the static
+    and nonstatic behavior of the plasma inside the plasmoid; (2) the collective field forms a flat plasmoid; (3)
+    after formation the plasmoid passes into a possible static state of the plasma and lives infinitely long; (4)
+    the formed plasmoid has uniform temperature and does not radiate; (5) during plasmoid formation the electrons
+    are dragged by the variable collective field relative to the positive charge background stationary in the laboratory
+    frame; (6) possible accelerated motion of the electrons in the collective field is compensated by a viscous
+    force proportional to the electron-background collision frequency.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - model-assumptions
+  - infinite-lifetime
+  - non-radiating
+  - debt-candidate
+  - electrical-path
+  notes: Assumptions (3)-(4) — infinitely long-lived non-radiating plasmoid — flagged for debt clustering.
+  relations: []
+- id: SC-AR09-008
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: 'вводятся безразмерные функции и переменные:'
+  statement_en: 'For the plane problem E(r,t) = (Ex(x,t),0,0) dimensionless functions and variables are introduced:
+    y(ξ,τ) = Ex/E* — reduced projection of the collective field strength with scale E*; z(ξ,τ) = n/n₀ — reduced
+    electron concentration; u(ξ,τ) = ux/u* — reduced projection of the electron velocity participating in the instability
+    development; ξ = x/l — reduced coordinate with spatial scale l = 2kT/(eE*); u* = eE*/(mν) — velocity scale;
+    τ = t/t* — reduced time with t* = l/u* — time scale.'
+  quantities:
+  - l = 2kT/(eE*)
+  - u* = eE*/(m nu)
+  - t* = l/u*
+  equations:
+  - l = 2kT/(eE^*)
+  - u^* = eE^*/(m\nu)
+  - t^* = l/u^*
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dimensionless-variables
+  notes: ''
+  relations: []
+- id: SC-AR09-009
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Система уравнений (4) – (6) при любых β имеет решение, которое описывает случай однородной плазмы (z=1),
+    в которой отсутствует коллективное поле (y=0) и отсутствует направленное движение электронов (u=0).
+  statement_en: 'In dimensionless functions the system takes the form ∂z/∂ξ = −2(y+u)z (4), ∂u/∂ξ = (1/z)(∂z/∂τ
+    + u·∂z/∂ξ) (5), ∂y/∂ξ = (β²/2)(1−z) (6), where β² = 2n₀kT/(E*²/8π) = T/T* is the state parameter of the system
+    (T* — characteristic temperature) determining three possible plasma states: cold plasma 0 < β² < 1, equality
+    of plasma temperature to the characteristic one (separatrix) β² = 1, hot plasma β² > 1; for any β the system
+    has the solution of a uniform plasma (z = 1) without collective field (y = 0) and without directed electron
+    motion (u = 0), which should be assigned to the case of an electrically neutral plasmoid.'
+  quantities:
+  - beta^2 = 2 n0 kT/(E*^2/8pi) = T/T*
+  equations:
+  - \partial z/\partial\xi = -2(y+u)z
+  - \partial u/\partial\xi = \frac{1}{z}\left(\partial z/\partial\tau + u\,\partial z/\partial\xi\right)
+  - \partial y/\partial\xi = \frac{\beta^2}{2}(1-z)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - state-parameter
+  - neutral-solution
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR09-010
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Более общий вид уравнения (7) был получен В.И.Пустовойтом в [3].
+  statement_en: 'The nonstatic system (4)-(6) can be reduced to one equation for y(ξ,τ): ∂y/∂τ − y·∂y/∂ξ = (1/2)∂²y/∂ξ²
+    − (β²/2)y (7); at β² = 0 equation (7) resembles the Burgers equation for kinematic viscosity 1/2; its differences
+    from the Burgers equation: (1) the sign before the nonlinear term y·∂y/∂ξ is opposite; (2) the parameter β²
+    in the original system cannot be zero since the system under study degenerates; (3) the function y is the reduced
+    projection of the plasma collective field strength and has no relation to fluid-flow velocity; a more general
+    form of equation (7) was obtained by V.I. Pustovoyt in [3].'
+  quantities: []
+  equations:
+  - \frac{\partial y}{\partial\tau} - y\frac{\partial y}{\partial\xi} = \frac{1}{2}\frac{\partial^2 y}{\partial\xi^2}
+    - \frac{\beta^2}{2}y
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - burgers-analogy
+  - instability-equation
+  notes: ''
+  relations: []
+- id: SC-AR09-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Уравнение (8) точных решений в элементарных функциях не имеет.
+  statement_en: Static states of the plasma (∂/∂τ = 0) are described by the equation d²y/dξ² + 2y·dy/dξ − β²y =
+    0 (8), which has no exact solutions in elementary functions; approximate solutions are therefore sought.
+  quantities: []
+  equations:
+  - \frac{d^2y}{d\xi^2} + 2y\frac{dy}{d\xi} - \beta^2 y = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - static-equation
+  - no-exact-solution
+  notes: ''
+  relations: []
+- id: SC-AR09-012
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Интегрируя (10), получаем приближённое решение в классе периодических функций для начальных условий
+    y( 0 )  0; y( 0 )  p0 , справедливое в области y  1
+  statement_en: 'Lowering the order of (8) by the function p(y) = dy/dξ gives dp/dy = y(β²/p − 2) (9) — an equation
+    with separable variables having solutions in implicit functions, which do not help obtain a physically meaningful
+    result; since at y = 0, dp/dy = 0, approximate solutions of (9) are sought in the class of two-term series p
+    ≈ p₀ + αy² (10) with α > 0, p₀ > 0; substituting (10) into (9) and keeping terms proportional to y gives y²(2p₀α
+    + 2p₀ − β²) = 0 (11), whence p₀ = β²/2(1+α) and α = β²/2p₀ − 1 (12); the requirement α > 0 defines the range
+    0 < p₀ < β²/2; integrating (10) gives the approximate solution in the class of periodic functions for initial
+    conditions y(0) = 0, y′(0) = p₀, valid in the region |y| < 1: y ≈ [β/√(2α(1+α))]·tg[√(α/2(1+α))·βξ] (13).'
+  quantities:
+  - 0 < p0 < beta^2/2
+  equations:
+  - \frac{dp}{dy} = y\left(\frac{\beta^2}{p} - 2\right)
+  - p \approx p_0 + \alpha y^2
+  - p_0 = \frac{\beta^2}{2(1+\alpha)}
+  - y \approx \frac{\beta}{\sqrt{2\alpha(1+\alpha)}}\,\mathrm{tg}\!\left[\sqrt{\frac{\alpha}{2(1+\alpha)}}\,\beta\xi\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - approximate-solution
+  - periodic-class
+  - electrical-path
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR09-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Поскольку максимальное значение концентрации электронов (16) всегда меньше, чем концентрация положительных
+    зарядов фона, то полученное решение описывает ограниченный в пространстве плазмоид в виде электронного кластера
+    в дырочной плазме.
+  statement_en: The approximate solution (13) gives the distribution of the static collective plasma field in the
+    region ξ < ξ0 (relation 14); in the plane ξ = 0 the strength vanishes and its spatial growth rate depends on
+    the state parameter β; the collective-field vector is directed to both sides of the ξ = 0 plane; this orientation
+    makes the plasma electrons redistribute so that near the zero-field-pressure plane (where y² = 0, ξ = 0) they
+    form high-concentration regions; the approximate concentration law from (6) is z = 1 − (2/β²)dy/dξ ≈ 1 − (1+α)⁻¹cos²[√(α/2(1+α))·βξ]
+    (15); the maximum of the electron concentration distribution falls on the ξ = 0 plane and equals zM = 1 − 1/(1+α)
+    (16); since this maximum is always less than the positive-background concentration, the solution describes a
+    spatially bounded plasmoid in the form of an electron cluster in a hole plasma.
+  quantities:
+  - zM = 1 - 1/(1+alpha) < 1
+  equations:
+  - z \approx 1 - (1+\alpha)^{-1}\cos^2\!\left[\sqrt{\tfrac{\alpha}{2(1+\alpha)}}\,\beta\xi\right]
+  - z_M = 1 - \frac{1}{1+\alpha}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-cluster
+  - hole-plasma
+  - concentration-profile
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR09-014
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Соотношения (17) и (18) дают распределение физических параметров кластера в области
+  statement_en: Another class of approximate periodic solutions of equation (9) exists for p ≈ −p₀ − αy² with initial
+    conditions y(0) = 0, y′(0) = −p₀; the relation between the parameters α > 1 and p₀ > 0 changes to p₀ = β²/2(α−1),
+    α = β²/2p₀ + 1; for them the field-strength distribution has the form y2 ≈ −[β/√(2α(α−1))]·tg[√(α/2(α−1))·βξ]
+    (17) and the concentration distribution z2 ≈ 1 + (α−1)⁻¹cos²[√(α/2(α−1))·βξ] (18); relations (17) and (18) give
+    the distribution of the physical parameters of the cluster in the region ξ < ξ0 (relation 19).
+  quantities:
+  - alpha > 1
+  equations:
+  - y_2 \approx -\frac{\beta}{\sqrt{2\alpha(\alpha-1)}}\,\mathrm{tg}\!\left[\sqrt{\frac{\alpha}{2(\alpha-1)}}\,\beta\xi\right]
+  - z_2 \approx 1 + (\alpha-1)^{-1}\cos^2\!\left[\sqrt{\tfrac{\alpha}{2(\alpha-1)}}\,\beta\xi\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - second-solution-class
+  - electrical-path
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR09-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Это приводит к тому, что электроны плазмы перераспределяются коллективным полем так, что они образуют
+    плазмоид, ограниченный в пространстве, в виде электронного кластера в электронной плазме с минимальной концентрацией
+    в плоскости =0, большей, чем концентрация положительных зарядов фона
+  statement_en: 'The approximate class of solutions (17) describes the distribution of the collective electric field
+    in the plasma: in the plane ξ = 0 the strength vanishes and its spatial growth rate depends on the state parameter
+    β; the collective-field vector is directed from the external space toward the ξ = 0 plane; this leads to the
+    plasma electrons redistributing so that they form a plasmoid bounded in space in the form of an electron cluster
+    in an electron plasma with minimum concentration at the ξ = 0 plane greater than the positive-background concentration
+    zm = 1 + (α−1)⁻¹ > 1; the states (18) are very similar to charge-cluster-type states held by a plane collective
+    field [4].'
+  quantities:
+  - zm = 1 + (alpha-1)^-1 > 1
+  equations:
+  - z_m = 1 + (\alpha-1)^{-1} > 1
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-cluster
+  - electron-plasma
+  - charge-clusters
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR09-016
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 8
+  quote_ru: Найденные приближённые решения (13) и (17) позволяют провести численное моделирование точного уравнения
+    (8) с корректными начальными условиями.
+  statement_en: The found approximate solutions (13) and (17) allow numerical modeling of the exact equation (8)
+    with correct initial conditions.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - use approximate solutions (13) and (17) as seeds for numerical modeling of exact eq. (8)
+  measurements: []
+  schematic_refs: []
+  tags:
+  - numerical-modeling
+  notes: ''
+  relations: []
+- id: SC-AR09-017
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Уравнения (20) и (21) не интегрируются в элементарных функциях.
+  statement_en: 'The instability process forming various plasmoids at its initial stage follows from equation (7);
+    the method of counter plane waves reduces (7) to a pair of self-model equations for two plane-wave phases θ
+    = ξ+γτ and ψ = ξ−γτ, where γ = vf/u* is the reduced phase velocity and σ = ±1 the sign multiplier distinguishing
+    the two possible directions of phase-velocity propagation: y1″ + 2y1y1′ − β²y1 − 2σγy1′ = 0 (20) for phase θ,
+    and y2″ + 2y2y2′ − β²y2 + 2σγy2′ = 0 (21) for phase ψ; at γ = 0 equations (20) and (21) pass into the static
+    equation (8); they are not integrable in elementary functions.'
+  quantities: []
+  equations:
+  - y_1'' + 2y_1y_1' - \beta^2 y_1 - 2\sigma\gamma y_1' = 0
+  - y_2'' + 2y_2y_2' - \beta^2 y_2 + 2\sigma\gamma y_2' = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - counter-waves
+  - self-model-equations
+  notes: ''
+  relations: []
+- id: SC-AR09-018
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Два разностных решения y  ( y1  y2 ) не зависят от знака σ и дают физически осмысленный результат.
+  statement_en: 'Lowering the order of (20) for initial conditions y(0) = 0, y′(0) = p₀ = β²/2 under the condition
+    |y| < 1 gives two approximate solutions of the form p ≈ p₀ + 2σγy: y1 ≈ (β²/4σγ)[exp(2σγθ) − 1] (22); similarly,
+    for initial conditions y′(0) = −β²/2 from equation (21): y2 ≈ −(β²/4σγ)[1 − exp(−2σγψ)] (23); the sum of the
+    two solutions gives an extraneous solution, while the two difference solutions y = ±(y1 − y2) do not depend
+    on the sign σ and give a physically meaningful result: the seed collective field distribution in the plasmoids
+    is y ≈ ±(β²/2γ)·exp(2γ²τ)·sh(2γξ) (24), the electron concentration distribution is z ≈ 1 ∓ (2/β²)·exp(2γ²τ)·ch(2γξ)
+    (25), and the electron velocity distribution is u ≈ y((4γ²/β²z) − 1) (26).'
+  quantities: []
+  equations:
+  - y_1 \approx \frac{\beta^2}{4\sigma\gamma}\left[\exp(2\sigma\gamma\theta)-1\right]
+  - y_2 \approx -\frac{\beta^2}{4\sigma\gamma}\left[1-\exp(-2\sigma\gamma\psi)\right]
+  - y \approx \pm\frac{\beta^2}{2\gamma}\exp(2\gamma^2\tau)\,\mathrm{sh}(2\gamma\xi)
+  - z \approx 1 \mp \frac{2}{\beta^2}\exp(2\gamma^2\tau)\,\mathrm{ch}(2\gamma\xi)
+  - u \approx y\left(\frac{4\gamma^2}{\beta^2 z} - 1\right)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - linear-instability-stage
+  - approximate-solutions
+  - electrical-path
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR09-019
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: На начальной стадии развития неустойчивости её инкремент 2γ2 существенно зависит от приведённой скорости
+    γ продольных волн, реализующих неустойчивость.
+  statement_en: The approximate solutions (24)-(26) give the picture of the linear stage of the instability under
+    the space-time inequalities τ < τ0 and ξ < ξ0 (27), where ξ0 and τ0 are related by 2γ = β²exp(2γ²τ0)sh(2γξ0);
+    from (24)-(26) it is seen that at τ → −∞ the plasmoid is uniform (z = 1) and electrically neutral for any β,
+    γ, with no collective field (y = 0) and no directed electron motion (u = 0); at the initial stage of instability
+    development its increment 2γ² substantially depends on the reduced velocity γ of the longitudinal waves realizing
+    the instability.
+  quantities: []
+  equations:
+  - 2\gamma = \beta^2\exp(2\gamma^2\tau_0)\,\mathrm{sh}(2\gamma\xi_0)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - instability-increment
+  - linear-stage
+  notes: ''
+  relations: []
+- id: SC-AR09-020
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: 'Из круглых скобок в (26) видно, что возможны два вида протекания неустойчивости: неустойчивость, которая
+    реализуется на медленных волнах'
+  statement_en: 'From the round brackets in (26) two kinds of instability are possible: an instability realized
+    on slow waves γ < γs, where γs = βz/2, and an instability realized on fast waves γ > γs (similar to Pustovoyt''s
+    explosive instability, not quantified in [3]).'
+  quantities:
+  - gamma_s = beta z/2
+  equations:
+  - \gamma_s = \beta z/2
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - slow-wave-instability
+  - fast-wave-instability
+  - explosive-instability
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR09-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: Из (24) – (26) видно, что все электроны, участвующие в формировании неустойчивости, разделены на четыре
+    класса.
+  statement_en: 'From (24)-(26) all electrons participating in the formation of the instability are divided into
+    four classes: the first class — electrons located near the ξ = 0 plane, practically immobile at any moment of
+    time; the second class — electrons with u = 0 in a certain region of space at a certain moment, their rest in
+    the dynamical system explained by the equality of the forces holding the volume in equilibrium: for them the
+    vector sum of the Bernoulli force fb = −kT∇n and the field-pressure gradient f = −enE acting on the electrons
+    is zero; the third class — electrons moving in the direction of the field strength, their motion provided by
+    the Bernoulli force, which in these plasma regions is greater than the field-pressure gradient; the fourth class
+    — electrons moving against the collective field strength, their motion provided by the field-pressure gradient,
+    which in these regions is greater than the Bernoulli force.'
+  quantities: []
+  equations:
+  - \mathbf{f}_b = -kT\nabla n
+  - \mathbf{f} = -e n\mathbf{E}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - four-electron-classes
+  - bernoulli-force
+  - debt-candidate
+  - electrical-path
+  notes: Plasma 'Bernoulli force' doctrine carried into two-component plasma dynamics.
+  relations: []
+- id: SC-AR09-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: Так, если образование электронного кластера в дырочной плазме происходит при наличии затравочного поля
+    в виде y ~  sh( 2 ) , то при неустойчивости на медленных волнах основная часть электронов начинает движение
+    к плоскости ξ=0, а при реализации неустойчивости на быстрых волнах основная часть электронов начинает уходить
+    на периферию.
+  statement_en: 'For the formation of the same plasmoid different variants of plasma electron motion exist for the
+    two kinds of instability: if the electron cluster in hole plasma forms in the presence of a seed field of the
+    form y ~ +sh(2γξ), then at the slow-wave instability the main part of the electrons starts moving toward the
+    ξ = 0 plane, while at the fast-wave instability the main part of the electrons starts leaving for the periphery.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - seed-field
+  - hole-plasma-cluster
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR09-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: Образование плазмоида в виде электронного кластера в электронной плазме происходит для затравочного
+    поля y ~ sh( 2 ) .
+  statement_en: 'Formation of a plasmoid in the form of an electron cluster in electron plasma for the seed field
+    y ~ −sh(2γξ): at the slow-wave instability the main part of the electrons leaves for the periphery, while at
+    the fast-wave instability the main part of the electrons starts moving toward the ξ = 0 plane.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - seed-field
+  - electron-plasma-cluster
+  - electrical-path
+  notes: 'OCR-degraded: quote covers the claim''s opening; the restatement continues on the same page. ''затворного''
+    is the source''s own rendering of ''затравочного''.'
+  relations: []
+- id: SC-AR09-024
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 11
+  quote_ru: Приведём оценки физических параметров плазмоидов с пространственным масштабом l = 10-3 см для температуры
+    T=1000 К.
+  statement_en: 'Estimates of the physical parameters of plasmoids with spatial scale l = 10⁻³ cm at temperature
+    T = 1000 K, taking the plasmoid at the characteristic temperature (state parameter β = 1), give: collective-field
+    strength scale E* = 170 V/cm; gasokinetic pressure of positive and negative charges in the plasmoid 2p₀ = 1.3·10⁻⁴
+    dyn/cm²; positive-background concentration n₀ = 4.7·10¹⁰ cm⁻³; velocity scale u* = 3·10⁸ cm/s for collision
+    frequency ν = 10⁹ s⁻¹; characteristic time scale of instability growth t* = 3 ps.'
+  quantities:
+  - l = 1e-3 cm
+  - T = 1000 K
+  - beta = 1
+  - E* = 170 V/cm
+  - 2p0 = 1.3e-4 dyn/cm^2
+  - n0 = 4.7e10 cm^-3
+  - u* = 3e8 cm/s
+  - nu = 1e9 s^-1
+  - t* = 3 ps
+  equations: []
+  materials: []
+  geometry:
+  - spatial scale l = 1e-3 cm (micron plasmoid)
+  procedure_steps: []
+  measurements:
+  - quantity: field strength scale E*
+    value: '170'
+    unit: V/cm
+    conditions: l = 1e-3 cm, T = 1000 K, beta = 1
+  - quantity: instability growth time scale t*
+    value: '3'
+    unit: ps
+    conditions: nu = 1e9 s^-1
+  schematic_refs: []
+  tags:
+  - microplasmoid
+  - estimates
+  - parameters
+  - electrical-path
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-AR09-025
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 11
+  quote_ru: Если в атмосфере она представляет собой плазмоид, то для пространственного масштаба l = 10 см и температуры
+    T=1000 К, масштаб напряжённости коллективного поля E* = 1,7 10-2 В/см, газокинетическое давление положительных
+    и отрицательных зарядов в плазмоиде 2p0=1,310-12 дин/см2, а концентрация положительных зарядов фона n0=4,7102
+    см-3.
+  statement_en: 'Estimates for ball lightning, which can exist in vacuum, are given in [5]; if in the atmosphere
+    it is a plasmoid, then for spatial scale l = 10 cm and temperature T = 1000 K: collective-field strength scale
+    E* = 1.7·10⁻² V/cm; gasokinetic pressure of positive and negative charges 2p₀ = 1.3·10⁻¹² dyn/cm²; positive-background
+    concentration n₀ = 4.7·10² cm⁻³; velocity scale u* = 3·10⁴ cm/s for collision frequency ν = 10⁹ s⁻¹; characteristic
+    instability-growth time scale in plasmoid (ball lightning) formation t* = 300 μs.'
+  quantities:
+  - l = 10 cm
+  - T = 1000 K
+  - E* = 1.7e-2 V/cm
+  - 2p0 = 1.3e-12 dyn/cm^2
+  - n0 = 4.7e2 cm^-3
+  - u* = 3e4 cm/s
+  - t* = 300 us
+  equations: []
+  materials: []
+  geometry:
+  - spatial scale l = 10 cm (ball lightning)
+  procedure_steps: []
+  measurements:
+  - quantity: field strength scale E*
+    value: '1.7e-2'
+    unit: V/cm
+    conditions: l = 10 cm, T = 1000 K
+  - quantity: instability growth time scale t*
+    value: '300'
+    unit: us
+    conditions: ball-lightning plasmoid formation
+  schematic_refs: []
+  tags:
+  - ball-lightning
+  - estimates
+  - debt-candidate
+  notes: Ball-lightning plasmoid interpretation; OCR-degraded superscripts.
+  relations: []
+- id: SC-AR09-026
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: 'Исследование статических решений модели указывает на возможность существования трёх видов плазмоидов:
+    электронейтрального и заряженного положительно (электронный кластер в дырочной плазме), либо отрицательно (электронный
+    кластер в электронной плазме).'
+  statement_en: 'An approximate physical-mathematical model of plasmoid generation in a two-component plasma adequately
+    describing their observed electrical properties is proposed; the study of static solutions of the model indicates
+    the possibility of three kinds of plasmoids: electrically neutral, positively charged (electron cluster in hole
+    plasma), or negatively charged (electron cluster in electron plasma); the study of nonstatic solutions at the
+    initial stage indicates the possibility of two kinds of electrical instability: slow-wave instability and fast-wave
+    instability.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - three-plasmoid-kinds
+  - two-instability-kinds
+  - electrical-path
+  notes: Conclusions.
+  relations: []
+- id: SC-AR09-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: Образование электронного кластера в дырочной плазме происходит при наличии затравочного поля y ~  sh(
+    2 ) . При неустойчивости на медленных волнах основная часть электронов начинает движение к плоскости ξ=0,
+    а при реализации неустойчивости на быстрых волнах основная часть электронов начинает уходить на периферию. 
+    Образование плазмоида в виде электронного кластера в электронной плазме происходит для затравочного поля y ~
+    sh( 2 ) .
+  statement_en: 'Formation of an electron cluster in hole plasma occurs in the presence of a seed field y ~ +sh(2γξ):
+    at slow-wave instability the main part of the electrons starts moving toward the ξ = 0 plane, while at fast-wave
+    instability the main part starts leaving for the periphery; formation of a plasmoid in the form of an electron
+    cluster in electron plasma occurs for seed field y ~ −sh(2γξ): at slow-wave instability the main share of electrons
+    leaves for the periphery, while at fast-wave instability the main share starts moving toward the ξ = 0 plane.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - seed-field
+  - cluster-formation
+  - electrical-path
+  notes: Conclusions.
+  relations: []
+- id: SC-AR09-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: Следующие из модели оценки для микроплазмоида и десятисантиметрового плазмоида типа шаровой молнии дают
+    приемлемые значения физических величин, которые могут реализоваться в природе и в лабораторных экспериментах.
+  statement_en: The estimates following from the model for a microplasmoid and a ten-centimeter ball-lightning-type
+    plasmoid give acceptable values of the physical quantities which can be realized in nature and in laboratory
+    experiments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - model-validation
+  - estimates
+  - electrical-path
+  notes: Conclusion.
+  relations: []

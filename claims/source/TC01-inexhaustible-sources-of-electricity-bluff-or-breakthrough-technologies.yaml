@@ -1,0 +1,1216 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TC01
+  section: technologies
+  title_ru: Персональные неисчерпаемые источники электричества – блеф или прорывные технологии?
+  title_en: Personal inexhaustible sources of electricity — bluff or breakthrough technologies?
+  file: papers/technologies/inexhaustible-sources-of-electricity-bluff-or-breakthrough-technologies.pdf
+  source_url: http://146.190.233.254/docs/technologies/inexhaustible_sources_of_electricity_bluff_or_breakthrough_technologies.pdf
+  md5: 507969022b2e8ab34b3342ba1aa1b540
+  pages_total: 17
+  retrieved: '2026-09-01'
+claims:
+- id: SC-TC01-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Восстановлена работа Великого Стокса, который теоретически и экспериментально доказал возможность его
+    существования сто лет назад.
+  statement_en: The work restores G. Stokes' result, which theoretically and experimentally proved the possibility
+    of a perpetual motion machine's existence a hundred years ago.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - perpetual-motion
+  - debt-candidate
+  notes: Abstract assertion; 'его' refers to the вечный двигатель named in the preceding sentence.
+  relations: []
+- id: SC-TC01-002
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Он обусловлен синтезом/распадом нового физического объекта, Электронно-Дырочного Пузыря (ЭДП), который
+    возникает при тепловом движении нагретой плазмы, и порождается термоэлектрическим эффектом.
+  statement_en: A new microscopic mechanism of energy exchange in plasma is caused by synthesis/decay of a new physical
+    object, the Electron-Hole Bubble (EHB), which arises in the thermal motion of heated plasma and is generated
+    by the thermoelectric effect.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - thermoelectric
+  - EHP
+  notes: ЭДП = Electron-Hole Bubble; charge-cluster-generation relevant.
+  relations: []
+- id: SC-TC01-003
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Если в плазме возникает область, у которой температура в центре ниже, чем на периферии, то электроны
+    перемещаются к холодному центру, и образуют сжимающийся ЭДП.
+  statement_en: If a region forms in plasma whose temperature at the center is lower than at the periphery, electrons
+    move toward the cold center and form a contracting EHB.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - thermoelectric
+  notes: ''
+  relations: []
+- id: SC-TC01-004
+  type: physical
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: ЭДП имеет несколько ипостасей. Он может быть плазмоидом, шаровой молнией или зарядовым кластером.
+  statement_en: 'The EHB has several guises: it can be a plasmoid, ball lightning, or a charge cluster.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - plasmoid
+  - ball-lightning
+  notes: ''
+  relations: []
+- id: SC-TC01-005
+  type: physical
+  facet: process
+  priority: core
+  page: 1
+  quote_ru: Процесс синтеза/распада ЭДП в плазме может быть циклическим. Синтез – создаёт топливо. Распад – его
+    сжигает и ЭДП исчезает.
+  statement_en: 'The EHB synthesis/decay process in plasma can be cyclic: synthesis creates the fuel, decay burns
+    it and the EHB disappears; the cycle can both heat and cool the plasma.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - process
+  - cycle
+  notes: ''
+  relations:
+  - to: SC-TC01-002
+    kind: generalizes
+- id: SC-TC01-006
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Механизм синтеза/распада ЭДП может предоставить конкурирующее объяснение аномального выделения тепла
+    в опытах Флейшмана-Понса, Каторгина- Марина, Росси-Фокарди.
+  statement_en: The EHB synthesis/decay mechanism can provide a competing explanation of the anomalous heat release
+    observed in the Fleischmann-Pons, Katorgin-Marin, and Rossi-Focardi experiments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - anomalous-heat
+  - debt-candidate
+  notes: quote keeps the hyphen-wrap artifact 'Каторгина- Марина' from pdftotext line breaking.
+  relations: []
+- id: SC-TC01-007
+  type: physical
+  facet: recipe
+  priority: core
+  page: 1
+  quote_ru: С его помощью, на основе плазменных конденсаторов, можно наладить производство персональных «батареек»,
+    которые служат вечно и не требуют подзарядки.
+  statement_en: Using this mechanism, production of personal 'batteries' based on plasma capacitors that serve forever
+    and never need recharging can be established.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - electrical
+  - plasma-capacitor
+  notes: ''
+  relations: []
+- id: SC-TC01-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Основной физический результат работы в том, что в природе должны наблюдаться нагретые пузыри из массовых
+    частиц огромных размеров и масс, а также пузырьки зарядов с самыми
+  statement_en: 'The main physical result: heated bubbles of massive particles of enormous sizes and masses, as
+    well as charge bubbles of the most varied sizes, must be observed in nature; they depend on temperature, and
+    the spatial scales of mass bubbles and charge bubbles differ strongly.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-clusters
+  - self-consistent-field
+  - debt-candidate
+  notes: quote_ru truncated before the OCR-degraded word 'разными' (letters spaced out by pdftotext).
+  relations: []
+- id: SC-TC01-009
+  type: physical
+  facet: experiment
+  priority: core
+  page: 5
+  quote_ru: Силы объясняли причины кратковременного удержания Electrum Validum (твёрдотельного электрона) американского
+    исследователя Кеннета Шоулдерса. Физические параметры наблюдаемых объектов были им измерены на острийном катоде
+    в 1970 году.
+  statement_en: The (self-consistent-field confinement) forces explain the causes of the short-term retention of
+    Kenneth Shoulders' Electrum Validum (solid-state electron); the physical parameters of the observed objects
+    were measured by him on a point cathode in 1970.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - shoulders
+  - charge-cluster
+  notes: ''
+  relations:
+  - to: SC-TC01-004
+    kind: supports
+- id: SC-TC01-010
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Если движение тела происходит в таком поле по замкнутой траектории, то однородная сила, действующая
+    на тело, работу за цикл не совершает.
+  statement_en: If a body moves along a closed trajectory in a uniform (gravitational) field, the uniform force
+    acting on the body does no work over the cycle.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - circulation
+  - theorem
+  notes: ''
+  relations: []
+- id: SC-TC01-011
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Если вы запишете уравнение Ньютона для динамики вращательного движения (три момента сил), то оно имеет
+    одно из решений, при котором в среде с трением угловое ускорение вертушки будет равно нулю, а грузы на её ободе
+    будут крутиться вечно с постоянной угловой скоростью.
+  statement_en: Newton's equation for rotational dynamics with three torque components (gravity, sliding friction,
+    viscous air friction) has a solution in which, in a medium with friction, the wheel's angular acceleration is
+    zero and the loads on its rim rotate forever at constant angular velocity.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - perpetual-motion
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-TC01-010
+    kind: contradicts
+- id: SC-TC01-012
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Великий Стокс увидел, что при таком движении существует математический закон сохранения мощности, на
+    который никто не обратил внимания.
+  statement_en: Stokes saw that for such motion there exists a mathematical law of conservation of power, which
+    no one noticed.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - power-conservation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC01-013
+  type: physical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Оказалось, что в рассматриваемой ситуации мощность момента силы действия вертушки всегда будет равна
+    суммарной мощности момента сил трения – сил противодействия. Так вертушка непрерывно перекачивает мощность из
+    гравитационного «бензобака», и компенсирует потери мощности «ненавистного» трения.
+  statement_en: In this situation the power of the wheel's driving torque always equals the total power of the friction
+    torques (the opposing forces); the wheel thus continuously pumps power from the gravitational 'fuel tank' and
+    compensates the friction power losses.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - power-conservation
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-TC01-012
+    kind: derives
+- id: SC-TC01-014
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 7
+  quote_ru: Стокс эти законы динамики проверил экспериментально на вертикальном движении металлического шарика в
+    вязкой жидкости.
+  statement_en: Stokes verified these dynamical laws experimentally on the vertical motion of a metal ball in a
+    viscous liquid.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - stokes
+  - verification
+  notes: ''
+  relations: []
+- id: SC-TC01-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: В среде с трением может существовать такой класс траекторий движения
+  statement_en: In a medium with friction there can exist a class of trajectories in which the body moves at constant
+    speed, either linear or angular (the fundamental law of conservation of power).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - power-conservation
+  - debt-candidate
+  notes: 'quote truncated before the OCR-degraded word ''тело'' (spaced as ''те ло''); full sentence continues on
+    next page: ''...перемещаться с постоянной скоростью: либо линейной, либо угловой.'''
+  relations: []
+- id: SC-TC01-016
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 9
+  quote_ru: ТОКИ ЛЕВИТАЦИИ в 100 А, открытые Доценко, поднимают поезд в 2400 тонн на 1 см, не нагревая металл, в
+    котором возникают.
+  statement_en: Levitation currents of 100 A, discovered by Dotsenko, lift a 2400-tonne train by 1 cm without heating
+    the metal in which they arise.
+  quantities:
+  - I = 100 А
+  - m(поезда) = 2400 тонн
+  - h = 1 см
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - levitation
+  - maglev
+  - high-temperature-superconductivity
+  notes: ''
+  relations: []
+- id: SC-TC01-017
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 9
+  quote_ru: Она же была открыта китайскими инженерами, создавшими за 10 лет технологию MAGLEV (магнитная левитация)
+    для поездов, движущихся со скоростью 650 км/час.
+  statement_en: The same (levitation) force was discovered by Chinese engineers, who created in 10 years the MAGLEV
+    (magnetic levitation) technology for trains moving at 650 km/h.
+  quantities:
+  - v = 650 км/час
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - levitation
+  - maglev
+  notes: ''
+  relations: []
+- id: SC-TC01-018
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 9
+  quote_ru: На законе сохранения мощности работает уже 20 лет вечный двигатель француза Альдо Коста. Он представляет
+    собой вертушку 11-ти метрового радиуса, которую закручивает момент сил гравитационного поля (см. интернет).
+  statement_en: 'A perpetual motion machine by the Frenchman Aldo Costa has been running on the law of conservation
+    of power for 20 years: a wheel of 11-meter radius driven by the torque of the gravitational field; falling dust
+    requires him to lubricate and restart it monthly, and it rotates at a small but constant angular velocity.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - вертушка радиусом 11 м
+  procedure_steps:
+  - закрутить вертушку радиусом 11 м моментом сил гравитационного поля
+  - смазывать механизм раз в месяц и запускать снова
+  measurements:
+  - quantity: время непрерывной работы
+    value: '20'
+    unit: лет
+    conditions: вечный двигатель Альдо Коста
+  - quantity: период смазки
+    value: '1'
+    unit: раз в месяц
+    conditions: смазка механизма
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - perpetual-motion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC01-019
+  type: physical
+  facet: recipe
+  priority: core
+  page: 9
+  quote_ru: которые используют механический вечный двигатель на силе Архимеда. Она движет куполообразные поплавки
+    по замкнутой траектории в воде, налитой в башню. Башни имеют большую высоту (от 10 до 20 м.).
+  statement_en: 'Fuel-free generators (BTG) use a mechanical perpetual motion machine on the Archimedes force: dome-shaped
+    floats are moved along a closed trajectory in water filling a tower 10-20 m high; a mechano-electric converter
+    is placed on the axis and the installation runs continuously, supplying cheap AC energy.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - 'высота башни: от 10 до 20 м'
+  - куполообразные поплавки, замкнутая траектория в воде
+  procedure_steps:
+  - заполнить башню водой (высота башен от 10 до 20 м)
+  - двигать куполообразные поплавки силой Архимеда по замкнутой траектории
+  - поставить на ось механо-электрический преобразователь
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - BTG
+  - бестопливный-генератор
+  - electrical
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC01-020
+  type: physical
+  facet: recipe
+  priority: core
+  page: 10
+  quote_ru: Он изобрёл и испытал систему, в которой совместил мотор с генератором на одной оси. Этим самым усовершенствовал
+    опыты Мандельштама-Папалекси 50-х годов с механическим варикапом. Закольцевал выход последовательного колебательного
+    контура на вход. Настроил контур на токовую неустойчивость, предсказанную нами в 2019 году. Закрутил два акриловых
+    диска варикапа навстречу друг другу. И всё заработало.
+  statement_en: 'Paul Bauman (1970) invented and tested a system combining a motor and a generator on one axis (improving
+    the Mandelstam-Papalexi 1950s mechanical-varicap experiments): he looped the output of a series oscillatory
+    circuit to its input, tuned the circuit to the current instability predicted by the author in 2019, and spun
+    two acrylic varicap disks toward each other — and it all worked, giving another class of autonomous inexhaustible
+    AC sources.'
+  quantities: []
+  equations: []
+  materials:
+  - два акриловых диска варикапа
+  geometry: []
+  procedure_steps:
+  - совместить мотор и генератор на одной оси
+  - закольцевать выход последовательного колебательного контура на вход
+  - настроить контур на токовую неустойчивость
+  - закрутить два акриловых диска варикапа навстречу друг другу
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - varicap
+  - токовая-неустойчивость
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC01-021
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 10
+  quote_ru: Ведь в систему, похожую на LED, закачивается 10 Вт электрической мощности, а она «выдаёт», в виде излучения,
+    100 Вт световой.
+  statement_en: In a system similar to an LED, 10 W of electrical power is pumped in while it 'emits' 100 W of light
+    power — the device 'knows how' to convert electricity into light with multiplication of power (in Alferov's
+    heterostructure the known law of conservation of energy is claimed not to hold).
+  quantities:
+  - P_вх = 10 Вт (электрическая)
+  - P_изл = 100 Вт (световая)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - electrical
+  - LED
+  - гетероструктура
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC01-022
+  type: physical
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: Холодный электрод заряжается отрицательно, а нагретый − положительно, как у термопары.
+  statement_en: 'If the temperatures of two connected suspended capacitor plates differ, a thermoelectric effect
+    arises that moves electrons in the plasma toward the cold end: the cold electrode charges negatively and the
+    heated one positively, as in a thermocouple, and an electric attraction force arises between them as in an ordinary
+    capacitor.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermoelectric
+  - casimir
+  - charge-separation
+  notes: ''
+  relations:
+  - to: SC-TC01-023
+    kind: derives
+- id: SC-TC01-023
+  type: physics
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: Величину силы нельзя рассчитать по формуле Казимира. Она ошибочна. В неё не входят температуры пластин
+    конденсатора и угол их отклонения.
+  statement_en: The magnitude of the plate-attraction force cannot be calculated by the Casimir formula — it is
+    erroneous because it contains neither the temperatures of the capacitor plates nor their deflection angle.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - casimir
+  - debt-candidate
+  notes: '''contradicts'' = the author''s claim that this formula is wrong for the described experiment.'
+  relations:
+  - to: SC-TC01-022
+    kind: contradicts
+- id: SC-TC01-024
+  type: physical
+  facet: experiment
+  priority: normal
+  page: 11
+  quote_ru: опыт показывает, что флуктуации физического вакуума (если они вообще существуют?) чрезвычайно малы по
+    сравнению с силами термоэлектрического эффекта.
+  statement_en: Experience shows that the fluctuations of the physical vacuum (if they exist at all) are extremely
+    small compared with the forces of the thermoelectric effect.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - casimir
+  - thermoelectric
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC01-025
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 12
+  quote_ru: Плёнка дала разность потенциалов 4 В, а не микровольты, как в «провальных» экспериментах, доказывающих
+    невозможность термоэлектрического преобразования энергии 70-х годов.
+  statement_en: A thin aluminum film heated by an automobile lamp gave a potential difference of 4 V — not microvolts
+    as in the 'failed' 1970s experiments that proved the impossibility of thermoelectric energy conversion.
+  quantities: []
+  equations: []
+  materials:
+  - тонкая алюминиевая плёнка
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: разность потенциалов плёнки
+    value: '4'
+    unit: В
+    conditions: нагрев автомобильной лампой
+  schematic_refs: []
+  tags:
+  - electrical
+  - thermoelectric
+  - aluminum-film
+  notes: ''
+  relations: []
+- id: SC-TC01-026
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 12
+  quote_ru: Неустойчивость, развиваясь в плазме, создаёт новый физический объект − плазмоид, в котором коллективное
+    поле разделяет его макроскопические заряды и формирует новое техническое устройство под названием «заряженный
+    плазменный конденсатор». Энергии, запасаемые такими конденсаторами, могут быть огромными. Всё зависит от их
+    ёмкости.
+  statement_en: Charge (Pustovoit) instability developing in the plasma of a thin-film capacitor creates a plasmoid
+    in which the collective field separates macroscopic charges and forms a 'charged plasma capacitor'; the energies
+    stored in such capacitors can be enormous, depending on their capacitance.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - plasma-capacitor
+  - неустойчивость
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC01-027
+  type: physical
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: Он генерирует ток Максвелла, который сильно излучает. Вся накопленная электрическ ая энергия коллективного
+    поля выбрасывается через излучение.
+  statement_en: In a natural (cm/mm-size) charge-separated capacitor the thermal motion of charges creates a large
+    alternating electric dipole moment; it generates a Maxwell current which radiates strongly, and all the electrical
+    energy accumulated by the collective field is thrown out through radiation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - maxwell-current
+  - electrical
+  - излучение
+  notes: quote contains the OCR-spacing artifact 'электрическ ая' exactly as in the extracted text.
+  relations: []
+- id: SC-TC01-028
+  type: physical
+  facet: recipe
+  priority: core
+  page: 13
+  quote_ru: И. Белецкий сделал самозарядный плоский конденсатор. Его заряжает неустойчивость плазмы, называемой
+    зарядовой и открытой Пустовойтом. Это − тонкоплёночный конденсатор с толщиной алюминиевой плёнки 20 мкм с небольшой
+    площадью (см. интернет).
+  statement_en: 'I. Beletsky made a self-charging flat capacitor charged by the charge instability of plasma discovered
+    by Pustovoit: a thin-film capacitor with aluminum film thickness 20 µm and small area.'
+  quantities: []
+  equations: []
+  materials:
+  - алюминиевая плёнка
+  geometry:
+  - 'толщина алюминиевой плёнки: 20 мкм'
+  - небольшая площадь пластин
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - самозарядный-конденсатор
+  - кластер
+  - recipe
+  notes: ''
+  relations: []
+- id: SC-TC01-029
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 13
+  quote_ru: Как только пластины конденсатора прижимают друг к другу, в них возникает разделение зарядов за микросекунды.
+    Пластины заряжаются и притягиваются.
+  statement_en: As soon as the capacitor plates are pressed together, charge separation arises in them within microseconds;
+    the plates charge and attract each other (the new Pustovoit-Beletsky electric force).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: время разделения зарядов
+    value: микросекунды
+    unit: с
+    conditions: пластины прижаты друг к другу
+  schematic_refs: []
+  tags:
+  - electrical
+  - самозарядный-конденсатор
+  - charge-separation
+  notes: ''
+  relations: []
+- id: SC-TC01-030
+  type: physical
+  facet: process
+  priority: core
+  page: 13
+  quote_ru: Если разряд происходит после разведения пластин, как у крыльев бабочки, то получается дополнительное
+    увеличение заряда на пластинах на порядок. Увеличение заряда формирует ток Максвелла, возникающий в конденсаторе
+    с переменным потоком электрической индукции.
+  statement_en: If the discharge occurs after the plates are drawn apart (as with butterfly wings), an additional
+    order-of-magnitude increase of the charge on the plates is obtained; the charge increase forms a Maxwell current
+    arising in a capacitor with a varying electric-induction flux.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: увеличение заряда при разведении пластин
+    value: на порядок
+    unit: '-'
+    conditions: разряд после разведения пластин
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - maxwell-current
+  - самозарядный-конденсатор
+  notes: ''
+  relations: []
+- id: SC-TC01-031
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 13
+  quote_ru: Как только крылышки сложены, то возникает эффект Пустовойта-Белецкого. Крылышки заряжаются плазменной
+    неустойчивостью.
+  statement_en: The membranous wings of dragonflies and butterflies usually carry different charges (V. Grebenyukov);
+    when the wings fold, the Pustovoit-Beletsky effect arises — the wings are charged by the plasma instability,
+    charges drain very slowly, and flapping pumps electric power into the butterfly's abdomen.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-separation
+  - биофизика
+  notes: ''
+  relations: []
+- id: SC-TC01-032
+  type: physical
+  facet: process
+  priority: core
+  page: 13
+  quote_ru: Вы его успеваете разрядить на омическое сопротивление до полного высвечивания. Потом он снова заряжается.
+  statement_en: The self-charging capacitor is charged not by an external power source but by the plasma inside
+    it; one discharges it into an ohmic resistance before complete depletion, it recharges, and the cycle repeats.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - разрядить самозарядный конденсатор на омическое сопротивление до полного высвечивания
+  - дождаться повторного заряда от внутренней плазмы
+  - повторять цикл
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - самозарядный-конденсатор
+  - cycle
+  notes: ''
+  relations: []
+- id: SC-TC01-033
+  type: physical
+  facet: recipe
+  priority: core
+  page: 13
+  quote_ru: Для этого нужно изменять на обкладках конденсатора разность температур. Эффект разделения зарядов только
+    увеличится от термоэлектрического эффекта.
+  statement_en: 'The self-charging effect can be strengthened by varying the temperature difference across the capacitor
+    plates: the charge-separation effect only increases from the thermoelectric effect (the author warns the technology
+    is near-explosive — capacitor breakdown can occur).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - изменять разность температур на обкладках конденсатора
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - термоэлектрический
+  - самозарядный-конденсатор
+  notes: ''
+  relations: []
+- id: SC-TC01-034
+  type: physics
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: Если такой конденсатор-варикап включить в колебательный контур без источника, то при определённых параметрах
+    контура в нём может возникнуть другая неустойчивость плазмы – токовая. Токовая неустойчивость раскачивает переменный
+    ток в плазменном конденсаторе и превращает его в вечный источник тока.
+  statement_en: If such a capacitor-varicap is switched into an oscillatory circuit without a source, then for certain
+    circuit parameters another plasma instability — the current instability — can arise in it; it swings the alternating
+    current in the plasma capacitor and turns it into an eternal source of current (a stationary, non-rotating analog
+    of Bauman's generator).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - токовая-неустойчивость
+  - varicap
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-TC01-020
+    kind: generalizes
+- id: SC-TC01-035
+  type: physical
+  facet: process
+  priority: core
+  page: 14
+  quote_ru: Источник долго будет генерировать одновременно тепловую мощность и мощность переменного тока, который,
+    в свою очередь, будет греть источник.
+  statement_en: The source will generate for a long time both thermal power and alternating-current power simultaneously,
+    the AC power in turn heating the source.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - electrical
+  - energy-balance
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-TC01-034
+    kind: derives
+- id: SC-TC01-036
+  type: physical
+  facet: process
+  priority: core
+  page: 14
+  quote_ru: 'Такой же циклический процесс может возникать в любой плазме: газообразной, жидкой и плазме твёрдого
+    тела. Тепловое движение формирует плазмоид.'
+  statement_en: The same cyclic process can arise in any plasma — gaseous, liquid, or solid-state; thermal motion
+    forms a plasmoid whose contracting surface raises the charge density and hence the energy, the compression phase
+    being the synthesis of a plasma bubble of charges.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - plasma
+  - process
+  notes: ''
+  relations: []
+- id: SC-TC01-037
+  type: physics
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: Правда, синтез ядра может происходить только при температурах порядка 107 К и больше. А в плазме, синтез
+    ЭДП реализуется при низких температурах, около 1000 К.
+  statement_en: EHB synthesis resembles nucleus synthesis, but nuclear synthesis occurs only at temperatures of
+    order 10^7 K and above, whereas in plasma EHB synthesis is realized at low temperatures, about 1000 K; the bubble
+    radii of the similar objects differ substantially.
+  quantities:
+  - T(синтез ядра) ~ 10^7 К (в тексте «107 К»)
+  - T(синтез ЭДП) ≈ 1000 К
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - transmutation-adjacent
+  - debt-candidate
+  notes: '''107 К'' in the extracted text is the OCR-flattened form of 10^7 K.'
+  relations: []
+- id: SC-TC01-038
+  type: physical
+  facet: theory
+  priority: core
+  page: 15
+  quote_ru: Градиент давления, действующий на массовую плотность электронов, пропорционален градиенту температуры.
+  statement_en: Electrons 'run' into the cold region and form an EHB with contracting surface; they are pushed by
+    the Bernoulli force — the pressure gradient acting on the mass density of electrons is proportional to the temperature
+    gradient; a local hot center produces an expanding EHB instead.
+  quantities: []
+  equations:
+  - \nabla p \propto \nabla T
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - термоэлектрический
+  - bernoulli
+  notes: ''
+  relations: []
+- id: SC-TC01-039
+  type: physical
+  facet: theory
+  priority: core
+  page: 15
+  quote_ru: ЭДП имеет несколько ипостасей. Он может быть плазмоидом, зарядовым кластером или шаровой молнией. Удерживается
+    в локальной области полевым конфайнментом.
+  statement_en: The EHB has several guises — plasmoid, charge cluster, or ball lightning — and is held in a local
+    region by field confinement.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - field-confinement
+  - полевой-конфайнмент
+  notes: ''
+  relations:
+  - to: SC-TC01-004
+    kind: generalizes
+- id: SC-TC01-040
+  type: physics
+  facet: procedure
+  priority: core
+  page: 15
+  quote_ru: Но его можно получить только в том случае, если будет изменена технология встречных пучков, предложенная
+    Будкером. Необходимо создать технологию слияния пучков одного направления в пространстве дрейфа. Коллективному
+    полю нужно время для формирования ЭДП.
+  statement_en: 'The EHB can be observed without plasma on accelerators or colliders as an electron cluster or a
+    proton (hole) one, but only if Budker''s counter-beam technology is changed: a beam-merging technology of same-direction
+    beams in the drift space must be created, because the collective field needs time to form the EHB.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - изменить технологию встречных пучков Будкера
+  - создать слияние пучков одного направления в пространстве дрейфа
+  - дать коллективному полю время для формирования ЭДП
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - accelerator
+  - collider
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC01-041
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: У Бозона «Джан» будет энергия связи на порядки больше, чем у Бозона «Хигса».
+  statement_en: The long-lived boson named 'Dzhan', predicted independently of canonical physics by L. Sapogin's
+    Unitary Quantum Theory, will have a binding energy orders of magnitude larger than that of the Higgs boson.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dzhan
+  - unitary-quantum-theory
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC01-042
+  type: physical
+  facet: process
+  priority: core
+  page: 15
+  quote_ru: Первый шаг (синтез) – создаётся топливо. Второй шаг – стационарное состояние. Третий шаг (распад) –
+    сжигается топливо.
+  statement_en: 'The EHB formation process is cyclic with three steps: step 1 (synthesis) creates the fuel; step
+    2 is a stationary state; step 3 (decay) burns the fuel — the accumulated electrical energy is radiated back
+    into the plasma, the EHB disappears, and thermal motion forms it anew.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - 'синтез: создаётся топливо (ЭДП)'
+  - стационарное состояние
+  - 'распад: сжигается топливо, энергия излучается в плазму'
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - process
+  - cycle
+  notes: ''
+  relations: []
+- id: SC-TC01-043
+  type: physical
+  facet: process
+  priority: core
+  page: 15
+  quote_ru: П л а з м а б уд ет р а з о г р е в а т ь с я .
+  statement_en: 'The plasma will heat up: conditions arise for a plasma reactor operating in a heating mode; alternatively,
+    by finding a regime of generating expanding EHBs the reactor can be made the most efficient refrigerator.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - plasma-reactor
+  - excess-energy
+  - debt-candidate
+  notes: The quoted sentence is letter-spaced in the source OCR ('П л а з м а б уд е т...'); it matches the text
+    after whitespace normalization.
+  relations: []
+- id: SC-TC01-044
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 15
+  quote_ru: Ф и з и ч е с к и й м е х а н и з м г е н е р а ц и и и р а с п а д а ЭД П , конкурирующий с механизмом
+    расщепления ядер, может предложить альтернативное объяснение аномального выделения тепла, зарегистрированного
+    в опытах с плазмой.
+  statement_en: The physical mechanism of EHB generation and decay, competing with the mechanism of nucleus splitting,
+    can offer an alternative explanation of the anomalous heat release registered in plasma experiments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - evo
+  - anomalous-heat
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-TC01-006
+    kind: generalizes
+- id: SC-TC01-045
+  type: physical
+  facet: experiment
+  priority: core
+  page: 15
+  quote_ru: Скандальные опыты Флейшана-Понса с электролизом тяжёлой воды (плазма в опытах возникала в тонком слое
+    жидкости у палладиевого электрода, но её никто не увидел).
+  statement_en: In the scandalous Fleischmann-Pons heavy-water electrolysis experiments, plasma arose in a thin
+    liquid layer at the palladium electrode, but nobody saw it.
+  quantities: []
+  equations: []
+  materials:
+  - палладиевый электрод
+  - тяжёлая вода
+  geometry:
+  - тонкий слой жидкости у палладиевого электрода
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - anomalous-heat
+  - palladium
+  - electrolysis
+  notes: ''
+  relations: []
+- id: SC-TC01-046
+  type: physical
+  facet: experiment
+  priority: core
+  page: 15
+  quote_ru: Опыты Каторгина-Марина с водородной плазмой газового разряда (недостаток технологии – запредельно большое
+    излучение плазмы разрядом).
+  statement_en: The Katorgin-Marin experiments used hydrogen plasma of a gas discharge; the technology's drawback
+    is the extremely large radiation of the plasma by the discharge.
+  quantities: []
+  equations: []
+  materials:
+  - водородная плазма газового разряда
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - anomalous-heat
+  - gas-discharge
+  - излучение
+  notes: ''
+  relations: []
+- id: SC-TC01-047
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 15
+  quote_ru: с плазмой твёрдого тела (в уединённой ёмкости с металлическими опилками достигнута самая большая концентрация
+    ЭДП; удельная мощность, излучаемая ёмкостью – 16 ГВт/м3).
+  statement_en: The Rossi-Focardi experiments with solid-state plasma achieved the largest EHB concentration in
+    a solitary capacitance with metal shavings; the specific power radiated by the capacitance was 16 GW/m3.
+  quantities: []
+  equations: []
+  materials:
+  - металлические опилки
+  - уединённая ёмкость
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: удельная мощность, излучаемая ёмкостью
+    value: '16'
+    unit: ГВт/м3
+    conditions: опыты Росси-Фокарди, плазма твёрдого тела
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - evo
+  - anomalous-heat
+  - rossi-focardi
+  notes: ''
+  relations: []
+- id: SC-TC01-048
+  type: physical
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: В нём место радиоактивных отходов занимает излучение плазмы. Поэтому, возникает непростая проблема создания
+    автономных экологически чистых реакторов на плазменных конденсаторах со слабым излучением.
+  statement_en: 'The plasma reactor, like the nuclear reactor, has a ''black spot'': plasma radiation takes the
+    place of radioactive waste, so a nontrivial problem arises — creating autonomous ecologically clean reactors
+    on plasma capacitors with weak radiation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasma-reactor
+  - излучение
+  - ecology
+  notes: ''
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

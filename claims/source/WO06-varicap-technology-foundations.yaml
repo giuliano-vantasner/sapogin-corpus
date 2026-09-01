@@ -1,0 +1,941 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: WO06
+  section: works
+  title_ru: Физические основы продвижения технологии создания варикапа с электронным кластером
+  title_en: Physical foundations of promoting the technology of creating a varicap with an electron cluster
+  file: papers/works/fizicheskie-osnovy-prodvizheniya-tekhnologii-sozdaniya-varikapa-s-elektronnym-kl.pdf
+  source_url: http://146.190.233.254/docs/works/Физические основы продвижения технологии создания варикапа с электронным
+    кластером.pdf
+  md5: 96ffc0c52d43365f60dcb87485aee303
+  pages_total: 8
+  retrieved: '2026-09-01'
+claims:
+- id: SC-WO06-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Металлические баллоны с кислородом могут выдерживать уже десятикратное давление атмосферы.
+  statement_en: 'School-physics background: a gas balloon holds gas whose pressure varies within certain limits
+    — a glass balloon can withstand pressure up to about three times atmospheric, at four times it explodes; metal
+    oxygen cylinders can withstand ten times atmospheric pressure; if a filled gas balloon is thrown into a furnace
+    and heated it will eventually explode — the causes can be explained in different physical terms: (1) the gas
+    pressure in the balloon exceeded the pressure the metal balloon can withstand; (2) the temperature of the heated
+    molecular gas turned out higher than the characteristic temperature of the metal balloon; gas balloons usually
+    indicate the limit pressure in megapascals (10^6 Pa).'
+  quantities:
+  - glass balloon limit ~3 atm
+  - metal cylinders ~10 atm
+  - limit pressure units MPa (10^6 Pa)
+  equations: []
+  materials:
+  - glass
+  - metal
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - background
+  - pressure-limits
+  notes: Introductory analogy.
+  relations: []
+- id: SC-WO06-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: 'И нам с вами нужно сделать оценки важнейших параметров кластера. Из них нужно понять, при каких концентрациях
+    и температурах (роль стекла играет давление поля, образованное зарядами; условие удержания: давление поля должно
+    быть равно давлению зарядов) эта система будет удерживаться.'
+  statement_en: 'The posed task: we have a vessel representing a charge bubble (the same as a gas of molecules in
+    a ''glass balloon'') heated to a definite temperature, and we need to estimate the most important cluster parameters;
+    from them to understand at what concentrations and temperatures (the role of glass is played by the field pressure
+    formed by the charges; the retention condition: the field pressure must equal the charge pressure) this system
+    will be retained; only one who has built the physical theory of charge clusters and understands it can make
+    these estimates.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-condition
+  - charge-clusters
+  - estimates
+  notes: ''
+  relations: []
+- id: SC-WO06-003
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: 'Физика вроде тоже простая: если давление зарядов окажется больше давления поля, то кластер либо взорвётся,
+    либо увеличит свои размеры.'
+  statement_en: 'The physics is also simple: if the charge pressure turns out greater than the field pressure, the
+    cluster either explodes or increases its size; if the field pressure is greater than the charge pressure, the
+    charge bubble compresses; the charge pressure, as in an ordinary gas, is determined directly by their temperature
+    (the school formula p = nkT); i.e. in a diode the creation of a gas medium consisting of individual electrons
+    with a definite concentration and definite temperature is possible; charge bubbles can also be in the medium;
+    in clusters the electric fields always counteract the thermal fields.'
+  quantities: []
+  equations:
+  - p = nkT
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pressure-balance
+  - cluster-dynamics
+  notes: ''
+  relations: []
+- id: SC-WO06-004
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: 'Четыре параметра: концентрация, температура, потенциал системы и заряд, – определяют существование
+    такого стационарного зарядового кластера, в котором в любом месте кластера давление поля'
+  statement_en: Four parameters — concentration, temperature, potential of the system, and charge — determine the
+    existence of such a stationary charge cluster in which at any place of the cluster the field pressure equals
+    the local charge pressure; a situation is possible when at these parameters a cluster of, say, 4 meters forms;
+    such a size does not fit the dimensions of a vacuum diode; and since this is so, expecting the appearance of
+    Shoulders' micron clusters in such a gas medium can take years — one begins to understand that in such a 'broth'
+    they may never appear at all.
+  quantities:
+  - 'example cluster size: 4 m'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - four-parameters
+  - stationary-cluster
+  notes: ''
+  relations: []
+- id: SC-WO06-005
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Из параметра (1) можно вычленить его характеристическую температуру
+  statement_en: In a charge cluster there is the dimensionless parameter eφ/kT (1), where e is the electron charge,
+    φ the mean electric potential of the cluster, k the Boltzmann constant, T the absolute temperature of the cluster;
+    from parameter (1) one can extract its characteristic temperature T* = eφ/k ≈ φ·10^4 K (2), which defines the
+    characteristic temperature scale of any electron cluster located under a mean potential.
+  quantities:
+  - T* = e phi/k ~ phi x 1e4 K
+  equations:
+  - e\varphi/kT
+  - T^* = e\varphi/k \approx \varphi\cdot 10^4\ \mathrm{K}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - characteristic-temperature
+  - state-parameter
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-WO06-006
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 2
+  quote_ru: Как показывают многолетние эксперименты с вакуумным диодом, при температуре поверхности катода 1000
+    К образуется газ электронов со средним потенциалом порядка 1 милливольт.
+  statement_en: 'As multi-year experiments with the vacuum diode show, at a cathode surface temperature of 1000
+    K an electron gas with a mean potential of the order of 1 millivolt forms; this figure is obtained from the
+    volt-ampere characteristic of a lockable vacuum diode of centimeter dimensions: take a vacuum diode, switch
+    on the filament, and apply a negative blocking voltage to the anode; it is increased until the current through
+    the diode stops.'
+  quantities:
+  - cathode temperature 1000 K
+  - mean electron-gas potential ~ 1 mV
+  equations: []
+  materials:
+  - vacuum diode
+  geometry:
+  - 'diode dimensions: centimeters'
+  procedure_steps:
+  - heat the filament
+  - apply negative blocking voltage to anode
+  - increase until current stops
+  - read blocking potential from V-A characteristic
+  measurements:
+  - quantity: mean potential of electron gas
+    value: '1'
+    unit: mV
+    conditions: cathode surface at 1000 K, blocking-voltage method
+  schematic_refs: []
+  tags:
+  - blocking-voltage
+  - electron-gas-potential
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-WO06-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Видно, что у электронного кластера таких диодов температура T* =10 К. Если эту температуру сравнить
+    с температурой 1000 К рождающего их катода, то электронный кластер – холодный. И он пребывает в «ледниковом
+    периоде».
+  statement_en: 'For diodes of different types this value may differ, but still it has an order of magnitude of
+    a potential of about 1 millivolt (the main thing is the order of the physical quantity); the potential determines
+    the characteristic temperature (2): for the electron cluster of such diodes T* = 10 K; comparing this temperature
+    with the 1000 K of the cathode generating them, the electron cluster is cold and resides in a ''glacial period''.'
+  quantities:
+  - T* = 10 K vs cathode 1000 K
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cold-cluster
+  - characteristic-temperature
+  notes: ''
+  relations: []
+- id: SC-WO06-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Мы рассчитали физические параметры кластера, который появляется у поверхности нагретого катода при напряжении
+    между анодом и катодом, равным нулю.
+  statement_en: The physical parameters of the cluster appearing at the surface of a heated cathode were calculated
+    for the voltage between anode and cathode equal to zero; applying voltage to the electrodes is equivalent to
+    introducing thermal energy into the gas of thermoelectrons; it will necessarily increase its temperature; the
+    higher the voltage on the electrodes, the higher the heating of the thermoelectrons.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - voltage-heating
+  notes: ''
+  relations: []
+- id: SC-WO06-009
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 3
+  quote_ru: Если к электродам вакуумного диода приложить среднее напряжение порядка 30 000 В, то это всё равно,
+    что нагреть баллон с газом до характеристической температуры 300 миллионов Кельвин (это в сотни раз выше, чем
+    температура внутри плазмы Солнца).
+  statement_en: 'If a mean voltage of the order of 30,000 V is applied to the electrodes of a vacuum diode, it is
+    the same as heating a gas balloon to a characteristic temperature of 300 million Kelvin (hundreds of times higher
+    than the temperature inside the Sun''s plasma); calculation: T* = eφ/k = (1.6·10⁻¹⁹ × 30000)/(1.38·10⁻²³) =
+    3·10⁸ K.'
+  quantities:
+  - applied voltage 30000 V
+  - T* = 3e8 K (hundreds of times above solar-plasma interior)
+  equations:
+  - T^* = e\varphi/k = \frac{1.6\cdot10^{-19}\cdot 30000}{1.38\cdot10^{-23}} = 3\cdot 10^8\ \mathrm{K}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - characteristic-temperature
+  - voltage-heating
+  notes: ''
+  relations: []
+- id: SC-WO06-010
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Совершенно ясно, что такой «дикобраз» в лампы сантиметровых размеров не поместится.
+  statement_en: In the brochure 'Technologies of personal power engineering on bubble structures of charges' p.
+    23 formula (1) is given by which the spatial size (the cluster radius) can be calculated; keeping the same electron
+    concentration in the cluster (1.9·10¹¹ per cubic meter — such concentration is standard for vacuum diodes at
+    temperatures from 1000 to 2000 K), the possible cluster radius for a temperature of 300 million Kelvin comes
+    out 400 times greater than the cluster radius of 1 cm for a temperature of 2000 K; it is completely clear that
+    such a 'porcupine' will not fit into lamps of centimeter sizes.
+  quantities:
+  - electron concentration 1.9e11 m^-3 (standard for vacuum diodes at 1000-2000 K)
+  - radius grows 400x from 1 cm at 2000 K to ~4 m at 3e8 K
+  equations: []
+  materials: []
+  geometry:
+  - cluster radius 1 cm at 2000 K; ~4 m at 3e8 K
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-radius
+  - scaling
+  notes: 'OCR-degraded: superscript flattened (1011 = 10^11).'
+  relations: []
+- id: SC-WO06-011
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Каждый из них имеет свою площадь сферической поверхности. Если умножить эту площадь на их несметное
+    количество, то это увеличит эффективную площадь ёмкости ВК, и его ёмкость увеличится от 106 до 109 раз.
+  statement_en: This says that at the input of such voltages into the diode one cannot expect the appearance of
+    a micron-size cluster; the author thought that inside the diode with external anode a countless number of them
+    would form; each of them has its own spherical surface area; multiplying this area by their countless number
+    would increase the effective capacitance area of the VC (varicap with cluster), and its capacitance would increase
+    from 10^6 to 10^9 times.
+  quantities:
+  - capacitance increase 1e6–1e9 times (expected)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - capacitance-increase
+  - expectation
+  notes: 'OCR-degraded: superscripts flattened (106 = 10^6, 109 = 10^9).'
+  relations: []
+- id: SC-WO06-012
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: Но ваши эксперименты последних лет с различными вакуумными диодами не обнаружили предполагаемой физической
+    ситуации.
+  statement_en: But the addressee's experiments of recent years with various vacuum diodes did not detect the expected
+    physical situation; yet in the initial studies conducted by the addressee in Petersburg such clusters arose
+    and changed the capacitance to very large values.
+  quantities: []
+  equations: []
+  materials:
+  - vacuum diodes
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - replication-failures
+  - petersburg-experiments
+  notes: Letter to the company (addressee experiments in St. Petersburg).
+  relations: []
+- id: SC-WO06-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Думаю, что в Питере вы случайно натолкнулись на эффект увеличения ёмкости.
+  statement_en: The author thinks that in Petersburg the addressee accidentally stumbled on the effect of capacitance
+    increase; it can be assumed that in those experiments the surfaces of the cathodes of the used lamps had roughness;
+    their cathodes nobody thought of polishing; there were quite a few roughnesses — at least enough for the capacitance-increase
+    effect to be noticeable.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - cathode surface roughness
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - roughness-hypothesis
+  - capacitance-increase
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO06-014
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: Что показали последние эксперименты? Они показали развитие электрической плазменной неустойчивости внутри
+    электронного газа.
+  statement_en: Those vacuum diodes (French kenotrons) that the addressee investigated were apparently well made
+    and lacked the needed number of sharp-point elements (or surface roughnesses, as with G. Mesyats) on the cathode
+    surface; they did not supply micron charge bubbles into the electron gas; the latest experiments showed the
+    development of an electric plasma instability inside the electron gas; what did this instability do to the electrons?
+    When a large-amplitude pulse was applied, the electron gas, heating up, began chaotic motion and formed various
+    growth fronts; hot electrons strove to leave into cold regions; the electrons heated these regions and again
+    sought cold regions; at that, the instability could not generate any charge clusters.
+  quantities: []
+  equations: []
+  materials:
+  - French kenotrons
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasma-instability
+  - kenotrons
+  - no-clusters
+  notes: ''
+  relations: []
+- id: SC-WO06-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Если бы в кенотронах были шероховатые элементы в нужном количестве, то они бы порождали микронные зарядовые
+    кластеры Шоулдерса.
+  statement_en: If the kenotrons had rough elements in the needed quantity, they would generate micron Shoulders
+    charge clusters; in the bubbles the charge concentration would be higher than in the surrounding 'broth' by
+    8 orders; precisely they would change the capacitance of the system; such a bubble jumps out of the point with
+    a diameter of 10 micrometers, then increases its diameter 400 times without exploding — becoming 4 millimeters
+    in size but remaining in the diode; the geometric length of the vacuum gap in these lamps is centimeters; there
+    should be thousands of such unexploded bubbles, maybe more; but where to get them if the cathode lacks the centers
+    generating them.
+  quantities:
+  - bubble concentration 8 orders above surrounding gas
+  - bubble diameter 10 um, expanding 400x to 4 mm
+  - 'vacuum gap length: centimeters'
+  equations: []
+  materials: []
+  geometry:
+  - bubble diameter 10 um to 4 mm
+  - vacuum gap of centimeter length
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders-clusters
+  - concentration-contrast
+  - cathode-centers
+  notes: ''
+  relations: []
+- id: SC-WO06-016
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Поэтому нужно создать свой конструктив вакуумного диода, который должен давать кластеры Шоулдерса.
+  statement_en: Therefore one needs to create one's own design of a vacuum diode which must give Shoulders clusters;
+    the addressee was designing diodes with small point cathodes; only micron-size clusters should be introduced
+    into the vacuum accumulator.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - diode-design
+  - device-requirement
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO06-017
+  type: physics
+  facet: recipe
+  priority: core
+  page: 4
+  quote_ru: Пусть катод будет из металлического конуса (материал такой, чтобы мог выдерживать температуру нагрева
+    в 3000 К, – наверное, вольфрам).
+  statement_en: 'Constructive proposal for an atmospheric current discharger in another variant: the cathode should
+    be a metal cone of a material withstanding a heating temperature of 3000 K (probably tungsten); assume the large
+    base diameter 1-2 cm; the small base should be ground and polished to micron sizes; the cone angle 30 degrees
+    relative to the axis; attach to the large base a heater rated for the required power of heating the cone from
+    1000 K to 2000 K (see fig. 5 on p. 43 of ''Технологии…''); at an axial distance from 2 mm to 5 cm (a way to
+    vary this distance should be considered) place co-axially a cylindrical anode in the form of a Faraday cage
+    with a lid of diameter from 2 to 4 cm; assemble all this on a vacuum stand; the result is exactly the same diode
+    as Shoulders''s, but differing from his design by the macroscopic size of the point cathode and the cathode
+    heating.'
+  quantities:
+  - cathode material tungsten (3000 K)
+  - large base diameter 1-2 cm
+  - cone angle 30 degrees
+  - heating 1000-2000 K
+  - anode distance 2 mm - 5 cm
+  - anode diameter 2-4 cm
+  equations: []
+  materials:
+  - tungsten cone cathode
+  - Faraday-cage cylindrical anode with lid
+  geometry:
+  - cone base 1-2 cm, small base micron-size, angle 30 degrees
+  - anode diameter 2-4 cm at 2 mm-5 cm axial distance
+  procedure_steps:
+  - make tungsten cone cathode with micron polished tip
+  - attach heater to large base (1000-2000 K)
+  - place Faraday-cage cylindrical anode coaxially at 2 mm-5 cm
+  - assemble on vacuum stand
+  measurements: []
+  schematic_refs:
+  - рис. 5 на стр. 43 «Технологии…»
+  tags:
+  - device-recipe
+  - tungsten-cathode
+  - shoulders-diode
+  - electrical-path
+  notes: 'OCR-degraded: ''Угол конуса 300'' = 30° (degree sign lost).'
+  relations: []
+- id: SC-WO06-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Почему нужен острийный катод? Всё дело в том, что в такой геометрии электроны начинают уходить от нагретой
+    большой поверхности конуса к острию в холодную область.
+  statement_en: 'Why is a point cathode needed? In such geometry the electrons begin to move away from the heated
+    large surface of the cone toward the point, into the cold region; the temperature gradient pushes them; the
+    collective electric field retains them in such a way that they cannot jump out through the lateral surface of
+    the cone; therefore single electrons cannot appear in the vacuum gap in this variant; it is the same as making
+    a conical metal pipe: passing water through such a fitting one achieves its exit through the small hole under
+    high pressure.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - conical geometry
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - temperature-gradient
+  - point-cathode-rationale
+  notes: ''
+  relations: []
+- id: SC-WO06-019
+  type: physics
+  facet: procedure
+  priority: core
+  page: 5
+  quote_ru: При формировании электрической схемы последовательно с диодом включить омическую вставку, которая позволит
+    наблюдать за зависимостью протекающего в диоде тока от времени.
+  statement_en: In forming the electric circuit, connect an ohmic insert in series with the diode which will allow
+    observing the dependence of the current flowing in the diode on time; perhaps a wire of 10 cm inserted into
+    the oscilloscope input will suffice; the diode in the cluster regime will radiate electromagnetic waves into
+    the surrounding space very strongly; if the oscilloscope shows chaotic pulses with large surge amplitudes, it
+    means you have hit the generation of charge bubbles; check at different voltages up to 30 kilovolts; but charge
+    bubbles will begin appearing already at voltages even of 10 kV.
+  quantities:
+  - check voltages up to 30 kV
+  - bubble appearance threshold ~ 10 kV
+  - 10 cm wire as ohmic probe
+  equations: []
+  materials:
+  - ohmic insert
+  - oscilloscope
+  geometry: []
+  procedure_steps:
+  - connect ohmic insert in series with diode
+  - observe current vs time on oscilloscope
+  - look for chaotic large-amplitude pulses indicating bubble generation
+  - sweep voltage up to 30 kV
+  measurements:
+  - quantity: bubble-generation onset voltage
+    value: '10'
+    unit: kV
+    conditions: expected threshold; check up to 30 kV
+  schematic_refs: []
+  tags:
+  - measurement-procedure
+  - bubble-detection
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO06-020
+  type: experimental
+  facet: procedure
+  priority: core
+  page: 5
+  quote_ru: Далее, изменяя расстояние между катодом и анодом, меняя температуру нагрева конуса и напряжение, найти
+    режим самой мощной генерации кластеров.
+  statement_en: Further, by varying the distance between cathode and anode, the heating temperature of the cone,
+    and the voltage, find the regime of the most powerful cluster generation; only after the confidence appears
+    that charge bubbles form in the diode (this is visible from the current-versus-time dependence) can one move
+    further; try the operation of the diode not in vacuum but in air; a single luminous current cord may arise;
+    the cord will be similar to the current cord obtained by I. Zhuravkov at a discharge in air; it is very similar
+    to linear lightning in the atmosphere.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - vary cathode-anode distance
+  - vary cone heating temperature and voltage
+  - find the most powerful cluster-generation regime
+  - then try diode operation in air
+  - look for a single luminous current cord
+  measurements: []
+  schematic_refs: []
+  tags:
+  - optimization-procedure
+  - current-cord
+  - lightning-analogy
+  notes: ''
+  relations: []
+- id: SC-WO06-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Диод с макроскопическим «подогревным» катодом Шоулдерса будет самостоятельным физическим прибором.
+  statement_en: A diode with a macroscopic 'heated' Shoulders cathode will be an independent physical device; it
+    can play the role of a vacuum diode with discreteness of the flowing current — of the type 'Vacuum diode on
+    bubble structures of charges'.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bubble-diode
+  - current-discreteness
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO06-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Работающему диоду не будет цены. Нужно сразу проверить его свойства вентильности, зависящие от формы
+    анода.
+  statement_en: A working diode will be priceless; one should immediately check its valve properties, which depend
+    on the shape of the anode; it must pass current in only one direction; with such a diode one can carry out a
+    whole series of diverse measurements necessary for creating several scientific directions at a new level of
+    technology development.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - check valve (rectifying) properties vs anode shape
+  - verify single-direction current passage
+  measurements: []
+  schematic_refs: []
+  tags:
+  - valve-properties
+  - measurements
+  notes: ''
+  relations: []
+- id: SC-WO06-023
+  type: physics
+  facet: procedure
+  priority: core
+  page: 5
+  quote_ru: 1. Проверить режим прямого преобразования тепловой энергии нагретого катода в электрическую энергию.
+    Такой диод будет называться термоэлектронным преобразователем (см. мою последнюю брошюру и брошюру «Источники
+    постоянного тока на физическом принципе….»). Греете катод и измеряете возникающее электрическое напряжение между
+    катодом и анодом. Эти милливольты будут зависеть от температуры конуса (чем больше температура, тем больше напряжение).
+    Интересно измерить коэффициент преобразования тепловой энергии в электрическую энергию.
+  statement_en: 'Direction 1: check the regime of direct conversion of the thermal energy of the heated cathode
+    into electric energy; such a diode will be called a thermoelectron converter; heat the cathode and measure the
+    arising electric voltage between cathode and anode; these millivolts will depend on the temperature of the cone
+    (the higher the temperature, the higher the voltage); it is interesting to measure the coefficient of conversion
+    of thermal energy into electric energy; these studies failed in the Soviet Union in the 1970s; a device attached
+    to a hot surface will constantly produce a small amount of electricity as long as the surface is hot.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - heat the cathode
+  - measure arising cathode-anode voltage vs temperature
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermoelectron-converter
+  - thermal-to-electric
+  - USSR-1970s
+  notes: ''
+  relations: []
+- id: SC-WO06-024
+  type: physics
+  facet: procedure
+  priority: core
+  page: 6
+  quote_ru: 2. Изолировать диэлектриком анод и начать исследования увеличения ёмкости зарядовым кластером, возникающим
+    между электродами.
+  statement_en: 'Direction 2: insulate the anode with a dielectric and begin studying the increase of capacitance
+    by the charge cluster arising between the electrodes — an advancement of the addressee''s ideas on creating
+    a varicap on an electron cluster; the author has other technological schemes of its creation: there is a variant
+    in which the thermoelectron cloud is created by an incandescent lamp inserted between the plates of a capacitor;
+    the plates are moved out of the space of interaction of the charge cluster; then a possible electric instability
+    stops hindering the manifestation of the capacitive properties of the diode.'
+  quantities: []
+  equations: []
+  materials:
+  - dielectric
+  - incandescent lamp
+  geometry: []
+  procedure_steps:
+  - insulate anode with dielectric
+  - study capacitance increase by the inter-electrode charge cluster
+  - 'alternative: create thermoelectron cloud with incandescent lamp between capacitor plates'
+  - move plates out of the cluster interaction space
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap-research
+  - capacitance-increase
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO06-025
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: 3. Вижу уникальное свойство высоковольтных ВК. Они могут быть применены в качестве устройства сверх
+    единичного преобразователя электрической мощности.
+  statement_en: 'Direction 3: the author sees a unique property of high-voltage varicaps (VC): they can be applied
+    as a device of a superunity converter of electric power; at its charging the process of synthesis of the charge
+    cluster (CC) occurs, and at discharging — the process of CC decay; the charge/discharge will not obey the habitual
+    conservation laws because the synthesis/decay of charge bubbles consumes/releases different energy; the power
+    released at discharge can turn out one-two orders greater than the power received at charging; only full-scale
+    experiments can confirm or refute this assertion.'
+  quantities:
+  - discharge power possibly 1-2 orders above charge power
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - superunity-converter
+  - synthesis-decay
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO06-026
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: 4. Вакуумный диод может быть применён в качестве воздушного искрового разрядника, который был изобретён
+    ещё Теслой, и пополнить современный класс устройств, называемых атмосферными разрядниками.
+  statement_en: 'Direction 4: the vacuum diode can be applied as an air spark discharger, which was invented by
+    Tesla, and augment the modern class of devices called atmospheric dischargers; it will have its own sensitivity
+    to the breakdown voltage.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spark-discharger
+  - tesla
+  notes: ''
+  relations: []
+- id: SC-WO06-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Это конденсаторы на Д-М-Д структурах (диэлектрик-металл-диэлектрик). На них наткнулись недавно в Китае
+    (слой 4 нм) и, вроде бы, в Ростове, в ЮФУ (слой 10 нм).
+  statement_en: 'Direction 5: the author recently understood that a new class of capacitors on conducting films
+    of nanometer thickness exists in nature, which will be a serious competitor to the addressee''s high-voltage
+    findings: capacitors on D-M-D structures (dielectric-metal-dielectric); they were stumbled upon recently in
+    China (a layer of 4 nm) and, it seems, in Rostov at SFU (a layer of 10 nm); the government of China is looking
+    for those who will help understand why such a capacitance decreases inversely proportional to the voltage; exceptionally
+    beautiful physics of the effect, but they do not understand it; explanation: when an external electric field
+    whose strength is greater than the strength of the intracrystalline field is applied to a thin metal film, a
+    double electric layer forms; the dipole electrization of the film arises immediately; at first glance the technology
+    is nanoscale, but it can be made exceptionally cheap and low-voltage.'
+  quantities:
+  - 'China: 4 nm layer'
+  - 'SFU Rostov: 10 nm layer'
+  equations: []
+  materials:
+  - thin metal film
+  - dielectrics
+  geometry:
+  - film thickness 4 nm (China), 10 nm (SFU)
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - DMD-capacitors
+  - double-electric-layer
+  - nanoscale
+  - competitor-technology
+  notes: ''
+  relations: []
+- id: SC-WO06-028
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 7
+  quote_ru: Мы с А. Атаманченко проверили её простым образом. Взяли чёрную копирку (тонкая проводящая плёнка графита),
+    положили на заряженную обкладку конденсатора через листы бумаги, и потенциал на электрометре рухнул до нуля.
+    Заряд на обкладках оставался постоянным.
+  statement_en: 'The author together with A. Atamanchenko checked it in a simple way: they took black carbon paper
+    (a thin conducting graphite film), laid it on a charged capacitor plate through sheets of paper, and the potential
+    on the electrometer collapsed to zero; the charge on the plates remained constant; on a film thickness of nanometers,
+    at centimeter transverse sizes, one volt is enough to obtain millifarads; this is a competitive physical mechanism
+    capable of pushing the addressee''s not-yet-mastered technology into the background, because such capacitors
+    are required in huge quantities for processors made by the 5 nm technology.'
+  quantities:
+  - 1 V across nanometer film at cm sizes gives millifarads
+  - plate charge constant during test
+  equations: []
+  materials:
+  - black carbon paper (thin graphite film)
+  - sheets of paper
+  - capacitor plate
+  - electrometer
+  geometry:
+  - graphite film of nanometer thickness, centimeter transverse sizes
+  procedure_steps:
+  - charge capacitor plate
+  - lay carbon paper on the plate through paper sheets
+  - observe electrometer potential collapse to zero at constant plate charge
+  measurements:
+  - quantity: capacitance per volt
+    value: millifarads at 1 V
+    unit: '-'
+    conditions: nm-thick graphite film, cm transverse size
+  schematic_refs: []
+  tags:
+  - atamanchenko
+  - graphite-film
+  - experiment
+  - millifarads
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO06-029
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Но можно затеять изготовление макроскопических конденсаторов на самые различные напряжения от 5 Вольт
+    до 30 кВ.
+  statement_en: But one can also undertake the manufacture of macroscopic capacitors for the most various voltages
+    from 5 Volts to 30 kV; they will have the highest volume density of capacitance; possessing large capacitance
+    at small sizes.
+  quantities:
+  - voltage range 5 V to 30 kV
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - macroscopic-capacitors
+  - volume-density
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO06-030
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: 6. Вижу совершенно уникальное применение предлагаемого диода в качестве конденсатора с осциллирующим
+    дипольным моментом (КОДМ).
+  statement_en: 'Direction 6: the author sees a completely unique application of the proposed diode as a capacitor
+    with an oscillating dipole moment (ODDM); nobody has yet applied it in such a role; only the author knows what
+    it is; this one more scientific research direction will help build immobile technical devices of superunity
+    conversion of power on the Maxwell displacement current; nobody has such devices yet; on mains power converters
+    one can obtain the cheapest electric energy in the world; if everything works out, it will turn the existing
+    power engineering upside down; the author thinks working devices will be in great demand in the near future.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ODDM
+  - superunity-conversion
+  - displacement-current
+  - debt-candidate
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO06-031
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: 7 направление исследований. Конденсатор с осциллирующим дипольным моментом (КОДМ) – это новый элемент
+    электрической цепи, способный увеличивать мощность переменного тока без подвода к нему внешнего питания.
+  statement_en: 'Research direction 7: the capacitor with an oscillating dipole moment (ODDM) is a new element of
+    an electric circuit capable of increasing the power of alternating current without an external power supply
+    connected to it; it will certainly be in demand in radio-engineering circuits.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ODDM
+  - new-circuit-element
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO06-032
+  type: physics
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Наука о зарядовых кластерах не терпит коммерческих тайн.
+  statement_en: The science of charge clusters does not tolerate commercial secrets; everything must be open and
+    discussable with the participants of the development; the problem of micro-lightning can be overcome only by
+    involving a very large contingent of clever people — physicists, mathematicians, engineers, technologists —
+    just as was done in the manufacture of the atomic bomb.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - open-science
+  - organization
+  notes: ''
+  relations: []
+- id: SC-WO06-033
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Вам сейчас предложено 7 новых научных направлений на сотни миллионов долларов, в которых можно двигаться
+    параллельно.
+  statement_en: Seven new scientific directions worth hundreds of millions of dollars are now offered to the addressee,
+    in which one can move in parallel; the author is convinced that the subsequent technologies among them will
+    all fire; one must urgently switch to the proposed research directions; one of them will help create a varicap
+    with good physical characteristics; its wide future application is already visible; it is a new element of a
+    radio-engineering circuit whose properties need to be studied further in various connections with inductance
+    (a Tesla transformer), with capacitance, with ohmic resistance, creating new physical devices on these studies.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - seven-directions
+  - varicap
+  - research-program
+  notes: ''
+  relations: []

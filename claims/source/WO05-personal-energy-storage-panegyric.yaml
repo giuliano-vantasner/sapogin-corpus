@@ -1,0 +1,837 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: WO05
+  section: works
+  title_ru: Панегирик неисчерпаемому персональному накопителю электрической энергии
+  title_en: Panegyric to the inexhaustible personal storage of electric energy
+  file: papers/works/panegirik-neischerpaemomu-personalnomu-nakopitelyu-elektricheskoy-energii.pdf
+  source_url: http://146.190.233.254/docs/works/Панегирик неисчерпаемому персональному накопителю электрической
+    энергии.pdf
+  md5: acbeb2f46cf6c0c53aed5aed4e07bb95
+  pages_total: 7
+  retrieved: '2026-09-01'
+claims:
+- id: SC-WO05-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: В заметке найден ответ на вопрос о причинах исключительно медленного распространения технологий создания
+    самовращающихся накопителей электрической энергии.
+  statement_en: The note finds the answer to the question of the causes of the extremely slow spread of technologies
+    for creating self-rotating storages of electric energy; a model of the operation of such a storage in the form
+    of a closed energy chain is proposed; the model explains the mechanism of generation of rotational kinetic and
+    electric energies existing in Nature; the generation of excess energy is confirmed by numerous experiments of
+    recent years; the mechanism can help the energy industry in solving the problem of producing a personal storage
+    not requiring the supply of energy from outside.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-rotating-storage
+  - closed-energy-chain
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-002
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 1
+  quote_ru: Согласно монографии А.Фролова, по сведениям 1720 года, некто Иоганн Элиас Бесслер (Карл Орфериус), родившийся
+    в Саксонии, изобрёл «самодвижущееся колесо».
+  statement_en: 'According to A. Frolov''s monograph, by information of 1720, a certain Johann Elias Bessler (Karl
+    Orferius) born in Saxony invented the ''self-moving wheel'': a thin wheel 3 feet in diameter (1 ft = 0.3 m)
+    and 4 inches (1 inch = 2.54 cm) thick rotated on a horizontal axis at a constant speed of about 60 revolutions
+    per minute and could lift a weight of several pounds (1 pound = 0.45 kg); a year later the inventor demonstrated
+    a new wheel 5 feet in diameter and 6 inches thick; it rotated at 50 revolutions per minute and could lift a
+    weight of 40 pounds.'
+  quantities:
+  - 'wheel 1: diameter 3 ft, thickness 4 in, ~60 rpm, lifting several pounds'
+  - 'wheel 2: diameter 5 ft, thickness 6 in, 50 rpm, lifting 40 pounds'
+  equations: []
+  materials: []
+  geometry:
+  - wheel diameters 3 ft and 5 ft
+  procedure_steps: []
+  measurements:
+  - quantity: rotation speed of Bessler's second wheel
+    value: '50'
+    unit: rpm
+    conditions: 1720s, historical report
+  schematic_refs: []
+  tags:
+  - bessler
+  - perpetual-motion
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO05-003
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 1
+  quote_ru: 'Граф Карл Гессен-Кассельский приобрёл последнюю модель двигателя, запустил её в закрытом помещении
+    и три раза проверял её работу: через две недели, через 40 дней и через два месяца. Колесо непрерывно вращалось
+    с «неослабевающей быстротой».'
+  statement_en: 'Count Karl of Hesse-Kassel acquired the last model of the engine, launched it in a closed room,
+    and checked its operation three times: after two weeks, after 40 days, and after two months; the wheel rotated
+    continuously with ''unflagging speed''; the great Isaac Newton knew about Orfenius''s machine but failed to
+    explain the phenomenon of its operation.'
+  quantities:
+  - 'checks: 2 weeks, 40 days, 2 months'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - launch wheel in closed room
+  - verify operation at 2 weeks, 40 days, and 2 months
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bessler
+  - hessen-kassel
+  - newton
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO05-004
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 1
+  quote_ru: Примерно в эти же годы математик-изобретатель из Индии, Бхаскар, использовал вращение колеса, на внешнем
+    ободе которого были закреплены запаянные трубки одинакового размера.
+  statement_en: In about the same years the mathematician-inventor from India Bhaskara used the rotation of a wheel
+    on whose outer rim sealed tubes of equal size were fastened; the tubes were arranged tangentially to the rim;
+    they were filled half with either water or mercury; nowadays many working modifications of Bhaskara's scheme
+    can be found on the internet.
+  quantities: []
+  equations: []
+  materials:
+  - water or mercury in sealed tubes
+  geometry:
+  - tubes tangent to wheel rim, half-filled
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bhaskara
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO05-005
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 1
+  quote_ru: Ранее, изобретатель Виллиям де Оннекур (Франция, 1240 год) демонстрировал «самовращающееся колесо» с
+    семью грузами.
+  statement_en: Earlier the inventor Villiam de Honnecourt (France, 1240) demonstrated a 'self-rotating wheel' with
+    seven weights; in Italy in 1438 Mariano di Jacopo built a system of eight rods radially arranged in the plane
+    of rotation; the rods could bend only in one direction, which created a constant asymmetric rotation moment
+    for the gravitational spinner.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - eight radially arranged bendable rods
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - de-honnecourt
+  - di-jacopo
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO05-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Анализ экспериментальных работ наших современников, в которых обнаружено длительное вращение вертушки
+    с магнитными силами, следует начинать с мотора Говарда Джонсона (Howard R. Jonson, 1979) [2].
+  statement_en: The analysis of the experimental works of our contemporaries in which long rotation of a spinner
+    with magnetic forces was discovered should begin with the Howard Johnson motor (1979); in this motor a rotational
+    moment of magnetic forces was created by the asymmetry of the arrangement of magnets both in the rotor and in
+    the stator; Howard himself could not explain the physics of its long rotation to colleagues from the patent
+    bureau; but the absence of an explanation in no way prevented the motor from rotating continuously.
+  quantities: []
+  equations: []
+  materials:
+  - magnets (rotor and stator)
+  geometry:
+  - asymmetric magnet arrangement in rotor and stator
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - johnson-motor
+  - magnetic-asymmetry
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO05-007
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 2
+  quote_ru: Самая простая и физически понятная асимметрия, созданная в гравитационной вертушке, была предложена
+    нашим современником Альдо Коста (Aldo Kosta, Франция, 2000 г.).
+  statement_en: The simplest and physically understandable asymmetry created in a gravitational spinner was proposed
+    by our contemporary Aldo Costa (France, 2000); information on his invention was published by A. Frolov; the
+    operation of this wheel can be seen on the internet by entering in the search line 'вечный двигатель Альдо Коста';
+    its radius is more than 10 meters; it has been rotating for about 20 years; true, every three months this 'perpetual
+    motion machine' has to be lubricated.
+  quantities:
+  - wheel radius > 10 m
+  - rotation for ~20 years
+  - lubrication every 3 months
+  equations: []
+  materials: []
+  geometry:
+  - wheel radius > 10 m
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - aldo-costa
+  - gravitational-spinner
+  - perpetual-motion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-008
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 2
+  quote_ru: Внутри колеса он расположил более 200 грузиков, которые могут изменять своё расстояние от оси вращения
+    в 2-х полупространствах движения.
+  statement_en: 'Inside the wheel Aldo Costa arranged more than 200 weights which can change their distance from
+    the rotation axis in the 2 half-spaces of motion; these half-spaces are separated by a vertical plane passing
+    through the axis of the wheel; the achieved angular rotation speed is not very large: by our estimates it is
+    of the order of ~0.01 rad/s.'
+  quantities:
+  - '>200 weights'
+  - angular speed ~ 0.01 rad/s
+  equations: []
+  materials: []
+  geometry:
+  - weights movable in 2 half-spaces separated by vertical plane through wheel axis
+  procedure_steps: []
+  measurements:
+  - quantity: angular rotation speed
+    value: '0.01'
+    unit: rad/s
+    conditions: Costa wheel, author's estimate
+  schematic_refs: []
+  tags:
+  - aldo-costa
+  - parameters
+  - gravitational-spinner
+  notes: ''
+  relations: []
+- id: SC-WO05-009
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Оно заключается в существовании теоремы о циркуляции. Эта математическая теорема утверждает, что работа,
+    совершаемая однородным гравитационным полем над массой, движущейся по окружности, всегда равна нулю за период
+    такого движения.
+  statement_en: 'What is the cause of the extremely slow spread of the technology of creating various self-rotating
+    spinners and of such great distrust of them? In the author''s view this is connected with the thorough mathematical
+    proof of the impossibility of the existence of such an engine invented by academic theorists; it consists in
+    the existence of the circulation theorem: this mathematical theorem asserts that the work performed by a uniform
+    gravitational field on a mass moving in a circle is always zero over the period of such motion; from this follows
+    the inexorable conclusion: transferring the energy of the gravitational field to the moving wheel is impossible,
+    therefore it will never rotate.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - circulation-theorem
+  - impossibility-proof
+  notes: ''
+  relations: []
+- id: SC-WO05-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: С тех пор так и пошло. Сначала французская академия наук запретила рассматривать изобретения, посвящённые
+    «вечным двигателям».
+  statement_en: 'Since then it went like this: first the French Academy of Sciences banned considering inventions
+    devoted to ''perpetual motion machines''; then the academies of sciences of other countries joined it; and all
+    of them to this day struggle with the findings of inventors, hindering the unique research of humanity; but
+    ''the wheel does rotate''!'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - academy-ban
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO05-011
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Такое поразительное упрямство сотни лет тормозит развитие уникального класса двигателей длительного
+    вращения – гравитационных, магнитных и электрических.
+  statement_en: 'The author addresses the presidents of the academies of all countries and peoples: how can it be
+    that the cited mathematical dogma contradicts the experimental research conducted in various countries for more
+    than 200 years and this discourages no one?; such astonishing stubbornness has been hindering for hundreds of
+    years the development of a unique class of long-rotation engines — gravitational, magnetic, and electric; ponder
+    why the circulation theorem does not hinder them from rotating.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dogma-vs-experiment
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: 'Ведь, если внимательно посмотреть на периодическое вращение любого груза в реальной гравитационной
+    вертушке, то на этот груз всегда действуют, как минимум, четыре силы: гравитационная, сила реакции опоры, сила
+    трения скольжения и сила вязкого трения.'
+  statement_en: 'In response to the mathematical argument of refusal it would be good to recall one of the sayings
+    of the great and authoritative Russian scientist, academician of many academies of the world, M.V. Lomonosov:
+    ''One experiment I place higher than a thousand opinions born only of imagination''; if one looks attentively
+    at the periodic rotation of any weight in a real gravitational spinner, at least four forces always act on this
+    weight: the gravitational force, the support reaction force, the sliding friction force, and the viscous friction
+    force; it is the resultant action of these forces that makes the weight move in a circle; the action of only
+    the gravitational force cannot create circular motion of a body.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - four-forces
+  - circular-motion
+  - lomonosov
+  notes: ''
+  relations: []
+- id: SC-WO05-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: При таком движении гравитационная сила работу за период, конечно, не совершает.
+  statement_en: In such motion the gravitational force, of course, performs no work over the period — this is already
+    clear to any student; but during this period it transfers its energy to the weight through the support-reaction
+    force associated with it; one can create an asymmetric moment of forces constantly acting on the wheel; the
+    work of this force moment is always positive.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - asymmetric-moment
+  - work-transfer
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-014
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Сила реакции опоры изменяет своё направление в пространстве и величину за период.
+  statement_en: 'The support-reaction force changes its direction in space and its magnitude over the period; and
+    its circulation, understandably, is not equal to zero; this circulation coincides with the value of the work
+    transferred to the spinner by the gravitational field over the period; this leads to understanding under what
+    physical conditions the spinner will rotate and by what equation its motion is described; any student of a technical
+    university familiar with rotational dynamics can now compose this equation: I·dω/dt = M0 − M1 − M2 (1), where
+    I is the moment of inertia of the wheel, ω the angular velocity depending on time, and M0, M1, M2 three moments
+    of forces acting on the spinner axis: M0 — the asymmetric rotation moment, M1 — the moment of sliding (rolling)
+    friction forces in the bearing, M2 — the moment of viscous friction forces of air, which depends linearly on
+    the angular rotation speed of the spinner, i.e. M2 = ηω, where η is the rotational viscosity coefficient.'
+  quantities: []
+  equations:
+  - I\,\frac{d\omega}{dt} = M_0 - M_1 - M_2
+  - M_2 = \eta\,\omega
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - equation-of-motion
+  - support-reaction-circulation
+  notes: ''
+  relations: []
+- id: SC-WO05-015
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Решения этого уравнения хорошо изучены математиками прошлого века.
+  statement_en: 'The solutions of this equation are well studied by the mathematicians of the last century: they
+    describe the laws of establishment in time of the angular velocity of the wheel motion after its start with
+    a certain initial angular velocity ω0; the solutions single out the characteristic time scale of the transition
+    of the spinner into stationary long rotation; there one can also find solutions describing the possible stoppage
+    of the wheel after the disappearance of the asymmetric rotation moment.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - solutions
+  - stationary-rotation
+  notes: ''
+  relations: []
+- id: SC-WO05-016
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Самая важная информация следует из (1). Она определяет значение угловой скорости «вечного вращения»
+    вертушки
+  statement_en: 'The most important information follows from (1): it determines the value of the angular velocity
+    of the ''eternal rotation'' of the spinner (dω/dt = 0): ω* = (M0 − M1)/η (2); from (2) the magnitude of the
+    angular rotation velocity of the spinner depends on the difference of the moments of the rotation forces and
+    the friction forces, and also on the magnitude of the rotational viscosity of air; the angular velocity does
+    not depend on the moment of inertia of the system; engines in which the moment of the friction forces exceeds
+    the asymmetric one will not rotate.'
+  quantities:
+  - omega* = (M0 - M1)/eta
+  equations:
+  - \omega^* = (M_0 - M_1)/\eta
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - eternal-rotation-speed
+  notes: ''
+  relations: []
+- id: SC-WO05-017
+  type: physics
+  facet: procedure
+  priority: normal
+  page: 4
+  quote_ru: Полученные соотношения позволяют предложить адекватные процедуры измерения параметров, входящих в соотношения
+    (1), (2) любых вертушек, а также стимулировать создание новых конструктивных схем генераторов вращательной энергии,
+    имеющих разнообразный спектр угловых скоростей вращения.
+  statement_en: The obtained relations allow proposing adequate procedures of measuring the parameters entering
+    the relations (1), (2) of any spinners, and also stimulating the creation of new constructive schemes of rotational
+    energy generators having a diverse spectrum of angular rotation speeds; the time has come to repeat the unique
+    mechanical experiments of past centuries.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - measure parameters of (1), (2) for any spinner
+  - develop new constructive schemes of rotational energy generators
+  measurements: []
+  schematic_refs: []
+  tags:
+  - measurement-procedures
+  notes: ''
+  relations: []
+- id: SC-WO05-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Но самый удивительный «вечный двигатель», автономно вырабатывающий электрическую энергию без подведения
+    энергии извне, был изобретён в Швейцарии в 90-х годах прошлого века инженером Полем Бауманом.
+  statement_en: But the most astonishing 'perpetual motion machine', autonomously producing electric energy without
+    the supply of energy from outside, was invented in Switzerland in the 1990s of the last century by the engineer
+    Paul Bauman.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bauman
+  - perpetual-generator
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-019
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 4
+  quote_ru: Известно, что им удалось построить несколько различных установок на мощность 100 Вт, 300 Вт, 3 кВт и
+    10 кВт.
+  statement_en: 'The inventor Paul Bauman calls his devices Testatik Machine M/L Converter from the religious group
+    ''Methernitha'' (address: Methernitha, CH-3517 Linden, Switzerland), further — ''Testatika''; his community
+    took no patents on these devices; it was rumored that they pay nothing to the electric companies supplying the
+    town of Linden; the community did not sell these devices either in Switzerland or on the market; it is known
+    that they managed to build several different installations at the power of 100 W, 300 W, 3 kW, and 10 kW; video
+    clips with these working devices can still be found on the internet.'
+  quantities:
+  - 'installation powers: 100 W, 300 W, 3 kW, 10 kW'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatica
+  - bauman
+  - methernitha
+  - power-range
+  notes: ''
+  relations: []
+- id: SC-WO05-020
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 4
+  quote_ru: Информация, привезённая из Швейцарии три года назад, указывает на то, что Поль Бауман прекратил выпускать
+    свои электрические источники.
+  statement_en: Information brought from Switzerland three years ago indicates that Paul Bauman stopped producing
+    his electric sources; one low-power non-working device was placed in a museum; in the museum tourists are told
+    not only about the ability of the Swiss to make good cheese and chocolate but also that they learned to extract
+    electricity from the energy of the counter rotation of disks, which suffices for the needs of one small house
+    for years.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatica
+  - museum
+  - household-supply
+  notes: ''
+  relations: []
+- id: SC-WO05-021
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Первые сведения о том, как устроены установки П.Баумана, появились в Австрии в 1989 году.
+  statement_en: The first information on how Bauman's installations are arranged appeared in Austria in 1989; their
+    description can be found in the book of professor S. Marinov; later they were mentioned in the book of professor
+    L. Sapogin and in the monograph of A. Frolov.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - marinov
+  - literature
+  notes: ''
+  relations: []
+- id: SC-WO05-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Известно, что подобную установку пока не удалось повторить никому в России и в мире, несмотря на то,
+    что её подробные цветные чертежи выложены в Интернет российской лабораторией Faradey-Lab [1] уже на протяжении
+    последних 20 лет.
+  statement_en: Unfortunately neither the inventors themselves nor professor Marinov could give a coherent explanation
+    of the chain of physical phenomena long-generating excess electric energy in the Testatika installation; it
+    is known that such an installation has not yet been replicated by anyone in Russia or in the world, despite
+    the fact that its detailed color drawings have been posted on the internet by the Russian laboratory Faradey-Lab
+    for the last 20 years.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - replication-failures
+  - faradey-lab
+  - caveat
+  notes: Replication caveat acknowledged.
+  relations: []
+- id: SC-WO05-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Пока периодически изменяющаяся ёмкость участвует в самовращении, она непрерывно поставляет энергию в
+    замкнутую электрическую цепь.
+  statement_en: In the author's opinion the new electromechanical system combines a rotating motor and a generator
+    forming a closed energy chain; while the periodically changing capacitance participates in the self-rotation
+    it continuously supplies energy to the closed electric circuit; the load circuit includes high-voltage Tesla
+    transformers and chokes with neodymium magnets; the energy supplied to the circuit is sufficient to cover all
+    the losses of the system over the same period.
+  quantities: []
+  equations: []
+  materials:
+  - Tesla transformers
+  - chokes with neodymium magnets
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - closed-energy-chain
+  - variable-capacitance
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-024
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: В [5] нами исследован класс диссипативных физических систем, названных «закольцованные энергетические
+    цепочки» (ЗЭЦ  технология), которые обладают вышеперечисленными свойствами
+  statement_en: In [5] we studied a class of dissipative physical systems named 'closed energy chains' (CEC technology)
+    possessing the properties listed above (the brochure can be found at www.physics-evolution.ru); the scientific
+    direction 'Closed dissipative systems of periodic energy conversion' is included in the Registry of NEW SCIENTIFIC
+    DIRECTIONS of RAE, vol. 3, 2019; the author is confident that Bauman's 'Testatika' machine is a prototype of
+    exactly such systems; the operating principles of CEC systems allow creating three classes of original technical
+    devices.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - CEC-technology
+  - dissipation
+  - registry-RAE
+  notes: ''
+  relations: []
+- id: SC-WO05-025
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Первый класс устройств – устройства, преобразующие механическое вращение в переменный электрический
+    ток, известные как механо-электрические преобразователи.
+  statement_en: The first class of devices — devices converting mechanical rotation into alternating electric current,
+    known as mechano-electric converters; they are built on the principle of the Mandelshtam-Papaleksi parametric
+    generators with a large variable capacitance; regimes of superunity conversion of mechanical energy into electric
+    energy exist in them.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mechano-electric-converters
+  - parametric-generators
+  - superunity-conversion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-026
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Второй класс устройств – устройства, преобразующие напряжение в механическое вращение, т.е., электро-механические
+    преобразователи, работающие на зеркальном физическом принципе.
+  statement_en: The second class of devices — devices converting voltage into mechanical rotation, i.e. electro-mechanical
+    converters operating on the mirror physical principle; these are analogs of the Litovchenko-Bologo electrostatic
+    motors, prototypes of Franklin's electric wheel; special commercial interest apparently presents the creation
+    of microengines on MEMS technologies; they will not differ strongly from the nano-size motor-generators recently
+    discovered by biologists in flagellate bacteria flagellar motors.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - MEMS-scale microengines
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electro-mechanical-converters
+  - MEMS
+  - flagellar-motors
+  notes: ''
+  relations: []
+- id: SC-WO05-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Третий класс устройств – накопители электрической энергии (прототипы накопителя Поля Баумана), которые
+    могут поставлять избыточную энергию потребителю при наличии токовой неустойчивости, обнаруженной теоретически,
+    в последовательном колебательном контуре [8].
+  statement_en: The third class of devices — storages of electric energy (prototypes of Bauman's storage) which
+    can supply excess energy to the consumer in the presence of the current instability discovered theoretically
+    in a series oscillating circuit.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-storages
+  - current-instability
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Поразительно, но Природа позволяет человечеству создать персональный, автономный, неисчерпаемый, экологически
+    чистый, дешёвый накопитель электрической энергии.
+  statement_en: Astonishingly, Nature allows humanity to create a personal, autonomous, inexhaustible, ecologically
+    clean, cheap storage of electric energy; the technologies of its creation should be classified as breakthrough
+    technologies of the 21st century; no, even exclusively beautiful, mathematical theorems will be able to forbid
+    it to generate alternating-current electric energy from mechanical self-rotation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - breakthrough-technology
+  - inexhaustible-storage
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO05-029
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Достоинство накопителей электрической энергии заключается в том, что они не требуют для своей непрерывной
+    работы подзарядки и подвода энергии извне.
+  statement_en: The advantage of the electric energy storages is that they require no recharging and no external
+    energy supply for their continuous operation; the most important property of such personal generators is that
+    no harmful radiations are present during their operation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - no-recharging
+  - no-harmful-radiation
+  notes: ''
+  relations: []
+- id: SC-WO05-030
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Есть ли недостатки у таких накопителей? Наверняка.
+  statement_en: 'Are there flaws in such storages? Certainly: any technical device has numerous flaws; the operation
+    of the storage requires continuous counter mechanical rotation of disks of large diameter; in high-power installations
+    this will create high-intensity noises from which the energy consumer will need to be protected.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - large-diameter rotating disks
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - noise
+  - flaws
+  notes: ''
+  relations: []
+- id: SC-WO05-031
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: ЗЭЦ - технология позволит в будущем создавать накопители электрической энергии без механического вращения.
+  statement_en: 'The CEC technology will allow in the future creating electric energy storages without mechanical
+    rotation: in them the electric capacitance with mechanical rotation will be replaced by an immobile capacitance
+    with an oscillating dipole electric moment; the realization of such a storage is possible only after measuring
+    the electric parameters obtained in a working prototype with mechanical rotation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - measure electric parameters of working mechanical-rotation prototype
+  - replace rotating capacitance by immobile capacitance with oscillating dipole moment
+  measurements: []
+  schematic_refs: []
+  tags:
+  - CEC-technology
+  - ODDM
+  - future-storage
+  notes: ''
+  relations: []
+- id: SC-WO05-032
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Предложена модель работы такого накопителя в виде закольцованной энергетической цепочки. Модель объясняет
+    механизм генерации вращательной кинетической и электрической энергий, существующий в Природе.
+  statement_en: The proposed model of the operation of the personal engine/generator substantiates the mechanism
+    of generation of rotational kinetic and electric energies existing in Nature; the generation of excess energy
+    is confirmed by numerous experiments of recent years; the mechanism can help the energy industry in solving
+    the problem of producing a personal storage not requiring the supply of energy from outside.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - model-summary
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []

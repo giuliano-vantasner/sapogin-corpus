@@ -1,0 +1,17 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE12
+  section: teaching
+  title_ru: Сделайте физику интересной для учащихся
+  title_en: Make physics interesting for students
+  file: papers/teaching/sdelayte-fiziku-interesnoy-dlya-uchashchikhsya.pdf
+  source_url: http://146.190.233.254/docs/teaching/Сделайте физику интересной для учащихся.pdf
+  md5: 45d07a662355dce78c11d21dc979ce67
+  pages_total: 128
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

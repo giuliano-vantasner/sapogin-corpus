@@ -1,0 +1,717 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TC04
+  section: technologies
+  title_ru: Приближение «Армагеддона» передовых нанотехнологий
+  title_en: The approach of the nano-technologies' 'Armageddon'
+  file: papers/technologies/priblizhenie-armageddona-peredovykh-nanotekhnologiy.pdf
+  source_url: http://146.190.233.254/docs/technologies/Приближение «Армагеддона» передовых нанотехнологий.pdf
+  md5: e45b39f7131ea056f27bbbeb95d728d7
+  pages_total: 6
+  retrieved: '2026-09-01'
+claims:
+- id: SC-TC04-001
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: 'Передовые нано-технологии Китая при изготовлении транзисторов с размерами меньше 5 нм столкнулись с
+    проблемой: транзисторы стали взрываться.'
+  statement_en: 'Advanced Chinese nano-technologies manufacturing transistors with dimensions below 5 nm ran into
+    a problem: the transistors began to explode (researchers attribute the explosions to degraded heat exchange
+    between transistor and substrate, ''Boltzmann Tyranny'', which the authors consider a partial explanation).'
+  quantities:
+  - размер транзисторов < 5 нм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - nanotech
+  - transistor
+  - explosion
+  notes: ''
+  relations: []
+- id: SC-TC04-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: прямолинейный ток цилиндрического проводника с диаметром меньше 20 нм, на гигагерцах, выдавливается
+    из проводника наружу за счёт известного скин-эффекта. Выдавливание тока на поверхность настолько сильное, что
+    внутри тока образуется цилиндрическая полость, в которой нет зарядов.
+  statement_en: The straight current of a cylindrical conductor with diameter below 20 nm, at gigahertz frequencies,
+    is squeezed out of the conductor by the known skin effect; the squeezing is so strong that a cylindrical cavity
+    with no charges forms inside the current.
+  quantities:
+  - d < 20 нм
+  - f ~ гигагерцы
+  equations: []
+  materials: []
+  geometry:
+  - цилиндрическая полость внутри тока, без зарядов
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - skin-effect
+  - nanotech
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-003
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Электроны, вышедшие на поверхность проводника, не выбрасываются наружу действием силы Кулона, а образуют
+    зарядовый кластер внешней оболочки с очень тонкой стенкой. Кластер одноимённых зарядов удерживается в стенке
+    давлением собственного электрического поля так же, как давление магнитного поля удерживает горячую плазму при
+    термоядерном синтезе.
+  statement_en: Electrons emerging onto the conductor surface are not ejected by the Coulomb force but form a charge
+    cluster of the outer shell with a very thin wall; the cluster of like charges is held in the wall by the pressure
+    of its own electric field just as magnetic-field pressure holds hot plasma in thermonuclear fusion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - 'стенка кластера: очень тонкая'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - self-consistent-field
+  - charge-cluster
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC04-004
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Приближающийся «Армагеддон» нано-технологий поможет решить проблему создания устройств, работающих на
+    кольцевых токах Ампера-Фуко, имеющих радиусы 0,1 нм и меньше. На них можно реализовать суб-нано компьютеры и
+    технические устройства с самым низким потреблением электрической энергии.
+  statement_en: The approaching 'Armageddon' of nano-technologies will help solve the problem of creating devices
+    operating on Ampere-Foucault ring currents with radii of 0.1 nm and less; on them sub-nano computers and technical
+    devices with the lowest electric energy consumption can be realized.
+  quantities:
+  - радиусы кольцевых токов 0,1 нм и меньше
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ampere-foucault
+  - sub-nano
+  - program
+  notes: ''
+  relations: []
+- id: SC-TC04-005
+  type: physical
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Любой ток, текущий в металле, представляет собой поток заряженных частиц одного знака, приходящих из
+    источника. С одной стороны, между ними действует сила Кулона. С другой стороны, токи одного направления притягиваются
+    друг к другу силой Ампера.
+  statement_en: Any current flowing in a metal is a flux of like-sign charged particles coming from the source;
+    Coulomb force acts between them, while currents of the same direction attract each other by the Ampere force;
+    moving charges also interact with the crystal-lattice fields and their own field, and the interaction must depend
+    essentially on the amplitude and frequency of the current, the wire diameter, and its resistivity.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ampere-force
+  - coulomb
+  notes: ''
+  relations: []
+- id: SC-TC04-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: даже эта находка позволила им обосновать существование нового физического явления «скин-эффект», т.е.,
+    выталкивание переменного тока на поверхность проводника.
+  statement_en: Theorists found only one solution for the plane-inhomogeneous alternating electric field; even this
+    find allowed them to substantiate the existence of a new physical phenomenon, the 'skin effect', i.e. the pushing
+    of alternating current onto the conductor surface.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - skin-effect
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC04-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: система уравнений в плоском случае имеет полный набор решений, состоящий из 4-х четных функций. Решения
+    базируются на интеграле полного давления, состоящего из давления токов и давления электрического поля, взаимодействующих
+    между собой. Три из них описывают скин-эффект (выталкивание тока на поверхность), а четвёртое – эффект сжатия
+    токового слоя, который также может происходить на высоких частотах.
+  statement_en: The system of Maxwell equations supplemented by Ohm's law has, in the plane case, a complete set
+    of solutions of 4 even functions based on the integral of total pressure (pressure of currents and pressure
+    of the electric field); three describe the skin effect, the fourth describes the compression of the current
+    layer, also possible at high frequencies.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - self-consistent-field
+  - solutions
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: возможны четыре варианта распределения переменного плоского тока по поперечному сечению, а не один,
+    как считалось ранее. При равенстве давлений токов и поля ток может быть отброшен от границ стенок внутрь проводника
+    с формированием токового шнура.
+  statement_en: Four variants of the distribution of alternating plane current over the cross-section are possible,
+    not one as previously believed; at equality of the pressures of currents and field the current can be thrown
+    from the wall boundaries into the conductor with the formation of a current filament.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - current-filament
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-009
+  type: physics
+  facet: experiment
+  priority: core
+  page: 2
+  quote_ru: В 2001 году американские исследователи Кух и Ибрагим, после обнаружения этого явления в экспериментах,
+    назвали его Current Crowding Effect [4].
+  statement_en: In cylindrical symmetry there are at least three solutions describing different variants of the
+    transverse current distribution, including a variant of a filament compressed near the system axis which the
+    theorists missed; in 2001 the American researchers Kuh and Ibrahim, after discovering this phenomenon in experiments,
+    named it the Current Crowding Effect.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-crowding
+  - electrical
+  - kuhn-ibrahim
+  notes: ''
+  relations: []
+- id: SC-TC04-010
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: самые большие «чудеса» происходят при протекании токов в диаметрах меньших, чем 20 нм.
+  statement_en: The biggest 'miracles' in the full set of solutions for axial current in cylindrical symmetry occur
+    for currents flowing in diameters smaller than 20 nm — a phenomenon the modern physical-technical elite does
+    not yet know about.
+  quantities:
+  - d < 20 нм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - nanotech
+  notes: ''
+  relations: []
+- id: SC-TC04-011
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Прямолинейный ток цилиндрического проводника с диаметром порядка 20 нм и меньше, на частоте в гигагерц
+    выдавливается из проводника наружу за счёт известного скин-эффекта. Но в этом случае, выбрасывание тока на поверхность
+    настолько сильное, что внутри тока образуется цилиндрическая полость, в которой нет зарядов.
+  statement_en: The straight current of a cylindrical conductor with diameter of order 20 nm and less, at gigahertz
+    frequency, is squeezed out of the conductor by the skin effect; the ejection is so strong that a cylindrical
+    void with no charges forms inside the current.
+  quantities:
+  - d ≈ 20 нм и меньше
+  - f ~ ГГц
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - skin-effect
+  - nanotech
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-012
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 2
+  quote_ru: Электроны, вышедшие на поверхность проводника, не выбрасываются наружу под действием силы Кулона, а
+    образуют зарядовый кластер внешней оболочки с очень тонкой стенкой. Кластер удерживается давлением собственного
+    электрического поля [5] так же, как и горячая плазма удерживается магнитным полем в термоядерном синтезе.
+  statement_en: Electrons emerged onto the conductor surface form a charge cluster of the outer shell with a very
+    thin wall; the cluster is held by the pressure of its own electric field just as hot plasma is held by the magnetic
+    field in thermonuclear fusion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - self-consistent-field
+  notes: ''
+  relations: []
+- id: SC-TC04-013
+  type: physical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Трубчатый кластер зарядов, как «удавка», не даёт электронам уйти с поверхности проводника.
+  statement_en: The tubular cluster of charges, like a 'noose', does not let the electrons leave the conductor surface.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - трубчатый кластер зарядов на поверхности проводника
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - confinement
+  notes: ''
+  relations: []
+- id: SC-TC04-014
+  type: physical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Проводник может взрываться и при отсутствии p-n перехода. Это явление недавно было проверено экспериментально
+    профессором М.Марахтановым
+  statement_en: 'The conductor can explode even without a p-n junction; this phenomenon was recently verified experimentally
+    by professor M. Marakhtanov: current was passed through metal films of several hundred atomic layers, the cooled
+    metal temperature was fixed at 180 °C, and at current densities above 1.43·10^9 A/m² in tungsten and 8.04·10^9
+    A/m² in aluminum the conductors exploded within microseconds.'
+  quantities:
+  - T = 180 °C (в тексте «1800С»)
+  - j_взрыва(W) > 1,43·10^9 А/м2
+  - j_взрыва(Al) > 8,04·10^9 А/м2
+  - t_взрыва ~ микросекунды
+  equations: []
+  materials:
+  - металлические плёнки (вольфрам, алюминий)
+  geometry:
+  - 'толщина плёнок: несколько сотен атомарных слоёв'
+  procedure_steps: []
+  measurements:
+  - quantity: плотность тока взрыва в вольфраме
+    value: '>1,43'
+    unit: e9 А/м2
+    conditions: плёнка вольфрама, T=180 °C
+  - quantity: плотность тока взрыва в алюминии
+    value: '>8,04'
+    unit: e9 А/м2
+    conditions: плёнка алюминия, T=180 °C
+  - quantity: время взрыва
+    value: микросекунды
+    unit: с
+    conditions: при превышении критической плотности тока
+  schematic_refs: []
+  tags:
+  - electrical
+  - explosion
+  - marakhtanov
+  - tungsten
+  - aluminum
+  - critical-current-density
+  notes: the source prints 1,43·10^9 as '1,43109' (lost exponent separator); values recorded exactly as stated.
+  relations: []
+- id: SC-TC04-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Огромные силы, связанные с градиентом давления электрического поля, разрывают его кристаллическую решётку.
+    Проводники с диаметром в нанометры всегда будут взрываться. Уменьшение плотности тока в них только растянет
+    время «Армагеддона».
+  statement_en: 'The discovery of a fundamental physical law explains why the conductors supplying current to a
+    transistor will explode: huge forces connected with the gradient of the electric field pressure tear its crystal
+    lattice; conductors with nanometer diameters will always explode, and decreasing the current density only stretches
+    the time of ''Armageddon'' (decreasing the current ends with the amplitude insufficient to change the electrical
+    state of the p-n junction).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - explosion
+  - nanotech
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-TC04-014
+    kind: derives
+- id: SC-TC04-016
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: От взрывной неустойчивости проводника избавиться нельзя! Но её можно обойти.
+  statement_en: 'The explosive instability of the thin wire will stop the technology into which billions of dollars
+    are invested; one cannot get rid of the explosive instability of the conductor, but one can bypass it (the new
+    hypothesis: the dead end in the nano-region can spawn a new research direction in the sub-nano region of the
+    same conductor).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - explosive-instability
+  - nanotech
+  - forecast
+  notes: ''
+  relations: []
+- id: SC-TC04-017
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: В проводнике переменным магнитным полем можно возбуждать кольцевые токи Ампера-Фуко (физические следствия
+    решений уравнений Максвелла-Ома для азимутальной компоненты тока в проводящей плёнке подтверждают эксперименты).
+    Их радиусы могут быть на порядок меньше 1 нм.
+  statement_en: 'A real possibility appears of moving technologies into the sub-nano region of the conductor: an
+    alternating magnetic field can excite Ampere-Foucault ring currents in the conductor (physical consequences
+    of Maxwell-Ohm solutions for the azimuthal current component in a conducting film are confirmed by experiments);
+    their radii can be an order of magnitude less than 1 nm.'
+  quantities:
+  - радиусы кольцевых токов < 0,1 нм (на порядок меньше 1 нм)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ampere-foucault
+  - ring-currents
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Нам до сих пор никто не объяснил, что все магниты, созданные человечеством, – это сверхпроводящее состояние
+    кольцевых токов Ампера-Фуко при комнатной температуре.
+  statement_en: All magnets created by humanity are the superconducting state of Ampere-Foucault ring currents at
+    room temperature.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - superconductivity
+  - magnets
+  - ring-currents
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-019
+  type: physical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Токи таких радиусов не выделяют никакой тепловой энергии. Электроны, двигаясь по кольцу, перестают сталкиваться
+    с положительными ионами проводника, находящимися в тепловом движении. Они вращаются как электроны атома в пустом
+    пространстве. Время жизни кольцевых токов больше 100 лет (а может быть и вечность!).
+  statement_en: 'Ring currents of such radii release no thermal energy: electrons moving along the ring stop colliding
+    with the positive ions of the conductor in thermal motion and rotate like atomic electrons in empty space; the
+    lifetime of ring currents exceeds 100 years (perhaps eternity).'
+  quantities:
+  - время жизни кольцевых токов > 100 лет
+  - тепловыделение = 0
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - superconductivity
+  - ring-currents
+  - lifetime
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-020
+  type: physics
+  facet: measurement
+  priority: core
+  page: 3
+  quote_ru: Расчёты показывают, что у кольцевых токов Ампера-Фуко удельное сопротивление от 10-15 до 10-20 Омм
+    (медь 16 нОмм).
+  statement_en: 'Calculations show that Ampere-Foucault ring currents have resistivity from 10^-15 to 10^-20 Ohm·m
+    (copper: 1.6·10^-8 Ohm·m, printed as ''16 нОмм'').'
+  quantities:
+  - ρ(кольцевые токи) = 10^-15 – 10^-20 Ом·м
+  - ρ(медь) = 16 нОм·м
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - superconductivity
+  - resistivity
+  - ring-currents
+  - debt-candidate
+  notes: source prints exponents flattened ('10-15', 'нОмм') and private-use glyph  for the middle dot; quote verbatim.
+  relations: []
+- id: SC-TC04-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: ВС может быть только у кольцевых токов. Для прямолинейных токов ВС тоже будет, но только при сверхнизких
+    температурах и на малых длинах. А у кольцевых токов сверхпроводимость будет сохраняться даже при температуре
+    плавления металла!
+  statement_en: High-temperature superconductivity (ВС) can exist only in ring currents; for straight currents it
+    will also exist but only at ultra-low temperatures and short lengths, while ring currents retain superconductivity
+    even at the melting temperature of the metal; ring currents open a new area of engineering-physical research
+    — high-temperature superconductivity of the conductor.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - superconductivity
+  - ring-currents
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-022
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 4
+  quote_ru: Считаю, что явление высокотемпературной сверхпроводимости было впервые обнаружено в этих опытах и использовано
+    им на практике.
+  statement_en: The phenomenon of high-temperature superconductivity was first discovered, in the author's opinion,
+    in Lickkalnen's experiments (a Latvian who fled to Argentina in 1917) with steel plates sticking together after
+    magnetization by the current of a direct conductor from an accumulator; he used it in practice (his garden with
+    multi-ton stone columns).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - superconductivity
+  - lickkalnen
+  - history
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-023
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 4
+  quote_ru: Две отдельные стальные пластины площадью 10х15 см2 и толщиной 1 см, после пропускания импульса тока
+    в 500 А по проводнику внутри пластин, притягивались друг к другу с оценочным давлением 1 Мпа. Сила притяжения
+    15000 Н. Два года их не могли отделить руками друг от друга.
+  statement_en: 'Simple Lickkalnen experiments were verified (A. Atamanchenko, D. Dzyuba, Taganrog, 2018-2020):
+    two separate steel plates of 10×15 cm² area and 1 cm thickness, after a 500 A current pulse through a conductor
+    inside the plates, attracted each other with an estimated pressure of 1 MPa; attraction force 15000 N; for two
+    years they could not be separated by hand.'
+  quantities:
+  - I(импульс) = 500 А
+  - P(давление прижима) ≈ 1 МПа
+  - F(притяжения) = 15000 Н
+  - время слипания ~ 2 года
+  equations: []
+  materials:
+  - две стальные пластины
+  geometry:
+  - площадь пластин 10×15 см2
+  - толщина 1 см
+  procedure_steps: []
+  measurements:
+  - quantity: сила притяжения пластин
+    value: '15000'
+    unit: Н
+    conditions: после импульса тока 500 А
+  - quantity: давление прижима
+    value: '1'
+    unit: МПа
+    conditions: оценочное
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - electrical
+  - ring-currents
+  - atamanchenko
+  - experiment
+  - steel-plates
+  notes: ''
+  relations: []
+- id: SC-TC04-024
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 5
+  quote_ru: Блогер с Украины Андрей раскалял пластины до температуры белого каления. И всё равно отделить их друг
+    от друга не смог. И точки Кюри НЕТ!!!
+  statement_en: A Ukrainian blogger (Andrei) heated the plates to white heat and still could not separate them from
+    each other — 'and there is NO Curie point!!!' (radiation resistance presumably extraordinary).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - curie-point
+  - ring-currents
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC04-025
+  type: physical
+  facet: recipe
+  priority: core
+  page: 5
+  quote_ru: Можно строить новые технологические классы запоминающих или переключающих ячеек самых произвольных конфигураций
+    на любых проводниках (на плёнке стали либо других проводящих плёнках, проявляющих магнитные свойства). Они заменят
+    p-n переходы, отработавшие столетие.
+  statement_en: Exciting such currents in sub-nano dimensions without a p-n junction is enabled by the law of electromagnetic
+    induction; new technological classes of memory or switching cells of arbitrary configurations can be built on
+    any conductors (steel film or other conducting films exhibiting magnetic properties); they will replace p-n
+    junctions that have served for a century.
+  quantities: []
+  equations: []
+  materials:
+  - плёнка стали
+  - проводящие плёнки с магнитными свойствами
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - memory-cells
+  - ampere-foucault
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC04-026
+  type: physical
+  facet: recipe
+  priority: core
+  page: 5
+  quote_ru: Берём проводник диаметром в десять нанометров и помещаем возле него плёнку из стали, либо проводник
+    помещаем в плёнку. Прошёл импульс тока. Вихревое электрическое поле закрутило в плёнке токи Ампера-Фуко. Токи
+    не потребляют электрическую энергию. Плёнка ждёт веками, когда вы эту информацию с неё считаете.
+  statement_en: 'Procedure: take a conductor of ten nanometers diameter and place a steel film near it, or place
+    the conductor into the film; a current pulse passes; the vortex electric field twists Ampere-Foucault currents
+    in the film; the currents consume no electric energy; the film waits for centuries until the information is
+    read from it — a binary cell (signal/no-signal, like old memory cubes on ring ferrites), read by direct or reverse
+    current.'
+  quantities: []
+  equations: []
+  materials:
+  - стальная плёнка
+  - проводник
+  geometry:
+  - 'диаметр проводника: 10 нм'
+  procedure_steps:
+  - поместить стальную плёнку возле проводника диаметром 10 нм (или проводник в плёнку)
+  - пропустить импульс тока по проводнику
+  - вихревое электрическое поле закручивает в плёнке токи Ампера-Фуко
+  - считывать информацию прямым или обратным током
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - memory-cell
+  - ampere-foucault
+  - electrical
+  - binary-cell
+  notes: ''
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

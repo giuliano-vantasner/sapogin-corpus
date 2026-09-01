@@ -1,0 +1,661 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: DI02
+  section: dissertation
+  title_ru: Механизмы удержания вещества самосогласованным полем (диссертация)
+  title_en: Mechanisms of matter retention by a self-consistent field (doctoral dissertation)
+  file: papers/dissertation/mekhanizmy-uderzhaniya-veshchestva-samosoglasovannym-polem.pdf
+  source_url: http://146.190.233.254/docs/dissertation/Механизмы удержания вещества самосогласованным
+    полем.pdf
+  md5: e2f29d84f36c2be72030533411e8deb5
+  pages_total: 391
+  retrieved: '2026-08-31'
+claims:
+- id: SC-DI02-001
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 88
+  quote_ru: Как показывает моделирование процессов в эктоне для меди при энерговкладе эквивалентном 10
+  statement_en: 'Ecton modeling for copper (dissertation Section 5 review): at energy input equivalent
+    to 1e4 K the initial current density in the ecton is of order 1e8 A/cm2, and at 7e3 K only 5e6 A/cm2
+    — cooling the ecton zone by 30% reduces the current density 20-fold; assuming an ecton lifetime of
+    about 1e-8 s emerging from a crater of radius about 1e-4 cm, such an ecton contains charge of about
+    16 nC, matching by order of magnitude the upper value of about 1e11 electrons recorded by Shoulders
+    in charge accumulations at a tip cathode — an ecton can be an EV source.'
+  quantities:
+  - 108 А/см2 (при 104 К)
+  - 5·106 А/см2 (при 7·103 К)
+  - охлаждение на 30% → плотность тока ↓ в 20 раз
+  - ~10-8 с
+  - rcr ~ 10-4 см
+  - ~16 нКл
+  - ~1011 электронов
+  equations: []
+  materials:
+  - медь
+  geometry:
+  - crater radius ~1e-4 cm
+  procedure_steps: []
+  measurements:
+  - quantity: ecton charge
+    value: '16'
+    unit: нКл
+    conditions: lifetime ~1e-8 s, crater radius ~1e-4 cm, copper modeling
+  schematic_refs: []
+  tags:
+  - ecton
+  - modeling
+  - ev
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 88
+  quote_ru: Как следует из приводимого обзора (обзор не претендует на полноту)
+  statement_en: 'The dissertation review concludes that currently there are practically no publications
+    proposing theoretical models of charge clusters with mean current density zero in any elementary volume
+    that explain the physical causes of their possible short-term retention and allow calculating their
+    key parameters: geometric size, distributions of fields, pressure, density and temperature.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - review
+  - gap
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-DI02-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 93
+  quote_ru: Покажем, что уравнение (4.5b), приведенное Френкелем в
+  statement_en: The dissertation shows that Frenkel's equation (4.5b) can be strictly derived from the
+    Maxwell-Vlasov system for a gas of like-sign charges and currents (rot H - (1/c)dE/dt = (4*pi/c) j;
+    rot E = -(1/c)dH/dt; div H = 0; div E = 4*pi*rho; the Vlasov kinetic equation), with current and charge
+    densities expressed through the distribution function; the ensemble moves in a smoothed macroscopic
+    field where the force on one charge is a smoothed averaged force independent of the concrete position
+    of any other charge.
+  quantities: []
+  equations:
+  - \mathrm{rot}\,H - \frac{1}{c}\frac{\partial E}{\partial t} = \frac{4\pi}{c}j
+  - \mathrm{div}\,E = 4\pi\rho
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - maxwell-vlasov
+  - derivation
+  - frenkel
+  notes: ''
+  relations: []
+- id: SC-DI02-004
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 137
+  quote_ru: Оценки. Приведем оценки, характеризующие возможные параметры рас- смотренных самосогласованных
+    систем из электронов.
+  statement_en: 'Estimates for self-consistent electron systems (collisionless plane Section 8): two-flow
+    states with n0 = 1e11 cm-3 and v0 = 1e8 cm/s give current density j0 = 0.8 A/cm2 and characteristic
+    field E*1 = 2.7 kV/cm; the lower boundary E0 = 1.4 kV/cm and spatial scale l = Lambda = 26 um occur
+    at zero total pressure; for beta = 0.1 (total pressure P = 0.36 Pa) the interaction length L = 9.1
+    um; time scale 53 ps at zero pressure, 590 ps at beta = 0.1; charge motion period 160 ps and 37 ps
+    respectively; for a negative-pressure system at n0 = 1e11 cm-3, v0 = 1e8 cm/s: j0 = 1.6 A/cm2, E*2
+    = 3.4 kV/cm, boundary E0 = 1.4 kV/cm; for beta = 9 (P = -8.7e-2 Pa): E0 = 0.34 kV/cm, phi2 = 9 mV,
+    l2 = 0.35 um, T2 = 0.35 ps; maximal potential phi_m = 0.3 V at distance h = 18 um with tau2 = 19 ps;
+    at x = 1 cm: phi = -7.6 kV, Ex = 10 kV/cm, n = 2.0e9 cm-3, v = 5.0e9 cm/s, kinetic-energy change 2.6e3-fold;
+    the developed approach explains the physical cause of current disruption in the experimental Bursian
+    instability as transition from a negative- to a positive-total-pressure state.'
+  quantities:
+  - n0 = 1011 см-3
+  - υ0 = 108 см/с
+  - j0 = 0,8–1,6 А/см2
+  - E* = 2,7–3,4 кВ/см
+  - l = 26 мкм
+  - 'β = 0,1: L = 9,1 мкм'
+  - 'β = 9: l2 = 0,35 мкм'
+  - φm = 0,3 В при 18 мкм
+  - 'при 1 см: φ = −7,6 кВ'
+  - рост кинетической энергии 2,6·103
+  equations: []
+  materials:
+  - электроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - collisionless
+  - estimates
+  - bursian
+  - self-acceleration
+  notes: ''
+  relations: []
+- id: SC-DI02-005
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 171
+  quote_ru: E 0 =0,5 10 кВ/см.
+  statement_en: 'Relativistic like-charge gas estimates (Section 9): characteristic field E0 = 0.5e3 kV/cm;
+    the maximal potential phi_m = 6.7e2 kV occurs at distance L2 = 14e-2 cm, where the minimal energy
+    gamma_m = 1.8; spatial and time scales l2 = 8e-2 cm and T2 = 610 ps; flight time through the deceleration
+    region tau2 = 1.7 ns; asymptotic concentration n0 = 9.4e10 cm-3; the charge reaches velocity v = 0.99c
+    at distance x = 0.4 cm.'
+  quantities:
+  - E0 = 0,5·103 кВ/см
+  - φm = 6,7·102 кВ
+  - L2 = 14·10-2 см
+  - γm = 1,8
+  - l2 = 8·10-2 см
+  - T2 = 610 пс
+  - τ2 = 1,7 нс
+  - n0 = 9,4·1010 см-3
+  - υ = 0,99 c при 0,4 см
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - relativistic
+  - estimates
+  notes: Exponent placement degraded in source ("E 0 =0,5 10 кВ/см" with ".3" on next line = 0.5e3).
+  relations: []
+- id: SC-DI02-006
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 238
+  quote_ru: E0=350 В/см.
+  statement_en: 'Thermodiffusion charge-system estimates (Section 12): E0 = 350 V/cm; spatial scale l0
+    = k*T0/(q*E0) = 4.9 um; coefficient chi = 1.05e-4 m*K; system length varies from L = 3.4 um at alpha
+    = -2.0 to L = 63 um at alpha = 0.5, giving a mean temperature gradient from 3.2e7 K/m (alpha = -2.0)
+    to 6.0e8 K/m (alpha = 0.5); the thermodiffusion field strength at these alpha spans 0.6e4 to 4.7e4
+    V/m; the discovered elastic deformation of the excess-charge layer thickness sensitive to temperature
+    gradient should manifest in thermoemission too, but the thermoelectron layer at the cathode will be
+    thinner than for charges because thermoelectrons also feel the external field of image charges in
+    the metal; the effect should be studied in a plane vacuum diode with an adjustable cathode-anode distance
+    from 10 to 100 um, with no external field on the electrodes for experiment purity.'
+  quantities:
+  - E0 = 350 В/см
+  - l0 = 4,9 мкм
+  - χ = 1,05·10-4 м·К
+  - L = 3,4–63 мкм
+  - градиент 3,2·107–6,0·108 К/м
+  - ET = 0,6·104–4,7·104 В/м
+  - зазор 10–100 мкм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - use a plane vacuum diode with cathode-anode distance adjustable 10-100 um
+  - ensure no external field on the electrodes
+  - measure the thermoelectron layer thickness vs temperature gradient
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermodiffusion
+  - estimates
+  - experiment-design
+  notes: ''
+  relations: []
+- id: SC-DI02-007
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 250
+  quote_ru: ограничена в пространстве (эффект увеличения длины “растянутой пру- жины”).
+  statement_en: 'Section 13 results: thermodiffusion substantially affects the layer thickness of electron
+    systems — within the total-field-strength integral range -2 <= alpha <= 0.5 the system length changes
+    about 12-fold (the "stretched spring" length-increase effect); the computed surface charge density
+    of the plane systems is finite only for states with positive or zero total pressures, while for negative-total-pressure
+    states finite surface density is realized only for a finite interaction-space length.'
+  quantities:
+  - '−2 ≤ α ≤ 0,5: длина меняется ~в 12 раз'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - stretched-spring
+  - realizability
+  - thermodiffusion
+  notes: ''
+  relations: []
+- id: SC-DI02-008
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 261
+  quote_ru: ТАБЛИЦА 15.1
+  statement_en: 'Table 15.1 tabulates diameters and currents of equilibrium beams with characteristic
+    temperature for eight cathode types (emission current density, working temperature, temperature-current
+    beam parameter beta, beam diameter and beam current at 100 eV): tantalum (0.5 A/cm2, 2300 K, beta
+    = 0.46, db = 350 um, I = 480 uA); tungsten (0.6, 2470 K, 0.41, 331 um, 520 uA); oxide (0.5, 1050 K,
+    0.21, 237 um, 220 uA); thoriated tungsten (3.0, 2000 K, 0.067, 134 um, 420 uA); tungsten (7.3, 2700
+    K, 0.037, 100 um, 570 uA); barium dispenser (6.0, 1250 K, 0.02, 75 um, 265 uA); lanthanum hexaboride
+    (20.4, 2100 K, 0.01, 53 um, 450 uA); monocrystalline tungsten (1e6 A/cm2, 300 K, 3e-8, 0.09 um, 64
+    uA).'
+  quantities:
+  - 'Ta: db = 350 мкм, I = 480 мкА'
+  - 'W: 331 мкм, 520 мкА'
+  - 'оксид: 237 мкм, 220 мкА'
+  - 'торированный W: 134 мкм'
+  - 'W: 100 мкм, 570 мкА'
+  - 'бариевый: 75 мкм'
+  - 'LaB6: 53 мкм'
+  - 'монокристаллический W: 0,09 мкм, 64 мкА'
+  equations: []
+  materials:
+  - танталовый катод
+  - вольфрамовый катод
+  - оксидный катод
+  - торированный вольфрамовый
+  - бариевый диспенсерный
+  - гексаборид лантановый
+  - монокристаллический вольфрам
+  geometry:
+  - beam diameters 0.09-350 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - ТАБЛИЦА 15.1
+  tags:
+  - beams
+  - table
+  - coulomb-compensation
+  - cathodes
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-009
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 279
+  quote_ru: Для кластера радиусом R=0,1 м, T=6⋅103 К, ρ0=16 Кл/м3 и x/R=10-8 по
+  statement_en: 'Spherical cluster estimate (Section 16): for R = 0.1 m, T = 6e3 K, rho0 = 16 C/m3 and
+    x/R = 1e-8: characteristic temperature T* = 1.0e14 K, alpha^2 = 1.7e10 (cold cluster); r1 = 9.99988e-2
+    m, r2 = 1.000012e-1 m, d = 2.4 um, volume V0 = 3e-7 m3; charge count N = 1.5e16, total charge Q =
+    2.4e-3 C, mass M = 1.4e-14 kg; electric energy We = 2.6e5 J, thermal energy U = 1.9e-3 J, field energy
+    Wf = 1.2e-3 J, interaction energy Wi = -6.8e-3 J; inert-mass decrease m = Wi/c2 = -7.5e-20 kg; mean
+    layer concentration nl = 5e22 m-3, mean concentration over the outer sphere 3.6e18 m-3; boundary parameters:
+    nb = 5.9e25 m-3, phi = -6.9 V, Ex = -1.04e9 V/m, D = p = 4.8e6 Pa, pressure gradient -9.6e15 Pa/m,
+    boundary force F = 6e5 N; conclusions: the first cluster matches tip-cathode experiments at T = 2e3
+    K (charge near the upper experimental bound, mass change equivalent to 1.1e10 eV, boundary concentration
+    above metal electron concentration giving diamond-abrasive hardness); the second cluster matches high-temperature
+    ball lightning — a thin-walled charge bubble.'
+  quantities:
+  - R = 0,1 м
+  - T = 6·103 К
+  - x/R = 10-8
+  - T* = 1,0·1014 К
+  - d = 2,4 мкм
+  - N = 1,5·1016
+  - Q = 2,4·10-3 Кл
+  - We = 2,6·105 Дж
+  - Wi = −6,8·10-3 Дж
+  - F = 6·105 Н
+  - 1,1·1010 эВ
+  equations: []
+  materials: []
+  geometry:
+  - 10-cm hollow sphere, 2.4 um wall
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ball-lightning
+  - cluster-parameters
+  - estimate
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-010
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 286
+  quote_ru: Оценки и сравнения результатов. Оценим нижний диапазон количества электронов в кластере.
+  statement_en: 'Impact-theory comparison with the Shoulders crater experiment (Section 17) at sigma_k
+    = 0.6*sigma_n: the enlarged crater image gives mean inner melt-surface radius rho1 = 12.7 um, outer
+    melt-surface radius rho2 = 14.5 um and melt layer thickness Delta = 1.80 um; taking eta = r1/r2 =
+    rho1/rho2 = 0.876 gives A = sigma_k/sigma(0) = 2.33; from (17.4) chi2 = 1.09; r1 = 13.3 um (inner
+    asymptote), r2 = 15.2 um (outer asymptote); zero-pressure sphere radius R = 14.2 um, layer thickness
+    d = 1.90 um; state parameter alpha = pi*R/d = 23.5 (cold-cluster approximation); at cluster temperature
+    equal to the cathode temperature T = 2e3 K: T* = 1.1e6 K; assuming 5 to 15% of the kinetic energy
+    of the cluster accelerated by 10 kV converts to heat release, it contains from N1 = 6.2e9 to N2 =
+    1.9e10 electrons, approaching the upper experimental bound.'
+  quantities:
+  - ρ1 = 12,7 мкм
+  - ρ2 = 14,5 мкм
+  - Δ = 1,80 мкм
+  - η = 0,876
+  - A = 2,33
+  - r1 = 13,3 мкм
+  - r2 = 15,2 мкм
+  - R = 14,2 мкм
+  - α = 23,5
+  - N = 6,2·109–1,9·1010
+  equations: []
+  materials:
+  - титан
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: cluster electron count
+    value: 6.2e9..1.9e10
+    unit: штук
+    conditions: 5-15% of kinetic energy at 10 kV into melt
+  schematic_refs: []
+  tags:
+  - impact
+  - crater
+  - comparison
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-011
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 288
+  quote_ru: на границы кластера и стремящаяся его расширить сила
+  statement_en: 'Additional cluster parameters for N2 from relations (17.31)-(17.34) with x/R = 1e-6:
+    total charge Q = 3e-9 C, charge mass M = 1.7e-20 kg, stored electric energy We = 2.8e-3 J, self-consistent
+    field energy Wf = 5e-10 J, internal energy U = 7.5e-10 J, interaction energy Wi = -4.8e-9 J, inert-mass
+    decrease 5.3e-26 kg, mean layer concentration nl = 4e24 m-3; boundary values for N2: concentration
+    nb = 6.9e29 m-3 (an order above the solid electron concentration), potential phi = -4.0 V, field strength
+    Ex = -6.5e7 kV/m, field and charge pressure D = p = 1.9e11 Pa, pressure gradient -7.2e23 Pa/m, expanding
+    boundary force F = p*4*pi*R^2 = 480 N; the values indicate good agreement of theory with experiment;
+    conclusions: (1) the crater texture was produced by a spherical charge accumulation with medium energy
+    release; (2) the cluster electrons occupy a thin layer adjacent to the zero-field-pressure sphere,
+    resembling a micron soap bubble; (3) the electron count held by the cluster field is finite, justifying
+    the interaction-space emptiness coefficient that removes divergences in computing the total charge
+    of a cold spherical cluster, with its range determined from experiment.'
+  quantities:
+  - Q = 3·10-9 Кл
+  - We = 2,8·10-3 Дж
+  - Wi = −4,8·10-9 Дж
+  - nb = 6,9·1029 м-3
+  - φ = −4,0 В
+  - D = p = 1,9·1011 Па
+  - F = 480 Н
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-parameters
+  - conclusions
+  - soap-bubble
+  - emptiness
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-012
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 318
+  quote_ru: странственный масштаб l=4,0
+  statement_en: 'Relativistic gravitational-cluster estimates (Section 20): spatial scale l = 4.0e13 m,
+    interaction-space size L = 1.6e14 m, system time scale T = 3.2e8 s, neutron motion period tau = 4.8e8
+    s; the comparatively large space-time characteristics are explained by the weakness of gravitational
+    interaction compared with the field interaction.'
+  quantities:
+  - l = 4,0·1013 м
+  - L = 1,6·1014 м
+  - T = 3,2·108 с
+  - τ = 4,8·108 с
+  equations: []
+  materials:
+  - нейтроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - relativistic
+  - gravitation
+  - estimates
+  notes: ''
+  relations: []
+- id: SC-DI02-013
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 338
+  quote_ru: P=0,41 Па.
+  statement_en: 'Non-radiating gravitating-particle system estimates (Section 22): total pressure P =
+    0.41 Pa; maximal field strength g_n = 2.6e-5 m/s2; spatial scale l = 1.9e11 m; characteristic system
+    "length" L = 6l = 1.1e12 m bounded by planes with neutron concentration n = 1e-2 n0; for nuclear density
+    n0 = 1e44 m-3 and T = 1e6 K the total pressure P = 1.4e27 Pa gives maximal field strength g_n = 1.5e9
+    m/s2 with system length L = 60 m, decreasing to 6 cm when the temperature changes to T = 1 K.'
+  quantities:
+  - P = 0,41 Па
+  - gн = 2,6·10-5 м·с-2
+  - l = 1,9·1011 м
+  - L = 1,1·1012 м
+  - 'n0 = 1044 м-3: P = 1,4·1027 Па'
+  - L = 60 м (6 см при 1 К)
+  equations: []
+  materials:
+  - нейтроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitation
+  - non-radiating
+  - estimates
+  notes: ''
+  relations: []
+- id: SC-DI02-014
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 376
+  quote_ru: Известны опыты, которые проводились в Московском радиотехниче- ском институте
+  statement_en: 'The conclusion cites unpublished MRTI experiments on outputting a high-current cylindrical
+    electron beam into a gas atmosphere: at the accelerator output the charge beam, interacting with the
+    atmosphere, turned into glowing balls with lifetimes sufficient for visualization; the retention mechanism
+    found in the dissertation explains the static states of glowing balls arising in any media from a
+    unified viewpoint, treating their appearance as a natural consequence of collective charge interaction;
+    a static excess-charge atmosphere also forms on an electrified cylindrical conductor, with potential
+    and charge distributions governed by self-consistent equations of cylindrical symmetry.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - cylindrical conductor
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mrti
+  - glowing-balls
+  - cylindrical-atmosphere
+  notes: ''
+  relations: []
+- id: SC-DI02-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 377
+  quote_ru: Введение понятия “поверхностный ток избыточных зарядов” позво- ляет предложить неквантовое
+    объяснение известному явлению автоэлек
+  statement_en: 'The conclusion introduces the "surface current of excess charges" enabling a non-quantum
+    explanation of autoelectron emission: at room temperatures an excess-charge atmosphere always exists
+    in the near-cathode region of a vacuum diode (fed by a small number of thermoelectrons plus charges
+    from an external accelerating field); raising the cathode-anode voltage increases the atmosphere height
+    via two factors — more excess charges maintain the arising displacement current, and the external
+    electrostatic field elastically deforms the atmosphere height; at a threshold external-field strength
+    the atmosphere height reaches the cathode-anode distance and the current must arise jump-wise at atmosphere-anode
+    contact, whereas the quantum model of autoelectron emission has no threshold field values or current
+    jumps.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - surface-current
+  - autoemission
+  - non-quantum
+  - threshold
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-016
+  type: physics
+  facet: theory
+  priority: core
+  page: 378
+  quote_ru: На очереди стоит также создание теории зарождения зарядового кла- стера на острийном катоде
+  statement_en: The conclusion states that creating a theory of charge-cluster nucleation on a tip cathode
+    is pending (per the Section 5 review, one possible cluster-formation mechanism is ecton appearance);
+    it would replace the semi-intuitive Shoulders-patent experiments with generation devices having preset
+    physical parameters (diameter, layer thickness, surface charge concentration, accumulated charge,
+    lifetime); only this path should yield clusters with charges in the range 1e-6 to 1e-3 C, approaching
+    the charge that ball lightning can store and hence real possibility of its artificial reproduction;
+    cluster-generation technology could form new energy capsules with limited but controlled lifetime
+    — ecologically clean engines on new physical principles (special conditions would force the cluster
+    to explode before radiating at a fixed time after birth) — and also various kinds of non-lethal weapons
+    using low-charge clusters causing short-term incapacitation.
+  quantities:
+  - заряд 10-6–10-3 Кл
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - generation-theory
+  - patents
+  - ball-lightning
+  - energy-capsules
+  - non-lethal
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-017
+  type: physics
+  facet: theory
+  priority: core
+  page: 379
+  quote_ru: Это создание прямопролетных гене- раторов СВЧ, в которых расплывающиеся сгруппированные сгустки
+  statement_en: 'The conclusion lists further promising charge-cluster applications: straight-through
+    microwave generators in which spreading bunched electron bunches are replaced by charge clusters —
+    a new class of microwave devices with output power significantly exceeding modern klystrons, traveling-wave
+    and backward-wave tubes; explosions of a non-radiated cluster can generate gamma quanta; the greatest
+    effort should go to nonlinear interaction of charge clusters with the wall of a metal resonator where
+    an image charge arises; the discovered elastic deformation of the excess-charge atmosphere thickness
+    sensitive to temperature gradient allows microwave oscillation generators on a new physical principle
+    — a vacuum diode in the no-current mode placed in a resonator tuned to the atmosphere-height oscillation
+    frequency will generate oscillations whose frequency depends on the cathode temperature gradient and
+    the external electric field, attractive for a new generation of micron-size solid-state vacuum electronics.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - microwave
+  - klystron
+  - gamma
+  - resonator
+  - new-principle
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI02-018
+  type: physics
+  facet: theory
+  priority: normal
+  page: 27
+  quote_ru: фун- даментальный вклад был сделан Лэном, Риттером, Кельвином, Эмденом и Фаулером
+  statement_en: The dissertation introduction credits Lane, Ritter, Kelvin, Emden and Fowler with the
+    fundamental contribution to the gravitational-equilibrium problem whose solution methods were the
+    first step toward a universal calculation method for static macroscopic self-consistent fields; the
+    imposed density requirement (no increase from center to surface) restricted accepted configurations
+    to those where the gravitational field vector and radius vector are opposite, with other solutions
+    discarded as extraneous because their fields violate the Gauss theorem; the mathematical equilibrium
+    condition does not reveal the physical retention cause, which chapter 7 ties to a compensating force
+    connected with the field pressure gradient, equal to it in magnitude and direction; the thermoelectron
+    equilibrium equation in spherical coordinates differs from the Emden E-equation only by the right-hand-side
+    sign (attraction replaced by like-charge repulsion), and the image-charge potential does not enter
+    the equation nor influence its solutions, leaving the retention condition and force nature unexplained
+    in that approach.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - history
+  - lane
+  - emden
+  - kelvin
+  - fowler
+  - gauss
+  - image-charges
+  notes: Quote spans hyphenated line break ("фун-даментальный").
+  relations: []
+- id: SC-DI02-019
+  type: physics
+  facet: theory
+  priority: normal
+  page: 90
+  quote_ru: В основе теории коллективного взаимодействия заряженных частиц по Власову лежат две физические
+    предпосылки.
+  statement_en: 'The dissertation summarizes Vlasov''s collective-interaction theory as resting on two
+    physical premises: (1) rejection of the principle of spatial and velocity localization of a particle
+    (in the classical-mechanics sense) independent of force interactions; (2) introduction of force interactions
+    by analogy with classical mechanics but accounting for the new non-localization principle; their mathematical
+    realization leads to a system describing two particles interacting via central forces and electromagnetically.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - vlasov
+  - premises
+  - review
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

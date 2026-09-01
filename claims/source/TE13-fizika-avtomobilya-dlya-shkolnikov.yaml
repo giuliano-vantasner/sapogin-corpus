@@ -1,0 +1,17 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE13
+  section: teaching
+  title_ru: Физика автомобиля для школьников
+  title_en: Car physics for schoolchildren
+  file: papers/teaching/fizika-avtomobilya-dlya-shkolnikov.pdf
+  source_url: http://146.190.233.254/docs/teaching/Физика автомобиля для школьников.pdf
+  md5: c689aff8822b02bfbaffa4b9dc6080d8
+  pages_total: 14
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

@@ -1,0 +1,236 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR03
+  section: articles
+  title_ru: Об одном классе точных решений уравнения Эмдена
+  title_en: On one class of exact solutions of the Emden equation
+  file: papers/articles/ob-odnom-klasse-tochnykh-resheniy-uravneniya-emdena.pdf
+  source_url: http://146.190.233.254/docs/articles/Об одном классе точных решений уравнения Эмдена.pdf
+  md5: 2ffb08ec270c05a566709d002211d7bf
+  pages_total: 3
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR03-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Е-уравнение Эмдена, полученное в [1], относится к классу нелинейных обыкновенных дифференциальных уравнений
+    второго порядка. Вместе с уравнением Эмдена-Фаулера оно играло важную роль на первом этапе решения задач о строении
+    звезд, рассматриваемых как газовые образования, находящиеся в политропическом или изотермическом равновесиях
+    [2].
+  statement_en: The E-Emden equation, obtained in [1], belongs to the class of nonlinear second-order ordinary differential
+    equations; together with the Emden-Fowler equation it played an important role at the first stage of solving
+    stellar-structure problems, the stars being considered as gaseous formations in polytropic or isothermal equilibria.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - stellar-structure
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR03-002
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: которое переходит в Е-уравнение Эмдена [1] при условии, что a=2 (сферическая симметрия) и b>0.
+  statement_en: In [3] the name 'Emden equation' is given to the more general equation x·y″ + a·y′ + b·x·exp(y)
+    = 0 (1), which passes into the E-Emden equation [1] under the condition a = 2 (spherical symmetry) and b > 0.
+  quantities:
+  - a = 2 (spherical symmetry)
+  - b > 0
+  equations:
+  - x\,y'' + a\,y' + b\,x\,\exp(y) = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - generalized-emden
+  notes: 'OCR-degraded: equation (1) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR03-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Этот интерес обусловлен тем, что решения некоторых задач статического равновесия вещества с самосогласованным
+    полем, полученные в [4], также сводятся к решению уравнения (1).
+  statement_en: In recent years interest has grown in the search for exact solutions of equation (1), because the
+    solutions of some problems of static equilibrium of matter with a self-consistent field, obtained in [4], also
+    reduce to solving equation (1).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - emden
+  notes: ''
+  relations: []
+- id: SC-AR03-004
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Подстановка y  (  )  2 , где   ln( x ) приводит к уравнению (штрихи означают дифференцирование
+    по )
+  statement_en: 'Equation (1) has a class of exact solutions for a = 1 (cylindrical symmetry): the substitution
+    y = η(ξ) − 2ξ, ξ = ln(x) leads to η″ + β²exp(η) = 0 (2) with β² = b > 0; equation (2) admits order reduction
+    and has the first integral (η′)²/2 + β²exp(η) = C(η′,η,0) = const > 0 (3); integrating (3) a second time gives
+    the first exact general solution (4) for y with a new arbitrary constant x₀ = exp(ξ₀).'
+  quantities:
+  - a = 1 (cylindrical symmetry)
+  - beta^2 = b > 0
+  equations:
+  - \eta'' + \beta^2\exp(\eta) = 0
+  - \frac{(\eta')^2}{2} + \beta^2\exp(\eta) = C(\eta',\eta,0) = \mathrm{const} > 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - exact-solutions
+  - cylindrical-symmetry
+  - first-integral
+  notes: 'OCR-degraded: substitution text and equations (2)-(4) glyphs largely lost; reconstructed best-effort from
+    context (author''s monograph [4]).'
+  relations: []
+- id: SC-AR03-005
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Если b<0, то вводя обозначение   b  0 , запишем первый
+  statement_en: If b < 0, introducing the notation ω² = −b > 0, the first integral (3) is written as (η′)²/2 − ω²exp(η)
+    = H(η′,η,0) = const (5).
+  quantities:
+  - b < 0
+  equations:
+  - \frac{(\eta')^2}{2} - \omega^2\exp(\eta) = H(\eta',\eta,0) = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - first-integral
+  - cylindrical-symmetry
+  notes: 'OCR-degraded: notation glyph for ω² lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR03-006
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Интегралы плоской симметрии совпадают с полным давлением исследуемых систем, состоящим из давления поля
+    и давления частиц (либо зарядов) системы, и позволяют выявить механизмы удержания вещества самосогласованным
+    полем [4–6].
+  statement_en: Equation (1) at a = 0 (plane symmetry) also admits order reduction and has, for b > 0 and b < 0,
+    first integrals structurally similar to integrals (3) and (5); the plane-symmetry integrals coincide with the
+    full pressure of the systems under study, consisting of the field pressure and the pressure of the particles
+    (or charges) of the system, and allow one to reveal the mechanisms of matter retention by the self-consistent
+    field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - full-pressure
+  - retention
+  - charge-clusters
+  notes: Retention-mechanism theory underpinning the charge-cluster (EVO) model.
+  relations: []
+- id: SC-AR03-007
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Уравнение (5) имеет три типа решений. Первое из них получается из условия H= P12 >0.
+  statement_en: 'Equation (5) has three types of solutions: the first is obtained from the condition H = P₁² > 0
+    (quadrature (6) with sign function σ = sign(η′), giving exp(±η/2) via a hyperbolic sine (7) and the second exact
+    general solution (8)); the third exact solution is obtained from the condition H = 0 and has the form y = −ln[−(bx²/2)·ln²(x₀/x)]
+    (9); from the condition H = −P₂² < 0 one obtains the last exact solution (10) with a squared sine of ln(x₀/x).'
+  quantities:
+  - H = P1^2 > 0
+  - H = 0
+  - H = -P2^2 < 0
+  equations:
+  - y = -\ln\!\left[-\frac{b x^2}{2}\,\mathrm{sh}^2\!\left(P_1\ln(x_0/x)\right)\right]
+  - y = -\ln\!\left[-\frac{b x^2}{2}\,\ln^2(x_0/x)\right]
+  - y = -\ln\!\left[-\frac{b x^2}{P_2}\,\sin^2\!\left(\frac{P_2}{2}\ln(x_0/x)\right)\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - exact-solutions
+  - three-solution-types
+  notes: 'OCR-degraded: equations (6)-(10) glyphs largely lost; forms reconstructed best-effort from context.'
+  relations: []
+- id: SC-AR03-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Решения (4),(8),(9),(10) позволяют исследовать свойства равновесий вещества с самосогласованным полем
+    цилиндрической симметрии в системах с однородной температурой.
+  statement_en: Solutions (4), (8), (9), (10) allow one to investigate the properties of equilibria of matter with
+    a self-consistent field of cylindrical symmetry in systems with uniform temperature.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cylindrical-symmetry
+  - equilibria
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-AR03-009
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: y(1)= y ( 1) =0, описывают статические равновесия цилиндрического пучка зарядов с самосогласованным
+    полем [7].
+  statement_en: Particular cases of the general solutions (8)-(10), whose arbitrary constants are found from the
+    boundary conditions y(1) = y′(1) = 0, describe the static equilibria of a cylindrical charge beam with the self-consistent
+    field.
+  quantities:
+  - 'BC: y(1) = y''(1) = 0'
+  equations: []
+  materials: []
+  geometry:
+  - cylindrical charge beam
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-beam
+  - static-equilibria
+  - self-consistent-field
+  - charge-clusters
+  notes: Refers to the author's IEEE 2002 paper [7] on compensation of Coulomb interaction by the beam's self-consistent
+    field.
+  relations: []

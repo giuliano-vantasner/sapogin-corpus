@@ -1,0 +1,490 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: PM01
+  section: perpetual_motion
+  title_ru: Работающий вечный двигатель (ВД) упразднил запреты академической математики
+  title_en: The working perpetual motion machine (PM) abolished the prohibitions of academic mathematics
+  file: papers/perpetual_motion/princip-vechny-dvigatel.pdf
+  source_url: https://drive.google.com/file/d/1XPLlyNYeub6w85pbvVm2O-HA9RHzRo0d/view?usp=sharing
+  md5: 3da334c2dce07bc2f8da3a815fe272ee
+  pages_total: 7
+  retrieved: '2026-09-01'
+claims:
+- id: SC-PM01-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Вековое противостояние теоретиков с техническим устройством ВД выиграл ВД. Вертушку вращает механический
+    принцип Стокса, утерянный в веках.
+  statement_en: 'The age-long confrontation of theoreticians with the technical device of the perpetual motion machine
+    (ВД) was won by the ВД: the wheel is rotated by Stokes'' mechanical principle, lost for centuries; with the
+    ВД self-rotation, an era of ecological energy devices begins.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - perpetual-motion
+  - stokes-principle
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Только в наше время кое-кому стало понятно, что земляне 200 лет назад обнаружили принцип построения
+    уникальных устройств, в которых бесплатная энергия гравитационного поля могла превращаться в энергию самовращения
+    вертушки. Устройство для своей длительной работы требовало затравочную энергию только в момент запуска.
+  statement_en: Only in our time did it become clear to some that 200 years ago earthlings discovered the construction
+    principle of unique devices in which the free energy of the gravitational field could be converted into the
+    self-rotation energy of a wheel; for its long operation the device required seed energy only at the moment of
+    launch.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - perpetual-motion
+  - gravitational-field
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-003
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Если движение тела происходит в таком поле по замкнутой траектории, то однородная сила, действующая
+    на тело, работу за цикл не совершает. Правильный математический результат.
+  statement_en: 'The circulation computed for the rotational motion of a single mass in a uniform gravity field
+    equals zero — the remarkable property of the total mechanical energy conservation law for motion in a static
+    potential field without friction: if the body moves along a closed trajectory in such a field, the uniform force
+    acting on the body does no work over the cycle — a correct mathematical result.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - circulation
+  - theorem
+  notes: ''
+  relations: []
+- id: SC-PM01-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Но его нельзя применить к ВД. Уважаемые математики! Вращательное движение одной массы под действием
+    одной однородной силы ни природа, ни изобретатели создать не могут.
+  statement_en: 'But this result cannot be applied to the ВД: rotational motion of one mass under one uniform force
+    can be created neither by nature nor by inventors — therefore the circulation theorem is not even a pseudoscience,
+    it is a trivial mathematical Lie with a half-life of hundreds of years (the mathematicians know the theorem
+    but apply it incorrectly).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - circulation
+  - theorem
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-PM01-003
+    kind: contradicts
+- id: SC-PM01-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Если вы запишете уравнение Ньютона для динамики вращательного движения (три момента сил), то оно имеет
+    одно точное решение, при котором в среде с трением угловое ускорение вертушки будет равно нулю, а она будет
+    крутиться с постоянной угловой скоростью.
+  statement_en: 'In working ВД constructions three torques act on the masses on the wheel: the gravity moment (the
+    internal self-rotation moment), the sliding-friction moment, and the air viscous-friction moment; Newton''s
+    equation for rotational dynamics with three torques has one exact solution in which, in a medium with friction,
+    the wheel angular acceleration is zero and it rotates at constant angular velocity.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - perpetual-motion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-006
+  type: physical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: А если сила действия приложена, то трение не может изменить вращательную энергию движущегося тела. Мощность
+    силы действия будет всё время компенсировать мощность силы трения.
+  statement_en: 'Such a motion variant in a friction medium exists — it is realized for moving bodies to which the
+    action force is not applied while the counter-action force is applied; if the action force is applied, friction
+    cannot change the rotational energy of the moving body: the power of the action force will constantly compensate
+    the friction force power.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - friction
+  - power-balance
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: 'Джордж Габриэль Стокс (1845 г) обнаружил, что при вращении вертушки существует четыре взаимосвязанных
+    закона сохранения: два векторных и два скалярных.'
+  statement_en: 'George Gabriel Stokes (1845) discovered that at wheel rotation there exist four interrelated conservation
+    laws: two vector and two scalar; they arise because the total torque vector applied to the wheel is zero — the
+    action torque vector always equals the counter-action torque vector with opposite directions; the vector conservation
+    laws are the conservation of the angular momentum vector and the angular velocity vector following from it;
+    the scalar laws are the conservation of the wheel rotational energy and the conservation of power (obtained
+    by multiplying both sides of the constant-torque equality by the constant angular velocity).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - stokes
+  - conservation-laws
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: И оказывается, что в ВД мощность момента силы действия вертушки всегда будет равна суммарной мощности
+    момента сил противодействия – сил трения. Вертушка непрерывно забирает энергию из гравитационного «бензобака»
+    и компенсирует ею потери мощности «ненавистного» трения.
+  statement_en: 'In the ВД the power of the wheel''s action-force moment always equals the total power of the counter-action
+    moment of the friction forces: the wheel continuously draws energy from the gravitational ''fuel tank'' and
+    compensates with it the power losses of the ''hateful'' friction; the rate of gravitational-field energy intake
+    has a definite direction coinciding with the rate of its absorption by friction, and therefore the ВД rotates
+    at constant angular velocity.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - perpetual-motion
+  - power-balance
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-009
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 4
+  quote_ru: Обнаруженные законы Стокс проверил на прямолинейном вертикальном падении металлического шарика в вязкой
+    среде.
+  statement_en: 'Stokes verified the discovered laws on the rectilinear vertical fall of a metal ball in a viscous
+    medium and arrived at the GREATEST PHYSICAL TRUTH, called by the authors the Mechanical Principle of Stokes:
+    in a medium with friction there can exist a class of motion trajectories in which the body moves at constant
+    speed, either linear or angular.'
+  quantities: []
+  equations: []
+  materials:
+  - металлический шарик
+  - вязкая среда
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - stokes
+  - verification
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-PM01-010
+  type: physical
+  facet: process
+  priority: core
+  page: 4
+  quote_ru: Момент самовращения закручивает вертушку. Половину периода она забирает энергию из скачка поля, а вторую
+    половину периода часть энергии возвращает назад. Обычно, возвращает меньше, чем забирает на первой половине
+    периода. Так ВД участвует в длительном самовращении.
+  statement_en: 'The self-rotation moment spins the wheel: for half the period it draws energy from the field jump,
+    for the second half it returns part of the energy back — usually less than it drew in the first half-period;
+    thus the ВД participates in long self-rotation, and thus some bodies can move linearly at constant speed in
+    the gravity field in the presence of friction.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - self-rotation
+  - cycle
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-011
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: 'Исследовано несколько вариантов: механические вертушки на скачке гравитационного поля  опыты Aldo
+    Kosta (2000) и Игоря Белецкого (2023); вертушка Поля Баумана (1970) на скачке электрического поля «Тестатики»;
+    подшипник Николаева на скачке магнитного поля (1980); источник тепла Росси-Фокарди  на скачке тока смещения
+    (2002); конденсатор-бабочка Белецкого (2020). Инженеры создали ВД на силе Архимеда, на поле упругих сил, назвали
+    их бестопливными генераторами (БТГ), и выставили в интернет.'
+  statement_en: 'The initiative group (Sapogin L.G., Dzhanibekov V.A., Sapogin V.G., Savin Yu.P., 30 years of search)
+    studied the physics of new energy devices: cold fusion (УТС), the Mandelstam-Papaleksi, Fleischmann-Pons, Katorgin-Marin,
+    Rossi-Focardi experiments, and various working ВД technologies; several variants studied: mechanical wheels
+    on the gravitational field jump (Aldo Costa 2000, Igor Beletsky 2023), Paul Bauman''s wheel on the electric
+    field jump of the ''Testatika'' (1970), the Nikolaev bearing on the magnetic field jump (1980), the Rossi-Focardi
+    heat source on the displacement current jump (2002), Beletsky''s butterfly capacitor (2020); engineers created
+    ВД on the Archimedes force and the elastic-force field, called them fuel-free generators (БТГ) and posted them
+    on the Internet.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - survey
+  - testatika
+  - николаев
+  - rossi-focardi
+  - beletsky
+  - БТГ
+  - electrical
+  notes: quote contains the source's private-use OCR glyph ( = dash) verbatim.
+  relations: []
+- id: SC-PM01-012
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: По нашему мнению, опыты натолкнулись на эффект преобразования мощности переменного тока проводимости
+    в мощность тока смещения Максвелла, неизвестный ранее.
+  statement_en: The explanation of the powerful energy release in plasma by new nuclear reactions is a deep misconception
+    of nuclear physicists — it does not allow understanding and really controlling the plasma heating; in the authors'
+    opinion the experiments stumbled on a previously unknown effect of converting the alternating conduction current
+    power into the Maxwell displacement current power; in the УТС, Mandelstam, Fleischmann, Katorgin, Bauman, Beletsky,
+    and Rossi experiments the plasma capacitor, capacitance, or varicap generates the power.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - excess energy
+  - избыточн
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-013
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: Выделение мощности обеспечивает микроскопический механизм закольцованного процесса синтеза/распада излучающих
+    электронно- дырочных пузырей, имеющих большие заряды, микронные размеры и малое время жизни. Заряды в стенке
+    пузыря удерживают силы «полевого конфайнмента», открытые нами в 2000 г.
+  statement_en: The power release is provided by the microscopic mechanism of the looped synthesis/decay process
+    of radiating electron-hole bubbles having large charges, micron sizes, and a small lifetime; the charges in
+    the bubble wall are held by the 'field confinement' forces discovered by the authors in 2000; the reverse action
+    of the electric field pressure gradient on the mass density of charges arises in the wall, forming compression
+    and expansion forces in the field trap which create equilibrium.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - 'пузыри: микронные размеры'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - полевой-конфайнмент
+  - synthesis-decay
+  - избыточн
+  notes: ''
+  relations: []
+- id: SC-PM01-014
+  type: physical
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Пузыри порождаются тепловым движением плазмы и являются аналогом шаровой молнии из плазмы. Перемещаясь
+    между электродами конденсатора, заряды создают ток Максвелла, нагревающий плазму вместе с конденсатором.
+  statement_en: The bubbles are generated by the thermal motion of the plasma and are analogs of ball lightning
+    made of plasma; moving between the capacitor electrodes, the charges create a Maxwell current heating the plasma
+    together with the capacitor; for half the period the current radiates electromagnetic waves into the external
+    region of the capacitor and for the second half-period absorbs the radiation back.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - ball-lightning
+  - ток-смещения
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-PM01-015
+  type: physical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Это излучение смертельно для человека. Его трудно экранировать. Как ядерная энергетика не может обойтись
+    без ядерных отходов, так и плазменная – без излучения. Открыта ещё одна убийственная технология извлечения энергии.
+  statement_en: 'This radiation is deadly for humans and difficult to shield: as nuclear energetics cannot do without
+    nuclear waste, plasma energetics cannot do without radiation — another murderous energy-extraction technology
+    has been discovered; the anomalous heating effect can be explained and calculated from the second law of energetics
+    — the law of electrodynamic induction lost for centuries, which converts the electric induction flux varying
+    in time between metal electrodes into a displacement current; the conversion is hidden in Maxwell''s equations.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - radiation
+  - safety
+  - electrical
+  - anomalous-heating
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-PM01-016
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: 'По ходу исследований было создано два оригинальных научных направления: «Унитарная квантовая теория
+    и новые источники энергии» и «Каноническая физика кластерных состояний вещества». Удалось систематизировать
+    процессы, происходящие в разнообразных схемах извлечения энергии переменного тока.'
+  statement_en: During the research two original scientific directions were created — 'Unitary Quantum Theory and
+    new energy sources' and 'Canonical physics of cluster states of matter' — and the processes occurring in various
+    alternating-current energy extraction schemes were systematized; it became clear how to build clean-energetics
+    devices from them that do not affect the ecology.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - кластер
+  - electrical
+  - program
+  notes: ''
+  relations: []
+- id: SC-PM01-017
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Землянам нужно срочно создавать отрасли персональной энергетики малой мощности. Для этого нужно разработать
+    широкий класс устройств, работающих как ВД на Принципе Стокса. Устройства преобразования энергии полей в механическую
+    энергию самовращения можно строить на всех хорошо изученных физических полях.
+  statement_en: 'Conclusion of the expertise: earthlings urgently need to create branches of low-power personal
+    energetics; for this a wide class of devices working like the ВД on the Stokes Principle must be developed;
+    devices converting field energy into mechanical self-rotation energy can be built on all well-studied physical
+    fields.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess energy
+  - personal-energy
+  - stokes-principle
+  - program
+  notes: ''
+  relations: []
+- id: SC-PM01-018
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Персональные источники не могут конкурировать с ядерной энергетикой, потому что на земле есть много
+    устройств, в которых требуется создавать энергоснабжение большой мощности в малом объёме. А с этой задачей пока
+    может справиться только дорогая энергия атома.
+  statement_en: Personal sources cannot compete with nuclear energetics because there are many devices on earth
+    requiring high-power energy supply in a small volume — a task only expensive atomic energy can handle so far.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - personal-energy
+  - program
+  notes: ''
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

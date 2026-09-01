@@ -1,0 +1,1063 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TC03
+  section: technologies
+  title_ru: Неисчерпаемые источники энергии на токе смещения Максвелла
+  title_en: Inexhaustible energy sources on the Maxwell displacement current
+  file: papers/technologies/neischerpaemyk-istochniki-energii-na-toke-smeshcheniya-maksvella.pdf
+  source_url: http://146.190.233.254/docs/technologies/Неисчерпаемык источники энергии на токе смещения Максвелла.pdf
+  md5: 65dd35af0f1b2458c44541ea44a88525
+  pages_total: 10
+  retrieved: '2026-09-01'
+claims:
+- id: SC-TC03-001
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 1
+  quote_ru: Он смог «рассмотреть» пикосекундную структуру тока, возникающего между двумя электродами в вакууме при
+    импульсном напряжении порядка 10 кВ. Оказалось что ток, в вакуумном промежутке между острийным катодом и планарным
+    анодом, может дробиться на сферические порции с диаметрами от 5 до 15-и микрометров, содержащие в кластере от
+    108 до 1011 электронов.
+  statement_en: 'Ken Shoulders'' outstanding discovery (1970s): he managed to ''resolve'' the picosecond structure
+    of the current arising between two electrodes in vacuum at impulse voltage of order 10 kV; the current in the
+    vacuum gap between a point cathode and a planar anode can break into spherical portions with diameters from
+    5 to 15 micrometers containing from 10^8 to 10^11 electrons in a cluster.'
+  quantities:
+  - U ~ 10 кВ (импульсное)
+  - d(порции) = 5–15 мкм
+  - N(электронов в кластере) = 10^8–10^11
+  equations: []
+  materials:
+  - острийный катод
+  - планарный анод
+  - вакуум
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - shoulders
+  - charge-cluster
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC03-002
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Эти порции вначале он назвал «Elektrum Validum (EV)», а затем согласился с названием «зарядовый кластер».
+    Исследования последних лет уточнили и это название. Теперь порция зарядов многими воспринимается как локализованный
+    на короткое время в ограниченной области пространства пузырёк зарядов, имеющий тонкую стенку.
+  statement_en: These portions were first called 'Elektrum Validum (EV)', then renamed 'charge cluster'; recent
+    studies refined the name again — the charge portion is now perceived by many as a charge bubble with a thin
+    wall, localized for a short time in a bounded region of space.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - terminology
+  - charge-bubble
+  notes: ''
+  relations: []
+- id: SC-TC03-003
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: 'Любой металлический шар удерживает сообщённый ему заряд, не зная о том, что заряды на поверхности одноимённые.
+    На вопрос: почему кулоновское взаимодействие не разрушает возникшую систему зарядов?'
+  statement_en: Any metal ball holds the charge imparted to it although the surface charges are like-named; nobody
+    can answer why the Coulomb interaction does not destroy the resulting charge system — a paradox unexplained
+    in electrostatics for 300 years.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrostatics
+  - paradox
+  - evo
+  - кластер
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC03-004
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Г. Месяц в потоке взрывной термоэлектронной эмиссии обнаружил «эктоны»  лавину электронов из металла
+    [3].
+  statement_en: Similar phenomena connected with the discreteness of the flowing current in conducting media were
+    discovered by B. Katorgin in the gas discharge of hydrogen plasma (NPO Energomash, Khimki, 2009); G. Mesyats
+    discovered 'ectons' — an avalanche of electrons from metal — in the flow of explosive thermionic emission; in
+    the authors' opinion current discreteness in gas already manifested itself in Tesla's atmospheric discharger
+    but could not be observed then.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - каторгин
+  - месяц
+  - эктон
+  - discrete-current
+  notes: ''
+  relations: []
+- id: SC-TC03-005
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 2
+  quote_ru: Считаем, что за аномальное выделение тепла были ответственны процессы синтеза-распада пузырьков заряда,
+    а не холодный синтез ядер.
+  statement_en: The study of high-voltage electrolysis in heavy water by Fleischmann and Pons indirectly showed
+    the presence of charge bubbles enriching the current; the anomalous heat release was caused by synthesis-decay
+    processes of charge bubbles, not by cold nuclear synthesis.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - fleischmann-pons
+  - excess-energy
+  - anomalous-heat
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC03-006
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 2
+  quote_ru: В некоторых случаях фиксировалось большое выделение тепла, а в других случаях выделение тепла не наблюдалось.
+  statement_en: Broader experiments used two high-voltage capacitor electrodes loaded on various conducting media
+    (gaseous, liquid, solid) with roughly identical circuit structure (mains voltage to a high-voltage power supply
+    connected to the electrodes); in some cases large heat release was recorded, in others no heat release was observed.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - anomalous-heat
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-TC03-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Анализ электрических свойств обсуждаемых схем указал на существование в них неизвестного ранее физического
+    принципа преобразования мощности током смещения Максвелла, который позволяет понять, объяснить и рассчитать
+    неожиданное перераспределение энергии в упомянутых схемах.
+  statement_en: Analysis of the electrical properties of the discussed circuits indicated the existence in them
+    of a previously unknown physical principle of power conversion by the Maxwell displacement current, which allows
+    one to understand, explain, and calculate the unexpected energy redistribution in those circuits.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - power-conversion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC03-008
+  type: physical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Он приводил к генерации вокруг себя электрической индукции, формирующей ток смещения. То есть, изменение
+    во времени электрического дипольного момента в объёме конденсатора создавало ток смещения Максвелла.
+  statement_en: 'In all the experiments the discrete current flowing in the medium between the capacitor electrodes
+    created a changing electric dipole moment of the moving charge, which generated electric induction around itself
+    forming the displacement current: the time variation of the electric dipole moment in the capacitor volume created
+    the Maxwell displacement current.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - dipole
+  notes: ''
+  relations: []
+- id: SC-TC03-009
+  type: physical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Образовывалась замкнутая цепь, в которой возникали как бы две «электродвижущие силы» по переменному
+    току. Одна преобразовывала ток проводимости, приходящий из источника, в ток смещения на одном электроде, а другая
+    преобразовывала ток смещения в ток проводимости на втором электроде.
+  statement_en: 'A closed circuit formed with, as it were, two AC ''electromotive forces'': one converts the conduction
+    current coming from the source into a displacement current on one electrode, the other converts the displacement
+    current into a conduction current on the second electrode.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - emf
+  - ток-смещения
+  notes: ''
+  relations: []
+- id: SC-TC03-010
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: В (2) часть тока смещения Максвелла iM через проводящую поверхность S вокруг источников определена
+  statement_en: 'The integral form of the law (eq. (2)): part of the Maxwell displacement current iM through a conducting
+    surface S around the sources is determined by the rate of change of the flux F of the electric induction vector
+    D (D = P + ε0E, P polarization vector, E field strength in the gap).'
+  quantities: []
+  equations:
+  - i_M = \int_S \mathbf{j} \cdot d\mathbf{s} = \frac{dF}{dt} = \frac{d}{dt}\int_S \mathbf{D} \cdot d\mathbf{s}
+  - \mathbf{D} = \mathbf{P} + \varepsilon_0 \mathbf{E}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - ток-смещения
+  - law
+  notes: quote truncated before OCR-degraded formula glyphs; equations best-effort.
+  relations: []
+- id: SC-TC03-011
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Отметим, что закон электромагнитной индукции определяется источниками вторичного (магнитного) поля,
+    а закон электродинамической индукции определяется источниками первичного (электрического) поля.
+  statement_en: 'The law written as (2) resembles the law of electromagnetic induction: the canonical form indicates
+    that the Maxwell displacement current is formed in vacuum and matter by a variable flux of electric induction
+    through any closed surface surrounding sources in the form of variable dipole moments; electromagnetic induction
+    is determined by sources of the secondary (magnetic) field, electrodynamic induction by sources of the primary
+    (electric) field.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - law
+  - induction
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC03-012
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: где A – некоторая безразмерная постоянная, зависящая от конструктивных особенностей схемы преобразования,
+    С – электроёмкость внутреннего  (излучающего) конденсатора, U – амплитуда его напряжения,
+  statement_en: For a 'flat capacitor inside a flat capacitor' cell used as a displacement-current generator, the
+    amplitude displacement current reduces to iM = A·C·U·ν, where A is a dimensionless constant depending on the
+    converter circuit design, C the capacitance of the inner (radiating) capacitor, U its voltage amplitude, ν the
+    displacement-current frequency, P the seed polarization vector formed by dipole moments (eq. (3)).
+  quantities: []
+  equations:
+  - i_M = A\,C\,U\,\nu
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - КОДМ
+  - design-equation
+  notes: quote truncated before the OCR-lost ν glyph; formula from eq. (3) best-effort. quote contains the source's
+    private-use OCR glyph (formula symbol) verbatim.
+  relations: []
+- id: SC-TC03-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Этот факт подтверждается в антенных устройствах, предназначенных для генерации электромагнитных волн
+    на любых частотах, и проявляет себя во всех упомянутых выше экспериментах, исследующих замкнутую электрическую
+    цепь.
+  statement_en: 'Law (2) in the form (3) deepens the understanding of electrodynamic phenomena: any time changes
+    of a dipole moment generate variable electric fields around it, which create other variable dipole moments on
+    conducting plates; these become sources of variable fields and currents in the conductors onto which the displacement
+    currents are closed — confirmed in antennas for EM-wave generation at any frequency.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - dipole
+  - antenna
+  notes: ''
+  relations: []
+- id: SC-TC03-014
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Если теперь подключить ячейку «плоский конденсатор в плоском конденсаторе» на омическое сопротивление
+    нагрузки, то мы получаем эквивалентную электрическую схему практически всех экспериментов, в которых было обнаружено
+    аномальное выделение энергии.
+  statement_en: Connecting the 'flat capacitor inside a flat capacitor' cell to an ohmic load resistance yields
+    the equivalent electric circuit of practically all experiments in which anomalous energy release was discovered.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - anomalous-heat
+  - equivalent-circuit
+  notes: ''
+  relations: []
+- id: SC-TC03-015
+  type: physical
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Электроны облака находятся в равновесии со своим коллективным электрическим полем, которое и удерживает
+    их от КУЛОНОВСКОГО ПРИТЯЖЕНИЯ.
+  statement_en: In a charged electrostatic capacitor the electrons form a finite-thickness cloud around the negatively
+    charged plate (having left the positively charged plate); the cloud electrons are in equilibrium with their
+    collective electric field, which holds them against COULOMB ATTRACTION.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - evo
+  - self-consistent-field
+  - electrostatics
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC03-016
+  type: physical
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Сила противодействия f 2  градиент давления коллективного поля электронов; h – средняя толщина слоя
+    электронов, d – среднее расстояние между обкладками конденсатора.
+  statement_en: The acting force f1 is Coulomb attraction pressing the electrons to the electrode surface; the opposing
+    force f2 is the pressure gradient of the electrons' collective field; h is the mean thickness of the electron
+    layer, d the mean distance between the capacitor plates; the separated charges form the system's electric dipole
+    p, whose direction and magnitude do not change in time.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - h – средняя толщина слоя электронов
+  - d – среднее расстояние между обкладками
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - electrostatics
+  - self-consistent-field
+  - geometry
+  notes: quote contains the source's private-use OCR glyph (formula symbol) verbatim.
+  relations: []
+- id: SC-TC03-017
+  type: physical
+  facet: geometry
+  priority: core
+  page: 4
+  quote_ru: Пробой наступает тогда, когда толщина электронного облака сравнивается с расстоянием между обкладками.
+  statement_en: The working state of the capacitor assumes the electron-cloud thickness h is less than the plate
+    distance d; breakdown occurs when the electron cloud thickness becomes equal to the distance between the plates.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - 'условие пробоя: h = d'
+  - 'рабочий режим: h < d'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - breakdown
+  - geometry
+  - design-rule
+  notes: ''
+  relations: []
+- id: SC-TC03-018
+  type: physical
+  facet: recipe
+  priority: core
+  page: 5
+  quote_ru: Внутренний излучающий конденсатор (ИК) обведён пунктиром. Он может иметь обкладки из металлической сетки.
+    Для увеличения его ёмкости можно применять любой диэлектрик 5. Приёмный конденсатор (ПК) (клеммы 3-4) находится
+    на оси системы и имеет металлические обкладки.
+  statement_en: 'The simplest model of a capacitor with oscillating dipole moment is the ''flat capacitor inside
+    a flat capacitor'' cell — a displacement-current generator (ГТС): the inner radiating capacitor (ИК), outlined
+    by a dashed line, may have mesh plates and any dielectric (5) to increase its capacitance; the receiving capacitor
+    (ПК) (terminals 3-4) is on the system axis with metal plates; the region occupied by the radiating capacitor
+    with the dielectric creates a volume V containing the variable dipole moment arising when AC voltage U is applied
+    to terminals 1-2.'
+  quantities: []
+  equations: []
+  materials:
+  - металлическая сетка (обкладки ИК)
+  - диэлектрик (позиция 5)
+  geometry:
+  - объём V излучающего конденсатора
+  - ПК на оси системы
+  procedure_steps:
+  - поместить излучающий конденсатор (ИК) внутрь приёмного (ПК)
+  - приложить переменное напряжение U к клеммам 1-2
+  - снимать часть тока смещения с клемм 3-4 приёмного конденсатора
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - electrical
+  - recipe
+  - КОДМ
+  - schematic
+  notes: ''
+  relations: []
+- id: SC-TC03-019
+  type: physical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Когда приёмный конденсатор нагружен на омическое сопротивление R, то ток в нём становится током проводимости.
+  statement_en: Part of the Maxwell displacement current (3) enters the receiving-capacitor plates; when the receiving
+    capacitor is loaded on an ohmic resistance R, the current in it becomes a conduction current, and the output
+    power released on R has amplitude Pвых = iM²R = (ACUν)²R, with input power to the radiating capacitor Pвх =
+    CU²ν/2 (eqs. (4)-(5)).
+  quantities: []
+  equations:
+  - P_{вых} = i_M^2 R = (ACU\nu)^2 R
+  - P_{вх} = CU^2\nu/2
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - power
+  - КОДМ
+  notes: formulas OCR-degraded in source; LaTeX best-effort.
+  relations: []
+- id: SC-TC03-020
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Соотношения (4) и (5) позволяют рассчитать коэффициент преобразования мощности током смещения Максвелла
+  statement_en: Relations (4) and (5) give the power conversion coefficient of the Maxwell displacement current
+    k = Pвых/Pвх = 2A²RCν (eq. (6)); this coefficient formulates the physical principle of power conversion by the
+    displacement current existing in circuits containing a capacitor with oscillating dipole moment (КОДМ).
+  quantities: []
+  equations:
+  - k = P_{вых}/P_{вх} = 2A^2 RC\nu
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - power-conversion
+  - КОДМ
+  notes: ''
+  relations: []
+- id: SC-TC03-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: В последнем случае на омической нагрузке не возникает аномальный Джоуль. Просто схема берёт из источника
+    1 Вт, а в
+  statement_en: 'From (6) three power conversion cases are possible: below unity (НЕП), unity, and above unity (СЕП,
+    super-unity); in the super-unity case no anomalous Joule arises on the ohmic load — the circuit simply takes
+    1 W from the source and throws 10 W into the load at a conversion coefficient of 10.'
+  quantities:
+  - 'k = 10: P_ист = 1 Вт, P_нагр = 10 Вт'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - super-unity
+  - electrical
+  - debt-candidate
+  notes: quote truncated at the page-5 footer; continues on page 6 'нагрузку забрасывает 10 Вт...'.
+  relations: []
+- id: SC-TC03-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Когда коэффициент ниже единицы, передающий конденсатор берёт из источника 10 Вт, а выбрасывает в нагрузку
+    мощность 1 Вт. В этом основная причина того, почему в экспериментах по «аномальному» выделению энергии в электрических
+    цепях при той же компоновке «железа» у одних энергия выделялась, а у других не выделялась.
+  statement_en: When the coefficient is below unity the transmitting capacitor takes 10 W from the source and throws
+    1 W into the load — the main reason why in 'anomalous' energy release experiments with the same 'iron' layout
+    some setups released energy and others did not.
+  quantities:
+  - 'k < 1: P_ист = 10 Вт, P_нагр = 1 Вт'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - electrical
+  - replication
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC03-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Зависимость (7) представляет прямую линию в указанных переменных, которая разделяет области ниже единичного
+    (отмечена цифрой 1) и сверх единичного преобразования мощности (отмечена цифрой 2).
+  statement_en: Fig. 3 plots the conversion coefficient against the reduced ohmic resistance R/R*, where R* = (2A²Cν)^-1
+    is the scale of the ohmic resistance of the circuit; dependence (7) is a straight line in the indicated variables
+    separating the below-unity (marked 1) and super-unity (marked 2) power conversion regions.
+  quantities: []
+  equations:
+  - R^* = (2A^2 C\nu)^{-1}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - power-conversion
+  - scaling
+  notes: ''
+  relations: []
+- id: SC-TC03-024
+  type: physical
+  facet: procedure
+  priority: core
+  page: 6
+  quote_ru: Полученные экспериментальные точки нужно обработать методом наименьших квадратов Лежандра, и выявить
+    истинное значение масштаба сопротивления R* каждой исследуемой схемы.
+  statement_en: 'This dependence is the base for the proposed experiments: the experimental points obtained must
+    be processed by Legendre''s least-squares method to reveal the true value of the resistance scale R* of each
+    studied circuit.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - снять экспериментальные точки зависимости коэффициента преобразования от нагрузки
+  - обработать методом наименьших квадратов Лежандра
+  - определить истинное значение масштаба сопротивления R* схемы
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - data-analysis
+  notes: ''
+  relations: []
+- id: SC-TC03-025
+  type: physical
+  facet: recipe
+  priority: core
+  page: 6
+  quote_ru: Это может быть диод Шоулдерса с острийным катодом [1]. Возникающие внутри диода пузырьковые структуры
+    зарядов при перемещении внутри диода будут давать переменный дипольный момент. Он будет генерировать ток Максвелла
+    во внешней цепи. Недостаток диода Шоулдерса – наличие высокого напряжения (более 10 кВ).
+  statement_en: 'Many constructive solutions forming a КОДМ are known; one is the Shoulders diode with a point cathode:
+    the bubble charge structures arising inside the diode give, while moving, a variable dipole moment that generates
+    the Maxwell current in the external circuit; the drawback is the high voltage (more than 10 kV).'
+  quantities:
+  - U > 10 кВ
+  equations: []
+  materials:
+  - острийный катод
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - shoulders
+  - КОДМ
+  - recipe
+  notes: ''
+  relations: []
+- id: SC-TC03-026
+  type: physical
+  facet: recipe
+  priority: core
+  page: 6
+  quote_ru: Роль КОДМ может играть любая плазменная вставка, выполненная либо в виде атмосферного разрядника Теслы,
+    либо в виде соосных цилиндрических электродов, помещённых в газообразный водород (опыты Каторгина-Марина [2]).
+  statement_en: 'Any plasma insert can play the КОДМ role: either a Tesla atmospheric discharger or coaxial cylindrical
+    electrodes placed in gaseous hydrogen (Katorgin-Marin experiments); the bubble charge structures arising in
+    the plasma also generate a Maxwell displacement current of greater intensity into the external circuit than
+    the Shoulders diode.'
+  quantities: []
+  equations: []
+  materials:
+  - атмосферный разрядник Теслы
+  - соосные цилиндрические электроды
+  - газообразный водород
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - plasma
+  - КОДМ
+  - recipe
+  - каторгин-марин
+  notes: ''
+  relations: []
+- id: SC-TC03-027
+  type: physical
+  facet: measurement
+  priority: core
+  page: 7
+  quote_ru: 'Плазменная вставка Каторгина- Марина на 30 кВт имеет один существенный недостаток: большая часть тока
+    смещения Максвелла идёт в мощное вредное излучение, которое пока нечем экранировать, и от которого гибнут люди.'
+  statement_en: 'The Katorgin-Marin plasma insert at 30 kW has one essential drawback: most of the Maxwell displacement
+    current goes into powerful harmful radiation which cannot yet be shielded and from which people die.'
+  quantities:
+  - P = 30 кВт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - каторгин-марин
+  - radiation
+  - safety
+  - plasma
+  notes: ''
+  relations: []
+- id: SC-TC03-028
+  type: physical
+  facet: recipe
+  priority: core
+  page: 7
+  quote_ru: Его КОДМ представляет собой два акриловых диска, на которые наклеены радиальные трапециевидные пластинки
+    из электрета. Встречное вращение дисков создает такую электрическую мощность в цепи, что омические сопротивления
+    раскаляются, как спирали утюга.
+  statement_en: 'Large displacement-current values are achieved in P. Bauman''s installation: his КОДМ is two acrylic
+    disks with glued radial trapezoidal electret plates; counter-rotation of the disks creates such electric power
+    in the circuit that ohmic resistances heat up like iron spirals; the drawback is that the dipole moment cannot
+    be changed without mechanical rotation; the advantage is operation at about 30 kV using an air plasma gap for
+    the discrete current, which increases the geometric capacitance of the disks to 30 nF.'
+  quantities:
+  - U ≈ 30 кВ
+  - C(геометрическая ёмкость дисков) = 30 нФ
+  equations: []
+  materials:
+  - два акриловых диска
+  - радиальные трапециевидные пластинки из электрета
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - bauman
+  - testatika
+  - КОДМ
+  - recipe
+  - электрет
+  notes: ''
+  relations: []
+- id: SC-TC03-029
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: По нашему мнению, приоритет экспериментального подтверждения существования закона электродинамической
+    индукции принадлежит швейцарцу П. Бауману [4]. Он использовал его в П-образном конденсаторе, через пластины
+    которого двигался дипольный момент, создаваемый пластиной радиального электрета.
+  statement_en: In the authors' opinion, priority for the experimental confirmation of the existence of the law
+    of electrodynamic induction belongs to the Swiss P. Bauman, who used it in a П-shaped capacitor through whose
+    plates moved the dipole moment created by a radial-electret plate; Bauman did not notice the law itself since
+    he has no publications on it.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bauman
+  - law
+  - priority
+  - history
+  notes: ''
+  relations: []
+- id: SC-TC03-030
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 7
+  quote_ru: На установке А. Атаманченко был получен размах переменного напряжения в киловольты, измеряемого электрометрами,
+    при вращении дипольного момента величиной 10 нКлм с частотой 0,5 Гц.
+  statement_en: 'In 2020 in Russia the school teacher A. Atamanchenko (TMOL #4, Taganrog) repeated these experiments,
+    replacing the radial electret with two hollow oppositely charged metal cylinders with a rotation axis; on his
+    setup an AC voltage swing in kilovolts was measured by electrometers when a dipole moment of 10 nC·m rotated
+    at 0.5 Hz.'
+  quantities:
+  - p = 10 нКл·м
+  - f = 0,5 Гц
+  - 'размах напряжения: киловольты'
+  equations: []
+  materials:
+  - два пустотелых разноимённо заряженных металлических цилиндра
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: размах переменного напряжения
+    value: киловольты
+    unit: В
+    conditions: дипольный момент 10 нКл·м, частота вращения 0,5 Гц, измерение электрометрами
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - electrical
+  - КОДМ
+  - experiment
+  - atamanchenko
+  notes: quote contains the source's private-use OCR glyph (formula symbol) verbatim.
+  relations: []
+- id: SC-TC03-031
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Основная задача любого научно-технического проекта, применяющего закон электродинамической индукции,
+    заключается в том, чтобы найти такие конструктивы КОДМ, которые, обеспечивая сверхединичное преобразование мощности
+    в системе, сами были бы неподвижны и имели бы низкие значения величин вредного излучения.
+  statement_en: The main task of any sci-tech project applying the law of electrodynamic induction is to find КОДМ
+    constructs that provide super-unity power conversion in the system while being themselves stationary and having
+    low harmful-radiation levels.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - КОДМ
+  - super-unity
+  - radiation
+  - program
+  notes: ''
+  relations: []
+- id: SC-TC03-032
+  type: physical
+  facet: recipe
+  priority: core
+  page: 7
+  quote_ru: Вычисления выполнены по соотношениям (3) – (7) для коэффициента A=1 и излучающего конденсатора С=1 мФ=10-3
+    Ф.
+  statement_en: Calculations of the circuit elements connected to a 220 V / 50 Hz mains show that a 10 kW mains
+    power converter (СПМ) is realizable; computed via relations (3)-(7) for coefficient A = 1 and radiating capacitor
+    C = 1 mF = 10^-3 F.
+  quantities:
+  - P(СПМ) = 10 кВт
+  - A = 1
+  - C = 1 мФ = 10^-3 Ф
+  - U = 220 В
+  - ν = 50 Гц
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - СПМ
+  - design-estimate
+  - power-conversion
+  notes: ''
+  relations: []
+- id: SC-TC03-033
+  type: physical
+  facet: measurement
+  priority: core
+  page: 8
+  quote_ru: Падение напряжения на нагрузке 1,1 кВ. Мощность на нагрузке 12,1 кВт. Потребляемая из сети мощность
+    1,21 кВт.
+  statement_en: 'With resistance scale R* = 10 Ом and assumed super-unity conversion η = 10: load resistance R =
+    100 Ом; Maxwell current iM = 11 А; voltage drop on the load 1.1 kV; power on the load 12.1 kW; power consumed
+    from the mains 1.21 kW.'
+  quantities:
+  - R* = 10 Ом
+  - η = 10
+  - R = 100 Ом
+  - iM = 11 А
+  - U_нагр = 1,1 кВ
+  - P_нагр = 12,1 кВт
+  - P_сети = 1,21 кВт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: мощность на нагрузке
+    value: 12,1
+    unit: кВт
+    conditions: СПМ 220 В / 50 Гц, C=1 мФ, A=1, η=10
+  - quantity: потребляемая из сети мощность
+    value: 1,21
+    unit: кВт
+    conditions: тот же режим
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - СПМ
+  - design-estimate
+  - power-balance
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC03-034
+  type: physical
+  facet: recipe
+  priority: core
+  page: 8
+  quote_ru: Для реализации такого СПМ нужно спроектировать излучающий конденсатор ёмкостью 1 мФ, способный удерживать
+    заряд 0,22 Кл при напряжении 220 В на частоте 50 Гц. Уже видится СПМ с габаритными размерами порядка 0,6х0,6х0,2
+    м3.
+  statement_en: 'The very narrow spot for realizing such a СПМ: a radiating capacitor of 1 mF capacitance able to
+    hold 0.22 C of charge at 220 V at 50 Hz must be designed; a СПМ with overall dimensions of about 0.6×0.6×0.2
+    m³ is already envisioned.'
+  quantities:
+  - C = 1 мФ
+  - q = 0,22 Кл
+  - U = 220 В
+  - ν = 50 Гц
+  equations: []
+  materials: []
+  geometry:
+  - габариты СПМ ≈ 0,6×0,6×0,2 м3
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - СПМ
+  - design-constraint
+  - geometry
+  notes: ''
+  relations: []
+- id: SC-TC03-035
+  type: physical
+  facet: recipe
+  priority: core
+  page: 8
+  quote_ru: Отсутствие высоких напряжений приведёт к исчезновению эффектов высоковольтной электрофизики. Внутри
+    конденсатора не будут образовываться пузырьки зарядов.
+  statement_en: 'СПМ advantage 1: the mains power converter requires no high input voltages; the absence of high
+    voltages will make the effects of high-voltage electrophysics disappear — no charge bubbles will form inside
+    the capacitor.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - СПМ
+  - high-voltage
+  - charge-bubbles
+  notes: ''
+  relations: []
+- id: SC-TC03-036
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 8
+  quote_ru: Пластины СПМ неподвижны.
+  statement_en: 'СПМ advantages 2-4: the СПМ plates are stationary; the harmful radiation it can generate into the
+    environment is negligible compared with plasma inserts and can be controlled; standard AC instruments (voltmeters,
+    ammeters, laboratory autotransformers, electric meters, calorimeters) are freely available.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - СПМ
+  - advantages
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-TC03-037
+  type: physical
+  facet: recipe
+  priority: core
+  page: 8
+  quote_ru: Один трансформатор, рассчитанный на генерацию выходного напряжения 220 В, будет возвращать 10% избыточной
+    энергии на вход СПМ. Схема будет отключена от сетевого напряжения. Второй трансформатор будет передавать до
+    90 % энергии потребителю.
+  statement_en: 'After creating a working СПМ, two symmetric Tesla transformers are switched into the circuit in
+    series with the calorimeter similarly to P. Bauman''s installation: one transformer (rated for 220 V output)
+    returns 10% of the excess energy to the СПМ input and the circuit is disconnected from the mains; the second
+    transformer transmits up to 90% of the energy to the consumer.'
+  quantities:
+  - возврат 10% избыточной энергии
+  - передача потребителю до 90 %
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - включить два симметричных трансформатора Тесла последовательно с калориметром
+  - трансформатор на 220 В возвращает 10% избыточной энергии на вход СПМ
+  - отключить схему от сетевого напряжения
+  - второй трансформатор передаёт до 90 % энергии потребителю
+  measurements: []
+  schematic_refs:
+  - Рис. 5
+  tags:
+  - electrical
+  - СПМ
+  - feedback
+  - recipe
+  - excess-energy
+  notes: ''
+  relations: []
+- id: SC-TC03-038
+  type: physical
+  facet: material
+  priority: core
+  page: 9
+  quote_ru: Она имеет самую высокую объёмную плотность индуктивности, и будет занимать на порядок меньше объёма,
+    чем известная цилиндрическая индуктивность Тесла.
+  statement_en: The Tesla transformers can be built on V. Sapogin's planar current-vortex inductance proposed in
+    2016; it has the highest volumetric inductance density and will occupy an order of magnitude less volume than
+    the known cylindrical Tesla inductance.
+  quantities:
+  - объём меньше на порядок, чем у цилиндрической индуктивности Тесла
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - inductance
+  - material
+  - планарная-индуктивность
+  - tesla
+  notes: ''
+  relations: []
+- id: SC-TC03-039
+  type: physical
+  facet: process
+  priority: core
+  page: 9
+  quote_ru: Закольцованная энергетическая цепочка (ЗЭЦ – технология, предложенная нами в [6,7]) вместе с КОДМ будет
+    уже представлять собой автономный, персональный, неисчерпаемый источник электрической энергии переменного тока.
+  statement_en: The looped energy chain (ЗЭЦ, the technology proposed by the authors in [6,7]) together with the
+    КОДМ will constitute an autonomous, personal, inexhaustible source of AC electric energy; energy companies will
+    no longer be able to accuse anyone of stealing electric energy from them.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - ЗЭЦ
+  - КОДМ
+  - personal-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

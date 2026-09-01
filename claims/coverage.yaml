@@ -1,3 +1,357 @@
 schema_version: 1
-# doc_id -> {claim_file, extractor, extracted, reviewed_by, zero_claim_document, pending}
-documents: {}
+documents:
+  SI01:
+    claim_file: claims/source/SI01-home.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI02:
+    claim_file: claims/source/SI02-articles.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI03:
+    claim_file: claims/source/SI03-brochure.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI04:
+    claim_file: claims/source/SI04-dissertation.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI05:
+    claim_file: claims/source/SI05-lectures.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI06:
+    claim_file: claims/source/SI06-monography.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI07:
+    claim_file: claims/source/SI07-patents.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI08:
+    claim_file: claims/source/SI08-perpetual_motion.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI09:
+    claim_file: claims/source/SI09-teaching.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI10:
+    claim_file: claims/source/SI10-technologies.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  SI11:
+    claim_file: claims/source/SI11-works.yaml
+    extractor: SiteExtractor
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  TC01:
+    claim_file: claims/source/TC01-inexhaustible-sources-of-electricity-bluff-or-breakthrough-technologies.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  TC02:
+    claim_file: claims/source/TC02-zakon-elektrodinamicheskoy-induktsii-dlya-toka-smeshcheniya-maksvella.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  TC03:
+    claim_file: claims/source/TC03-neischerpaemyk-istochniki-energii-na-toke-smeshcheniya-maksvella.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  TC04:
+    claim_file: claims/source/TC04-priblizhenie-armageddona-peredovykh-nanotekhnologiy.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  TC05:
+    claim_file: claims/source/TC05-ustroystva-sverkhedinichnogo-preobrazovaniya-moshchnosti-na-toke-smeshcheniya-ma.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  TC06:
+    claim_file: claims/source/TC06-ustroystva-sverkhedinichnogo-preobrazovaniya-energii-na-puzyrkakh-zaryadov-fizic.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  TC07:
+    claim_file: claims/source/TC07-elektricheskie-nakopiteli-izbytochnoy-energii-iskusstvennoy-plazmennoy-neustoych.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  TC08:
+    claim_file: claims/source/TC08-sposoby-izvlecheniya-energii-korotkozhivushchimi-puzyrkami-zaryadov-plazmy.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  PA01:
+    claim_file: claims/source/PA01-patent-ru-2-622-894-c2.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  PA02:
+    claim_file: claims/source/PA02-patent-ru-2-623-100-c1.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  PA03:
+    claim_file: claims/source/PA03-patent-ru-2614-188-c1.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  PM01:
+    claim_file: claims/source/PM01-princip-vechny-dvigatel.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  PM02:
+    claim_file: claims/source/PM02-polevoy-konfonament.yaml
+    extractor: C3-Devices
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  MO01:
+    claim_file: claims/source/MO01-integralnye-induktivnosti-s-vysokoy-simmetriey.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  MO02:
+    claim_file: claims/source/MO02-mekhanizmy-uderzhaniya-veshchestva-samosoglasovannym-polem.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  MO03:
+    claim_file: claims/source/MO03-tekhnologii-personalnoy-energetiki-na-puzyrkovykh-strukturakh-zaryadov-fizichesk.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  DI01:
+    claim_file: claims/source/DI01-avtoreferat.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  DI02:
+    claim_file: claims/source/DI02-mekhanizmy-uderzhaniya-veshchestva-samosoglasovannym-polem.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  BR01:
+    claim_file: claims/source/BR01-gazovye-shary-emdena-v-samosoglasovannoy-teorii-gravitatsii.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  BR02:
+    claim_file: claims/source/BR02-gradientnyy-elektronnyy-inzhektor-avtoemissionnogo-katoda-s-uglovoy-aperturoy.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  BR03:
+    claim_file: claims/source/BR03-istochniki-postoyannogo-toka-na-fizicheskom-printsipe-preobrazovaniya-gradienta.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  BR04:
+    claim_file: claims/source/BR04-mekhanizm-generatsii-izbytochnoy-energii-samovrashchayushcheysya-elektricheskoy.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  TE01:
+    claim_file: claims/source/TE01-60-let-v-stroyu.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE02:
+    claim_file: claims/source/TE02-alternativnyy-vybor-fizicheskogo-laboratornogo-eksperimenta-v-shkole.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE03:
+    claim_file: claims/source/TE03-vertikalnye-kolebaniya-na-pruzhine-v-odnorodnom-pole-sily-tyazhesti.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  TE04:
+    claim_file: claims/source/TE04-differentsirovannyy-podkhod-pri-vypolnenii-laboratornykh-rabot-po-fizike.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE05:
+    claim_file: claims/source/TE05-igra-osobaya-forma-usvoeniya-materiala-fizika.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE06:
+    claim_file: claims/source/TE06-izmerenie-velichiny-zaryada-mekhanicheskim-shkolnym-elektrometrom.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  TE07:
+    claim_file: claims/source/TE07-issledovanie-svoystv-elektromagnitnogo-izlucheniya-samodelnym-indikatorom.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  TE08:
+    claim_file: claims/source/TE08-meditsinskiy-shprits-v-fizicheskom-eksperimente.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE09:
+    claim_file: claims/source/TE09-neutolyonnoe-lyubopytstvo-fizika-v-rasskazakh.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE10:
+    claim_file: claims/source/TE10-posobie-dlya-uchiteley-o-profilaktike-zavisimosti-detey-ot-kureniya.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE11:
+    claim_file: claims/source/TE11-proekt-elektrostaticheskogo-elektrometra-s-izmeritelnoy-shkaloy.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: false
+  TE12:
+    claim_file: claims/source/TE12-sdelayte-fiziku-interesnoy-dlya-uchashchikhsya.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE13:
+    claim_file: claims/source/TE13-fizika-avtomobilya-dlya-shkolnikov.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE14:
+    claim_file: claims/source/TE14-tsikl-issledovatelskikh-eksperimentalnykh-rabot-po-izucheniyu-uprugoy-deformatsi.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  TE15:
+    claim_file: claims/source/TE15-chto-my-znaem-i-ne-znaem-o-sebe.yaml
+    extractor: C2-Volumes
+    extracted: '2026-08-31'
+    zero_claim_document: true
+  AR01:
+    claim_file: claims/source/AR01-biwave-least-action.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR02:
+    claim_file: claims/source/AR02-emden-potential-exact-approx.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR03:
+    claim_file: claims/source/AR03-emden-exact-solutions.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR04:
+    claim_file: claims/source/AR04-proton-clusters-nuclear-size.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR05:
+    claim_file: claims/source/AR05-hollow-smbh-mass-spectrum.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR06:
+    claim_file: claims/source/AR06-circuit-current-instability.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR07:
+    claim_file: claims/source/AR07-planar-eddy-current-inductance.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR08:
+    claim_file: claims/source/AR08-flat-varicap-electron-cluster.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR09:
+    claim_file: claims/source/AR09-flat-electron-clusters-two-component-plasma.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  AR10:
+    claim_file: claims/source/AR10-uniform-plasma-electron-clusters-lightning.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  WO01:
+    claim_file: claims/source/WO01-shoulders-charge-cluster.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  WO02:
+    claim_file: claims/source/WO02-thibado-graphene-generator.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  WO03:
+    claim_file: claims/source/WO03-global-warming-divine-fire.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  WO04:
+    claim_file: claims/source/WO04-canonical-physics-gravitation-electricity-magnetism.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  WO05:
+    claim_file: claims/source/WO05-personal-energy-storage-panegyric.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  WO06:
+    claim_file: claims/source/WO06-varicap-technology-foundations.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false
+  WO07:
+    claim_file: claims/source/WO07-nanoscale-varicaps.yaml
+    extractor: C1-ArticlesWorks
+    extracted: '2026-08-31'
+    reviewed_by: null
+    zero_claim_document: false

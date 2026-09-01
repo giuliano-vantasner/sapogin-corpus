@@ -1,0 +1,18 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE04
+  section: teaching
+  title_ru: Дифференцированный подход при выполнении лабораторных работ по физике
+  title_en: Differentiated approach in physics laboratory work
+  file: papers/teaching/differentsirovannyy-podkhod-pri-vypolnenii-laboratornykh-rabot-po-fizike.pdf
+  source_url: http://146.190.233.254/docs/teaching/Дифференцированный подход при выполнении лабораторных
+    работ по физике.pdf
+  md5: 5e3b87c98445330f678fd5c3bbd34805
+  pages_total: 8
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

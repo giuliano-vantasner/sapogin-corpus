@@ -1,0 +1,356 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: WO07
+  section: works
+  title_ru: Физические свойства наноразмерных варикапов и их применение
+  title_en: Physical properties of nanoscale varicaps and their application
+  file: papers/works/fizicheskie-svoystva-nanorazmernykh-varikapov-i-ikh-primenenie.pdf
+  source_url: http://146.190.233.254/docs/works/Физические свойства наноразмерных варикапов и их применение.pdf
+  md5: 6ae9f83ea7b7f3c2c4a4096e0b7f4bd0
+  pages_total: 4
+  retrieved: '2026-09-01'
+claims:
+- id: SC-WO07-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: В заметке обсуждается физический механизм формирования двойного электрического слоя в проводящей/полупроводящей
+    плёнке с толщиной нанометры, на которую наложено внешнее статическое электрическое поле.
+  statement_en: The note discusses the physical mechanism of formation of a double electric layer in a conducting/semiconducting
+    film of nanometer thickness on which an external static electric field is imposed.
+  quantities: []
+  equations: []
+  materials:
+  - conducting/semiconducting film
+  geometry:
+  - 'film thickness: nanometers'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - double-electric-layer
+  - nanoscale-film
+  - varicap
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO07-002
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 1
+  quote_ru: 'Она обладала неожиданными свойствами: ёмкость возникала при небольшом напряжении, приложенному к металлическим
+    обкладкам, увеличивалась скачком, а затем убывала обратно пропорционально внешнему напряжению.'
+  statement_en: 'Information published on site [1] (G. Detinich, ''Chinese scientists developed a 3-nm transistor'',
+    3dnews.ru/988458) states that Chinese technologists were the first in the world to create the smallest-size
+    capacitance with a distance between plates of 4 nm; it possessed unexpected properties: the capacitance arose
+    at a small voltage applied to the metal plates, increased jumpwise, and then decreased inversely proportional
+    to the external voltage.'
+  quantities:
+  - plate distance 4 nm
+  equations: []
+  materials:
+  - metal plates
+  geometry:
+  - plate distance 4 nm
+  procedure_steps: []
+  measurements:
+  - quantity: capacitance behavior vs voltage
+    value: jump increase then ~1/U decrease
+    unit: '-'
+    conditions: 4 nm plate gap
+  schematic_refs: []
+  tags:
+  - nanocapacitor
+  - chinese-technology
+  - volt-farad
+  notes: ''
+  relations: []
+- id: SC-WO07-003
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 1
+  quote_ru: Происхождение ёмкости они объяснили существованием в плёнке подвижной доменной стенки, дипольная структура
+    которой была сориентирована так, что ёмкость, как утверждают авторы, стала отрицательной.
+  statement_en: 'Russian technologists from the Southern Federal University (SFU) A. Razumnaya and Yu. Tikhonov
+    also created a similar capacitance with a distance between plates of 10 nm; they explained the origin of the
+    capacitance by the existence in the film of a movable domain wall whose dipole structure was oriented so that
+    the capacitance, as the authors assert, became negative; the film exhibited the same property as with the Chinese
+    technologists: its capacitance decreased inversely proportional to the external voltage; this indicates that
+    the physical mechanism of formation of the double electric layer in a film of nanoscale thickness under an external
+    static electric field has the same, still unknown to technologists, nature.'
+  quantities:
+  - plate distance 10 nm
+  equations: []
+  materials:
+  - semiconducting film
+  geometry:
+  - plate distance 10 nm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - domain-wall
+  - negative-capacitance
+  - razumnaya
+  - tikhonov
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO07-004
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Американские исследователи харвейстеров под руководством профессора П.М.Тибадо создали конденсатор,
+    один электрод которого состоял из плёнки графена, а другой был острийным.
+  statement_en: 'American researchers of harvesters under the guidance of professor P.M. Thibado created a capacitor
+    one electrode of which consisted of a graphene film and the other was pointed; they discovered two different
+    cases of dipole-moment distribution in graphene: the first case was realized when the electric energy stored
+    in the elementary layer of the film was of the order of its thermal energy — the thermal energy made the electric
+    moment of the film dipole change chaotically in time and space, which changed the magnitude of the bending deformation
+    of the film caught in the external electric field, and it oscillated randomly in time and generated a fluctuation-induction
+    current; the second case of large electric fields stored in the film electric energy orders of magnitude greater
+    than thermal; the dipole structures oriented mainly in one direction and practically did not depend on time;
+    the transfer of thermal energy to them did not lead to a change of their dipole moment in space; generation
+    of the fluctuation-induction current was absent.'
+  quantities: []
+  equations: []
+  materials:
+  - graphene film electrode
+  - pointed electrode
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thibado
+  - graphene
+  - dipole-moments
+  - fluctuation-induction-current
+  notes: ''
+  relations: []
+- id: SC-WO07-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Механизм позволяет понять, объяснить и рассчитать измеренную зависимость ёмкости от напряжения для различных
+    плёночных структур, состоящих из проводников, либо полупроводников.
+  statement_en: Recently an idea came to the author which, he believes, can clarify the previously unknown physical
+    mechanism of formation of such a capacitance; the mechanism allows understanding, explaining, and calculating
+    the measured dependence of capacitance on voltage for various film structures consisting of conductors or semiconductors;
+    the idea turned out closely connected with the methods of calculating charge clusters discovered experimentally
+    by the American researcher K. Shoulders at the end of the last century; using the methods of calculating the
+    distribution of substance in charge bubbles the author prepared the monograph 'Mechanisms of matter retention
+    by a self-consistent field' and published about 20 scientific works.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - capacitance-mechanism
+  - charge-clusters
+  - methods
+  notes: ''
+  relations: []
+- id: SC-WO07-006
+  type: physics
+  facet: recipe
+  priority: core
+  page: 2
+  quote_ru: 'Первый вариант структуры: металлическая обкладка – диэлектрик – металлическая плёнка – диэлектрик –
+    металлическая обкладка.'
+  statement_en: 'In the author''s view two types of layered structures arise during the technological process: the
+    first variant of the structure is metal plate — dielectric — metal film — dielectric — metal plate; the second
+    variant is metal plate — dielectric — semiconducting film — dielectric — metal plate.'
+  quantities: []
+  equations: []
+  materials:
+  - metal plates
+  - dielectric layers
+  - metal film
+  - semiconducting film
+  geometry:
+  - 'five-layer stack: plate/dielectric/film/dielectric/plate'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - layered-structure
+  - device-design
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO07-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Факт появления ёмкости в плёнке толщиной в нанометры можно объяснить тем, что в структуре возникает
+    двойной электрический слой, определяющую роль в котором играют свободные электроны плазмы плёнки.
+  statement_en: The fact of the appearance of capacitance in a film of nanometer thickness can be explained by the
+    formation in the structure of a double electric layer in which the decisive role is played by the free electrons
+    of the film plasma.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - 'film thickness: nanometers'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - double-electric-layer
+  - film-plasma
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO07-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Неустойчивость плазмы возникает потому, что при таких высоких напряжённостях давление внешнего поля
+    оказывается больше, чем давление газа электронов твёрдого тела при данной температуре.
+  statement_en: If a static electric field is applied to a thin film then, at strength values greater than the intracrystalline
+    field strength, an electric instability of the solid-body plasma arises — a new physical effect explaining the
+    polarization properties of the solid-body plasma; the plasma instability arises because at such high strengths
+    the pressure of the external field turns out greater than the pressure of the electron gas of the solid body
+    at the given temperature; the electrization of the solid-body plasma arising under pressure leads to a macroscopic
+    separation of charges; the electrons are thrown off by the field and form the dipole electric moment of the
+    film.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasma-instability
+  - solid-body-plasma
+  - electrization
+  - new-effect
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO07-009
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 2
+  quote_ru: Оценки показывают, что плёнка толщиной 4 нм (температура комнатная, концентрация свободных электронов
+    1025 м-3) образует двойной электрический слой при напряжении срыва 0,4 В.
+  statement_en: Estimates show that a film of thickness 4 nm (room temperature, free-electron concentration 10^25
+    m⁻³) forms a double electric layer at a breakdown voltage of 0.4 V; a film of thickness 40 nanometers polarizes
+    already at a voltage of about 4 V; the working voltage of the capacitor is always greater than the voltage of
+    the plasma-instability breakdown; the varicap capacitance is small at voltages less than the breakdown voltage;
+    at the breakdown voltage it is the largest and then decreases inversely proportional to the external voltage;
+    the approximate volt-farad characteristic is presented in Fig. 1.
+  quantities:
+  - '4 nm film: breakdown at 0.4 V (n = 1e25 m^-3, room T)'
+  - '40 nm film: polarization at ~4 V'
+  equations: []
+  materials: []
+  geometry:
+  - film thicknesses 4 nm and 40 nm
+  procedure_steps: []
+  measurements:
+  - quantity: breakdown voltage of 4 nm film
+    value: '0.4'
+    unit: V
+    conditions: room temperature, free-electron concentration 1e25 m^-3
+  - quantity: polarization voltage of 40 nm film
+    value: '4'
+    unit: V
+    conditions: room temperature
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - breakdown-voltage
+  - volt-farad
+  - estimates
+  - electrical-path
+  notes: 'OCR-degraded: superscript flattened (1025 = 10^25).'
+  relations: []
+- id: SC-WO07-010
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: На тот же физический эффект недавно натолкнулись американские исследователи харвейстеров. О его существовании
+    они пока не догадываются.
+  statement_en: American harvester researchers have recently stumbled on the same physical effect; they do not yet
+    suspect its existence; the group of professor P.M. Thibado created a capacitor one electrode of which consisted
+    of a graphene film and the other was pointed; when a uniform electric field was applied across the graphene
+    film they provoked in the film a plasma instability which developed across the film.
+  quantities: []
+  equations: []
+  materials:
+  - graphene film
+  geometry: []
+  procedure_steps:
+  - apply uniform electric field across graphene film
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thibado
+  - plasma-instability
+  - graphene
+  notes: ''
+  relations: []
+- id: SC-WO07-011
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: Она проявила себя в том, что в графене стали образовываться сильно неоднородные области зарядов.
+  statement_en: The instability manifested itself in strongly inhomogeneous charge regions forming in the graphene;
+    they fluctuated in time creating in the whole film a total dipole moment which changed its direction in space
+    and time; the resulting chaotic electric field generated by the integral dipole moment strongly depended on
+    the seed value of the external DC electric field strength.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dipole-moment
+  - chaotic-field
+  notes: ''
+  relations: []
+- id: SC-WO07-012
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Первый случай реализовался тогда, когда электрическая энергия, запасённая в элементарном плазменном
+    слое, была порядка его тепловой энергии.
+  statement_en: 'Two different cases of dipole-moment distribution were discovered: the first case was realized
+    when the electric energy stored in the elementary plasma layer was of the order of its thermal energy — the
+    thermal energy made the electric moment of the dipole change chaotically in time and space, which changed the
+    magnitude of the bending deformation of the film caught in the field, and it swayed randomly in time generating
+    a fluctuation-induction current; the second case of large electric fields stored in the film electric energy
+    orders of magnitude greater than thermal; the dipole structures oriented mainly in one direction and practically
+    did not depend on time; the transfer of thermal energy to them did not lead to a change of their dipole moment
+    in space; generation of the fluctuation-induction current was absent.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dipole-cases
+  - fluctuation-induction-current
+  notes: ''
+  relations: []

@@ -1,0 +1,845 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR10
+  section: articles
+  title_ru: Электрическая неустойчивость однородной плазмы к формированию нестационарных электронных кластеров в
+    механизмах возникновения молний различной геометрии
+  title_en: Electrical instability of a uniform plasma toward the formation of nonstationary electron clusters in
+    the mechanisms of lightning origination of various geometries
+  file: papers/articles/elektricheskaya-neustoychivost-odnorodnoy-plazmy-k-formirovaniyu-nestatsionarnyk.pdf
+  source_url: http://146.190.233.254/docs/articles/Электрическая неустойчивость однородной плазмы к формированию
+    нестационарных электронных кластеров.pdf
+  md5: 6c4c921735586ff0c61bcc6fed44ef9a
+  pages_total: 11
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR10-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Глубоко изучив работу, мне удалось найти аналитическое решение поставленной вами задачи в частном случае,
+    который в статье не обсуждался.
+  statement_en: The author (in an analytical note addressed to V.I. Pustovoyt) reports that, after deep study of
+    Pustovoyt's work [1] 'On the mechanism of lightning origination', he managed to find an analytical solution
+    of the posed problem in a special case not discussed in the article.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pustovoyt
+  - analytical-solution
+  - lightning
+  - electrical-path
+  notes: Document is an analytical note (letter) dated 21 January – 2 June 2011, Taganrog.
+  relations: []
+- id: SC-AR10-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: По-видимому, впервые, результирующее уравнение задачи для распределения потенциала было угадано будущим
+    нобелевским лауреатом Лауэ в 1918 году [2]. Он обнаружил, что оно имеет три возможных класса аналитических решений
+    в плоском случае, в зависимости от значений некоторой произвольной постоянной.
+  statement_en: Apparently for the first time, the resulting equation of the problem for the potential distribution
+    was guessed by the future Nobel laureate Laue in 1918; he found that it has three possible classes of analytical
+    solutions in the plane case, depending on the values of a certain arbitrary constant; without clarifying the
+    physical meaning of the arbitrary constant, he considered that the solutions describe electrostatic-field distributions
+    arising in a gas of thermoelectrons.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - laue
+  - history
+  - thermoelectrons
+  notes: Historical attribution (Laue, Gluhelektronen, 1918) as stated by the author.
+  relations: []
+- id: SC-AR10-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: 'В [3] он дал однозначную физическую интерпретацию этому уравнению: он считает, что оно описывает возможные
+    равновесия зарядов в статическом самосогласованном поле, которое они сами и создают.'
+  statement_en: 'Thirty years later the system of equations was obtained by Ya.I. Frenkel (apparently unaware of
+    Laue''s work); in the plane case it reduces to the equation guessed by Laue with insignificant differences;
+    in [3] Frenkel gave an unambiguous physical interpretation: it describes possible equilibria of charges in the
+    static self-consistent field which they themselves create; solving the boundary problem for electrons, he did
+    not notice the existence of the conservation law in the plane system which confirms the unambiguity of his interpretation,
+    and therefore explained his solutions as distributions of thermoelectrons.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frenkel
+  - self-consistent-field
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR10-004
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Существование закона сохранения полного давления в коллективном взаимодействии дало мне возможность
+    провести однозначную классификацию возможных состояний, существующих в газе зарядов с однородной температурой
+  statement_en: The existence of the full-pressure conservation law in the collective interaction allowed the author
+    to make an unambiguous classification of the possible states existing in a gas of like charges with uniform
+    temperature (not thermoelectrons, but simply a gas of like charges), and to reveal almost all possible distributions
+    of physical parameters in the plane, cylindrical, and spherical cases; among them is the tangent-type distribution
+    of the collective-field strength that Pustovoyt obtained in [1] solving the self-model equation in a single-component
+    plane plasma.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - full-pressure-conservation
+  - state-classification
+  - charge-clusters
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: 'Как показывает аналитическое исследование, кулоновское взаимодействие скомпенсировано силой Бернулли.
+    Компенсация сил приводит к новой физике, которая следует из закона сохранения: концентрация зарядов (давление)
+    будет больше там, где больше давление самосогласованного поля и наоборот.'
+  statement_en: 'The conservation law makes it possible to understand what compensates the Coulomb interaction in
+    the statics: as the analytical study shows, the Coulomb interaction is compensated by the Bernoulli force; the
+    compensation of forces leads to a new physics following from the conservation law: the charge concentration
+    (pressure) is greater where the self-consistent field pressure is greater, and vice versa; a similar result
+    appeared in Pustovoyt''s solutions — where the square of the tangent is greater (near the system asymptotes)
+    the charge pressure is greater; the author''s results entered the monograph [4] published in 2000 in Taganrog.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bernoulli-force
+  - compensation
+  - new-physics
+  - debt-candidate
+  notes: '''New physics'' of pressure-concentration correlation — flagged for debt clustering.'
+  relations: []
+- id: SC-AR10-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Я понимал, что задача очень непростая, поскольку в ней будут проявляться свойства переменных самосогласованных
+    полей, о которых мы вообще ничего не знаем.
+  statement_en: In recent years the author wanted to pose a problem allowing the study of nonstatic states of such
+    a medium; he understood the problem to be very difficult, since it would display properties of variable self-consistent
+    fields about which nothing at all is known; but his education was insufficient for posing the problem, and Chance
+    forced him to study Pustovoyt's approach, which included the field distributions of a two-component plasma.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - variable-self-consistent-fields
+  notes: ''
+  relations: []
+- id: SC-AR10-007
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Первое уравнение системы, приводимое в [1], переходит в (1) при условии, что 0=0.
+  statement_en: 'The simplified equations are: e·n·Ex + kT·∂n/∂x + m·n·ν·ux = 0 (1); ∂n/∂t + ∂(n·ux)/∂x = 0 (2);
+    ∂Ex/∂x = 4πe(n₀ − n) (3); the first equation of the system given in [1] passes into (1) under the condition
+    u₀ = 0, meaning the uniform background of positive charges with concentration n₀ remains immobile relative to
+    the coordinate x while the electron component with concentration n(x,t) can move with velocity ux(x,t) under
+    the collective field Ex(x,t); the class of possible solutions is determined by the continuity equation (2).'
+  quantities: []
+  equations:
+  - e n E_x + kT\frac{\partial n}{\partial x} + m n \nu u_x = 0
+  - \frac{\partial n}{\partial t} + \frac{\partial (n u_x)}{\partial x} = 0
+  - \frac{\partial E_x}{\partial x} = 4\pi e (n_0 - n)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - model-equations
+  - two-component-plasma
+  notes: 'OCR-degraded: glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR10-008
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: для распределения потенциала было угадано будущим нобелевским лауреатом Лауэ в 1918 году [2]. Он обнаружил,
+    что оно имеет три возможных класса аналитических решений в плоском случае, в зависимости от значений некоторой
+    произвольной постоянной. Не выяснив физического смысла произвольной постоянной, он посчитал, что решения этого
+    уравнения описывают распределения электростатических полей, возникающих в газе термоэлектронов. Через 30 лет
+    система уравнений была получена Я.И.Френкелем (по- видимому, о работе Лауэ он ничего не знал). Эта система уравнений
+  statement_en: 'Dimensionless functions Ex/E* = y(ξ,τ), ux/u* = u(ξ,τ), n/n₀ = z(ξ,τ) are introduced relative to
+    the variables ξ = x/rd, τ = t/T* (star denotes the scale of the quantity); for the scales E* = sqrt(4πn₀kT/ε₀),
+    rd = sqrt(ε₀kT/(4πe²n₀)), T* = mνrd²/kT, u* = eE*/(mν) the functions satisfy the system: z·y + ∂z/∂ξ + z·u =
+    0 (4); ∂z/∂τ + ∂(z·u)/∂ξ = 0 (5); ∂y/∂ξ = 1 − z (6).'
+  quantities:
+  - rd = sqrt(eps0 kT/(4 pi e^2 n0))
+  - T* = m nu rd^2/kT
+  equations:
+  - z y + \partial z/\partial\xi + z u = 0
+  - \partial z/\partial\tau + \partial(z u)/\partial\xi = 0
+  - \partial y/\partial\xi = 1 - z
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dimensionless-system
+  notes: 'OCR-degraded: scales partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR10-009
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Уравнение (8) отличается от уравнения (3б) статьи [1] тем, что в нём постоянная интегрирования const(
+     )   j принята равной нулю, поскольку движение фона зарядов отсутствует.
+  statement_en: 'Excluding the functions z and u from (4) and (6) leads to equation (3a) of Pustovoyt''s article
+    for the field-strength projection y(ξ,τ) with y₀ = 0: ∂²y/∂ξ∂τ = ∂/∂ξ[∂²y/∂ξ² − y(1 − ∂y/∂ξ)] (7); integrating
+    (7) once over ξ gives ∂y/∂τ = ∂²y/∂ξ² − y(1 − ∂y/∂ξ) (8); equation (8) differs from equation (3b) of [1] in
+    that the integration constant const(τ) = −j is taken equal to zero, since motion of the charge background is
+    absent.'
+  quantities: []
+  equations:
+  - \frac{\partial^2 y}{\partial\xi\,\partial\tau} = \frac{\partial}{\partial\xi}\left[\frac{\partial^2 y}{\partial\xi^2}
+    - y\left(1 - \frac{\partial y}{\partial\xi}\right)\right]
+  - \frac{\partial y}{\partial\tau} = \frac{\partial^2 y}{\partial\xi^2} - y\left(1 - \frac{\partial y}{\partial\xi}\right)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - reduction-to-single-equation
+  notes: ''
+  relations: []
+- id: SC-AR10-010
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Сумма решений уравнений (9) и (10) описывает нелинейные процессы протекания электрической неустойчивости,
+    которая возникает на встречных продольных волнах в первоначально однородной плазме.
+  statement_en: A pair of symmetric self-model equations is obtained for plane waves with parameters λ = 2πrd, T
+    = 2πT*/γ, γ = vf/u* the reduced phase velocity; for the plane-wave phase θ = ξ+γτ, from (8) the first self-model
+    equation for y1(θ) is y1″ − y1(1 − y1′) − γy1′ = 0 (9) (primes denote differentiation over θ); the second self-model
+    equation for y2(ψ) for the counter-running wave phase ψ = ξ−γτ is y2″ − y2(1 − y2′) + γy2′ = 0 (10); the sum
+    of the solutions of (9) and (10) describes the nonlinear processes of the electrical instability arising on
+    counter longitudinal waves in the initially uniform plasma.
+  quantities: []
+  equations:
+  - y_1'' - y_1(1 - y_1') - \gamma y_1' = 0
+  - y_2'' - y_2(1 - y_2') + \gamma y_2' = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-model-equations
+  - counter-waves
+  - instability
+  notes: ''
+  relations: []
+- id: SC-AR10-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Уравнение (11) точных решений в элементарных функциях не имеет.
+  statement_en: 'At γ = 0 equations (9) and (10) pass into one static equation, since θ, ψ → ξ: d²y/dξ² + y(dy/dξ
+    − 1) = 0 (11); it has no exact solutions in elementary functions; lowering the order by the function p(y) =
+    dy/dξ gives p·dp/dy + p·y − y = 0 (12).'
+  quantities: []
+  equations:
+  - \frac{d^2y}{d\xi^2} + y\left(\frac{dy}{d\xi} - 1\right) = 0
+  - p\,\frac{dp}{dy} + p y - y = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - static-equation
+  - order-reduction
+  notes: ''
+  relations: []
+- id: SC-AR10-012
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Интегрируя (13), получаем решение в классе периодических функций
+  statement_en: At p ≠ 0 equation (12) has two implicit-function solutions which do not help obtain a physically
+    meaningful result; since at y = 0, dp/dy = 0, a solution of (12) is sought for the class of periodic functions
+    as a two-term series p = p₀ + αy² (13) with α > 0, p₀ > 0; substituting (13) into (12) and keeping terms proportional
+    to y, the requirement y(2p₀α + p₀ − 1) = 0 (14) gives the connection p₀ = 1/(1+2α), α = (1/p₀ − 1)/2 (15); the
+    requirement α > 0 defines the range 0 < p₀ < 1; integrating (13) gives the solution in the class of periodic
+    functions y = [1/√(α(1+2α))]·tg[√(α/(1+2α))·ξ] (16).
+  quantities:
+  - 0 < p0 < 1
+  equations:
+  - p = p_0 + \alpha y^2
+  - p_0 = \frac{1}{1+2\alpha}
+  - y = \frac{1}{\sqrt{\alpha(1+2\alpha)}}\,\mathrm{tg}\!\left[\sqrt{\frac{\alpha}{1+2\alpha}}\,\xi\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - approximate-solution
+  - periodic-class
+  - tangent-profile
+  notes: ''
+  relations: []
+- id: SC-AR10-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Поскольку максимальное значение концентрации электронов всегда меньше, чем концентрация положительных
+    зарядов фона, то полученное решение описывает ограниченный в пространстве электронный кластер в дырочной плазме.
+  statement_en: From (16) the static collective plasma field vanishes at ξ = 0 and its spatial period depends on
+    the state parameter α; on the system asymptotes ξ1,2 = ±(π/2)·sqrt(α/(1+2α)) the field strength has a discontinuity,
+    the vector directed along ξ in 0 < ξ < ξ2 and against ξ in ξ1 < ξ < 0; since the plasma electrons redistribute
+    under the collective field, near the zero-field-pressure plane (where y² = 0) they form high-concentration regions;
+    the concentration law from (6) is z = 1 − dy/dξ = 1 − (1+2α)⁻¹cos⁻²[√(α/(1+2α))·ξ] (17); the maximum of the
+    electron concentration falls on the ξ = 0 plane, zM = 1 − 1/(1+2α) (18), and the cluster is bounded by the concentration
+    zeros ξ3,4 = ±sqrt((1+2α)/α)·arccos(1/sqrt(1+2α)); since the maximum electron concentration is always less than
+    the positive-background concentration, the obtained solution describes a spatially bounded electron cluster
+    in a hole plasma.
+  quantities:
+  - xi_1,2 = +-(pi/2) sqrt(alpha/(1+2 alpha))
+  - zM = 1 - 1/(1+2 alpha)
+  equations:
+  - z = 1 - (1+2\alpha)^{-1}\cos^{-2}\!\left[\sqrt{\tfrac{\alpha}{1+2\alpha}}\,\xi\right]
+  - z_M = 1 - \frac{1}{1+2\alpha}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-cluster
+  - hole-plasma
+  - concentration-profile
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-014
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Этот класс решений описывает распределение коллективного электрического поля в плазме с образованием
+    электронного кластера в электронной плазме, имеющего в плоскости =0 минимум концентрации
+  statement_en: Another class of approximate periodic solutions of equation (11) exists for the function p = −p₀
+    − αy²; the relation between the parameters α > 1/2 and p₀ > 0 changes to p₀ = 1/(2α−1), α = (p₀+1)/2p₀; for
+    them the field distribution is y2 = −[1/√(α(2α−1))]·tg[√(α/(2α−1))·ξ] (19) and the concentration distribution
+    z2 = 1 + (2α−1)⁻¹cos⁻²[√(α/(2α−1))·ξ] (20); this class describes the distribution of the collective electric
+    field in the plasma with formation of an electron cluster in an electron plasma having at the ξ = 0 plane a
+    concentration minimum z2m = 1 + (2α−1)⁻¹ > 1.
+  quantities:
+  - alpha > 1/2
+  - z2m = 1 + (2 alpha - 1)^-1 > 1
+  equations:
+  - y_2 = -\frac{1}{\sqrt{\alpha(2\alpha-1)}}\,\mathrm{tg}\!\left[\sqrt{\tfrac{\alpha}{2\alpha-1}}\,\xi\right]
+  - z_2 = 1 + (2\alpha-1)^{-1}\cos^{-2}\!\left[\sqrt{\tfrac{\alpha}{2\alpha-1}}\,\xi\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-cluster
+  - electron-plasma
+  - second-solution-class
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-015
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Приближённые решения (16) – (20) дают качественную картину распределения поля и зарядов плазмы. Она
+    точна в области значений поля y<<1, что эквивалентно условию   1.
+  statement_en: The approximate solutions (16)-(20) give a qualitative picture of the distribution of the plasma
+    field and charges; it is exact in the region of field values y << 1, equivalent to the condition ξ << 1; the
+    picture can be refined by numerical modeling of the exact equation (11) with initial conditions taken from the
+    approximate solutions (16) and (19).
+  quantities:
+  - 'validity: y << 1 (xi << 1)'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - numerically model exact eq. (11) with ICs from (16) and (19)
+  measurements: []
+  schematic_refs: []
+  tags:
+  - validity-domain
+  - numerical-modeling
+  notes: ''
+  relations: []
+- id: SC-AR10-016
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Подставляя (22) в (21) и сохраняя линейные по y слагаемые, получим
+  statement_en: 'Studying the development of the electrical instability in an immobile uniform plasma: lowering
+    the order of equation (9) by the function p(y1) = dy1/dθ gives p·dp/dy = y + p(γ − y) (21); since at y = 0,
+    dp/dy = γ, an approximate solution is sought as the series p = p₀ + γy (22), where p₀ plays the role of the
+    initial rate of growth of the collective field strength relative to the phase time; substituting (22) into (21)
+    and keeping linear-in-y terms gives p = 1 + γy (23) with p₀ = 1; integrating (23) a second time gives y1 = [exp(γθ)
+    − 1]/γ (24).'
+  quantities:
+  - p0 = 1
+  equations:
+  - p\,\frac{dp}{dy} = y + p(\gamma - y)
+  - y_1 = \left[\exp(\gamma\theta) - 1\right]/\gamma
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - instability-solution
+  notes: ''
+  relations: []
+- id: SC-AR10-017
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Соотношение (26) описывает пространственно-временное распределение нестационарного самосогласованного
+    поля системы на линейной по полю стадии развития неустойчивости.
+  statement_en: 'The solution of the second self-model equation is obtained analogously in the same approximation:
+    y2 = [1 − exp(−γψ)]/γ (25); the sum of the two solutions is y = 2exp(γ²τ)·sh(γξ)/γ (26); relation (26) describes
+    the space-time distribution of the nonstationary self-consistent field of the system at the linear-in-field
+    stage of instability development, which restricts the variation of the reduced field strength to the interval
+    |y| << 1.'
+  quantities: []
+  equations:
+  - y_2 = \left[1 - \exp(-\gamma\psi)\right]/\gamma
+  - y = \frac{2\exp(\gamma^2\tau)\,\mathrm{sh}(\gamma\xi)}{\gamma}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - linear-stage
+  - self-consistent-field
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Поскольку при y=0   , то найдём приближённое решение (21) в виде dy ряда из двух слагаемых p  p0
+     y , (22) где p0  0 . Величина p0 в (22) играет роль начальной скорости нарастания напряжённости коллективного
+    поля по отношению к фазовому времени . Подставляя (22) в (21) и сохраняя линейные по y слагаемые, получим p
+     1  y , (23) где p0  1 .
+  statement_en: Since the growth increment of the instability at the initial stage is proportional to the square
+    of the reduced phase velocity γ², from (26) the arising instability will be 'explosive' only on fast counter
+    waves, i.e. at γ > 1.
+  quantities:
+  - explosive instability at gamma > 1
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - explosive-instability
+  - fast-waves
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-019
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Из (26) следует, что нарастающее во времени поле всегда равно нулю в плоскости =0.
+  statement_en: 'From (26) the time-growing field is always zero in the ξ = 0 plane; the strength projection is
+    positive in the region ξ > 0 and negative in ξ < 0; the spatial region where the approximation is valid satisfies
+    ξ << 1, and for other ξ it gives only a qualitative picture of the distribution; Fig. 1 presents the strength-projection
+    distribution on two unit scales of the system for three values of τ: τ1 = −14.4 (curve 1), τ2 = −10.0 (curve
+    2), τ3 = −7.75 (curve 3), with γ = 0.4.'
+  quantities:
+  - tau1 = -14.4
+  - tau2 = -10.0
+  - tau3 = -7.75
+  - gamma = 0.4
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - field-distribution
+  - figure
+  notes: ''
+  relations: []
+- id: SC-AR10-020
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Из (28) видно, что исследуемая неустойчивость описывает рождение/распад электронного кластера в дырочной
+    плазме, поскольку реализуется случай z M  1 .
+  statement_en: The space-time distribution of the concentration found from (6) is z(ξ,τ) = 1 − 2exp(γ²τ)·ch(γξ)
+    (27); the electron-concentration distribution in the nonstationary plasma always has a maximum in the ξ = 0
+    plane, zM = 1 − 2exp(γ²τ) (28), whose value depends on time; from (28) the instability under study describes
+    the birth/decay of an electron cluster in a hole plasma, since the case zM < 1 is realized; the electron bunch
+    is bounded in space by the coordinates ξ1,2 = ±(1/γ)·Arch[exp(−γ²τ/2)] (29), whose values also depend on time.
+  quantities: []
+  equations:
+  - z(\xi,\tau) = 1 - 2\exp(\gamma^2\tau)\,\mathrm{ch}(\gamma\xi)
+  - z_M = 1 - 2\exp(\gamma^2\tau)
+  - \xi_{1,2} = \pm\frac{1}{\gamma}\,\mathrm{Arch}\!\left[\exp(-\gamma^2\tau/2)\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - birth-decay
+  - electron-cluster
+  - hole-plasma
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-021
+  type: physics
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Распределение приведённой концентрации электронов (27) для тех же моментов времени на двух масштабах
+    системы представлено на рис. 2.
+  statement_en: Fig. 2 presents the distribution of the reduced electron concentration (27) for the same moments
+    of time on two scales of the system.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - concentration-distribution
+  - figure
+  notes: ''
+  relations: []
+- id: SC-AR10-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Из (30) видно, что все электроны системы разделены на 4-е класса.
+  statement_en: 'The change of the electron velocity is found from (4): u(ξ,τ) = −y − (1/z)∂z/∂ξ = y(γ²/z − 1) (30);
+    from (30) all electrons of the system are divided into 4 classes; the first class — electrons in the ξ = 0 plane,
+    immobile at any moment of time; the second class — electrons with u = 0 at a certain point of space and moment
+    of time (the round bracket in (30) vanishes); these electrons with concentration z0 = γ² exist until the moment
+    τ2 while the maximum of the distribution zM becomes equal to γ², with τ2 = (1/γ²)ln[(1 − γ²)/2] (31); their
+    positions on the ξ axis, ξ0(1,2) = ±(1/γ)·Arch[sqrt((1−γ²)/2)·exp(−γ²τ/2)] (32), are connected with the moment
+    τ; the state of rest of these electrons in the dynamical system is explained by the equality of the forces holding
+    the volume in equilibrium: for them the vector sum of the Bernoulli force fb = −grad(p) and the field-pressure
+    gradient f = −enE acting on the electrons is zero.'
+  quantities:
+  - z0 = gamma^2
+  - tau2 = (1/gamma^2) ln[(1-gamma^2)/2]
+  equations:
+  - u = y\left(\frac{\gamma^2}{z} - 1\right)
+  - \tau_2 = \frac{1}{\gamma^2}\ln\frac{1-\gamma^2}{2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - four-electron-classes
+  - bernoulli-force
+  - debt-candidate
+  - electrical-path
+  notes: 'OCR-degraded: formulas partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR10-023
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Третий класс электронов движется в направлении напряжённости поля.
+  statement_en: The third class of electrons moves in the direction of the field strength; for them 0 < z < γ² holds,
+    their velocities are directed to the system periphery from the ξ = 0 plane; their motion is provided by the
+    Bernoulli force, which in these plasma regions is greater than the field-pressure gradient acting on the electrons;
+    they have a dispersing action on the forming electron cluster; the fourth class moves against the collective
+    field strength toward the ξ = 0 plane; for them γ² < z < zM holds; their motion is provided by the field-pressure
+    gradient, which in these regions is greater than the Bernoulli force; they participate in the formation of the
+    electron cluster until the moment τ2.
+  quantities:
+  - 'third class: 0 < z < gamma^2'
+  - 'fourth class: gamma^2 < z < zM'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-classes
+  - cluster-formation
+  notes: ''
+  relations: []
+- id: SC-AR10-024
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Нарастающее поле (26) направлено в пространстве таким образом, что оно сгребает часть электронов к плоскости
+    =0.
+  statement_en: 'From (26)-(30) the electrical instability in the plasma begins at the moment τ → −∞: at that moment,
+    for finite ξ, y(ξ,−∞) = 0 (no collective field), z(ξ,−∞) = 1 (uniform plasma), u(ξ,−∞) = 0 (zero initial velocity
+    of all electrons); for finite negative τ, in the region ξ << 1 a weak collective electric field arises; the
+    growing field (26) is directed in space so that it rakes part of the electrons to the ξ = 0 plane; in ξ < 0
+    electrons with concentration satisfying γ² < z(ξ,τ) < zM shift against the field along the ξ axis, in ξ > 0
+    other electrons with the same concentration shift against the field against the ξ axis; at the same time the
+    third-class electrons in the region ξ > ξ0 drag the forming cluster to the periphery.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - instability-onset
+  - cluster-formation
+  notes: ''
+  relations: []
+- id: SC-AR10-025
+  type: physics
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: При протекании неустойчивости в системе проявляются три выделенных момента времени
+  statement_en: 'During the instability three distinguished moments of time τ1 < τ2 < τ3 manifest themselves: the
+    formation of the electron cluster on two scales of the system ends at the moment τ1 = (1/γ²)·ln[(1 − γ²)/2chγ]
+    (33), found from the condition of stopping of the electrons u = 0, which find themselves at that moment at the
+    boundary values of the coordinate ξ = ±1; the moment τ2 indicates that the maximum concentration of the electron
+    cluster has become equal to γ² and the electrons of the fourth group disappear from the system; after that moment
+    the electrons of the third group dominate in the cluster and it starts to decay; at the moment τ3 = −ln(2)/γ²
+    (34) the instability ends: the maximum of the electron concentration distribution becomes zero, zM(τ3) = 0,
+    and the electron cluster disappears, leaving behind a region of positive charge.'
+  quantities:
+  - tau1 = (1/gamma^2) ln[(1-gamma^2)/2ch gamma]
+  - tau3 = -ln(2)/gamma^2
+  equations:
+  - \tau_1 = \frac{1}{\gamma^2}\ln\frac{1-\gamma^2}{2\,\mathrm{ch}\gamma}
+  - \tau_3 = -\ln(2)/\gamma^2
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-lifetime
+  - birth-decay
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-026
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Полученные качественные решения линейной по полю стадии развития неустойчивости дают возможность провести
+    адекватное численное моделирование всего нелинейного процесса рождения/распада электронного кластера в дырочной
+    плазме
+  statement_en: The obtained qualitative solutions of the linear-in-field stage of the instability development allow
+    carrying out adequate numerical modeling of the whole nonlinear process of birth/decay of the electron cluster
+    in the hole plasma with initial and boundary conditions following from the solutions (26)-(30).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - numerically model the full nonlinear birth/decay process using ICs/BCs from (26)-(30)
+  measurements: []
+  schematic_refs: []
+  tags:
+  - numerical-modeling
+  notes: ''
+  relations: []
+- id: SC-AR10-027
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Как найти аналитические решения, которые описывают предсказанную вами в статье [1] «взрывную» неустойчивость
+    электронного кластера в электронной плазме для условия  2  1, в настоящий момент не знаю? Нужно думать.
+  statement_en: How to find analytical solutions describing the 'explosive' instability of the electron cluster
+    in electron plasma predicted by Pustovoyt in [1] for the condition γ² > 1 — at present the author does not know;
+    one needs to think.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - open-problem
+  - explosive-instability
+  notes: Open problem acknowledged in the note.
+  relations: []
+- id: SC-AR10-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: На мой взгляд, приводимые решения объясняют физические причины возникновения шумов Найквиста в твёрдотельной
+    плазме рождением/распадом электронных кластеров, а не дискретностью зарядов, участвующих в тепловом движении.
+  statement_en: In the author's view, the presented solutions explain the physical causes of the origin of Nyquist
+    noise in a solid-state plasma by the birth/decay of electron clusters, and not by the discreteness of the charges
+    participating in thermal motion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nyquist-noise
+  - solid-state-plasma
+  - electron-clusters
+  - debt-candidate
+  - electrical-path
+  notes: Nonstandard explanation of Nyquist noise — flagged for debt clustering.
+  relations: []
+- id: SC-AR10-029
+  type: physics
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: Решения имеют отдалённое, хотя и очень важное, отношение к механизму возникновения молнии, который объясняется
+    тем же процессом разделения электронов нестационарным самосогласованным полем в неподвижной плазме.
+  statement_en: The solutions have a distant, though very important, relation to the mechanism of lightning origination,
+    which is explained by the same process of electron separation by a nonstationary self-consistent field in an
+    immobile plasma.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - lightning-mechanism
+  - electron-separation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR10-030
+  type: physics
+  facet: theory
+  priority: core
+  page: 11
+  quote_ru: Необходимо провести расчёты для плазмы с цилиндрической симметрией. Они должны показать возможность
+    формирования полых трубчатых проводящих каналов с избыточным зарядом в линейной молнии.
+  statement_en: The procedure of finding solutions describing the electrical instability of the plasma toward the
+    birth/decay of electron bunches urgently requires extending the geometry of the system (1)-(3) to cylindrical
+    and spherical symmetries; calculations for a plasma with cylindrical symmetry must show the possibility of forming
+    hollow tubular conducting channels with excess charge in linear lightning; solving the more complex problem
+    accounting for the field dependences on (r, z, t) would allow predicting the characteristic sizes and formation
+    times of tubular beaded lightning; solutions obtained for spherical coordinates would explain the physics of
+    the formation in the atmosphere of ball lightning with a thin luminous dense wall of electrons.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - hollow tubular conducting channels (linear lightning)
+  - thin luminous dense electron wall (ball lightning)
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cylindrical-symmetry
+  - spherical-symmetry
+  - lightning
+  - ball-lightning
+  - debt-candidate
+  notes: Conclusion; planned extensions of the model.
+  relations: []
+- id: SC-AR10-031
+  type: physics
+  facet: theory
+  priority: core
+  page: 11
+  quote_ru: Простые физические модели неустойчивости позволят создать экспериментальные установки для искусственной
+    генерации в атмосфере электронных кластеров различных симметрий и огромных энергий. Это нужно для воспроизводимой
+    экологически чистой энергетики будущего.
+  statement_en: Simple physical models of the instability will allow creating experimental setups for the artificial
+    generation in the atmosphere of electron clusters of various symmetries and enormous energies; this is needed
+    for a reproducible ecologically clean power engineering of the future.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - artificial-generation
+  - electron-clusters
+  - clean-energy
+  - debt-candidate
+  - electrical-path
+  notes: Free-energy-flavored application claim — flagged for debt clustering.
+  relations: []

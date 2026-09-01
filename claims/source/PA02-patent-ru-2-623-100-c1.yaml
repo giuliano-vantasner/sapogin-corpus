@@ -1,0 +1,155 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: PA02
+  section: patents
+  title_ru: Планарная индуктивность с расширенным частотным диапазоном (патент RU 2 623 100 C1)
+  title_en: Planar inductance with extended frequency range (patent RU 2 623 100 C1)
+  file: papers/patents/patent-ru-2-623-100-c1.pdf
+  source_url: http://146.190.233.254/docs/patents/Патент RU 2 623 100 C1.pdf
+  md5: 743bcd2fd68d53f309874028b6050d7b
+  pages_total: 17
+  retrieved: '2026-09-01'
+claims:
+- id: SC-PA02-001
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 8
+  quote_ru: 1. Планарная индуктивность с расширенным частотным диапазоном, содержащая первый (1) сигнальный и второй
+    (2) общий выводы индуктивности, которые соединены по поверхности подложки (3) металлической пленкой (4), образующей
+    витки планарной индуктивности, проводящий экранирующий элемент (5), расположенный под металлической пленкой
+    (4), общий металлический слой (6), на котором размещена 25 подложка (3), отличающаяся тем, что в схему введен
+    неинвертирующий усилитель тока (7) с низким входным и высоким выходным сопротивлениями, вход которого связан
+    с проводящим экранирующим элементом (5), а выход соединен с первым (1) сигнальным выводом планарной индуктивности.
+  statement_en: 'Patent claim 1 (verbatim): a planar inductance with extended frequency range containing a first
+    (1) signal and second (2) common terminal connected along the substrate (3) surface by a metal film (4) forming
+    the coils, a conducting shielding element (5) located under the metal film (4), and a common metal layer (6)
+    carrying the substrate (3), characterized in that a non-inverting current amplifier (7) with low input and high
+    output impedances is introduced into the circuit, its input connected to the conducting shielding element (5)
+    and its output connected to the first (1) signal terminal of the planar inductance.'
+  quantities: []
+  equations: []
+  materials:
+  - металлическая пленка (4)
+  - проводящий экранирующий элемент (5)
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 2
+  tags:
+  - electrical
+  - patent-claim
+  - planar-inductance
+  notes: Patent claim (formula of invention, item 1) extracted verbatim. quote keeps pdftotext column/page artifacts
+    (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA02-002
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 8
+  quote_ru: 2. Планарная индуктивность с расширенным частотным диапазоном по п. 1, 30 отличающаяся тем, что коэффициент
+    передачи по току неинвертирующего усилителя тока (7) принимает значения Ki=0,1÷0,99.
+  statement_en: 'Patent claim 2 (verbatim): the planar inductance of claim 1, characterized in that the current
+    transfer coefficient of the non-inverting current amplifier (7) takes values Ki=0.1-0.99.'
+  quantities:
+  - Ki = 0,1÷0,99
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - patent-claim
+  notes: Patent claim (formula of invention, item 2) extracted verbatim.
+  relations: []
+- id: SC-PA02-003
+  type: physics
+  facet: recipe
+  priority: normal
+  page: 8
+  quote_ru: 3. Планарная индуктивность с расширенным частотным диапазоном по п. 1, отличающаяся тем, что вход неинвертирующего
+    усилителя тока (7) соединен с проводящим экранирующим элементом (5) в нескольких его точках (5.1, 5.2, 5.N),
+    35 распределенных по длине проводящего экранирующего элемента (5).
+  statement_en: 'Patent claim 3 (verbatim): the planar inductance of claim 1, characterized in that the input of
+    the non-inverting current amplifier (7) is connected to the conducting shielding element (5) at several of its
+    points (5.1, 5.2, 5.N) distributed along the length of the shielding element.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 3
+  tags:
+  - electrical
+  - patent-claim
+  notes: Patent claim (formula of invention, item 3) extracted verbatim. quote keeps pdftotext column/page artifacts
+    (line numbers, page headers) verbatim.
+  relations: []
+- id: SC-PA02-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Из формулы (3) следует, что за счет выбора величины Ki в диапазоне Ki=0,1÷0,99 можно обеспечить увеличение
+    ω0 заявляемой интегральной индуктивности в несколько раз.
+  statement_en: From formula (3), by choosing Ki in the range 0.1-0.99 the own resonance frequency ω0 of the claimed
+    integrated inductance can be increased several times (confirmed by computer modeling in figs. 6, 8, 9); the
+    prototype (US 6936764) has comparatively low own-resonance frequency values limiting its working-frequency range.
+  quantities:
+  - ω0 ↑ в несколько раз (Ki = 0,1÷0,99)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Фиг. 6
+  - Фиг. 8
+  - Фиг. 9
+  tags:
+  - electrical
+  - resonance-frequency
+  notes: ''
+  relations: []
+- id: SC-PA02-005
+  type: physics
+  facet: material
+  priority: normal
+  page: 7
+  quote_ru: В предлагаемой конструкции, в отличие от известных, применяются неинвертирующие усилители тока (например,
+    каскады с общей базой), которые (при идентичных технологиях исполнения) имеют 35 более широкий частотный диапазон
+    коэффициента передачи по току, близкий к fα транзисторов (например, для SiGe техпроцесса fα=200-300 ГГц). Таким
+    образом, в предлагаемом устройстве fα>>fв.
+  statement_en: Unlike known solutions, the proposed construction uses non-inverting current amplifiers (e.g. common-base
+    stages) which, at identical fabrication technologies, have a wider current-transfer frequency range close to
+    the transistors' fα (e.g. fα=200-300 GHz for the SiGe process), so that in the proposed device fα >> fв (the
+    voltage-follower-based known compensations depend on the voltage-transfer cutoff frequency fв); in widespread
+    cascade structures (mixers, generators etc.) such current amplifiers are already integral parts of the circuit,
+    simplifying practical application.
+  quantities:
+  - fα(SiGe) = 200–300 ГГц
+  - fα >> fв
+  equations: []
+  materials:
+  - SiGe транзисторы
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - SiGe
+  - current-amplifier
+  notes: quote keeps pdftotext column/page artifacts (line numbers, page headers) verbatim.
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

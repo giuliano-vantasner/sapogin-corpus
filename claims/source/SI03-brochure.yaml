@@ -1,0 +1,392 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI03
+  section: site
+  title_ru: Брошюры
+  title_en: Brochures
+  file: site/brochure.md
+  source_url: https://sapogin.com/brochure
+  md5: 8e3e64ec454f130f65192ba857595ded
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI03-001
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Газовые шары Эмдена в самосогласованной теории гравитации
+  quote_ru: Корректный выбор граничных условий в уравнении для потенциала самосогласованной теории гравитации не может быть произволен, а диктуется первым интегралом полного давления, существующим в плоской
+    системе.
+  statement_en: Sapogin asserts the correct boundary conditions in the potential equation of self-consistent gravity theory cannot be arbitrary but are dictated by the first integral of total pressure existing
+    in the planar system.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  - total-pressure-integral
+  - emden
+  notes: ''
+  relations: []
+- id: SC-SI03-002
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Газовые шары Эмдена в самосогласованной теории гравитации
+  quote_ru: В плоской и сферической симметрии найдены точные и приближённые решения Е-уравнения Эмдена для потенциала.
+  statement_en: Sapogin asserts exact and approximate solutions of the Emden equation for the potential were found in planar and spherical symmetry.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden-equation
+  - exact-solutions
+  notes: ''
+  relations: []
+- id: SC-SI03-003
+  type: physical
+  facet: theory
+  priority: normal
+  page: § Газовые шары Эмдена в самосогласованной теории гравитации
+  quote_ru: Первый интеграл позволяет понять физическое происхождение объёмных сил, удерживающих статическую гравитирующую систему от коллапса.
+  statement_en: Sapogin asserts the first integral explains the physical origin of the volume forces holding a static gravitating system from collapse.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - collapse
+  - volume-forces
+  notes: ''
+  relations: []
+- id: SC-SI03-004
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: § Газовые шары Эмдена в самосогласованной теории гравитации
+  quote_ru: Из оценок следует, что Тунгусский феномен мог представлять собой полый, рыхлый космический «снежок» огромной массы, состоящий из ледяных пылинок. Плотность потока частиц при падении такого «снежка»
+    на землю будет существенно меньше в центре, чем в соседних слоях. Тогда в эпицентре падения производимые разрушения будут минимальны, что совпадает с наблюдениями экспедиции Кулика. Cнежок мог быть
+    сформирован ледяными гейзерами Энцелада – 61-го спутника Сатурна.
+  statement_en: Sapogin asserts estimates indicate the Tunguska phenomenon could have been a hollow, loose cosmic 'snowball' of huge mass made of ice dust; particle flux density at impact is much lower
+    at the centre than in adjacent layers, so destruction at the epicentre is minimal, matching Kulik's expedition observations; the snowball could have been formed by the ice geysers of Enceladus, the
+    61st satellite of Saturn.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - gas-bubble
+  - phenomenology
+  notes: Verbatim including the Latin initial 'C' in 'Cнежок' as printed on the page.
+  relations: []
+- id: SC-SI03-005
+  type: physics
+  facet: theory
+  priority: core
+  page: § Источники постоянного тока на физическом принципе преобразования градиента температуры в ЭДС газом термоэлектронов
+  quote_ru: показано, что теории термоэлектронной эмиссии и вольтамперных характеристик вакуумного диода, излагаемые в учебниках – ошибочны. Важнейшая причина этого заключается в том, что теории не учитывали
+    тот факт, что газ термоэлектронов в диоде находится под градиентом температуры.
+  statement_en: Sapogin asserts the textbook theories of thermionic emission and of the vacuum-diode current–voltage characteristic are wrong, chiefly because they ignored that the thermoelectron gas in
+    the diode sits under a temperature gradient.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermionic-emission
+  - vacuum-diode
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-006
+  type: physics
+  facet: theory
+  priority: core
+  page: § Источники постоянного тока на физическом принципе преобразования градиента температуры в ЭДС газом термоэлектронов
+  quote_ru: Получен фундаментальный закон сохранения полной энергии системы. Он состоит из суммы электрической энергии плоского слоя электронов и тепловой энергии этого же слоя электронов.
+  statement_en: Sapogin asserts a fundamental conservation law of the system's total energy was obtained, consisting of the sum of the electric energy of a planar electron layer and the thermal energy of
+    the same layer.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-conservation
+  - thermoelectron-gas
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-007
+  type: physical
+  facet: theory
+  priority: normal
+  page: § Источники постоянного тока на физическом принципе преобразования градиента температуры в ЭДС газом термоэлектронов
+  quote_ru: Показано, что газ невзаимодействующих термоэлектронов не возмущён по концентрации, а его давление зависит только от температуры.
+  statement_en: Sapogin asserts the gas of non-interacting thermoelectrons is undisturbed in concentration and its pressure depends only on temperature.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermoelectron-gas
+  notes: ''
+  relations: []
+- id: SC-SI03-008
+  type: physical
+  facet: process
+  priority: core
+  page: § Источники постоянного тока на физическом принципе преобразования градиента температуры в ЭДС газом термоэлектронов
+  quote_ru: Наличие разнообразных источников градиента температуры позволит создать термодиффузионные преобразователи энергии, имеющих широкий набор постоянных ЭДС, внутренних сопротивлений, коэффициентов
+    полезного действия, значения которых можно плавно изменять по требованию заказчика. Найдут своё применение нательные источники ЭДС, которые будут служить человеку до тех пор, пока он будет жив.
+  statement_en: Sapogin asserts diverse sources of temperature gradient will enable thermodiffusion energy converters with a wide set of EMFs, internal resistances and efficiencies, smoothly tunable on
+    demand, including wearable EMF sources serving a person for life.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermodiffusion
+  - emf-source
+  - energy-converter
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-009
+  type: physics
+  facet: theory
+  priority: core
+  page: § Градиентный электронный инжектор автоэмиссионного катода с угловой апертурой
+  quote_ru: Впервые показано происхождение сил, ускоряющих плёнки зарядов одного знака, расположенных у поверхности катода.
+  statement_en: Sapogin asserts the brochure shows for the first time the origin of the forces accelerating like-charge films located at the cathode surface.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-emission-cathode
+  - charge-films
+  - evo
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-010
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Градиентный электронный инжектор автоэмиссионного катода с угловой апертурой
+  quote_ru: Выяснено существование двух режимов вывода зарядов из инжектора в вакуум. Исследован эффект формирования зарядового кластера при выводе электронной шубы с поверхности катода в вакуум.
+  statement_en: Sapogin asserts two regimes of charge extraction from the injector into vacuum were established, and the effect of charge-cluster formation during extraction of the electron 'coat' from
+    the cathode surface into vacuum was investigated.
+  quantities:
+  - 2 extraction regimes
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo-generation
+  - injector
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-011
+  type: physics
+  facet: schematic
+  priority: core
+  page: § Градиентный электронный инжектор автоэмиссионного катода с угловой апертурой
+  quote_ru: Предложена схема вакуумного накопителя зарядов с апертурным инжектором.
+  statement_en: Sapogin proposes a schematic of a vacuum charge store with an aperture injector.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - vacuum-charge-store
+  - schematic
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-012
+  type: physics
+  facet: theory
+  priority: core
+  page: § Градиентный электронный инжектор автоэмиссионного катода с угловой апертурой
+  quote_ru: Приводятся оценки физических параметров зарядовых кластеров, следующие из теории, в сантиметровом диапазоне размеров. Полученные значения сравниваются с экспериментами К.Шоулдерса.
+  statement_en: Sapogin gives theory-derived estimates of charge-cluster physical parameters in the centimetre size range and compares the values with Shoulders' experiments.
+  quantities:
+  - 'cluster size range: centimetres (theory estimates)'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo
+  - shoulders
+  - comparison
+  notes: ''
+  relations: []
+- id: SC-SI03-013
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Механизм генерации избыточной энергии самовращающейся электрической стрелкой
+  quote_ru: В накопителях можно реализовать такой режим генерации энергии, при котором «Источник» поставляет электрическую мощность, превышающую мощность, потребляемую «Мотором», диссипативными и резистивными
+    потерями.
+  statement_en: Sapogin asserts that in these energy stores a generation regime is possible in which the 'Source' supplies electric power exceeding the power consumed by the 'Motor' plus dissipative and
+    resistive losses.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - over-unity
+  - energy-loop
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-014
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § Механизм генерации избыточной энергии самовращающейся электрической стрелкой
+  quote_ru: На переменной ёмкости, частота механического вращения которой была в 2 раза больше, чем частота собственного резонанса контура, был создан «Генератор». Он работал на частоте 400 Гц с выходным
+    напряжением 5000 В.
+  statement_en: Sapogin reports Mandelstam and Papaleksi built a 'generator' on a mechanically rotated capacitance whose rotation frequency was twice the circuit's natural resonance; it operated at 400
+    Hz with 5000 V output.
+  quantities:
+  - rotation frequency = 2x circuit resonance
+  - output 400 Hz
+  - output 5000 V
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: generator output frequency
+    value: '400'
+    unit: Hz
+    conditions: Mandelstam–Papaleksi setup, rotated capacitance
+  - quantity: generator output voltage
+    value: '5000'
+    unit: V
+    conditions: same setup
+  schematic_refs: []
+  tags:
+  - mandelstam-papaleksi
+  - parametric-resonance
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-015
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § Механизм генерации избыточной энергии самовращающейся электрической стрелкой
+  quote_ru: дополнительную механическую энергию вращения конденсатора с радиальными проводящими секторами поставляет пробой воздуха между проводящим сектором и П-образными электродами, подводящими высокое
+    напряжение.
+  statement_en: Sapogin reports the 2017 experimental conclusion that the additional mechanical rotational energy of a capacitor with radial conducting sectors is supplied by air breakdown between the conducting
+    sector and the П-shaped electrodes delivering high voltage.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-rotating-capacitor
+  - air-breakdown
+  - experiment
+  - electrical-path
+  notes: Central experimental fact behind the 'self-rotating electric arrow' mechanism (2017 group experiments).
+  relations: []
+- id: SC-SI03-016
+  type: physics
+  facet: process
+  priority: core
+  page: § Механизм генерации избыточной энергии самовращающейся электрической стрелкой
+  quote_ru: устройства, преобразующие механическое вращение в переменный электрический ток со сверхединичным коэффициентом преобразования энергии
+  statement_en: Sapogin describes the first device class as devices converting mechanical rotation into alternating electric current with an over-unity energy conversion coefficient.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - over-unity
+  - device-class
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI03-017
+  type: physics
+  facet: process
+  priority: core
+  page: § Механизм генерации избыточной энергии самовращающейся электрической стрелкой
+  quote_ru: накопители избыточной энергии неустойчивости плазмы проводника. Эти устройства совмещают в себе оба принципа и предоставляют возможность построения широкого класса маломощных электромеханических
+    приборов, очень похожих на автомобильные аккумуляторы. Достоинство накопителей энергии плазменной неустойчивости заключается в том, что они не требуют для своей непрерывной работы подзарядки.
+  statement_en: 'Sapogin describes a third device class: stores of surplus energy of conductor-plasma instability combining both principles, enabling low-power electromechanical devices similar to car batteries
+    whose advantage is that they need no recharging for continuous operation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasma-instability-store
+  - over-unity
+  - device-class
+  - electrical-path
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

@@ -1,0 +1,4086 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TC08
+  section: technologies
+  title_ru: Способы извлечения энергии короткоживущими пузырьками зарядов плазмы
+  title_en: Ways of extracting energy by short-lived charge bubbles of plasma
+  file: papers/technologies/sposoby-izvlecheniya-energii-korotkozhivushchimi-puzyrkami-zaryadov-plazmy.pdf
+  source_url: https://drive.google.com/file/d/1_CJwQwP3emB0hHqwhiNsiJxODpocVpMH/view?usp=share_link
+  md5: 50bb4e295d93b2db67329f4f7686afd9
+  pages_total: 54
+  retrieved: '2026-09-01'
+claims:
+- id: SC-TC08-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: В записке изложена цепочка физических принципов, позволяющих понять причины непрерывного выделения энергии
+    переменного тока в механо- электрических преобразователях, использующих вращательное движение пластин конденсатора.
+  statement_en: The note sets out a chain of physical principles allowing understanding of the causes of continuous
+    AC energy release in mechano-electric converters using rotational motion of capacitor plates; the principles
+    allow full expertise of devices with various constructive solutions; the devices herald a new field of energetics
+    — economical energetics on charge bubbles, requiring no fossil fuel and having no production waste.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - mechano-electric
+  - economical-energetics
+  notes: ''
+  relations: []
+- id: SC-TC08-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Все устройства извлечения энергии оказываются токовыми. Источником тока в них является ток смещения
+    Максвелла, известный в электродинамике. В некоторых устройствах он может быть таким большим, что порождаемый
+    им тепловой нагрев взрывает плазму. Введена критическая плотность тока смещения для замкнутой энергетической
+    цепочки.
+  statement_en: All energy-extraction devices turn out to be current devices; the current source in them is the
+    Maxwell displacement current known in electrodynamics; in some devices it can be so large that the thermal heating
+    it produces explodes the plasma; a critical displacement current density is introduced for a closed energy chain.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - critical-current-density
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-003
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 1
+  quote_ru: Первыми в нашей стране их обнаружили академики Мандельштам и Папалекси. В 50-х годах они создали первый
+    механический варикап, пластины которого вращались электрическим мотором, а электроёмкость вырабатывала переменный
+    электрический ток [1].
+  statement_en: 'In the last 70 years researchers ran into new physical phenomena in mechano-electric energy converters
+    using rotating capacitor plates; the first to discover them in this country were academicians Mandelstam and
+    Papaleksi: in the 1950s they created the first mechanical varicap whose plates were rotated by an electric motor
+    and whose capacitance produced alternating electric current.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - мандельштам-папалекси
+  - varicap
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-TC08-004
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 1
+  quote_ru: На обкладках такого конденсатора, подключенного к последовательному колебательному контуру без источника
+    тока, возникало переменное напряжение с амплитудой около 5 кВ. Напряжение зависело от частоты вращения обкладок
+    конденсатора и от LRС - параметров контура.
+  statement_en: On the plates of such a capacitor connected to a series oscillatory circuit without a current source,
+    an alternating voltage with amplitude of about 5 kV arose; the voltage depended on the rotation frequency of
+    the capacitor plates and on the LRC parameters of the circuit.
+  quantities:
+  - U ≈ 5 кВ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: амплитуда переменного напряжения
+    value: около 5
+    unit: кВ
+    conditions: варикап в последовательном контуре без источника тока
+  schematic_refs: []
+  tags:
+  - varicap
+  - measurement
+  - voltage
+  notes: ''
+  relations: []
+- id: SC-TC08-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: переменная ёмкость (варикап) всегда генерирует электрические колебания в контуре, не имеющем источника
+    тока.
+  statement_en: 'The discovered phenomenon was named ''parametric'' resonance of the circuit; its technical essence:
+    a variable capacitance (varicap) always generates electric oscillations in a circuit having no current source.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - parametric-resonance
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-006
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 2
+  quote_ru: Самый важный параметр системы, позволяющий углубить физическую суть опытов – коэффициент отношения электрической
+    мощности к механической мощности не измерялся.
+  statement_en: The most important system parameter that would deepen the physical essence of the experiments —
+    the coefficient of the ratio of electric power to mechanical power — was never measured; its knowledge would
+    clarify whether energy is conserved in this conversion and what creates it.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - power-ratio
+  - experiment-design
+  notes: ''
+  relations: []
+- id: SC-TC08-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Упоминания о нём можно найти в интернете и в брошюре профессора С. Маринова [2], который первым обратил
+    внимание на отсутствие выполнения в устройстве фундаментальных законов сохранения энергии.
+  statement_en: Twenty years later the Swiss engineer P. Bauman created the device called the 'Testatika', similar
+    to the Mandelstam-Papaleksi mechano-electric converter; professor S. Marinov was the first to notice that the
+    fundamental energy conservation laws are not obeyed in the device.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bauman
+  - testatika
+  - marinov
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-008
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 2
+  quote_ru: Первое различие было в конструктивном решении варикапа. П. Бауман сделал конденсатор
+  statement_en: 'The Testatika had several differences. First difference: the varicap design — Bauman made a mechanical-rotation
+    capacitor in which the conducting sectors on the plates were radial.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - testatika
+  - recipe
+  - varicap
+  notes: quote truncated at the page-2 footer; continues 'механического вращения, в котором проводящие сектора...'.
+  relations: []
+- id: SC-TC08-009
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 3
+  quote_ru: Биологи в 2018 году обнаружили моторы у жгутиковых бактерий [3], которые имели размеры порядка 100 нм
+    (см. рис. 2), и качественно были похожи на установку П. Баумана. Их движущие части отличались количеством радиальных
+    проводящих секторов, геометрией сектора и количеством проводящих мембран.
+  statement_en: Biologists in 2018 discovered motors in flagellar bacteria of about 100 nm size, qualitatively similar
+    to P. Bauman's installation; their moving parts differed in the number of radial conducting sectors, sector
+    geometry, and the number of conducting membranes.
+  quantities:
+  - размер мотора ≈ 100 нм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - biophysics
+  - flagellar-motor
+  - bacteria
+  notes: ''
+  relations: []
+- id: SC-TC08-010
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 3
+  quote_ru: 'Второе различие: съём энергии осуществлялся через две П- образные пластины конденсатора, расположенные
+    на горизонтальном диаметре устройства. Геометрия съёма была похожа на геометрию съёма энергии в известной электрофорной
+    машине Д. Вимшюрста (1883 г), работающей на разделении зарядов при трибоэлектрическом эффекте.'
+  statement_en: 'Second difference: energy takeoff was performed through two П-shaped capacitor plates located on
+    the horizontal diameter of the device; the takeoff geometry resembled that of the known Wimshurst electrophorus
+    machine (1883) operating on charge separation in the triboelectric effect.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - recipe
+  - wimshurst
+  notes: ''
+  relations: []
+- id: SC-TC08-011
+  type: physical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Взаимодействие заключалось в том, что в момент пролёта сектора появлялся постоянный внешний электрический
+    момент, который вращал диск в одну сторону и создавал затравочный ток смещения в варикапе.
+  statement_en: 'Third difference: a radial conducting sector with electric charge on its outer part, flying inside
+    the П-shaped capacitor plates, interacted with them electrically: at the moment of sector flyby a constant external
+    electric moment appeared, which rotated the disk in one direction and created a seed displacement current in
+    the varicap.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - electric-moment
+  - ток-смещения
+  notes: ''
+  relations: []
+- id: SC-TC08-012
+  type: physical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Подача высокого напряжения на стрелку, находящуюся в воздухе, приводит к возникновению двух токов дискретных
+    зарядов, выходящих из острия стрелки в противоположные стороны.
+  statement_en: 'A similar unidirectional electric moment arises in the high-voltage Franklin arrow: applying high
+    voltage to the arrow in air leads to two currents of discrete charges leaving the arrow point in opposite directions;
+    in the П-shaped capacitor the rotation moment arises from the action on the charge of a transverse inhomogeneous
+    electric field which changes its direction in space after the discharge.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - franklin-arrow
+  - discrete-charges
+  notes: ''
+  relations: []
+- id: SC-TC08-013
+  type: physical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: При помещении электрического диполя в неоднородное электрическое поле возникает сила, связанная с градиентом
+    напряжённости электрического поля.
+  statement_en: 'The physics of the electric-force moment: placing an electric dipole in an inhomogeneous electric
+    field gives rise to a force connected with the gradient of the field strength; it has a definite direction in
+    space and creates one part of the moment acting on the flying part of the dipole, while the opposite-sign charge
+    creates the second part of the same moment.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dipole
+  - field-gradient
+  notes: ''
+  relations: []
+- id: SC-TC08-014
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 4
+  quote_ru: Эффект появления механического момента сил электрического происхождения в П-образном конденсаторе был
+    проверен экспериментально в 2017 году в лаборатории В. Гандурина (Санкт-Петербург). Результаты опубликованы
+    в [4].
+  statement_en: The effect of the appearance of a mechanical moment of forces of electric origin in the П-shaped
+    capacitor was verified experimentally in 2017 in V. Gandurin's laboratory (St. Petersburg); the results were
+    published in [4].
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gandurin
+  - experiment
+  - electric-moment
+  notes: ''
+  relations: []
+- id: SC-TC08-015
+  type: physical
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Предложенный Бауманом конструктив установки позволил развивать напряжение на П-образных пластинах до
+    12-15 кВ. Это приводило к высоковольтному пробою воздуха внутри пластин П-образного конденсатора, и образованию
+    тонкого шнура газоразрядной плазмы. В плазме с таким напряжением наблюдаются высоковольтные электрофизические
+    эффекты, которые приводят к образованию пузырьков зарядов и их дипольных моментов.
+  statement_en: 'Fourth difference: the design proposed by Bauman allowed developing voltage on the П-shaped plates
+    up to 12-15 kV; this led to high-voltage air breakdown inside the plates and the formation of a thin filament
+    of gas-discharge plasma; in plasma at such voltage, high-voltage electrophysical effects are observed which
+    lead to the formation of charge bubbles and their dipole moments.'
+  quantities:
+  - U = 12–15 кВ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - breakdown
+  - plasma
+  - evo
+  - кластер
+  notes: ''
+  relations: []
+- id: SC-TC08-016
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 4
+  quote_ru: В установке Мандельштама-Папалекси применялся электрический разрядник, который был рассчитан на напряжение
+    чуть больше, чем на 5 кВ. Он был подключён параллельно с варикапом. Плазма внутри конденсатора, защищённого
+    разрядником, не возникала.
+  statement_en: The Mandelstam-Papaleksi installation used an electric discharger rated for a voltage slightly above
+    5 kV, connected in parallel with the varicap; no plasma arose inside the capacitor protected by the discharger,
+    which allowed verifying the 'parametric resonance' phenomenon in the circuit only up to 5 kV.
+  quantities:
+  - U(разрядник) ≈ 5 кВ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - мандельштам-папалекси
+  - discharger
+  notes: ''
+  relations: []
+- id: SC-TC08-017
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 4
+  quote_ru: 'Варикап с плазменным наполнением позволил ему создать работающие устройства с мощностью, как утверждал
+    автор, от 300 Вт до 10 кВт. Обратим внимание на важное физическое свойство у работающих преобразователей: увеличение
+    выходной мощности было пропорционально увеличению объёма устройства.'
+  statement_en: 'The Franklin-arrow analog allowed P. Bauman to remove the external motor of the Mandelstam-Papaleksi
+    installation and create a self-rotating mechanical varicap; the varicap with plasma filling allowed him to create
+    working devices with power, as the author claimed, from 300 W to 10 kW; an important physical property of the
+    working converters: the increase of output power was proportional to the increase of the device volume.'
+  quantities:
+  - P = 300 Вт – 10 кВт
+  - P ∝ V(объём устройства)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bauman
+  - testatika
+  - excess-energy
+  - избыточн
+  - scaling
+  notes: ''
+  relations: []
+- id: SC-TC08-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: В этом случае фундаментальный закон сохранения энергии не работает и ничего не определяет. Энергия устройства
+    будет
+  statement_en: Bauman's installation produced alternating current all of whose electric and magnetic fields depended
+    on time; in this case the fundamental energy conservation law does not work and determines nothing — the device
+    energy will either decrease or increase in time, as was observed in the experiments (the author considers the
+    competitors' objection a way to eliminate a rival).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - energy-conservation
+  - debt-candidate
+  notes: quote truncated at the page-4 footer; continues 'либо уменьшаться, либо увеличиваться во времени...'.
+  relations: []
+- id: SC-TC08-019
+  type: physical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Он заключается в создании тока на непрерывно движущихся в кольце пузырьках зарядов, находящихся на концах
+    радиальных электродов. Попадая в П-образный конденсатор, они создают источник тока смещения, который замкнут
+    на внешнюю проводящую цепь потребления энергии.
+  statement_en: 'The author considers Bauman''s device an exceptionally promising way of generating alternating
+    electric current on mechanical varicaps: it consists in creating current on charge bubbles continuously moving
+    in a ring at the ends of radial electrodes; entering the П-shaped capacitor, they create a displacement current
+    source closed onto the external conducting circuit of energy consumption.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - ток-смещения
+  - device-principle
+  notes: ''
+  relations: []
+- id: SC-TC08-020
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 5
+  quote_ru: Извлечение энергии в системе осуществляется механическим вращением ёмкости с радиальными металлическими
+    секторами, достаточно большого диаметра. Чем больше диаметр, тем больше мощность. Ёмкость шумит, как двигатель,
+    и могут возникнуть большие проблемы при её установке на движущемся транспорте.
+  statement_en: 'Drawbacks of Bauman''s devices to be eliminated (1): energy extraction is done by mechanical rotation
+    of a capacitance with radial metal sectors of rather large diameter — the larger the diameter the more power;
+    the capacitance is noisy like an engine and may have big problems mounted on moving transport.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - drawbacks
+  notes: ''
+  relations: []
+- id: SC-TC08-021
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 5
+  quote_ru: Но металлокерамические подшипники не проводят электричество. Поэтому в установке для съёма тока используется
+    пара горизонтальных П-образных пластин.
+  statement_en: 'Drawbacks (2)-(3): the axis uses metal-ceramic bearings of Chinese manufacture which reduce mechanical
+    friction well (otherwise the moment of electric-origin forces could not exceed the friction moment and spin
+    the capacitance), but they do not conduct electricity, so a pair of horizontal П-shaped plates is used for current
+    takeoff; these plates select only the difference displacement current of the system arising on the П-shaped
+    capacitors — the only way out is a Nikolaev magnetic conducting bearing with low friction.'
+  quantities: []
+  equations: []
+  materials:
+  - металлокерамические подшипники
+  - магнитный проводящий подшипник Николаева
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - bearings
+  - николаев
+  notes: ''
+  relations: []
+- id: SC-TC08-022
+  type: physical
+  facet: recipe
+  priority: core
+  page: 6
+  quote_ru: Введение металлических подшипников с низким трением позволит увеличить число съёмных П-образных пластин
+    до количества радиальных секторов N. Таким образом, в N раз будет увеличена выходная мощность по сравнению с
+    установкой Баумана. Во столько же раз будет увеличен электрический момент вращения пластины.
+  statement_en: 'Drawbacks (4): without low-friction bearings, devices with a high level of energy takeoff produced
+    by charge bubbles at room temperature are impossible; introducing metal low-friction bearings will allow increasing
+    the number of takeoff П-shaped plates up to the number of radial sectors N — the output power will increase
+    N times compared with Bauman''s installation, and the electric rotation moment of the plate will increase by
+    the same factor.'
+  quantities:
+  - P(выходная) × N (N = число радиальных секторов)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - scaling
+  - excess-energy
+  notes: ''
+  relations: []
+- id: SC-TC08-023
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 6
+  quote_ru: Конструкцию согнутого под углом радиального сектора можно позаимствовать у жгутиковых бактерий (см.
+    рис. 2), а потом, для ещё большего увеличения электрического момента вращения, сектор выполнить в виде пера
+    птицы, имеющего большое количество окончаний в виде острия с одной стороны.
+  statement_en: 'Drawback (5): the ratio between friction and electric-force moments can be changed another way
+    — borrow the design of the radially bent sector from flagellar bacteria, and then, to increase the electric
+    rotation moment further, make the sector in the form of a bird feather having many point-like endings on one
+    side. (6): the varicap can be connected as in the Mandelstam-Papaleksi experiments, replacing the mains motor
+    with a co-axial high-voltage rotation motor in which the number of П-shaped plates equals the number of radial
+    sectors.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - sector-design
+  notes: ''
+  relations: []
+- id: SC-TC08-024
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: 'Объёмная плотность амплитуды мощности любого механического варикапа пропорциональна частоте  и квадрату
+    объёмной плотности n свободных электронов в металле радиального сектора:'
+  statement_en: 'The volumetric power-density amplitude of any mechanical varicap is proportional to the frequency
+    and to the square of the volumetric density n of free electrons in the metal of the radial sector: PV = 2e²d²n²ν/2ε0,
+    where d is the spatial scale of the converter and e the electron charge (eq. (1)); the estimate for 50 Hz shows
+    that varicaps of 1 m spatial scale with specific power 1 kW/m3 require a free-electron concentration of 4.7e13
+    m^-3; its increase 3.2 times will increase the specific power by an order of magnitude — a large efficiency
+    coefficient of energy extraction systems on mechanically rotating varicaps.'
+  quantities:
+  - f = 50 Гц
+  - d = 1 м
+  - P_V = 1 кВт/м3
+  - n = 4,7·10^13 м-3 (в тексте «4,713 м-3»)
+  - n ↑ в 3,2 раза ⇒ P_V × 10
+  equations:
+  - P_V = 2 e^2 d^2 n^2 \nu / 2\varepsilon_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - scaling
+  - varicap
+  notes: formula and exponent OCR-flattened in source; values as stated. quote contains the source's private-use
+    OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-025
+  type: physical
+  facet: measurement
+  priority: core
+  page: 6
+  quote_ru: Соотношение (1) показывает, что заявленную мощность высоковольтных устройств, построенных Бауманом,
+    можно снизить на порядок. Она может находиться в диапазоне от 30 до 100 Вт.
+  statement_en: 'Relation (1) shows that the power claimed for the high-voltage devices built by Bauman can be lowered
+    by an order of magnitude: it may lie in the range from 30 to 100 W.'
+  quantities:
+  - P(Бауман) = 30–100 Вт (оценка)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bauman
+  - power-estimate
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-026
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 7
+  quote_ru: На оси системы был установлен металлический подшипник с коэффициентом трения 0,01. Радиальные сектора
+    на внешнем периметре были сделаны заострёнными. П-образные конденсаторы были увеличены в размерах и могли изменять
+    своё горизонтальное положение в диаметральном направлении.
+  statement_en: 'In 2019 in Novocherkassk a third variant of the mechano-electric converter similar to Bauman''s
+    installation was created with distinctive features: a metal bearing with friction coefficient 0.01 on the axis;
+    radial sectors on the external perimeter made pointed; П-shaped capacitors enlarged in size and able to change
+    their horizontal position in the diametral direction.'
+  quantities:
+  - коэффициент трения = 0,01
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - джанибеков-сапогин
+  - experiment
+  - recipe
+  notes: ''
+  relations: []
+- id: SC-TC08-027
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 7
+  quote_ru: Переменное напряжение, амплитуда которого зависела от частоты, появлялось на выходе варикапа даже в
+    том случае, когда варикап не был подключён к колебательному контуру.
+  statement_en: 'The experiments showed an unexpected phenomenon: an alternating voltage whose amplitude depended
+    on frequency appeared at the varicap output even when the varicap was not connected to an oscillatory circuit;
+    the refined technical essence: the mechanical varicap outputs alternating voltage as an autonomous source of
+    electric current and does not need an oscillatory circuit.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - experiment
+  - autonomous-source
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: что механический варикап выдаёт переменное напряжение как автономный источник электрического тока. Ему
+    не нужен колебательный контур.
+  statement_en: The mechanical varicap delivers alternating voltage as an autonomous source of electric current;
+    it does not need an oscillatory circuit.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - autonomous-source
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-029
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 7
+  quote_ru: Механо-электрический преобразователь не удалось привести в режим самовращения по причине большого коэффициента
+    трения в металлическом подшипнике.
+  statement_en: 'The mechano-electric converter could not be brought into the self-rotation regime because of the
+    large friction coefficient in the metal bearing; the new properties discovered experimentally stimulated the
+    search in two directions: (1) understand the physical causes of alternating current appearance in varicaps of
+    various designs; (2) get away from mechanical rotation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - джанибеков-сапогин
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-TC08-030
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 7
+  quote_ru: Пузырьки имели диаметр в десятки микрон, «стекали» в кольца с острия катода при импульсном напряжении
+    10 кВ
+  statement_en: 'In 1987 Ken Shoulders (USA, Bodega) claimed the discovery of charge bubbles of one sign, named
+    Electrum Validum (EV): diameter of tens of microns, ''flowing'' in rings from the cathode point at 10 kV impulse
+    voltage, containing from 10^8 to 10^11 electrons in a cluster, and having a lifetime of hundreds of picoseconds.'
+  quantities:
+  - d = десятки мкм
+  - U = 10 кВ (импульсное)
+  - N = 10^8–10^11 электронов
+  - 'время жизни: сотни пикосекунд'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - shoulders
+  notes: quote truncated at the page-7 footer; continues 'содержали в кластере от 10^8 до 10^11 электронов...'.
+  relations: []
+- id: SC-TC08-031
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 8
+  quote_ru: Проведённые расчёты в [7] показывают, что с металлического катода всегда сбрасывается конечный участок
+    электронной шубы, который при дальнейшем движении в пространстве дрейфа начинает сжиматься за счёт неоднородности
+    тянущего поля.
+  statement_en: 'Of the three possible invisible pictures of micron-bubble generation at the cathode point, the
+    second (holding forces connected with the collective-field pressure gradient) gives a nonstatic thin-wall bubble
+    passing three stages. Stage 1 (formation): calculations in [7] show that a finite section of the electron ''coat''
+    is always shed from the metal cathode and begins compressing in the drift space due to the inhomogeneity of
+    the pulling field; the compression forces exceed the Coulomb repulsion forces; compression cannot change the
+    charge stored in the cluster; in compression the synthesis reaction of bubble formation proceeds, the cluster
+    charge density increases and it stores additional electric energy; the compression time of Shoulders'' micron
+    clusters is about 70 ps (Ken invented a device measuring picoseconds specially for measuring cluster lifetime).'
+  quantities:
+  - t(сжатия) ≈ 70 пс
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - синтез
+  - compression
+  - shoulders
+  notes: ''
+  relations: []
+- id: SC-TC08-032
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 8
+  quote_ru: Вторая стадия  пузырёк сформировался и переходит в стационарное состояние. Его сжатие прекращается.
+    Силы, действующие на заряды кластера, уравниваются.
+  statement_en: 'Stage 2 (stationary): the bubble has formed and passes into a stationary state; its compression
+    stops and the forces acting on the cluster charges equalize; the charge distribution is described by canonical-physics
+    equations and easily calculated; the bubble has two atmospheres, external and internal, but there are no charges
+    inside; the Coulomb forces on the electrons are repulsion forces while the forces connected with the electric-field
+    pressure gradient are compression forces acting on the particle mass density; the stationary state lasts about
+    70 ps.'
+  quantities:
+  - t(стационарное) ≈ 70 пс
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - stationary-state
+  - field-pressure-gradient
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-033
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 8
+  quote_ru: Третья стадия  пузырёк электронов начинает расширяться. Силы Кулона становятся преобладающими. В стадии
+    расширения пузырек начинает излучать и участвовать в реакции распада с выделением избыточной энергии, как при
+    распаде ядер. При этом, он излучает электромагнитной энергии больше, чем получает при «рождении».
+  statement_en: 'Stage 3 (expansion): the electron bubble begins to expand and the Coulomb forces become predominant;
+    in the expansion stage the bubble begins to radiate and participate in the decay reaction with release of excess
+    energy, as in nucleus decay; it radiates more electromagnetic energy than it receives at ''birth''.'
+  quantities:
+  - E_излучения > E_рождения
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - распад
+  - excess-energy
+  - избыточн
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-034
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: На стадии синтеза пузырька зарядов энергия пузырька увеличивается за счёт процессов сжатия, которые
+    происходят в переменном электрическом поле. И законы сохранения энергии на этой стадии не выполняются.
+  statement_en: 'At the charge-bubble synthesis stage the bubble energy increases due to compression processes occurring
+    in an alternating electric field — the energy conservation laws do not hold at this stage. (Variant 3: the bubble
+    goes into collapse, strongly decreasing its size; compression forces far exceed repulsion; the sizes can become
+    so small that the bubble disappears from the observer''s view and explodes, throwing out a large amount of electromagnetic
+    energy.)'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - synthesis
+  - energy-conservation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-035
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Какая из приводимых умозрительных картинок формирования пузырька зарядов правильная? Ответ  все три.
+  statement_en: 'Which of the speculative pictures of charge-bubble formation is correct? The answer: all three.
+    If the second picture (stationary bubble) is realized more often in prolonged cluster generation into vacuum
+    or plasma, the bubble supplies anomalous energy to the plasma surrounding the point and the plasma heats; if
+    the expansion-cluster picture dominates, the plasma returns energy back to the bubble — a symmetric process
+    leading to plasma cooling; creating cooling sources on such bubbles should lead to a wide class of cooling-energetics
+    devices, already needed to compensate the excess thermal heating of the Earth by man and the Sun discovered
+    in global warming.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - heating-cooling
+  - plasma
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-036
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Это  неизвестный ранее, микроскопический механизм выделения энергии пузырьками в вакууме, плазме или
+    плазмо- подобных средах. Он принципиально отличается отсутствием ядерных реакций от механизмов ядерного синтеза/распада.
+  statement_en: If a charge bubble appears in plasma and passes synthesis/decay stages, one should expect in such
+    plasma the release of electric, magnetic, electromagnetic, or thermal energy observed in numerous experiments
+    — a previously unknown microscopic mechanism of energy release by bubbles in vacuum, plasma, or plasma-like
+    media, principally different from nuclear synthesis/decay mechanisms by the absence of nuclear reactions.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - energy-release
+  - non-nuclear
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-037
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: 'Был найден новый класс сил полевого происхождения, который дал ответ на самый важный вопрос: чем удерживаются
+    заряды в пузырьке? Скопление зарядов удерживается от кулоновского расталкивания градиентом давления напряжённости
+    коллективного поля.'
+  statement_en: 'Original solutions of canonical-physics equations were found in [8-10] indicating the possibility
+    of short-term existence of stationary bubbles of small and large sizes consisting of like charges; a new class
+    of field-origin forces was found answering the most important question — what holds the charges in a bubble:
+    the charge accumulation is held from Coulomb repulsion by the pressure gradient of the collective field strength;
+    the discovered force class complemented the field-origin forces connected with magnetic-field pressure whose
+    gradient holds fusion plasma from flying apart; both field forces act on the mass density of charges and counteract
+    their Coulomb repulsion.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - self-consistent-field
+  - field-forces
+  - confinement
+  notes: ''
+  relations: []
+- id: SC-TC08-038
+  type: physical
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: 'Из него видно, что плазмоид имеет две атмосферы: внешнюю и внутреннюю. Силы Кулона f k , разрывающие
+    плазмоид, направлены по радиусу во внешней атмосфере и против радиуса во внутренней атмосфере, как у кластера
+    положительных зарядов. Они достигают экстремальных значений на границе плазмоида.'
+  statement_en: 'The distribution of forces, fields, and charges in a hole plasmoid with small collective-field
+    divergence (fewer electrons than positive background charges), calculated in [11-12], is shown in fig. 3: the
+    plasmoid has two atmospheres, external and internal; the Coulomb forces tearing the plasmoid are directed along
+    the radius in the external atmosphere and against the radius in the internal atmosphere, as in a positive-charge
+    cluster, reaching extreme values at the plasmoid boundary; the collective field strength vector has the same
+    direction; the field strength inside the layer varies by the sine law and has no singularity at the plasmoid
+    boundaries; the compensating forces are created by the Bernoulli force directed opposite to the Coulomb forces
+    in each layer (compression forces); the Bernoulli force coincides with the collective-field pressure gradient,
+    is opposite to it, and acts on the mass density of charges; the positive plasma background is homogeneous, the
+    electron distribution has a minimum at the atmosphere boundary; at the plasmoid boundaries the electron and
+    positive-charge concentrations coincide; there are no charges inside the plasmoid.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - evo
+  - plasmoid
+  - structure
+  - bernoulli
+  notes: ''
+  relations: []
+- id: SC-TC08-039
+  type: physical
+  facet: theory
+  priority: core
+  page: 11
+  quote_ru: Электрическая сила, действующая на коллектив электронов плазмоида, обладает неожиданным свойством. Сила
+    перемещает электроны плазмы в направлении вектора напряжённости коллективного поля.
+  statement_en: 'The electric force acting on the electron collective of the plasmoid has an unexpected property:
+    it moves the plasma electrons in the direction of the collective field strength vector — different from the
+    known experimental fact of the force acting on a single negative charge; the cause is that the field pressure
+    gradient dominates over the electric force in the obtained electron distribution. In the thin bubble layer the
+    fundamental law of conservation of total pressure holds, expressed through the system Hamiltonian: the total
+    pressure consists of the sum of the field and plasma charge pressures, so in the cluster the collective-field
+    pressure is greater where the charge pressure is less, the maximum charge pressure being realized at the atmosphere
+    boundary.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - collective-force
+  - total-pressure
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-040
+  type: physical
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: Электрическая сила перемещает электроны плазмы на внешнюю границу в направлении вектора напряжённости
+    коллективного поля и заряжает её отрицательно. Внутренняя граница заряжена положительно. Заряды пузырька образуют
+    двойной электрический слой. Накопленный заряд может быть значительным. Образованный сферический «конденсатор»
+    может разрядиться через воздух.
+  statement_en: In the electron plasmoid (more electrons than positive charges, fig. 4) the Coulomb forces displacing
+    the electrons are directed along the radius in either atmosphere and reach zero at the plasmoid boundaries;
+    the field strength inside the layer varies by the cosine law limited by the main period; the compressing forces
+    are created by the Bernoulli force acting on the charge mass density; the electron distribution has a minimum
+    at the internal and a maximum at the external boundary; there are no charges inside the plasmoid; the electric
+    force moves the plasma electrons to the external boundary charging it negatively, the internal boundary being
+    charged positively — the bubble charges form a double electric layer with possibly significant accumulated charge;
+    the formed spherical 'capacitor' can discharge through the air, which is why macroscopic plasmoid formations
+    with many electrons, similar to observed ball lightnings, can decay by explosion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - evo
+  - plasmoid
+  - double-layer
+  - ball-lightning
+  notes: ''
+  relations: []
+- id: SC-TC08-041
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Плазмоиды, у которых выполнены условия излучения, после «рождения» начинают излучать электромагнитные
+    волны в окружающее пространство. Конечность времени их жизни определяет конечность запасённой ими энергии. Неизлучающие
+    плазмоиды имеют неограниченное время жизни.
+  statement_en: Plasmoids satisfying radiation conditions begin radiating electromagnetic waves into the surrounding
+    space after 'birth'; the finiteness of their lifetime determines the finiteness of their stored energy; non-radiating
+    plasmoids have an unlimited lifetime; the temperature scale of the system indicates the existence of two classes
+    of plasmoids with attributes of either dark or light matter.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid
+  - dark-matter
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-042
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Взрывная неустойчивость, формирующая стенку движущегося пузырька зарядов в плазме одной температуры,
+    была обнаружена в механизме формирования молнии академиком В. Пустовойтом [13].
+  statement_en: The explosive instability forming the wall of a moving charge bubble in single-temperature plasma
+    was discovered in the lightning formation mechanism by academician V. Pustovoit; an analytic solution describing
+    the instability in the same plasma at charged-gas jet flow was found in [14], and the instability mechanism
+    at charge-bubble wall formation in stationary plasma was studied in [15].
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - пустовойт
+  - explosive-instability
+  - lightning
+  notes: ''
+  relations: []
+- id: SC-TC08-043
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 13
+  quote_ru: Берутся две плоские пластины из плексигласа площадью 20*20 см2, оклеиваются алюминиевой плёнкой толщиной
+    8 мкм с одной стороны.
+  statement_en: 'In the author''s view the existence of the ground electron state of a flat plasma layer was proven
+    in I. Beletsky''s thin-film capacitor experiments on the Internet. Experiment idea: two flat plexiglas plates
+    of 20×20 cm2 area are glued on one side with aluminum film 8 µm thick; then the films are pressed together and
+    drawn apart so that the lower parts of the plates remain about 1-2 mm apart while the upper parts are unfolded
+    like butterfly wings; when the unfolding angle approaches 90°, a discharge arises in the air in the lower part
+    of the plates; the discharge occurs at a field strength of about 2 kV/mm; Beletsky does not explain the physics
+    of this imagination-striking experiment.'
+  quantities:
+  - E(разряд) ≈ 2 кВ/мм
+  equations: []
+  materials:
+  - плексиглас (пластины)
+  - алюминиевая плёнка
+  geometry:
+  - площадь пластин 20×20 см2
+  - толщина плёнки 8 мкм
+  - нижний зазор 1–2 мм
+  - угол разворота ~90°
+  procedure_steps:
+  - оклеить пластины плексигласа алюминиевой плёнкой 8 мкм
+  - прижать плёнки друг к другу
+  - 'развести пластины: низ на 1–2 мм, верх развернуть как крылья бабочки'
+  - при угле ~90° наблюдать разряд в воздухе в нижней части
+  measurements: []
+  schematic_refs:
+  - Опыт Белецкого (без рисунка)
+  tags:
+  - electrical
+  - beletsky
+  - experiment
+  - aluminum-film
+  - charge-separation
+  notes: ''
+  relations: []
+- id: SC-TC08-044
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 13
+  quote_ru: Прижал пластины, образовался слой проводника толщиной 8 мкм и почему-то зарядился. Одна пластина имела
+    один знак заряда, а другая – противоположный. Поворот пластины привёл к увеличению заряда до пробойных значений.
+    Конденсатор выбросил в воздух накопленную электрическую энергию.
+  statement_en: 'What is this phenomenon? Pressing the plates formed a conducting layer 8 µm thick which for some
+    reason charged: one plate had one charge sign and the other the opposite; turning the plate increased the charge
+    to breakdown values and the capacitor threw the accumulated electric energy into the air.'
+  quantities:
+  - толщина слоя проводника = 8 мкм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - beletsky
+  - charge-separation
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC08-045
+  type: physics
+  facet: theory
+  priority: core
+  page: 13
+  quote_ru: Первое основное состояние названо дырочным. В плазме возникает симметричное распределение электронов
+    относительно срединной плоскости. На срединной плоскости электронов минимум, а на границах системы их концентрация
+    наибольшая.
+  statement_en: 'Possible physical causes of macroscopic charge separation in solid-state plasma at uniform temperature:
+    calculated by the Pustovoit equations (metal is plasma — conduction electrons move against a positive background),
+    two ground states of charge distribution are possible, described by the conservation law of total plasma pressure
+    (in any plane the sum of field and plasma charge pressures at uniform temperature remains unchanged — where
+    the field pressure is greater the charge pressure is less, and vice versa). The first ground state is called
+    hole: a symmetric electron distribution about the midplane arises in the plasma — minimum of electrons at the
+    midplane, maximum concentration at the system boundaries; splitting such a charge layer in half gives two layers
+    with equal positive charge — capacitor plates with equal positive charges which should repel but are held in
+    equilibrium by the collective-field pressure.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pustovoit
+  - charge-states
+  - hole-state
+  notes: ''
+  relations: []
+- id: SC-TC08-046
+  type: physics
+  facet: theory
+  priority: core
+  page: 13
+  quote_ru: В электронном состоянии плазмы распределение электронов асимметричное. Их больше на одном краю пластины,
+    чем на другом. Если разделить такой слой зарядов, то получится конденсатор с одинаковыми разноимёнными зарядами.
+    Такие пластины будут притягиваться, как у обычного конденсатора.
+  statement_en: 'In the electron state of the plasma the electron distribution is asymmetric: more electrons on
+    one edge of the plate than on the other; splitting such a charge layer gives a capacitor with equal opposite
+    charges — such plates attract as in an ordinary capacitor; this resembles the appearance of Casimir forces between
+    thin metal plates: in the Casimir experiment two thin conducting plates are also drawn apart and an attraction
+    arises explained by forces from the physical vacuum; at that time Casimir did not know that a metal plate is
+    nothing but plasma and two plates can interact as two plasma regions with different charges; the possibility
+    of charge separation is proven by Beletsky''s experiments.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - casimir
+  - electron-state
+  - charge-separation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-047
+  type: physical
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: Если температв пластин одинакова, то асимметричное электронное состояние плазмы возникает при протекании
+    взрывной неустойчивости плазмы, открытой Пустовойтом. Плазма за доли микросекунды переходит из однородного состояния
+    распределения зарядов в неоднородное. Неустойчивость приводит к заряду конденсатора.
+  statement_en: 'If the plate temperatures are equal, the asymmetric electron state of the plasma arises during
+    the Pustovoit explosive plasma instability: the plasma passes from a homogeneous charge distribution to an inhomogeneous
+    one within fractions of a microsecond, and the instability charges the capacitor. (Alternative explanation for
+    a temperature gradient: electrons flee to the cold region charging it negatively, the origin region charges
+    positively, and the plates again have equal opposite charges.)'
+  quantities:
+  - t(перехода) = доли микросекунды
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pustovoit
+  - explosive-instability
+  - charge-separation
+  notes: ''
+  relations: []
+- id: SC-TC08-048
+  type: physical
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: Для того, чтобы сделать потенциал пластинок одинаковым, он соединял проводником обе пластины. Тогда,
+    если одна пластина была теплее другой, то электроны убегали туда, где холоднее. И пластины опять притягивались
+    электрической силой.
+  statement_en: 'This (thermoelectric) mechanism could act in the Casimir experiment: to equalize the plate potentials
+    Casimir connected both plates by a conductor; then, if one plate was warmer than the other, electrons fled to
+    where it was colder and the plates again attracted by electric force; the deflection angle of a plate in the
+    gravity field easily gives the number of electrons on the deflected plate, and the deflection angle depends
+    on the temperature difference between the plates; Casimir''s experiments repeat Beletsky''s and show that the
+    Casimir experiments registered the interaction of plates having different electric charges.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - casimir
+  - thermoelectric
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-049
+  type: physics
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: В области движения пластин возникает изменение во времени потока вектора электрической индукции. Это
+    изменение приводит к появлению тока смещения Максвелла, который может “протекать” даже там, где нет электрических
+    зарядов.
+  statement_en: 'Third step: when one plate rotates around the other the charge on them increases — taken from the
+    same place as the charge in rotating-variable-capacitor experiments (Mandelstam-Papaleksi, Bauman, Dzhanibekov-Sapogin):
+    in the plate-motion region a time change of the electric induction vector flux arises, leading to a Maxwell
+    displacement current which can ''flow'' even where there are no electric charges; two displacement currents
+    (one in the conducting channel, the other in the non-conducting channel) increase the plate charges until breakdown
+    — a second, independent way of extracting alternating-current energy compared with the law of electromagnetic
+    induction; mastering powerful displacement current will help engineers master extracting AC energy from gas
+    systems of oscillating charged dipoles — Bauman''s experiments showed such sources need no fuel and can work
+    unlimited time.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - maxwell-current
+  - energy-extraction
+  notes: ''
+  relations: []
+- id: SC-TC08-050
+  type: physical
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Вращение сообщает электронам проводимости плазмы твёрдого тела центробежное ускорение, а индуцированное
+    электрическое поле его компенсирует (см. рис. 5).
+  statement_en: 'In the Mandelstam-Papaleksi and Bauman experiments a conducting plate with radial sectors was used;
+    its rotation produced a charge-separation effect caused by the inertia of conduction-electron motion: selecting
+    a conducting-rod segment in the radial sector, macroscopic charge separation in the rod arises at its mechanical
+    rotation around a perpendicular axis through one of its ends — the rotation gives the solid-plasma conduction
+    electrons centrifugal acceleration which the induced electric field compensates; the solution reduces to finding
+    the equilibrium condition of a point charge rotating at the rod end, forming a dipole with arm l held from flying
+    apart by the Coulomb field of the separated charges.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 5
+  tags:
+  - inertial-separation
+  - charge-separation
+  notes: ''
+  relations: []
+- id: SC-TC08-051
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 15
+  quote_ru: Решение для числа электронов N, локализованных в пузырьке, имеет вид
+  statement_en: 'The solution for the number of electrons N localized in the bubble has the form N = 4ε0 m l³ ω²/e²,
+    where m and e are the electron mass and charge, l the rod length, ω the rod angular rotation speed; the number
+    of electrons thrown to the rod end depends on the ratio of the doubled rotational kinetic energy of an electron
+    to the potential energy of single electrons at the rod ends; the electric-to-mechanical energy conversion coefficient
+    depends on the number of thrown electrons α = 2/N: one electron at the rod end gives conversion coefficient
+    2, two electrons give 1, more than two gives always less than unity.'
+  quantities: []
+  equations:
+  - N = 4\varepsilon_0 m l^3 \omega^2 / e^2
+  - \alpha = 2/N
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - inertial-separation
+  notes: formula OCR-degraded in source; LaTeX best-effort.
+  relations: []
+- id: SC-TC08-052
+  type: physical
+  facet: measurement
+  priority: core
+  page: 16
+  quote_ru: Оценка для длины стержня в 1 м при частоте вращения 40 Гц даёт значение 253 электрона на конце стержня.
+    Это соответствует дипольному моменту стержня 0,4 мкКлм. Его достаточно для создания затравочного заряда, пролетающего
+    возле обкладки П-образного конденсатора.
+  statement_en: 'Estimate for a 1 m rod at 40 Hz rotation: 253 electrons at the rod end, corresponding to a rod
+    dipole moment of 0.4 µC·m — sufficient for creating a seed charge flying near a П-shaped capacitor plate; the
+    inertial charge separation effect is proportional to the cube of the rod length, increasing for larger rods,
+    and its value will be further increased by the Maxwell displacement current localized inside the capacitor.'
+  quantities:
+  - l = 1 м
+  - f = 40 Гц
+  - N = 253 электрона
+  - p = 0,4 мкКл·м
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - inertial-separation
+  - estimate
+  - dipole
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-053
+  type: physical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Их число существенно зависит от температуры пузырька. При комнатных температурах заряд пузырька маленький,
+    а при температурах закипания плазмы твёрдого тела его значение может быть на два-три порядка больше.
+  statement_en: 'Relation (2) is obtained in the point-dipole approximation and should be considered an estimate:
+    in reality a bubble of finite diameter forms on the external surface, receiving charge from the conduction electrons
+    of the metal; its value can be significantly larger but is bounded above by the conduction-electron concentration,
+    which depends essentially on the bubble temperature — at room temperatures the bubble charge is small, while
+    at solid-plasma boiling temperatures its value can be two-three orders of magnitude larger.'
+  quantities:
+  - q(пузырька при T закипания) на 2–3 порядка больше, чем при комнатной T
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - temperature-dependence
+  - evo
+  notes: ''
+  relations: []
+- id: SC-TC08-054
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 16
+  quote_ru: В устройствах Мандельштама-Папалекси на одной пластине таких стержней было 16. У Баумана эта цифра изменялась
+    от устройства к устройству.
+  statement_en: If a disk with rods is rotated, the charge bubbles will be on the external surface of the disk and
+    the number of regions occupied by them will equal the number of conducting rods; disk rotation increases the
+    displacement current; the Mandelstam-Papaleksi devices had 16 such rods on one plate, while Bauman's number
+    varied from device to device.
+  quantities:
+  - число стержней = 16 (Мандельштам-Папалекси)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - мандельштам-папалекси
+  - design
+  notes: ''
+  relations: []
+- id: SC-TC08-055
+  type: physical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Пузырёк зарядов, перемещаясь внутри П-образной пластины, взаимодействует с ней, и, при этом, формирует
+    ток смещения Максвелла, уходящий в пластины конденсатора (см. раздел 4).
+  statement_en: Inertial charge separation in the conducting rod leads to formation of a charge bubble on the rod's
+    external surface; in motion it forms an inhomogeneous alternating electric field in space; moving inside the
+    П-shaped plate, the charge bubble interacts with it and forms a Maxwell displacement current going into the
+    capacitor plates; the studied regularities allow understanding how to increase the seed charge on conducting
+    sectors in mechano-electric AC energy converters; the converter can also be made on one rotating plate — increasing
+    the number of plates, building packet plates, and their counter-motion will increase the total seed charge generated
+    by the plates.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - ток-смещения
+  - device-principle
+  notes: ''
+  relations: []
+- id: SC-TC08-056
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: Пузырьки зарядов на обкладках формируют переменный дипольный момент, который порождает закольцованный
+    в проводящей цепи с нагрузкой ток смещения Максвелла.
+  statement_en: 'The physical principles of current sources on varicaps at room temperature: the variable mechanical
+    capacitance of rotation, via inertial charge separation on the radial electrode, converts the charge of solid-body
+    conduction electrons into a periodic sequence of charge bubbles; the charge bubbles on the plates form an alternating
+    dipole moment which generates a Maxwell displacement current looped in the conducting circuit with load.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - device-principle
+  - ток-смещения
+  - evo
+  notes: ''
+  relations: []
+- id: SC-TC08-057
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: Сам Максвелл считал, что среди двух токов, вводимых им в электродинамику, истинным электрическим током
+    является ток смещения (см. дискуссии в [17]).
+  statement_en: 'Maxwell himself considered that of the two currents he introduced into electrodynamics the displacement
+    current is the true electric current; the итог of the intuitive discussion: in capacitance charging one conduction
+    current can pass into two displacement currents, and in capacitance discharge two displacement currents can
+    pass into one conduction current displaying displacement-current properties.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - maxwell
+  - ток-смещения
+  - history
+  notes: ''
+  relations: []
+- id: SC-TC08-058
+  type: physics
+  facet: theory
+  priority: core
+  page: 18
+  quote_ru: Независимо от конструктива ёмкости один ток смещения оказывается замкнутым на внешнее пространство.
+    Он выходит из ёмкости через боковую поверхность и замыкается на боковую поверхность омического сопротивления.
+  statement_en: 'Each displacement current can be a source of electromagnetic energy whose flux density changes
+    direction in space depending on the capacitor charge/discharge phase; independently of the capacitance design,
+    one displacement current turns out to be closed onto the external space: it exits the capacitance through the
+    lateral surface and closes onto the lateral surface of the ohmic resistance; the other part of the displacement
+    current goes into the surrounding space — the ''non-conducting'' channel of energy transfer by the capacitor.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - energy-flow
+  notes: ''
+  relations: []
+- id: SC-TC08-059
+  type: physics
+  facet: theory
+  priority: core
+  page: 19
+  quote_ru: Из соотношения (4) видно, что ток смещения всегда содержит две компоненты. Одна связана со скоростью
+    изменения напряжённости электрического поля. Она образована движением либо одиночных, либо множественных пузырьков
+    зарядов внутри конденсатора. Вторая компонента связана со скоростью изменения вектора поляризации.
+  statement_en: 'Any alternating current flowing in an ohmic conductor, inductance, or through a capacitance can
+    contain a displacement-current component; increasing its frequency always leads to a second current in the conductor
+    — the displacement current formed by the ''bound'' electrons of the crystal lattice in oscillatory motion; from
+    relation (4) the displacement current always contains two components: one connected with the rate of change
+    of the field strength, formed by the motion of single or multiple charge bubbles inside the capacitor; the second
+    connected with the rate of change of the polarization vector, formed by the motion of bound charges at oscillation
+    of multiple dipole moments.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - components
+  notes: ''
+  relations: []
+- id: SC-TC08-060
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 19
+  quote_ru: ток пузырьков зарядов, а
+  statement_en: The total displacement current arising inside the capacitor can be represented in averaged form
+    iM = i1 + i2 (eq. (6)), where i1 = 2πνNne is the current of charge bubbles and i2 = 2πνN0q0 is the current of
+    dipole moments formed from charge bubbles; N is the number of electrons in a bubble, n the number of bubbles,
+    e the electron charge, N0 the number of dipole moments, q0 the charge of one dipole moment created from bubbles.
+  quantities: []
+  equations:
+  - i_M = i_1 + i_2
+  - i_1 = 2\pi\nu N n e
+  - i_2 = 2\pi\nu N_0 q_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - ток-смещения
+  notes: formula glyphs OCR-degraded in source; LaTeX best-effort.
+  relations: []
+- id: SC-TC08-061
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: Второй ток появляется при заполнении конденсатора какой-либо средой. Это может быть газ, жидкость, проводящее
+    твёрдое тело или его опилки. Важнейший параметр – значение среднего дипольного момента, образованного пузырьками
+    зарядов. Самый высокий дипольный момент у нагретой плазмы.
+  statement_en: 'The appearance of two displacement currents in the capacitor is due to different physical nature:
+    the first current is determined by the electrode geometry (small for ball electrodes, increasable by point geometry
+    of the plate); the second appears when the capacitor is filled with some medium — gas, liquid, conducting solid
+    body, or its chips; the most important parameter is the value of the mean dipole moment formed by the charge
+    bubbles; the highest dipole moment is in heated plasma, where a boiling temperature always exists at which the
+    largest number of dipole moments from charge bubbles arises; increasing the dipole moments increases the displacement
+    current.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - dipole
+  - boiling-temperature
+  notes: ''
+  relations: []
+- id: SC-TC08-062
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: Число дипольных моментов существенно зависит от температуры и от сорта среды. Переход к твёрдому телу
+    увеличивает концентрацию свободных электронов, и, стало быть, увеличивает количество дипольных моментов.
+  statement_en: 'The number of dipole moments depends essentially on temperature and medium sort: transition to
+    solid body increases the free-electron concentration and hence the number of dipole moments; at room temperatures
+    they are few, while at temperatures near the plasma boiling point their number can be significantly larger.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dipole
+  - temperature-dependence
+  notes: ''
+  relations: []
+- id: SC-TC08-063
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: В неподвижном варикапе с плазменным заполнением возможно существование критической плотности закольцованного
+    тока смещения. При её наличии возникает замкнутая энергетическая цепочка с таким уровнем энергии, при которой
+    варикап сам становится неисчерпаемым источником тепловой и электрической энергии.
+  statement_en: In a stationary varicap with plasma filling, the existence of a critical density of looped displacement
+    current is possible; at its presence a closed energy chain arises with such an energy level at which the varicap
+    itself becomes an inexhaustible source of thermal and electric energy.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - critical-current-density
+  - inexhaustible-source
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-064
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 20
+  quote_ru: Мне кажется, что критическая плотность тока смещения была впервые зарегистрирована в экспериментах Росси-Фокарди
+    [18-22] (смотри раздел 10). Она была обнаружена в закипающей плазме, насыщенной металлическими опилками. Варикап
+    переходил в состояние источника непрерывной генерации тепловой и электрической энергии и не требовал для своей
+    работы ископаемого топлива.
+  statement_en: 'In the author''s opinion the critical displacement current density was first registered in the
+    Rossi-Focardi experiments: it was discovered in boiling plasma saturated with metal chips; the varicap passed
+    into the state of a source of continuous generation of thermal and electric energy and required no fossil fuel
+    for its operation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - rossi-focardi
+  - critical-current-density
+  - excess-energy
+  - избыточн
+  notes: ''
+  relations:
+  - to: SC-TC08-063
+    kind: supports
+- id: SC-TC08-065
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: Отметим, что закон электромагнитной индукции определяется источниками вторичного (магнитного) поля,
+    а закон электродинамической индукции определяется источниками первичного (электрического) поля. Поэтому он более
+    эффективен, чем первый.
+  statement_en: The law of electromagnetic induction is determined by sources of the secondary (magnetic) field
+    while the law of electrodynamic induction is determined by sources of the primary (electric) field, therefore
+    it is more effective than the former; electrostatic energy conservation laws do not manifest themselves in this
+    law because all fields and currents depend on time — power conversion of alternating current should be expected
+    both downward and upward.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - law
+  - power-conversion
+  notes: ''
+  relations: []
+- id: SC-TC08-066
+  type: physical
+  facet: recipe
+  priority: core
+  page: 21
+  quote_ru: Преобразователь имеет простое схемное решение. В ограниченной области пространства создаётся газ осциллирующих
+    диполей. Он помещается вместо диэлектрика в конденсатор, нагруженный на омическое сопротивление (см. рис. 8).
+  statement_en: 'Law (5) forms the direction of a new energetics in which AC generation and power conversion are
+    performed by the Maxwell displacement current; the converter has a simple circuit solution: a gas of oscillating
+    dipoles is created in a bounded region of space and placed instead of the dielectric into a capacitor loaded
+    on an ohmic resistance; the converted power generated by the dipole gas into AC power will be released on the
+    resistance R and, as an electromagnetic wave, in the external space; if the resistance is absent, the power
+    will be released on the ohmic ''resistance'' of the surrounding space.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - создать газ осциллирующих диполей
+  - поместить его вместо диэлектрика в конденсатор
+  - нагрузить конденсатор на омическое сопротивление R
+  measurements: []
+  schematic_refs:
+  - Рис. 8
+  tags:
+  - recipe
+  - power-conversion
+  - КОДМ
+  notes: ''
+  relations: []
+- id: SC-TC08-067
+  type: physics
+  facet: theory
+  priority: core
+  page: 21
+  quote_ru: Циркуляция потоков электромагнитной энергии может возникать только в случае, когда источник электромагнитного
+    поля находится внутри варикапа.
+  statement_en: 'Circulation of electromagnetic energy fluxes can arise only when the electromagnetic field source
+    is inside the varicap: it is the region with gas of continuously oscillating dipoles placed inside the capacitor
+    plates — an active region, the ''reactor'' (current source) of the looped scheme, replacing the dielectric inside
+    the plates of an ordinary capacitor; generation of alternating current with frequency by the ''reactor'' into
+    a capacitor with ohmic resistance makes both displacement currents alternating at the same frequency.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - reactor
+  - КОДМ
+  - energy-flow
+  notes: ''
+  relations: []
+- id: SC-TC08-068
+  type: physics
+  facet: theory
+  priority: core
+  page: 22
+  quote_ru: Эксперименты показывают, что токи смещения, имеющие частоту гигагерцы, эффективно сжигают проводники
+    микросхем, на боковую поверхность которых попадают генерируемые ими электромагнитные поля.
+  statement_en: The amplitude of any displacement current is proportional to the AC frequency, while the amplitude
+    of the instantaneous power of the conduction current replaced by the displacement current is proportional to
+    the square of the frequency — a frequency dependence of heat-release power inside a conductor increasing the
+    'efficiency' of its release proportionally to the frequency square; experiments show that displacement currents
+    with gigahertz frequency effectively burn the conductors of microchips onto whose lateral surface the electromagnetic
+    fields generated by them fall.
+  quantities:
+  - i0 ∝ ν
+  - P0 ∝ ν^2
+  - f ~ гигагерцы
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - power
+  - microwave
+  notes: ''
+  relations: []
+- id: SC-TC08-069
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 22
+  quote_ru: Создание трансформатора, первичная обмотка которого состоит из тороидальной катушки, а вторичная содержит
+    один виток медной трубы (предложен А. Самбуком [27]) приводит к генерации килоамперных токов смещения Максвелла
+    в меди.
+  statement_en: 'A third cause of Maxwell displacement current generation is ''hidden'' in the law of electromagnetic
+    induction: creating a transformer whose primary winding is a toroidal coil and whose secondary contains one
+    turn of copper pipe (proposed by A. Sambuk) leads to generation of kiloampere Maxwell displacement currents
+    in the copper; they accompany the vortex-electric-field force lines in the pipe; the experiments showed high
+    efficiency of dynamic liquid heating by such current compared with heating the same liquid by direct current.'
+  quantities:
+  - 'токи смещения: килоамперные'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sambuk
+  - transformer
+  - dynamic-heating
+  - ток-смещения
+  notes: ''
+  relations: []
+- id: SC-TC08-070
+  type: physics
+  facet: theory
+  priority: core
+  page: 22
+  quote_ru: Нагрев оказывается аномальным для постоянного тока и естественным для тока смещения Максвелла. В этом
+    заключается причина аномального нагрева любой проводящей среды током смещения.
+  statement_en: The heating turns out to be anomalous for direct current and natural for the Maxwell displacement
+    current — herein lies the cause of the anomalous heating of any conducting medium by the displacement current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - anomalous-heating
+  - ток-смещения
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-071
+  type: physical
+  facet: recipe
+  priority: core
+  page: 22
+  quote_ru: Трансформаторную схему, предложенную в [27], можно заменить сетевым преобразователем тока проводимости
+    (ТП) в ток смещения (ТС) на ёмкости (см. рис. 9). Ориентацию VD2 нужно изменить.
+  statement_en: 'The transformer scheme can be replaced by a mains converter of conduction current (ТП) into displacement
+    current (ТС) on a capacitance (fig. 9, VD2 orientation changed): any electric kettle can be switched into such
+    a current converter — mains voltage with electric meter connected to points a and b, outputs c and d to the
+    kettle; calculations show that increasing the capacitance increases the liquid heating speed and decreases the
+    electric energy consumption for heating the same amount of liquid; the scheme uses an electrolytic capacitor;
+    extending: convert mains voltage through a diode bridge, connect a separate capacitance to the bridge in series
+    with the heater — the AC frequency doubles, increasing the conduction-to-displacement current conversion coefficient;
+    the fleet''s 400 Hz current sources can also test the idea — heating efficiency compared with 50 Hz mains should
+    increase by an order of magnitude.'
+  quantities:
+  - f = 400 Гц (флот) ⇒ эффективность нагрева × 10 (порядок)
+  - удвоение частоты диодным мостом
+  equations: []
+  materials:
+  - электролитический конденсатор
+  geometry: []
+  procedure_steps:
+  - подключить сетевое напряжение со счётчиком к точкам a-b
+  - выходы c-d подключить к чайнику
+  - варьировать ёмкость, измеряя скорость нагрева и потребление
+  - 'опционально: диодный мост + отдельная ёмкость последовательно с нагревателем (частота ×2)'
+  measurements: []
+  schematic_refs:
+  - Рис. 9
+  tags:
+  - recipe
+  - heating
+  - power-conversion
+  - electrical
+  notes: ''
+  relations:
+  - to: SC-TC08-070
+    kind: derives
+- id: SC-TC08-072
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 23
+  quote_ru: Если предложенная идея даст положительный результат, то дальнейшее увеличение эффективности нагрева
+    будет связано с разработкой нового класса конденсаторов с большими значениями тока смещения. В них рабочее напряжение
+    и ёмкость должны быть большими для заданной частоты работы варикапа.
+  statement_en: If the proposed idea gives a positive result, further increase of heating efficiency will be connected
+    with developing a new class of capacitors with large displacement-current values; their working voltage and
+    capacitance must be large for the given varicap operating frequency.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - capacitors
+  - program
+  notes: ''
+  relations: []
+- id: SC-TC08-073
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 24
+  quote_ru: Напряжения на электроскопах были измерены при движении заряда 1 нКл со скоростью 1 см/с. Они оказались
+    на уровне 800 В.
+  statement_en: 'Experiment 1 (A. Atamanchenko, 2021): two plates of a П-shaped capacitor with a charged metal ball
+    inside; electrometers connected to points a and b; periodic motion of the charge from A to B and back causes
+    the plate electrization effect (the displacement current formed by the field change charges and discharges the
+    electrometers); the voltages on the electrometers were measured at a charge of 1 nC moving at 1 cm/s — they
+    turned out to be at the level of 800 V.'
+  quantities:
+  - q = 1 нКл
+  - v = 1 см/с
+  - U ≈ 800 В
+  equations: []
+  materials:
+  - заряженный металлический шарик
+  - электрометры
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: напряжение на электроскопах
+    value: '800'
+    unit: В
+    conditions: движение заряда 1 нКл со скоростью 1 см/с между П-образными обкладками
+  schematic_refs:
+  - Рис. 10
+  tags:
+  - atamanchenko
+  - experiment
+  - electrization
+  notes: ''
+  relations: []
+- id: SC-TC08-074
+  type: physical
+  facet: experiment
+  priority: core
+  page: 24
+  quote_ru: Ток смещения уходит через пластины второго конденсатора в омическое сопротивление нагрузки, и становится
+  statement_en: 'Experiment 2: the electrization-by-displacement-current effect was first discovered, in the authors''
+    view, in the straight-through klystron: two grid capacitors of the same orientation on one line; in the first
+    capacitor the electron flow is velocity-modulated by the alternating field; in the second capacitor the ''bunched''
+    electron clusters, similar to charge bubbles, fly between the grids and electrify it; the displacement current
+    leaves through the second capacitor plates into the load ohmic resistance and becomes the source of an alternating
+    output voltage which is always greater than the voltage applied to the first capacitor.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - klystron
+  - ток-смещения
+  - voltage-gain
+  notes: quote truncated at the page-24 footer; continues 'источником переменного выходного напряжения...'.
+  relations: []
+- id: SC-TC08-075
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 25
+  quote_ru: Измерения указали на появление размаха потенциала на электрометрах в киловольты при вращении дипольного
+    момента величиной 10 нКлм с частотой 0,5 Гц [26].
+  statement_en: 'Experiment 3 (A. Atamanchenko, 2021): the oscillating charge is replaced by one electric dipole
+    rotating mechanically around its axis; the capacitor becomes a capacitor with oscillating dipole moment (КОДМ);
+    the experiments were conducted jointly with the TMSL physics teacher A. Atamanchenko in Taganrog; the measurements
+    indicated a kilovolt-scale potential swing on the electrometers at rotation of a dipole moment of 10 nC·m with
+    frequency 0.5 Hz.'
+  quantities:
+  - p = 10 нКл·м
+  - f = 0,5 Гц
+  - 'размах потенциала: киловольты'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: размах потенциала на электрометрах
+    value: киловольты
+    unit: В
+    conditions: вращение дипольного момента 10 нКл·м с частотой 0,5 Гц
+  schematic_refs:
+  - Рис. 11
+  - Рис. 12
+  tags:
+  - atamanchenko
+  - КОДМ
+  - experiment
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-076
+  type: physical
+  facet: recipe
+  priority: core
+  page: 25
+  quote_ru: На два акриловых диска были наклеены десятки радиальных проводящих пластин. Это увеличило количество
+    вращающихся дипольных моментов. Встречное вращение подняло частоту электризации П-образных пластин.
+  statement_en: 'Experiment 4 (P. Bauman, Testatika machine): dozens of radial conducting plates were glued onto
+    two acrylic disks, increasing the number of rotating dipole moments; counter-rotation raised the electrization
+    frequency of the П-shaped plates; the displacement current went into the П-shaped capacitor plates and threw
+    part of its power into a series oscillatory circuit on high-voltage Tesla coils for the consumer; the other
+    part of the energy went to plate self-rotation and friction losses; the self-rotation closed the electromagnetic
+    energy transfer channels back into the ''gas of oscillating dipoles'' — the closed energy chain technology became
+    an inexhaustible source of alternating current.'
+  quantities: []
+  equations: []
+  materials:
+  - два акриловых диска
+  - десятки радиальных проводящих пластин
+  geometry: []
+  procedure_steps:
+  - наклеить десятки радиальных проводящих пластин на два акриловых диска
+  - вращать диски навстречу друг другу
+  - снимать ток смещения П-образными пластинами в колебательный контур с катушками Теслы
+  - часть энергии возвращать на самовращение
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bauman
+  - testatika
+  - recipe
+  - excess-energy
+  - ЗЭЦ
+  notes: ''
+  relations: []
+- id: SC-TC08-077
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 26
+  quote_ru: Опыты показали существование трёх токов между электродами. Постоянного тока, создаваемого внешним источником
+    питания, хаотического тока с большими выбросами (первый ток Максвелла) и тока смещения (второй ток Максвелла),
+    излучаемого с боковой поверхности разряда.
+  statement_en: 'Experiment 5: the Katorgin-Marin experiments studied gas discharge in moving hydrogen plasma: plasma
+    was ignited between cylindrical capacitor plates and the capacitor turned into a ''plasma'' varicap with conducting
+    and capacitance properties arising from plasma charge separation on the electrodes by the external field; the
+    experiments showed three currents between the electrodes: direct current from the external supply, chaotic current
+    with large ejections (first Maxwell current), and displacement current (second Maxwell current) radiated from
+    the lateral surface of the discharge; the latter arose in the plasma from the periodic appearance and oscillating
+    motion of charge bubbles; the first two currents were closed through the calorimeter to the supply; the third
+    current led to powerful plasma radiation and power release on the calorimeter exceeding the mains power; all
+    kinds of energy were supplied by the volume of gas of oscillating dipoles inside the plasma capacitor; at a
+    seed current source of 35 kW such an energy redistribution was discovered in which the main role was played
+    by the powerful plasma radiation.'
+  quantities:
+  - P(затравочный источник) = 35 кВт
+  equations: []
+  materials:
+  - водородная плазма
+  - цилиндрические обкладки конденсатора
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: мощность на калориметре
+    value: '> сетевой'
+    unit: '-'
+    conditions: третий ток смещения (второй ток Максвелла), плазменный варикап
+  - quantity: мощность затравочного источника
+    value: '35'
+    unit: кВт
+    conditions: опыты Каторгина-Марина
+  schematic_refs: []
+  tags:
+  - каторгин-марин
+  - plasma
+  - ток-смещения
+  - calorimetry
+  - excess-energy
+  - избыточн
+  notes: ''
+  relations: []
+- id: SC-TC08-078
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 27
+  quote_ru: Напряжённость пробоя в таком разряде была меньше, чем в классическом разряде в 1,5 раза. Было обнаружено
+    удивительное явление. Токовый плазменный шнур линейной молнии при отключении питания продолжал себя длительно
+    само поддерживать.
+  statement_en: 'Experiment 6: the subcritical gas discharge of I. Zhuravkov (Moscow, 2000) arises in a capacitor
+    in air consisting of a point and a plane electrode; the breakdown field strength in such a discharge was 1.5
+    times less than in the classical discharge; an astonishing phenomenon was discovered: the current plasma filament
+    of linear lightning, after switching off the power, continued to sustain itself for a long time — i.e. a mode
+    was discovered in the gas discharge in which the displacement current becomes critical.'
+  quantities:
+  - E(пробоя) в 1,5 раза меньше классического разряда
+  equations: []
+  materials:
+  - острийный и плоский электроды
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 13
+  tags:
+  - журавков
+  - discharge
+  - self-sustained
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-079
+  type: physics
+  facet: theory
+  priority: core
+  page: 27
+  quote_ru: Пузырьки создают газ осциллирующих дипольных моментов, порождающих ток смещения в атмосферной плазме,
+    также как и в водородной плазме Каторгина- Марина. Ток смещения замыкается через конденсатор на внешнее пространство,
+    образует замкнутую энергетическую цепочку и возвращается назад через электроды, нагревая плазменный шнур.
+  statement_en: 'Where does the autonomous discharge draw energy from? In the author''s opinion, from the periodic
+    motion of short-lived charge bubbles arising in the glowing filament: the bubbles create a gas of oscillating
+    dipole moments generating displacement current in the atmospheric plasma as in the Katorgin-Marin hydrogen plasma;
+    the displacement current closes through the capacitor to the external space, forms a closed energy chain and
+    returns back through the electrodes, heating the plasma filament; the plasma continuously generates such displacement-current
+    energy as suffices to sustain the discharge and its glow.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - журавков
+  - ЗЭЦ
+  - ток-смещения
+  - evo
+  notes: ''
+  relations: []
+- id: SC-TC08-080
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 27
+  quote_ru: то можно считать, что И. Журавков (Москва, г. Троицк, 2022 г.) первым создал неподвижный, высоковольтный,
+    длительно работающий реактор само воспроизводимой энергетики на плазменном двухполюснике. В таком режиме работы
+    реактору не нужна энергия извне.
+  statement_en: If this is not information 'with a catch' (it was not published but transmitted by e-mail), then
+    I. Zhuravkov (Moscow, Troitsk, 2022) was the first to create a stationary, high-voltage, long-running reactor
+    of self-reproducing energetics on a plasma two-pole; in this operating mode the reactor needs no external energy
+    — the energy to the discharge is supplied by charge bubbles located in the current filament between the capacitor
+    plates.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - журавков
+  - self-reproducing
+  - reactor
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-081
+  type: physics
+  facet: theory
+  priority: core
+  page: 27
+  quote_ru: Приведём математическое доказательство того, что в законе электродинамической индукции на определённых
+    частотах переменного тока привычные законы сохранения энергии не выполняются [26].
+  statement_en: 'A mathematical proof is given that in the law of electrodynamic induction, at certain AC frequencies,
+    the usual energy conservation laws do not hold; the AC calculation uses the oscillating dipole gas (gas of oscillating
+    charge bubbles) placed in the capacitor inducing alternating charge on the external plates, with two channels
+    of electromagnetic energy transfer: 1 — conducting, 2 — non-conducting; the charge on the plates varies as q
+    = q0 sin ωt, the voltage is in phase with the charge, part of the displacement current flows through the conducting
+    channel as iM = dq/dt = i0 cos ωt with amplitude i0 = ωq0 = 2πνq0 linear in frequency.'
+  quantities: []
+  equations:
+  - q = q_0 \sin \omega t
+  - i_M = dq/dt = i_0 \cos \omega t
+  - i_0 = 2\pi\nu q_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 14
+  tags:
+  - mathematical
+  - energy-conservation
+  - debt-candidate
+  notes: formulas OCR-degraded in source; LaTeX best-effort.
+  relations: []
+- id: SC-TC08-082
+  type: physics
+  facet: theory
+  priority: core
+  page: 28
+  quote_ru: Причина нарушения закона Кирхгофа в существовании дополнительной электродвижущей силы, возникающей на
+    омическом сопротивлении из-за наличия непроводящего канала передачи электромагнитной энергии 2.
+  statement_en: The amplitude voltage values are equal only at the scale of the system angular frequency ω0 = 1/RC;
+    the cause of the Kirchhoff law violation is the existence of an additional electromotive force arising on the
+    ohmic resistance because of the presence of the non-conducting channel 2 of electromagnetic energy transfer;
+    the energy stored by the capacitor is positive at any moment, and the capacitor power oscillates at the doubled
+    frequency; the power on the active resistance is positive at any moment with amplitude proportional to the frequency
+    square; the ratio of amplitude power values grows with frequency as ν/ν* where ν* = (4πRC)^-1 = ω0/4π = ν0/2
+    is the characteristic frequency of the system containing the КОДМ capacitor and the ohmic resistance — half
+    the system frequency scale.
+  quantities: []
+  equations:
+  - \omega_0 = 1/RC
+  - P_{M0}/P_{C0} = \nu/\nu_*
+  - \nu_* = (4\pi RC)^{-1} = \omega_0/4\pi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - kirchhoff
+  - characteristic-frequency
+  notes: formulas OCR-degraded; LaTeX best-effort.
+  relations: []
+- id: SC-TC08-083
+  type: physics
+  facet: theory
+  priority: core
+  page: 29
+  quote_ru: По-видимому, этот параметрический резонанс мощности возникает в том случае, когда плотность тока смещения
+    достигает критических значений. Варикап становится автономным неисчерпаемым источником энергии.
+  statement_en: 'At equal frequencies ν = ν* the conversion coefficient is 1: the amplitude powers pumped through
+    the channels between the ohmic resistance and the capacitor are equal — a condition of a peculiar ''resonance''
+    called ''parametric'' power resonance; apparently this parametric power resonance arises when the displacement
+    current density reaches critical values — the varicap becomes an autonomous inexhaustible energy source; for
+    ν < ν* the amplitude power on the capacitor exceeds that on the active resistance (extra power taken by the
+    displacement current and carried from the resistance to the capacitor); super-unity power conversion arises
+    for ν > ν*: the displacement current throws extra power from the capacitor into the ohmic resistance through
+    channel 2.'
+  quantities:
+  - ν = ν* ⇒ параметрический резонанс мощности
+  - ν > ν* ⇒ СЕП
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - parametric-power-resonance
+  - critical-current-density
+  - super-unity
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-084
+  type: physics
+  facet: theory
+  priority: normal
+  page: 29
+  quote_ru: Она разделяет области ниже единичного преобразования НЕП (отмечена цифрой 1) и сверх единичного преобразования
+    СЕП мощности (отмечена цифрой 2).
+  statement_en: The dependence of the power conversion coefficient on frequency (fig. 15) is a straight line in
+    the indicated variables separating the below-unity conversion НЕП region (marked 1) from the super-unity conversion
+    СЕП region (marked 2); the frequency dependence explains the physical causes of the absence of conservation
+    laws in the energetics of creating electric energy sources on the Maxwell displacement current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 15
+  tags:
+  - power-conversion
+  - frequency-dependence
+  notes: ''
+  relations: []
+- id: SC-TC08-085
+  type: physical
+  facet: measurement
+  priority: core
+  page: 30
+  quote_ru: Амплитуда заряда на ёмкости 2,2  10 4 Кл. Амплитудное значение тока смещения 69 мА. Амплитуда мощности
+    на омическом сопротивлении 37,6 Вт превышает амплитудное значение мощности на ёмкости в 5 раз.
+  statement_en: 'Estimates for conversion coefficient η = 5 at mains frequency 50 Hz with amplitude voltage 220
+    V: characteristic frequency ν* = 10 Hz; for a capacitor with C = 1 µF one obtains R = 7.9 kΩ; charge amplitude
+    on the capacitance 2.2·10^-4 C; displacement current amplitude 69 mA; power amplitude on the ohmic resistance
+    37.6 W exceeds the amplitude power on the capacitance 5 times; hence the circuit of fig. 14 can be tuned to
+    the super-unity power conversion mode arising when the amplitude AC power in the capacitor is less than the
+    power released on the ohmic resistance; in this mode the displacement currents throw extra power by the electromagnetic-field
+    flux from the capacitor lateral surface through the lateral surface of the ohmic resistance, allowing regulation
+    of the thermal power increase within a range limited by the circuit design.'
+  quantities:
+  - η = 5
+  - ν = 50 Гц
+  - U0 = 220 В
+  - ν* = 10 Гц
+  - C = 1 мкФ
+  - R = 7,9 кОм
+  - q0 = 2,2·10^-4 Кл
+  - i0 = 69 мА
+  - P_R = 37,6 Вт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: амплитуда тока смещения
+    value: '69'
+    unit: мА
+    conditions: сетевая частота 50 Гц, C=1 мкФ, η=5
+  - quantity: амплитуда мощности на омическом сопротивлении
+    value: 37,6
+    unit: Вт
+    conditions: в 5 раз превышает мощность на ёмкости
+  schematic_refs:
+  - Рис. 14
+  - Рис. 15
+  tags:
+  - power-conversion
+  - design-estimate
+  - super-unity
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-086
+  type: physical
+  facet: process
+  priority: core
+  page: 30
+  quote_ru: Переход к неисчерпаемому источнику электрической или тепловой энергии потребует добавить канал обратного
+    движения энергии из омического сопротивления в газ диполей.
+  statement_en: 'The transition to an inexhaustible source of electric or thermal energy will require adding a channel
+    of backward energy motion from the ohmic resistance into the dipole gas: part of the power released on the ohmic
+    resistance must be taken and passed to maintain continuous oscillation of the dipole gas; the existence of a
+    closed energy chain on displacement current was first discovered in P. Bauman''s experiments with the mechano-electric
+    converter, in I. Zhuravkov''s experiments with the plasma filament in the atmosphere, and in the solid-plasma
+    heating elements of Rossi-Focardi.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - отбирать часть мощности с омического сопротивления
+  - передавать её для поддержания непрерывной осцилляции газа диполей
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ЗЭЦ
+  - inexhaustible-source
+  - feedback
+  notes: ''
+  relations: []
+- id: SC-TC08-087
+  type: physics
+  facet: theory
+  priority: normal
+  page: 31
+  quote_ru: Его подключение увеличивало энергию колебаний варикапа в несколько раз. Объяснение этого эффекта существованием
+    токовой неустойчивости колебательного контура было дано в [30].
+  statement_en: All the studied mechano-electric energy conversion systems were loaded on a series oscillatory circuit
+    whose connection increased the varicap oscillation energy several times; the explanation of this effect by the
+    existence of a current instability of the oscillatory circuit was given in [30], where a physico-mathematical
+    model was found describing the periodic charge variation with a mechanically harmonically modulated capacitance
+    in a series oscillatory circuit without a current source.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 16
+  tags:
+  - токовая-неустойчивость
+  - varicap
+  notes: ''
+  relations: []
+- id: SC-TC08-088
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 31
+  quote_ru: 'В дифференциальное уравнение второго порядка, записанного относительно переменного заряда в контуре,
+    вошли три безразмерных параметра системы: добротность Q, отношение частоты модуляции ёмкости к частоте колебательного
+    контура с невозмущённой ёмкостью n   / 0 , приведённая амплитуда модуляции ёмкости   C / C0 .'
+  statement_en: 'The second-order differential equation for the variable charge in the circuit contains three dimensionless
+    system parameters: quality Q, ratio n of the capacitance modulation frequency to the unperturbed-circuit frequency,
+    and reduced modulation amplitude γ = ΔC/C0; the equation y'''' + y''/Q + y/(1+γ cos(nx)) = 0 with substitution
+    y = z(x)exp(-x/2Q) reduces to the Hill equation z'''' + Ω²z = 0 with frequency depending on γ, n, Q and time;
+    the canonical Hill equation describes a mechanical oscillatory system whose generalized ''stiffness'' depends
+    on two competing factors — static dissipation ~1/4Q² and dynamic pumping by the periodic restoring ''force'';
+    the dynamic pumping factor depends on n and in the special case n=2 gives the Mandelstam-Papaleksi parametric
+    resonance; dynamic pumping exists at all frequencies, so the term ''parametric resonance'' determines nothing.'
+  quantities: []
+  equations:
+  - y'' + y'/Q + y/(1+\gamma\cos(nx)) = 0
+  - z'' + \Omega^2 z = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - hill-equation
+  - токовая-неустойчивость
+  notes: formulas OCR-degraded in source; LaTeX best-effort. quote contains the source's private-use OCR glyphs
+    verbatim.
+  relations: []
+- id: SC-TC08-089
+  type: physics
+  facet: theory
+  priority: core
+  page: 33
+  quote_ru: Токовая неустойчивость проявляет себя в том, что приводит к неограниченному росту колебаний заряда и
+    тока ёмкости для определённых значений глубины модуляции реактивного параметра. Для глубины модуляции в 20 %,
+    амплитуда заряда в контуре увеличивается в 6 раз за восемь периодов колебаний. Для глубины модуляции в 80 %
+    на том же количестве периодов, амплитуда зарядов в контуре возрастает более чем в 10 000 раз.
+  statement_en: 'Numerical solution of the Hill equation shows three classes of periodic solutions: a low-Q circuit
+    gives damped oscillations; a medium-Q circuit gives beats arising at any pumping frequency; a high-Q circuit
+    gives oscillations growing in time with increment depending on system parameters — these describe the development
+    of the circuit current instability; the current instability manifests itself in unlimited growth of charge and
+    capacitance-current oscillations for certain modulation depths of the reactive parameter: at 20% modulation
+    depth the charge amplitude in the circuit increases 6 times in eight oscillation periods; at 80% depth over
+    the same periods the charge amplitude grows more than 10,000 times.'
+  quantities:
+  - глубина модуляции 20% ⇒ амплитуда ×6 за 8 периодов
+  - глубина 80% ⇒ амплитуда > 10 000 раз
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: рост амплитуды заряда
+    value: в 6 раз
+    unit: ×
+    conditions: глубина модуляции 20%, 8 периодов
+  - quantity: рост амплитуды заряда
+    value: '> 10 000 раз'
+    unit: ×
+    conditions: глубина модуляции 80%, 8 периодов
+  schematic_refs: []
+  tags:
+  - токовая-неустойчивость
+  - growth-rate
+  notes: ''
+  relations: []
+- id: SC-TC08-090
+  type: physics
+  facet: theory
+  priority: core
+  page: 33
+  quote_ru: Причины возникновения неустойчивости в контуре связаны с физическими причинами появления пузырьков зарядов
+    в твердотельном проводнике. Проводник начинает проявлять свойства плазмы. В момент проявления неустойчивости
+    плазма генерирует пузырьки зарядов прямо в цепи. Процессы синтеза/распада этих пузырьков увеличивают электрическую
+    энергию контура.
+  statement_en: 'The causes of the circuit instability are connected with the physical causes of charge bubble appearance
+    in the solid-state conductor: the conductor begins to show plasma properties; at the moment of instability the
+    plasma generates charge bubbles right in the circuit — the synthesis/decay processes of these bubbles increase
+    the electric energy of the circuit; in real conditions (circuit in air) the instability will be limited by air
+    discharge processes creating gaseous plasma between the capacitor plates; further development is not described
+    by the Hill equation and the instability saturates.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - токовая-неустойчивость
+  - synthesis-decay
+  - plasma
+  notes: ''
+  relations: []
+- id: SC-TC08-091
+  type: physics
+  facet: theory
+  priority: normal
+  page: 33
+  quote_ru: Как показали опыты Мандельштама-Папалекси, токовая неустойчивость может возникать в контуре, в котором
+    переменная ёмкость  постоянна. А постоянная индуктивность заменена на переменную индуктивность.
+  statement_en: As the Mandelstam-Papaleksi experiments showed, the current instability can arise in a circuit in
+    which the variable capacitance is constant and the constant inductance is replaced by a variable one (mechanical
+    rotation); the relations obtained for the current instability can describe such a circuit section with variable
+    inductance; but the author believes the mechanical inductance played the role of a variable capacitance — the
+    inductance had moving metal parts which created a varicap, and the current instability arose on another varicap
+    connected to the circuit.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - мандельштам-папалекси
+  - токовая-неустойчивость
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-092
+  type: physical
+  facet: recipe
+  priority: core
+  page: 33
+  quote_ru: Если в контуре ёмкость заменить разрядником Теслы и подключить его к индуктивности, то в такой цепи
+    при протекании внешнего тока также будет развиваться токовая неустойчивость. Она будет обеспечивать высокие
+    напряжения на катушке Теслы.
+  statement_en: 'If the circuit capacitance is replaced by a Tesla discharger connected to the inductance, then
+    in such a circuit, with an external current flowing, a current instability will also develop providing high
+    voltages on the Tesla coil: the voltage on the inductance is proportional to the rate of current change in the
+    circuit, and the instability forms charge bubbles which are discrete and create a large value of the rate of
+    change of the chaotic current; one can try to make self-reproducing energetics devices from the listed devices
+    — to obtain such properties the devices must be studied at frequencies at which the power of the closed displacement
+    current provides continuous generation of high-concentration charge bubbles, ensuring the system''s transition
+    from a damped system to an inexhaustible displacement-current source; the discovered current instability can
+    be applied to increase the output power of varicaps of arbitrary fabrication technology.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tesla
+  - токовая-неустойчивость
+  - self-reproducing
+  - program
+  notes: ''
+  relations: []
+- id: SC-TC08-093
+  type: physical
+  facet: recipe
+  priority: core
+  page: 34
+  quote_ru: Неподвижные варикапы содержат цепь затравочного тока смещения и цепь вторичного тока смещения, который
+    может разделиться на ток проводящей цепи и ток «непроводящего канала».
+  statement_en: 'All the studied ways of creating current from charge bubbles required mechanical motion to loop
+    the circuit in which the displacement current arose; of interest are circuits with a stationary varicap: stationary
+    varicaps contain a seed displacement current circuit and a secondary displacement current circuit which can
+    divide into the conducting-circuit current and the ''non-conducting channel'' current; the varicaps can contain
+    plasma formed in gas, liquid, solid body, or its chips.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - stationary-varicap
+  - recipe
+  notes: ''
+  relations: []
+- id: SC-TC08-094
+  type: physical
+  facet: recipe
+  priority: core
+  page: 34
+  quote_ru: Он состоит из двух металлических электродов, помещённых в обкладки П-образного конденсатора. На выводы
+    a,b подаётся высоковольтное переменное напряжение определённой частоты. Для проявления эффектов высоковольтной
+    электрофизики напряжение, приложенное к клеммам a b, должно быть больше 10 кВ, а расстояние между электродами
+    больше 5 мм.
+  statement_en: One simple variant of a varicap with points (fig. 17) consists of two metal electrodes placed in
+    the plates of a П-shaped capacitor; high-voltage AC voltage of a definite frequency is fed to terminals a,b
+    — for the manifestation of high-voltage electrophysics effects the voltage must exceed 10 kV and the electrode
+    distance exceed 5 mm; the voltage forms the first (seed) displacement current, alternately charging the stationary
+    electrodes and forming between them a variable dipole electric moment replacing the dipole gas; to outputs c-d
+    either an ohmic resistance is connected (a second displacement current flows through it) or the c-d output can
+    be made pointed — a pointed output is loaded on the external space and always forms in it a third displacement
+    current of the 'non-conducting channel' closing the electrodes c-d; the larger the electrode distance and the
+    AC voltage amplitude, the larger the dipole moment created between a-b.
+  quantities:
+  - U > 10 кВ
+  equations: []
+  materials: []
+  geometry:
+  - расстояние между электродами > 5 мм
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 17
+  tags:
+  - recipe
+  - stationary-varicap
+  - seed-current
+  notes: ''
+  relations: []
+- id: SC-TC08-095
+  type: physical
+  facet: recipe
+  priority: core
+  page: 35
+  quote_ru: Если варикап на рис. 17 поместить в воздух, то при определённых расстояниях между остриями (пробивная
+    напряжённость поля 2 кВ/мм) возникнет газовый разряд. В воздухе появятся пузырьки зарядов, и их дипольные моменты
+    увеличат вакуумный затравочный ток смещения на порядок.
+  statement_en: 'If the varicap of fig. 17 is placed in air, then at certain point distances (breakdown field strength
+    2 kV/mm) a gas discharge will arise: charge bubbles will appear in the air and their dipole moments will increase
+    the vacuum seed displacement current by an order of magnitude; changing the electrode distance from 5 to 10
+    mm will give a single current filament; measuring the thermal, electric input, electric output, and radiation
+    energies allows calculating the ratio of the electric, thermal, and consumed discharge energies — the radiation
+    energy will be suppressed by the small lateral surface of the current filament.'
+  quantities:
+  - E(пробивная) = 2 кВ/мм
+  - d(электроды) = 5–10 мм
+  - затравочный ток × 10 (порядок)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - gas-discharge
+  - evo
+  - измерения
+  notes: ''
+  relations: []
+- id: SC-TC08-096
+  type: physical
+  facet: procedure
+  priority: core
+  page: 35
+  quote_ru: Изменяя напряжение, подаваемого на вход варикапа, можно поискать режим критической плотности тока смещения.
+    Третий ток смещения всегда замкнут на окружающее пространство, и создаёт энергетическую цепочку. Если ток в
+    ней приблизится к критическому току Максвелла, то варикап переходит в состояние источника с непрерывной генерацией
+    переменного тока. Затравочный ток можно выключить.
+  statement_en: 'By varying the voltage fed to the varicap input one can search for the critical displacement current
+    density mode: the third displacement current is always closed onto the surrounding space and creates an energy
+    chain; if the current in it approaches the critical Maxwell current, the varicap passes into the state of a
+    source with continuous alternating-current generation and the seed current can be switched off.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - изменять напряжение на входе варикапа
+  - приблизить ток цепи к критическому току Максвелла
+  - отключить затравочный ток после перехода в режим непрерывной генерации
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - critical-current-density
+  - inexhaustible-source
+  notes: ''
+  relations: []
+- id: SC-TC08-097
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 35
+  quote_ru: Плотность тока смещения в схеме можно увеличивать внешним дополнительным нагревом острийных электродов
+    до температуры 1000 К. При этой температуре в плазме твёрдого тела электродов возникают пузыри с большим значением
+    зарядов, и их диполи.
+  statement_en: 'The displacement current density in the circuit can be increased by external additional heating
+    of the point electrodes to a temperature of 1000 K: at this temperature bubbles with large charge values and
+    their dipoles arise in the solid plasma of the electrodes, increasing the displacement current component created
+    by the gas-discharge gap; the discharge power can be increased in different ways — connecting single filaments
+    in parallel or creating plates with many point electrodes; increasing the total area of the radiated surface
+    will increase the plasma radiation power; varying the plasma filling of the varicap allows forming the most
+    diverse energy converters, both reproducible and self-reproducible.'
+  quantities:
+  - T(нагрев электродов) = 1000 К
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - heating
+  - scaling
+  notes: ''
+  relations: []
+- id: SC-TC08-098
+  type: physical
+  facet: recipe
+  priority: core
+  page: 36
+  quote_ru: Собрать схему кольцевой раскачки тока смещения в проводящем канале, представленную на рис. 18. Выход
+    варикапа подключить к последовательному колебательному контуру, индуктивность которого выполнена в виде трансформатора.
+  statement_en: 'On the varicap (fig. 18) one can verify the possibility of a closed energy chain technology: assemble
+    the ring pumping scheme of displacement current in the conducting channel — connect the varicap output to a
+    series oscillatory circuit whose inductance is made as a transformer; connect the transformer''s second inductance
+    L2 to the varicap input 1-2; connect the Seed Current Source (ИЗТ) to the same terminals 1-2 through switches;
+    in the circuit the first displacement current is the seed one in the varicap, the second displacement current
+    flows in the circuit, and the third closes the ''non-conducting channel''; the inductive transformer L1,L2 can
+    be replaced by a varicap with arbitrary switching.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - подключить выход варикапа к последовательному контуру с трансформаторной индуктивностью
+  - вторую индуктивность L2 подключить на вход 1-2 варикапа
+  - подключить ИЗТ к клеммам 1-2 через выключатели
+  measurements: []
+  schematic_refs:
+  - Рис. 18
+  tags:
+  - recipe
+  - ЗЭЦ
+  - ring-pumping
+  notes: ''
+  relations: []
+- id: SC-TC08-099
+  type: physical
+  facet: procedure
+  priority: core
+  page: 36
+  quote_ru: Частота внешнего контура должна совпадать с частотой, на которой коэффициент передачи мощности наибольший.
+    Выходная обмотка трансформатора возвращает энергию на вход варикапа 1-2. Изменением времени включения ИЗТ и
+    его амплитуды во время запуска ищем режим «критического тока смещения»
+  statement_en: The external circuit frequency must coincide with the frequency at which the power transfer coefficient
+    is largest; the transformer output winding returns energy to the varicap input 1-2; by varying the ИЗТ switch-on
+    time and its amplitude during the start we seek the 'critical displacement current' mode — at that moment a
+    ring energy transfer by means of the displacement current arises in the circuit; the presence of the ring energy
+    transfer is verified by an LED lamp L switched in parallel with the ohmic resistance; after finding the mode
+    the ИЗТ is switched off.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - выбрать частоту внешнего контура с максимальным коэффициентом передачи мощности
+  - варьировать время включения и амплитуду ИЗТ при запуске
+  - найти режим «критического тока смещения» (кольцевая передача энергии)
+  - проверить передачу светодиодной лампой параллельно омическому сопротивлению
+  - отключить ИЗТ
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - critical-current-density
+  - ЗЭЦ
+  - startup
+  notes: ''
+  relations: []
+- id: SC-TC08-100
+  type: physical
+  facet: recipe
+  priority: core
+  page: 37
+  quote_ru: Можно предложить конструктивную схему варикапа на плазме твёрдого тела (рис. 19), в которой возможен
+    внешний подогрев острийного катода нагревателем. Катод 2 выполнен из никеля.
+  statement_en: 'A constructive scheme of a solid-plasma varicap is proposed (fig. 19) allowing external heating
+    of the point cathode by a heater: the cathode 2 is made of nickel, the anode 3 of tungsten or its substitute;
+    the heater 1 on direct current (terminals ab) can be borrowed from electron-tube devices; the varicap is made
+    in a vacuum glass bulb 4; additional cathode heating allows varying the displacement current density up to critical
+    values; the displacement current will consist of the thermoelectron current and the charge-bubble current; the
+    device power will depend on the nickel volume.'
+  quantities: []
+  equations: []
+  materials:
+  - никелевый катод
+  - вольфрамовый анод
+  - вакуумный стеклянный баллон
+  geometry: []
+  procedure_steps:
+  - подогревать острийный катод нагревателем на постоянном токе
+  - доводить плотность тока смещения до критических значений
+  measurements: []
+  schematic_refs:
+  - Рис. 19
+  tags:
+  - recipe
+  - thermoelectron
+  - nickel
+  - tungsten
+  - vacuum
+  notes: ''
+  relations: []
+- id: SC-TC08-101
+  type: physical
+  facet: recipe
+  priority: core
+  page: 37
+  quote_ru: Дополнительно увеличить мощность выходного тока смещения в варикапе твёрдого тела можно заменой твёрдого
+    тела на смесь опилок из любого проводящего материала, так как это сделано в E-CAT нагревателе Росси-Фокарди
+    (см. обзор в [18-22]). Опилки поместить между двумя электродами в вакууме. Отсутствие водорода уменьшит потери
+    энергии на Холодный Синтез Ядер.
+  statement_en: 'The output displacement current power in the solid-body varicap can be further increased by replacing
+    the solid body with a mixture of chips of any conducting material, as done in the Rossi-Focardi E-CAT heater:
+    place the chips between two electrodes in vacuum — the absence of hydrogen will reduce the energy losses on
+    Cold Nuclear Synthesis; DC heating of the chip points through the electrodes will make the conduction-electron
+    concentration the highest in the solid plasma; at the moment of critical current appearance there will be an
+    alternating voltage on the DC terminals; then switch off the direct current and use the AC source and heater
+    as intended.'
+  quantities: []
+  equations: []
+  materials:
+  - опилки проводящего материала
+  - водород (отсутствует)
+  geometry: []
+  procedure_steps:
+  - поместить опилки между двумя электродами в вакууме
+  - нагревать острия опилок постоянным током через электроды
+  - при появлении критического тока отключить постоянный ток
+  - использовать источник переменного тока и нагреватель по назначению
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - e-cat
+  - chips
+  - vacuum
+  - excess-energy
+  notes: ''
+  relations: []
+- id: SC-TC08-102
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 37
+  quote_ru: Эксперименты показывают, что только электронные плазмоиды после синтеза могут самопроизвольно распадаться
+    в плазме той же
+  statement_en: 'Experiments show that only electron plasmoids after synthesis can spontaneously decay in plasma
+    of the same temperature, converting binding energy into electromagnetic radiation or explosion; all plasmoids
+    can be divided into two classes: radiating (plasmoid radius greater than 1 angstrom) and non-radiating (radius
+    less than 1 angstrom) — those that can be synthesized with subsequent decay and those that can be synthesized
+    but after synthesis do not decay and do not radiate energy.'
+  quantities:
+  - радиус излучающих плазмоидов > 1 ангстрема
+  - радиус неизлучающих < 1 ангстрема
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid
+  - radiation
+  - decay
+  - classification
+  notes: quote truncated at the page-37 footer; continues 'температуры с переводом энергии связи в электромагнитное
+    излучение, либо взрыв'.
+  relations: []
+- id: SC-TC08-103
+  type: physical
+  facet: process
+  priority: core
+  page: 38
+  quote_ru: Синтез первого класса плазмоидов поставляет в плазму «руду исходного топлива», а их распад выделяет
+    энергию, которая идёт на дополнительный нагрев плазмы. Заряды распавшегося плазмоида снова переходят в плазму
+    и процесс синтеза/распада периодически повторяется.
+  statement_en: Synthesis of the first-class plasmoids supplies 'ore of initial fuel' into the plasma while their
+    decay releases energy going into additional plasma heating; the charges of the decayed plasmoid return into
+    the plasma and the synthesis/decay process repeats periodically, creating the impression that the reversible
+    processes do not change the particle number and mass of the heated plasma region; thermal motion forms new plasmoids
+    again, looping thereby the energy chain which continuously supplies power into the arising plasma 'reactor'.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid
+  - synthesis-decay
+  - cycle
+  - excess-energy
+  notes: ''
+  relations: []
+- id: SC-TC08-104
+  type: physics
+  facet: theory
+  priority: core
+  page: 38
+  quote_ru: Режим синтеза/распада плазмоидов существует в состоянии плазмы, который следует назвать закипающим.
+    При кипении обычной жидкости пузырьки пара образуются во всём объёме жидкости. А при кипении плазмы во всём
+    объёме начинают возникать разные типы пузырьков зарядов.
+  statement_en: 'The plasmoid synthesis/decay regime exists in a plasma state which should be called boiling: in
+    the boiling of an ordinary liquid vapor bubbles form throughout the liquid volume, and in the boiling of plasma
+    all types of charge bubbles begin to arise throughout the volume; two variants of synthesized plasmoids are
+    possible — compression plasmoids and expansion plasmoids.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boiling-plasma
+  - plasmoid
+  - classification
+  notes: ''
+  relations: []
+- id: SC-TC08-105
+  type: physical
+  facet: process
+  priority: core
+  page: 38
+  quote_ru: Плазмоиды сжатия образуются в локальных областях плазмы, в которой есть точка наименьшей температуры.
+    Электроны сбрасываются в холодную точечную область плазмы силой Бернулли и начинают сжиматься градиентом температуры.
+    Возникший пузырь не изменяет своего заряда во время синтеза. Кратковременное сжатие приводит к увеличению его
+    объёмной плотности заряда и энергии связи.
+  statement_en: 'Compression plasmoids form in local plasma regions containing a minimum-temperature point: electrons
+    are dumped into the cold point region of the plasma by the Bernoulli force and begin compressing by the temperature
+    gradient; the arisen bubble does not change its charge during synthesis; the short-term compression leads to
+    an increase of its volume charge density and binding energy; the increase of the volume charge density increases
+    the collective-field divergence; the time-varying collective field of the plasmoid does positive work on the
+    plasmoid charges increasing the binding energy at its compression — herein lies the main cause that the energy
+    of the compressing plasmoid is not conserved (the charge motion occurs in variable electric fields where conservation
+    laws do not hold in nonstatic fields); the plasmoid energy increase at compression is the most important cause
+    of additional energy input into the plasma, providing the mechanism of plasma self-heating by compressing charge
+    bubbles.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - compression-plasmoid
+  - self-heating
+  - bernoulli
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-106
+  type: physical
+  facet: process
+  priority: core
+  page: 39
+  quote_ru: Процесс сжатия заканчивается кратковременным состоянием равновесия зарядов с полем. После чего плазмоид
+    начинает излучать и происходит его реакция распада. Реакция распада чаще всего заканчивается взрывом. Распад
+    выделяет энергию в кипящую плазму.
+  statement_en: 'The compression process ends in a short-time state of charge equilibrium with the field, after
+    which the plasmoid begins to radiate and its decay reaction proceeds — the decay most often ends in an explosion
+    releasing energy into the boiling plasma which receives additional electromagnetic radiation energy and heating;
+    expansion plasmoids form in local regions with a maximum-temperature point: electrons are dumped into the external
+    cold plasma region by the Bernoulli force, plasmoid expansion begins driven by the temperature gradient, the
+    bubble also does not change its charge; expansion decreases its charge density, binding energy, and field divergence;
+    the expansion ends in a short equilibrium after which the plasmoid radiates and decays — the decay supplies
+    less energy into the plasma, and for expansion plasmoids the synthesis energy costs are always greater than
+    the decay energy.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - expansion-plasmoid
+  - decay
+  - energy-balance
+  notes: ''
+  relations: []
+- id: SC-TC08-107
+  type: physics
+  facet: theory
+  priority: core
+  page: 39
+  quote_ru: При переходе плазмы в кипящее состояние её температура увеличивается. Это увеличение возникает тогда,
+    когда концентрация плазмоидов сжатия превышает концентрацию плазмоидов расширения. Если температура плазмы начинает
+    уменьшаться, то концентрация плазмоидов расширения начинает превышать концентрацию плазмоидов сжатия.
+  statement_en: At the plasma transition to the boiling state its temperature increases; this increase arises when
+    the concentration of compression plasmoids exceeds the concentration of expansion plasmoids; if the plasma temperature
+    begins to decrease, the concentration of expansion plasmoids begins to exceed the concentration of compression
+    plasmoids.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boiling-plasma
+  - plasmoid-balance
+  - self-regulation
+  notes: ''
+  relations: []
+- id: SC-TC08-108
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 39
+  quote_ru: Мегаваттный источник теплового излучения на металлических опилках был обнаружен в опытах Росси-Фокарди
+    в 2011 году. Генератор представлял собой цилиндрическую проводящую трубку, в которую были засыпаны опилки металлов
+    Ni-Li и закачан водород под давлением 55 бар (см. рис. 20).
+  statement_en: 'A megawatt source of thermal radiation on metal chips was discovered in the Rossi-Focardi experiments
+    in 2011: the generator was a cylindrical conducting tube filled with Ni-Li metal chips and charged with hydrogen
+    at a pressure of 55 bar; they discovered a phenomenon observed for the first time in a solid body consisting
+    of metal chips.'
+  quantities:
+  - P(водород) = 55 бар
+  - P(тепловая) ~ мегаватт
+  equations: []
+  materials:
+  - опилки Ni-Li
+  - водород
+  - цилиндрическая проводящая трубка
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 20
+  tags:
+  - rossi-focardi
+  - nickel
+  - lithium
+  - hydrogen
+  - excess-energy
+  - избыточн
+  - transmutation-adjacent
+  notes: ''
+  relations: []
+- id: SC-TC08-109
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 40
+  quote_ru: Температура нагрева увеличивалась до определённого значения, которое назовём температурой Росси Tp.
+    Она зависела от давления водорода и могла изменяться от 2000С до 5000С.
+  statement_en: 'Qualitatively the phenomenon proceeded as follows: at the initial stage of the source operation
+    there were two heat fluxes — one of power P1 heated the tube, the other of power P2 was thrown out of the source
+    heating the environment; the heating temperature increased up to a definite value called the Rossi temperature
+    Tp, which depended on the hydrogen pressure and could vary from 200°C to 500°C; at this temperature the heating
+    element no longer needs the heat flux P1 and generates only the heat flux P2 which is thrown out of the source
+    for a long time; at the Rossi temperature a thermal power balance arises in the system — the power thrown out
+    of the thermal element coincides with the power absorbed by the cooling medium.'
+  quantities:
+  - Tp = 200–500 °C (в тексте «от 2000С до 5000С»)
+  - зависимость Tp от давления водорода
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: температура Росси
+    value: 200-500
+    unit: °C
+    conditions: зависит от давления водорода; баланс мощности P2 = мощность охлаждающей среды
+  schematic_refs:
+  - Рис. 21
+  - Рис. 22
+  tags:
+  - rossi-focardi
+  - rossi-temperature
+  - thermal-balance
+  notes: ''
+  relations: []
+- id: SC-TC08-110
+  type: physics
+  facet: theory
+  priority: normal
+  page: 40
+  quote_ru: Причина взрыва в том, что тепловая мощность, вырабатываемая нагревательным элементом, оказывается больше,
+    чем отбираемая охлаждающей средой.
+  statement_en: With continued heating of the element by heat flux P1 the element temperature keeps increasing and
+    can reach the critical temperature Tk at which the element explodes — the cause being that the thermal power
+    produced by the heating element exceeds the power taken away by the cooling medium; a critical dissipated power
+    Pk corresponds to this temperature, so stable generation of thermal energy by the heating element can exist
+    only in the finite temperature range from Tp to Tk.
+  quantities:
+  - 'диапазон устойчивой генерации: Tp – Tk'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - critical-temperature
+  - stability
+  notes: ''
+  relations: []
+- id: SC-TC08-111
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 41
+  quote_ru: Двадцатилетние исследования научной группы Фокарди-Пиантелли свойств системы никель-водород показали,
+    что в них происходят не только химические, но и необычные ядерные процессы, которые не вписываются в ортодоксальную
+    ядерную физику. Научная группа считает, что тепловой поток P2 обеспечивают реакции ХЯС [21,22].
+  statement_en: Where does the heat flux P2 come from? The twenty-year studies of the nickel-hydrogen system properties
+    by the Focardi-Piantelli scientific group showed that not only chemical but unusual nuclear processes occur
+    in it which do not fit orthodox nuclear physics; the group believes the heat flux P2 is provided by cold nuclear
+    fusion (ХЯС) reactions.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - focardi-piantelli
+  - cold-fusion
+  - никель-водород
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-112
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 41
+  quote_ru: Российская научная группа Бажутова, Корецкого и Пархомова в 2012 году [23] провела похожий эксперимент,
+    в котором уточнила его ядерную диагностику, зарегистрировав излучения нейтронов в виде серий коротких всплесков.
+  statement_en: The Russian group of Bazhutov, Koretsky, and Parkhomov conducted a similar experiment in 2012 refining
+    its nuclear diagnostics by registering neutron radiation in the form of series of short bursts; it was believed
+    that the neutron appearance indicated previously unknown nuclear reactions in the metal hydride-hydrogen system,
+    given the refined name 'Cold Transmutation of Nuclei (ХТЯ)'; the heat flux created by ХТЯ was not studied in
+    that work.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - бажутов
+  - корецкий
+  - пархомов
+  - хтя
+  - neutrons
+  - transmutation
+  notes: ''
+  relations: []
+- id: SC-TC08-113
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 41
+  quote_ru: В экспериментах с никелем исходные ядра превращались в ядра меди, а ядра бериллия превращались в ядра
+    бора. Лантан, в свою очередь, преобразовывался в ядро церия. Холодная Трансмутация Ядер приводила к появлению
+    ядер элементов, которые перемещались в периодической таблице Менделеева с увеличением зарядового числа z на
+    +1.
+  statement_en: What nuclear reactions were observed? In the nickel experiments the original nuclei transformed
+    into copper nuclei, beryllium nuclei into boron nuclei, and lanthanum in turn transformed into a cerium nucleus;
+    Cold Transmutation of Nuclei led to the appearance of element nuclei moving in the Mendeleev periodic table
+    with the charge number z increasing by +1; nuclei moving down the table with decreasing nuclear charge and decay
+    products of new nuclei were not found; the ХТЯ research led to the conclusion that ХТЯ provides a thermal energy
+    output which can help humanity create autonomous heat sources of megawatt power.
+  quantities:
+  - Δz = +1 (перемещение по таблице)
+  - Ni→Cu, Be→B, La→Ce
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - transmutation
+  - хтя
+  - isotope-shifts
+  - никель
+  - медь
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-114
+  type: physics
+  facet: theory
+  priority: core
+  page: 42
+  quote_ru: причина заключена в том, что ХТЯ не выделяет тепловую энергию, а только отбирает её из нагретой плазмы
+    твёрдого тела.
+  statement_en: 'Ten years have passed but serial creation of autonomous heat sources on ХТЯ has not succeeded;
+    in the author''s view the possible cause is that ХТЯ does not release thermal energy but only takes it from
+    the heated solid plasma: the synthesis of any nucleus occurs with energy absorption while nucleus decay releases
+    energy as in atomic reactors; any nuclear reactions divide into exothermic (releasing) and endothermic (absorbing)
+    classes; the binding energy of the new nucleus with increased charge number is always greater than that of the
+    old nucleus, so the new nucleus will need energy taken from the plasma — this estimate indicates the ХТЯ reactions
+    are energy-absorbing; if the ХТЯ reactions are endothermic they cannot explain the observed heat output and
+    the researchers'' final conclusion needs refinement.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - хтя
+  - endothermic
+  - binding-energy
+  - debt-candidate
+  notes: quote starts after the page-41 footer ('На мой взгляд, возможная' precedes on p.41).
+  relations: []
+- id: SC-TC08-115
+  type: physics
+  facet: theory
+  priority: core
+  page: 42
+  quote_ru: Альтернативные причины выделения тепловой мощности в твёрдом теле могут объясняться предложенными выше
+    неядерными механизмами высоковольтной электрофизики, связанными с током смещения Максвелла.
+  statement_en: 'Alternative causes of the thermal power release in the solid body can be explained by the non-nuclear
+    high-voltage electrophysics mechanisms proposed above, connected with the Maxwell displacement current; these
+    mechanisms were analyzed earlier and can work in heated plasma consisting of chips; to separate the competing
+    mechanisms from each other two classes of thermal measurements are required: in the first case the chip heating
+    process is conducted in vacuum without hydrogen; in the second case hydrogen is added as in Rossi''s experiments
+    — this will show in which case more energy is released.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - провести нагрев опилок в вакууме без водорода
+  - провести нагрев с добавлением водорода (как у Росси)
+  - сравнить выделяемые энергии
+  measurements: []
+  schematic_refs: []
+  tags:
+  - non-nuclear
+  - ток-смещения
+  - competing-mechanisms
+  - procedure
+  notes: ''
+  relations: []
+- id: SC-TC08-116
+  type: physical
+  facet: theory
+  priority: core
+  page: 42
+  quote_ru: Предполагается существование следующего механизма нагрева. При нагреве опилок возникают электрофизические
+    эффекты, которые генерируют в них короткоживущие пузырьки зарядов с высокой концентрацией. Находясь внутри металлического
+    цилиндра, который для них становится уединённым «конденсатором», они создают в нём затравочный мощный ток смещения
+    Максвелла.
+  statement_en: 'The following heating mechanism is presumed: chip heating produces electrophysical effects generating
+    short-lived charge bubbles of high concentration in them; being inside the metal cylinder which becomes a solitary
+    ''capacitor'' for them, they create in it a powerful seed Maxwell displacement current; the current exits to
+    the external space through the cylinder surface, increases its value by the shell, and at critical values turns
+    the heating element into an inexhaustible source.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - heating-mechanism
+  - evo
+  - ток-смещения
+  - inexhaustible-source
+  notes: ''
+  relations: []
+- id: SC-TC08-117
+  type: physical
+  facet: recipe
+  priority: core
+  page: 43
+  quote_ru: 'Поэтому «реакторы» Росси-Фокарди могут быть сделаны на любых металлических опилках, которые находятся
+    в вакууме. Каждый сорт опилок или их смесь будут иметь свои значения физических параметров: температуру закипания
+    и критическую температуру. Эти параметры будут зависеть не только от сорта металла или полупроводника, но и
+    от геометрии металлического включения.'
+  statement_en: Therefore Rossi-Focardi 'reactors' can be made on any metal chips in vacuum; each sort of chips
+    or their mixture will have its own physical parameter values — a boiling temperature and a critical temperature
+    depending not only on the metal or semiconductor sort but also on the geometry of the metal inclusion; the thermal
+    element can have any geometry — a cylindrical tube, a cylindrical tablet, or a rectangular parallelepiped.
+  quantities: []
+  equations: []
+  materials:
+  - любые металлические опилки (в вакууме)
+  geometry:
+  - 'геометрия: цилиндрическая трубка, цилиндрическая таблетка, прямоугольный параллелепипед'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - chips
+  - vacuum
+  - geometry
+  notes: ''
+  relations: []
+- id: SC-TC08-118
+  type: physical
+  facet: recipe
+  priority: normal
+  page: 43
+  quote_ru: Важным свойством нагревательного элемента является то, что ему безразлично, каким способом вы будете
+    осуществлять его предварительный нагрев. В нагреве можно использовать газ, спирт, керосин, горелку. Можно использовать
+    тепловое действие постоянного или переменного тока. Нагрев должен быть геометрически симметричным по отношению
+    к срединной плоскости цилиндра.
+  statement_en: 'An important property of the heating element is that it is indifferent to the preheating method:
+    gas, spirit, kerosene, or a burner can be used, or the thermal action of direct or alternating current; the
+    heating must be geometrically symmetric with respect to the cylinder midplane; symmetric heating will provide
+    approximate equality of temperatures on the cylinder lateral surfaces, adding to the Maxwell displacement current
+    an additional alternating current component of thermo-electrons participating in periodic motion between the
+    capacitor plates; this component is caused by the instability of the thermo-electron gas between metal plates
+    of equal temperatures, discovered by A. Bulyga in 1985 but not reported by him.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - preheating
+  - symmetry
+  - bulyga
+  notes: ''
+  relations: []
+- id: SC-TC08-119
+  type: physical
+  facet: procedure
+  priority: core
+  page: 43
+  quote_ru: Элемент лучше нагревать постоянным током. Когда его температура начнёт приближаться к температуре Росси
+    Tp, на фоне постоянного тока возникнет мощная хаотическая компонента тока. По моему мнению, температура Росси
+    совпадает с температурой закипания плазмы твёрдого тела, состоящего из опилок.
+  statement_en: 'It is better to heat the element with direct current: when its temperature begins to approach the
+    Rossi temperature Tp, a powerful chaotic current component arises on the DC background; in the author''s opinion
+    the Rossi temperature coincides with the boiling temperature of the solid plasma consisting of chips; it is
+    easily registered by an inductive or capacitive element lying next to the cylinder, as done in the Katorgin-Marin
+    experiments; the chaotic current component is caused by the huge concentration of charge bubbles arising at
+    this temperature in the plasma; the chaotic component is the seed Maxwell displacement current which in the
+    metal capacitor plates is converted into the critical displacement current.'
+  quantities:
+  - Tp = T(закипания плазмы опилок)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - нагревать элемент постоянным током
+  - регистрировать мощную хаотическую компоненту тока на фоне постоянного тока
+  - регистрировать Tp индуктивным либо ёмкостным датчиком рядом с цилиндром
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - rossi-temperature
+  - boiling-plasma
+  - seed-current
+  notes: ''
+  relations: []
+- id: SC-TC08-120
+  type: physical
+  facet: recipe
+  priority: core
+  page: 43
+  quote_ru: Почему опилки лучше, чем пыль из круглых шариков или фольга? Каждая из опилок имеет острия. При нагревании
+    острия становятся областями, на которых возникают пузырьки зарядов, как на катоде К. Шоулдерса.
+  statement_en: Why are chips better than dust of round balls or foil? Each chip has points; on heating the points
+    become regions where charge bubbles arise as on K. Shoulders' cathode; there are many chips and they supply
+    a large Maxwell current into the plasma; this region discovered on the surface of a heated cathode was called
+    an 'ecton' by academician G. Mesyats who noticed it on the roughnesses of the cathode material; the ecton throws
+    an electron avalanche out of the cathode and the avalanche turns into a short-lived charge bubble; a large chip
+    concentration leads both to a high charge-bubble concentration and to a large electric dipole moment in the
+    substance; a large concentration of heated chips can transfer the heating element into a closed energy chain.
+  quantities: []
+  equations: []
+  materials:
+  - опилки (с остриями)
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - chips
+  - ecton
+  - месяц
+  - evo
+  - shoulders
+  notes: ''
+  relations: []
+- id: SC-TC08-121
+  type: physical
+  facet: process
+  priority: core
+  page: 44
+  quote_ru: В этот же момент плазма переходит в состояние закипания, и её тепловое движение образует пузырьки с
+    высокой концентрацией по всему объёму. Большее количество пузырьков будет находиться в состоянии сжатия. Тогда
+    плазма будет само подогреваться. После этого можно отключить источник постоянного тока.
+  statement_en: 'At the same moment the plasma passes into the boiling state and its thermal motion forms bubbles
+    of high concentration throughout the volume; a larger number of bubbles will be in the compression state so
+    the plasma will self-heat; after that the direct-current source can be switched off — it will stop introducing
+    the heating power P1 and the chips will pass into the state of continuously heating the cooling medium; at that
+    moment a critical density of Maxwell displacement current arises in the tube due to the oscillating motion of
+    charge bubbles between the Rossi capacitor plates: the bubbles are in the chip plasma and the displacement current
+    created by them exits the entire cylinder surface during one half-period and returns during the second half-period;
+    the current is distributed in space as in I. Zhuravkov''s subcritical discharge; the displacement current arises
+    at different frequencies and continuously heats the chips, exiting through the lateral surface of the chips
+    and closing via the conducting tube and the external space.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - довести плазму опилок до закипания (критическая концентрация пузырьков сжатия)
+  - отключить источник постоянного тока
+  - наблюдать непрерывный нагрев охлаждающей среды
+  measurements: []
+  schematic_refs:
+  - Рис. 23
+  - Рис. 24
+  tags:
+  - boiling-plasma
+  - critical-current-density
+  - ЗЭЦ
+  notes: ''
+  relations: []
+- id: SC-TC08-122
+  type: physics
+  facet: theory
+  priority: core
+  page: 44
+  quote_ru: С точки зрения электротехники (см. раздел 6) амплитудное значение мощности, выбрасываемое конденсатором,
+    на характеристической частоте совпадает с амплитудным значением мощности, рассеиваемой омическим сопротивлением.
+    В системе наступает «параметрический» резонанс мощности.
+  statement_en: 'From the electrotechnical point of view, at the characteristic frequency the amplitude power thrown
+    out by the capacitor coincides with the amplitude power dissipated by the ohmic resistance — a ''parametric''
+    power resonance sets in: the source becomes autonomous, works for a long time, requires no fossil fuel, and
+    releases no industrial waste in the form of radiation energy; the powerful plasma radiation is partially absorbed
+    by the external corpus surrounding the chips.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - parametric-power-resonance
+  - autonomous-source
+  notes: ''
+  relations: []
+- id: SC-TC08-123
+  type: physical
+  facet: measurement
+  priority: core
+  page: 45
+  quote_ru: Предположим, что в цилиндрическом конденсаторе были опилки никеля массой 60 грамм. Конденсатор имел
+    длину 0,2 м, радиус 10 мм, толщину стенки 1 мм, и давал 1 Мвт тепловой мощности. Его объёмная плотность мощности
+    была 16 ГВт/м3.
+  statement_en: 'The relations of section 6 allow calculating the thermal power release of the displacement current
+    discovered in the Rossi-Focardi generator: assume a cylindrical capacitor with 60 grams of nickel chips; the
+    capacitor had length 0.2 m, radius 10 mm, wall thickness 1 mm, and produced 1 MW of thermal power; its volumetric
+    power density was 16 GW/m3, provided by a conduction-electron concentration of 8e19 m^-3 (as printed; exponent
+    flattened in source).'
+  quantities:
+  - m(Ni) = 60 г
+  - L = 0,2 м
+  - r = 10 мм
+  - стенка = 1 мм
+  - P(тепловая) = 1 МВт
+  - объёмная плотность мощности = 16 ГВт/м3
+  - n(электронов) = 8·10^19 м-3 (в тексте «819 м-3»)
+  equations: []
+  materials:
+  - опилки никеля массой 60 г
+  geometry:
+  - длина 0,2 м
+  - радиус 10 мм
+  - толщина стенки 1 мм
+  procedure_steps: []
+  measurements:
+  - quantity: объёмная плотность мощности
+    value: '16'
+    unit: ГВт/м3
+    conditions: генератор Росси-Фокарди, 60 г никеля
+  schematic_refs: []
+  tags:
+  - rossi-focardi
+  - power-density
+  - measurement
+  - избыточн
+  notes: the electron concentration is printed '819 м-3' (flattened 8·10^19 m^-3); recorded as stated with note.
+  relations: []
+- id: SC-TC08-124
+  type: physical
+  facet: measurement
+  priority: core
+  page: 45
+  quote_ru: Ёмкость уединённого квазиплоского цилиндрического -10 конденсатора была ~ 10 Ф. Ток частотой в 50 Гц
+    формировал на ёмкости заряд 0,8 мКл, амплитуду энергии конденсатора 3,2 кДж, мощность на конденсаторе 1 МВт,
+    ток смещения 250 мА. Равенство тепловой мощности и мощности на конденсаторе указывают на предположение, что
+    нагрев осуществляется на параметрическом резонансе мощности.
+  statement_en: The capacitance of the solitary quasi-flat cylindrical capacitor was ~10^-10 F; a current of 50
+    Hz frequency formed on the capacitance a charge of 0.8 mC, a capacitor energy amplitude of 3.2 kJ, a capacitor
+    power of 1 MW, and a displacement current of 250 mA; the equality of the thermal power and the capacitor power
+    points to the assumption that the heating is carried out at the parametric power resonance.
+  quantities:
+  - C ≈ 10^-10 Ф
+  - q = 0,8 мКл
+  - W = 3,2 кДж
+  - P = 1 МВт
+  - I(смещения) = 250 мА
+  - f = 50 Гц
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: ток смещения
+    value: '250'
+    unit: мА
+    conditions: цилиндрический конденсатор Росси, 50 Гц
+  - quantity: мощность на конденсаторе
+    value: '1'
+    unit: МВт
+    conditions: совпадает с тепловой мощностью — параметрический резонанс мощности
+  schematic_refs: []
+  tags:
+  - rossi-focardi
+  - displacement-current
+  - parametric-resonance
+  notes: '''10 -10 Ф'' is the source''s flattened 10^-10 F. quote keeps the source''s flattened exponent layout
+    (''квазиплоского -10 конденсатора ... ~ 10 Ф'').'
+  relations: []
+- id: SC-TC08-125
+  type: physical
+  facet: measurement
+  priority: core
+  page: 45
+  quote_ru: Доля электронов обеспечивающих ток смещения была исключительно малая ~ 910-9. Они формировали плотность
+    тока смещения на поверхности ёмкости ~ 20 А/м2. Оценки указывают на высокую эффективность возникающего нагрева.
+    Ток смещения в четверть ампера приводит к выделению тепловой энергии в мегаватты.
+  statement_en: 'The share of electrons providing the displacement current was extremely small, ~9e-9; they formed
+    a displacement current density on the capacitance surface of ~20 A/m2; the estimates indicate the high efficiency
+    of the arising heating: a displacement current of a quarter of an ampere leads to the release of thermal energy
+    in megawatts; the thermal heating power can be increased by replacing the metal chips with metals having a larger
+    free-electron concentration than nickel.'
+  quantities:
+  - доля электронов ~ 9·10^-9 (в тексте «910-9»)
+  - j(смещения) ≈ 20 А/м2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: плотность тока смещения на поверхности ёмкости
+    value: ≈20
+    unit: А/м2
+    conditions: доля электронов ~9·10^-9
+  schematic_refs: []
+  tags:
+  - efficiency
+  - displacement-current
+  - estimate
+  notes: '''910-9'' is the source''s flattened 9·10^-9. quote contains the source''s private-use OCR glyphs verbatim.'
+  relations: []
+- id: SC-TC08-126
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 45
+  quote_ru: Заметим, что проводящий цилиндр оказывается источником не только теплового нагрева, но и источником
+    переменного тока. Источник переменного тока исследователи не заметили.
+  statement_en: Note that the conducting cylinder turns out to be a source not only of thermal heating but also
+    of alternating current — the researchers did not notice the AC source; the presence of the displacement current
+    can be registered either by an inductance sensor or by an electromagnetic wave amplitude meter; further design
+    changes providing DC heating of the element will allow converting it into a powerful AC generator resembling
+    the varicap (fig. 19); the thermal element discovered in the Rossi-Focardi-Bazhutov-Parkhomov experiments should
+    be positioned as a self-reproducing energetics device on displacement current with charge bubbles arising at
+    the boiling temperature of the plasma.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 19
+  tags:
+  - AC-source
+  - registration
+  - rossi-focardi
+  notes: ''
+  relations: []
+- id: SC-TC08-127
+  type: physics
+  facet: theory
+  priority: core
+  page: 46
+  quote_ru: В физических принципах работы нагревательного элемента отсутствуют ядерные реакции. Подогрев плазмы
+    твёрдого тела до температуры закипания приводит к появлению внутри плазмы большой концентрации короткоживущих
+    пузырьков зарядов и их диполей.
+  statement_en: 'Nuclear reactions are absent from the physical principles of the heating element operation: heating
+    the solid plasma to the boiling temperature leads to the appearance inside the plasma of a large concentration
+    of short-lived charge bubbles and their dipoles; since the plasma is inside the capacitor, the thermal motion
+    of the bubbles, their appearance and disappearance create a variable dipole moment which forms in the plates
+    a Maxwell displacement current exceeding the critical one; the displacement current heats the chips and closes
+    onto the external space through the metal surface; a closed energy chain forms whose plasma continuously releases
+    thermal and electric energy into the surrounding space.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - non-nuclear
+  - boiling-plasma
+  - evo
+  - ЗЭЦ
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-128
+  type: physics
+  facet: theory
+  priority: normal
+  page: 46
+  quote_ru: Режим неисчерпаемого источника, генерирующего критическую плотность тока смещения Максвелла, должен
+    наблюдаться и в нагретой плазме управляемого термоядерного синтеза. Поиск такого режима представляет собой исключительный
+    интерес для независимого подтверждения предлагаемого физического механизма нагрева плазмы короткоживущими пузырьками
+    зарядов, генерирующими ток смещения Максвелла.
+  statement_en: The inexhaustible source mode generating a critical Maxwell displacement current density should
+    also be observed in the heated plasma of controlled thermonuclear fusion; searching for such a mode is of exceptional
+    interest for independent confirmation of the proposed physical mechanism of plasma heating by short-lived charge
+    bubbles generating the Maxwell displacement current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fusion
+  - verification
+  - critical-current-density
+  notes: ''
+  relations: []
+- id: SC-TC08-129
+  type: physics
+  facet: theory
+  priority: normal
+  page: 46
+  quote_ru: Режим неисчерпаемого источника света наблюдается в горячем «плазмоиде» нашей солнечной системы. Ток
+    смещения, генерируемый Солнцем, миллионы лет половину периода излучает в окружающее пространство электромагнитную
+    энергию и миллионы лет в течение половины периода возвращает её обратно.
+  statement_en: 'The inexhaustible light source mode is observed in the hot ''plasmoid'' of our solar system: the
+    displacement current generated by the Sun radiates electromagnetic energy into the surrounding space for millions
+    of years during half the period and returns it back during the other half-period; if nuclear synthesis/decay
+    reactions arise in the heated plasma they maintain the existing balance so that the fundamental law of the parametric
+    power resonance for the Maxwell displacement current holds in the system.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sun
+  - plasmoid
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-130
+  type: physics
+  facet: theory
+  priority: normal
+  page: 47
+  quote_ru: Была выдвинута гипотеза о том, что дрожание волнового пакета приводит как к генерации волны де Бройля,
+    так и к периодическому изменению заряда частицы при её движении.
+  statement_en: 'The monograph theory predicted the existence of a class of elementary particles of field origin:
+    the particle is a wave packet localized in space consisting of a superposition of waves of a single field; the
+    hypothesis was advanced that the trembling of the wave packet leads both to the generation of the de Broglie
+    wave and to a periodic change of the particle charge in its motion; an equation was obtained for the wave function
+    with phase velocity equal to the speed of light, the Poisson equation added for the ''smeared'' charge, and
+    two state equations linking the charge density and the wave-function modulus square; the packet charge and the
+    mass spectrum of hypothetical field-origin particles were calculated from the system — part of the spectrum
+    identified with observed particles, part predicting heavy particles not yet observed at colliders.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - unitary-quantum-theory
+  - wave-packet
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-131
+  type: physics
+  facet: theory
+  priority: normal
+  page: 47
+  quote_ru: Численное моделирование законов движения гипотетической частицы в квадратичной потенциальной яме указало
+    на существование неожиданных решений. Движение заряда не подчинялось закону сохранения полной механической энергии.
+  statement_en: 'A motion equation was built for a hypothetical particle whose charge oscillates by the law of the
+    cosine square of the wave function phase; splitting the cosine square of the half-angle gives two forces in
+    the right side — one static, coordinate-dependent, the other variable, connected with the charge oscillation;
+    numerical modeling of the motion laws in a quadratic potential well indicated unexpected solutions: the charge
+    motion does not obey the total mechanical energy conservation law — for some initial wave-function phases the
+    particle energy increases (the class of solutions named ''родильный дом'' — maternity ward), for others it decreases
+    and the particle sinks to the well bottom (''крематорий'' — crematorium); the motion scales are of the order
+    of fermi and fractions of a fermi — a class of subnuclear motions in which alone the discovered mechanism of
+    energy gain/loss of the oscillating-charge particle in a potential relief can hold.'
+  quantities:
+  - масштабы движений ~ ферми и доли ферми
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - oscillating-charge
+  - energy-nonconservation
+  - subnuclear
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-132
+  type: physics
+  facet: theory
+  priority: normal
+  page: 48
+  quote_ru: Траектории могут быть финитными и инфинитными. Область взаимодействия силового центра ограничена сферой,
+    радиус которой примерно равен утроенному значению радиуса силового центра. Внутри сферы частица  гипотетическая.
+    Её заряд осциллирует. А снаружи сферы заряд частицы не осциллирует.
+  statement_en: What interaction class does the motion equation describe? Moving charged particles interacting with
+    a charged force center which can be a single proton, any nucleus, or a single electron; the trajectories are
+    similar to the class discovered by Rutherford in alpha-particle bombardment of the atomic nucleus; they can
+    be finite and infinite; the force-center interaction region is bounded by a sphere whose radius is approximately
+    three times the force-center radius — inside the sphere the particle charge oscillates, outside the sphere it
+    does not.
+  quantities:
+  - R(сферы) ≈ 3 × R(силового центра)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - trajectories
+  - rutherford
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-133
+  type: physics
+  facet: theory
+  priority: core
+  page: 48
+  quote_ru: Второй вариант движения. Электрон доходит до поверхности протона и попадает в состояние, когда его полная
+    энергия всё время уменьшается, и он опускается на дно ямы. Образуется связанное состояние уже в виде нейтрона.
+    Это состояние может существовать бесконечно долго, если заряд электрона перестаёт осциллировать. Вариант этого
+    движения можно назвать «холодным синтезом» нейтрона.
+  statement_en: 'Example of electron-proton interaction: an electron incident on a proton along the radius enters
+    the interaction sphere, begins oscillating and forms a bound electron-proton state called ''neutron-like'';
+    variant 1: the electron travels to the proton surface, reflects, and leaves to infinity — the bound state exists
+    a finite time; variant 2: the electron reaches the proton surface and enters a state where its total energy
+    keeps decreasing and it sinks to the well bottom — a bound state in the form of a neutron forms which can exist
+    infinitely long if the electron charge stops oscillating; this motion variant can be called the ''cold synthesis''
+    of the neutron; variant 3: the bound state can be short in time if the charge of the stationary electron keeps
+    oscillating — a variable force opposite to the Coulomb one acts on it, increasing its energy until it leaves
+    the interaction sphere; the electron becomes free and the neutron decays; this variant can be called the ''cold
+    decay'' of the neutron; as experiments show, the decay lasts 16 minutes.'
+  quantities:
+  - t(распада нейтрона) = 16 минут
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cold-synthesis
+  - neutron
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-134
+  type: physics
+  facet: theory
+  priority: normal
+  page: 49
+  quote_ru: Подобные траектории могут возникать при движении протона к протону. Протон в центре  статический. А
+    заряд налетающего протона внутри сферы взаимодействия осциллирует.
+  statement_en: 'Similar trajectories can arise in proton-proton motion: the central proton is static while the
+    charge of the incident proton oscillates inside the interaction sphere; bound states of two protons are possible:
+    with infinite lifetime, or with short-time existence and subsequent decay; the parameters of nuclei of protons
+    held by the collective-field pressure gradient were calculated in [10]; states of two bound electrons were discovered
+    in solid plasma in explaining superconductivity — Cooper pairs, indicating the motion equation gives correct
+    trajectories observed in nature.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - proton-proton
+  - cooper-pairs
+  - superconductivity
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-135
+  type: physics
+  facet: theory
+  priority: core
+  page: 49
+  quote_ru: Падение электрона на любое ядро известно в экспериментах и названо К-захватом. При К-захвате электрон
+    попадает в ядро, связывает протон, и ядро теряет положительный заряд. Ядро перемещается по таблице элементов
+    влево и при таком переходе уменьшает свою энергию связи. Такую реакцию можно назвать холодным распадом ядра
+    с выделением тепловой энергии.
+  statement_en: 'The fall of an electron onto any nucleus is known in experiments as K-capture: the electron enters
+    the nucleus, binds a proton, and the nucleus loses positive charge; the nucleus moves left in the table of elements
+    and in such a transition decreases its binding energy — such a reaction can be called the cold decay of a nucleus
+    with release of thermal energy; the spectrum of possible trajectories describes processes of increasing the
+    nucleus charge by one proton with creation of a stable nucleus, and of the nucleus losing one proton with creation
+    of a stable nucleus; these phenomena cover all possible variants of synthesis and decay of any nuclei in the
+    periodic system; the motion equation indicates the possibility of any cold synthesis/decay nuclear reactions
+    both with increase and decrease of the nuclear charge number.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - k-capture
+  - cold-decay
+  - transmutation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-136
+  type: physics
+  facet: theory
+  priority: normal
+  page: 49
+  quote_ru: На мой взгляд, в статье [38] была предложена гипотеза о существовании альтернативного механизма нагрева,
+    который не обсуждался при объяснении опытов Росси-Фокарди.
+  statement_en: 'In the author''s view, article [38] proposed the hypothesis of an alternative heating mechanism
+    not discussed in explaining the Rossi-Focardi experiments: it was suggested that in the heating of the hydrogen-metal
+    system, states with oscillating charge can arise in caverns with captured electrons; or not states but nuclear
+    reactions of cold decay with decrease of the nuclear charge number, or K-capture, can be responsible for the
+    possible thermal heating of the chips.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - alternative-heating
+  - k-capture
+  - caverns
+  notes: ''
+  relations: []
+- id: SC-TC08-137
+  type: physics
+  facet: theory
+  priority: core
+  page: 50
+  quote_ru: 4. Автор работы высказывает мнение о том, что на микроскопическом уровне нагрев плазмы осуществляет
+    ток смещения Максвелла, который генерируют короткоживущие пузырьки зарядов на остриях опилок. Пузырьки зарядов
+    возникают при температуре закипания плазмы твёрдого тела и поставляют во внешнее пространство закольцованный
+    ток смещения. Его мощность обеспечивает непрерывный процесс генерации неисчерпаемой электромагнитной энергии.
+  statement_en: 'Twelve-year searches for the physical causes of heat release in the Rossi-Focardi experiments divided
+    into four directions: (1) the experiment authors explain the heat release by cold nuclear synthesis involving
+    nickel and lithium nuclei in the hydrogen atmosphere — the metal nuclei take protons from hydrogen and move
+    up the periodic table by one cell; (2) the Russian researchers Bazhutov-Koretsky-Parkhomov refined the existence
+    of the nuclear reaction class named cold transmutation of nuclei (ХТЯ), discovered neutron fluxes, and did not
+    report heat release accompanying ХТЯ; (3) professor Sapogin L.G. suggested that in the metal-hydrogen system
+    a class of ''cold nucleus decay'' reactions, or K-capture, is possible in which the nucleus charge decreases
+    — the possibility follows from the solutions of the oscillating-charge particle motion equation and they can
+    also lead to thermal chip heating; (4) the author of this work opines that at the microscopic level the plasma
+    is heated by the Maxwell displacement current generated by short-lived charge bubbles on the chip points, arising
+    at the solid-plasma boiling temperature and supplying a looped displacement current to the external space whose
+    power ensures the continuous generation of inexhaustible electromagnetic energy.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - rossi-focardi
+  - four-mechanisms
+  - ток-смещения
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC08-138
+  type: physics
+  facet: theory
+  priority: normal
+  page: 50
+  quote_ru: Какая из точек зрения  правильная? Считаю, что все точки зрения правильные, и перечисленные процессы
+    могут участвовать в энергетическом обмене нагретой водородной плазмы с металлическими опилками. Требуется только
+    провести уточняющие измерения, которые позволят определить их вклад в общую картину нагрева/охлаждения плазмы.
+  statement_en: Which viewpoint is correct? The author believes all viewpoints are correct and the listed processes
+    can participate in the energy exchange of the heated hydrogen plasma with the metal chips; only refining measurements
+    are required to determine their contribution to the overall picture of plasma heating/cooling.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - multi-mechanism
+  - program
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+- id: SC-TC08-139
+  type: physical
+  facet: procedure
+  priority: core
+  page: 50
+  quote_ru: Ответ на вопрос, какой механизм нагрева является преобладающим, могут дать эксперименты с нагревом опилок
+    Li - Ni, из которых удалён водород. Удаление водорода должно увеличить тепловой эффект нагрева по причине того,
+    что реакции холодного синтеза и трансмутации ядер эндотермические, и они охлаждают плазму. Отсутствие водорода
+    позволит устранить третий возможный механизм поступления энергии.
+  statement_en: 'Experiments with heating Li-Ni chips from which hydrogen has been removed can answer which heating
+    mechanism is predominant: hydrogen removal should increase the thermal heating effect because cold synthesis
+    and nuclear transmutation reactions are endothermic and cool the plasma; the absence of hydrogen will eliminate
+    the third possible mechanism of energy input; further addition of various amounts of hydrogen will make it possible
+    to determine in detail the contribution of the nuclear mechanisms to the energy picture of solid-plasma heating/cooling.'
+  quantities: []
+  equations: []
+  materials:
+  - опилки Li-Ni (без водорода)
+  geometry: []
+  procedure_steps:
+  - удалить водород из опилок Li-Ni
+  - провести нагрев и измерить тепловой эффект
+  - добавлять различные количества водорода и повторять измерения
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - verification
+  - endothermic
+  - hydrogen
+  notes: ''
+  relations: []
+- id: SC-TC08-140
+  type: physics
+  facet: theory
+  priority: core
+  page: 51
+  quote_ru: Предложенные физические принципы извлечения энергии из короткоживущих пузырьков зарядов в плазме позволят
+    создать, исследовать и внедрить широкий класс устройств экономной энергетики, в которых возбуждается закольцованный
+    ток смещения Максвелла.
+  statement_en: The proposed physical principles of extracting energy from short-lived charge bubbles in plasma
+    will allow creating, investigating, and implementing a wide class of economical energetics devices in which
+    a looped Maxwell displacement current is excited; seven directions (besides the Bauman technology) of possible
+    research forming stationary devices of the new energetics can be identified; all directions should be considered
+    hypotheses requiring several groups of experiments for verification.
+  quantities:
+  - 7 направлений исследований
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - economical-energetics
+  - program
+  - ЗЭЦ
+  notes: ''
+  relations: []
+- id: SC-TC08-141
+  type: physical
+  facet: recipe
+  priority: core
+  page: 51
+  quote_ru: 1 направление. Обсуждается схема дополнительного извлечения энергии из тока смещения Максвелла. Она
+    реализуется при нагреве тел сетевым напряжением. В цепь включены либо неподвижный конденсатор, либо индуктивность
+    (после проверки идеи можно быстро наладить «отвёрточное производство» создания экономных нагревателей).
+  statement_en: 'Direction 1: a scheme of additional energy extraction from the Maxwell displacement current realized
+    when heating bodies with mains voltage — a stationary capacitor or an inductance is switched into the circuit
+    (after idea verification, ''screwdriver production'' of economical heaters can be quickly set up). Direction
+    2: schemes of high-voltage varicaps in which the Maxwell displacement current can be increased by charge bubbles
+    — they are also simple to manufacture in centimeter scales with ''screwdriver production'' and can throw large
+    power into the circuit. Direction 3: varicap schemes in which the displacement current can be increased by increasing
+    the dipole moment arising from short-lived charge bubbles.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - heating
+  - high-voltage-varicap
+  - program
+  notes: ''
+  relations: []
+- id: SC-TC08-142
+  type: physical
+  facet: recipe
+  priority: core
+  page: 51
+  quote_ru: 4 направление. Рассматривается изготовление высоковольтных варикапов на плазме газового разряда (развитие
+    опытов Каторгина- Марина и Журавкова);
+  statement_en: 'Direction 4: manufacturing high-voltage varicaps on gas-discharge plasma (development of the Katorgin-Marin
+    and Zhuravkov experiments); direction 5: properties of varicaps on plasma arising in liquid (extension of the
+    Fleischmann-Pons high-voltage heavy-water electrolysis experiments and D. Pestov''s unsuccessful experiments
+    in ordinary liquid with borax); direction 6: a varicap scheme on heated solid plasma for extracting energy from
+    thermoelectron bubbles is proposed — the varicap can be made in centimeter dimensions of vacuum lamps at a power
+    of about 1 kW and more; direction 7 (explosive) of energy extraction: powerful varicaps on plasma arising in
+    metal chips unsaturated with hydrogen.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - gas-discharge
+  - liquid-plasma
+  - fleischmann-pons
+  - thermoelectron
+  - chips
+  notes: ''
+  relations: []
+- id: SC-TC08-143
+  type: physics
+  facet: theory
+  priority: core
+  page: 51
+  quote_ru: Устройства открывают новую, взрывную область энергетики  экономную энергетику. Её источники принципиально
+    отличаются от источников затратной энергетики, не требуя для своей работы ископаемого топлива и имея отходы
+    производства, которыми можно управлять.
+  statement_en: 'The devices open a new, explosive area of energetics — economical energetics; its sources principally
+    differ from costly-energetics sources, requiring no fossil fuel for their operation and having production waste
+    which can be managed; the devices can become inexhaustible sources of either current, heat, or radiation in
+    a wide range of required parameters; the sources are of interest in various branches of engineering: energy,
+    electrotechnical, space, rocket, military, automotive, aviation, and electronic industries.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - economical-energetics
+  - excess-energy
+  - избыточн
+  notes: quote contains the source's private-use OCR glyphs verbatim.
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

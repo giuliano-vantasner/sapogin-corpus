@@ -1,0 +1,374 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI05
+  section: site
+  title_ru: Лекции по Электрофизике
+  title_en: Lectures on Electrophysics
+  file: site/lectures.md
+  source_url: https://sapogin.com/lectures
+  md5: d5a5ba25f998c5a2454c36dc7b30bf54
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI05-001
+  type: physics
+  facet: theory
+  priority: core
+  page: § 1. Эмиссия электронов с катода. Зарядовые кластеры
+  quote_ru: Закон Ричардсона-Дэшмана – профанация физики вакуумного диода (Нобелевские лауреаты).
+  statement_en: Sapogin asserts the Richardson–Dushman law is a profanation of vacuum-diode physics (despite its Nobel-laureate authors).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - richardson-dushman
+  - vacuum-diode
+  - electrical-path
+  notes: Lecture-plan assertion; same lecture covers Fowler–Nordheim tunneling and Mesyats explosive emission.
+  relations: []
+- id: SC-SI05-002
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § 1. Эмиссия электронов с катода. Зарядовые кластеры
+  quote_ru: Вакуумный диод Л.Сапогина с острийным p-n переходом в катоде. Микроскопическая физика автоэлектронной эмиссии с острийного катода. Электронные кластеры. Опыты Г.Шабанова. Силы, удерживающие
+    электронный кластер в равновесии.
+  statement_en: Sapogin's lecture covers the Sapogin vacuum diode with a tip p-n junction in the cathode, the microscopic physics of autoemission from a tip cathode, electron clusters, Shabanov's experiments,
+    and the forces holding an electron cluster in equilibrium.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - vacuum-diode
+  - p-n-junction
+  - electron-clusters
+  - shabanov
+  - evo
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI05-003
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § 2. Источники переменного поля на токе смещения Максвелла
+  quote_ru: Опыты Мандельштама-Папалекси с многопластинчатой механической электроёмкостью осевого вращения. «Параметрический резонанс». Опыты В. Джанибекова-Л. Сапогина с механической электроёмкостью осевого
+    вращения из двух пластин.
+  statement_en: Sapogin's lecture covers the Mandelstam–Papaleksi experiments with a multi-plate mechanically rotated capacitance ('parametric resonance') and the Dzhanibekov–Sapogin experiments with a
+    two-plate axially rotating mechanical capacitance.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mandelstam-papaleksi
+  - dzhanibekov-sapogin
+  - parametric-resonance
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI05-004
+  type: physics
+  facet: theory
+  priority: core
+  page: § 2. Источники переменного поля на токе смещения Максвелла
+  quote_ru: Закон электродинамической индукции для тока смещения Максвелла – принцип инновационной энергетики.
+  statement_en: Sapogin asserts the law of electrodynamic induction for the Maxwell displacement current is the principle of innovative power engineering.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edi-law
+  - displacement-current
+  - over-unity
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI05-005
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § 2. Источники переменного поля на токе смещения Максвелла
+  quote_ru: Эксперименты П.Баумана с установкой «Тестатика» на основе механического конденсатора с двумя пластинами встречного движения, имеющих радиально расположенные полоски электретов.
+  statement_en: Sapogin covers Baumann's experiments with the 'Testatika' setup based on a mechanical capacitor with two counter-moving plates carrying radially arranged electret strips.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - baumann
+  - testatika
+  - electrets
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI05-006
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § 3. Плазмоиды. Процессы синтеза/распада плазмоидов в закипающей плазме.
+  quote_ru: Физическое происхождение плазмоидно-ядерных сил.
+  statement_en: Sapogin's lecture covers the physical origin of plasmoid–nuclear forces.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid-nuclear-forces
+  - plasmoid
+  - transmutation
+  notes: ''
+  relations: []
+- id: SC-SI05-007
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § 3. Плазмоиды. Процессы синтеза/распада плазмоидов в закипающей плазме.
+  quote_ru: Плазмоиды сжатия и плазмоиды расширения. Взрывной процесс образования молнии. Взрывная неустойчивость термоэлектронной эмиссии Г.Месяца. Взрывной саморазогрев плазмы в E-Cat тепловых генераторах
+    итальянца Росси.
+  statement_en: Sapogin's lecture covers compression and expansion plasmoids, the explosive process of lightning formation, Mesyats' explosive thermionic-emission instability, and explosive plasma self-heating
+    in Rossi's E-Cat heat generators.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoids
+  - lightning
+  - mesyats
+  - e-cat
+  - rossi
+  - anomalous-heat
+  notes: ''
+  relations: []
+- id: SC-SI05-008
+  type: physics
+  facet: procedure
+  priority: core
+  page: § 4. Расчёт реактора из плазмоидов киловаттной установки П.Баумана с одиночным диском электретов
+  quote_ru: Количество синтезированных плазмоидов. Объём плазмоидного реактора. Концентрация плазмоидов. Мощность взрыва одиночного плазмоида в искровом промежутке.
+  statement_en: 'Sapogin''s lecture computes, for Baumann''s kilowatt single-electret-disk setup: the number of synthesized plasmoids, the plasmoid reactor volume, plasmoid concentration, and the explosion
+    power of a single plasmoid in the spark gap.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - plasmoid-reactor
+  - procedure
+  - spark-gap
+  - evo-generation
+  notes: Lecture also covers charge per spark, energy release for classical vs Zhuravkov subcritical discharge, plasmoid lifetime and binding energy.
+  relations: []
+- id: SC-SI05-009
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § 5. Коэффициент импульсного преобразования мощности закипающей плазмой
+  quote_ru: Импульсный плазменный заряд/разряд вакуумного конденсатора (ВК). Импульсное преобразования мощности ВК. Его зависимость от отношения периода заряда к периоду разряда.
+  statement_en: Sapogin's lecture covers pulsed plasma charge/discharge of a vacuum capacitor (VC), the pulsed power conversion of the VC, and its dependence on the ratio of charge period to discharge period
+    (Kholoshenko-type experiments).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - vacuum-capacitor
+  - pulsed-conversion
+  - kholoshenko
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI05-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: § 6. Иерархия и координатно-временная симметрия законов сохранения
+  quote_ru: Координатно-временная симметрия законов сохранения полной механической энергии и полного импульса частицы.
+  statement_en: Sapogin asserts coordinate–time symmetry of the conservation laws of total mechanical energy and total particle momentum (isokinematic vs isoimpulse Hamilton functions).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conservation-laws
+  - symmetry
+  notes: ''
+  relations: []
+- id: SC-SI05-011
+  type: physics
+  facet: theory
+  priority: normal
+  page: § 7. Последняя сакральная тайна релятивизма. Биволновой заряд.
+  quote_ru: Первая - временная волна действия (де Бройлевская волна) имеет фазовую скорость больше скорости света. Другая плоская волна (координатная волна действия, открытая в опытах Комптона) движется
+    с фазовой скоростью меньше скорости света.
+  statement_en: Sapogin asserts the temporal action wave (de Broglie wave) has phase velocity above light speed while the coordinate action wave (discovered in Compton's experiments) moves with phase velocity
+    below light speed.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - biwave
+  - de-broglie
+  - compton
+  notes: ''
+  relations: []
+- id: SC-SI05-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: § 7. Последняя сакральная тайна релятивизма. Биволновой заряд.
+  quote_ru: Квантовая механика с одной волновой функцией – незаконченный теоретический догмат фундаментальной физики. Биволновой принцип наименьшего действия требует создания релятивистской квантовой механики
+    с двумя волновыми функциями.
+  statement_en: Sapogin asserts quantum mechanics with a single wave function is an unfinished theoretical dogma of fundamental physics, and the biwave least-action principle requires creating a relativistic
+    (biwave) mechanics.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - quantum-mechanics
+  - biwave
+  notes: Second sentence completed from the same page paragraph; assertion is the lecture-plan closing claim.
+  relations: []
+- id: SC-SI05-013
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § 8. Экспериментальные подтверждения законов «Канонической электрофизики»
+  quote_ru: (США, Бодега, 1970 г). Электронный кластер Шоулдерса. Количество электронов. Геометрические размеры. Время жизни. Кратер Шоулдерса. Энергия синтеза распада электронного кластера сжатия.
+  statement_en: 'Sapogin''s lecture lists the Shoulders experiments (USA, Bodega, 1970): the Shoulders electron cluster — electron count, geometric size, lifetime, the Shoulders crater, and the synthesis/decay
+    energy of the compression electron cluster.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - electron-cluster
+  - evo
+  - experiment
+  - crater
+  notes: ''
+  relations: []
+- id: SC-SI05-014
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § 8. Экспериментальные подтверждения законов «Канонической электрофизики»
+  quote_ru: Плёнка электронного кластера, всплывающая над границей раздела вода-воздух, в которой распространяется радиальный ток.
+  statement_en: 'Sapogin describes Shabanov''s experiments (USSR, Gatchina, 2000): a film of electron cluster floating up above the water–air boundary, carrying a radial current.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shabanov
+  - electron-cluster-film
+  - evo
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI05-015
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § 8. Экспериментальные подтверждения законов «Канонической электрофизики»
+  quote_ru: В опытах источником электронных плазмоидов заряжался и разряжался вакуумный конденсатор (ВК) с термоэлектронной эмиссией. ВК осуществляет сверхединичное преобразование мощности синтеза плазмоидов
+    при заряде в мощность распада плазмоидов при разряде ВК. На лицо отсутствие законов сохранения энергии.
+  statement_en: 'Sapogin reports Kholoshenko''s experiments (France, Marseille, 2021): a vacuum capacitor charged and discharged with a source of electron plasmoids performs over-unity conversion of plasmoid-synthesis
+    power at charge into plasmoid-decay power at discharge — an apparent absence of energy conservation laws.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - kholoshenko
+  - vacuum-capacitor
+  - over-unity
+  - plasmoids
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI05-016
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § 8. Экспериментальные подтверждения законов «Канонической электрофизики»
+  quote_ru: Физика работы устройства совпадает с физикой работы диода Шоулдерса. Совмещение генератора с электростатическим мотором, работающим на стрелке Франклина позволило создать устройство длительно
+    генерирующее переменный ток без ископаемого топлива.
+  statement_en: Sapogin asserts the operating physics of Baumann's device (radial electrets self-rotating between П-shaped plates) coincides with the physics of the Shoulders diode, and combining the generator
+    with an electrostatic motor working on the Franklin vane made a device generating AC for prolonged periods without fossil fuel.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - baumann
+  - testatika
+  - shoulders-diode
+  - over-unity
+  - electrical-path
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

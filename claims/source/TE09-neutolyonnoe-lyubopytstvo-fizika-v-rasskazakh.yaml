@@ -1,0 +1,17 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE09
+  section: teaching
+  title_ru: Неутолённое любопытство (физика в рассказах)
+  title_en: Unquenched curiosity (physics in stories)
+  file: papers/teaching/neutolyonnoe-lyubopytstvo-fizika-v-rasskazakh.pdf
+  source_url: http://146.190.233.254/docs/teaching/Неутолённое любопытство (физика в рассказах).pdf
+  md5: 581e8f011a708458709c059791903057
+  pages_total: 183
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

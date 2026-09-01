@@ -1,0 +1,1085 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: MO03
+  section: monography
+  title_ru: Технологии персональной энергетики на пузырьковых структурах зарядов (физические основы)
+  title_en: Personal energy technologies on charge bubble structures (physical foundations)
+  file: papers/monography/tekhnologii-personalnoy-energetiki-na-puzyrkovykh-strukturakh-zaryadov-fizichesk.pdf
+  source_url: http://146.190.233.254/docs/monography/Технологии персональной энергетики на пузырьковых
+    структурах зарядов (физические основы).pdf
+  md5: fd99d780ff2413eb3d4a4a9a0e696b05
+  pages_total: 71
+  retrieved: '2026-08-31'
+claims:
+- id: SC-MO03-001
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: 'Но экспериментальные исследования газа термоэлектронов вблизи поверхности катода утверждают
+    совершенно иное, а именно:'
+  statement_en: 'The author asserts that experimental studies of the thermoelectron gas near the cathode
+    surface establish: (1) the electron gas can exist in equilibrium when no current flows between cathode
+    and anode; (2) the thermoelectron gas resembles a cloud with a sharp boundary; (3) in this equilibrium
+    the Coulomb repulsion of like charges is somehow compensated — despite the Earnshaw theorem argument
+    that a stationary system of charges under only Coulomb forces cannot be in stable equilibrium.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermoelectron-cloud
+  - earnshaw
+  - compensation
+  - charge-clusters
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-002
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 8
+  quote_ru: Даже невооружённым глазом вы видите тонкий светящийся слой заря- дов.
+  statement_en: 'The author reports a Wimshurst machine observation: the electron-bearing ball charged
+    to about 25 kV glows in darkness with a thin luminous charge layer whose thickness (micrometers to
+    tens of micrometers per cluster-distribution calculations) exceeds the mean free path of air molecules;
+    the electrons of the charge atmosphere excite oxygen atoms which re-emit; the communicated charge
+    thus forms a charge cluster ("atmosphere") of finite spatial thickness — volume, not just surface,
+    charge — whose behavior contradicts the Earnshaw theorem, requiring some retention forces beyond Coulomb
+    repulsion.'
+  quantities:
+  - ~25 кВ
+  - 'толщина слоя: мкм – десятки мкм'
+  equations: []
+  materials:
+  - электрофорная машина (Вимшурста, 1883)
+  - металлические шарики
+  geometry: []
+  procedure_steps:
+  - charge the balls to ~25 kV with the Wimshurst machine
+  - observe the negative ball in darkness
+  measurements:
+  - quantity: glowing layer thickness
+    value: micrometers..tens of micrometers
+    unit: мкм
+    conditions: negative ball at ~25 kV, darkness observation
+  schematic_refs:
+  - Рис. 1 (Электрофорная машина)
+  tags:
+  - wimshurst
+  - glow
+  - charge-cluster
+  - experiment
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-003
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 8
+  quote_ru: внутри токового шнура, они, тем не менее, не разлетаются в простран
+  statement_en: The author asserts that in a spark discharge between the charged balls the electrons transferred
+    through the current filament are moving like charges which, though interacting by Coulomb law inside
+    the filament, do not fly apart transversally — another instance of compensated Coulomb interaction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - токовый шнур
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spark
+  - current-filament
+  - compensation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-004
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: Благодаря открытию зарядового кластера стало понятно, что можно построить ещё одну модель
+    ядра
+  statement_en: 'The author proposes a cluster nuclear model: the charges of a nucleus form an electron-proton
+    plasma of exceptionally high density and temperature, held in equilibrium by the same powerful universal
+    forces that hold a charge cluster; the model would yield distribution laws of charges and collective
+    fields inside nuclear bubbles, and atomic nuclei may be canonical states of superdense gaseous matter
+    — thin-walled charge bubbles.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - тонкостенный пузырёк зарядов
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nuclear-model
+  - cluster-nucleus
+  - transmutation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-005
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 12
+  quote_ru: Реальность мощных сил полевого происхождения указывает на возмож- ность локализации многопротонных
+    пузырьков зарядов ядерных и других
+  statement_en: The author asserts that field-origin forces allow localizing multi-proton charge bubbles
+    of nuclear and other sizes, with or without neutrons, at charge density 7-8 mC/nm3 — exceeding the
+    charge density in Shoulders micron electron clusters by a factor of 8e17 — with binding energies orders
+    of magnitude above all known nuclear binding energies and even the Higgs boson; characteristics of
+    proton clusters of nuclear size are given in ref. [5]; applications include non-lethal close-range
+    weapons using a ball-lightning-sized charge bubble.
+  quantities:
+  - плотность заряда 7–8 мКл/нм3
+  - превышение в 8·1017 раз
+  equations: []
+  materials: []
+  geometry:
+  - nuclear-size proton bubbles
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - proton-clusters
+  - nuclear-size
+  - transmutation
+  - core
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-MO03-006
+  type: physics
+  facet: theory
+  priority: core
+  page: 13
+  quote_ru: Становятся понятными физические причины возможности проте- кания низкоэнергетических ядерных
+    реакций
+  statement_en: 'The author asserts the physical causes of low-energy nuclear reactions (LENR) and cold
+    nuclear fusion become clear: they proceed in media where currents in plasma are formed by counter-motion
+    of charge clusters of different directions.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - lenr
+  - cold-fusion
+  - clusters
+  - transmutation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-007
+  type: physical
+  facet: process
+  priority: core
+  page: 13
+  quote_ru: Появляется возможность повторить и расширить уникальные экс- перименты К. Шоулдерса по эффективному
+    уменьшению уровня радио
+  statement_en: The author asserts it becomes possible to repeat and extend Shoulders unique experiments
+    on effectively reducing the radioactivity of nuclear waste, arising from a little-known cluster-type
+    interaction of microscopic charge bubbles with radioactive waste nuclei; the Shoulders disposal method
+    is called radical and capable of saving humanity.
+  quantities: []
+  equations: []
+  materials:
+  - радиоактивные отходы
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - radioactivity-reduction
+  - waste
+  - transmutation
+  - core
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-MO03-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 13
+  quote_ru: В связи с этим, кластеры разных размеров могут, как притягиваться, так и отталкиваться друг
+    от
+  statement_en: 'The author argues the "Coulomb barrier" concept should be removed from physics as applicable
+    only to point charges that do not really exist: all charge bubbles have extended structure from femto-
+    to macro-sizes with smeared charge, and their interaction is always two-force — the familiar one-force
+    charge interaction plus a force tied to the spatial change of field pressure proportional to the square
+    of the interacting field strength; hence clusters of different sizes can attract, repel, merge, and
+    form new clusters with different charge counts; the same two-force interaction explains G. Nikolaev''s
+    magnets-on-cart experiment (carts attract when separated, repel when approaching) without invoking
+    his scalar magnetic field.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - two-force
+  - coulomb-barrier
+  - extended-charges
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-009
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 14
+  quote_ru: Появление пу- зырьковой структуры на обкладках конденсатора
+  statement_en: The author reports that bubble structure forming on capacitor plates (including microscopic
+    ones) can either increase the vacuum capacitance millions of times (Kholoshenko-Kovalenko effect,
+    "Vacuum capacitor", 2011) or make it negative; negative capacitance requires a plasma gap inside the
+    capacitor whose dipole moment amplifies rather than weakens the external field (unlike a dielectric);
+    independent experimental studies of nanoscale capacitors in China and in Russia (Southern Federal
+    University, A. Razumnaya and Yu. Tikhonov) discovered the negative-capacitance effect in recent years;
+    such capacitance decreases with increasing voltage.
+  quantities:
+  - увеличение ёмкости в миллионы раз
+  equations: []
+  materials:
+  - плазменный промежуток
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - negative-capacitance
+  - vacuum-capacitor
+  - kholoshenko-kovalenko
+  - experiment
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-010
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 22
+  quote_ru: Проверим правильность этого утверждения. Если из катода вылета- ет кластер 10
+  statement_en: 'The author computes the Shoulders cluster energy balance: for a cluster of 1e11 electrons,
+    radius 7.5 um, at 10 kV, the high-voltage source performs 160 uJ of work to move the charges (the
+    synthesis cost), while the thin charge layer of that radius stores electric energy of order 154 mJ
+    — larger than the source work by almost 1e3; besides electric energy the cluster has a binding energy
+    which for a zero-field-pressure sphere of 7.5 um radius, minimal charge concentration 5.6e25 m-3 at
+    2000 K and 1e11 electrons equals -18.7 nJ (about -1.2e11 eV) — the decay energy exceeding the U-235
+    nuclear binding energy by more than three orders, released without decay products; a kilowatt plant
+    would need to liberate the binding energy of 5.2e10 clusters per second; the cluster cannot get this
+    energy from vacuum (contra Shoulders and Sarfatti) — it receives it from the high-voltage supply.'
+  quantities:
+  - кластер 1011 электронов
+  - радиус 7,5 мкм
+  - напряжение 10 кВ
+  - работа источника 160 мкДж
+  - электрическая энергия 154 мДж
+  - энергия связи −18,7 нДж ≈ −1,2·1011 эВ
+  - 5,2·1010 кластеров/с на 1 кВт
+  equations: []
+  materials: []
+  geometry:
+  - radius 7.5 um
+  procedure_steps: []
+  measurements:
+  - quantity: source work for cluster synthesis
+    value: '160'
+    unit: мкДж
+    conditions: 1e11 electrons, 7.5 um radius, 10 kV, charged-sphere model
+  - quantity: electric energy of the charge layer
+    value: '154'
+    unit: мДж
+    conditions: same cluster
+  - quantity: binding (decay) energy
+    value: '-18.7'
+    unit: нДж
+    conditions: R=7.5 um, n_min=5.6e25 m-3, T=2000 K
+  schematic_refs: []
+  tags:
+  - energy-balance
+  - shoulders
+  - cluster
+  - synthesis-decay
+  - core
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-MO03-011
+  type: physics
+  facet: theory
+  priority: core
+  page: 23
+  quote_ru: Сантиметровый масштаб реализуется при
+  statement_en: 'The charge-cluster spatial scale l (SI, flat analog of the Debye radius) depends on elementary
+    charge, eps0, Boltzmann constant, temperature and minimal charge concentration: centimeter scale at
+    T = 2000 K and concentration 1.9e11 m-3; micron scale at the same temperature at 1.9e19 m-3; at fermi-scale
+    clusters stop radiating and become more stable, and at T ~ 1e10 K their mean charge density approaches
+    nuclear; field-origin retention forces exist only inside the cluster regardless of size, while outside
+    the spherical cluster the field falls by Coulomb law.'
+  quantities:
+  - T = 2000 К, n0 = 1,9·1011 м-3 → l ~ см
+  - та же T, n0 = 1,9·1019 м-3 → l ~ мкм
+  - T ~ 1010 К → ядерная плотность
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spatial-scale
+  - debye
+  - cluster
+  - core
+  notes: Formula (1) is an image equation in the source; constants listed in prose.
+  relations: []
+- id: SC-MO03-012
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 23
+  quote_ru: Кластер Шоулдерса представляет собой пузырь с полостью, внутри которого зарядов нет.
+  statement_en: The Shoulders cluster is a bubble with a cavity containing no charges and no collective
+    field; charge concentration is low on the zero-field-pressure sphere and increases toward the inner
+    and outer cluster boundaries (where field pressure is larger, charge pressure is larger); on the outer
+    boundary the charge concentration usually exceeds the average electron concentration of the metal,
+    explaining the observed ability of the cluster to "break into and drill" the crystal lattice.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - cavity, concentration peaks on inner and outer boundaries
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-structure
+  - bubble
+  - drilling
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-013
+  type: physics
+  facet: theory
+  priority: normal
+  page: 24
+  quote_ru: Самоcогласованная теория гравитации, построенная на уравнениях Френкеля в
+  statement_en: The self-consistent gravity theory built on Frenkel equations calculates any gas balls
+    of identical particles and the mass spectrum of supermassive black holes of hot neutrons; the spectrum
+    matches observed masses of objects in galactic centers; their structure is canonical — bubble-like,
+    a huge gas bubble larger than the solar system; the total-pressure conservation law in plane symmetry
+    forms field boundary conditions (an equipotential surface where field pressure vanishes and potential
+    is minimal) and indicates gravity-Bernoulli force compensation; two classes of analytic solutions
+    describe distributions in spherical systems with potential well and potential slot, allowing identification
+    of a mass spectrum of hollow accumulations of high-temperature neutrons at 1e11-1e12 K with masses
+    1e6-1e9 solar masses; the Great Attractor parameters are estimated.
+  quantities:
+  - 10^6–10^9 солнечных масс
+  - T = 1011–1012 К
+  equations: []
+  materials:
+  - нейтроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - black-holes
+  - mass-spectrum
+  - great-attractor
+  - self-consistent-gravity
+  notes: ''
+  relations: []
+- id: SC-MO03-014
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 25
+  quote_ru: Измеренные, даже «на гла- зок», толщина и глубина про
+  statement_en: Analyzing the inelastic impact that left a ring melted crater with a rim on a titanium
+    surface (Shoulders crater photographed by electron microscope), the author reconstructs the surface-density
+    distribution of incident charges of a thin-walled charge bubble showing the melt can occur only over
+    the ring-crater area; rough measured melt thickness and depth give order ~1e9 electrons in the incident
+    cluster, within the range obtained in Shoulders experiments.
+  quantities:
+  - ~109 электронов
+  equations: []
+  materials:
+  - титан
+  geometry:
+  - ring melted crater with rim
+  procedure_steps:
+  - measure crater melt thickness and depth
+  - reconstruct incident cluster electron count from the surface-density distribution
+  measurements:
+  - quantity: incident cluster electron count
+    value: ~1e9
+    unit: штук
+    conditions: from crater image analysis
+  schematic_refs:
+  - Рис. 2 (Кратер Шоулдерса)
+  tags:
+  - crater
+  - titanium
+  - shoulders
+  - cluster
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-015
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 26
+  quote_ru: На это указывают эксперименты, проводимые в частных физических лабораториях.
+  statement_en: 'The author reports experiments in private physics laboratories: charge clusters (plasmoids)
+    that entered metal during spark discharge remained inside for months, rarely leaving and releasing
+    their energy at surface defects; experimenters call them "tracers"; they can break the metal surface
+    leaving long periodic dark dashes visible as depressions; also, experiments by American researchers
+    with spacecraft at altitudes up to 600 km detected charge bubbles (plasmoids) in solar radiation that
+    disrupted conductor textures in microchips so strongly that electronic equipment failed.'
+  quantities:
+  - до 600 км высоты
+  - месяцы внутри металла
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tracers
+  - plasmoids
+  - spacecraft
+  - anomalies
+  - core
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-MO03-016
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 30
+  quote_ru: В 2000 г. научно-техническая группа под руководством генерально- го конструктора, академика
+    Б. Каторгина
+  statement_en: 'The author describes the 2000 Katorgin group reactor (NPO Energomash, Khimki) intended
+    as a space-based plasma engine: a reactor of two thin-walled coaxially spaced cylindrical brass electrodes
+    with hydrogen pumped through, about 40 kV applied and a high-voltage glow discharge ignited; the electric
+    field accelerated the discharge plasma so strongly that current disruptions frequently occurred because
+    plasma electrons swept by the gas flow failed to reach the positive electrode; photographs show luminous
+    tubular currents with high temperature between the electrodes; the current-time oscillogram contained
+    chaotic current spikes, and anode and cathode oscillograms differed — cathode current could exceed
+    anode current several times.'
+  quantities:
+  - ~40 кВ
+  - катодный ток в несколько раз больше анодного
+  equations: []
+  materials:
+  - латунные цилиндрические электроды
+  - водород
+  geometry:
+  - two thin-walled coaxial cylinders
+  procedure_steps:
+  - pump hydrogen through coaxial brass electrodes
+  - apply ~40 kV
+  - ignite glow discharge
+  - record anode and cathode current oscillograms
+  measurements:
+  - quantity: applied voltage
+    value: '40'
+    unit: кВ
+    conditions: hydrogen glow discharge
+  schematic_refs:
+  - Рис. 3 (Осциллограмма хаотического тока)
+  tags:
+  - katorgin
+  - energomash
+  - hydrogen-plasma
+  - experiment
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-017
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 31
+  quote_ru: Физическая причина избыточного выделения энергии появилась позже.
+  statement_en: 'The author interprets the Khimki excess heat: the current oscillograms indicate formation
+    in the hydrogen plasma of diverse charge bubbles similar to charge clusters; for a mean spike of 60
+    A of microsecond duration the current contains charge accumulations with a mean value of order 30
+    uC, about 1e14 electrons, protons or their mixture (plasma bubbles); comparison with the Shoulders
+    charge bubble shows that per microsecond the hot plasma continuously forms a bubble structure with
+    a huge number of charge bubbles of the most diverse sizes; the hydrogen current was carried by plasma-generated
+    charge bubbles moving toward each other, with synthesis costing the plasma less energy than their
+    decay released (some bubbles radiate into the plasma, others lose energy passing from plasma into
+    the electrode metal); two excess-heat causes were identified, one being the integral effect of squaring
+    a chaotic current of alternating sign.'
+  quantities:
+  - выброс 60 А
+  - ~30 мкКл
+  - ~1014 частиц
+  - коэффициент преобразования 2–5
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: conversion coefficient
+    value: 2..5
+    unit: ''
+    conditions: ratio of excess heat to grid energy, varied by hydrogen pressure, pumping speed, electrode
+      geometry
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - bubble-structure
+  - excess-heat
+  - interpretation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 32
+  quote_ru: На мой взгляд, обнаруженный процесс синтеза/распада пу- зырьков заряда в токе газообразной
+    плазмы универсальный.
+  statement_en: 'The author asserts the charge-bubble synthesis/decay process in gaseous-plasma current
+    is universal: Fleischmann and Pons hit it (under the unsuccessful name "cold nuclear fusion") in heavy-water
+    electrolysis, where high ohmic resistance kept currents small and synthesis/decay efficiency low,
+    explaining the absence of neutrons; the same process in hot solid-state cathode plasma produces Mesyats
+    explosive thermoemission, breaking the cathode substance; it also drives energy growth in catalytic
+    reactions of heated nickel powders (Rossi E-CAT generators), where enlarging the heated zone causes
+    such powerful bubble-energy release that reactors begin to explode; in solar-corona plasma the synthesis/decay
+    goes on for millions of years driven by the temperature gradient between corona and surface, the only
+    mechanism that can explain the corona being much hotter than the solar surface; chaotic current components
+    in LED and gas-discharge lamps arise from bubble synthesis/decay in incandescent solid-state plasma,
+    explaining why their light output is an order above the electric input; uranium fission was the first
+    bubble-structure-decay energy industry.'
+  quantities:
+  - на порядок выше
+  - ΔT корона–поверхность
+  equations: []
+  materials:
+  - никель (E-CAT)
+  - тяжёлая вода
+  - двухкомпонентная плазма
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - universal-mechanism
+  - cold-fusion
+  - e-cat
+  - solar-corona
+  - led
+  - transmutation
+  - core
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-MO03-019
+  type: physics
+  facet: theory
+  priority: core
+  page: 33
+  quote_ru: Процесс образования пузырька зарядов сантиметровых размеров в грозовой атмосфере приводит
+    к редко наблюдаемому явлению
+  statement_en: 'The author describes ball lightning as a cm-scale charge bubble formed in thunderstorm
+    atmosphere, with the same canonical gaslike structure as the Shoulders cluster: always hollow and
+    thin-walled, with opposite charges separated as in a spherical capacitor and held by the self-consistent
+    field pressure gradient; whatever electric energy it stores, its finale is to radiate and squander
+    all accumulated energy until it disappears or explodes.'
+  quantities:
+  - сантиметровые размеры
+  equations: []
+  materials: []
+  geometry:
+  - hollow thin-walled sphere
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ball-lightning
+  - bubble
+  - canonical-structure
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-020
+  type: physical
+  facet: theory
+  priority: normal
+  page: 36
+  quote_ru: Как же быть? Натолкнулись на такую красивую вещь в физике, а её нельзя использовать на благо
+    человечества?
+  statement_en: 'The author classifies energy-extraction technologies into strongly radiating (harmful
+    — cluster synthesis/decay energy is thrown into hot plasma with broadband electromagnetic radiation
+    against which there is no protection: fusion systems requiring ~1e7 K with Tokamak plasmoid radiation
+    called lethal, open systems directly using HV discharge in plasma blamed for lost researchers, and
+    Potapov-type cavitation heat generators with conversion coefficient above 2) and weakly radiating
+    systems, motivating the search for non-radiating plasmoid synthesis/decay via macroscopic charge separation
+    in room-temperature metal.'
+  quantities:
+  - ~107 К для синтеза
+  - коэффициент выше 2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - radiation-hazard
+  - classification
+  - tokamak
+  - potapov
+  notes: ''
+  relations: []
+- id: SC-MO03-021
+  type: physical
+  facet: process
+  priority: core
+  page: 36
+  quote_ru: Это стимулирует поиск процессов синтеза/распада неизлучающих плазмоидов.
+  statement_en: 'The author proposes weakly radiating technology: non-radiating plasmoids arise from macroscopic
+    charge separation in room-temperature metal plasma; a long conductor placed in the uniform field of
+    a plane capacitor along the field lines synthesizes a dipole plasmoid — an electron charge cluster
+    at one end and a positive cluster of crystal-lattice ions at the other; under low-frequency AC the
+    dipole oscillates with the applied frequency and barely radiates, but decay of the electron bubble
+    should deliver the stored decay energy directly into the electric circuit, producing current instability
+    from dipole-bubble synthesis/decay; one should seek closed-loop electromechanical systems generating
+    excess AC energy without external input.'
+  quantities: []
+  equations: []
+  materials:
+  - плоский конденсатор
+  - проводник
+  geometry: []
+  procedure_steps:
+  - place a long conductor along the field lines of a plane capacitor
+  - supply low-frequency AC voltage
+  - harvest the decay energy of dipole charge bubbles in the circuit
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dipole-plasmoid
+  - non-radiating
+  - process
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 37
+  quote_ru: В соотношении (2) сформулирован закон вечного преобразования
+  statement_en: 'The author quotes the Johnson-Nyquist result (mean-square noise voltage proportional
+    to absolute temperature and ohmic properties) as a "law of eternal conversion of electron thermal
+    energy into electric energy", then critiques it: an estimate for R = 1e3 Ohm, bandwidth 1e4 Hz at
+    room temperature gives about 0.4 uV, which the instruments of the 1930s could not have measured —
+    so the law and its experiments belong to failed physical-technical ideas with a half-life over 50
+    years.'
+  quantities:
+  - R = 103 Ом
+  - Δf = 104 Гц
+  - шум ~0,4 мкВ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - johnson-noise
+  - critique
+  - debt-candidate
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-023
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 39
+  quote_ru: 'Закон термодиффузионного разделения зарядов указывает на то, что:'
+  statement_en: 'The author derives the thermodiffusion charge-separation law for a conductor plasma under
+    a temperature gradient with seven properties: (1) the number of electrons arriving at the cold end
+    equals the ratio of the thermal-energy decrease of the layer to the potential-energy gain of an electron;
+    (2) the number of transferred electrons is the same for plane, cylindrical and spherical layer symmetry;
+    (3) macroscopic charge separation is impossible at equal temperatures of the outer layers; (4) no
+    separation means no noise potential difference; (5) separation requires temperature differences above
+    a scale defined by condition (10); (6) at the same temperature difference the number of separated
+    charges depends on the potential difference they create and not on the layer thickness; (7) verification
+    experiments may give a Boltzmann constant 2-3 orders larger because equation (9) describes a gas of
+    non-interacting electrons.'
+  quantities:
+  - 8,6·103 электронов при ΔT = −100 К и 1 мкВ
+  - 'стержень 1 м: N = 2,45·103'
+  equations:
+  - q\,\mathrm{grad}(\varphi) - k\,\mathrm{grad}(T) = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: separated electrons (plane case)
+    value: 8.6e3
+    unit: штук
+    conditions: ΔT = -100 K, Δφ = 1 uV
+  - quantity: separated electrons (1 m rod)
+    value: 2.45e3
+    unit: штук
+    conditions: ΔT = -100 K
+  schematic_refs: []
+  tags:
+  - thermodiffusion
+  - separation
+  - derivation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-024
+  type: physics
+  facet: theory
+  priority: core
+  page: 41
+  quote_ru: Средний квадрат напряжения не удаётся выразить через омическое со- противление проводника
+  statement_en: 'The author derives from the thermodiffusion model a principally different expression
+    for the mean-square thermal-noise voltage involving the conductor capacitance C rather than resistance,
+    arguing the physics of thermal noise in a conductor under a temperature gradient reflects capacitive,
+    not resistive, properties and calling for an experimental test; he attributes the first observation
+    of this electric instability of thermoelectrons to A. Bulyga (Minsk, 1978, unpublished, personal communication):
+    instability arose when cathode and anode of a thermoelectron converter were held at close temperatures;
+    an alternative hypothesis is that thermal noise arises from synthesis/decay of short-lived charge
+    bubbles synthesized by collective fields of the plasma.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermal-noise
+  - capacitive-model
+  - bulyga
+  - debt-candidate
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-025
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 42
+  quote_ru: Уверенное макроскопическое разделение зарядов плазмы твёрдо- го тела замечено в столетних
+    экспериментах с термопарами.
+  statement_en: 'The author cites century-old thermocouple experiments as confirmation of macroscopic
+    charge separation in solid-state plasma: heating the twist of two dissimilar metals changes the thermocouple
+    EMF from uV to mV, confirming the elementary theory of the dipole electric moment in a conductor whose
+    ends are at different temperatures; verification measurements should be taken between the heated and
+    cold end of a homogeneous conductor section.'
+  quantities:
+  - ЭДС от мкВ до мВ
+  equations: []
+  materials:
+  - термопара (два разнородных металла)
+  geometry: []
+  procedure_steps:
+  - heat the thermocouple junction
+  - measure EMF between heated and cold ends
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermocouple
+  - separation
+  - experiment
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-026
+  type: physical
+  facet: recipe
+  priority: core
+  page: 43
+  quote_ru: Напрашиваются исследования возможности создания разнообразных электронных или плазменных инжекторов
+    сантиметровых размеров
+  statement_en: 'The author proposes cm-scale bubble-TEP injectors working in atmosphere: the cathode
+    geometry must be conical, with the wide part heated in the range 200 to 3000 K and the narrow part
+    cold (electrons need a cold region at the cathode end) from which charge bubbles fly out.'
+  quantities:
+  - подогрев 200–3000 К
+  equations: []
+  materials: []
+  geometry:
+  - conical cathode, heated wide part, cold narrow tip
+  procedure_steps:
+  - make a conical cathode
+  - heat the wide part to 200-3000 K
+  - keep the narrow tip cold
+  - harvest emitted charge bubbles
+  measurements: []
+  schematic_refs:
+  - Рис. 5 (Конструкция ТЭП на пузырьковых структурах зарядов)
+  tags:
+  - recipe
+  - tep
+  - injector
+  - geometry
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-027
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 46
+  quote_ru: Оценка для длины стержня l = 1 м при частоте вращения ν = 40 Гц даёт значение
+  statement_en: 'The author computes centrifugal charge separation in a rotating rod: solving the equilibrium
+    of a point charge cluster spun at the rod end under Coulomb interaction with the charge remaining
+    on the axis gives the number of electrons thrown to the rod end as twice the ratio of the rotational
+    kinetic energy of a single electron to the interaction potential energy over the rod length; for l
+    = 1 m at rotation frequency 40 Hz the estimate is N = 253 electrons; spinning a solid disk carrying
+    40 to 60 identical conducting radial rod-sectors should increase the cluster count by the same factor;
+    the estimate may be low since not all real forces on the moving electron cluster are accounted.'
+  quantities:
+  - l = 1 м
+  - ν = 40 Гц
+  - N = 253 электрона
+  - 40–60 стержней
+  equations: []
+  materials: []
+  geometry:
+  - rod length 1 m, radial rods on disk
+  procedure_steps: []
+  measurements:
+  - quantity: centrifugally separated electrons per rod
+    value: '253'
+    unit: штук
+    conditions: l = 1 m, rotation 40 Hz
+  schematic_refs: []
+  tags:
+  - centrifugal-separation
+  - rotating-rod
+  - calculation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-028
+  type: physical
+  facet: recipe
+  priority: core
+  page: 47
+  quote_ru: Сущность технологии заключается в следующем. Расположив радиально на одном диэлектрическом
+    диске от 40 до 60 проводя
+  statement_en: 'The personal-energy technology: placing 40 to 60 conducting rods radially at equal azimuthal
+    angles on one dielectric disk yields a mechanically variable capacitance; after spinning at constant
+    angular velocity identical electric charges arise at the outer end of each rod, and the rotating radial
+    electric dipole moments serve as generators of seeding low-frequency alternating current; two energy
+    take-off variants exist — symmetric (disk outer diameter inside one П-shaped metal plate without contact;
+    indifferent to even/odd rod count; coordinated take-off to the capacitance) and asymmetric (two П-shaped
+    plates at the ends of a diameter; effective only for an odd number of rods since even counts change
+    charges at both plates simultaneously; the symmetry can be broken by different plate-to-axis distances
+    changing pass-through capacitances — uncoordinated take-off); each П-shaped plate contains a screw
+    with a tip end, the distance adjustable in tuning, the tip needed to form the non-uniform field inside
+    the plate that creates a single-direction mechanical torque for the motor.'
+  quantities:
+  - 40–60 стержней
+  equations: []
+  materials:
+  - диэлектрический диск
+  - проводящие стержни
+  - П-образные пластины
+  - винт с остриём
+  geometry:
+  - 40-60 radial rods, equal azimuthal angles
+  - П-plates without touching the disk
+  procedure_steps:
+  - mount 40-60 conducting rods radially on a dielectric disk
+  - spin at constant angular velocity
+  - place П-shaped take-off plates with tip screws at tunable distance
+  measurements: []
+  schematic_refs:
+  - Рис. 6 (диск на шесть стержней, симметричный съём)
+  - Рис. 7 (диск на пять стержней, асимметричный съём)
+  - Рис. 8 (винт с остриём)
+  tags:
+  - recipe
+  - variable-capacitor
+  - disk-generator
+  - geometry
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-029
+  type: physical
+  facet: procedure
+  priority: core
+  page: 49
+  quote_ru: Работоспособность мотора можно проверить при подаче на него вы- сокого статического напряжения.
+  statement_en: 'The author gives test procedure and circuit: check the motor by applying high static
+    voltage — the disk must have a suspension friction coefficient below 0.05 or friction losses exceed
+    critical and the system will not rotate; maximal mechanical torque is achieved by increasing the number
+    of parallel-connected П-shaped plates to match the rod count; the induced charge on a П-plate formed
+    by electrodynamic induction changes with the flyby frequency of a rod; the electrical parameters of
+    the pulses formed by the variable capacitance and their dependence on angular velocity, rod count,
+    length, diameter and pass-through capacitance should be measured; the voltage swing can be increased
+    by connecting the capacitance plates into a high-voltage series LCR circuit of high Q with Tesla transformers
+    as inductance.'
+  quantities:
+  - коэффициент трения < 0,05
+  equations: []
+  materials:
+  - трансформаторы Теслы
+  geometry: []
+  procedure_steps:
+  - apply high static voltage to verify motor operation
+  - verify suspension friction coefficient < 0.05
+  - match the number of П-plates to rod count for maximal torque
+  - connect the variable capacitance into a high-voltage series LCR circuit
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - motor
+  - test
+  - lcr-circuit
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-030
+  type: physical
+  facet: theory
+  priority: core
+  page: 49
+  quote_ru: При определённых значениях параметра модуляции ёмкости контур входит в токовую неустойчивость
+  statement_en: 'The author describes the closed-loop generator operation: at certain capacitance-modulation
+    parameters the circuit enters the current instability and, after initial spinning, starts producing
+    AC voltage; the current instability is created by the electric instability of the solid-state plasma
+    filling the conductors with charge bubbles; new dipole plasmoids form on the radial rods, oscillating
+    and injecting synthesis/decay energy into the circuit, raising its electric energy until saturation
+    at tens-hundreds of kilovolts due to charge draining from the variable capacitance into air; the system
+    gives one-two orders of magnitude more electric energy than spent on mechanical rotation, part of
+    which returns automatically through the interaction of the charged rod end with the П-plate (as in
+    Lytovchenko-Bologa electrostatic motors, prototypes of the Franklin electric wheel), sustaining self-rotation
+    — a closed energy chain with continuous generation of excess AC energy without external supply.'
+  quantities:
+  - десятки-сотни киловольт
+  - на один-два порядка больше
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - closed-chain
+  - over-unity
+  - current-instability
+  - generator
+  - core
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-MO03-031
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 56
+  quote_ru: несколько различных установок на мощность 100 Вт, 300 Вт, 3 кВт и 10 кВт.
+  statement_en: 'The author reports on the Swiss Testatika installations (P. Bauman community in Linden):
+    several devices rated 100 W, 300 W, 3 kW and 10 kW once operated (videos still findable); information
+    brought from Switzerland three years before writing indicates Bauman stopped working in this direction
+    and one low-power non-working device was placed in a museum whose guides say the Swiss learned to
+    draw electricity from the counter-rotation of disks sufficient for a small house for years; first
+    descriptions appeared in Austria in 1989 in professor S. Marinov''s book; despite detailed color drawings
+    published by the Russian Faradey-Lab 20 years ago, no replication is known to the author.'
+  quantities:
+  - 100 Вт
+  - 300 Вт
+  - 3 кВт
+  - 10 кВт
+  - 1989 г.
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - baumann
+  - installations
+  - debt-candidate
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO03-032
+  type: physical
+  facet: theory
+  priority: core
+  page: 62
+  quote_ru: 'Хочу возраз- ить П. Линдеману: человечеству из эфира, также как и из вакуума, ника- кую свободную
+    энергию добыть нельзя.'
+  statement_en: 'The author interprets the Bauman electromechanical system as a rotating motor plus generator
+    forming a closed energy chain: while the periodically varying capacitance participates in self-rotation
+    it continuously supplies energy into the closed circuit whose load includes high-voltage Tesla transformers
+    and chokes with neodymium magnets, sufficient to cover all system losses per period; two design differences
+    from the author''s source: (1) Bauman replaced conducting rods by radial planar sectors with an electret
+    film whose constant dipole moment is directed along the radius (no centrifugal electron displacement,
+    but the moment suffices to excite current instability of the plasma of the connecting wires — electret
+    vs centrifugal seeding to be compared experimentally); (2) two counter-rotating disks double the capacitance
+    modulation frequency relative to the circuit frequency, realizing the Mandelstam-Papaleksi parametric
+    resonance condition; the author sees a drawback in the asymmetric take-off borrowed from the Wimshurst
+    machine and argues symmetric take-off would raise the power an order of magnitude; the number of disks
+    on one axis cannot be increased, limiting power growth.'
+  quantities:
+  - два диска навстречу
+  - частота модуляции ×2
+  - рост мощности на порядок
+  equations: []
+  materials:
+  - электрет
+  - неодимовые магниты
+  geometry:
+  - two counter-rotating disks
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - interpretation
+  - electret
+  - parametric-resonance
+  - core
+  notes: Quote spans hyphenated line breaks ("возраз-ить", "ника-кую").
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

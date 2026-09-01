@@ -1,0 +1,367 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE06
+  section: teaching
+  title_ru: Измерение величины заряда механическим школьным электрометром
+  title_en: Measurement of charge value by a school mechanical electrometer
+  file: papers/teaching/izmerenie-velichiny-zaryada-mekhanicheskim-shkolnym-elektrometrom.pdf
+  source_url: http://146.190.233.254/docs/teaching/Измерение величины заряда механическим школьным электрометром.pdf
+  md5: 34ceca9e7e08d6ad265b367268127b10
+  pages_total: 6
+  retrieved: '2026-08-31'
+claims:
+- id: SC-TE06-001
+  type: physics
+  facet: schematic
+  priority: normal
+  page: 2
+  quote_ru: Он состоит из измерительной стрелки 1, закреплённой на вертикальном подвесе 2, соединённой
+    с измерительным электродом 3. Конструкция помещена в металлический цилиндрический корпус 4, который
+    изолирован от измерительного электрода диэлектриком.
+  statement_en: The school mechanical electrometer consists of a measuring needle (1) fixed on a vertical
+    suspension (2) connected to a measuring electrode (3); the assembly is placed in a metal cylindrical
+    housing (4) insulated from the measuring electrode by a dielectric; charge supplied to the electrode
+    turns the needle by an angle set by the imparted charge Q.
+  quantities: []
+  equations: []
+  materials:
+  - metal needle
+  - dielectric insulation
+  geometry:
+  - metal cylindrical housing
+  - vertical needle suspension
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1 (photograph, items 1-4)
+  - Рис. 2 (vector diagram)
+  tags:
+  - electrometer
+  - schematic
+  - geometry
+  notes: ''
+  relations: []
+- id: SC-TE06-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: прибор измеряет полный заряд, находящийся на стрелке и измерительном электроде
+  statement_en: The model assumes the instrument measures the total charge residing on the needle and
+    the measuring electrode, Q = 4q, where q is the point-like charge concentrated at the needle centre
+    of gravity; the needle is balanced at a deflection angle by gravity, the Coulomb force, and the support
+    reaction.
+  quantities:
+  - Q = 4q
+  equations:
+  - Q = 4q
+  - F_k = kq^2/r^2
+  - r = 2l\sin(\alpha/2)
+  - F_k = mg\sin(\alpha/2)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - electrometer
+  - model-assumption
+  - charge
+  notes: Equality symbols lost by pdftotext; equations reconstructed best-effort, OCR-degraded.
+  relations: []
+- id: SC-TE06-003
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: получим зависимость измеряемого заряда от угла отклонения стрелки
+  statement_en: 'The authors derive the dependence of the measured charge on the needle deflection angle:
+    Q = Q* sin^{3/2}(alpha/2), where alpha is the deflection angle from vertical.'
+  quantities: []
+  equations:
+  - Q = Q^*\sin^{3/2}(\alpha/2)
+  - 2F_k l\cos\varphi = mgl\sin\alpha
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4 (reduced charge vs deflection angle)
+  tags:
+  - electrometer
+  - charge
+  - derivation
+  notes: Formula symbols lost by pdftotext; equations reconstructed best-effort, OCR-degraded.
+  relations: []
+- id: SC-TE06-004
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: масштаб измеряемого заряда, который совпадает с максимальным значением заряда модели при угле
+    отклонения измерительной стрелки
+  statement_en: The charge scale of the electrometer Q* = sqrt(8l·mg/k) coincides with the maximum charge
+    measurable by the model, attained at the needle deflection angle alpha = pi.
+  quantities: []
+  equations:
+  - Q^* = \sqrt{8l\,mg/k}
+  - Q^* = 2L(1+\beta)\sqrt{2\beta Mg/k}
+  - m = \beta M
+  - \beta = (l_1 - l_2)/L = 2x/L
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3 (effective-mass calculation)
+  tags:
+  - electrometer
+  - charge-scale
+  - derivation
+  notes: Formulas (5)-(7) reconstructed best-effort, OCR-degraded (symbols dropped by pdftotext).
+  relations: []
+- id: SC-TE06-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Масштаб заряда совпадает с максимальным значением заряда и определяется эффективной массой
+    вращающейся стрелки и её геометрической длиной.
+  statement_en: The authors assert that the charge scale of a mechanical electrometer coincides with the
+    maximum measurable charge value and is determined by the effective mass of the rotating needle and
+    its geometric length.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrometer
+  - charge-scale
+  notes: ''
+  relations: []
+- id: SC-TE06-006
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 5
+  quote_ru: Из табл. 1 видно, что значения масштаба заряда для электрометров с различными значениями длины
+    и массы находятся в диапазоне от 10,86 нКл до 121,4 нКл.
+  statement_en: The authors report calculated charge-scale values for electrometers with various needle
+    lengths (L = 50-250 mm) and masses (M = 250-1250 mg) spanning from 10.86 nC to 121.4 nC (Таблица 1,
+    beta = 0.04).
+  quantities:
+  - Q* = 10,86–121,4 нКл
+  - L = 50–250 мм
+  - M = 250–1250 мг
+  - \u03b2 = 0,04
+  equations: []
+  materials: []
+  geometry:
+  - needle length L = 50..250 mm
+  procedure_steps: []
+  measurements:
+  - quantity: charge scale Q* vs needle geometry
+    value: 10.86..121.4
+    unit: нКл
+    conditions: beta = 0.04, calculated table over L x M grid
+  schematic_refs:
+  - Таблица 1
+  - Рис. 4
+  tags:
+  - electrometer
+  - calculated-table
+  - charge-scale
+  notes: ''
+  relations: []
+- id: SC-TE06-007
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 5
+  quote_ru: Из него видно, что зависимость практически линейная в области изменения углов от 300 до 1200.
+  statement_en: The authors report the reduced charge vs deflection angle dependence Q/Q* = f(alpha) is
+    practically linear over deflection angles from 30 to 120 degrees.
+  quantities:
+  - 'linear range: 30–120 град'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - electrometer
+  - linearity
+  - charge
+  notes: Degree signs lost by pdftotext ("от 300 до 1200" = 30..120 degrees).
+  relations: []
+- id: SC-TE06-008
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 5
+  quote_ru: Из неё видно, что значения заряда, измеряемые стандартным электрометром, лежат в диапазоне
+    19 нКл.
+  statement_en: 'The authors report the calculated charge measured by a standard electrometer with charge
+    scale 32.6 nC over deflection angles 0-90 degrees spans up to 19 nC (Таблица 2: Q = 1.94 nC at 10
+    degrees up to 19.34 nC at 90 degrees).'
+  quantities:
+  - Q = 1,94–19,34 нКл
+  - Q* = 32,6 нКл
+  - \u03b1 = 0–90 град
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: charge vs deflection angle (calculated)
+    value: 1.94 nC (10 grad) .. 19.34 nC (90 grad)
+    unit: нКл
+    conditions: electrometer with charge scale Q* = 32.6 nC
+  schematic_refs:
+  - Таблица 2
+  tags:
+  - electrometer
+  - calculated-table
+  - charge
+  notes: ''
+  relations: []
+- id: SC-TE06-009
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 6
+  quote_ru: Таблица 3 содержит данные по градуировке электрометра с длиной стрелки L=150 мм и массой стрелки
+    M=250 мг высоковольтным вольтметром. Электрометр имеет эффективную массу m=10 мг и масштаб заряда
+    Q*=32,6 нКл.
+  statement_en: The authors report calibration of an electrometer with needle length L = 150 mm and needle
+    mass M = 250 mg by a high-voltage voltmeter; the instrument has effective mass m = 10 mg and charge
+    scale Q* = 32.6 nC; the calibration table lists deflection angles 30-46 degrees, charges 2.15-3.97
+    nC, voltages 0.5-4.0 kV, and calculated self-capacitances 8.60-1.98 pF.
+  quantities:
+  - L = 150 мм
+  - M = 250 мг
+  - m = 10 мг
+  - Q* = 32,6 нКл
+  - U = 0,5–4,0 кВ
+  - Q = 2,15–3,97 нКл
+  - C = 1,98–8,60 пФ
+  equations: []
+  materials: []
+  geometry:
+  - needle length L = 150 mm
+  procedure_steps:
+  - calibrate the electrometer with a high-voltage voltmeter
+  - record deflection angle, charge and voltage per measurement
+  - calculate the self-capacitance of the measuring electrode from the data
+  measurements:
+  - quantity: calibration table (angle/charge/voltage/capacitance)
+    value: '8 points: 30..46 grad, 2.15..3.97 nC, 0.5..4.0 kV, 8.60..1.98 pF'
+    unit: град/нКл/кВ/пФ
+    conditions: HV voltmeter calibration
+  schematic_refs:
+  - Таблица 3
+  tags:
+  - electrometer
+  - calibration
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-TE06-010
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 6
+  quote_ru: Измерение полной ёмкости электрометра прибором Е7-22 (измеритель LCR) даёт значение 15 пФ
+    с погрешностью 5%.
+  statement_en: 'The authors report measuring the total capacitance of the electrometer with an E7-22
+    LCR meter: 15 pF with 5% error.'
+  quantities:
+  - C = 15 пФ
+  - погрешность 5%
+  equations: []
+  materials:
+  - Е7-22 LCR meter
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: total capacitance of electrometer
+    value: '15'
+    unit: пФ
+    conditions: E7-22 LCR meter, 5% error
+  schematic_refs: []
+  tags:
+  - electrometer
+  - capacitance
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-TE06-011
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 6
+  quote_ru: Этот факт можно объяснить изменением угла расположения измерительной стрелки по отношению
+    к вертикальному подвесу, а стало быть, к изменению среднего расстояния между обкладками конденсатора.
+    Чем больше угол отклонения от вертикали, тем меньше уединённая электроёмкость. В табл. 3 она изменяется
+    от 1,98 пФ до значения 8,6 пФ.
+  statement_en: 'The authors assert that the measurement-to-measurement variation of the electrode self-capacitance
+    is explained by the change of the needle angle relative to the vertical suspension, i.e. by the change
+    of the mean distance between the capacitor plates: the larger the deflection from vertical, the smaller
+    the self-capacitance, which varies from 1.98 pF to 8.6 pF across the calibration table.'
+  quantities:
+  - C = 1,98–8,6 пФ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: self-capacitance of measuring electrode
+    value: 1.98..8.6
+    unit: пФ
+    conditions: varies with needle deflection angle across calibration
+  schematic_refs:
+  - Таблица 3
+  tags:
+  - electrometer
+  - capacitance
+  - phenomenon
+  - explanation
+  notes: ''
+  relations: []
+- id: SC-TE06-012
+  type: physics
+  facet: procedure
+  priority: normal
+  page: 6
+  quote_ru: Оно требует установки в механических электрометрах равномерной градусной шкалы, с угловым
+    размером до 900 с шагом в 100.
+  statement_en: The authors conclude that increasing charge-measurement accuracy of mechanical electrometers
+    in the nanocoulomb range requires installing a uniform degree scale with angular extent up to 90 degrees
+    and a 10-degree step.
+  quantities:
+  - шкала до 90 град с шагом 10 град
+  equations: []
+  materials: []
+  geometry:
+  - uniform degree scale up to 90 degrees, 10-degree step
+  procedure_steps:
+  - install a uniform degree scale (up to 90 degrees, 10-degree step) in the mechanical electrometer
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrometer
+  - procedure
+  - charge-measurement
+  notes: Degree signs lost by pdftotext ("до 900 с шагом в 100" = up to 90 degrees with 10-degree step).
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

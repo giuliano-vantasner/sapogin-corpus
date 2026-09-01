@@ -1,0 +1,965 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI01
+  section: site
+  title_ru: Каноническая Физика
+  title_en: Canonical Physics
+  file: site/home.md
+  source_url: https://sapogin.com/
+  md5: a0d6b9caca59aea72387db7535e0d634
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI01-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: § «Суть канонических методов решения обыкновенных дифференциальных уравнений»
+  quote_ru: 'Во всех указанных коллективно взаимодействующих физических системах сохраняется полное давление, которое всегда содержит в себе два слагаемых: давление поля и давление частиц (либо зарядов,
+    либо токов).'
+  statement_en: 'Sapogin asserts that in all collectively interacting physical systems (gravity, electrostatics, magnetism) the total pressure is conserved, always containing two terms: the field pressure
+    and the particle (charge or current) pressure.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - total-pressure-integral
+  - conservation-law
+  - canonical-physics
+  notes: Foundational law of 'canonical physics'; equations themselves are images (equation1..5.svg).
+  relations: []
+- id: SC-SI01-002
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § «Суть канонических методов решения обыкновенных дифференциальных уравнений»
+  quote_ru: Покажем, что в уравнении (2) можно понизить порядок дифференциального уравнения и получить гамильтонову функцию системы в виде интеграла полного давления. Алгоритм решения такого класса уравнений
+    приводится в «Справочнике по обыкновенным дифференциальным уравнениям» Э. Камке в главе VI на стр.139.
+  statement_en: Sapogin states that the order of the flat-symmetry equation (2) can be reduced to obtain the Hamilton function of the system as the integral of total pressure, citing Kamke's Handbook (ch.
+    VI, p. 139) for the algorithm.
+  quantities: []
+  equations:
+  - уравнение Пуассона специального вида (1)
+  - плоская симметрия (2)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - /images/equation1.svg
+  - /images/equation2.svg
+  - /images/equation3.svg
+  - /images/equation4.svg
+  - /images/equation5.svg
+  tags:
+  - emden-equation
+  - order-reduction
+  - hamilton-function
+  - kamke
+  notes: Equation bodies are SVG images on the page; referenced, not transcribed.
+  relations: []
+- id: SC-SI01-003
+  type: physical
+  facet: theory
+  priority: normal
+  page: § «Суть канонических методов решения обыкновенных дифференциальных уравнений»
+  quote_ru: Квадрат напряжённости, с точностью до постоянной величины, совпадает с давлением поля.
+  statement_en: Sapogin asserts that the square of the field strength coincides, up to a constant factor, with the field pressure.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-pressure
+  - field-strength
+  notes: ''
+  relations: []
+- id: SC-SI01-004
+  type: physical
+  facet: theory
+  priority: normal
+  page: § «Суть канонических методов решения обыкновенных дифференциальных уравнений»
+  quote_ru: Это означает, что все рассматриваемые газовые системы удерживаются в ограниченной области пространства градиентом давления собственного коллективного поля.
+  statement_en: Sapogin asserts that all considered gas systems are confined in a bounded region of space by the pressure gradient of their own collective field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - confinement
+  - pressure-gradient
+  notes: ''
+  relations: []
+- id: SC-SI01-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: § «Универсальные силы полевого происхождения, удерживающие газовые системы»
+  quote_ru: Существующий в этих системах интеграл полного давления порождает универсальные силы полевого происхождения, удерживающие разнообразные газовые скопления. По исторической справедливости, обнаруженные
+    мною силы полевого происхождения, должны быть названы силами Эмдена-Лауэ-Френкеля, выдающихся физиков мира последнего столетия.
+  statement_en: Sapogin asserts that the total-pressure integral existing in these systems generates universal field-originated forces holding diverse gas clusters, and that by historical justice these
+    forces should be named the Emden–Laue–Frenkel forces (Emden 1907 gas spheres; Laue 1914 like-charge equilibrium; Frenkel's two equation systems).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - laue
+  - frenkel
+  - field-forces
+  notes: Lineage asserted in the preceding sentences of the same section.
+  relations: []
+- id: SC-SI01-006
+  type: physical
+  facet: theory
+  priority: core
+  page: § «Универсальные силы полевого происхождения, удерживающие газовые системы»
+  quote_ru: В магнетизме эти же силы либо выбрасывают переменный ток на поверхность проводника (скин-эффект), либо образуют полую токовую трубку внутри проводника Current Crowding Effect (Эффект Сверхсжатия
+    Тока).
+  statement_en: Sapogin asserts that in magnetism the same field-originated forces either expel alternating current to the conductor surface (skin effect) or form a hollow current tube inside the conductor
+    — the Current Crowding Effect.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical-path
+  - current-crowding
+  - skin-effect
+  - magnetism
+  notes: ''
+  relations: []
+- id: SC-SI01-007
+  type: physical
+  facet: geometry
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Может быть, плоская, трубчатая и тороидальная конфигурация. Размеры зависят от температуры, числа и величины зарядов частиц, удерживаемых коллективным полем. Радиусы могут быть от 50 см до размеров
+    ядра.
+  statement_en: Sapogin asserts the canonical form of a charge-gas cluster is a thin-wall charge bubble (flat, tubular or toroidal configuration) whose radii can range from 50 cm down to nuclear size, depending
+    on temperature, number and magnitude of charges.
+  quantities:
+  - 'cluster radius: 50 cm … nuclear size'
+  equations: []
+  materials: []
+  geometry:
+  - thin-wall bubble, inner volume charge-free; flat/tubular/toroidal configurations; radii 50 cm down to nuclear dimensions
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo
+  - geometry
+  - bubble
+  notes: ''
+  relations: []
+- id: SC-SI01-008
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: 'Плазма слоя может находиться в двух состояниях: состоянии дырочного плазмоида с нулевым дипольным моментом и состоянии электронного плазмоида со смещёнными электронами. В этом случае слой плазмы
+    образует двойной электрический слой.'
+  statement_en: 'Sapogin asserts layer plasma can exist in two states: a hole plasmoid with zero dipole moment and an electron plasmoid with displaced electrons, the latter forming a double electric layer.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid
+  - double-layer
+  notes: ''
+  relations: []
+- id: SC-SI01-009
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Теория показывает, что шаровые молнии могут быть двух типов. При малых дивергенциях коллективного поля пузырь заряжен положительно и находится в состоянии дырочного плазмоида с нулевым дипольным
+    моментом.
+  statement_en: 'Sapogin asserts the theory shows ball lightning can be of two types: at small divergences of the collective field the bubble is positively charged, in the hole-plasmoid state with zero
+    dipole moment.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ball-lightning
+  - plasmoid
+  - evo
+  notes: 'Continuation: electron plasmoid radiates better (next claim).'
+  relations:
+  - to: SC-SI01-010
+    kind: supports
+- id: SC-SI01-010
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: В плазмоиде мало электронов и он будет плохо высвечивать электромагнитные волны. Другой тип молнии – состояние электронного плазмоида. У него электронов всегда больше на внешней стенке и он
+    лучше излучает.
+  statement_en: Sapogin asserts the hole-type plasmoid contains few electrons and radiates electromagnetic waves poorly, while the second ball-lightning type, the electron plasmoid, always has more electrons
+    on its outer wall and radiates better.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ball-lightning
+  - plasmoid
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI01-011
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: 'Каноническая теория электричества разрешила древний парадокс электростатики: одноимённые заряды, сообщённые металлической поверхности, удерживаются от кулоновского взаимодействия градиентом
+    давлением собственного электрического поля.'
+  statement_en: 'Sapogin asserts canonical theory of electricity resolved the ancient electrostatics paradox: like charges deposited on a metal surface are held against Coulomb repulsion by the pressure
+    gradient of their own electric field.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrostatics
+  - charge-cluster
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI01-012
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Тонкостенный пузырь зарядов, возникающий на поверхности металлического шара при его заряде. В электростатике радиус пузыря совпадает с радиусом шара.
+  statement_en: Sapogin asserts a thin-wall charge bubble arises on the surface of a charged metal sphere, with bubble radius equal to the sphere radius in electrostatics.
+  quantities:
+  - bubble radius = sphere radius
+  equations: []
+  materials: []
+  geometry:
+  - thin-wall bubble on sphere surface
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrostatics
+  - bubble
+  notes: ''
+  relations: []
+- id: SC-SI01-013
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Каноническая Физика (вводная)
+  quote_ru: Расчёт физических параметров микронных пузырьков зарядов с высокой степенью точности совпал с экспериментами первооткрывателя этого объекта Кена Шоулдерса, называемого в наших научных технических
+    кругах «Пророком твердотельной микроэлектроники».
+  statement_en: Sapogin asserts his calculated physical parameters of micron-sized charge bubbles matched Ken Shoulders' experiments (the discoverer) with high accuracy.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - charge-cluster
+  - evo
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI01-014
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Зарядовые кластеры, обнаруженные при протекании тока в газообразных, жидких и твёрдых средах в многообразных экспериментах с аномальным выделением энергии.
+  statement_en: Sapogin asserts charge clusters have been detected during current flow in gaseous, liquid and solid media in diverse experiments with anomalous energy release.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo
+  - anomalous-energy
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI01-015
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Волны пространственного заряда (ВПЗ), наблюдаемые в проводнике при протекании тока, – периодическая последовательность пузырьков зарядов из электронов. Чёточная молния состоит из последовательности
+    пузырьков из плазмоидов.
+  statement_en: Sapogin asserts space-charge waves (SCW) observed in conductors carrying current are a periodic sequence of electron charge bubbles, and bead lightning is a sequence of plasmoid bubbles.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - space-charge-waves
+  - electrical-path
+  - bead-lightning
+  notes: ''
+  relations: []
+- id: SC-SI01-016
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Ядро любого атома – самый маленький в природе тонкостенный плазменный пузырь размерами ферми с огромной температурой порядка 10^(11) Кельвин.
+  statement_en: Sapogin asserts the nucleus of any atom is the smallest thin-wall plasma bubble in nature, of fermi size, with enormous temperature of order 10^11 K.
+  quantities:
+  - nucleus temperature ~ 1e11 K
+  - 'nucleus size: fermi-scale'
+  equations: []
+  materials: []
+  geometry:
+  - thin-wall plasma bubble of fermi dimensions
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nucleus
+  - plasma-bubble
+  - transmutation
+  notes: ''
+  relations: []
+- id: SC-SI01-017
+  type: physical
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: В некоторых случаях она может быть на два-три порядка больше, чем энергия связи ядра урана 235.
+  statement_en: Sapogin asserts the charge–field binding (interaction) energy can in some cases exceed the binding energy of the uranium-235 nucleus by two to three orders of magnitude.
+  quantities:
+  - 'charge-field binding energy: 2–3 orders above U-235 nuclear binding energy'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - binding-energy
+  - uranium-235
+  - charge-cluster
+  notes: ''
+  relations: []
+- id: SC-SI01-018
+  type: physical
+  facet: process
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Если пузырьки зарядов образуются между металлическими электродами, то распад пузырька выбрасывает избыточную электромагнитную энергию в конденсатор в виде тока смещения Максвелла, замкнутого
+    на электроды. Она пополняет энергию электрической цепи системы, в которой образовались пузырьки зарядов.
+  statement_en: Sapogin asserts that when charge bubbles form between metal electrodes, bubble decay ejects surplus electromagnetic energy into the capacitor as Maxwell displacement current closed onto
+    the electrodes, replenishing the energy of the electric circuit in which the bubbles formed.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - charge bubbles form between metal electrodes
+  - bubble decay ejects surplus EM energy as Maxwell displacement current
+  - current closes onto electrodes and replenishes circuit energy
+  measurements: []
+  schematic_refs: []
+  tags:
+  - displacement-current
+  - over-unity
+  - electrical-path
+  - charge-bubbles
+  notes: ''
+  relations: []
+- id: SC-SI01-019
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Осциллирующий дипольный момент создаёт ток Максвелла, величина которого пропорционально скорости изменения потока вектора электрической индукции (утерянный во времени фундаментальный физический
+    закон электродинамической индукции (ЭДИ), в котором переменный поток электрического поля порождает переменный ток смещения Максвелла).
+  statement_en: Sapogin asserts an oscillating dipole moment creates a Maxwell current proportional to the rate of change of the electric induction flux — the 'lost' fundamental law of electrodynamic induction
+    (EDI) in which a varying electric-field flux generates an alternating Maxwell displacement current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edi-law
+  - displacement-current
+  - maxwell
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-020
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Процессы генерации переменного тока смещения не подчиняются законам сохранения энергии.
+  statement_en: Sapogin asserts that the processes of alternating displacement-current generation do not obey the energy conservation laws.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - over-unity
+  - displacement-current
+  - energy-conservation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-021
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Закон ЭДИ позволяет создавать устройства преобразования переменного тока, как с понижением мощности, так и со сверхединичным увеличением мощности в электрической цепи.
+  statement_en: Sapogin asserts the EDI law allows creating AC conversion devices with both step-down of power and over-unity power increase in an electric circuit.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edi-law
+  - over-unity
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-022
+  type: mathematical
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Углублённое исследование показало, что система уравнений в плоском случае имеет полный набор решений, состоящий из 4-х четных функций. **Интеграл полного давления,** состоит из разности давления
+    токов и давления электрического поля, взаимодействующих между собой. Три функции описывают скин-эффект (выталкивание тока на поверхность), а четвёртая – эффект сжатия токового слоя, который также может
+    происходить на переменном токе.
+  statement_en: 'Sapogin asserts the Maxwell–Ohm system in the planar case has a complete set of 4 even-function solutions: three describe the skin effect (current expulsion to the surface) and the fourth
+    describes current-layer compression, which can also occur on AC.'
+  quantities:
+  - 4 even-function solutions (planar case)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - maxwell-ohm
+  - skin-effect
+  - current-crowding
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-023
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: возможны четыре варианта распределения переменного плоского тока по поперечному сечению, а не один, как считалось ранее
+  statement_en: Sapogin asserts four variants of AC current distribution over a conductor cross-section are possible, not one as previously believed.
+  quantities:
+  - 4 AC distribution variants
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-distribution
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-024
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: В цилиндрической симметрии тоже есть, как минимум, три решения, описывающих различные варианты поперечного распределения переменного тока. Есть вариант шнура, сжатого около оси системы, который
+    теоретики не увидели. В 2001 году американские исследователи Кух и Ибрагим, после обнаружения этого явления в экспериментах, назвали его Current Crowding Effect (Эффект Сверхсжатия Тока).
+  statement_en: Sapogin asserts cylindrical symmetry admits at least three solutions for transverse AC current distribution, including an axially compressed cord variant that theorists missed; in 2001 American
+    researchers Kuh(x) and Ibrahim, after observing the phenomenon in experiments, named it the Current Crowding Effect.
+  quantities:
+  - '>=3 cylindrical solutions'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-crowding
+  - cylindrical-symmetry
+  - kuh-ibrahim
+  - electrical-path
+  - experiment
+  notes: Names transliterated in source as 'Кух и Ибрагим' (Kooh/Ibrahim).
+  relations: []
+- id: SC-SI01-025
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Прямолинейный ток цилиндрического проводника с диаметром порядка 20 нм и меньше, на частоте в гигагерц выдавливается из проводника наружу за счёт известного скин-эффекта. Но в этом случае, выбрасывание
+    тока на поверхность настолько сильное, что внутри тока образуется цилиндрическая полость, в которой нет зарядов.
+  statement_en: Sapogin asserts that in a cylindrical conductor of ~20 nm diameter and smaller, GHz-frequency current is expelled outward by the skin effect so strongly that a charge-free cylindrical cavity
+    forms inside the current.
+  quantities:
+  - wire diameter ~ 20 nm and smaller
+  - 'frequency: GHz'
+  equations: []
+  materials: []
+  geometry:
+  - cylindrical wire, internal charge-free cavity
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nanowire
+  - skin-effect
+  - evo-generation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-026
+  type: physical
+  facet: process
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Электроны, вышедшие на поверхность проводника, не выбрасываются наружу под действием силы Кулона, а образуют зарядовый кластер внешней оболочки с очень тонкой стенкой. Кластер удерживается давлением
+    собственного электрического поля так же, как и горячая плазма удерживается магнитным полем в термоядерном синтезе.
+  statement_en: Sapogin asserts electrons emerging at the conductor surface are not expelled by the Coulomb force but form a thin-walled outer-shell charge cluster held by its own electric-field pressure,
+    analogous to hot plasma held by magnetic field in fusion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - very thin-walled outer shell cluster
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo-generation
+  - nanowire
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-027
+  type: physical
+  facet: process
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Трубчатый кластер зарядов, как «удавка», не даёт электронам уйти с поверхности проводника. Но как только возникает скачок удельного сопротивления на p-n переходе или на n-p переходе, равновесное
+    состояние тока и поля заканчивается взрывом.
+  statement_en: Sapogin asserts the tubular charge cluster acts like a 'noose' keeping electrons on the conductor surface, and that a resistivity jump at a p-n or n-p junction ends the current–field equilibrium
+    in an explosion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - p-n-junction
+  - explosion
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-028
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Ток пропускался через металлические плёнки толщиной несколько сотен атомарных слоёв. Температура охлаждаемого металла фиксировалась. Она была на уровне 180°С. При критических значениях плотности
+    тока выше, чем 1,43x10^(9) А/м2 в вольфраме и 8,04x10^(9) А/м^(2) в алюминии, проводники взрывались за микросекунды.
+  statement_en: 'Sapogin reports M. Marakhtanov''s experiment: current passed through metal films of several hundred atomic layers at fixed (cooled) metal temperature of 180 °C; above critical current densities
+    of 1.43e9 A/m^2 in tungsten and 8.04e9 A/m^2 in aluminum the conductors exploded within microseconds.'
+  quantities:
+  - 'film thickness: several hundred atomic layers'
+  - 'temperature: 180 °C'
+  - j_crit(W) = 1.43e9 A/m^2
+  - j_crit(Al) = 8.04e9 A/m^2
+  - 'explosion time: microseconds'
+  equations: []
+  materials:
+  - W film
+  - Al film
+  geometry:
+  - films of several hundred atomic layers
+  procedure_steps: []
+  measurements:
+  - quantity: critical current density (W)
+    value: 1.43e9
+    unit: A/m^2
+    conditions: film of several hundred atomic layers, 180 °C
+  - quantity: critical current density (Al)
+    value: 8.04e9
+    unit: A/m^2
+    conditions: film of several hundred atomic layers, 180 °C
+  - quantity: explosion time
+    value: microseconds
+    unit: s
+    conditions: above j_crit
+  schematic_refs: []
+  tags:
+  - marakhtanov
+  - nanowire-explosion
+  - electrical-path
+  - experiment
+  - evo-generation
+  notes: Superscript formatting of 'А/м2' and 'А/м^(2)' follows the source exactly; external link to m.nkj.ru/archive/articles/4072/ on the page.
+  relations: []
+- id: SC-SI01-029
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Огромные силы, связанные с градиентом давления электрического поля, выбрасывают из металла свободные электроны и электроны, создающие ток, а кристаллическая решётка остаётся без удерживающих
+    сил. Проводники с диаметром в нанометры будут взрываться при критических значениях плотности тока.
+  statement_en: Sapogin asserts huge forces tied to the electric-field pressure gradient eject both free electrons and current-carrying electrons from the metal leaving the lattice without retaining forces,
+    so nanometre-diameter conductors will explode at critical current densities.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nanowire-explosion
+  - electrical-path
+  - nanotechnology
+  notes: ''
+  relations: []
+- id: SC-SI01-030
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Из теории следует, что в проводнике переменным магнитным полем можно возбуждать
+  statement_en: Sapogin asserts the theory implies ring Ampère–Foucault currents of atomic and subatomic diameters can be excited in a conductor by an alternating magnetic field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - ampere-foucault
+  - electrical-path
+  notes: Quote is the verbatim clause before the bolded phrase 'кольцевые токи Ампера-Фуко атомных и субатомных диаметров' in the same sentence.
+  relations:
+  - to: SC-SI01-031
+    kind: supports
+- id: SC-SI01-031
+  type: physical
+  facet: geometry
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Диаметры кольцевых токов могут быть на порядок меньше 1 нм и приближаться к диаметру первой боровской орбиты атома водорода.
+  statement_en: Sapogin asserts ring-current diameters can be an order of magnitude below 1 nm, approaching the diameter of the first Bohr orbit of hydrogen.
+  quantities:
+  - 'ring current diameter: order of magnitude below 1 nm (approaching hydrogen first Bohr orbit diameter)'
+  equations: []
+  materials: []
+  geometry:
+  - ring currents of atomic/subatomic diameter
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - geometry
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-032
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Токи таких радиусов не выделяют тепловой энергии. Электроны, двигаясь по кольцу, перестают сталкиваться с положительными ионами проводника, находящимися в тепловом движении. Они вращаются как
+    электроны атома в пустом пространстве. В атоме электроны удерживаются силой Кулона, а в токовом кластере давлением электрического поля. Время жизни кольцевых токов больше 100 лет (а может быть и вечность?).
+  statement_en: 'Sapogin asserts currents of such radii release no thermal energy: electrons circling the ring stop colliding with thermally moving positive ions, orbiting like atomic electrons in empty
+    space (held by electric-field pressure instead of the Coulomb force), and the lifetime of ring currents exceeds 100 years (possibly forever).'
+  quantities:
+  - ring current lifetime > 100 years
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - superconductivity
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-033
+  type: physics
+  facet: measurement
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Расчёты показывают, что у кольцевых токов Ампера-Фуко удельное сопротивление от 10-15 до 10-20 Омм (медь 16 нОмм).
+  statement_en: 'Sapogin asserts calculations give Ampère–Foucault ring currents a resistivity from 10^-15 to 10^-20 Ohm·m (copper: 16 nOhm·m).'
+  quantities:
+  - 'ring current resistivity: 10-15 до 10-20 Омм (source notation, = 10^-15..10^-20 Ohm*m)'
+  - 'copper resistivity: 16 нОмм'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: ring current resistivity
+    value: 1e-15..1e-20
+    unit: Ohm*m
+    conditions: calculated; source prints 'от 10-15 до 10-20 Омм'
+  - quantity: copper resistivity (reference)
+    value: '16'
+    unit: nOhm*m
+    conditions: as stated
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - resistivity
+  - superconductivity
+  - electrical-path
+  notes: 'Source flattens superscripts: ''10-15'' and ''10-20'' denote 10^-15 and 10^-20 (comparison with copper makes the direction unambiguous).'
+  relations: []
+- id: SC-SI01-034
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Кольцевые токи таких диаметров открывают новую суб-нано-область инженерно-физических исследований человечества – область высокотемпературной сверхпроводимости (ВС) проводника, которая может
+    быть только у токов с такой геометрией. Эффект ВС можно использовать при реализации суб-нано компьютеров и технических устройств с самым низким потреблением электрической энергии.
+  statement_en: Sapogin asserts ring currents of such diameters open a sub-nano domain of high-temperature superconductivity (VS) of the conductor, possible only for currents with this geometry, usable
+    for sub-nano computers and ultra-low-power devices.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - high-temperature-superconductivity
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-035
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Солнце – плазменный газовый пузырь с высокой температурой ~10^(7) К. Толщина стенки солнечного пузыря может быть на порядок меньше радиуса.
+  statement_en: Sapogin asserts the Sun is a plasma gas bubble with high temperature ~10^7 K whose wall thickness can be an order of magnitude smaller than the radius.
+  quantities:
+  - Sun temperature ~ 1e7 K
+  - wall thickness <= r/10
+  equations: []
+  materials: []
+  geometry:
+  - thin-wall plasma bubble
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - astrophysics
+  - gas-bubble
+  notes: ''
+  relations: []
+- id: SC-SI01-036
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Тунгусский феномен – холодный газовый пузырь из ледяной пыли. Был выброшен в космос ледяными гейзерами Энцелада. Оценки показывают, что внешний радиус пузыря мог быть ~10 км, а внутренний ~1
+    км. Удерживаемая масса от 10^(6) до 10^(9) тонн льда.
+  statement_en: Sapogin asserts the Tunguska phenomenon was a cold gas bubble of icy dust ejected into space by Enceladus' ice geysers, with outer radius ~10 km, inner radius ~1 km, and confined ice mass
+    from 10^6 to 10^9 tonnes.
+  quantities:
+  - outer radius ~ 10 km
+  - inner radius ~ 1 km
+  - ice mass 1e6..1e9 t
+  equations: []
+  materials: []
+  geometry:
+  - 'thin-wall bubble: outer ~10 km, inner ~1 km'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - gas-bubble
+  - astrophysics
+  notes: ''
+  relations: []
+- id: SC-SI01-037
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Каноническая теория гравитации** интерпретирует «чёрные дыры», обнаруженные в центрах галактик с массами от миллиона до миллиарда солнечных масс, как супергорячие газовые пузыри, состоящие из
+    нейтронов, водорода или гелия размерами в солнечную систему и температурой от 10^(11) до 10^(12) Кельвин.
+  statement_en: Sapogin asserts canonical gravity theory interprets the black holes found in galactic centres (masses from a million to a billion solar masses) as superhot gas bubbles of neutrons, hydrogen
+    or helium, solar-system sized, at temperatures from 10^11 to 10^12 K.
+  quantities:
+  - mass 1e6..1e9 solar masses
+  - temperature 1e11..1e12 K
+  - 'size: solar system'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - black-holes
+  - gas-bubble
+  - astrophysics
+  notes: Quote includes the literal '**' markdown bold marker present in site/home.md; whitespace-normalized verbatim span.
+  relations: []
+- id: SC-SI01-038
+  type: physical
+  facet: theory
+  priority: normal
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Она будет увеличивать, либо уменьшать наблюдаемую массу скопления по сравнению с аддитивной.
+  statement_en: Sapogin asserts the mass–field interaction (binding) energy will increase or decrease the observed mass of a cluster relative to the additive sum.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - binding-energy
+  - mass-defect
+  notes: ''
+  relations: []
+- id: SC-SI01-039
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: При малых дивергенциях напряжённости коллективного поля они могут быть гармоническими или периодическими функциями, которые имеют максимальные, либо минимальные значения.
+  statement_en: Sapogin asserts that at small divergences of the collective field strength the field distributions can be harmonic or periodic functions having maxima or minima.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-distributions
+  notes: ''
+  relations: []
+- id: SC-SI01-040
+  type: physics
+  facet: theory
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: Разнообразные классы возможных конфигураций переменного тока, удерживаемых самосогласованным электрическим полем, описываются системой уравнений Максвелла, дополненной дифференциальным законом
+    Ома.
+  statement_en: Sapogin asserts the diverse classes of possible AC current configurations held by a self-consistent electric field are described by the Maxwell system supplemented by the differential Ohm
+    law.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - maxwell-ohm
+  - current-configurations
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI01-041
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § «Каноническая форма и структура газовых скоплений»
+  quote_ru: При равенстве давлений токов и поля ток может быть отброшен градиентом давления поля от границ стенок внутрь проводника с формированием планарного тока.
+  statement_en: Sapogin asserts that when current and field pressures are equal, the current can be thrown by the field pressure gradient from the wall boundaries into the conductor interior, forming a
+    planar current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - planar-current
+  - electrical-path
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

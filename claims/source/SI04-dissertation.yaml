@@ -1,0 +1,276 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI04
+  section: site
+  title_ru: Докторская диссертация
+  title_en: Doctoral Dissertation
+  file: site/dissertation.md
+  source_url: https://sapogin.com/dissertation
+  md5: 785f4b924ce682fce2bfe55c8ffe0dff
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI04-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: Она базируется на фундаментальном законе сохранения - интеграле полного давления. Исследованы свойства разнообразных скоплений неизлучающих зарядов с однородной и неоднородной температурой.
+  statement_en: Sapogin states the dissertation is based on the fundamental conservation law — the integral of total pressure — and investigates properties of diverse clusters of non-radiating charges with
+    homogeneous and inhomogeneous temperature.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - total-pressure-integral
+  - non-radiating-charges
+  notes: ''
+  relations: []
+- id: SC-SI04-002
+  type: physical
+  facet: geometry
+  priority: core
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: Радиусы могут быть от 50 см до ядерных размеров.
+  statement_en: Sapogin asserts the radii of canonical charge-gas clusters can range from 50 cm down to nuclear sizes.
+  quantities:
+  - 'cluster radius: 50 cm … nuclear size'
+  equations: []
+  materials: []
+  geometry:
+  - thin-wall charge bubble; flat/tubular/toroidal; radii 50 cm to nuclear
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo
+  - geometry
+  notes: ''
+  relations: []
+- id: SC-SI04-003
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: 'теория электричества смогла разрешить древний парадокс электростатики: одноимённые заряды, сообщённые металлической поверхности, удерживаются от разлёта градиентом давлением собственного электрического
+    поля.'
+  statement_en: 'Sapogin asserts only canonical theory of electricity could resolve the ancient electrostatics paradox: like charges deposited on a metal surface are held from dispersal by the pressure
+    gradient of their own electric field.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrostatics
+  - charge-retention
+  - evo
+  notes: Bolded assertion on the page; quote taken from inside the bold span.
+  relations: []
+- id: SC-SI04-004
+  type: physical
+  facet: theory
+  priority: core
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: В некоторых случаях она может быть на два-три порядка больше, чем энергия связи ядра урана 235. Энергия взаимодействия запасается и обычно высвечивается в процессах синтеза/распада пузырьков
+    заряда.
+  statement_en: Sapogin asserts the charge–field interaction (binding) energy can in some cases exceed the U-235 nuclear binding energy by two to three orders of magnitude, is stored, and is usually released
+    in charge-bubble synthesis/decay processes.
+  quantities:
+  - 'binding energy: 2–3 orders above U-235 binding energy'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - binding-energy
+  - uranium-235
+  - synthesis-decay
+  notes: ''
+  relations: []
+- id: SC-SI04-005
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Автореферат
+  quote_ru: Быстрая концентрация тепловой энергии в микрообъеме катода приводит к микровзрывам, которые создают отдельно сформированные в виде лавин порции электронов, названные эктонами Месяца.
+  statement_en: Sapogin reports rapid concentration of thermal energy in a cathode microvolume leads to micro-explosions creating separately formed avalanche-like portions of electrons, named ectons after
+    Mesyats.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ectons
+  - mesyats
+  - explosive-emission
+  - experiment
+  - charge-cluster
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI04-006
+  type: experimental
+  facet: measurement
+  priority: core
+  page: § Автореферат
+  quote_ru: Скопления зарядов (СЗ) образуются в зазоре между катодом и анодом при создании сильного (от 2 до 10 кВ) электрического поля, имеют малые размеры (от долей до десятков микрометров), большой отрицательный
+    заряд (от 108 до 1011 электронов в скоплении) и время жизни от 30 до 100 пс, превышающее время возможного разлета зарядов.
+  statement_en: Sapogin reports charge clusters (CZ) form in the cathode–anode gap under a strong (2–10 kV) electric field, have sizes from fractions to tens of micrometres, large negative charge (10^8
+    to 10^11 electrons per cluster), and lifetime 30–100 ps exceeding the possible charge-dispersal time.
+  quantities:
+  - field 2..10 kV
+  - 'cluster size: fractions..tens of micrometres'
+  - 'charge: 10^8..10^11 electrons (printed ''от 108 до 1011'')'
+  - lifetime 30..100 ps
+  equations: []
+  materials: []
+  geometry:
+  - fractions to tens of micrometres
+  procedure_steps: []
+  measurements:
+  - quantity: formation field
+    value: 2..10
+    unit: kV
+    conditions: cathode-anode gap
+  - quantity: cluster electron count
+    value: 1e8..1e11
+    unit: electrons
+    conditions: source prints flattened superscripts '108 до 1011'
+  - quantity: lifetime
+    value: 30..100
+    unit: ps
+    conditions: exceeds Coulomb dispersal time
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - evo
+  - measurement
+  - authorabstract
+  notes: Source flattens superscripts in this sentence; quantities field records the intended powers as stated by context.
+  relations: []
+- id: SC-SI04-007
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Автореферат
+  quote_ru: Иногда средняя концентрация электронов в скоплении может превосходить среднюю концентрацию электронов в металле на порядок. При таких концентрациях, не имея кристаллической решетки, скопления
+    зарядов проявляют механические свойства, присущие твердым телам.
+  statement_en: Sapogin asserts the mean electron concentration in a cluster can sometimes exceed that in metal by an order of magnitude, and at such concentrations, lacking a crystal lattice, charge clusters
+    display mechanical properties inherent to solids.
+  quantities:
+  - 'electron concentration: up to ~10x metal mean concentration'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - density
+  - mechanical-properties
+  - evo
+  notes: Followed on the page by the ring-shaped melted crater with unbonded roller observed on metal surfaces after inelastic cluster impact.
+  relations: []
+- id: SC-SI04-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Автореферат
+  quote_ru: Она утверждает, что система покоящихся зарядов, расположенных на любом расстоянии друг от друга, не может находиться в состоянии устойчивого равновесия, если между зарядами действуют только
+    кулоновские силы.
+  statement_en: 'Sapogin cites Earnshaw''s theorem: a system of resting charges at any mutual distances cannot be in stable equilibrium if only Coulomb forces act between them.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - earnshaw-theorem
+  - electrostatics
+  notes: Contrast set up against the experimentally known surface charge-layer phenomenon.
+  relations: []
+- id: SC-SI04-009
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Автореферат
+  quote_ru: одноименные заряды, сообщенные однородному проводнику с определенной геометрией, образуют у его поверхности скопление конечной толщины
+  statement_en: Sapogin asserts that like charges deposited on a homogeneous conductor of definite geometry form at its surface a cluster of finite thickness — an unexplained phenomenon of experimental
+    electrostatics where Coulomb repulsion is compensated by forces of unknown origin.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-layer
+  - electrostatics
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI04-010
+  type: physics
+  facet: theory
+  priority: core
+  page: § Автореферат
+  quote_ru: Под зарядовым кластером понимается динамическая система одноименных зарядов, удерживаемая кратковременно в ограниченной области пространства силами полевого происхождения при условии равенства
+    нулю средней плотности тока в произвольном объеме кластера.
+  statement_en: Sapogin defines a charge cluster as a dynamic system of like charges held briefly within a bounded region of space by field-originated forces, under the condition that the mean current density
+    in any volume of the cluster is zero.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - definition
+  - charge-cluster
+  - evo
+  notes: Bolded definition in the autorabstract.
+  relations: []
+- id: SC-SI04-011
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Автореферат
+  quote_ru: 'выявить возможность существования трех видов ударов: с большим, средним и малым энерговыделениями'
+  statement_en: 'Sapogin sets out to show the existence of three kinds of (inelastic hollow spherical charge-cluster vs plane metal surface) impacts: with large, medium and small energy release.'
+  quantities:
+  - 3 impact classes by energy release
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - impact
+  - energy-release
+  - shoulders-crater
+  - evo
+  notes: Task 8 of the dissertation; results to be compared with known cluster-vs-metal-surface experiments (task 9).
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

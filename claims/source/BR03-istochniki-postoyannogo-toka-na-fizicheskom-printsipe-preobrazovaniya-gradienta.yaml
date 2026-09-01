@@ -1,0 +1,935 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: BR03
+  section: brochure
+  title_ru: Источники постоянного тока на физическом принципе преобразования градиента температуры в ЭДС
+    газом термоэлектронов
+  title_en: DC current sources based on the physical principle of converting a temperature gradient into
+    EMF by a thermoelectron gas
+  file: papers/brochure/istochniki-postoyannogo-toka-na-fizicheskom-printsipe-preobrazovaniya-gradienta.pdf
+  source_url: http://146.190.233.254/docs/brochure/Источники постоянного тока на физическом принципе преобразования
+    градиента температуры в ЭДС газом термоэлектронов.pdf
+  md5: 3bfbb5f95aaf6f45dad6e62acf91771b
+  pages_total: 45
+  retrieved: '2026-08-31'
+claims:
+- id: SC-BR03-001
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 6
+  quote_ru: деле, зависит от химической чистоты поверхности металла и колеблется от 10-1 до 10-4 А/(см
+    2К 2) при теоретическом значении
+  statement_en: The authors report that the experimental constant A in the Richardson-Dushman emission
+    law depends on the chemical purity of the metal surface and ranges from 10^-1 to 10^-4 A/(cm^2*K^2)
+    versus the theoretical value 120 A/(cm^2*K^2) — a six-to-nine-order discrepancy that, in their view,
+    should have discredited the theory.
+  quantities:
+  - A = 10-1–10-4 А/(см2К2) эксперимент
+  - A = 120 А/(см2К2) теория
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - richardson-dushman
+  - thermionic-emission
+  - discrepancy
+  notes: Sentence continues from previous page ("...на самом деле").
+  relations: []
+- id: SC-BR03-002
+  type: physics
+  facet: material
+  priority: normal
+  page: 11
+  quote_ru: вольфрам - сильно понижает её при нанесении на него специаль
+  statement_en: The authors note (work-function context) that applying a special film of either thorium
+    or oxide to tungsten strongly lowers its work function.
+  quantities: []
+  equations: []
+  materials:
+  - вольфрам
+  - плёнка из тория
+  - оксидная плёнка
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - work-function
+  - tungsten
+  - thorium
+  - materials
+  notes: Quote cut at soft-hyphen word split; full sentence ends "...либо из тория, либо из оксида."
+  relations: []
+- id: SC-BR03-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: В математической модели нет никакой возможности определить толщину возникающего термоэлектронного
+    облака.
+  statement_en: The authors assert that the equilibrium-gas mathematical model of thermionic emission
+    cannot determine the thickness of the thermoelectron cloud (infinite in the adopted approximation)
+    while experiment indicates a finite thickness, so the model is meaningless and the Richardson-Dushman
+    law belongs to "speculative physics" unrelated to the phenomenon.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermionic-emission
+  - critique
+  - cloud-thickness
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-BR03-004
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 15
+  quote_ru: Существование второй особой точки не выдерживает ни
+  statement_en: The authors assert the Child-Langmuir three-halves law I ~ U^(3/2) for plane electrodes
+    predicts I -> infinity at large anode voltage, but experiment shows a saturation current in the vacuum
+    diode, so the second singular point is untenable; the law also predicts I=0 at U=0 although sensitive
+    instruments register non-zero current at zero anode voltage.
+  quantities: []
+  equations:
+  - I = g\,U^{3/2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - child-langmuir
+  - three-halves-law
+  - saturation-current
+  - critique
+  notes: Quote continues "...какой критики. Эксперимент указывает на наличие в вакуумном диоде тока насыщения."
+  relations: []
+- id: SC-BR03-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: В этом и заключается не­ квантовое объяснение
+  statement_en: 'The authors propose a non-quantum explanation of auto(field) electron emission via the
+    thermoelectron cloud: if the cloud film at the cathode is slightly thinner than the cathode-anode
+    distance, a negative anode potential thins the film so the cloud charges never touch the anode and
+    the diode current is zero (huge ohmic resistance); a positive anode potential grows the film until
+    the thermoelectron gas reaches the anode, the resistance drops sharply and current flows.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-emission
+  - non-quantum
+  - cloud-film
+  - alternative-explanation
+  - debt-candidate
+  notes: Pulled across the soft-hyphen split of "не-квантовое".
+  relations: []
+- id: SC-BR03-006
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 14
+  quote_ru: Отличие объяснений будет проявляться в эксперименте.
+  statement_en: 'The authors assert the two explanations of field emission are experimentally distinguishable:
+    there exists a voltage region between cathode and anode where the vacuum-diode current abruptly ceases
+    (thermoelectron layer thinner than the interelectrode distance), an abrupt current jump impossible
+    under the tunneling-effect explanation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-emission
+  - experiment-discriminator
+  - tunneling
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-BR03-007
+  type: physical
+  facet: procedure
+  priority: normal
+  page: 14
+  quote_ru: таком колеблющемся слое электронов легко сделать генератор
+  statement_en: The authors propose that a thermoelectron gas layer under an external alternating electric
+    field changes its thickness and, possessing elastic properties, has its own mechanical oscillation
+    frequency dependent on the gas temperature; if these frequencies are high, such an oscillating electron
+    layer can easily make a microwave generator consuming no DC current, provided the mechanical oscillation
+    amplitudes are smaller than the cathode-anode distance.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - drive the thermoelectron layer with an external alternating field
+  - use the natural mechanical oscillations of the layer as a DC-free microwave generator
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermoelectron-layer
+  - microwave-generator
+  - proposal
+  notes: ''
+  relations: []
+- id: SC-BR03-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 24
+  quote_ru: закон 3/2 не имеет никакого отношения к вольт-амперным ха­ рактеристикам вакуумного диода.
+  statement_en: 'The authors assert the three-halves law has nothing to do with the volt-ampere characteristics
+    of a vacuum diode: the classical derivation substitutes externally imposed cathode/anode potentials
+    for the potential difference on the charge flow, whereas in the correct solution the potential difference
+    on the charge flow depends on the current density (through the spatial scale in the denominator),
+    not the other way round.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - three-halves-law
+  - critique
+  - boundary-conditions
+  notes: Quote spans the soft-hyphen split of "ха-рактеристикам".
+  relations: []
+- id: SC-BR03-009
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 24
+  quote_ru: Так, для потока электронов с концентрацией п0=1014 м-3, вводимого в вакуум со скоростью
+  statement_en: 'For an electron flow injected into vacuum with concentration n0 = 10^14 m^-3 and velocity
+    v0 = 10^6 m/s at current density j0 = 16 A/m^2, the authors compute the system scales: potential scale
+    2.84 V, pressure scale 91 uPa, field-strength scale 4.53 kV/m, spatial scale 836 um; changes of concentration,
+    velocity and potential develop over ten spatial scales of about 8.4 mm.'
+  quantities:
+  - п0 = 10^14 м-3
+  - у0 = 10^6 м/с
+  - j0 = 16 А/м2
+  - масштаб потенциала 2,84 В
+  - масштаб давления 91 мкПа
+  - масштаб напряжённости 4,53 кВ/м
+  - пространственный масштаб 836 мкм
+  - ~8,4 мм (10 масштабов)
+  equations: []
+  materials: []
+  geometry:
+  - spatial scale 836 um
+  procedure_steps: []
+  measurements:
+  - quantity: system scales of electron flow
+    value: 2.84 V / 91 uPa / 4.53 kV/m / 836 um
+    unit: В, мкПа, кВ/м, мкм
+    conditions: n0=1e14 m^-3, v0=1e6 m/s, j0=16 A/m^2
+  schematic_refs: []
+  tags:
+  - scales
+  - electron-flow
+  - calculation
+  notes: Exponents in the quote degraded by OCR (п0=10^14, у0=10^6); values from page 24 prose.
+  relations: []
+- id: SC-BR03-010
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 24
+  quote_ru: то поток электронов запирается пространственным заря­ дом уже на расстояниях 836 микрон
+  statement_en: The authors assert that in the second (two-flow) solution the electron flow is locked
+    by space charge already at distances of 836 microns, as observed in experiments, which is why electron-beam
+    vacuum installations use an accelerating (focusing) electrode placed close to the cathode.
+  quantities:
+  - 836 микрон
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - space-charge
+  - beam-locking
+  - focusing-electrode
+  notes: ''
+  relations: []
+- id: SC-BR03-011
+  type: physical
+  facet: theory
+  priority: core
+  page: 24
+  quote_ru: Эти решения указывают на воз­ можность существования зарядового кластера микронных разме
+  statement_en: The authors assert that an alternative mathematical formulation of the space-charge problem
+    (solutions in even functions of the potential) indicates the possible existence of a micron-sized
+    charge cluster of the kind discovered in the 1980s in experiments by the American researcher Shoulders.
+  quantities:
+  - кластер микронных размеров
+  equations: []
+  materials: []
+  geometry:
+  - micron-sized charge cluster
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - shoulders
+  - evo
+  - core
+  notes: Full sentence continues "...микронных размеров, который был открыт в 80-х годах прошлого века
+    в экспериментах американского исследователя Шоулдерса [12]." Quote spans soft-hyphen splits.
+  relations:
+  - to: SC-BR04-032
+    kind: supports
+- id: SC-BR03-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 25
+  quote_ru: залась, что вакуумный диод «выдаёт» ненулевой ток и при нулевом анодном напряжении.
+  statement_en: The authors assert that the same live-force integral (with opposite pressure sign) exists
+    in equilibrium systems of collectively interacting gravitating particles with uniform temperature,
+    enabling a self-consistent theory of gravity from which the Tunguska phenomenon was a hollow loose
+    cosmic "snowball" of huge mass consisting of nanoscale ice dust; the concentric cavity explains the
+    minimal destruction at the epicenter because the particle-flux density on the flat impact surface
+    is lower in the center.
+  quantities: []
+  equations: []
+  materials:
+  - ледяные пылинки наноразмеров
+  geometry:
+  - hollow concentric cavity
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - self-consistent-gravity
+  - debt-candidate
+  notes: Quote starts mid-word due to soft-hyphen split ("Ока-залась"); exponential formula best-effort
+    OCR-degraded reconstruction.
+  relations: []
+- id: SC-BR03-013
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 25
+  quote_ru: залась, что вакуумный диод «выдаёт» ненулевой ток и при нулевом анодном напряжении.
+  statement_en: The authors report that improved instrument sensitivity showed the vacuum diode gives
+    non-zero current at zero anode voltage, decreasing monotonically under blocking voltage (exponential
+    law Ia = I0*exp(-eU/kT)); measuring the current differing e-fold from zero and the corresponding voltage
+    yields a calculated cathode temperature 2-3 times higher than its true temperature — the unexplained
+    "Boltzmann cathode temperature" problem, which the author attributes to use of an unsuitable theory.
+  quantities:
+  - расчётная температура катода в 2–3 раза выше истинной
+  equations:
+  - I_a = I_0\exp(-eU/kT)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - blocked-diode
+  - boltzmann-temperature
+  - critique
+  notes: Quote starts mid-word due to soft-hyphen split ("Ока-залась"); exponential formula best-effort
+    OCR-degraded reconstruction.
+  relations: []
+- id: SC-BR03-014
+  type: physical
+  facet: experiment
+  priority: core
+  page: 28
+  quote_ru: Эксперименты с вакуумным ТЭП, проводимые Булыгой в [17-20], показали следующее.
+  statement_en: 'The authors report the experiments of Bulyga on vacuum thermoelectron converters: depending
+    on the temperature difference of flat tungsten electrodes, EMF values from 200 mV to 1000 mV were
+    obtained with internal resistance of the electron gas from 3 kOhm to 15 kOhm, at cathode-anode distances
+    from 100 to 200 um.'
+  quantities:
+  - ЭДС 200–1000 мВ
+  - внутреннее сопротивление 3–15 кОм
+  - расстояние 100–200 мкм
+  equations: []
+  materials:
+  - плоские вольфрамовые электроды
+  geometry:
+  - cathode-anode distance 100-200 um
+  procedure_steps: []
+  measurements:
+  - quantity: TEP EMF
+    value: 200..1000
+    unit: мВ
+    conditions: flat tungsten electrodes, distance 100-200 um, temperature difference varied
+  - quantity: internal resistance of electron gas
+    value: 3..15
+    unit: кОм
+    conditions: same experiments
+  schematic_refs: []
+  tags:
+  - tep
+  - bulyga
+  - emf
+  - tungsten
+  - electrical-path
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-BR03-015
+  type: physical
+  facet: theory
+  priority: normal
+  page: 29
+  quote_ru: На массу любого свободного заряда газа действует сила
+  statement_en: The authors derive that a temperature gradient exerts on any free charge of the gas the
+    force F = -k*grad(T) (k Boltzmann constant), directed opposite the temperature gradient and pushing
+    charges into the cold region; at a unit gradient of 1 K/m its magnitude is 1.38e-23 N, imparting to
+    an elementary charge (an electron) the enormous acceleration 1.5e12 m/s^2.
+  quantities:
+  - F при единичном градиенте 1,38·10-23 Н
+  - ускорение 1,5·1012 м/с2
+  equations:
+  - F = -k\,\mathrm{grad}(T)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - temperature-gradient
+  - force
+  - thermoelectric
+  - derivation
+  notes: Force law (30) reconstructed, OCR-degraded; quote spans the soft-hyphen split of the word "сила".
+  relations: []
+- id: SC-BR03-016
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 29
+  quote_ru: Её значение можно найти из условия равенства сил, действу­ ющих на элементарный положительный
+    заряд
+  statement_en: 'The authors derive the thermoelectric field strength from the balance of the gradient
+    force and the electric force on an elementary positive charge: E = (k/e)*grad(T), linked to the temperature
+    gradient through fundamental constants, equal to 86.2 uV/m at a unit temperature gradient; the direction
+    of the field depends on the sign of the gas charges — coinciding with the temperature gradient for
+    positive charges and opposite for negative ones.'
+  quantities:
+  - E = 86,2 мкВ/м при единичном градиенте
+  equations:
+  - E = (k/e)\,\mathrm{grad}(T)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermoelectric-field
+  - derivation
+  - fundamental-constants
+  notes: Equations (31)-(32) reconstructed, OCR-degraded.
+  relations: []
+- id: SC-BR03-017
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 30
+  quote_ru: 'то мы получим, что в этом приближении ЭДС ТЭП зависит только от разности тем­ ператур между
+    катодом и анодом:'
+  statement_en: The authors derive the fundamental conservation law k*phi/e + T = const from curl-free
+    gradient balance, giving for two planes the TEP EMF e0 = (k/e)*dT — in this approximation the TEP
+    EMF depends only on the cathode-anode temperature difference (the electrodes are isolated and disconnected
+    from a circuit); Table 1 gives EMF from 1.72 mV at dT = 20 K up to 258.6 mV at dT = 3000 K.
+  quantities:
+  - e0 = (k/e)·ΔT
+  - ΔT = 20 К → 1,72 мВ
+  - ΔT = 3000 К → 258,6 мВ
+  equations:
+  - \frac{k}{e}\varphi + T = \mathrm{const}
+  - \Delta\varphi = -\frac{k}{e}\Delta T
+  - \varepsilon_0 = \frac{k}{e}\Delta T
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: EMF vs temperature difference (Table 1)
+    value: 1.72 mV (20 K) .. 258.6 mV (3000 K)
+    unit: мВ
+    conditions: gas of non-interacting charges, calculated table
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - tep
+  - emf
+  - conservation-law
+  - derivation
+  - electrical-path
+  notes: 'Equations (33)-(36) reconstructed, OCR-degraded. Tabulated: ΔT 20/100/200/300/400/500/1000/2000/3000
+    K → 1.72/8.63/17.25/25.9/34.5/43.0/86.25/172.5/258.6 mV.'
+  relations: []
+- id: SC-BR03-018
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 31
+  quote_ru: Это упрощает расчёт распределения дивергентного поля элек­ тронов из уравнения (37), которое
+    для потенциала при плоском
+  statement_en: 'The authors derive for a gas of non-interacting charges in a temperature gradient: with
+    Poisson equation div E = b*e*n, state equation p = nkT, and volume-force balance (Bernoulli pressure-gradient
+    force against Coulomb repulsion), the concentration turns out constant (n = const) — the gas is unperturbed
+    in concentration and its pressure depends only on temperature; the plane-case potential integrates
+    to the one-parameter law phi(x)/phi0 = 1 + a*x/l + a*(x/l)^2/2 with spatial scale l = sqrt(phi0/(b*e*n))
+    and state parameter a = phi0/E*, and the potential of the thermoelectron system cannot be negative.'
+  quantities:
+  - n = const
+  equations:
+  - n = \mathrm{const}
+  - \varphi(x)/\varphi_0 = 1 + a\,x/l + a\,x^2/(2l^2)
+  - l = \sqrt{\varphi_0/(b e n)}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - distribution
+  - derivation
+  - potential-law
+  notes: Equations (37)-(43) reconstructed, OCR-degraded; quote spans soft-hyphen split of "элек-тронов".
+  relations: []
+- id: SC-BR03-019
+  type: physics
+  facet: theory
+  priority: normal
+  page: 32
+  quote_ru: 1. Состояния с неотрицательным значением параметра а представляют неограниченную систему с
+    монотонным
+  statement_en: 'The authors classify system states by the state parameter a: (1) non-negative a — unbounded
+    system with monotonically growing potential; (2) a in the range printed as "-42 < a < 0" — unbounded
+    system with sagging potential; (3) a below that printed boundary — space-limited system with monotonically
+    decreasing potential.'
+  quantities:
+  - 'a >= 0: монотонный рост'
+  - '-4,2 < a < 0 (напечатано «-42 < a < 0»): провисание потенциала'
+  - 'a < -4,2: ограниченная система'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  - Рис. 4
+  - Рис. 5
+  tags:
+  - states
+  - classification
+  - potential
+  notes: The printed boundaries "- 4 2" lost a decimal comma in extraction; transcribed as printed with
+    best-effort reading -4,2.
+  relations: []
+- id: SC-BR03-020
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 32
+  quote_ru: Из табл. 2 следует, что пространственный масштаб системы I для приводимых диапазонов изменения
+    параметров может изме­ няться от 0,744 мкм до 7,44 см.
+  statement_en: 'The authors tabulate (Tables 2-3) the spatial scale l and field scale E* of the system
+    versus electron concentration n = 10^10..10^15 m^-3 and arbitrary constant phi0 = 10^-5..1 V: l ranges
+    from 0.744 um to 7.44 cm, and the thermoelectric field scale E* varies by five orders of magnitude
+    from about 4.25e-3 V/m (exponent degraded in extraction) to 4.25 kV/m.'
+  quantities:
+  - l = 0,744 мкм – 7,44 см
+  - E* от ~4,25·10-3 В/м до 4,25 кВ/м
+  - n = 1010–1015 м-3
+  - ф0 = 10-5–1 В
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 2
+  - Таблица 3
+  tags:
+  - scales
+  - calculated-table
+  notes: Lower E* exponent lost in extraction ("4,25 *10- В/м"); the scale letter prints as "I" (Latin)
+    in the source text.
+  relations: []
+- id: SC-BR03-021
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 36
+  quote_ru: 'Практиков интересует: какое значение ЭДС можно получить из предложенных расчётов?'
+  statement_en: The authors derive the TEP EMF in units of phi0 versus reduced system length x/l (equation
+    47), showing it depends on the state parameter a; Table 4 tabulates the reduced EMF for non-negative
+    a from 0 to 0.8 (columns step 0.2) and reduced length x/l from 0.2 to 3.0 (step 0.2).
+  quantities:
+  - x/l = 0,2–3,0
+  - a = 0–0,8
+  equations:
+  - \varepsilon/\varphi_0 = a\,x/l + a\,x^2/(2l^2)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 4
+  tags:
+  - emf
+  - calculated-table
+  - tep
+  notes: Equation (47) reconstructed, OCR-degraded.
+  relations: []
+- id: SC-BR03-022
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 37
+  quote_ru: Предположим, что мы рас­ сматриваем вольфрамовые, плоские электроды.
+  statement_en: 'The authors estimate the limiting TEP parameters with flat tungsten electrodes, interelectrode
+    distance d = 100 um, cathode at T = 3500 K (just below the melting point of tungsten) and anode at
+    T = 500 K: temperature difference about 3e3 K, potential scale phi0 = 43.1e-3 V, delta_phi/phi0 =
+    dT/T0 = 6, TEP EMF = 6*phi0 = 0.26 V (matching Table 1); with state parameter a = 0 the ratio e0/phi0
+    = x^2/2l^2 gives x = 3.46*l, hence spatial scale l = 29 um and electron concentration in the gap n
+    = 2.8e15 m^-3.'
+  quantities:
+  - d = 100 мкм
+  - T катода = 3500 К
+  - T анода = 500 К
+  - ΔT ≈ 3·103 К
+  - ф0 ≈ 43,1·10-3 В
+  - ЭДС ≈ 0,26 В
+  - l = 29 мкм
+  - n = 2,8·1015 м-3
+  equations:
+  - x = 3.46\,l
+  materials:
+  - вольфрамовые плоские электроды
+  geometry:
+  - interelectrode distance 100 um
+  procedure_steps: []
+  measurements:
+  - quantity: estimated TEP EMF
+    value: '0.26'
+    unit: В
+    conditions: tungsten electrodes, 3500 K / 500 K, d = 100 um
+  schematic_refs: []
+  tags:
+  - tep
+  - tungsten
+  - estimate
+  - emf
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR03-023
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 37
+  quote_ru: Рассчитаем толщину слоя термоэлектронов, образующихся при полученных исходных параметрах,
+    при отсутствии второго
+  statement_en: 'The authors calculate the thickness of the thermoelectron layer formed without a second
+    electrode at T0 = 3.5e3 K: new potential scale 0.3 V, new spatial scale 77.2 um; for state parameter
+    a = -2 the reduced thickness x/l = 0.59 gives a layer thickness of 45.5 um.'
+  quantities:
+  - масштаб потенциала 0,3 В
+  - пространственный масштаб 77,2 мкм
+  - a = −2
+  - толщина слоя 45,5 мкм
+  equations: []
+  materials: []
+  geometry:
+  - thermoelectron layer thickness 45.5 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 6 (приведённая толщина слоя от параметра состояния)
+  tags:
+  - cloud-thickness
+  - calculation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR03-024
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 38
+  quote_ru: Представляет интерес выяснить это для комнатных температур анода
+  statement_en: 'The authors calculate TEP parameters at small temperature differences: for room-temperature
+    anode T0 = 300 K and dT = 20 K the TEP EMF equals 1.73 mV; varying the thermoelectron concentration
+    from 10^10 to 10^16 m^-3 corresponds to cathode-anode distances from 4.35 mm down to 4.35 um.'
+  quantities:
+  - T0 = 300 К
+  - ΔT = 20 К
+  - ЭДС 1,73 мВ
+  - n = 1010–1016 м-3
+  - расстояние 4,35 мм – 4,35 мкм
+  equations: []
+  materials: []
+  geometry:
+  - cathode-anode distance 4.35 mm to 4.35 um
+  procedure_steps: []
+  measurements:
+  - quantity: room-temperature TEP EMF
+    value: '1.73'
+    unit: мВ
+    conditions: T0 = 300 K, ΔT = 20 K
+  schematic_refs: []
+  tags:
+  - tep
+  - room-temperature
+  - emf
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR03-025
+  type: physics
+  facet: theory
+  priority: normal
+  page: 38
+  quote_ru: Сравнение расчётных значений ЭДС с экспериментальны­ ми указывает на тот факт, что в теории
+    нулевого прибли
+  statement_en: The authors state that comparison of the calculated EMF values with experiments shows
+    the zero-approximation theory underestimates them; a self-consistent variant of the theory accounting
+    for charge interaction (space-charge influence, not included in this brochure) gives excellent coincidence
+    of the refined theory with experimental results.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - theory-vs-experiment
+  - space-charge
+  - self-consistent
+  notes: ''
+  relations: []
+- id: SC-BR03-026
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 38
+  quote_ru: Из проведённых экспериментальных исследований можно только грубо оценить толщину облака термоэлектронов.
+  statement_en: 'The authors report that only a rough experimental estimate of the thermoelectron cloud
+    thickness exists: at emitter temperatures from 1e3 to 2e3 K it ranges from hundreds of micrometers
+    to millimeters; below 500 K the cloud thickness sharply decreases to values from a micron to tens
+    of microns.'
+  quantities:
+  - 'толщина: сотни мкм – мм при T 103–2·103 К'
+  - мкм – десятки мкм при T < 500 К
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: thermoelectron cloud thickness
+    value: hundreds of um..mm (1e3-2e3 K); um..tens of um (<500 K)
+    unit: мкм/мм
+    conditions: rough experimental estimates from published studies
+  schematic_refs: []
+  tags:
+  - cloud-thickness
+  - metrology
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-BR03-027
+  type: physical
+  facet: procedure
+  priority: core
+  page: 39
+  quote_ru: Если только разность температур не будет равна нулю, то бу­ дет работать предлагаемый физический
+    принцип.
+  statement_en: 'The authors assert that a non-zero temperature difference activates the proposed physical
+    principle; the thermoelectron concentration can then be increased artificially using Spindt cathodes:
+    counter beam systems of Spindt cathodes at mean current density j0 = 8 A/cm2 of one cathode and electron
+    velocities of 1e6 m/s yield concentrations up to 1e17 m^-3, adjustable over wide limits by the control-electrode
+    voltage.'
+  quantities:
+  - j0 = 8 А/см2
+  - скорости электронов 10^6 м/с
+  - концентрации до 1017 м-3
+  equations: []
+  materials:
+  - катоды Спиндта
+  geometry:
+  - counter (встречные) beam systems of Spindt cathodes
+  procedure_steps:
+  - arrange Spindt cathodes counter-facing in vacuum
+  - set mean current density 8 A/cm2
+  - regulate concentration via control-electrode voltage
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spindt-cathode
+  - concentration
+  - procedure
+  - electrical-path
+  - core
+  notes: Electron-velocity exponent degraded in source text ("10 м/с" = 10^6 м/с per context); flagged
+    in notes.
+  relations: []
+- id: SC-BR03-028
+  type: physical
+  facet: recipe
+  priority: core
+  page: 39
+  quote_ru: Для концентрации 10 17 м--3 и температуре 300 К простран­ ственный масштаб системы I ~ 4 мкм.
+  statement_en: 'The authors propose counter-facing Spindt cathodes in vacuum without an anode at fixed
+    distances d from 1 um to 10 um (Fig. 7, KS = Spindt cathode): for concentration 1e17 m^-3 at 300 K
+    the spatial scale l is about 4 um, covering practically the whole range of relative temperature variation
+    and enabling specialized devices for precision temperature-gradient measurement or precision power
+    sources at the millivolt or microvolt level.'
+  quantities:
+  - n = 1017 м-3
+  - T = 300 К
+  - l ≈ 4 мкм
+  - d = 1–10 мкм
+  equations: []
+  materials:
+  - катоды Спиндта
+  geometry:
+  - counter Spindt cathodes, gap 1-10 um
+  procedure_steps:
+  - place Spindt cathodes counter-facing in vacuum without anode
+  - fix the distance d between 1 and 10 um
+  measurements: []
+  schematic_refs:
+  - Рис. 7 (Катоды Спиндта, расположенные встречно)
+  tags:
+  - recipe
+  - spindt-cathode
+  - geometry
+  - precision-source
+  - electrical-path
+  notes: Quote ends at pdftotext-degraded "I ~ 4 мкм" (l printed as Latin I).
+  relations: []
+- id: SC-BR03-029
+  type: physics
+  facet: theory
+  priority: core
+  page: 41
+  quote_ru: Разность температур в двадцать градусов Кельвина поз­ воляет прогнозировать возможность создания
+    при ком
+  statement_en: The authors conclude that a temperature difference of twenty kelvins allows predicting
+    DC current sources with EMF from about 1 mV to 10 mV at room temperature over interelectrode gaps
+    from a micrometer to a millimeter, and that existing vacuum-microelectronics technologies (Shoulders
+    diodes, Spindt cathodes) can create autonomous micron-sized power sources operating at human body
+    temperature.
+  quantities:
+  - ΔT = 20 К
+  - ЭДС ~1–10 мВ
+  - промежутки от мкм до мм
+  equations: []
+  materials: []
+  geometry:
+  - gaps from micrometer to millimeter
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conclusion
+  - dc-source
+  - emf
+  - body-temperature
+  - electrical-path
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR03-030
+  type: physics
+  facet: experiment
+  priority: normal
+  page: 27
+  quote_ru: За рубежом экспериментально были осуществлены ТЭП этого типа с небольшой площадью электродов
+  statement_en: The authors report that abroad, TEPs of this type were experimentally realized with small
+    electrode areas and a 6 um interelectrode gap, delivering a maximum power of 1 W per 1 cm2 at an efficiency
+    of about 4%; calculations on TEP volt-ampere characteristics show maximum load power decreases with
+    electrode distance, and an EMF of 1-2 V requires a gap not exceeding 10 um for 1 W per 1 cm2.
+  quantities:
+  - зазор 6 мкм
+  - мощность 1 Вт с 1 см2
+  - КПД ≈ 4%
+  - ЭДС 1–2 В
+  - зазор ≤ 10 мкм
+  equations: []
+  materials: []
+  geometry:
+  - interelectrode gap 6 um
+  procedure_steps: []
+  measurements:
+  - quantity: TEP maximum power
+    value: '1'
+    unit: Вт/см2
+    conditions: foreign TEP, 6 um gap, efficiency ~4%
+  schematic_refs: []
+  tags:
+  - tep
+  - power
+  - efficiency
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-BR03-031
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 28
+  quote_ru: Такой термоэлемент, как работа­ ющий источник питания, был осуществлён в Лос-Аламосе ещё в
+  statement_en: The authors report that a thermoelement with the cathode heated by nuclear reactions from
+    foreign neutrons in a cesium-vapor atmosphere was realized as a working power source at Los Alamos
+    in 1959; the element was placed inside a nuclear reactor, and per Morgulis the experiments recorded
+    a negligibly small efficiency.
+  quantities:
+  - 1959 г.
+  - КПД ничтожно мал
+  equations: []
+  materials:
+  - пары цезия
+  geometry: []
+  procedure_steps:
+  - place the cesium-vapor thermoelement in a nuclear reactor
+  - heat the cathode via neutron-induced nuclear reactions
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nuclear-heated-cathode
+  - los-alamos
+  - cesium
+  - experiment
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

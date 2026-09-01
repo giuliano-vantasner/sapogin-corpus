@@ -1,0 +1,2495 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: WO01
+  section: works
+  title_ru: Зарядовый кластер Кена Шоулдерса (физический аспект явления)
+  title_en: Ken Shoulders' charge cluster (physical aspect of the phenomenon)
+  file: papers/works/zaryadovyy-klaster-kena-shouldersa-fizicheskiy-aspekt-yavleniya.pdf
+  source_url: http://146.190.233.254/docs/works/Зарядовый кластер Кена Шоулдерса (физический аспект явления).pdf
+  md5: 0b2c069f51b11fdce7dfa38e760c925f
+  pages_total: 25
+  retrieved: '2026-09-01'
+claims:
+- id: SC-WO01-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: В заметке обсуждается физический аспект экспериментального открытия в 1987 году зарядового кластера
+    Кена Шоулдерса и его влияние на процесс прорывного развития различных областей физических знаний.
+  statement_en: 'The note discusses the physical aspect of the 1987 experimental discovery of Ken Shoulders'' charge
+    cluster and its influence on the breakthrough development of various areas of physical knowledge: (1) technology
+    of microscopic auto-electron cathodes for vacuum diodes, triodes, tetrodes and effective new-generation charge
+    accumulators; (2) self-consistent theories explaining the causes of field retention of like charges and the
+    distribution of their physical quantities in the cluster; (3) research of a new class of cluster reactions arising
+    in the interaction of charge clusters with the metal crystal lattice; (4) effects of charge retention on a conductor
+    surface in high-voltage electrophysics.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-clusters
+  - EV
+  - shoulders
+  - overview
+  notes: ''
+  relations: []
+- id: SC-WO01-002
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 1
+  quote_ru: Двухэлектродная лампа А. Флеминга 1904-го года представляла собой стеклянный баллон с впаянной в его
+    нижней части нитью накаливания, вокруг которой располагался дополнительный электрод в виде металлического цилиндра.
+  statement_en: Fleming's two-electron tube of 1904 was a glass bulb with a filament fused into its lower part around
+    which an additional electrode in the form of a metal cylinder was placed; the air pressure inside the bulb was
+    0.01 mm Hg; the cylinder was named 'anode' and the filament 'cathode'; Fleming valves were in demand at the
+    time for rectifying HF currents of wireless telegraphy.
+  quantities:
+  - air pressure 0.01 mm Hg
+  equations: []
+  materials:
+  - glass bulb
+  - filament (cathode)
+  - metal cylinder (anode)
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - vacuum-diode
+  - history
+  - fleming
+  notes: ''
+  relations: []
+- id: SC-WO01-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Ему удалось обнаружить закон, который устанавливал зависимость плотности тока насыщения термоэлектронной
+    эмиссии от температуры поверхности катода.
+  statement_en: 'Richardson Owen Williams, the founder of vacuum-diode research, received the 1928 Nobel Prize for
+    extensive studies of thermionic emission; he discovered the law establishing the dependence of the saturation
+    current density of thermionic emission on the cathode surface temperature; during his research Richardson created
+    a large school of physicists: A. Compton, C. Davisson, I. Langmuir and others.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - richardson
+  - thermionic-emission
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Он открыл явление возрастания тока насыщения в диоде под действием внешнего ускоряющего электрического
+    поля, известного теперь под названием «эффекта Шоттки», и первым исследовал свойства потенциального барьера
+    приконтактного слоя «полупроводник-металл».
+  statement_en: The German theoretical physicist Max Felix Theodor von Laue made the first work on thermoelectrons
+    (Nobel Prize for X-ray diffraction, 1914); Walter Schottky (Nobel Prize 1956) discovered the increase of saturation
+    current in a diode under an external accelerating electric field, now known as the 'Schottky effect', and first
+    studied the potential barrier of the semiconductor-metal contact layer.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - laue
+  - schottky
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: 'За время исследований не было найдено ответов на самые важные вопросы, которые породили инженерные
+    исследования эффекта: 1) какими силами удерживаются термоэлектроны вблизи поверхности катода; 2) как распределены
+    их концентрация, потенциал и напряжённость коллективного поля; 3) какое давление создают термоэлектроны слоя;
+    4) как оно распределено в пространстве диода; 5) как толщина термоэлектронного облака зависит от температуры?'
+  statement_en: 'During the studies no answers were found to the most important questions that generated engineering
+    research of the effect: (1) by what forces are thermoelectrons held near the cathode surface; (2) how are their
+    concentration, potential, and collective field strength distributed; (3) what pressure does the thermoelectron
+    layer create; (4) how is it distributed in the diode space; (5) how does the thickness of the thermoelectron
+    cloud depend on temperature?'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thermoelectron-gas
+  - open-questions
+  - cathode
+  notes: ''
+  relations: []
+- id: SC-WO01-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 20
+  quote_ru: 'Оно имеет максимум на расстоянии минимума потенциальной энергии системы, и очень похоже на распределение
+    частиц в гравитационных ловушках, удерживаемых самосогласованным полем. Приводимые в работе оценки попадают
+    в диапазон микроскопических геометрических размеров зарядового кластера, наблюдаемого в экспериментах Шоулдерса.
+    Модель Сарфатти справедлива в случае, когда зарядовый кластер Шоулдерса изменяет внутри себя гравитационную
+    постоянную на 20 порядков, формируя в своих пределах «экзотическую Вселенную». Она и компенсирует кулоновское
+    взаимодействие зарядов кластера. Уважаемый читатель! Так что получается? Любой зарядовый кластер, образованный
+    у поверхности проводника при протекании любого тока, тоже изменяет гравитационную постоянную на 20 порядков
+    в области своего существования? Смелая математическая гипотеза, но верится с трудом! Вижу и другой недостаток
+    предложенной теории, не замеченный авторами. А именно: усиление гравитационных эффектов за счёт увеличения G
+    на двадцать порядков сохраняет у квантовой ловушки общие гравитационные свойства. Они проявляются в том, что
+    во внешней атмосфере концентрация зарядов-частиц может только убывать с ростом радиуса, и она  диффузная. Других
+    атмосфер у экзотических кластеров нет. В экспериментах Шоулдерса наблюдается способность зарядового кластера
+    «взламывать и сверлить» кристаллическую решётку за счет большой концентрации зарядов на внешней поверхности.
+    А этому факту противоречит теория Сарфатти. Её объект очень похож на зарядовый кластер, в котором концентрация
+    зарядов-частиц убывает с ростом радиуса. Таким образом, «экзотический» кластер является виртуальным объектом,
+    который не может быть образован в нашей Вселенной. В теории коллективного взаимодействия зарядов фундаментальные
+    физические постоянные изменять не нужно.'
+  statement_en: 'There exists a crafty qualitative explanation of the effect of electron retention near a heated
+    cathode, connected with the appearance of ''image'' forces: any electron leaving the metal surface charges it
+    positively, a positive ''image charge'' appears in the metal; the more electrons leave the cathode, the greater
+    the positive ''image charge''; the thermoelectron is considered to interact with the ''image charge'' by Coulomb''s
+    law analogously to two point charges, which makes it understandable why thermoelectrons can return to the cathode
+    and form a cloud of finite thickness.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - image-charge
+  - thermionic-emission
+  notes: ''
+  relations: []
+- id: SC-WO01-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: 5. Любой элементарный объём электронов, если и может находиться в равновесии, то только под действием
+    двух противоположно направленных сил. Одна из них  «сила притяжения к катоду», она же  кулоновская. А какая
+    же вторая, компенсирующая кулоновскую?
+  statement_en: 'Deeper consideration raises ''inconvenient'' questions: (1) the proposed picture fits electrons
+    leaving the metal surface; (2) but who said they leave the metal? (3) and if electrons land on the cathode surface
+    enveloping from all sides the surface of the conductor connecting the cathode to the current source — what then?
+    (4) what is to be understood by ''work function'' from the metal if the electron leaves a thin film formed at
+    the cathode? (5) any elementary volume of electrons, if it can be in equilibrium at all, only under the action
+    of two oppositely directed forces — one is the ''attraction force to the cathode'', i.e. the Coulomb one — and
+    what is the second, compensating the Coulomb force? (6) and if the compensating force exists, what creates it?'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-forces
+  - open-questions
+  - cathode
+  notes: ''
+  relations: []
+- id: SC-WO01-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Независимую трактовку невозможности существования такой системы зарядов даёт известная в электростатике
+    теорема Ирншоу.
+  statement_en: 'By today''s knowledge a gas of like charges cannot occupy a bounded volume in space because the
+    charges have the same sign; like charges must interact by Coulomb''s law; this interaction leads to the charges
+    scattering in a very short time so they cannot form a volume bounded in space; an independent treatment of the
+    impossibility of such a charge system is given by the Earnshaw theorem known in electrostatics: a system of
+    resting charges located at any distances from each other cannot be in a state of stable equilibrium if only
+    Coulomb forces act on the charges.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - earnshaw-theorem
+  - like-charges
+  notes: ''
+  relations: []
+- id: SC-WO01-009
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: 'Вывод: приводимые аргументы говорят о том, что слоя электронов возле поверхности катода быть не может!'
+  statement_en: 'Conclusion from the classical arguments: an electron layer near the cathode surface cannot exist!
+    But experimental studies of the thermoelectron gas near the cathode surface assert exactly the opposite: (1)
+    the electron gas can be in an equilibrium state when the current between cathode and anode is absent; (2) the
+    electron gas occupies a bounded region of space which has its own thickness with a sharp boundary (thickness
+    of the thermoelectron cloud); (3) in this equilibrium state the Coulomb repulsion of like charges is compensated
+    by something.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cathode-layer
+  - experiment-vs-theory
+  - electrical-path
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'Основной экспериментальный закон электростатики гласит: если вы сообщили заряд гладкой металлической
+    поверхности, то он распределится по поверхности очень тонким слоем с определённой поверхностной плотностью заряда.'
+  statement_en: 'The basic experimental law of electrostatics states: if a charge is imparted to a smooth metal
+    surface, it distributes over the surface in a very thin layer with a definite surface charge density; taking
+    a smooth metal ball and charging it in any known way, the charge distributes in a thin layer and immediately
+    ''forgets'' that it consists of like charges — the charges are near the surface and for an external observer
+    cease to interact by Coulomb''s law.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - surface-charge
+  - electrostatics
+  notes: ''
+  relations: []
+- id: SC-WO01-011
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 4
+  quote_ru: Тот шарик, на котором скапливаются электроны, при таком напряжении начинает светиться в темноте.
+  statement_en: 'An interesting observation can be made experimenting with a school electrostatic (Wimshurst) machine
+    in darkness: the machine separates opposite-sign charges through brushes of rotating disks and imparts them
+    to two metal balls; when the balls are far apart they can be charged to about 25 kV; the ball on which electrons
+    accumulate begins to glow in the dark at that voltage; even with the naked eye a thin glowing layer of charges
+    is visible, its thickness greater than the mean free path of air molecules (micrometers and tens of micrometers);
+    the electrons forming the ''atmosphere'' at the negatively charged electrode excite oxygen molecules and atoms
+    by inelastic impact, and the excited atoms radiate the energy of this interaction; the glow exists as long as
+    the wheels of the machine rotate.'
+  quantities:
+  - charging voltage ~ 25 kV
+  - glowing layer thickness > micrometers to tens of micrometers
+  equations: []
+  materials:
+  - metal balls
+  - air
+  geometry:
+  - thin glowing charge layer at negative electrode
+  procedure_steps:
+  - charge two isolated balls to ~25 kV with Wimshurst machine
+  - observe glowing layer in darkness
+  measurements:
+  - quantity: ball charging voltage
+    value: '25'
+    unit: kV
+    conditions: Wimshurst machine, large ball separation
+  schematic_refs: []
+  tags:
+  - wimshurst-machine
+  - charge-atmosphere
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO01-012
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 4
+  quote_ru: Таким образом, заряд, сообщённый металлу, создаёт уже некую «атмосферу»  кластер зарядов, который имеет
+    конечную толщину в пространстве.
+  statement_en: Thus the charge imparted to the metal creates a kind of 'atmosphere' — a charge cluster with finite
+    thickness in space, very similar to what is observed at the cathode of a vacuum diode; researchers of the diode
+    gave such surface charge a new definition — 'cathode space charge' (i.e. the charge at the cathode is already
+    volumetric); obviously, in this case the behavior of the cluster charges does not satisfy the Earnshaw theorem.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - charge cluster of finite thickness at metal surface
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-atmosphere
+  - space-charge
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-WO01-013
+  type: physical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: 'Вывод: на коллектив электронов кластера, кроме сил Кулона, действуют ещё некие огромные удерживающие
+    силы, которые не дают зарядам разлетаться в окружающее пространство.'
+  statement_en: 'Conclusion: on the collective of cluster electrons, besides the Coulomb forces, some huge retaining
+    forces act which do not let the charges scatter into the surrounding space.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retaining-forces
+  - charge-clusters
+  - debt-candidate
+  notes: Central retention-forces claim — flagged for debt clustering.
+  relations: []
+- id: SC-WO01-014
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 5
+  quote_ru: Опыты показывают, что диаметр токового шнура зависит от давления газа, в котором происходит разряд,
+    и температуры.
+  statement_en: 'Discharging the Wimshurst balls onto each other: in the first variant, bringing the balls close,
+    a spark flies between them through the air (a spark discharge forms) with a rather small cross-section; experiments
+    show the diameter of the current cord depends on the pressure of the gas in which the discharge occurs and on
+    the temperature, clearly seen on any photographs of laboratory and natural linear lightning.'
+  quantities: []
+  equations: []
+  materials:
+  - air
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spark-discharge
+  - current-cord
+  notes: ''
+  relations: []
+- id: SC-WO01-015
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Взаимодействуя по Кулону, они, тем не менее, не разлетаются в пространстве в поперечном направлении.
+  statement_en: At the discharge moment the electrons are thrown onto the positively charged ball, i.e. an electric
+    current arises; this current is created by moving like charges arriving from the source (the two poles of the
+    source — two charged balls); interacting by Coulomb they nevertheless do not scatter in the transverse direction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - like-charge-current
+  - transverse-stability
+  notes: ''
+  relations: []
+- id: SC-WO01-016
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Вариант 2. Любые избыточные заряды, поступающие в проводник, начинают взаимодействовать друг с другом
+    по закону Кулона и отталкиваются.
+  statement_en: 'When the balls are connected by a metal conductor the electrons pass from one ball to the other
+    until the potentials equalize; two variants of charge transfer are possible: (1) contracting forces act on the
+    charges inside the conductor turning it into a cord, because the currents arising in the conductor are co-directed
+    (current pinch) and the contracting Ampere forces dominate over the Coulomb ones; (2) any excess charges entering
+    the conductor begin to interact by Coulomb''s law and repel, which makes them exit to the outer lateral surface
+    of the conductor and form a charge cluster of finite thickness, which can no longer detach from the conductor
+    surface thanks to the action of an unknown force retaining the charge layer in electrostatics.'
+  quantities: []
+  equations: []
+  materials:
+  - metal conductor
+  geometry:
+  - charge cluster of finite thickness on outer lateral surface
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-pinch
+  - charge-cluster
+  - retaining-force
+  notes: ''
+  relations: []
+- id: SC-WO01-017
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 5
+  quote_ru: Все заряды, сообщённые внутренней поверхности сферы, переходят на её внешнюю поверхность, образуя зарядовый
+    кластер малой толщины.
+  statement_en: 'At the transfer of small currents variant 2 is preferable, as indicated by the observed process
+    of charge transfer to a thin-walled metal sphere: all charges imparted to the inner surface of the sphere pass
+    to its outer surface, forming a charge cluster of small thickness.'
+  quantities: []
+  equations: []
+  materials:
+  - thin-walled metal sphere
+  geometry: []
+  procedure_steps:
+  - impart charges to the inner surface of a thin-walled conducting sphere
+  - observe transfer of all charges to the outer surface
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-transfer
+  - sphere
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-WO01-018
+  type: physical
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Электроны не выходят из катода в вакуум, как это принято считать в разработанных теоретических моделях,
+    а транспортируются из источника тока по поверхности подводящих проводов, образуя у катода (или у всей отрицательно
+    заряженной пластины конденсатора) плёнку пространственного заряда конечной толщины.
+  statement_en: 'Such a force distribution creates on the surface of a cylindrical conductor a peculiar ''fur coat''
+    of electrons forming a channel of charge transport from one ball to the other; the same happens in the vacuum
+    diode and when charging any capacitor: electrons do not leave the cathode into vacuum as accepted in the developed
+    theoretical models, but are transported from the current source along the surface of the connecting wires, forming
+    at the cathode (or at the whole negatively charged capacitor plate) a space-charge film of finite thickness;
+    the charges arriving from the current source have an insignificant influence on the distribution of free charges
+    inside the metal conductor.'
+  quantities: []
+  equations: []
+  materials:
+  - connecting wires
+  - cathode
+  - capacitor plate
+  geometry:
+  - space-charge film of finite thickness at cathode/negative plate
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-transport
+  - space-charge-film
+  - debt-candidate
+  notes: Contradicts accepted emission theory — flagged for debt clustering.
+  relations: []
+- id: SC-WO01-019
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Реализуемый в Природе механизм заряда металлической поверхности противоречит математической модели туннелирования
+    электронов через «потенциальный барьер», предложенный Фаулером и Нордгеймом в 1928 году.
+  statement_en: The mechanism of charging a metal surface realized in Nature contradicts the mathematical model
+    of electron tunneling through the 'potential barrier' proposed by Fowler and Nordheim in 1928; this contradiction
+    is studied in the brochure [2].
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fowler-nordheim
+  - contradiction
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-020
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: Постепенно уменьшаясь в размерах, она будет создавать ток, который может представлять собой последовательность
+    ограниченных в пространстве заряженных капель, первоначально названных Кеном Шоулдерсом Electrum Validum или
+    EV [3].
+  statement_en: If a cylindrical conductor ending in a sharp point is attached to a charged ball, then at small
+    distance between the second ball and the point the charge film will slide down the cone of the point into air
+    (or vacuum); gradually decreasing in size it will create a current which can represent a sequence of spatially
+    bounded charged drops, first named by Ken Shoulders Electrum Validum (EV); one of the modern names of such a
+    drop is charge cluster; Shoulders' experiments revealed in electrostatics a fundamental property of the interaction
+    of a collective of like charges unnoticed before.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - attach pointed conductor to charged ball
+  - let charge film slide off the point
+  measurements: []
+  schematic_refs: []
+  tags:
+  - EV
+  - charge-cluster
+  - shoulders
+  - EVO-generation
+  notes: ''
+  relations: []
+- id: SC-WO01-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: При определённых условиях протекания тока в вакууме электроны, стекающие с острия катода, могут образовывать
+    либо скопление зарядов микроскопических размеров, либо последовательность скоплений зарядов, которые удерживаются
+    в пространстве неизвестными силами натяжения, подобно капле воды при падении из крана в поле силы тяжести.
+  statement_en: Under certain conditions of current flow in vacuum the electrons flowing off the cathode point can
+    form either an accumulation of charges of microscopic sizes or a sequence of charge accumulations held in space
+    by unknown tension forces, like a drop of water falling from a tap in the gravity field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster-formation
+  - unknown-tension-forces
+  notes: ''
+  relations: []
+- id: SC-WO01-022
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 6
+  quote_ru: В экспериментах Шоулдерса, диаметры полых сферических кластеров лежали в диапазоне от 5 до 15 мкм и
+    содержали заряд от 10 8 до 1011 электронов.
+  statement_en: In Shoulders' experiments the diameters of the hollow spherical clusters lay in the range from 5
+    to 15 μm and contained charge from 10^8 to 10^11 electrons; they had a short lifetime because they radiated
+    electromagnetic energy into the surrounding space, i.e. they were heated to a temperature of the order of 2000
+    K.
+  quantities:
+  - cluster diameter 5–15 um
+  - charge 1e8–1e11 electrons
+  - temperature ~ 2000 K
+  equations: []
+  materials: []
+  geometry:
+  - hollow spherical clusters, diameter 5–15 um
+  procedure_steps: []
+  measurements:
+  - quantity: hollow cluster diameter
+    value: 5–15
+    unit: um
+    conditions: Shoulders' experiments
+  - quantity: cluster charge
+    value: 1e8–1e11
+    unit: electrons
+    conditions: Shoulders' experiments
+  schematic_refs: []
+  tags:
+  - EV
+  - parameters
+  - shoulders
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-WO01-023
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 7
+  quote_ru: Теперь становится ясно, что причиной появления самых высоких переменных напряжений на катушке была генерация
+    зарядовых кластеров на острие электрода-разрядника.
+  statement_en: A continuous current cord can also arise, as in the discharge of balls onto each other through air;
+    the spark-gap device was invented 250 years ago and is now called a current spark gap; on this device B. Franklin
+    created the first electromechanical converter in the form of a high-voltage arrow (the modern name 'Franklin's
+    wheel'), which rotated fast in air when DC high voltage was applied; the angular rotation speed increased with
+    voltage growth; the rotation was performed by charges (or charge clusters) escaping from the point of the arrow,
+    creating current in the surrounding air; N. Tesla connected such a spark gap into an inductance circuit (Tesla
+    transformer) and achieved very high voltages on it compared with ordinary coils; it now becomes clear that the
+    cause of the highest alternating voltages on the coil was the generation of charge clusters at the point of
+    the discharge electrode.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - franklin-wheel
+  - tesla-transformer
+  - charge-cluster-generation
+  - debt-candidate
+  notes: Historical reinterpretation via charge clusters.
+  relations: []
+- id: SC-WO01-024
+  type: physical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Найденная в опытах величина зарядов частиц, создающих своим движением сверхпроводящий ток, была равна
+    двум зарядам электронов. Эти электроны были объединены в так называемые «куперовские пары».
+  statement_en: The very first charge clusters were observed in experiments on the phenomenon of low-temperature
+    superconductivity of conductors in the absence of magnetic field; the magnitude of the charges of the particles
+    creating the superconducting current by their motion was found equal to two electron charges; these electrons
+    were united in the so-called 'Cooper pairs'.
+  quantities:
+  - superconducting-particle charge = 2 electron charges
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cooper-pairs
+  - superconductivity
+  - charge-clusters
+  notes: Cooper pairs interpreted as smallest charge clusters.
+  relations: []
+- id: SC-WO01-025
+  type: physical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: После открытия зарядового кластера понятно, что можно построить ещё одну модель ядра – кластерную.
+  statement_en: 'Physics has known for more than a hundred years the smallest, autonomous, and very stable charge
+    clusters in nature — atomic nuclei; any nucleus contains various numbers of protons and neutrons; geometric
+    sizes of nuclei are of the order of a fermi; the charges composing the nuclei of all atoms are usually in stable
+    equilibrium; nuclear scientists explain that the Coulomb interaction arising between the charges of the nucleus
+    is always compensated by ''nuclear forces''; several approaches to explaining various properties of nuclear
+    matter exist: Frenkel''s droplet model of the nucleus, the Ivanenko-Tamm-Heisenberg exchange-interaction theory
+    for the proton-neutron model; after the discovery of the charge cluster it is clear that one more model of the
+    nucleus can be built — the cluster model, in which the charges of the nucleus represent an electron-proton plasma
+    of extremely high density and temperature, with the nucleus in equilibrium held by the same powerful universal
+    forces that hold the charge cluster; the model would allow obtaining the laws of charge distribution and internal
+    electric fields of nuclear clusters still unknown to anyone.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - nuclear sizes ~ fermi
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nuclear-model
+  - cluster-model
+  - debt-candidate
+  notes: Cluster model of the nucleus — speculative, flagged.
+  relations: []
+- id: SC-WO01-026
+  type: physical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Существование этих сил позволяет понять и объяснить многое наблюдаемое в Природе в 19-ом веке.
+  statement_en: 'The existence of these forces allows understanding and explaining much observed in Nature: the
+    causes of retention of various glowing plasma formations of very high temperature in cavitating bubbles; like
+    charge clusters in a solid, they ''drill'' caverns in the metal at whose surface they appear; such forces can
+    explain the retention of Golubnichiy''s long-lived glowing formations in pure water through which an electric
+    discharge passed; also the observed manifestations of hot plasma localized in the space of spherical, linear,
+    and laboratory lightning; the physical causes of retention of Shabanov''s laboratory plasmoid having inside
+    a spherical thin-walled electron cluster of charges become understandable; these forces arise in cylindrical
+    beams of charged particles with any current density and will always limit the beam sizes in the transverse plane.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - cylindrical charged-particle beams limited transversally
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retaining-forces
+  - plasmoids
+  - ball-lightning
+  - beam-physics
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Реально существующие мощные силы указывают на возможность создания многопротонных зарядовых кластеров
+    ядерных и других размеров, с нейтронами и без нейтронов, c плотностью заряда 7  8 мКл/нм3, что превышает ту
+    же плотность заряда в электронных микронных кластерах Шоулдерса в 81017 раз.
+  statement_en: The really existing powerful forces point to the possibility of creating multi-proton charge clusters
+    of nuclear and other sizes, with neutrons and without neutrons, with charge density 7–8 mC/nm³, exceeding the
+    same charge density in Shoulders' micron electron clusters by 8·10¹⁷ times; they would have binding energy exceeding
+    by orders of magnitude all binding energies of known nuclei and even the Higgs boson; the characteristics of
+    proton clusters of nuclear sizes are calculated in [5].
+  quantities:
+  - charge density 7–8 mC/nm^3
+  - exceeds Shoulders clusters by 8e17 times
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - proton-clusters
+  - nuclear-size
+  - binding-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Становятся понятными физические причины возможности осуществления низкоэнергетических ядерных реакций
+    (LENR  low energy nuclear reaction), холодного ядерного синтеза в различных средах, в которых протекают токи
+    в плазме, формируемые встречным движением зарядовых кластеров разных знаков.
+  statement_en: The physical causes of the possibility of realizing low-energy nuclear reactions (LENR), cold nuclear
+    fusion in various media in which currents flow in plasma formed by the counter motion of charge clusters of
+    different signs, become understandable.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - LENR
+  - cold-fusion
+  - charge-clusters
+  - transmutation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-029
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Появляется возможность понять и углубить эксперименты К. Шоулдерса по эффективному уменьшению радиоактивности
+    ядерных отходов. Это уменьшение возникает благодаря кластерным ядерным реакциям, физические свойства которых
+    пока до конца не изучены.
+  statement_en: The possibility appears to understand and deepen Shoulders' experiments on the effective reduction
+    of the radioactivity of nuclear waste; this reduction arises thanks to cluster nuclear reactions whose physical
+    properties are not yet fully studied.
+  quantities: []
+  equations: []
+  materials:
+  - nuclear waste
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nuclear-waste
+  - transmutation
+  - cluster-nuclear-reactions
+  - LENR
+  - debt-candidate
+  notes: Transmutation-relevant core claim.
+  relations: []
+- id: SC-WO01-030
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Однако придётся изъять из физики претенциозное понятие «кулоновского барьера», которое применимо только
+    для точечных зарядов, не существующих в окружающем нас мире.
+  statement_en: 'However, one would have to remove from physics the pretentious concept of the ''Coulomb barrier'',
+    applicable only to point charges that do not exist in the surrounding world; all clusters have an extended structure
+    in a wide range from femto to macro sizes, i.e. their charge is ''smeared'' in a bounded volume; they necessarily
+    interact with each other; this interaction is usually two-force: clusters can attract, can repel each other;
+    they can merge with each other forming new clusters with a different number of charges.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - extended cluster structure from femto to macro sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - coulomb-barrier
+  - cluster-merging
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-031
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Появление пузырьковой структуры на обкладках конденсатора (в том числе и микроскопических размеров)
+    позволит увеличить его вакуумную емкость в миллионы раз.
+  statement_en: At the merging of clusters there exists the possibility of forming bubble structures consisting
+    of an accumulation of individual same-sign clusters stuck to each other; these processes lead to understanding
+    of the possible causes of new reactions between charge bubbles, which can possess a small fusion energy and
+    arise when currents flow in various hydrogen-deuterium systems; the appearance of a bubble structure on the
+    plates of a capacitor (including microscopic sizes) will allow increasing its vacuum capacitance millions of
+    times.
+  quantities:
+  - 'capacitance increase: millions of times'
+  equations: []
+  materials:
+  - hydrogen-deuterium systems
+  geometry:
+  - bubble structure on capacitor plates
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bubble-structures
+  - capacitor
+  - capacitance
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-032
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Природа сил, удерживающих заряды на поверхности проводника, не изучается в рамках электростатики».
+  statement_en: 'One might think physicists do not suspect the existence of forces retaining charge clusters in
+    a bounded region of space; in [6] (Matveev''s textbook) p. 80 we read: ''...in electrostatics the distributions
+    of charges on the conductor surface, the electric field created by them, the acting forces are studied, but
+    it is not considered why these charges do not leave the conductor surface; the nature of the forces retaining
+    charges on the conductor surface is not studied within electrostatics''; this official opinion was expressed
+    by the head of the physics department, professor of Moscow University A.N. Matveev in 1983; the author searched
+    twenty years for the reasons why Nature is not studied in electrostatics; the reasons turned out banal and connected
+    with the fact that Science still knows nothing about the origin of these forces.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-forces
+  - matveev
+  - electrostatics
+  notes: ''
+  relations: []
+- id: SC-WO01-033
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Стало ясно, что не удастся построить последовательную физику кластерных состояний зарядов, которые обнаружены
+    К. Шоулдерсом, до тех пор, пока не придёт ясность в понимании происхождения сил, удерживающих указанные системы
+    от действия кулоновского расталкивания.
+  statement_en: It became clear that a consistent physics of the cluster charge states discovered by K. Shoulders
+    cannot be built until clarity comes in understanding the origin of the forces retaining these systems from the
+    action of Coulomb repulsion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-forces
+  - theory-program
+  notes: ''
+  relations: []
+- id: SC-WO01-034
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Исследователи того времени ещё не догадывались о том, что период полураспада неудачной технической идеи
+    от трёх до пяти лет, а неудачной физико-математической модели, предложенной для описания того или иного явления,
+    от 30 до 50-и лет.
+  statement_en: Researchers of that time did not yet guess that the half-life of a failed technical idea is three
+    to five years, and of a failed physical-mathematical model proposed to describe this or that phenomenon, 30
+    to 50 years; the half-life greatly increases for mathematical ideas that cannot be checked experimentally.
+  quantities:
+  - 'half-life of failed technical idea: 3–5 years'
+  - 'half-life of failed model: 30–50 years'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - epistemology
+  notes: ''
+  relations: []
+- id: SC-WO01-035
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Оказывается, в окружающей нас природе существуют так называемые канонические уравнения движения тел.
+  statement_en: In the nature around us there exist so-called canonical equations of motion of bodies; they exist
+    in optics, they exist in mechanics, and have the simplest form; real observable trajectories in Nature satisfy
+    these equations; variational principles of motion follow from the equations, both mechanical and optical, as
+    well as fundamental conservation laws; these equations were first discovered by W. Hamilton in 1850, then forgotten
+    for decades, and only his followers C. Jacobi and M. Ostrogradsky continued the development of the canonical
+    apparatus.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - canonical-equations
+  - hamilton
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-036
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Вторая - соответствовала закону сохранения полного давления на траекториях движения жидкости в статическом
+    потенциальном поле и принадлежала Д. Бернулли.
+  statement_en: The first Hamilton function in mechanics coincided with the energy conservation law rewritten in
+    the variables 'generalized momentum — generalized coordinate'; the second corresponded to the full-pressure
+    conservation law on trajectories of fluid motion in a static potential field and belonged to D. Bernoulli.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamilton-function
+  - full-pressure
+  - bernoulli
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-037
+  type: physics
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: То есть, одному и тому же уравнению могут удовлетворять бесконечное количество решений.
+  statement_en: 'There is another ''defect'' in the exact science of mathematics discovered in solving ordinary
+    differential equations: some classes of equations give several analytical solutions at once (mathematicians
+    call it the complete set); the complete set of solutions can be obtained only knowing the algorithm of solving
+    such equations; with another algorithm one obtains solutions that also satisfy the same differential equation
+    but are no longer part of that complete set; i.e. infinitely many solutions can satisfy one and the same equation,
+    all differing from each other by boundary or initial conditions; mathematics cannot suggest which of the obtained
+    solutions is realized in Nature; the researcher is given only the right to choose from the obtained set that
+    unique physical solution which will coincide with experiment if it is carried out.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - complete-solution-set
+  - epistemology
+  notes: ''
+  relations: []
+- id: SC-WO01-038
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Решая это уравнение, описывающее распределение массовой плотности вещества в газовом шаре с постоянной
+    температурой, Эмден не нашёл ни точного, ни приближённого аналитических решений, которые бы удовлетворяли граничному
+    условию существования максимума плотности вещества в центре шара.
+  statement_en: The history of building theories of the cluster state of substance goes back a hundred years; the
+    first to pave the way was the Swiss geophysicist R. Emden whose monograph 'Gas balls' was published in Munich
+    in 1907; in it he generalized the results obtained by Lane, Ritter, Kelvin, and arrived at a new nonlinear second-order
+    ordinary differential equation now bearing his name — the E-Emden equation (its structure Emden guessed); solving
+    this equation describing the distribution of mass density of substance in a gas ball with constant temperature,
+    Emden found neither exact nor approximate analytical solutions satisfying the boundary condition of the existence
+    of a density maximum at the center of the ball.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-039
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Он пришёл к выводу, что Е – уравнение, кроме точного решения, найденного Эмденом, не имеет других точных
+    решений в элементарных функциях (Journ. f. Math., 142, (1913), p.p. 118-137).
+  statement_en: The mathematician H. Lemke made an attempt to extend the class of analytical solutions of this equation
+    six years after the publication of the monograph; he came to the conclusion that the E-equation, besides the
+    exact solution found by Emden, has no other exact solutions in elementary functions (Journ. f. Math., 142, (1913),
+    pp. 118-137); thereby, in fact, a peculiar multi-year ban was established on attempts to solve the E-equation
+    analytically.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - lemke
+  - emden
+  - no-exact-solutions
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-040
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: А отсутствие в любой теории точных или приближённых, физически прозрачных, аналитических решений сразу
+    же превращает её в «сундук» за семью печатями.
+  statement_en: 'The absence in any theory of exact or approximate, physically transparent, analytical solutions
+    immediately turns it into a ''chest'' with seven seals: it cannot give the most important differential parameters
+    of the distribution — concentration, potential, pressure, field strength; in it one cannot determine the scales
+    of geometric quantities, the achievable values of concentration, density, gravitational field strength, forces
+    and pressures of particles and field; the missing differential parameters do not allow computing the most important
+    integral parameters of the gas ball — the total number of particles, its mass and energy; thus an unfinished
+    theory has no results with which comparisons with experimental observations could be made.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - theory-methodology
+  notes: ''
+  relations: []
+- id: SC-WO01-041
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: Так же, как и Р. Эмден, он угадал основное уравнение, описывающее равновесное состояние взаимодействующих
+    одноимённых зарядов.
+  statement_en: 'The pioneer of theoretical research of charge clusters should be considered the Nobel laureate
+    M. Laue; four years after receiving the prize he published an article ''Thermoelectrons'' in the Jahrbuch der
+    Radioaktivitat und Elektronik; just like R. Emden he guessed the basic equation describing the equilibrium state
+    of interacting like charges: he took the Poisson equation for the divergence of the space charge of one sign,
+    in which he assumed this divergence defined by the Boltzmann distribution function having an exponential dependence
+    on the potential of the system charges; the charge system was considered at constant temperature; in the plane
+    case this equation had three analytical solutions depending on three values of an arbitrary constant; the analytical
+    solutions showed that in all cases the concentration of the like-charge gas had a minimum near the plane of
+    zero field pressure.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - laue
+  - thermoelectrons
+  - three-solutions
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-WO01-042
+  type: physics
+  facet: theory
+  priority: core
+  page: 13
+  quote_ru: Лауэ не заметил, что решение задачи содержит фундаментальный закон сохранения.
+  statement_en: Laue did not notice that the solution of the problem contains a fundamental conservation law; he
+    did not check the dimension of the arbitrary constant; the arbitrary constant, as became clear 60 years after
+    his studies, turned out to be the Hamilton function of the system describing the conservation law of the full
+    pressure in the plane system; the full pressure consisted of the difference of the pressures of the field and
+    the charges of the system; since he considered the pressure difference an arbitrary constant, he did not see
+    the physical cause of the existence of three solutions and of the fact that the equations reduced to the canonical
+    form after Hamilton; the cause of the existence of three solutions is three kinds of distributions of like charges
+    in the collective field — positive full pressure, zero pressure, and negative full pressure; from the unnoticed
+    conservation law followed the answer to the question by what forces the like-charge gas is held near the plane
+    of zero field pressure; 60 years later it became clear that these forces are compensated by the retaining force
+    of D. Bernoulli discovered in 1738.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - full-pressure-conservation
+  - hamilton-function
+  - bernoulli-force
+  - three-solutions
+  notes: ''
+  relations: []
+- id: SC-WO01-043
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: Современники не поняли выдающейся работы Нобелевского лауреата.
+  statement_en: Exact solutions of the equation for a gas of like charges with cylindrical symmetry were also given;
+    in his work M. Laue made no estimates of the spatial scales of the system, the strengths of the arising fields,
+    and the charge density, but nevertheless declared that the formulas he obtained describe thermoelectrons arising
+    near the cathode surface; his contemporaries did not understand the outstanding work of the Nobel laureate;
+    until the experimental discovery of the charge cluster by K. Shoulders nobody could propose a development of
+    Laue's theory; in modern textbooks devoted to the study of emission phenomena this work is usually not mentioned
+    by electron scientists.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - laue
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-044
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: Этот разный знак в дивергенции рассматриваемых полей и отличал самосогласованные поля, создаваемые гравитирующими
+    частицами (междучастичное взаимодействие – ньютоновское) от полей, создаваемых одноимёнными зарядами (междучастичное
+    взаимодействие – кулоновское).
+  statement_en: Almost 30 years after Laue's work, in 1948 Ya. Frenkel, in the monograph [9], continuing the pioneering
+    studies of A. Vlasov [10], obtained systems of equations describing the static self-consistent equilibrium of
+    both gravitating particles and like charges; the final equations for the potential differed only in sign; this
+    different sign in the divergence of the fields distinguished the self-consistent fields created by gravitating
+    particles (Newtonian interparticle interaction) from the fields created by like charges (Coulomb interaction);
+    in the case of gravitating particles one system passed into the guessed equation of R. Emden, and in the case
+    of like charges the other system passed into the guessed equation of M. Laue; Frenkel possibly knew nothing
+    of the works of Emden and Laue since he did not refer to them.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frenkel
+  - vlasov
+  - emden
+  - laue
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-045
+  type: physics
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: Френкель также не заметил главного – существования в уравнениях с плоской симметрией интегралов, соответствующих
+    неизвестным ранее Гамильтоновым функциям исследуемых систем.
+  statement_en: Frenkel also failed to notice the main thing — the existence in the plane-symmetry equations of
+    integrals corresponding to previously unknown Hamilton functions of the studied systems; he obtained charge
+    distributions not included in the complete set of solutions, like Laue; without making estimates of the arising
+    scales of physical quantities, he also declared that the obtained formulas describe a gas of thermoelectrons;
+    Frenkel solved the equation for the spherical gravitational ball, obtained a solution for the particle concentration
+    with a singularity at the origin, and could not give an understandable physical interpretation of this solution;
+    Frenkel's works cannot be found in modern educational literature on electronics and are unknown to the wide
+    reader educated in electronics in Russia.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frenkel
+  - hamilton-integrals
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO01-046
+  type: physical
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: В монографии [11] было обнаружено неизвестное ранее свойство самосогласованных полей «давить» на вещество
+    кластера, состоящего из гравитирующих частиц или одноимённых зарядов.
+  statement_en: Knowing nothing of the works listed above, the author came to the same equations, applied the required
+    algorithm, and in 10 years prepared the monograph 'Mechanisms of matter retention by a self-consistent field'
+    [11], publishing about 15 works in regional journals; the monograph [11] discovered a previously unknown property
+    of self-consistent fields to 'press' on the substance of a cluster consisting of gravitating particles or like
+    charges; the self-consistent field created by charges (particles) exerts a reverse action on them, distinguishing
+    it from ordinary fields generated by individual charges or particles; the forces retaining a system of particles
+    with Newtonian interaction, or a system of charges with Coulomb interaction, are connected with one and the
+    same physical quantity — the field pressure gradient — but have different signs.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - reverse-action
+  - field-pressure-gradient
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-047
+  type: physics
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: В опубликованных работах было показано, что система коллективного взаимодействия зарядов находится в
+    состоянии газостатического равновесия с самосогласованным полем в том случае, когда равенство градиентов давления
+    поля и зарядов выполняется в любом элементарном объёме системы.
+  statement_en: In the published works it was shown that a system of collective interaction of charges is in the
+    state of gasostatic equilibrium with the self-consistent field when the equality of the pressure gradients of
+    the field and the charges holds in any elementary volume of the system; the field pressure gradient is usually
+    enormous and acts on the mass density of either charges or gravitating particles just like the D. Bernoulli
+    force.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gasostatic-equilibrium
+  - pressure-gradients
+  notes: ''
+  relations: []
+- id: SC-WO01-048
+  type: physics
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: 'Результаты проделанной работы позволили:  выяснить причины временного удержания одноимённых зарядов
+    в кластере К. Шоулдерса;'
+  statement_en: 'The results of the work performed allowed: clarifying the causes of the temporary retention of
+    like charges in Shoulders'' cluster; theoretically confirming the possibility of its existence in nature; calculating
+    the distributions of physical parameters and geometric sizes of a hollow charge cluster of any temperature;
+    understanding the physical causes of the increase of electron concentration at the outer and inner boundary
+    of the charge cluster; substantiating its observed physical properties in experiments on inelastic interaction
+    with a plane metal surface.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - theory-results
+  - hollow-cluster
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-WO01-049
+  type: physics
+  facet: theory
+  priority: core
+  page: 14
+  quote_ru: 'пределения зарядов, не входившие в полный набор решений, как у Лауэ. Не сделав оценок возникающих масштабов
+    физических величин, он также объявил, что полученные формулы описывают газ термоэлектронов. Френкель решил уравнение
+    для сферического гравитационного шара, получил решение для концентрации частиц с особенностью в начале координат,
+    и не смог дать понятной физической интерпретации этого решения. К сожалению, работ Френкеля в современной учебной
+    литературе по электронике найти не удаётся. И они неизвестны широкому читателю, получающему образование по электронике
+    в России. Прошло 40 лет, и все работы первооткрывателей канули в Небытие. Ничего не зная о перечисленных выше
+    работах, я пришёл к тем же уравнениям, применил к ним требуемый алгоритм, и за 10 лет подготовил монографию
+    «Механизмы удержания вещества самосогласованным полем» [11], опубликовав около 15-и работ в региональных журналах.
+    В монографии [11] было обнаружено неизвестное ранее свойство самосогласованных полей «давить» на вещество кластера,
+    состоящего из гравитирующих частиц или одноимённых зарядов. Ведь в исследуемых системах нет ничего, кроме частиц
+    вещества и создаваемых ими самосогласованных полей. Самосогласованное поле, создаваемое зарядами (частицами),
+    оказывает на них обратное действие. Этим оно отличается от обычных полей, генерируемых либо отдельными зарядами,
+    либо частицами. Силы, удерживающие систему частиц с ньютоновским взаимодействием, либо систему зарядов с кулоновским
+    взаимодействием, связаны с одной и той же физической величиной – градиентом давления поля, – но имеют разные
+    знаки. В опубликованных работах было показано, что система коллективного взаимодействия зарядов находится в
+    состоянии газостатического равновесия с самосогласованным полем в том случае, когда равенство градиентов давления
+    поля и зарядов выполняется в любом элементарном объёме системы. Градиент давления поля обычно огромен, и действует
+    на массовую плотность либо зарядов, либо гравитирующих частиц так же, как сила Д. Бернулли. Результаты проделанной
+    работы позволили:  выяснить причины временного удержания одноимённых зарядов в кластере К. Шоулдерса;  теоретически
+    подтвердить возможность его существования в природе;  рассчитать распределения физических параметров и геометрические
+    размеры полого зарядового кластера любой температуры;'
+  statement_en: 'The results also allowed: approaching, in the phenomena of experimental electrostatics, the understanding
+    of the nature of the volume forces retaining like charges at the surfaces of metals with a definite geometry;
+    proposing an elementary theory of the operation of a gradient injector of an auto-emission cathode with angular
+    aperture supplying charge clusters to an accumulator; investigating various mechanisms of charge-cluster formation
+    usable for creating either super-efficient charge accumulation devices or high-voltage varicaps; comparing the
+    theory with Shoulders'' experiments and finding their similarity in many parameters; discussing possible directions
+    of research of microscopic injectors for creating new-generation highly efficient auto-emission cathodes usable
+    for creating autonomous DC sources operating on the physical principle of converting a temperature gradient
+    into an electromotive force; searching for experimental methods of generating charge clusters carrying microcoulomb
+    charge with high binding energy.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gradient-injector
+  - auto-emission-cathode
+  - varicaps
+  - charge-accumulators
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO01-050
+  type: physics
+  facet: theory
+  priority: core
+  page: 15
+  quote_ru: При этом работа, которую затрачивает источник при генерации кластера, всегда во много раз меньше, чем
+    энергия, запасённая кластером, вылетевшим из острия.
+  statement_en: The charge cluster discovered experimentally by K. Shoulders receives energy from a high-voltage
+    pulsed current source; the work spent by the source in generating the cluster is always many times less than
+    the energy stored by the cluster flown out of the point.
+  quantities: []
+  equations: []
+  materials:
+  - high-voltage pulsed current source
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-balance
+  - EV
+  - debt-candidate
+  notes: Anomalous energy claim — flagged for debt clustering.
+  relations: []
+- id: SC-WO01-051
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 15
+  quote_ru: Если из катода вылетает кластер 11 10 электронов, радиусом 7,5 мкм при напряжении 10 кВольт, то источник
+    совершает работу по перемещению зарядов 160 мкДж. Тонкий слой зарядов такого радиуса будет иметь электрическую
+    энергию порядка 154 мДж.
+  statement_en: 'Check of the assertion: if a cluster of 10^11 electrons with radius 7.5 μm flies out of the cathode
+    at a voltage of 10 kV, the source performs the work of moving the charges 160 μJ; a thin charge layer of such
+    radius will have an electric energy of the order of 154 mJ — greater than the work of the source by almost 10^3
+    times; the causes may lie in the self-consistent field of the cluster participating in its formation; the charge
+    film enveloping the conductor is compressed by the collective field to drop sizes; how to calculate the work
+    performed by the field is not yet clear.'
+  quantities:
+  - 'cluster: 1e11 electrons, radius 7.5 um, 10 kV'
+  - source work 160 uJ
+  - layer electric energy ~154 mJ (~1e3 times more)
+  equations: []
+  materials: []
+  geometry:
+  - cluster radius 7.5 um
+  procedure_steps: []
+  measurements:
+  - quantity: source work per cluster
+    value: '160'
+    unit: uJ
+    conditions: 1e11 electrons, radius 7.5 um, 10 kV
+  - quantity: electric energy of charge layer
+    value: '154'
+    unit: mJ
+    conditions: same cluster
+  schematic_refs: []
+  tags:
+  - energy-balance
+  - EV
+  - anomalous-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-052
+  type: physics
+  facet: measurement
+  priority: core
+  page: 15
+  quote_ru: Приведём теоретическую оценку энергии взаимодействия зарядов в кластерах Шоулдерса с радиусом сферы
+    нулевого давления поля в 15 мкм, минимальной концентрацией зарядов 1020 м-3 при температуре 2000 К с зарядом
+    в 1 нКл.
+  statement_en: 'Besides electric energy the cluster possesses interaction (binding) energy; a theoretical estimate
+    of the interaction energy of charges in Shoulders'' clusters with zero-pressure-sphere radius 15 μm, minimal
+    charge concentration 10^20 m⁻³, temperature 2000 K, and charge 1 nC: this energy is always negative, and its
+    value for nuclear scales turns out to be a considerable quantity 2 nJ ~ 10^10 eV — three orders greater than
+    in the fission of a uranium-235 nucleus.'
+  quantities:
+  - radius 15 um
+  - minimal concentration 1e20 m^-3
+  - T = 2000 K
+  - charge 1 nC
+  - binding energy ~2 nJ ~ 1e10 eV (3 orders above U-235 fission)
+  equations: []
+  materials: []
+  geometry:
+  - zero-pressure-sphere radius 15 um
+  procedure_steps: []
+  measurements:
+  - quantity: cluster binding energy
+    value: 2 nJ (~1e10 eV)
+    unit: '-'
+    conditions: radius 15 um, n0 = 1e20 m^-3, T = 2000 K, charge 1 nC
+  schematic_refs: []
+  tags:
+  - binding-energy
+  - EV
+  - debt-candidate
+  notes: 'OCR-degraded: superscripts flattened (1020 = 10^20).'
+  relations: []
+- id: SC-WO01-053
+  type: physics
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: 'Какая энергия: электрическая или энергия связи,  освобождается при распаде одного зарядового кластера,
+    пока не понятно.'
+  statement_en: Which energy — electric or binding — is released at the decay of one charge cluster is not yet clear;
+    only thorough experimental studies that K. Shoulders did not conduct can answer this question; if only the binding
+    energy is released, then in a kilowatt power installation one would need to manage releasing the energy of 50·10¹⁰
+    clusters per second.
+  quantities:
+  - 'required release rate: 50e10 clusters per second for 1 kW'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-release
+  - open-question
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-054
+  type: physics
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Из оценок следует, что зарядовый кластер не может получать эту энергию из обычного вакуума или из «экзотического
+    вакуума», как это считают Шоулдерс-Сарфатти (Shoulders-Sarfatti) в работе [12].
+  statement_en: From the estimates it follows that the charge cluster cannot receive this energy from an ordinary
+    vacuum or from an 'exotic vacuum' as Shoulders-Sarfatti believe in [12]; the cluster receives it from the high-voltage
+    power supply; that is, at the generation of a charge cluster the energy of the source is converted into the
+    energy of the charge cluster.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-source
+  - exotic-vacuum
+  - refutation
+  notes: ''
+  relations: []
+- id: SC-WO01-055
+  type: physics
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Нет сомнений в том, что открытые К. Шоулдерсом «кластерные ядерные реакции» могут происходить при взаимодействии
+    высокоэнергичных зарядовых кластеров с атомами твёрдого тела, но их детальное исследование потребует много времени
+    и огромных затрат.
+  statement_en: There is no doubt that the 'cluster nuclear reactions' discovered by K. Shoulders can occur in the
+    interaction of high-energy charge clusters with the atoms of a solid body, but their detailed study will require
+    much time and enormous costs; further investigation of the discovered effect will lead to the creation of both
+    a theory and working devices.
+  quantities: []
+  equations: []
+  materials:
+  - solid body
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-nuclear-reactions
+  - LENR
+  - transmutation
+  notes: ''
+  relations: []
+- id: SC-WO01-056
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Как показывает самосогласованная теория кластеров [11], их диаметры могут лежать в диапазоне от ферми
+    до сантиметров, и они будут иметь разные температуры.
+  statement_en: 'The mean charge density in clusters cannot be limited by the Avogadro number — these physical parameters
+    have different dimensions; as the self-consistent theory of clusters [11] shows, their diameters can lie in
+    the range from fermi to centimeters, and they will have different temperatures; this follows from the spatial
+    scale l of charge clusters possible in nature, obtained in the theory (SI units, plane analog of the Debye radius):
+    l = (1/e)·sqrt(ε₀kT/n₀) (1), where e is the elementary charge 1.6·10⁻¹⁹ C, ε₀ = 8.85·10⁻¹² F/m the electric
+    constant, k = 1.38·10⁻²³ J/K the Boltzmann constant, T the absolute temperature of the cluster, n₀ the minimal
+    charge concentration; the centimeter scale is realized at T = 2000 K and concentration 1.9·10¹¹ m⁻³; the micron
+    scale for the same temperature at concentration 1.9·10¹⁹ m⁻³; at a scale of the order of a fermi clusters stop
+    radiating, become more stable, and at temperature T ~ 10¹⁰ K their mean charge density will be of the order
+    of the nuclear one.'
+  quantities:
+  - l = (1/e) sqrt(eps0 kT/n0)
+  - e = 1.6e-19 C
+  - eps0 = 8.85e-12 F/m
+  - k = 1.38e-23 J/K
+  - cm scale at T = 2000 K, n0 = 1.9e11 m^-3
+  - micron scale at n0 = 1.9e19 m^-3
+  - 'fermi scale: T ~ 1e10 K, density ~ nuclear'
+  equations:
+  - l = \frac{1}{e}\sqrt{\varepsilon_0 kT / n_0}
+  materials: []
+  geometry:
+  - cluster diameters from fermi to centimeters
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-scale
+  - debye-radius
+  - charge-clusters
+  - debt-candidate
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-WO01-057
+  type: physics
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Силы полевого происхождения, удерживающие зарядовый кластер (ЗК), как и ядерные силы, существуют только
+    внутри кластера, независимо от его размеров.
+  statement_en: The forces of field origin retaining the charge cluster (CC), like nuclear forces, exist only inside
+    the cluster, independently of its size; outside the spherical cluster, in vacuum, its electric fields fall off
+    by the known Coulomb law.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-origin-forces
+  - retention
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-058
+  type: physics
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Кластер Шоулдерса представляет собой шар с полостью, внутри которой зарядов нет.
+  statement_en: Shoulders' cluster is a sphere with a cavity inside which there are no charges; in the cavity the
+    collective field strength is absent; the distribution of charge concentration inside the cluster is such that
+    on the sphere of zero field pressure there are few charges; the charge concentration increases toward the inner
+    and outer boundaries of the cluster; where the field pressure is greater, the charge pressure is greater; a
+    large number of the cluster charges is thrown out onto its outer and inner surfaces — this is a manifestation
+    of the action of Coulomb forces.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - hollow sphere with charge-free cavity
+  - concentration increases toward inner and outer boundaries
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hollow-structure
+  - charge-distribution
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-WO01-059
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: На внешней границе концентрация зарядов обычно превышает среднюю концентрацию электронов металла. Это
+    объясняет наблюдаемую способность зарядового кластера «взламывать и сверлить» кристаллическую решётку.
+  statement_en: On the outer boundary the charge concentration usually exceeds the mean electron concentration of
+    the metal; this explains the observed ability of the charge cluster to 'crack and drill' the crystal lattice.
+  quantities: []
+  equations: []
+  materials:
+  - metal
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - surface-concentration
+  - lattice-drilling
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-WO01-060
+  type: physics
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: В системах гравитирующих частиц тоже образуется шар с полостью.
+  statement_en: In systems of gravitating particles a sphere with a cavity also forms; the particles of the ball
+    are held by the self-consistent gravitational field; Newtonian attraction forces act in them, compensated by
+    collective repulsion forces; the distribution of gravitating particles is such that on the sphere of zero field
+    pressure there are many of them; the particle concentration decreases toward the inner and outer boundaries
+    of the cluster; where the gravitational field pressure is less, the particle concentration is greater; the external
+    atmosphere of such a cluster is always diffuse, without a sharp boundary; due to the weakness of the attraction
+    forces their spatial scale under observed conditions is of the order of 10⁴ km; accumulations of particles of
+    such sizes can no longer be 'blown out' of a sharp-point tip; they can appear only in space; all the listed
+    scales are realized for the gravitational constant G = 6.67·10⁻¹¹ m³/(kg·s²).
+  quantities:
+  - gravitational cluster scale ~ 1e4 km
+  - G = 6.67e-11 m^3/(kg s^2)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitating-particles
+  - hollow-sphere
+  - diffuse-atmosphere
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-WO01-061
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: Самоcогласованная теория гравитации, построенная на уравнениях Френкеля в [13], позволяет рассчитать
+    не только любые газовые шары, состоящие из одинаковых частиц, но и спектр масс сверхмассивных чёрных дыр, состоящих
+    из нейтронов с высокой температурой [14]. Такой спектр совпадает с наблюдаемыми значениями масс объектов, обнаруженных
+    в центрах Галактик.
+  statement_en: The self-consistent theory of gravitation built on Frenkel's equations in [13] allows calculating
+    not only any gas balls consisting of identical particles but also the mass spectrum of supermassive black holes
+    consisting of neutrons with high temperature [14]; such a spectrum coincides with the observed mass values of
+    the objects discovered in the centers of Galaxies.
+  quantities: []
+  equations: []
+  materials:
+  - neutrons
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - supermassive-black-holes
+  - mass-spectrum
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-062
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 17
+  quote_ru: Анализ такого неупругого взаимодействия позволил получить оценку физических параметров налетающего зарядового
+    кластера Шоулдерса. Оценка была выполнена по снимку кратера в титане, сделанного на электронном микроскопе [3].
+    Параметры, с хорошей точностью, попали в диапазон значений, наблюдаемый Шоулдерсом.
+  statement_en: At normal incidence on a plane metal surface an energetic spherical thin-walled cluster leaves a
+    characteristic trace — a ring-shaped melted crater with a ridge of unmelted substance in the center; analysis
+    of such inelastic interaction allowed obtaining an estimate of the physical parameters of the incoming Shoulders
+    charge cluster; the estimate was made from a photograph of a crater in titanium taken with an electron microscope;
+    the parameters, with good accuracy, fell into the range of values observed by Shoulders.
+  quantities: []
+  equations: []
+  materials:
+  - titanium
+  geometry:
+  - ring-shaped melted crater with central ridge
+  procedure_steps:
+  - impact cluster on plane metal surface
+  - photograph crater with electron microscope
+  - estimate incoming cluster parameters from crater morphology
+  measurements: []
+  schematic_refs: []
+  tags:
+  - crater-analysis
+  - titanium
+  - EV
+  - parameters
+  notes: ''
+  relations: []
+- id: SC-WO01-063
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 17
+  quote_ru: Внутри металла кластер зарядов может становиться «чёрным» или невидимым.
+  statement_en: 'Inside metal a charge cluster can become ''black'' or invisible; possible causes: being in the
+    metal it ''absorbs'' the crystal lattice surrounding it, which changes its size and composition; the cluster
+    becomes a plasmoid; and a plasmoid locked in metal no longer spends its energy on radiation.'
+  quantities: []
+  equations: []
+  materials:
+  - metal
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - black-cluster
+  - plasmoid
+  - metal
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-064
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 17
+  quote_ru: Известны эксперименты, при которых зарядовые кластеры (плазмоиды), попавшие в металл при искровом разряде,
+    оставались месяцами внутри металла и редко покидали его, высвечивая свою энергию на дефектах поверхности.
+  statement_en: Experiments are known in which charge clusters (plasmoids) that entered metal during a spark discharge
+    remained inside the metal for months and rarely left it, radiating their energy at surface defects; experimenters
+    called such clusters 'tracers'; they can disturb the metal surface leaving long periodic dashes visible as depressions
+    in the surface.
+  quantities:
+  - 'residence time: months'
+  equations: []
+  materials:
+  - metal
+  geometry:
+  - long periodic dashes (depressions) on surface
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tracers
+  - plasmoids
+  - spark-discharge
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-065
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 18
+  quote_ru: Эксперименты американских исследователей с космическими аппаратами на высотах до 600 км над поверхностью
+    Земли обнаружили наличие ЗК (плазмоидов) в солнечном излучении.
+  statement_en: Experiments of American researchers with spacecraft at altitudes up to 600 km above the Earth's
+    surface detected the presence of CC (plasmoids) in solar radiation; the clusters so strongly disturbed the texture
+    of conductors in microchips that it led to the failure of electronic equipment.
+  quantities:
+  - altitude up to 600 km
+  equations: []
+  materials:
+  - microchip conductors
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - solar-radiation
+  - spacecraft
+  - microchip-failures
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-066
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: К сожалению, модель описывает не вакуум, а распределение заряженных частиц, удерживаемых некой квантовой
+    микроскопической гравитационной ловушкой.
+  statement_en: In conclusion the physical-mathematical model of Dr. Sarfatti justifying the existence of an 'exotic
+    vacuum' is discussed; unfortunately the model describes not a vacuum but a distribution of charged particles
+    held by some quantum microscopic gravitational trap; the author tries to explain the beautiful physical ideas
+    of the model using the simplest relations known to a schoolchild.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sarfatti
+  - exotic-vacuum
+  - critique
+  notes: ''
+  relations: []
+- id: SC-WO01-067
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: Один из создателей квантовой механики, В.Гейзенберг, разрабатывает квантовую теорию гравитации для некоторой
+    «экзотической Вселенной».
+  statement_en: One of the creators of quantum mechanics, W. Heisenberg, developed a quantum theory of gravitation
+    for a certain 'exotic Universe' in which the gravitational constant is greater than in ours by twenty orders;
+    only in such an 'exotic Universe' do the sizes of gravitational clusters become microscopic and the motion of
+    particles in them quantized.
+  quantities:
+  - G enhanced by 20 orders of magnitude
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - heisenberg
+  - quantum-gravity
+  - exotic-universe
+  notes: ''
+  relations: []
+- id: SC-WO01-068
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: Такие заряженные частицы назовём «экзотическими», поскольку они не будут ни притягиваться друг к другу,
+    ни отталкиваться друг от друга, находясь на произвольном расстоянии.
+  statement_en: 'A beautiful explanation later appeared: do ''exotic'' gravitational forces arising in the interaction
+    between two point charges help retain the cluster? Taking two point charges with charge Q and mass M at some
+    distance and computing the resultant force: if the Coulomb and Newtonian forces on an individual charge are
+    compensated, such a state is realized at an arbitrary distance if a definite relation between the charge and
+    mass holds, easily found from the equality of forces Q/M = sqrt(4πε₀G) = 8.6·10⁻¹¹ C/kg (G gravitational constant,
+    ε₀ electric constant, taken for our Universe); such charged particles can be called ''exotic'' since they neither
+    attract nor repel each other at arbitrary distance; filling an arbitrary sphere with such particles, they would
+    ''live'' in the cluster in equilibrium with each other, and the external observer would record a Shoulders charge
+    cluster consisting of ''exotic'' particles-charges; thus the physical causes of the retention of like charges
+    become clear.'
+  quantities:
+  - Q/M = 8.6e-11 C/kg (exotic particles)
+  equations:
+  - Q/M = \sqrt{4\pi\varepsilon_0 G} = 8.6\cdot10^{-11}\ \mathrm{C/kg}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - exotic-particles
+  - charge-to-mass-ratio
+  - debt-candidate
+  notes: 'OCR-degraded: sqrt glyph lost in text.'
+  relations: []
+- id: SC-WO01-069
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: Подставив известные значения заряда и массы электрона, вы получаете отношение заряда к массе для электрона
+    1,761011 Кл/кг и отличие от «экзотической» частицы почти на +20 порядков (запомните это число).
+  statement_en: 'This beautiful idea fails resoundingly as soon as one tries to calculate the specific charge of
+    known elementary particles, say the electron (the Shoulders charge cluster is formed by electrons), and compare
+    it with the ''exotic'' particle: substituting the known values of the electron charge and mass gives a charge-to-mass
+    ratio for the electron of 1.76·10¹¹ C/kg and a difference from the ''exotic'' particle of almost +20 orders;
+    i.e. the electron does not fall into the class of ''exotic'' particles and therefore cannot form an ''exotic
+    cluster'' in our Universe.'
+  quantities:
+  - electron Q/M = 1.76e11 C/kg
+  - difference from exotic particles ~ +20 orders
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-charge-to-mass
+  - refutation
+  notes: ''
+  relations: []
+- id: SC-WO01-070
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: А что будет, если в рассматриваемом случае, вдруг, гравитационная постоянная по каким-либо причинам
+    увеличится в 1020 раз?
+  statement_en: 'Theoretical thought struggles on, and Sarfatti, following Heisenberg, finds a saving variant: what
+    if in the considered case the gravitational constant suddenly increases 10²⁰ times for some reasons? Everyone
+    understands that such a huge increase of G leads to an artificial increase of the gravitational interaction
+    of electrons; then the order of magnitude of the force comes many orders closer to the Coulomb one; after such
+    an assumption one can involve the results of Heisenberg''s quantum gravity theory, which contains the increased
+    gravitational constant G*; now an equilibrium state of charged particles in a well retaining them by quantum
+    gravitation can be built; into the right-hand side of this equation Sarfatti ''by hand'' adds the potential
+    energy of a thin-walled cluster of N charges interacting by a generalized Coulomb law.'
+  quantities:
+  - G increased 1e20 times
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sarfatti
+  - quantum-gravity-trap
+  notes: 'OCR-degraded: superscript flattened (1020 = 10^20).'
+  relations: []
+- id: SC-WO01-071
+  type: physics
+  facet: theory
+  priority: normal
+  page: 20
+  quote_ru: Конечное соотношение Шоулдерса-Сарфатти даёт распределение концентрации частиц-зарядов по радиусу, захваченных
+    такой квантовой гравитационной ловушкой.
+  statement_en: The final Shoulders-Sarfatti relation gives the distribution of the concentration of charge particles
+    over the radius captured by such a quantum gravitational trap; it has a maximum at the distance of the minimum
+    of the potential energy of the system and is very similar to the distribution of particles in gravitational
+    traps retained by a self-consistent field; the estimates given in the work fall into the range of microscopic
+    geometric sizes of the charge cluster observed in Shoulders' experiments; the Sarfatti model is valid in the
+    case when Shoulders' charge cluster changes the gravitational constant inside itself by 20 orders, forming within
+    its limits an 'exotic Universe'; it also compensates the Coulomb interaction of the cluster charges.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sarfatti-model
+  - concentration-distribution
+  notes: ''
+  relations: []
+- id: SC-WO01-072
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: Любой зарядовый кластер, образованный у поверхности проводника при протекании любого тока, тоже изменяет
+    гравитационную постоянную на 20 порядков в области своего существования? Смелая математическая гипотеза, но
+    верится с трудом!
+  statement_en: So what does it come to? Any charge cluster formed at the surface of a conductor during the flow
+    of any current also changes the gravitational constant by 20 orders in its region of existence? A bold mathematical
+    hypothesis, but hard to believe!
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sarfatti-critique
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-073
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: В экспериментах Шоулдерса наблюдается способность зарядового кластера «взламывать и сверлить» кристаллическую
+    решётку за счет большой концентрации зарядов на внешней поверхности. А этому факту противоречит теория Сарфатти.
+  statement_en: 'The author sees another flaw of the proposed theory unnoticed by the authors: the strengthening
+    of gravitational effects by increasing G by twenty orders preserves the common gravitational properties of the
+    quantum trap — in the external atmosphere the concentration of charge-particles can only decrease with growing
+    radius and it is diffuse; other atmospheres of exotic clusters do not exist; in Shoulders'' experiments the
+    ability of the charge cluster to ''crack and drill'' the crystal lattice due to the large concentration of charges
+    on the outer surface is observed, and the Sarfatti theory contradicts this fact — its object is very similar
+    to a charge cluster in which the concentration of charge-particles decreases with growing radius; thus the ''exotic''
+    cluster is a virtual object that cannot be formed in our Universe.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sarfatti-critique
+  - refutation
+  - surface-concentration
+  notes: ''
+  relations: []
+- id: SC-WO01-074
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: В теории коллективного взаимодействия зарядов фундаментальные физические постоянные изменять не нужно.
+  statement_en: 'In the theory of the collective interaction of charges the fundamental physical constants need
+    not be changed: any charge cluster has the largest charge concentration on its outer surface, exceeding the
+    mean electron concentration in a solid; this is a unique property of the Coulomb interaction of like charges,
+    which is necessarily preserved also in clusters of microscopic sizes.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - surface-concentration
+  - coulomb-interaction
+  notes: ''
+  relations: []
+- id: SC-WO01-075
+  type: physics
+  facet: theory
+  priority: normal
+  page: 21
+  quote_ru: Градиент давления самосогласованного поля прокладывает тропинку к пониманию физических причин появления
+    механических возмущений при протекании мощных электрических и магнитных явлений в виде появления грома и яркого
+    свечения молний.
+  statement_en: The pressure gradient of the self-consistent field paves the way to understanding the physical causes
+    of the appearance of mechanical disturbances during powerful electric and magnetic phenomena, in the form of
+    thunder and the bright glow of lightning; thereby the equations for the fields previously considered independent
+    turn out to be connected with each other and explain a wide range of accompanying acoustic and electromagnetic
+    effects.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thunder
+  - lightning
+  - field-pressure-gradient
+  notes: ''
+  relations: []
+- id: SC-WO01-076
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 21
+  quote_ru: Талантливые изобретатели, вопреки запретам всех Академий Наук, научились строить механические «вечные
+    двигатели»  генераторы вращательной кинетической энергии.
+  statement_en: The end of the 19th century deeply shook the carefully built edifice of physics not only with charge
+    clusters discovered by K. Shoulders; talented inventors, contrary to the prohibitions of all Academies of Sciences,
+    learned to build mechanical 'perpetual motion machines' — generators of rotational kinetic energy; detailed
+    details of this dramatic battle of centuries are well set out in [15].
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - perpetual-motion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-077
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 21
+  quote_ru: Можно посмотреть в интернете на работу такого двигателя радиусом в 10 метров, построенного нашим современником
+     французом Альдо Коста в 2000 году.
+  statement_en: One can look on the internet at the operation of such an engine of radius 10 meters built by our
+    contemporary, the Frenchman Aldo Costa, in 2000; it immediately becomes clear what physical principle underlies
+    its operation and why the mathematical dogma 'theorem on the circulation of the field strength vector' does
+    not prevent it from taking energy from the gravitational field.
+  quantities:
+  - engine radius 10 m
+  equations: []
+  materials: []
+  geometry:
+  - engine radius 10 m
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - aldo-costa
+  - perpetual-motion
+  - gravity
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-078
+  type: physics
+  facet: theory
+  priority: core
+  page: 21
+  quote_ru: Из экспериментов К. Шоулдерса и создателей вечных двигателей становится понятно, что Природа имеет в
+    загашнике большое количество не известных ранее взаимодействий, в большинстве которых не выполняется закон сохранения
+    энергии.
+  statement_en: From the experiments of K. Shoulders and the creators of perpetual motion machines it becomes clear
+    that Nature has in store a large number of previously unknown interactions in most of which the energy conservation
+    law does not hold; in the last century such a dissipative electromechanical system was first studied by Mandelshtam
+    and Papaleksi.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-conservation-violations
+  - dissipative-systems
+  - debt-candidate
+  notes: Strong anti-conservation claim — flagged for debt clustering.
+  relations: []
+- id: SC-WO01-079
+  type: physics
+  facet: theory
+  priority: core
+  page: 21
+  quote_ru: В работе [17] нами показано, что в такой системе возможно существование режима токовой неустойчивости,
+    который возникает в контуре с модуляцией ёмкости.
+  statement_en: In [17] we showed that in such a system the regime of current instability can exist, arising in
+    a circuit with capacitance modulation; the instability manifests itself in the unlimited growth of charge oscillations
+    and capacitance current for definite values of the modulation depth of the reactive parameter and the dissipation
+    of the system; from this it follows that Nature does not object to the building of perpetual motion machines,
+    perpetual generators of superunity energy conversion (alternative energy methods described in detail in [15]),
+    and also perpetual generator-machines which can autonomously supply a person with excess electric energy from
+    closed energy chains.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-instability
+  - superunity-conversion
+  - perpetual-generators
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-080
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 21
+  quote_ru: Американские исследователи Флейшман и Понс сделали эксперимент, в котором был проведён электролиз тяжёлой
+    воды, с платиновым и золотым электродами.
+  statement_en: 'By 1990 another thunderous ''revolution in nuclear physics'' completed: the American researchers
+    Fleischmann and Pons performed an experiment in which electrolysis of heavy water with platinum and gold electrodes
+    was carried out; with current flowing they obtained spontaneous excess energy release, which they explained
+    by the existence of nuclear reactions of deuterium with hydrogen at low temperatures (cold nuclear fusion, CNF);
+    remarkably, CNF really occurred without release of neutrons; in all the leading journals nuclear scientists
+    crushed the inept experimenters asserting that no nuclear reactions without participation of neutrons can occur;
+    a huge number of subsequent repeats of similar experiments in different countries sometimes gave excess energy
+    release and sometimes did not.'
+  quantities: []
+  equations: []
+  materials:
+  - heavy water
+  - platinum electrode
+  - gold electrode
+  geometry: []
+  procedure_steps:
+  - electrolyze heavy water with Pt and Au electrodes
+  - pass current
+  - observe spontaneous excess energy release
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fleischmann-pons
+  - cold-fusion
+  - LENR
+  - excess-heat
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-081
+  type: physics
+  facet: theory
+  priority: normal
+  page: 22
+  quote_ru: Он предположил, что в атоме водорода есть глубокие энергетические уровни (ниже первой боровской орбиты).
+  statement_en: 'At the same time Randal Mills found an original explanation of the results of the Fleischmann-Pons
+    cold-fusion experiments (especially regarding the causes of the absence of neutrons in these reactions): he
+    assumed that the hydrogen atom has deep energy levels below the first Bohr orbit; these relativistic electron
+    states in the hydrogen atom were named ''hydrino'' by Mills; the experimentally detected hydrino states and
+    the radiation of such states in an invisible frequency range could not be explained by the nonrelativistic quantum
+    mechanics that had become classical by that time.'
+  quantities: []
+  equations: []
+  materials:
+  - hydrogen
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mills
+  - hydrino
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-082
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 22
+  quote_ru: В нашей стране Савватимова обнаружила трансмутации, происходящие в катоде тлеющего разряда.
+  statement_en: In those same years several researchers at once discovered so-called low-energy nuclear reactions
+    (LENR) during the flow of currents in a glow discharge; in our country Savvatimova discovered transmutations
+    occurring in the cathode of a glow discharge; this phenomenon repeated in numerous experiments on different
+    gases taken at different pressures; elements with a smaller nuclear charge number than the cathode substance
+    appeared more often in the cathode; together with the transmutation on the electrodes, a local anomalous release
+    of thermal energy was discovered.
+  quantities: []
+  equations: []
+  materials:
+  - glow-discharge cathode
+  - different gases
+  geometry: []
+  procedure_steps:
+  - run glow discharge currents through cathode
+  - analyze cathode for transmutation products
+  measurements: []
+  schematic_refs: []
+  tags:
+  - savvatimova
+  - LENR
+  - transmutation
+  - glow-discharge
+  - cathode
+  - anomalous-heat
+  notes: Core transmutation claim.
+  relations: []
+- id: SC-WO01-083
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 22
+  quote_ru: Электроды помещались в водород. На них подавалось напряжение около 40 кВ и поджигался газовый разряд.
+  statement_en: 'Academician B. Katorgin from NPO Energomash (Khimki, 2000) together with M. Marin tried to build
+    a space-based plasma engine: an installation consisting of two coaxially spaced cylindrical electrodes placed
+    in hydrogen; a voltage of about 40 kV was applied to them and a gas discharge ignited; the electric field accelerated
+    the plasma so strongly that a current breakdown often occurred; this circumstance prevented completing the construction
+    of the engine.'
+  quantities:
+  - voltage ~ 40 kV
+  equations: []
+  materials:
+  - hydrogen
+  - two coaxial cylindrical electrodes
+  geometry:
+  - coaxially spaced cylindrical electrodes
+  procedure_steps:
+  - place cylindrical electrodes in hydrogen
+  - apply ~40 kV
+  - ignite gas discharge
+  measurements: []
+  schematic_refs: []
+  tags:
+  - katorgin
+  - plasma-engine
+  - hydrogen-discharge
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO01-084
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 22
+  quote_ru: Фотографии показывали, что между электродами возникали светящиеся трубчатые токи с температурой около
+    2000 К.
+  statement_en: 'They made a detailed study of the current flow in a resting plasma: photographs showed that luminous
+    tubular currents with a temperature of about 2000 K arose between the electrodes; the oscillogram of the current-versus-time
+    dependence contained chaotic current surges; such surges were observed earlier by Tesla in a high-voltage gas
+    discharge; against the background of a constant current of 1 A the surges reached 60 A at microsecond duration.'
+  quantities:
+  - tubular current temperature ~ 2000 K
+  - background current 1 A
+  - surges up to 60 A
+  - surge duration microseconds
+  equations: []
+  materials:
+  - hydrogen plasma
+  geometry:
+  - luminous tubular currents between electrodes
+  procedure_steps: []
+  measurements:
+  - quantity: current surge amplitude
+    value: '60'
+    unit: A
+    conditions: against 1 A DC background, microsecond duration
+  - quantity: tubular current temperature
+    value: '2000'
+    unit: K
+    conditions: hydrogen discharge between electrodes
+  schematic_refs: []
+  tags:
+  - tubular-currents
+  - current-surges
+  - measurement
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO01-085
+  type: physics
+  facet: theory
+  priority: core
+  page: 22
+  quote_ru: Было понятно, что в водородной плазме образуются электронные и протонные зарядовые кластеры со средним
+    зарядом 30 мкКл. Каждый кластер содержал около 1014 электронов или протонов.
+  statement_en: It was clear that electron and proton charge clusters with a mean charge of 30 μC form in the hydrogen
+    plasma; each cluster contained about 10¹⁴ electrons or protons — three orders more than Shoulders'; the plasma
+    heated because these clusters either arose in the plasma or decayed; i.e. in the installation there was not
+    the 'cold nuclear fusion' of Fleischmann and Pons but a 'synthesis/decay of charge clusters of two signs' with
+    a large release of energy; an anomalous Joule-Lenz effect arose leading to a coefficient of conversion of electric
+    energy into thermal energy greater than 2; the process of 'synthesis/decay of CC' discovered at NPO Energomash
+    is observed in the coronal plasma of the Sun; in the author's opinion this effect significantly increases its
+    temperature compared with the temperature of the Sun's surface.
+  quantities:
+  - mean cluster charge 30 uC
+  - ~1e14 electrons/protons per cluster (3 orders more than Shoulders)
+  - electric-to-thermal conversion coefficient > 2
+  equations: []
+  materials:
+  - hydrogen plasma
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - synthesis-decay-clusters
+  - anomalous-joule-lenz
+  - solar-corona
+  - debt-candidate
+  notes: COP>2 claim — flagged for debt clustering; superscripts flattened.
+  relations: []
+- id: SC-WO01-086
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 23
+  quote_ru: Вачаев и Иванов создали установку «Энергонива». В ней им удалось наблюдать стационарное состояние светящейся
+    лабораторной шаровой молнии, энергия которой пополнялась внешними электрическими источниками.
+  statement_en: In those years Vachaev and Ivanov created the 'Energoniva' installation in which they managed to
+    observe a stationary state of a glowing laboratory ball lightning whose energy was replenished by external electric
+    sources; the author believes they discovered one more possible macroscopic state of a charge cluster of centimeter
+    sizes; it only remains to measure its charge.
+  quantities:
+  - 'cluster size: centimeters'
+  equations: []
+  materials: []
+  geometry:
+  - ball lightning of centimeter sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energoniva
+  - vachaev
+  - ball-lightning
+  - charge-cluster
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO01-087
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 23
+  quote_ru: Появились E-cat генераторы итальянца Росси, дающие на выходе избыточную тепловую энергию за счёт катализа.
+  statement_en: E-cat generators of the Italian Rossi appeared giving excess thermal energy at the output due to
+    catalysis; in our country Yu. Potapov (Kishinev, 1990) was the first to build a heat generator on a prototype
+    of the Ranque vortex tube; together with the hydroacoustics department of the Taganrog Radio Engineering Institute
+    (head of department professor V.I. Timoshenko, 1992), G. Sidorov (Taganrog) and V. Kladov (Moscow), heat generators
+    on other principles were built; they used resonance cavitation phenomena with superunity coefficients of energy
+    conversion in the range from 5 to 15.
+  quantities:
+  - COP range 5–15
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - rossi-e-cat
+  - catalysis
+  - potapov
+  - cavitation
+  - superunity-COP
+  - debt-candidate
+  notes: Catalysis and superunity claims — flagged.
+  relations: []
+- id: SC-WO01-088
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 23
+  quote_ru: Необходимо заметить, что за прошедшие десятилетия не все упомянутые выше эксперименты с выделением энергии
+    удалось повторить в физических лабораториях других стран.
+  statement_en: It must be noted that over the past decades not all of the above-mentioned experiments with energy
+    release could be repeated in physical laboratories of other countries; this was alarming and did not give confidence
+    in the adequacy of the proposed physical interpretation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - replication-failures
+  - caveat
+  notes: Author's own replication caveat.
+  relations: []
+- id: SC-WO01-089
+  type: physics
+  facet: theory
+  priority: core
+  page: 24
+  quote_ru: Хочется верить, что новый физический объект «зарядовый кластер К. Шоулдерса» и его класс взаимодействий,
+    под названием «кластерные ядерные реакции», обязательно найдёт своё дальнейшее продолжение в поисках неизвестных
+    ранее кластеров вещества и новых высоковольтных источников избыточного преобразования энергии.
+  statement_en: One wants to believe that the new physical object 'K. Shoulders' charge cluster' and its class of
+    interactions under the name 'cluster nuclear reactions' will surely find its further continuation in the searches
+    for previously unknown clusters of substance and new high-voltage sources of excess energy conversion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-nuclear-reactions
+  - excess-energy
+  - debt-candidate
+  notes: Conclusion.
+  relations: []

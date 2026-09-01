@@ -1,0 +1,189 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE11
+  section: teaching
+  title_ru: Проект электростатического электрометра с измерительной шкалой
+  title_en: Design of an electrostatic electrometer with a measurement scale
+  file: papers/teaching/proekt-elektrostaticheskogo-elektrometra-s-izmeritelnoy-shkaloy.pdf
+  source_url: http://146.190.233.254/docs/teaching/проект электростатического электрометра с измерительной
+    шкалой.pdf
+  md5: 7dce566abb36c0eef2148878e0b10cf9
+  pages_total: 3
+  retrieved: '2026-08-31'
+claims:
+- id: SC-TE11-001
+  type: physical
+  facet: experiment
+  priority: normal
+  page: 1
+  quote_ru: Перенос показал, что, сообщая последовательно шару заряды, равные q, 2q, 3q и т.д., стрелка
+    электрометра отклонялась на углы , 2, 3 и т.д.
+  statement_en: The authors report that transferring equal test charges q, 2q, 3q, ... from the outer
+    surface of a charged body into the hollow metal sphere of the electrometer deflects its needle by
+    angles alpha, 2alpha, 3alpha, ... — i.e. the deflection angle is proportional to the accumulated charge.
+  quantities:
+  - 'deflection angles: , 2, 3 for charges q, 2q, 3q'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrometer
+  - charge-measurement
+  - proportionality
+  - electrostatics
+  notes: Symbol-font alpha renders as U+F067 in the extracted text; preserved literally in quote.
+  relations: []
+- id: SC-TE11-002
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Чем больше угол отклонения, тем больше разность потенциалов, при этом мы ссылались на формулы
+  statement_en: The authors cite the plane-capacitor capacitance relations C = q/U and C = k·ε·S/d (as
+    recalled in the source text with formula symbols degraded) when connecting the deflection angle to
+    the potential difference.
+  quantities: []
+  equations:
+  - C = q/U
+  - C = k\varepsilon S/d
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - capacitance
+  - formula
+  - electrostatics
+  notes: Formula symbols lost by pdftotext (line reads "C  q / U , C  kS / d"); equations are best-effort
+    reconstruction, OCR-degraded.
+  relations: []
+- id: SC-TE11-003
+  type: physical
+  facet: procedure
+  priority: normal
+  page: 2
+  quote_ru: Выполнили с помощью транспортира угловую шкалу с шагом 50 и наклеили её на заднюю стенку электрометра
+    (см. рис.).
+  statement_en: 'Modernization step 1: the authors made an angular scale with a 5-degree step using a
+    protractor and glued it to the back wall of the school electrometer.'
+  quantities:
+  - 'scale step: 5 град'
+  equations: []
+  materials: []
+  geometry:
+  - angular scale on back wall of electrometer housing, step 5 degrees
+  procedure_steps:
+  - make angular scale with 5-degree step using a protractor
+  - glue the scale to the back wall of the electrometer
+  measurements: []
+  schematic_refs:
+  - рис. (photograph of upgraded electrometer)
+  tags:
+  - procedure
+  - electrometer
+  - modernization
+  notes: ''
+  relations: []
+- id: SC-TE11-004
+  type: physical
+  facet: schematic
+  priority: normal
+  page: 2
+  quote_ru: Он состоит из металлической стрелки 1, закреплённой на вертикальном подвесе 2, соединённом
+    со стальным стержнем 3. Конструкция помещена в заземлённый металлический цилиндрический корпус 4,
+    который в верхней части изолирован от стержня диэлектриком.
+  statement_en: The upgraded electrometer consists of a metal needle (1) fixed on a vertical suspension
+    (2) connected to a steel rod (3); the assembly is placed in a grounded metal cylindrical housing (4)
+    insulated from the rod by a dielectric at the top; supplying charge to the suspension turns the needle
+    by an angle set by the potential difference between electrode 2 and housing 4.
+  quantities: []
+  equations: []
+  materials:
+  - metal needle
+  - steel rod
+  - dielectric insulation
+  geometry:
+  - grounded cylindrical metal housing
+  - vertical suspension of needle on rod
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - рис. (photograph, items 1-4)
+  tags:
+  - electrometer
+  - geometry
+  - schematic
+  - electrostatics
+  notes: ''
+  relations: []
+- id: SC-TE11-005
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 2
+  quote_ru: С помощью цифрового высоковольтного источника постоянного тока была проградуирована сделанная
+    шкала. Данные занесли в таблицу.
+  statement_en: 'The authors report calibrating the angular scale with a digital high-voltage DC source:
+    needle deflection angles of 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 degrees correspond to applied
+    voltages of 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0 kV respectively (calibration table).'
+  quantities:
+  - U = 1,0–6,0 кВ
+  - угол отклонения = 10–60 град
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - apply known DC voltages from a digital high-voltage source between the electrometer rod and housing
+  - record the needle deflection angle at each voltage
+  measurements:
+  - quantity: needle deflection angle vs applied voltage
+    value: 10 grad at 1.0 kV up to 60 grad at 6.0 kV
+    unit: grad / кВ
+    conditions: digital high-voltage DC source, linear calibration table with 0.5 kV steps
+  schematic_refs:
+  - таблица градуировки
+  tags:
+  - electrometer
+  - calibration
+  - measurement
+  - voltage
+  notes: ''
+  relations: []
+- id: SC-TE11-006
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 2
+  quote_ru: Провели измерение электрической ёмкости электрометра. Она оказалась 17,7 пФ. Эту цифру закрепили
+    на боковой стороне электрометра.
+  statement_en: The authors measured the electrical capacitance of the upgraded electrometer as 17.7 pF
+    and labelled this value on the side of the instrument.
+  quantities:
+  - C = 17,7 пФ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - measure the capacitance of the electrometer
+  - label the measured value (17.7 pF) on the side of the electrometer
+  measurements:
+  - quantity: electrometer capacitance
+    value: '17.7'
+    unit: пФ
+    conditions: upgraded school electrometer after calibration
+  schematic_refs: []
+  tags:
+  - electrometer
+  - capacitance
+  - measurement
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

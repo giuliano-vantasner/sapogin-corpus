@@ -1,0 +1,17 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE05
+  section: teaching
+  title_ru: Игра – особая форма усвоения материала (физика)
+  title_en: Game as a special form of learning material (physics)
+  file: papers/teaching/igra-osobaya-forma-usvoeniya-materiala-fizika.pdf
+  source_url: http://146.190.233.254/docs/teaching/Игра – особая форма усвоения материала (физика).pdf
+  md5: 4733fbc1c98462aa1d4e6ed711c13148
+  pages_total: 57
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

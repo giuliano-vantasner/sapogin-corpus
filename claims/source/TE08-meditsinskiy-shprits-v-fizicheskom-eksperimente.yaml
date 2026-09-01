@@ -1,0 +1,17 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE08
+  section: teaching
+  title_ru: Медицинский шприц в физическом эксперименте
+  title_en: Medical syringe in physical experiment
+  file: papers/teaching/meditsinskiy-shprits-v-fizicheskom-eksperimente.pdf
+  source_url: http://146.190.233.254/docs/teaching/Медицинский шприц в физическом эксперименте.pdf
+  md5: 70831b91aee0ab21e70d46882ae37475
+  pages_total: 34
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

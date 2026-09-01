@@ -1,0 +1,921 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: BR01
+  section: brochure
+  title_ru: Газовые шары Эмдена в самосогласованной теории гравитации
+  title_en: Emden gas balls in the self-consistent theory of gravitation
+  file: papers/brochure/gazovye-shary-emdena-v-samosoglasovannoy-teorii-gravitatsii.pdf
+  source_url: http://146.190.233.254/docs/brochure/Газовые шары Эмдена в самосогласованной теории гравитации.pdf
+  md5: cdf340945879c973341b2d71abaf0aa7
+  pages_total: 104
+  retrieved: '2026-08-31'
+claims:
+- id: SC-BR01-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: существует такой класс коллективного взаимодействия между гравитирующими частицами динамической
+    системы
+  statement_en: 'The self-consistent gravity theory rests on five postulates: (1) there exists a class
+    of collective interaction between gravitating particles in which the macroscopic self-consistent gravitational
+    field acts back on the particles that generate it; (2) this back-action always creates a retaining
+    volume density of static field-origin forces tied to the self-consistent field pressure gradient and
+    co-directed with it; (3) the system is in static equilibrium with its field when the pressure gradients
+    of field and particles are equal in magnitude and opposite in direction in every elementary volume;
+    (4) in plane dynamical accumulations the zero sum of the pressure gradients yields a conservation
+    law for the scalar total-pressure function (field plus particle pressures) playing the role of the
+    interaction Hamiltonian; (5) the equilibrium condition contradicts neither Gauss''s theorem nor Earnshaw''s
+    theorem, which apply to systems of fixed point particles with only Newtonian (or Coulomb) forces and
+    no field-origin volume forces.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - postulates
+  - self-consistent-gravity
+  - theory
+  notes: ''
+  relations: []
+- id: SC-BR01-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 20
+  quote_ru: Отличительные особенности самосогласованной стати- ки.
+  statement_en: 'The authors characterize self-consistent statics: distribution functions from power-law
+    to Boltzmann; first-kind states hold particles in potential wells (concentration maximal at the potential-energy
+    minimum), second-kind states concentrate particles at the bottom of a slot; in spherically symmetric
+    first-kind states there exists a sphere of zero field pressure (also zero collective field strength)
+    dividing the cluster matter into inner and outer atmospheres with field directed outward inside and
+    inward outside; for any state parameters the matter concentration tends to zero at the ball center,
+    contradicting the Lane-Emden boundary conditions (maximal central density), which therefore had to
+    be revised; in cold first-kind states a cavity forms where matter is practically absent and the ball
+    becomes a bubble; potential energy is defined up to a constant and can take either sign.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - sphere of zero field pressure
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - states
+  - bubble
+  - boundary-conditions
+  - theory
+  notes: ''
+  relations: []
+- id: SC-BR01-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 21
+  quote_ru: Показано, что существует три возможных варианта неупру- гого удара полого кластера о плоскую
+    поверхность
+  statement_en: The authors show there are three variants of inelastic impact of a hollow cluster on a
+    flat surface (large, medium, weak energy release); after impact the hollow gravitational cluster (matter
+    in a thin layer) leaves a characteristic crater whose texture depends on the critical surface density
+    of particles above which the surface material melts; large release gives a frozen circular melt pad
+    ringed by squeezed-out material, medium release melts only the crater rim forming a ring of finite
+    thickness and radius, weak release leaves no crater; the characteristic ring-shaped melted crater
+    with rim forms when a thin-wall, very hot bubble falls from space.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - ring crater with rim
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - craters
+  - impact
+  - hollow-cluster
+  - theory
+  notes: ''
+  relations: []
+- id: SC-BR01-004
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 22
+  quote_ru: Обобщая работы Лэна, Эмдена
+  statement_en: 'The base equations of self-consistent gravitational statics generalize Lane and Emden
+    with a Frenkel-style approach: equilibrium of an elementary volume rho*g + f = 0; div g = -4*pi*G*rho;
+    g = -grad(phi); equations of state p = rho*k*T/m (uniform temperature) or p = K*rho^n (polytropic);
+    f = -grad(p) defining the gas-hydrostatic Bernoulli force; the truncated system reduces to the Lane-Emden
+    equation for density in polytropic states.'
+  quantities: []
+  equations:
+  - \rho g + f = 0
+  - \mathrm{div}\,g = -4\pi G\rho
+  - g = -\mathrm{grad}\,\varphi
+  - p = \rho kT/m;\ p = K\rho^n
+  - f = -\mathrm{grad}\,p
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - base-equations
+  - derivation
+  - self-consistent-gravity
+  notes: ''
+  relations: []
+- id: SC-BR01-005
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 25
+  quote_ru: Она заключается в том, что для произвольного уравнения со- стояния
+  statement_en: 'The retention condition G*g + grad(p) = 0 follows from equations (1.5) and (1.8): for
+    any equation of state the system is in static equilibrium with the self-consistent gravitational field
+    when the sum of the pressure gradients of field and particles vanishes in every elementary volume;
+    this condition is restrictive enough to discard non-physical solutions; the self-consistent field
+    plays a dual role, creating in matter a pressure gradient co-directed with its strength vector and
+    simultaneously the static force compensating that gradient; the classical boundary conditions (density
+    decreasing from center to surface) are artificial and must be revised, admitting hollow spherical
+    gravitational clusters with two atmosphere types.'
+  quantities: []
+  equations:
+  - G g + \mathrm{grad}(p) = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1.1 (две атмосферы полого кластера)
+  tags:
+  - retention-condition
+  - boundary-conditions
+  - hollow-clusters
+  notes: ''
+  relations: []
+- id: SC-BR01-006
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 27
+  quote_ru: Интеграл полного давления. Исследуем одно замечательное свойство уравнений самосогласованной
+    гравистатики.
+  statement_en: For a single-component plane field g = [gx(x),0,0] the equilibrium condition integrates
+    to the total-pressure integral gx^2/(8*pi*G) + p = (phi')^2/(8*pi*G) + p(phi) = H(phi',phi) = const,
+    the Hamiltonian function of the plane system with x as generalized time, phi as generalized coordinate
+    and phi'/(4*pi*G) as conjugate momentum; in systems with this collective interaction only equilibria
+    with positive total pressure exist, and the field pressure is always larger where the particle pressure
+    is smaller.
+  quantities: []
+  equations:
+  - g_x^2/(8\pi G) + p = H(\varphi',\varphi) = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - total-pressure-integral
+  - hamiltonian
+  - conservation
+  notes: ''
+  relations: []
+- id: SC-BR01-007
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 28
+  quote_ru: Учитывая уравнение состояния (1.4) и однородность температуры
+  statement_en: Substituting the equation of state and uniform temperature into the equilibrium gives
+    grad(m*phi/(kT) + ln rho) = 0, so any equilibrium of gravitating particles with uniform temperature
+    has the scalar integral m*phi/(kT) + ln rho = const yielding the Boltzmann distribution rho = rho0*exp[-m(phi-phi0)/kT];
+    substituting into the field equation collapses the system into the single equation Delta*phi = 4*pi*G*rho0*exp[-m(phi-phi0)/kT],
+    the three-dimensional field analog of the Emden E-equation, first obtained by Frenkel in 1948.
+  quantities: []
+  equations:
+  - \mathrm{grad}\left(\frac{m\varphi}{kT} + \ln\rho\right) = 0
+  - \rho = \rho_0 e^{-m(\varphi-\varphi_0)/kT}
+  - \Delta\varphi = 4\pi G\rho_0 e^{-m(\varphi-\varphi_0)/kT}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boltzmann-distribution
+  - emden-equation
+  - frenkel
+  notes: ''
+  relations: []
+- id: SC-BR01-008
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 29
+  quote_ru: Из (1.16) следует, что для индексов политропии (n>0)
+  statement_en: For polytropic equilibria the distribution rho/rho0 = (1 - (phi-phi0)/phi_n)^n follows
+    with potential scale phi_n = K(n+1)*rho0^(1/n); for polytropic indices n>0 the concentration is larger
+    where the potential difference is smaller, for n<0 the opposite; substituting into the field equation
+    gives the three-dimensional field analog of the Lane-Emden equation Delta*phi = 4*pi*G*rho0*(1-(phi-phi0)/phi_n)^n;
+    the n<0 case proved special and had not been considered before.
+  quantities: []
+  equations:
+  - \rho/\rho_0 = (1-(\varphi-\varphi_0)/\varphi_\mathrm{n})^n
+  - \Delta\varphi = 4\pi G\rho_0(1-(\varphi-\varphi_0)/\varphi_\mathrm{n})^n
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - polytropic
+  - lane-emden
+  - distribution
+  notes: ''
+  relations: []
+- id: SC-BR01-009
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 44
+  quote_ru: Законы распределения гравитирующих частиц, находя- щихся при однородной температуре в плоском
+    самосо
+  statement_en: 'Section 2 conclusions: the distributions of uniformly-temperature gravitating particles
+    in a plane self-consistent field are uniquely determined by the first integral of total pressure (particle
+    plus field pressures); the potential is a two-parameter family of potential wells with infinite walls;
+    the equilibrium distribution coincides with the Boltzmann one; the field squeezes particles to the
+    pit bottom creating high-concentration regions; the Bernoulli force in every plane of the system coincides
+    in direction and magnitude with the self-consistent field pressure gradient; each elementary volume
+    is in equilibrium under two forces (Newtonian attraction and Bernoulli repulsion); adequate boundary
+    conditions require a surface where the field pressure vanishes and the potential is minimal.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conclusions
+  - section-2
+  - boundary-conditions
+  notes: ''
+  relations: []
+- id: SC-BR01-010
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 34
+  quote_ru: деление потенциала по длине системы 2kT ⎡ ⎛ x ⎞⎤ ϕ = ϕ0 + ln ch⎜ ⎟ , (2.6) m ⎢⎣ ⎝ l ⎠⎥⎦ где
+    ( ) l = kT / m 2πGp0 = kT / (2πmGρ0 ) (2.7) − пространственный масштаб системы.
+  statement_en: 'The exact plane solution: the potential phi = phi0 + (2kT/m)*ln ch(x/l) forms a potential
+    well with minimum at x=0; the spatial scale l = (kT/m)*sqrt(1/(2*pi*G*p0)) = kT/sqrt(2*pi*m*G*rho0);
+    the field projection gx = -(2kT/ml)*th(x/l) vanishes at x=0 and saturates at g* = 2kT/ml = 8*pi*G*p0;
+    density, concentration and pressure have soliton distributions proportional to ch^-2(x/l) with maximum
+    at the pit bottom; the field pressure D = g*^2*th^2(x/l)/(8*pi*G); the pressure-gradient equality
+    dD/dx = -dp/dx holds in every plane; characteristic system sizes lie within -3l to 3l.'
+  quantities:
+  - l = kT/√(2πmGρ0)
+  - g* = 2kT/ml = 8πGp0
+  - размеры от −3l до 3l
+  equations:
+  - \varphi = \varphi_0 + (2kT/m)\ln\mathrm{ch}(x/l)
+  - g_x = -(2kT/ml)\,\mathrm{th}(x/l)
+  - \rho/\rho_0 = \mathrm{ch}^{-2}(x/l)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2.1–2.5
+  tags:
+  - exact-solution
+  - soliton
+  - scaling
+  notes: Quote spans formula boundary pulled from source; formulas reconstructed best-effort from equations
+    (2.5)-(2.12), OCR-degraded.
+  relations: []
+- id: SC-BR01-011
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 42
+  quote_ru: Из табл. 2.1 видно, что значения пространственного масштаба изменяются в диапазоне от 10
+  statement_en: 'At 300 K the spatial scale obeys l = A/(m*n0) with A = kT/sqrt(2*pi*G) = 3.14e-6 kg/m^(1/2);
+    Table 2.1 computes l for neutron gas, water vapor and oxygen at n0 = 10^24..10^27 m^-3: neutron gas
+    5.93e7..1.87e9 m, water vapor 3.32e6..1.05e8 m, oxygen 1.86e6..5.9e7 m — i.e. the scale ranges from
+    10^6 to 10^9 m, cosmic orders of magnitude.'
+  quantities:
+  - A = 3,14·10-6 кг/м1/2
+  - l от 10^6 до 10^9 м
+  - n0 = 1024–1027 м-3
+  equations:
+  - l = A/(m\,n_0)
+  materials:
+  - газ нейтронов
+  - водяной пар
+  - кислород
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 2.1
+  tags:
+  - scales
+  - calculated-table
+  - gases
+  notes: Quote spans OCR-degraded exponent range; table values transcribed.
+  relations: []
+- id: SC-BR01-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 43
+  quote_ru: Резонно задать вопрос о выборе массы гравитирующей час- тицы.
+  statement_en: 'The authors interpret the gravitating-particle mass as the mass of the object interacting
+    by the inverse-square law: nature shows matter clusterization (nuclei, atoms, molecules, near order
+    in liquids, star clusters) where the holding fields do not manifest outside the cluster, so a newly
+    formed cluster presents a new mass to the next level — "a matryoshka in a matryoshka"; e.g. for a
+    microscopic ice pellet the gravitating mass is the pellet mass and n0 is the pellet (not molecule)
+    concentration; the gas-kinetic relation p = nkT is extended to liquids and even nuclear matter.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - clusterization
+  - matryoshka
+  - interpretation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-BR01-013
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 43
+  quote_ru: Сделаем оценки физических параметров газового скопления из кислорода для концентрации 10
+  statement_en: 'Estimates for an oxygen cluster at n0 = 1e27 m^-3, T = 300 K, alpha = 1: pit-bottom particle
+    pressure p0 = 4.14e6 Pa (= total pressure = boundary field pressure = pressure scale); system width
+    d = 6l = 1.12e7 m; potential scale phi_m = 1.57e5 m2/s2; field scale g_m = 8.4e-2 m/s2 (= maximal
+    field strength g*); Bernoulli-force scale f_m = 4.4 N/m3; integral parameters: surface particle density
+    Ns = 3.7e33 m-2, retained surface mass ms = 1.97e8 kg/m2, field surface-energy scale W0f = 1.09e13
+    J/m2, particle-field interaction energy scale W0 = 8.0e12 J/m2.'
+  quantities:
+  - n0 = 1027 м-3
+  - p0 = 4,14·106 Па
+  - d = 1,12·107 м
+  - фm = 1,57·105 м2/с2
+  - gm = 8,4·10-2 м/с2
+  - fm = 4,4 н/м3
+  - Ns = 3,7·1033 м-2
+  - ms = 1,97·108 кг·м-2
+  - W0f = 1,09·1013 Дж·м-2
+  - W0 = 8,0·1012 Дж·м-2
+  equations: []
+  materials:
+  - кислород
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - estimates
+  - oxygen
+  - cluster
+  notes: ''
+  relations: []
+- id: SC-BR01-014
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 44
+  quote_ru: Характерные масштабы величин существенно изменяются для ядерной плотности вещества.
+  statement_en: 'For nuclear density n0 = 1e44 m^-3 and T = 1e6 K (neutron-star parameters) the total
+    pressure P = 1.4e27 Pa ensures maximal field strength g* = 1.5e9 m/s2 and system width d = 6l = 66
+    m; integral parameters: Ns = 2.2e45 m-2, ms = 3.7e18 kg/m2, W0f = 2.15e28 J/m2, W0 = 1.56e28 J/m2.'
+  quantities:
+  - n0 = 1044 м-3
+  - T = 106 К
+  - P = 1,4·1027 Па
+  - g* = 1,5·109 м·с-2
+  - d = 66 м
+  - ms = 3,7·1018 кг·м-2
+  equations: []
+  materials:
+  - нейтроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nuclear-density
+  - neutron-star
+  - estimates
+  notes: ''
+  relations: []
+- id: SC-BR01-015
+  type: physics
+  facet: theory
+  priority: normal
+  page: 59
+  quote_ru: Из рис. 3.9 видно, как изменяется заполнение кластера частицами при изменении его температуры
+    в окрестности значения
+  statement_en: For the spherical cluster with uniform temperature, the center particle concentration
+    vanishes for all state parameters; at beta = 3 a cavity exists (curve 4), while at lower temperatures
+    (beta = 0.5, 0.7, 1.0) the interaction space is mostly filled with particles and their reduced number
+    grows with temperature.
+  quantities:
+  - β = 0,5; 0,7; 1,0; 3,0
+  equations: []
+  materials: []
+  geometry:
+  - central cavity at beta = 3
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3.8
+  - Рис. 3.9
+  - Рис. 3.10
+  tags:
+  - spherical-cluster
+  - cavity
+  - temperature
+  notes: ''
+  relations: []
+- id: SC-BR01-016
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 62
+  quote_ru: Число частиц кластера, связанное самосогласованным полем, по- лучается после интегрирования
+  statement_en: The number of particles bound by the self-consistent field in the spherical cluster is
+    obtained by integrating the concentration over the volume; with the psi-function representation N
+    = (N0/2*beta)*exp(d/b)*[psi(1/2+alpha/4) - psi(alpha/4) - psi(1/2-alpha/4) + psi(1-alpha/4)], where
+    N0 = 3*n0*V is the particle-number scale (V the volume of the zero-pressure sphere), d = Arch(sqrt((1+beta^2))/beta)
+    and b = 1/alpha; convergence requires -2 < alpha < 2 with alpha = 1/sqrt(1+beta^2), satisfied for
+    3 <= beta < infinity.
+  quantities:
+  - N0 = 3n0V
+  - условие −2<α<2
+  - β ≥ 3
+  equations:
+  - N = \frac{N_0}{2\beta}e^{d/b}\,[\psi(\tfrac12+\tfrac{\alpha}{4}) - \psi(\tfrac{\alpha}{4}) - \psi(\tfrac12-\tfrac{\alpha}{4})
+    + \psi(1-\tfrac{\alpha}{4})]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 3.1 (W/W0, N/N0 vs β)
+  tags:
+  - particle-number
+  - psi-function
+  - derivation
+  notes: Formula (3.27) reconstructed best-effort, OCR-degraded; quote spans soft-hyphen split of "по-лучается".
+  relations: []
+- id: SC-BR01-017
+  type: physics
+  facet: theory
+  priority: normal
+  page: 72
+  quote_ru: Сравнительный анализ приведённых оценок указывает на то, что с ростом параметра состояния
+    β
+  statement_en: Comparative analysis shows that increasing the state parameter beta of gravitational clusters
+    (other things equal) decreases the thickness of the layer occupied by particles while their physical
+    parameters grow — particle number, geometric sizes and accumulated energy; in cold clusters the particle-number
+    scale N0 grows proportionally to beta^3; also, the smaller the gravitating particle mass, the larger
+    the additive mass of the gas ball.
+  quantities:
+  - N0 ~ β3
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - scaling
+  - beta-parameter
+  notes: ''
+  relations: []
+- id: SC-BR01-018
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 68
+  quote_ru: Физические параметры газового скопления из кислорода для концентрации 10
+  statement_en: 'Hollow oxygen gas ball at n0 = 1e25 m^-3, 300 K, beta = 3: pit-bottom pressure p0 = 4.14e4
+    Pa; density rho0 = 0.532 kg/m3; zero-pressure sphere radius R = 3l = 5.6e7 m; cavity radius (cut at
+    n = 0.01*n0) r1 = 0.24R = 1.3e7 m; outer radius r2 = 2.24R = 1.25e8 m; N = 1.8e49 particles; retained
+    mass M = 9.6e23 kg, slightly exceeding the Moon mass; field energy scale W0f = 1.0e28 J; interaction
+    energy W = 7.0e28 J; at beta = 10: R = 10l = 1.86e8 m, r1 = 1.36e8 m, r2 = 2.5e8 m, N = 1.62e50, M
+    = 8.6e24 kg, W = 4.3e29 J.'
+  quantities:
+  - R = 5,6·107 м
+  - r1 = 1,3·107 м
+  - r2 = 1,25·108 м
+  - M = 9,6·1023 кг
+  - W = 7,0·1028 Дж
+  - 'β=10: M = 8,6·1024 кг'
+  equations: []
+  materials:
+  - кислород
+  geometry:
+  - cavity radius 0.24R (β=3) / 0.73R (β=10)
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - estimates
+  - oxygen
+  - hollow-ball
+  notes: ''
+  relations: []
+- id: SC-BR01-019
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 69
+  quote_ru: Физические параметры газового скопления из водяного пара для той же концентрации и температуры
+  statement_en: 'Hollow water-vapor gas ball at the same concentration (1e25 m^-3), temperature (300 K)
+    and beta = 3: p0 = 4.14e4 Pa; rho0 = 0.30 kg/m3; R = 3l = 1.0e8 m; cavity r1 = 0.24R = 2.4e7 m; outer
+    radius r2 = 2.24R = 2.24e8 m; N = 1.0e50; retained mass M = 3.0e24 kg, which the author states exceeds
+    the Earth mass; W = 4.0e29 J; at beta = 10: R = 3.32e8 m, r1 = 2.42e8 m, M = 2.8e25 kg, W = 2.5e30
+    J.'
+  quantities:
+  - R = 1,0·108 м
+  - M = 3,0·1024 кг
+  - W = 4,0·1029 Дж
+  - 'β=10: M = 2,8·1025 кг'
+  equations: []
+  materials:
+  - водяной пар
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - estimates
+  - water-vapor
+  - hollow-ball
+  notes: The printed claim "превышает массу Земли" is inconsistent with the numeric value (3.0e24 kg <
+    5.97e24 kg); transcribed as stated.
+  relations: []
+- id: SC-BR01-020
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 70
+  quote_ru: Физические параметры газового скопления из нейтронов для концентрации 10
+  statement_en: 'Hollow neutron gas ball at n0 = 1e25 m^-3, 300 K, beta = 3: p0 = 4.14e4 Pa; rho0 = 1.67e-2
+    kg/m3; R = 3l = 1.8e9 m; cavity r1 = 0.43e9 m; outer radius r2 = 4.0e9 m; N = 5.9e53; retained mass
+    M = 9.9e26 kg, three orders above Earth mass; W = 2.32e33 J; at beta = 10: R = 5.93e9 m, r1 = 4.33e9
+    m, N = 5.3e54, M = 8.9e27 kg (four orders above Earth mass), W = 1.43e34 J.'
+  quantities:
+  - R = 1,8·109 м
+  - M = 9,9·1026 кг
+  - W = 2,32·1033 Дж
+  - 'β=10: M = 8,9·1027 кг'
+  equations: []
+  materials:
+  - нейтроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - estimates
+  - neutrons
+  - hollow-ball
+  notes: ''
+  relations: []
+- id: SC-BR01-021
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 71
+  quote_ru: Физические параметры пузыря из нейтронов для концентра- ции 10
+  statement_en: 'Hot hollow neutron bubble with nuclear density (n0 = 1e44 m^-3, T = 1e10 K, neutron-star
+    parameters, beta = 3): p0 = 1.38e31 Pa; rho0 = 1.67e17 kg/m3; R = 3l = 3.24e3 m; cavity r1 = 0.78e3
+    m; outer radius r2 = 7.26e3 m; N = 3.47e55; M = 5.81e28 kg, two orders below the solar mass; W = 4.52e42
+    J; at beta = 10: R = 1.08e4 m, N = 3.2e56, M = 5.36e29 kg (three times less than the Sun), W = 2.84e43
+    J; the author cautions hot neutron clusters radiate strongly and the constant-temperature approximation
+    treats a fixed state.'
+  quantities:
+  - n0 = 1044 м-3
+  - T = 1010 К
+  - p0 = 1,38·1031 Па
+  - M = 5,81·1028 кг
+  - 'β=10: M = 5,36·1029 кг'
+  equations: []
+  materials:
+  - нейтроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - neutron-bubble
+  - nuclear-density
+  - estimates
+  notes: ''
+  relations: []
+- id: SC-BR01-022
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 72
+  quote_ru: Предположим, что в нейтронной материи при низких тем- пературах проявляется ближний порядок
+  statement_en: 'Cold neutron bubble with near order (clusterization assumed, one cluster containing 1e6
+    neutrons; n0 = 1.19e25 m^-3, T = 1e4 K, beta = 3): p0 = 1.64e6 Pa; rho0 = 2.0e4 kg/m3; R = 3l = 9.4e3
+    m; cavity r1 = 2.25e3 m; outer radius r2 = 2.1e4 m; N = 1.0e38; retained mass M = 1.67e17 kg, thirteen
+    orders below the solar mass; such light neutron bubbles are proposed to have left Moon craters with
+    an outer melted ring rim and smooth untouched surface texture inside the rim.'
+  quantities:
+  - 10^6 нейтронов в кластере
+  - R = 9,4·103 м
+  - M = 1,67·1017 кг
+  equations: []
+  materials:
+  - нейтроны
+  geometry:
+  - cavity radius 2.25 km
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - neutron-bubble
+  - near-order
+  - moon-craters
+  notes: ''
+  relations: []
+- id: SC-BR01-023
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 82
+  quote_ru: Тогда преобразование концентрации частиц n в поверхно- стную плотность
+  statement_en: 'For a hollow spherical cluster (radii r2 > r1, uniform concentration, particle-number
+    conservation, perpendicular impact) the transformation of volume concentration n into surface density
+    on the impacted plane is sigma(rho) = 2n*(sqrt(r2^2-rho^2) - sqrt(r1^2-rho^2)); normalized with eta
+    = r1/r2 and chi = rho/r1 the distribution sigma_n = (sqrt(1-eta^2*chi^2) - eta*sqrt(1-chi^2))/(1-eta)
+    for 0<=chi<=1 and sigma_n = sqrt(1-eta^2*chi^2)/(1-eta) for 1<=chi<=1/eta; the surface density of
+    incident particles has a strong radial inhomogeneity near chi ~ 1 (adjacent to the cavity radius):
+    the maximum falls on r1 and vanishes at r2; the melt region depends on the critical surface density
+    sigma_k above which the surface material melts.'
+  quantities:
+  - η = r1/r2
+  - χ = ρ/r1
+  - максимум σ на радиусе r1
+  equations:
+  - \sigma(\rho) = 2n\left(\sqrt{r_2^2-\rho^2} - \sqrt{r_1^2-\rho^2}\right)
+  materials: []
+  geometry:
+  - cavity radius r1, outer radius r2
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 5.2
+  - Рис. 5.3
+  tags:
+  - impact
+  - surface-density
+  - craters
+  - derivation
+  notes: Formulas (5.2)-(5.4) reconstructed best-effort, OCR-degraded.
+  relations: []
+- id: SC-BR01-024
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 91
+  quote_ru: 'Итак, выделим важнейшие наблюдаемые свойства Тунгус- ского феномена:'
+  statement_en: 'The author lists seven observed properties of the Tunguska phenomenon: (1) an unidentified
+    object fell from space at about 40 km/s; (2) astronomers did not detect its motion in near-Earth space
+    before the fall; (3) the object measured roughly 5 to 25 km in diameter by various estimates, and
+    some witnesses hold there were two objects; (4) its atmospheric passage excited powerful light, sound
+    and electromagnetic waves that circled the Earth several times; (5) high atmospheric activity was
+    observed a day or two before the fall (precursors); (6) the impact produced the "mast forest" and
+    taiga fall over many kilometers, with no characteristic meteorite crater; (7) two-three years after
+    the fall the catastrophe traces disappeared; the author also notes a similar smaller body fell in
+    the Krasnoyarsk taiga in 2004.'
+  quantities:
+  - 40 км/с
+  - 5–25 км диаметр
+  - 2004 г. красноярское событие
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - observations
+  notes: ''
+  relations: []
+- id: SC-BR01-025
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 92
+  quote_ru: Физические параметры газового скопления из ледяных пы- линок диаметром 40 нм
+  statement_en: 'Tunguska-phenomenon parameters as a first-kind hollow gas ball of ice dust pellets 40
+    nm in diameter, pellet mass 3.0e-20 kg, concentration 2.7e21 m^-3, T = 250 K, beta = 3: pit-bottom
+    pressure p0 = 9.3 Pa; density rho0 = 80 kg/m3; zero-pressure sphere radius R = 3l = 5.55e3 m; cavity
+    radius r1 = 0.24R = 1.33e3 m; outer radius r2 = 2.24R = 12.4e3 m; N = 4.7e30 particles; retained mass
+    M = 1.41e11 kg (141 million tons); interaction energy W = 1.53e13 J; at 40 km/s the kinetic energy
+    Ek = 1.13e20 J exceeds the interaction energy by seven orders, equal to 24.6 billion tons of TNT (1
+    t TNT = 4.6e9 J); at beta = 10: R = 1.85e4 m, cavity r1 = 1.35e4 m, r2 = 2.46e4 m, M = 1.3e15 kg (1.3
+    trillion tons), kinetic energy 226 trillion tons of TNT.'
+  quantities:
+  - пылинки 40 нм, 3,0·10-20 кг
+  - n0 = 2,7·1021 м-3
+  - T = 250 К
+  - R = 5,55·103 м
+  - r1 = 1,33·103 м
+  - r2 = 12,4·103 м
+  - M = 1,41·1011 кг
+  - Ek = 1,13·1020 Дж
+  - 24,6 млрд т тротила
+  - 'β=10: M = 1,3·1015 кг'
+  - 226 трлн т тротила
+  equations: []
+  materials:
+  - ледяные пылинки
+  geometry:
+  - cavity radius 1.33 km (beta=3)
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - estimates
+  - hollow-snowball
+  notes: ''
+  relations: []
+- id: SC-BR01-026
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 94
+  quote_ru: Современные средства наблюдают в космической пыли льдинки диаметром 10 мкм
+  statement_en: 'Second-kind Tunguska cluster (same inner/outer radii as beta = 3): at layer thickness
+    d = 1.11e4 m the particle number N = 1.28e33 and retained mass M = 3.84e13 kg falls into the intermediate
+    range given by first-kind clusters; field energy Wf = 4.42e12 J, interaction energy W = 5.11e12 J;
+    taking modern-observed 10 um cosmic-dust ice pellets (pellet mass 4.2e-13 kg) at the same temperature
+    and thickness gives a cosmic snowball mass of only M = 2.7e6 kg.'
+  quantities:
+  - d = 1,11·104 м
+  - M = 3,84·1013 кг
+  - льдинки 10 мкм, 4,2·10-13 кг
+  - M = 2,7·106 кг
+  equations: []
+  materials:
+  - ледяные пылинки 10 мкм
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - second-kind
+  - estimates
+  notes: ''
+  relations: []
+- id: SC-BR01-027
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 94
+  quote_ru: 'Физические параметры такого скопления: масса молекулы воды 3,0'
+  statement_en: 'The theory predicts an exotic astrophysical object — a water-gas bubble without near
+    order (water molecule mass 3.0e-26 kg, concentration 3.33e28 m^-3, T = 293 K, beta = 3): p0 = 1.35e8
+    Pa; condensate density from 1000 down to 10 kg/m3; zero-pressure sphere radius R = 3l = 1.7e6 m; cavity
+    r1 = 0.4e6 m; outer radius r2 = 3.8e6 m, 1.7 times smaller than Earth radius; N = 1.66e48 molecules;
+    retained mass M = 5.0e22 kg, 20 times less than Earth mass; such an impact would raise the ocean level
+    by 97 km; accounting for near order of water molecules reduces the mass by 5-7 orders (ocean rise
+    of hundreds of meters), and such a collision in the distant past may have delivered Earth''s observed
+    water.'
+  quantities:
+  - n0 = 3,33·1028 м-3
+  - R = 1,7·106 м
+  - r2 = 3,8·106 м (в 1,7 раза меньше радиуса Земли)
+  - M = 5,0·1022 кг
+  - подъём океана на 97 км
+  - масса снижается на 5–7 порядков
+  equations: []
+  materials:
+  - водно-газовый конденсат
+  geometry:
+  - outer radius 3.8e6 m
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - water-gas-bubble
+  - prediction
+  - exotic-object
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-BR01-028
+  type: physics
+  facet: theory
+  priority: normal
+  page: 95
+  quote_ru: Оценки дают разнообразные диаметры газового шара, со- стоящего из льдинок, изменяющиеся в
+    пределах от 2,7 км
+  statement_en: 'Tunguska conclusions: the hollow loose comet-like body consisted of the smallest ice
+    pellets; the cavity inside the fallen object can be estimated at a kilometer in diameter (measuring
+    the ellipse occupied by the "mast forest" would allow calculating the mass, impact angle and geometric
+    dimensions via the theory); estimates give gas-ball diameters from 2.7 km to 50 km and masses from
+    3 thousand tons to 1.3 trillion tons; the largest variant has a kinetic energy of 230 trillion tons
+    of TNT.'
+  quantities:
+  - диаметры 2,7–50 км
+  - массы от 3 тыс. т до 1,3 трлн т
+  - 230 трлн т тротила
+  - полость ~1 км
+  equations: []
+  materials: []
+  geometry:
+  - diameters 2.7-50 km
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - conclusions
+  - estimates
+  notes: ''
+  relations: []
+- id: SC-BR01-029
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 96
+  quote_ru: Поскольку исследованное явление коллективное, то такие объекты не могут возникать по одиночке.
+  statement_en: 'The author asserts that gravitational clusters, being a collective phenomenon, cannot
+    arise singly: like Shoulders charge clusters they appear as a chain of similar objects of diverse
+    masses during explosive catastrophes in space — the proposed answer to observed properties 3 and 5
+    of the Tunguska phenomenon (several objects may have fallen); these objects are invisible (emit and
+    reflect practically nothing), making a space watch service problematic.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-clusters
+  - charge-clusters
+  - shoulders
+  - chain-formation
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR01-030
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 88
+  quote_ru: На месте катастрофы побывали десятки экспедиций.
+  statement_en: The author states that dozens of expeditions visited the Tunguska catastrophe site over
+    the hundred years since the fall, more than a hundred scientific hypotheses of its origin have been
+    proposed, and the mainstream of physicists and astronomers holds it was the collision of a small comet
+    with Earth; comet nuclei are small icy bodies becoming visible only within 4-5 AU of the Sun, with
+    diameters 0.5-50 km and, at ice density 800 kg/m3, masses from 5e7 to 5e13 tons.
+  quantities:
+  - сотня гипотез
+  - диаметр ядер 0,5–50 км
+  - массы 5·107–5·1013 т
+  - плотность льда 800 кг/м3
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - hypotheses
+  - comets
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

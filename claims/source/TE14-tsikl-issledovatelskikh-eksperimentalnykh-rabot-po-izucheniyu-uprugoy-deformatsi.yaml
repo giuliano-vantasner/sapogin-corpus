@@ -1,0 +1,18 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE14
+  section: teaching
+  title_ru: Цикл исследовательских экспериментальных работ по изучению упругой деформации пружины
+  title_en: A cycle of research experimental works on elastic deformation of a spring
+  file: papers/teaching/tsikl-issledovatelskikh-eksperimentalnykh-rabot-po-izucheniyu-uprugoy-deformatsi.pdf
+  source_url: http://146.190.233.254/docs/teaching/Цикл исследовательских экспериментальных работ по изучению
+    упругой деформации пружины.pdf
+  md5: afb736e200d4df35d647b6ff024eec81
+  pages_total: 10
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

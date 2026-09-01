@@ -1,0 +1,781 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI02
+  section: site
+  title_ru: Избранные Научные Статьи
+  title_en: Selected Scientific Articles
+  file: site/articles.md
+  source_url: https://sapogin.com/articles
+  md5: c81e99b66c03fb66493d924b5b93c431
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI02-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Спектр масс полых сверхмассивных чёрных дыр с высокой температурой
+  quote_ru: Фундаментальный закон сохранения полного давления, существующий в системе с плоской симметрией, формирует полевые граничные условия. Они заключаются в наличии эквипотенциальной поверхности,
+    в которой давление самосогласованного поля обращается в нуль, а потенциал минимален.
+  statement_en: 'Sapogin asserts the fundamental conservation law of total pressure in a flat-symmetry system forms field boundary conditions: an equipotential surface where the self-consistent field pressure
+    vanishes and the potential is minimal.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  - total-pressure-integral
+  notes: ''
+  relations: []
+- id: SC-SI02-002
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Спектр масс полых сверхмассивных чёрных дыр с высокой температурой
+  quote_ru: В сферической симметрии найдены два класса аналитических решений, описывающих распределения физических параметров в системах с потенциальной ямой и потенциальной щелью.
+  statement_en: Sapogin asserts two classes of analytic solutions were found in spherical symmetry, describing parameter distributions in systems with a potential well and a potential slit.
+  quantities:
+  - 2 classes of analytic solutions
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden-equation
+  - analytic-solutions
+  notes: ''
+  relations: []
+- id: SC-SI02-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Спектр масс полых сверхмассивных чёрных дыр с высокой температурой
+  quote_ru: Вычисления указывают на возможность существования полых скоплений высокотемпературных нейтронов, спектр масс которых для температур от 10^(11) до 10^(12) К попадает в диапазон масс объектов,
+    обнаруженных в центрах галактик и названных «сверхмассивными чёрными дырами».
+  statement_en: Sapogin asserts computations point to possible hollow clusters of high-temperature neutrons whose mass spectrum, for temperatures 10^11–10^12 K, falls in the mass range of the objects found
+    in galactic centres and called supermassive black holes.
+  quantities:
+  - temperature 1e11..1e12 K
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - black-holes
+  - neutron-clusters
+  - astrophysics
+  notes: ''
+  relations: []
+- id: SC-SI02-004
+  type: physics
+  facet: theory
+  priority: core
+  page: § Электрическая неустойчивость однородной плазмы к формированию нестационарных электронных кластеров
+  quote_ru: Рассчитано распределение коллективного статического поля в плазме. Получены решения для ограниченного в пространстве электронного кластера в дырочной плазме.
+  statement_en: Sapogin asserts the collective static field distribution in plasma was calculated and solutions obtained for a spatially bounded electron cluster in hole plasma.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-cluster
+  - evo
+  - plasma
+  - pustovoit
+  notes: ''
+  relations: []
+- id: SC-SI02-005
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Электрическая неустойчивость однородной плазмы к формированию нестационарных электронных кластеров
+  quote_ru: Исследована электрическая неустойчивость электронного кластера в дырочной плазме, которая возникает на быстрых встречных волнах. Неустойчивость описывает процесс синтеза/распада электронного
+    кластера. В зависимости от параметров коллективного электрического поля неустойчивость может быть «взрывной» и происходить за микросекунды.
+  statement_en: Sapogin asserts the electrical instability of an electron cluster in hole plasma arises on fast counter-propagating waves, describes the synthesis/decay of the cluster, and can be 'explosive',
+    proceeding within microseconds depending on collective-field parameters.
+  quantities:
+  - 'explosive timescale: microseconds'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - instability
+  - evo
+  - synthesis-decay
+  notes: ''
+  relations: []
+- id: SC-SI02-006
+  type: physics
+  facet: theory
+  priority: core
+  page: § Электрическая неустойчивость однородной плазмы к формированию нестационарных электронных кластеров
+  quote_ru: Четвёртый класс электронов перемещается против напряжённости поля. Их движение обеспечивает градиент давления коллективного поля, действующий на массовую плотность электронов. В этих областях
+    плазмы градиент давления оказывается больше силы Бернулли.
+  statement_en: Sapogin asserts the fourth class of electrons moves against the field strength; their motion sustains the collective-field pressure gradient acting on the electron mass density, and in these
+    plasma regions the pressure gradient exceeds the Bernoulli force.
+  quantities:
+  - 4 electron classes
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-classes
+  - pressure-gradient
+  - evo
+  notes: Full model divides all system electrons into 4 classes (first anchored at origin, second turning point, third outward, fourth inward).
+  relations: []
+- id: SC-SI02-007
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Электрическая неустойчивость однородной плазмы к формированию нестационарных электронных кластеров
+  quote_ru: В третий момент электрическая неустойчивость заканчивается, и электронный кластер исчезает, оставляя после себя область положительного заряда.
+  statement_en: Sapogin asserts that at the third выделенный moment the electrical instability ends and the electron cluster disappears, leaving behind a region of positive charge.
+  quantities:
+  - 3 characteristic moments of the instability
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-decay
+  - evo
+  notes: Source word 'третий момент' refers to the third of three выделенные time moments; quote verbatim including 'третий'.
+  relations: []
+- id: SC-SI02-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Биволновая природа принципа наименьшего действия релятивистской частицы-заряда
+  quote_ru: Интеграл содержит в себе две плоские волны действия, связанные с движущейся частицей-зарядом. Одна из них совпадает с де Бройлевской волной (временная волна действия), имеющей фазовую скорость
+    больше скорости света. Другая плоская волна (координатная волна действия) движется с фазовой скоростью меньше скорости света. Длина её волны зависит от скорости и при малых скоростях движения совпадает
+    с комптоновской длиной волны.
+  statement_en: 'Sapogin asserts the action integral contains two plane action waves bound to the moving charge particle: one coinciding with the de Broglie wave (temporal action wave) with phase velocity
+    above light speed, the other (coordinate action wave) moving below light speed, its wavelength speed-dependent and coinciding with the Compton wavelength at low speeds.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - biwave
+  - de-broglie
+  - compton-wavelength
+  - least-action
+  notes: ''
+  relations: []
+- id: SC-SI02-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Биволновая природа принципа наименьшего действия релятивистской частицы-заряда
+  quote_ru: Участок струны имеет пространственный масштаб, который ограничен комптоновской длиной волны, зависящей от скорости, и временной масштаб, который также зависит от скорости движения частицы-заряда.
+  statement_en: Sapogin asserts the 'trembling string' segment representing the resting charge in action space has a spatial scale bounded by the speed-dependent Compton wavelength and a temporal scale
+    likewise speed-dependent.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - trembling-string
+  - compton-wavelength
+  notes: ''
+  relations: []
+- id: SC-SI02-010
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: § Биволновая природа принципа наименьшего действия релятивистской частицы-заряда
+  quote_ru: В момент освобождения нейтрона из ядра электрон прижимается к протону силой около 300 Н. И кажется, что электрон никогда не сможет выбраться из потенциальной ямы глубиной 1,44 Мэв. Освобождает
+    электрон непрерывное дрожание его струны, которое приводит к осцилляции его заряда.
+  statement_en: Sapogin asserts that at the moment a neutron is freed from a nucleus the electron is pressed to the proton by a force of about 300 N and seems unable to escape a 1.44 MeV potential well;
+    what frees it is the continuous trembling of its string, which produces charge oscillation.
+  quantities:
+  - electron-proton force ~ 300 N
+  - potential well depth 1.44 Мэв (MeV, source spelling 'Мэв')
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - neutron-decay
+  - charge-oscillation
+  - beta-decay
+  notes: ''
+  relations: []
+- id: SC-SI02-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Биволновая природа принципа наименьшего действия релятивистской частицы-заряда
+  quote_ru: Анализ позволяет построить полный интеграл уравнения Гамильтона-Якоби, который представляет собой малое локализованное возбуждение функции действия, обнаруженное ранее Г.Сивашинским.
+  statement_en: Sapogin asserts the analysis constructs the complete integral of the Hamilton–Jacobi equation as a small localized excitation of the action function, earlier found by G. Sivashinsky.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamilton-jacobi
+  - sivashinsky
+  notes: ''
+  relations: []
+- id: SC-SI02-012
+  type: physics
+  facet: theory
+  priority: core
+  page: § Физические Свойства Плоского Варикапа С Электронным Кластером
+  quote_ru: Рассмотрен случай электризации кластера электронов, в котором напряжённость поля отклика, создаваемая электронами, больше, чем напряжённость внешнего поля.
+  statement_en: Sapogin considers the case of electron-cluster charging in which the response field strength created by the electrons exceeds the external field strength.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - electron-cluster
+  - evo
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI02-013
+  type: physics
+  facet: theory
+  priority: core
+  page: § Физические Свойства Плоского Варикапа С Электронным Кластером
+  quote_ru: Он показывает во сколько раз ёмкость варикапа с кластером электронов больше, чем ёмкость того же варикапа без кластера. Получено соотношение для электроёмкости с кластером электронов. Оценены
+    физические параметры работы варикапа. Оценки по порядку величин совпадают с результатами известных экспериментальных исследований.
+  statement_en: Sapogin asserts the introduced electrization parameter shows how many times the capacitance of a varicap with an electron cluster exceeds that of the same varicap without the cluster; a
+    capacitance relation was obtained and parameter estimates agree in order of magnitude with known experimental studies.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - capacitance
+  - evo
+  - electrical-path
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI02-014
+  type: physics
+  facet: theory
+  priority: core
+  page: § Токовихревая планарная интегральная индуктивность цилиндрической проводящей плёнки (обзор)
+  quote_ru: Из неё следует, что динамическая индуктивность обращаетсянуль для двух характеристических частот системы и имеет положительные и отрицательные значения.
+  statement_en: Sapogin asserts the dynamic (frequency-dependent) inductance vanishes at two characteristic frequencies of the system and takes both positive and negative values.
+  quantities:
+  - 2 characteristic zero-inductance frequencies
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - eddy-current-inductance
+  - negative-inductance
+  - electrical-path
+  notes: Source typo 'обращаетсянуль' (missing space) preserved verbatim.
+  relations: []
+- id: SC-SI02-015
+  type: physics
+  facet: process
+  priority: core
+  page: § Токовихревая планарная интегральная индуктивность цилиндрической проводящей плёнки (обзор)
+  quote_ru: Исследуется наноразмерный эффект, возникающийпланарной индуктивности с перспективной технологией «проводящая плёнка внутри токового кольца».
+  statement_en: Sapogin investigates a nanoscale effect arising in a planar inductance with the prospective technology 'conducting film inside the current ring'.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - conducting film inside a current ring
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nanoscale-effect
+  - planar-inductance
+  - electrical-path
+  - geometry
+  notes: Source typo 'возникающийпланарной' (missing space) preserved verbatim.
+  relations: []
+- id: SC-SI02-016
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Токовихревая планарная интегральная индуктивность цилиндрической проводящей плёнки (обзор)
+  quote_ru: Получены радиальные распределения азимутальной компоненты вектора напряженности вихревого электрического поля, плотности токов Фуко, удельной тепловой мощности, выделяемой в локальной области
+    проводящего цилиндра.
+  statement_en: Sapogin reports radial distributions obtained for the azimuthal component of the eddy electric field, the Foucault current density, and the specific thermal power released locally in a conducting
+    cylinder.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - eddy-currents
+  - radial-distributions
+  notes: ''
+  relations: []
+- id: SC-SI02-017
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Электрическая неустойчивость к формированию плоских электронных кластеров в двухкомпонентной плазме
+  quote_ru: группой Голубничего П.И. наблюдались долгоживущие светящиеся объекты (ДСО) миллиметровых радиусов в очищенной воде [1]
+  statement_en: Sapogin reports that Golubnichy's group observed long-lived glowing objects (DSO) of millimetre radii in purified water.
+  quantities:
+  - 'DSO radius: millimetres'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: DSO radius
+    value: millimetres
+    unit: m
+    conditions: purified water, powerful short electric pulses
+  schematic_refs: []
+  tags:
+  - dso
+  - plasmoid
+  - glubluchiy
+  - experiment
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI02-018
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Электрическая неустойчивость к формированию плоских электронных кластеров в двухкомпонентной плазме
+  quote_ru: Шабанов Г.Д. зафиксировал светящийся поверхностный разряд в водопроводной воде, формирующий разнообразные по форме светящиеся воздушные плёнки, имеющие сантиметровые размеры [2].
+  statement_en: Sapogin reports Shabanov G.D. recorded a glowing surface discharge in tap water forming glowing air films of varied shape with centimetre sizes.
+  quantities:
+  - 'air film size: centimetres'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: glowing air film size
+    value: centimetres
+    unit: m
+    conditions: surface discharge in tap water
+  schematic_refs: []
+  tags:
+  - shabanov
+  - plasmoid
+  - experiment
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI02-019
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Электрическая неустойчивость к формированию плоских электронных кластеров в двухкомпонентной плазме
+  quote_ru: Светящийся объект возникает как локализованное в пространстве образование очень быстро (по-видимому, микросекунды). В течение времени жизни объект высвечивает накопленную электрическую энергию
+    (миллисекунды и секунды) и исчезает.
+  statement_en: Sapogin asserts the glowing object arises as a spatially localized formation very fast (apparently microseconds), then radiates out its stored electrical energy over its lifetime (milliseconds
+    to seconds) and disappears.
+  quantities:
+  - formation time ~ microseconds
+  - 'energy release time: milliseconds to seconds'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasmoid
+  - lifetime
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI02-020
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Электрическая неустойчивость к формированию плоских электронных кластеров в двухкомпонентной плазме
+  quote_ru: 'Экспериментально выяснено, что он может пребывать в различных электрических состояниях: электронейтральном, положительно заряженном и отрицательно заряженном.'
+  statement_en: 'Sapogin asserts it was established experimentally that the glowing object can reside in different electrical states: electrically neutral, positively charged, and negatively charged.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-states
+  - plasmoid
+  - experiment
+  - evo
+  notes: Preceding sentence adds that researchers observe macroscopic charge separation inside the object.
+  relations: []
+- id: SC-SI02-021
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Протонные зарядовые кластеры ядерных размеров
+  quote_ru: Автономные скопления зарядов были обнаружены Шоулдерсом (США, Бодега, 1987) у поверхности острийного катода в вакууме, получили название “Electrum Validum” (EV) и были применены в технологии
+    обработки металлических поверхностей [1].
+  statement_en: Sapogin reports Shoulders (USA, Bodega, 1987) discovered autonomous charge clusters at the surface of a tip cathode in vacuum, named 'Electrum Validum' (EV), applied in metal-surface-processing
+    technology.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - ev
+  - charge-cluster
+  - evo
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI02-022
+  type: experimental
+  facet: measurement
+  priority: core
+  page: § Протонные зарядовые кластеры ядерных размеров
+  quote_ru: Скопления зарядов (зарядовые кластеры), наблюдаемые Шоулдерсом, имеют малые размеры (от долей до десятков микрометров), большой отрицательный заряд (от 10^(8) до 10^(11) электронов в скоплении)
+    и время высвечивания от 30 до 100 пс, которое превышает время возможного разлета зарядов за счёт кулоновского расталкивания.
+  statement_en: Sapogin reports Shoulders' charge clusters have small sizes (fractions to tens of micrometres), large negative charge (1e8 to 1e11 electrons per cluster), and glow-out times of 30–100 ps,
+    exceeding the possible charge-dispersal time under Coulomb repulsion.
+  quantities:
+  - 'cluster size: fractions..tens of micrometres'
+  - 'cluster charge: 1e8..1e11 electrons'
+  - 'glow-out time: 30..100 ps'
+  equations: []
+  materials: []
+  geometry:
+  - fractions to tens of micrometres
+  procedure_steps: []
+  measurements:
+  - quantity: cluster electron count
+    value: 1e8..1e11
+    unit: electrons
+    conditions: Shoulders observations
+  - quantity: glow-out time
+    value: 30..100
+    unit: ps
+    conditions: exceeds Coulomb dispersal time
+  schematic_refs: []
+  tags:
+  - shoulders
+  - charge-cluster
+  - evo
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-SI02-023
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Протонные зарядовые кластеры ядерных размеров
+  quote_ru: В эти же годы Флейшман и Понс зафиксировали избыточное тепло при электролизе тяжёлой воды. Объяснить причины выделения тепла в этих экспериментах можно было существованием нового класса ядерных
+    реакций, протекающих без появления нейтронов (явление было названо холодный ядерный синтез, ХЯС, [2]).
+  statement_en: Sapogin reports Fleischmann and Pons recorded excess heat in heavy-water electrolysis, explainable by a new class of nuclear reactions proceeding without neutron production (cold nuclear
+    fusion, CNF).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fleischmann-pons
+  - excess-heat
+  - cnf
+  - lenr
+  - transmutation
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI02-024
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Протонные зарядовые кластеры ядерных размеров
+  quote_ru: Позже, сразу несколькими исследователями, экспериментально были обнаружены так называемые низкоэнергетические ядерные реакции (low energy nuclear reactions, LENR), возникающие при протекании
+    тока в тлеющем разряде (см., например, [7]). Они проявили себя появлением в материале катода новых элементов.
+  statement_en: Sapogin reports several researchers experimentally discovered low-energy nuclear reactions (LENR) arising during current flow in a glow discharge, manifesting as new elements appearing in
+    the cathode material.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - lenr
+  - glow-discharge
+  - transmutation
+  - new-elements
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI02-025
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Протонные зарядовые кластеры ядерных размеров
+  quote_ru: Вместе с трансмутацией на электродах в электрическом разряде через водород или гелий было зарегистрировано спорадически возникающее аномальное выделение тепловой энергии, которое до сих пор
+    не имеет под собой никаких объяснений.
+  statement_en: Sapogin reports that alongside transmutation on electrodes in electric discharge through hydrogen or helium, sporadically arising anomalous thermal energy release was registered which still
+    has no explanation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - transmutation
+  - anomalous-heat
+  - discharge
+  - lenr
+  notes: ''
+  relations: []
+- id: SC-SI02-026
+  type: physics
+  facet: theory
+  priority: core
+  page: § Протонные зарядовые кластеры ядерных размеров
+  quote_ru: Автором в заметке выдвинута гипотеза о том, что возможными инициаторами LENR и ХЯС при электрическом разряде в водороде или гелии могут быть либо протонные зарядовые кластеры ядерных размеров,
+    либо зарядовые кластеры из электронов, в которых отсутствуют нейтроны.
+  statement_en: Sapogin hypothesizes that possible initiators of LENR and CNF in electric discharge through hydrogen or helium are either proton charge clusters of nuclear size or electron charge clusters
+    containing no neutrons.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - proton-clusters
+  - lenr
+  - cnf
+  - transmutation
+  - hypothesis
+  notes: KEY transmutation claim of the corpus (nuclear-size proton clusters).
+  relations: []
+- id: SC-SI02-027
+  type: physics
+  facet: theory
+  priority: core
+  page: § Протонные зарядовые кластеры ядерных размеров
+  quote_ru: Некоторые из ядерщиков считают, что избыточное тепло, возникающее при электролизе, можно объяснить реакциями холодного ядерного синтеза, которые были теоретически предсказаны в работах Алвареца
+    [3], Зельдовича и Сахарова [4-6].
+  statement_en: Sapogin reports some nuclear physicists hold that electrolytic excess heat can be explained by cold nuclear fusion reactions theoretically predicted in the works of Alvarez, Zeldovich and
+    Sakharov.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cnf
+  - alvarez
+  - zeldovich
+  - sakharov
+  - transmutation
+  notes: ''
+  relations: []
+- id: SC-SI02-028
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Об одном классе точных решений уравнения Эмдена
+  quote_ru: Предполагаются, что они описывают распределение потенциала в системе гравирующих частиц, удерживаемых градиентом давления самосогласованного поля, либо они описывают систему зарядов одного знака,
+    которая также удерживается в ограниченной области пространства самосогласованным полем.
+  statement_en: Sapogin asserts the exact Emden-equation solutions in flat and cylindrical symmetry are presumed to describe the potential distribution in a system of gravitating particles held by the self-consistent
+    field pressure gradient, or a system of like charges likewise confined by a self-consistent field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden-equation
+  - exact-solutions
+  notes: Source typo 'гравирующих' preserved verbatim.
+  relations: []
+- id: SC-SI02-029
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Об одном классе точных и приближённых решений Е − уравнения эмдена для потенциала
+  quote_ru: Показано, что корректный выбор граничных условий в уравнении для потенциала при решении сферической задачи самосогласованной теории гравитации не может быть произволен, а диктуется первым интегралом
+    полного давления, существующим в плоской системе. Полученное решение описывает распределение плотности вещества в астрофизических объектах.
+  statement_en: Sapogin asserts the correct choice of boundary conditions in the potential equation of the spherical self-consistent gravity problem is dictated by the first integral of total pressure existing
+    in the planar system, and the resulting solution describes matter density distribution in astrophysical objects.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  - total-pressure-integral
+  - astrophysics
+  notes: ''
+  relations: []
+- id: SC-SI02-030
+  type: physics
+  facet: theory
+  priority: core
+  page: § Токовая неустойчивость колебательного контура при гармонической модуляции реактивного параметра
+  quote_ru: Найдена физико-математическая модель, которая описывает периодическое изменение заряда в последовательном колебательном контуре без источника тока с механически изменяющейся по гармоническому
+    закону ёмкостью.
+  statement_en: Sapogin asserts a physico-mathematical model was found describing periodic charge change in a source-free series LC circuit with capacitance mechanically varied harmonically.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - parametric-circuit
+  - charge-accumulation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI02-031
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Токовая неустойчивость колебательного контура при гармонической модуляции реактивного параметра
+  quote_ru: в высокодобротном контуре может развиваться токовая неустойчивость. Она проявляет себя в том, что приводит к неограниченному росту колебаний заряда и тока ёмкости для определённых значений глубины
+    модуляции реактивного параметра.
+  statement_en: Sapogin asserts in a high-Q circuit a current instability can develop that leads to unlimited growth of charge and capacitor-current oscillations for certain modulation depths of the reactive
+    parameter.
+  quantities:
+  - '3 classes of periodic solutions (low-Q: damped; mid-Q: Mandelstam–Papaleksi beats; high-Q: instability)'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-instability
+  - parametric-resonance
+  - electrical-path
+  notes: Numerical modelling claim; preceding sentence names the three solution classes.
+  relations: []
+- id: SC-SI02-032
+  type: physics
+  facet: measurement
+  priority: core
+  page: § Токовая неустойчивость колебательного контура при гармонической модуляции реактивного параметра
+  quote_ru: Для глубины модуляции в 20% амплитуда заряда в контуре увеличивается в 6 раз на восьми периодах колебаний. Для глубины модуляции в 80% на том же количестве периодов амплитуда зарядов в контуре
+    возрастает более, чем в 10 000 раз.
+  statement_en: 'Sapogin reports numerical results: at 20% modulation depth the circuit charge amplitude grows 6-fold over eight oscillation periods; at 80% depth over the same periods it grows more than
+    10,000-fold.'
+  quantities:
+  - 20% modulation -> 6x charge amplitude in 8 periods
+  - 80% modulation -> >10,000x in 8 periods
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: charge amplitude growth
+    value: '6'
+    unit: x
+    conditions: 20% modulation depth, 8 periods
+  - quantity: charge amplitude growth
+    value: '>10000'
+    unit: x
+    conditions: 80% modulation depth, 8 periods
+  schematic_refs: []
+  tags:
+  - current-instability
+  - numerical-modelling
+  - over-unity-adjacent
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI02-033
+  type: physics
+  facet: process
+  priority: core
+  page: § Токовая неустойчивость колебательного контура при гармонической модуляции реактивного параметра
+  quote_ru: Токовая неустойчивость колебательного контура представляет интерес для создания широкого класса высокоэффективных электротехнических устройств накопления заряда, использующих механо- электрический
+    принцип.
+  statement_en: Sapogin asserts the circuit current instability is of interest for creating a wide class of highly efficient electrotechnical charge-accumulation devices using a mechano-electric principle.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-accumulation
+  - electrical-path
+  - application
+  notes: Source spacing 'механо- электрический' preserved verbatim.
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

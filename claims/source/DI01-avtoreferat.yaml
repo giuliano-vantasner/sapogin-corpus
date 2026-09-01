@@ -1,0 +1,779 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: DI01
+  section: dissertation
+  title_ru: Автореферат (Механизмы удержания вещества самосогласованным полем)
+  title_en: Author's abstract (Mechanisms of matter retention by a self-consistent field)
+  file: papers/dissertation/avtoreferat.pdf
+  source_url: http://146.190.233.254/docs/dissertation/Автореферат.pdf
+  md5: 49c978e4cac490c57dfbc8fdbaa6dde6
+  pages_total: 34
+  retrieved: '2026-08-31'
+claims:
+- id: SC-DI01-001
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: Скопления зарядов (СЗ) образуются в зазоре между катодом и ано- дом при создании сильного
+  statement_en: 'The dissertation abstract characterizes charge accumulations (CA): they form in the cathode-anode
+    gap under a strong field of 2 to 10 kV, have small sizes from fractions to tens of micrometers, a
+    large negative charge of 1e8 to 1e11 electrons, and a lifetime of 30 to 100 ps exceeding the possible
+    charge-dispersal time; sometimes the mean electron concentration exceeds the mean electron concentration
+    in metal by an order; at such concentrations, having no crystal lattice, the accumulations display
+    mechanical properties inherent to solids; in some cases inelastic collision with a metal surface leaves
+    a characteristic ring melted crater with a rim of unmelted material in the center; Russian researchers
+    found such accumulations in explosive thermoemission flows (ectons), and in the USA similar autonomous
+    accumulations on a tip cathode in vacuum were named Electrum Validum (EV) and applied in metal surface
+    processing.'
+  quantities:
+  - 2–10 кВ
+  - доли – десятки мкм
+  - 108–1011 электронов
+  - время жизни 30–100 пс
+  equations: []
+  materials: []
+  geometry:
+  - fractions to tens of micrometers
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1 (Кратер Шоулдерса)
+  tags:
+  - charge-clusters
+  - ev
+  - ecton
+  - shoulders
+  - parameters
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Под зарядовым кластером нами понимается динамическая система одноименных зарядов, удерживаемая
+    кратковременно
+  statement_en: The author defines a charge cluster as a dynamic system of like charges held briefly within
+    a bounded region of space by field-origin forces under the condition of zero mean current density
+    in any volume of the cluster; clusters not satisfying this condition are called current clusters and
+    are not considered; the work develops and generalizes gravitational-equilibrium methods of Lane, Ritter
+    and Emden to a gas of like charges, and shows star-matter retention is provided by an expelling hydrostatic
+    field-origin force tied to the field pressure gradient, equal to it in magnitude and direction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - definition
+  - charge-cluster
+  - emden
+  - hydrostatic-force
+  - theory
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Уравнение равновесия термоэлектронов, предложенное Ричардсо- ном, Шоттки и Лауэ примерно в
+    то же время
+  statement_en: The author states that the thermoelectron equilibrium equation of Richardson, Schottky
+    and Laue can be transformed into a charge-density equation differing from the Emden equation only
+    by the sign of the right-hand side (attraction replaced by like-charge repulsion); the image-charge
+    potential does not enter the equilibrium equation and does not influence its solutions, so the retention
+    condition and the nature of the forces holding the thermoelectron layer remained unexplained in that
+    approach; in 1948 Frenkel independently introduced the same field-calculation method for gravitating
+    systems and extended it to interacting like charges, calling the macroscopic fields self-consistent,
+    but his two conclusions (the gravitational equilibrium equation has no physically meaningful solutions;
+    the charge equilibrium equation only describes the static cloud distribution) proved premature and
+    the idea was not developed.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - history
+  - richardson
+  - laue
+  - frenkel
+  - emden
+  notes: ''
+  relations: []
+- id: SC-DI01-004
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: На основе трехмерного обобщения работ Лэна−Эмдена и Френкеля
+  statement_en: 'The base system of electric hydrostatics (CGS absolute units): rho*E + f = 0; div E =
+    4*pi*rho; E = -grad(phi); p = rho*k*T/q or p = K1*rho^(n+1); f = -grad(p); the compensating volume
+    force f = -rho*E = -E(div E)/4*pi = -G is created by the self-consistent field pressure gradient G
+    = E(div E)/4*pi, is opposite to it in direction, acts on the charge density like an ordinary pressure
+    gradient, and in static equilibria compensates the volume electric force rho*E; the retention condition
+    is G = grad(p): for any equation of state the system is in hydrostatic equilibrium when the equality
+    of field and charge pressure gradients holds in every elementary volume; the self-consistent electric
+    field retains a nonuniform system of like charges in a bounded region by forces of non-electromagnetic
+    origin, and the solutions admit spatially bounded hollow charge clusters with two atmosphere types
+    (outer with density growing along x, inner with density decreasing along x).'
+  quantities: []
+  equations:
+  - \rho E + f = 0
+  - \nabla\cdot E = 4\pi\rho
+  - f = -E(\nabla\cdot E)/4\pi = -G
+  - G = \nabla p
+  materials: []
+  geometry:
+  - two atmosphere types
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2 (две атмосферы)
+  tags:
+  - base-equations
+  - retention
+  - hollow-clusters
+  - theory
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-005
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: 1. Предложен метод решения задач равновесия динамической бес- столкновительной системы зарядов
+  statement_en: 'Scientific novelty item 1: a method is proposed for the equilibrium of a collisionless
+    dynamic charge system in two-flow or one-flow motion with a plane static self-consistent field, showing
+    the equilibrium distributions are determined both by the collisionless distribution function and by
+    the Hamiltonian function representing the total pressure of the system; distribution laws of velocities,
+    pressures, potential, field strength and charges are found for states with positive, zero and negative
+    total pressures; the physics of charge retention by the self-consistent field is substantiated; the
+    geometric length of the system is determined for nonnegative total pressure, the charge motion period
+    in the interaction space is computed, and in states with negative total pressure a charge self-acceleration
+    effect is discovered.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - novelty
+  - collisionless
+  - self-acceleration
+  - total-pressure
+  notes: ''
+  relations: []
+- id: SC-DI01-006
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: 4. Получены распределения физических величин равновесий зарядов с плоским полем для систем
+    с термодиффузией
+  statement_en: 'Scientific novelty items 2-4: for polytropic states the system distributions are determined
+    by the power-law distribution function and the total pressure, with spatial laws of potential, field
+    strength, temperature, volume retention forces, field and charge pressures, and the geometric length
+    of the bounded system depending on the state parameter and polytropic temperature; for constant temperature
+    the distributions are determined by the Boltzmann function and the total-pressure function, with the
+    retention mechanism substantiated and system sizes found for negative total pressure; for thermodiffusion
+    systems with distributed heat sinks the distributions depend on two integrals — the scalar total-pressure
+    integral and a vector integral representing the total field-strength vector of the system, composed
+    of the difference of the effective thermodiffusion field strength and the self-consistent field strength.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - novelty
+  - polytropic
+  - isothermal
+  - thermodiffusion
+  notes: ''
+  relations: []
+- id: SC-DI01-007
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: 5. Исследовано равновесие динамической системы зарядов с самосо- гласованным полем цилиндрической
+    симметрии
+  statement_en: 'Scientific novelty items 5-6: for cylindrical symmetry at isothermal equation of state
+    exact solutions are found for the distributions of potential, field strength, pressure and charge
+    density at high, characteristic and low temperature; the main equilibrium property is governed by
+    the state parameter (ratio of the characteristic temperature of the system to the absolute one) —
+    in a hot cluster charges fill the whole volume, in a cold one a cylindrical cavity with no charges
+    arises; in the spherical case the approximate solution shows the same state-parameter dependence with
+    a spherical cavity, the charges held near the system boundaries in deep potential wells, and the integral
+    parameters (charge count, self-consistent field energy, charge-field interaction energy) strongly
+    dependent on the relative-emptiness parameter of the interaction space.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - cylindrical and spherical cavities
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - novelty
+  - cylindrical
+  - spherical
+  - state-parameter
+  - cavity
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: 7. Предложена теория неупругого удара полого шарового зарядового кластера о плоскую поверхность.
+  statement_en: 'Scientific novelty item 7: a theory of inelastic impact of a hollow spherical charge
+    cluster on a plane surface is proposed; the surface-density distribution function of incident charges
+    is computed; depending on the critical surface charge density at which metal melting begins, three
+    kinds of impacts exist (large, medium, small energy release); comparison of the impact theory with
+    experiment gives estimated cluster charges before normal impact indicating good agreement between
+    theory and experiment.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - impact-theory
+  - crater
+  - three-impacts
+  - experiment-comparison
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: • предложить замену сбунчированных сгустков электронов на зарядовые
+  statement_en: 'The abstract lists practical uses of the retention theory: replacing bunched electron
+    bunches by charge clusters in straight-through microwave generators should raise the power of such
+    vacuum-electronics devices; studying the explosion of a non-radiated charge cluster with energy in
+    the range 1e10 to 1e15 eV may interest creators of ecologically clean engines; searching for experimental
+    methods of generating spherical clusters carrying a microcoulomb charge and of forming low-divergence
+    cylindrical charge flows with compensated Coulomb interaction, in which the beam diameter is inversely
+    proportional to the square root of the current density, is relevant for semiconductor and metal surface
+    processing, radiophysics, electronics and micro/nanoelectronics.'
+  quantities:
+  - энергию 1010–1015 эВ
+  - микрокулонный заряд
+  equations: []
+  materials: []
+  geometry:
+  - beam diameter inversely proportional to sqrt of current density
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - applications
+  - microwave
+  - clean-engines
+  - technology
+  notes: ''
+  relations: []
+- id: SC-DI01-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Приводится краткое содержание работы Лауэ, в которой исследовано равновесие термоэлектронов
+  statement_en: Chapter 1 reviews the static self-consistent field methods (Lane, Emden, Ritter), Laue's
+    work on thermoelectron equilibrium near electrodes of different geometry showing the Laue and Emden
+    density equations have identical structure differing only in the sign of the right-hand side, Vlasov's
+    general method of constructing self-consistent equilibria accounting for interactions of moving charged
+    particles, and Frenkel's independent introduction of the same field-calculation methods for gravitating
+    and like-charge systems (self-consistent fields); the review of modern charge- and current-cluster
+    works includes an estimate of the mean charge in an ecton matching the upper value of electrons recorded
+    in EV, indicating an ecton can be an EV source.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - review
+  - laue
+  - vlasov
+  - frenkel
+  - ecton
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 20
+  quote_ru: Численное моделирование позволяет сделать следующие выводы о свойствах равновесия динамической
+    системы зарядов с полем
+  statement_en: 'Numerical modeling of the thermodiffusion system at heat-sink efficiency coefficient
+    delta = 1/2 and state parameter beta = 1/2 shows: (1) the length of positive-total-pressure states
+    is bounded for the total field-strength parameter satisfying -infinity < alpha < 0.5, with decreasing
+    alpha increasing the temperature gradient at x=0 and thinning the charge layer; (2) at the system
+    boundary the absolute temperature and pressure vanish; (3) the concentration distribution has a sharp
+    boundary — for alpha = -0.25 and -0.5 it vanishes at the boundary, for alpha = -0.75 and -1.0 the
+    distribution law changes with unlimited concentration growth at the boundary (the growing temperature
+    gradient moves more charges to the outer boundary); (4) a heat flux exists whose density direction
+    depends on alpha (along x for -infinity < alpha < 0.5, against x for alpha > 0.75); (5) within -2
+    < alpha < 0.5 the system length with thermodiffusion increases 12-fold.'
+  quantities:
+  - δ = 1/2
+  - β = 1/2
+  - −∞ < α < 0,5
+  - длина растёт в 12 раз
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3 (распределения концентрации)
+  tags:
+  - thermodiffusion
+  - numerical
+  - alpha-parameter
+  notes: ''
+  relations: []
+- id: SC-DI01-012
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 20
+  quote_ru: Вычисления показывают, что она конечна только для состояний с положительным либо нулевым полными
+    давлениями.
+  statement_en: 'Physical realizability: the computed surface charge density of the plane systems is finite
+    only for states with positive or zero total pressures; for states with negative total pressure finite
+    values are realized only for a bounded interaction space.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - realizability
+  - surface-charge-density
+  notes: ''
+  relations: []
+- id: SC-DI01-013
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 21
+  quote_ru: 'Отмечены особенности решений: во всех случаях цилиндр нулевого давления поля делит всё пространство
+    взаимодействия кластера'
+  statement_en: 'Cylindrical-cluster exact solutions for three temperature cases share these features:
+    the zero-field-pressure cylinder divides the cluster interaction space into inner and outer atmospheres;
+    all solutions have two asymptotes (outer and inner) near which the potential has a logarithmic singularity;
+    the potential of the cylindrical cluster is negative everywhere for positive charges; the main part
+    of cluster charges is held by the field in potential wells on the axis or at the system boundaries;
+    the solutions satisfy the equality of field and charge pressure gradients in every elementary volume;
+    cold states differ principally — a cylindrical cavity with no charges arises and the accumulation
+    becomes tubular; the electric and magnetic field distributions in cylindrical beams are studied and
+    the diameters and currents of equilibrium beams with characteristic temperature are computed.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - zero-pressure cylinder
+  - two asymptotes
+  - tubular cold cluster
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cylindrical
+  - exact-solutions
+  - beams
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-014
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 22
+  quote_ru: В случае α2>>1 (холодный кластер зарядов) найдено приближенное решение уравнения (31)
+  statement_en: For the spherical cluster with alpha^2 >> 1 (cold cluster), the approximate solution of
+    the radial equilibrium equation for boundary conditions x=1, y(1)=0, y'(1)=0 (implying a zero-field-pressure
+    sphere) is q*phi/(2kT) = ln[(alpha*r/R)/sqrt(alpha^2-1) * sin(A)] with A = arcsin(sqrt(alpha^2-1)/alpha)
+    - ln(r/R)*sqrt(alpha^2-1); the self-consistent field potential of positive cluster charges is negative
+    in all space with a maximum on the zero-field-pressure sphere, which divides the space into inner
+    and outer atmospheres; the volume-force distributions computed from the solution show expanding forces
+    co-directed with E and the charge pressure gradient, compensated by forces created by the field pressure
+    gradient taken with opposite sign, so the main part of cluster charges is held near the system boundaries
+    in deep potential wells creating high-concentration layers able to mechanically destroy solid surfaces;
+    the zeros of the sine give asymptotes bounding the interaction space and indicating an internal cavity
+    with no charges; the layer thickness is d = r2 - r1 = pi*R/alpha = pi*k*T/(q*sqrt(2*pi*n0)); already
+    at state parameter alpha = 3.0 a cavity arises in the cluster.
+  quantities:
+  - α2 >> 1
+  - d = πR/α
+  - полость при α = 3,0
+  equations:
+  - q\varphi/(2kT) = \ln\left[\tfrac{\alpha r/R}{\sqrt{\alpha^2-1}}\sin A\right]
+  - d = \pi R/\alpha = \pi kT/(q\sqrt{2\pi n_0})
+  materials: []
+  geometry:
+  - zero-pressure sphere
+  - internal cavity
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4 (распределение концентрации сферического кластера)
+  tags:
+  - spherical
+  - cold-cluster
+  - asymptotes
+  - cavity
+  - core
+  notes: Formulas (34)-(35) reconstructed best-effort, OCR-degraded.
+  relations: []
+- id: SC-DI01-015
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 23
+  quote_ru: Приводятся интегральные параметры полого кластера.
+  statement_en: 'Integral parameters of the hollow cluster: the charge count is approximately N = (8*pi*R^4*rho0)/(q*alpha^2*x)
+    * (4*R^2*k*T)/(q^2*x) (contribution of singularities estimated), where x/R is the relative-emptiness
+    parameter of the interaction space; the self-consistent field energy in the cluster is Wf = N*k*T;
+    the charge-field interaction energy Wi = Wf*[1 + ln(alpha*x/R)] is always negative due to the smallness
+    of x/R.'
+  quantities:
+  - Wf = NkT
+  - Wi < 0
+  equations:
+  - W_f = NkT
+  - W_i = W_f\left[1+\ln(\alpha x/R)\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - integral-parameters
+  - emptiness
+  - derivation
+  notes: Formula (36) as printed contains an apparent typographic duplication; transcribed best-effort,
+    OCR-degraded.
+  relations: []
+- id: SC-DI01-016
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 24
+  quote_ru: Приводятся оценки физических параметров зарядового кластера, со- стоящего из электронов.
+  statement_en: 'Estimated parameters of an electron charge cluster with zero-field-pressure sphere radius
+    R = 15 um, T = 2e3 K, rho0 = 16 C/m3 and x/R = 1e-6: characteristic temperature T* = 2.4e6 K and alpha^2
+    = 1.2e3 (cold cluster); inner sphere radius r1 = 14.3 um, outer r2 = 15.7 um, layer thickness d =
+    1.4 um; charge count N = 7.1e9, total charge Q = 1.1e-9 C, cluster mass M = 6.5e-21 kg; charge-field
+    interaction energy Wi = -1.8e-9 J = -1.1e10 eV; mean charge concentration in the layer nl = 1.87e24
+    m-3; boundary parameters: concentration nb = 8.2e28 m-3 (one order with the mean electron concentration
+    of metal, giving the lattice-less system mechanical solidity), potential phi = -3.5 V, field strength
+    Ex = -2.3e10 V/m, field and charge pressure D = p = 2.3e9 Pa, pressure gradient dD/dx = dp/dx = -3e20
+    Pa/m, and the boundary-expanding force F = p*4*pi*R^2 = 6 N by order of magnitude.'
+  quantities:
+  - R = 15 мкм
+  - T = 2·103 К
+  - x/R = 10-6
+  - N = 7,1·109
+  - Q = 1,1·10-9 Кл
+  - M = 6,5·10-21 кг
+  - Wi = −1,8·10-9 Дж = −1,1·1010 эВ
+  - nl = 1,87·1024 м-3
+  - nb = 8,2·1028 м-3
+  - φ = −3,5 В
+  - Ex = −2,3·1010 В/м
+  - D = p = 2,3·109 Па
+  - F ≈ 6 Н
+  equations: []
+  materials:
+  - электроны
+  geometry:
+  - R = 15 um, layer thickness 1.4 um
+  procedure_steps: []
+  measurements:
+  - quantity: cluster charge
+    value: '1.1e-9'
+    unit: Кл
+    conditions: R=15 um, T=2e3 K, x/R=1e-6
+  schematic_refs: []
+  tags:
+  - cluster-parameters
+  - estimate
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-017
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 26
+  quote_ru: Для оценки нижнего диапазона количества электронов в кластере про- ведено сопоставление теории
+    и эксперимента
+  statement_en: 'Theory-experiment comparison at sigma_k = 0.6*sigma_n on the enlarged Shoulders crater
+    image: mean radii of the inner melt surface rho1 = 12.7 um and outer melt surface rho2 = 14.5 um,
+    melt thickness Delta = 1.80 um; taking eta = r1/r2 = rho1/rho2 = 0.876 gives A = sigma_k/sigma(0)
+    = 2.33, r1 = 13.3 um (inner asymptote), r2 = 15.2 um (outer asymptote), zero-pressure sphere radius
+    R = 14.2 um, layer thickness d = 1.90 um, state parameter alpha = pi*R/d = 23.5 (cold cluster, alpha^2
+    >> 1); at cluster temperature equal to the cathode temperature T = 2e3 K the characteristic temperature
+    T* = 1.1e6 K and concentration n0 = 5.2e19 m-3; the melt mass is 12e-13 kg (titanium density 4.5e3
+    kg/m3, equal depth and width, evaporated mass ignored) and the heating-melting energy is about 1.5e-6
+    J (cp = 603 J/(kg*K) over 250-1500 K, lambda = 3.1e5 J/kg); assuming 5 to 15% of the cluster kinetic
+    energy at 10 kV goes into heat release, the cluster contains from N1 = 6.2e9 to N2 = 1.9e10 electrons,
+    approaching the upper experimental bound, and the emptiness parameter lies in 3.4e-7 < x/R < 1.1e-6.'
+  quantities:
+  - ρ1 = 12,7 мкм
+  - ρ2 = 14,5 мкм
+  - Δ = 1,80 мкм
+  - η = 0,876
+  - R = 14,2 мкм
+  - α = 23,5
+  - T = 2·103 К
+  - T* = 1,1·106 К
+  - n0 = 5,2·1019 м-3
+  - масса проплава 12·10-13 кг
+  - Q ≈ 1,5·10-6 Дж
+  - N = 6,2·109–1,9·1010
+  - 3,4·10-7 < x/R < 1,1·10-6
+  equations: []
+  materials:
+  - титан
+  geometry:
+  - crater melt radii 12.7/14.5 um
+  procedure_steps: []
+  measurements:
+  - quantity: cluster electron count range
+    value: 6.2e9..1.9e10
+    unit: штук
+    conditions: 5-15% of kinetic energy at 10 kV converted to melt heating
+  - quantity: melt heating/melting energy
+    value: '1.5e-6'
+    unit: Дж
+    conditions: cp = 603 J/(kg*K), lambda = 3.1e5 J/kg
+  schematic_refs:
+  - Рис. 1 (Кратер Шоулдерса)
+  tags:
+  - experiment-comparison
+  - crater
+  - titanium
+  - electron-count
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 27
+  quote_ru: 1. Текстура кратера на рис. 1 образована падением шарового скопления зарядов со средним энерговыделением.
+  statement_en: 'From the theory-experiment comparison the author concludes: (1) the crater texture was
+    produced by the fall of a spherical charge accumulation with medium energy release; (2) the electrons
+    in the charge cluster occupy a thin layer adjacent to the zero-field-pressure sphere, so the cluster
+    resembles a micron-sized bubble; (3) the number of electrons held by the cluster field is finite,
+    justifying the interaction-space emptiness coefficient introduced in the theory, which removes the
+    divergences arising in computing the total charge of a cold spherical cluster and whose range is determined
+    from experiment.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - micron bubble
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - conclusions
+  - crater
+  - bubble
+  - emptiness
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-019
+  type: physics
+  facet: theory
+  priority: normal
+  page: 27
+  quote_ru: В главе 7 приводятся результаты исследования гидростатического рав- новесия динамических систем
+    гравитирующих частиц
+  statement_en: Chapter 7 studies hydrostatic equilibrium of gravitating-particle dynamic systems with
+    self-consistent fields of different symmetry for various equations of state; self-consistent fields
+    in gravitating systems show similar properties — macroscopic static self-consistent gravitational
+    fields compensate Newton-type forces with hydrostatic field-origin forces; this compensation indicates
+    a deep physical analogy in collectively interacting dynamic systems with back-action of the static
+    self-consistent field on the matter generating it; the laws of collective interaction of such systems
+    are similar but principally differ from the interaction laws between individual charges (or particles).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitation-analogy
+  - chapter-7
+  - compensation
+  notes: ''
+  relations: []
+- id: SC-DI01-020
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 27
+  quote_ru: 1. Получены количественные закономерности, которым подчиняются статические равновесия бесстолкновительной
+    динамической системы зарядов
+  statement_en: 'Main results 1-4: quantitative laws of static equilibria of a collisionless charge system
+    with plane self-consistent field show two-flow systems form a charge atmosphere holding most charges
+    near the return plane, while one-flow systems form an atmosphere with most charges near the zero-field-pressure
+    plane and the rest self-accelerating; for polytropic states the distribution laws of pressure, potential,
+    field strength and temperature show bounded system sizes for positive or zero total pressures depending
+    on state parameter and Emden temperature, with most charges concentrated near the zero-potential plane;
+    for uniform temperature the system length is bounded for negative total pressure and depends on the
+    state parameter, with charges held in deep potential wells at the boundary in bounded systems and
+    near the zero-potential plane in unbounded ones; for thermodiffusion systems the length in positive-total-pressure
+    states is bounded for -infinity < alpha < 0.5, the growing temperature gradient thins the charge layer,
+    and the charge atmosphere concentrates near the zero-potential plane at small gradients and at the
+    system boundary at large ones.'
+  quantities:
+  - −∞ < α < 0,5
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - main-results
+  - equilibria
+  - thermodiffusion
+  notes: ''
+  relations: []
+- id: SC-DI01-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 29
+  quote_ru: Предлагаемая последовательная теория скоплений одноименных заря- дов, кратковременно удерживаемых
+    в ограниченной области пространства,
+  statement_en: 'The defended theory rests on fundamental provisions: (1) there exists a class of collective
+    interaction between like charges in which the macroscopic self-consistent field acts back on the charges
+    generating it; (2) this back-action always creates a retaining volume density of hydro-aerostatic
+    field-origin forces tied to the self-consistent field pressure gradient, equal to it in magnitude
+    and opposite in direction; (3) the dynamic charge system is in hydrostatic equilibrium with its field
+    when the field and charge pressure gradients are equal in every elementary volume; (4) the equality
+    of pressure gradients in plane dynamic accumulations for any equation of state, and in collisionless
+    cases, yields a conservation law of the scalar total-pressure integral composed of the DIFFERENCE
+    of field and charge pressures playing the role of the interaction Hamiltonian; (5) the equilibrium
+    condition does not contradict Earnshaw''s theorem, which is formulated for a system of fixed charges
+    with only Coulomb forces and no volume hydrostatic field-origin forces.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - provisions
+  - defense
+  - total-pressure
+  - earnshaw
+  - core
+  notes: 'Note: for charges the total-pressure integral is the difference of pressures (vs the sum in
+    the gravitational case).'
+  relations: []
+- id: SC-DI01-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 29
+  quote_ru: Таким образом, можно утверждать, что в диссертации заложены основы теории аэрогидростатического
+    равновесия
+  statement_en: The dissertation lays the foundations of the theory of aero-hydrostatic equilibrium of
+    dynamic charge (particle) systems with a self-consistent field acting back on the charges (particles);
+    these foundations explain for the first time the experimental facts of short-lived accumulations of
+    like charges in vacuum, and the retention mechanisms found and studied allow scientific generalizations
+    contributing to fundamental radiophysics problems.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conclusion
+  - first-explanation
+  - short-lived-accumulations
+  - core
+  notes: ''
+  relations: []
+- id: SC-DI01-023
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: Структура и объем диссертации.
+  statement_en: 'Formal facts: the dissertation consists of an introduction, seven chapters (25 paragraphs)
+    and a conclusion; total volume 420 pages with 81 figures, 2 tables and 102 cited references; 24 publications
+    on the dissertation topic including 16 articles, one monograph and 7 theses of reports; the defense
+    took place on 25 September 2003 at Rostov State University (council D 212.208.10); the work was performed
+    at Taganrog Radio-Technical University under scientific consultant professor V.A. Malyshev.'
+  quantities:
+  - 420 страниц
+  - 81 рисунок
+  - 2 таблицы
+  - 102 ссылки
+  - 24 публикации (16 статей, 1 монография, 7 тезисов)
+  - защита 25.09.2003
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - formal-facts
+  - defense
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

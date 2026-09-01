@@ -1,0 +1,223 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI11
+  section: site
+  title_ru: Работы и Заметки
+  title_en: Works and Notes
+  file: site/works.md
+  source_url: https://sapogin.com/works
+  md5: d12a2aaad4819cf2c1ba767af02ec46d
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI11-001
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Вечный генератор энергии на графене профессора П.М.Тибадо
+  quote_ru: 'команда профессора P.M.Thibado обнаружила новое физическое явление: тепловое движение графена может генерировать в цепи флуктуационно-индукционный ток, который в дальнейшем можно использовать
+    в качестве вечного генератора электрической энергии.'
+  statement_en: 'Sapogin reports the Thibado team discovered a new physical phenomenon: the thermal motion of graphene can generate a fluctuation-induced current in a circuit usable as an eternal generator
+    of electric energy (Physical Review E, February 2020).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thibado
+  - graphene
+  - fluctuation-induced-current
+  - energy-harvesting
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI11-002
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Зарядовый кластер Кена Шоулдерса (физический аспект явления)
+  quote_ru: В заметке обсуждается физический аспект экспериментального открытия в 1987 году зарядового кластера Кена Шоулдерса и его влияние на процесс прорывного развития различных областей физических
+    знаний.
+  statement_en: Sapogin's note discusses the physical aspect of Ken Shoulders' 1987 experimental discovery of the charge cluster and its influence on breakthrough development of various fields of physical
+    knowledge (microscopic autoelectronic cathodes, new-generation charge stores).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - charge-cluster
+  - evo
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI11-003
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Зарядовый кластер Кена Шоулдерса (физический аспект явления)
+  quote_ru: Исследования нового класса кластерных реакций, возникающих при взаимодействии зарядовых кластеров с кристаллической решёткой металла;
+  statement_en: Sapogin lists research into a new class of cluster reactions arising when charge clusters interact with the crystal lattice of metal.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-reactions
+  - charge-cluster
+  - metal-lattice
+  - transmutation-adjacent
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI11-004
+  type: physics
+  facet: process
+  priority: core
+  page: § Физические основы продвижения технологии создания варикапа с электронным кластером
+  quote_ru: 1. Режим прямого преобразования тепловой энергии в электрическую энергию.
+  statement_en: 'Sapogin lists as mode 1 of the vacuum diode on charge-bubble structures (varicap with electron cluster on a tip cathode): direct conversion of thermal energy into electric energy.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - thermal-to-electric
+  - evo
+  - electrical-path
+  notes: 'Mode list continues: capacitive varicap, over-unity charge-discharge conversion, atmospheric spark gap, D-D-D structures, KODM capacitors.'
+  relations: []
+- id: SC-SI11-005
+  type: physics
+  facet: measurement
+  priority: core
+  page: § Физические основы продвижения технологии создания варикапа с электронным кластером
+  quote_ru: Режим работы в качестве ёмкостного варикапа, позволяющий изменять его вакуумную ёмкость от 10 3 до 10 6 раз.
+  statement_en: 'Sapogin lists as mode 2: operation as a capacitive varicap allowing its vacuum capacitance to be changed from 10^3 to 10^6 times.'
+  quantities:
+  - 'capacitance tuning range: 10^3..10^6 x (printed ''от 10 3 до 10 6 раз'')'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: vacuum capacitance change
+    value: 1e3..1e6
+    unit: x
+    conditions: varicap mode; source prints flattened superscripts
+  schematic_refs: []
+  tags:
+  - varicap
+  - capacitance
+  - evo
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI11-006
+  type: physics
+  facet: schematic
+  priority: core
+  page: § Физические основы продвижения технологии создания варикапа с электронным кластером
+  quote_ru: Создание конденсаторов с осциллирующим дипольным моментом (КОДМ). Они будут востребованы для создания технических устройств сверхединичного преобразования энергии на токе смещения Максвелла.
+  statement_en: Sapogin proposes creating capacitors with an oscillating dipole moment (KODM), to be in demand for over-unity energy conversion devices on the Maxwell displacement current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - kodm
+  - oscillating-dipole
+  - over-unity
+  - displacement-current
+  - schematic
+  notes: ''
+  relations: []
+- id: SC-SI11-007
+  type: physics
+  facet: theory
+  priority: core
+  page: § Физические свойства наноразмерных варикапов и их применение
+  quote_ru: В заметке обсуждается физический механизм формирования двойного электрического слоя в проводящей/полупроводящей плёнке с толщиной нанометры, на которую наложено внешнее статическое электрическое
+    поле.
+  statement_en: Sapogin's note discusses the physical mechanism of double-electric-layer formation in a conducting/semiconducting film of nanometre thickness under an applied external static electric field.
+  quantities:
+  - 'film thickness: nanometres'
+  equations: []
+  materials: []
+  geometry:
+  - conducting/semiconducting film, nanometre thickness
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - double-layer
+  - nanofilm
+  - varicap
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI11-008
+  type: physics
+  facet: theory
+  priority: core
+  page: § Панегирик Неисчерпаемому Персональному Накопителю Электрической Энергии
+  quote_ru: Предложена модель работы такого накопителя в виде закольцованной энергетической цепочки. Модель объясняет механизм генерации вращательной кинетической и электрической энергий, существующий в
+    Природе. Генерация избыточной энергии подтверждается многочисленными экспериментами последних лет.
+  statement_en: Sapogin proposes a model of the self-rotating energy store as a closed-loop energy chain, explaining the mechanism of rotational-kinetic and electric energy generation existing in Nature,
+    with surplus-energy generation confirmed by numerous recent experiments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - closed-loop-energy-chain
+  - over-unity
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI11-009
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: § Глобальное потепление и технология «Божественного Огня»
+  quote_ru: В заметке обращено внимание на существование экологически чистого источника переменного тока, который не нуждается в «затравочной энергии». Его работа не требует угля, нефти, газа, ядерного
+    топлива, электро-химических источников тока.
+  statement_en: Sapogin draws attention to an ecologically clean AC source needing no 'seed energy', whose operation requires no coal, oil, gas, nuclear fuel, or electrochemical cells (Baumann's 1970s Swiss
+    sources).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - clean-ac-source
+  - baumann
+  - over-unity
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

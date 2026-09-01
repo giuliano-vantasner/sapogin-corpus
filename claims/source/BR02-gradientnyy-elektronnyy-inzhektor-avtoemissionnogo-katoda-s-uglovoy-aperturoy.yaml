@@ -1,0 +1,1209 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: BR02
+  section: brochure
+  title_ru: Градиентный электронный инжектор автоэмиссионного катода с угловой апертурой
+  title_en: Gradient electron injector of a field-emission cathode with angular aperture
+  file: papers/brochure/gradientnyy-elektronnyy-inzhektor-avtoemissionnogo-katoda-s-uglovoy-aperturoy.pdf
+  source_url: http://146.190.233.254/docs/brochure/Градиентный электронный инжектор автоэмиссионного катода
+    с угловой апертурой.pdf
+  md5: 6fbf7ed2bbcd7baf66b1fd9a2fdd0b32
+  pages_total: 43
+  retrieved: '2026-08-31'
+claims:
+- id: SC-BR02-001
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 7
+  quote_ru: Приводимые выше, огромные значения напряжённости электрических полей уже не требуются. Они
+    уменьшились до значений от 20 до 70 В/мкм
+  statement_en: 'The authors report that the huge classical field strengths for autoemission are not required:
+    they dropped to 20-70 V/um (determined experimentally), and the current densities obtained in Shoulders
+    experiments lay in the range 10^4 to 10^8 A/cm2, so a 1 cm2 cathode would deliver a mean current of
+    a million amperes with no heating; one can draw from the fountain-like autoemission cathode as many
+    electrons as the external source supplies.'
+  quantities:
+  - E = 20–70 В/мкм
+  - j = 104–108 А/см2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: autoemission field strength
+    value: 20..70
+    unit: В/мкм
+    conditions: Shoulders experiments
+  - quantity: autoemission current density
+    value: 1e4..1e8
+    unit: А/см2
+    conditions: Shoulders experiments
+  schematic_refs: []
+  tags:
+  - shoulders
+  - autoemission
+  - current-density
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-002
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 7
+  quote_ru: В экспериментах Месяца к катоду быстро подводилась высокая концентрация тепловой энергии.
+  statement_en: 'The authors describe Mesyats group explosive thermoemission experiments: rapid supply
+    of a high concentration of thermal energy to the cathode causes explosions in small protrusion regions
+    ("ectons") that throw out avalanche-formed portions of electrons; in his dissertation the author calculated
+    the charge of one ejected portion from those data and found the electron counts fall in the range
+    Shoulders indicated for EV — evidence both groups encountered the same phenomenon of charge-cluster
+    formation near a metal surface.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - шероховатости катода в виде острийных образований
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ecton
+  - mesyats
+  - explosive-emission
+  - charge-clusters
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-003
+  type: physical
+  facet: schematic
+  priority: core
+  page: 6
+  quote_ru: А в триоде Шоулдерса (см. рис.1) расстояние между острийным катодом и управляющим электродом
+    было порядка микрометра.
+  statement_en: 'The authors analyze the Shoulders triode: the tip cathode to control-electrode distance
+    was of order a micrometer, making the external field strongly transversely inhomogeneous; the field
+    both thickens the electron "coat" and produces a volume force density (field-pressure gradient) pushing
+    the thin electron layer toward smaller collective-interaction forces; the control electrode plays
+    the key role (acting as the anode forming the electron injector), while the triode anode and screen
+    electrode are auxiliary and may be omitted — leaving a main accumulator forming a vacuum-capacitor-like
+    storage device.'
+  quantities:
+  - зазор ~1 мкм
+  equations: []
+  materials:
+  - острийный катод
+  - кольцо управляющего электрода
+  - экранирующий электрод
+  geometry:
+  - tip cathode to control electrode gap of order 1 micrometer
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1 (Триод Шоулдерса)
+  tags:
+  - shoulders
+  - triode
+  - injector
+  - schematic
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-004
+  type: physical
+  facet: material
+  priority: core
+  page: 8
+  quote_ru: Исследования показали, что наибольшее значение плотности автоэмиссионного тока достигается
+    в том случае, когда острие катода
+  statement_en: The authors report that the highest autoemission current density of the Spindt cathode
+    is achieved when the cathode tip is level with the molybdenum control-electrode diaphragm film, where
+    the field-pressure gradient in the gap is maximal, arising near the top of the tip.
+  quantities: []
+  equations: []
+  materials:
+  - молибденовый корпус
+  - изолирующий слой из двуокиси кремния
+  - молибденовая плёнка-диафрагма
+  - кремниевая подложка
+  geometry:
+  - tip level with control-electrode diaphragm plane
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2 (Катод Спиндта, items 1-4)
+  tags:
+  - spindt
+  - cathode
+  - geometry
+  - materials
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-005
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 8
+  quote_ru: Исследования показали, что наибольшее значение плотности
+  statement_en: 'The authors tabulate (Table 1) the Spindt cathode parameters: base area of tip cathode
+    Sk = 0.2 um2; tip curvature radius R = 50 nm; current-filament area S = 0.4 um2; nominal working current
+    I = 50-150 uA; current density J = 2-8 A/cm2 at nominal regime; pulling field E = 70-200 V/um; required
+    technical vacuum P = 1e-9 mm Hg; time to accumulate 1 C in a vacuum storage by one cathode at 100
+    uA = 2.8 h, by a 100-emitter matrix at 5 mA = 3.4 min; full emission area S_e = 0.0625 mm2; emitter
+    packing density 1600 per cm2 (100-emitter array) and 640,000 per cm2 (5000-emitter array).'
+  quantities:
+  - Sk = 0,2 мкм2
+  - R = 50 нм
+  - S = 0,4 мкм2
+  - I = 50–150 мкА
+  - J = 2–8 А/см2
+  - E = 70–200 В/мкм
+  - P = 10-9 мм.рт.ст
+  - 2,8 часа (1 Кл, 100 мкА)
+  - 3,4 минуты (1 Кл, 5 мА, 100 эмиттеров)
+  - Sэ = 0,0625 мм2
+  - 1600/см2
+  - 640 000/см2
+  equations: []
+  materials: []
+  geometry:
+  - tip radius 50 nm
+  procedure_steps: []
+  measurements:
+  - quantity: Spindt cathode working current
+    value: 50..150
+    unit: мкА
+    conditions: nominal regime
+  - quantity: current density
+    value: 2..8
+    unit: А/см2
+    conditions: nominal regime
+  - quantity: pulling field
+    value: 70..200
+    unit: В/мкм
+    conditions: nominal regime
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - spindt
+  - parameters
+  - table
+  - electrical-path
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-006
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 9
+  quote_ru: Кен Шоулдерс в своей монографии
+  statement_en: 'The authors assert that K. Shoulders, after leaving Stanford, discovered in the 1980s
+    on his tip cathodes a new physical object named Electrum Validum (EV) or charge cluster (ZK), and
+    that in his monograph he solved a set of experimental problems: ZK generation, measurement of their
+    physical and geometric parameters, orientation of their motion, separation from each other, and interaction
+    with metal surfaces and waves; he worked with uncoated metal tip cathodes.'
+  quantities:
+  - 1980-е годы
+  equations: []
+  materials:
+  - острийные металлические катоды без покрытия
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - ev
+  - charge-cluster
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-007
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 10
+  quote_ru: Поясню, не до конца понятые многими читателями, моменты в проведённых экспериментах Шоулдерса.
+  statement_en: 'The authors interpret Shoulders crater experiments: the ZK striking flat titanium at
+    an angle leaves a melt crater approximating a ring shape, indicating the cluster contains a charge-free
+    region like a soap bubble; at impact the charge-distribution function of the incident cluster transforms
+    into the distribution of excess-energy release density on the surface, so normal incidence gives a
+    circular melt region and oblique incidence an ellipse; in its usual state the charge cluster is a
+    spherical shell with a cavity — a bubble of electrons.'
+  quantities: []
+  equations: []
+  materials:
+  - титан
+  geometry:
+  - ring-shaped crater on flat surface
+  - spherical shell with cavity
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - structure
+  - crater
+  - titanium
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: элементарный объём зарядов любого знака в кластере удерживается двумя противоположно направленными
+    силами.
+  statement_en: 'The authors assert that an elementary volume of charges of either sign in a cluster is
+    held by two oppositely directed forces: the electric force directed along the field-strength vector
+    (for positive charges) acting on the charge density, and a Bernoulli-like gasostatic force directed
+    against the self-consistent field-pressure gradient acting on the mass density; these retention conditions
+    explain why Earnshaw''s theorem (formulated for point charges with dominant Coulomb interaction) does
+    not apply, and imply any extended like-charged bunch in an external field always feels two forces
+    — electric and gasostatic — whose directions depend on the field and gradient directions and on the
+    orientation of the bunch axis.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3 (объёмные силы, удерживающие слой зарядов)
+  tags:
+  - retention
+  - two-forces
+  - earnshaw
+  - charge-cluster
+  - theory
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-009
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 12
+  quote_ru: Несколько слов об электрогравитационных аппаратах Томаса Таунсенда Брауна.
+  statement_en: 'The authors discuss the Biefeld-Brown effect (1921): Coulomb attraction forces of two
+    or more bodies may be unequal, giving an asymmetric capacitor a net force directed from the negative
+    to the positive electrode that changes its weight depending on orientation at high voltage; Frolov''s
+    experiments showed the dielectric elasticity matters, which the authors explain by an additional field-pressure-gradient
+    force acting on the mass density of the dielectric.'
+  quantities:
+  - эффект открыт в 1921 году
+  equations: []
+  materials:
+  - асимметричный конденсатор с твёрдым диэлектриком
+  geometry:
+  - asymmetric capacitor
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - biefeld-brown
+  - asymmetric-capacitor
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-BR02-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: Такое же, двухсиловое, взаимодействие существует и при гравитационном взаимодействии протяжённых
+    тел.
+  statement_en: 'The authors extend the two-force interaction to gravitation: any extended volume of gravitating
+    masses in an external gravitational field feels the gravitational force and a gasostatic force tied
+    to the external field pressure gradient, both acting on mass density; on this assumption a self-consistent
+    theory of gravity (continuing Emden''s gas-sphere studies) is built, from which the Tunguska phenomenon
+    was a hollow loose cosmic snowball of nanoscale ice dust (minimal destruction in the epicenter, "mast
+    forest" per Kulik 1921 expedition, forest flattened over 30 km outside); Enceladus ice geysers are
+    proposed as the snowball source, and the two-force mechanism pumping work into elastic deformation
+    via Hooke''s law explains the geological activity of Saturn''s and Jupiter''s satellites and sustains
+    Earth''s tectonic activity.'
+  quantities:
+  - 30-км поваленный лес вне эпицентра
+  equations: []
+  materials:
+  - ледяные пылинки наноскопических размеров
+  geometry:
+  - hollow snowball
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-gravity
+  - tunguska
+  - enceladus
+  - geological-activity
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-BR02-011
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 14
+  quote_ru: Из изложенного выше ясно, что система зарядов и полей внутри зарядового кластера обладают
+    сильной неоднородностью.
+  statement_en: 'The authors assert that the charge and field system inside a charge cluster is strongly
+    inhomogeneous at its boundary: on the outer and inner surfaces of a spherical cluster the electron
+    concentration grows above the average concentration in a solid, which explains its unusual behavior
+    in solids — it can drill through the crystal lattice and absorb the formed gaseous substance; this
+    also explains why Shoulders had to frequently replace worn tip cathodes (clusters cut the conical
+    surface like a file), and warns that a ZK is dangerous to hold in HV-ceramic storage: at large stored
+    energies it can display ball-lightning properties, freely passing through glass obstacles.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - elevated surface electron concentration on outer and inner cluster surfaces
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-cluster
+  - surface-concentration
+  - drilling
+  - ball-lightning
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-012
+  type: physics
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: система плоских электродов не может быть использована в качестве конструкции инжектора электронов.
+  statement_en: 'The authors assert (conclusion 2) that a plane-electrode system cannot serve as an electron
+    injector: the field pressure is uniform, the pressure gradient is zero everywhere between the plates,
+    so it exerts no action on the electron coat, which collective forces hold at the cathode; a plane
+    capacitor field is also technically unrealizable — any plate skew produces a pressure gradient that
+    drives the electron coat across the field direction and discharges to the positive electrode over
+    the dielectric surface (high-voltage breakdown of plane capacitors).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4 (плоская геометрия электродов)
+  tags:
+  - plane-electrodes
+  - injector
+  - pressure-gradient
+  - theory
+  notes: ''
+  relations: []
+- id: SC-BR02-013
+  type: physics
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: ещё быстрее, чем давление поля, как 1/r3. Градиент давления направлен против оси r.
+  statement_en: 'The authors describe the cylindrical diode: the field strength E_r decreases as 1/r,
+    the field pressure D as 1/r2, and the pressure gradient G as 1/r3 directed against r; the force opposite
+    the gradient acts on the electron coat stretching it radially; both forces only slightly thicken the
+    coat and without cathode heating cannot fill the cathode-anode distance (indirect heating fills the
+    gap up to 5 mm).'
+  quantities:
+  - Er ~ 1/r
+  - D ~ 1/r2
+  - G ~ 1/r3
+  - заполнение промежутка до 5 мм при накале
+  equations: []
+  materials: []
+  geometry:
+  - cylindrical electrodes
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 5 (цилиндрическая геометрия электродов)
+  tags:
+  - cylindrical-symmetry
+  - scaling
+  - theory
+  notes: ''
+  relations: []
+- id: SC-BR02-014
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 17
+  quote_ru: Эта конфигурация должна давать самый большой накопленный заряд вблизи анода с керамикой.
+  statement_en: 'The authors describe the experimentally studied configuration based on the vacuum diode
+    1Ts21P with an additional anode insulated in ceramics: a strongly inhomogeneous field region arises
+    near the end of the axisymmetric cathode where a bundle of field lines enters perpendicular to the
+    cathode equipotential; the field-pressure gradient points along the axis toward the cathode, so the
+    force on the electron coat points to the anode and adds to the electric force — both throw electrons
+    to the anode, explaining the detected charge-accumulation effect (largest accumulated charge near
+    the ceramic-insulated anode).'
+  quantities: []
+  equations: []
+  materials:
+  - вакуумный диод 1Ц21П
+  - высоковольтная керамика
+  - дополнительный заизолированный анод
+  geometry:
+  - axisymmetric cathode end region
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 6 (конфигурация на основе 1Ц21П)
+  tags:
+  - 1ts21p
+  - experiment
+  - charge-accumulation
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-015
+  type: physics
+  facet: geometry
+  priority: core
+  page: 19
+  quote_ru: На рис. 8 представлен схематично инжектор с угловой апертурой в полярных координатах
+  statement_en: 'The proposed gradient electron injector with angular aperture: the cathode plate lies
+    in the plane phi = 0 and the anode plate is symmetrically rotated by the aperture angle theta; distances
+    from the z axis to the near parts of the plates are R1 and to the far parts R2; field lines are bounded
+    circle arcs; the potential depends only on the angle and the approximate Laplace solution phi = C1*phi_angle
+    + C2 gives a single field component E_phi decreasing as 1/r, with scales U* = U/theta, E* = U*/R1,
+    U = E*R1*theta, D* = eps0*E*^2/2, G* = eps0*E*^2/R1 = 2D*/R1; the force f opposite the gradient pulls
+    the electron coat toward increasing r where the drift space and electron accumulator should be placed.'
+  quantities:
+  - U* = U/θ
+  - E* = U*/R1
+  - D* = ε0E*²/2
+  - G* = ε0E*²/R1
+  - l1 = R1θ
+  - l2 = R2θ
+  equations:
+  - \varphi = C_1\phi + C_2
+  - E_\phi = U^*/r
+  - U = E^* R_1 \theta
+  - D^* = \varepsilon_0 E^{*2}/2
+  - G^* = \varepsilon_0 E^{*2}/R_1
+  materials: []
+  geometry:
+  - aperture angle theta
+  - inner radius R1
+  - outer radius R2
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 8 (градиентный инжектор с угловой апертурой)
+  tags:
+  - injector
+  - angular-aperture
+  - geometry
+  - scales
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-016
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 22
+  quote_ru: О двух режимах вывода зарядов из инжектора
+  statement_en: 'The authors derive two regimes of charge output from the aperture injector for a planar
+    bunch of thickness d, width H, length R2-R1, cross-section S = Hd: (1) accelerated motion of an incompressible
+    layer center of mass with scales a* = D*/(m*n0*R2), v* = E*sqrt(eps0/(m*n0)), tau* = 2*sqrt(m*n0/eps0)/E*,
+    current-density scale j* = e*E**sqrt(eps0*n0/m), ohmic resistance R* = (theta*R1/(e*d*H))*sqrt(m/(n0*eps0))
+    independent of voltage — a linear volt-ampere characteristic; (2) viscous motion with volume-reduced
+    viscosity mu giving stationary speed v_c = (D*/(mu*R2))*(1+R1/R2), current-density scale j* = e*n0*D*/(mu*R2),
+    resistance scale R* = 2*mu*R1*R2*theta/(e*eps0*n0*E**d*H) — a quadratic volt-ampere characteristic;
+    the regimes differ by hundreds of times, indicating the Shoulders triode and Spindt cathode operated
+    in different output regimes.'
+  quantities:
+  - a* = D*/(m·n0·R2)
+  - v* = E*·√(ε0/mn0)
+  - τ* = 2√(mn0/ε0)/E*
+  - j* = eE*√(ε0n0/m)
+  - 'режим 1: линейная ВАХ'
+  - 'режим 2: квадратичная ВАХ'
+  equations:
+  - a^* = D^*/(m n_0 R_2)
+  - v^* = E^*\sqrt{\varepsilon_0/(m n_0)}
+  - j^* = e E^* \sqrt{\varepsilon_0 n_0/m}
+  - v_c = f/\mu
+  materials: []
+  geometry:
+  - bunch thickness d, width H, length R2-R1
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 9 (планарный слой зарядов)
+  - Рис. 10 (две вольт-амперные характеристики)
+  tags:
+  - regimes
+  - derivation
+  - vac
+  - injector
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-017
+  type: physical
+  facet: process
+  priority: core
+  page: 26
+  quote_ru: Таким образом, на весь слой в начальный момент времени действует поле ускорений, которое уменьшается
+    обратно пропорционально кубу расстояния.
+  statement_en: 'The authors describe charge-cluster formation: the acceleration field over the electron
+    coat decreases as the inverse cube of distance, so elementary layers at different x gain different
+    accelerations and velocities; the layer compresses and mixes (similar to bunch self-compression in
+    klystrons), forming a spatially bounded charge cluster (ZK); under simplifying assumptions (a: edge-layer
+    accelerations constant; b: uniform concentration growth) the cluster-formation time is estimated as
+    t_3k = tau_3k*(1-R1/R2)/sqrt(1-R1^3/R2^3), and a density-transformation parameter beta = rho_k/rho_0
+    > 1 of the injector is introduced.'
+  quantities:
+  - поле ускорений ~ 1/r3
+  - β = ρk/ρ0 > 1
+  equations:
+  - t_{3k} = \tau_{3k}^*\,(1-R_1/R_2)/\sqrt{1-R_1^3/R_2^3}
+  - \beta = \rho_k/\rho_0 > 1
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 11 (увеличенный размер электронной шубы)
+  tags:
+  - cluster-formation
+  - compression
+  - bunching
+  - process
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-018
+  type: physical
+  facet: schematic
+  priority: core
+  page: 28
+  quote_ru: На рис. 12 представлена функциональная структура вакуумного накопителя зарядов с автоэлектронным
+    инжектором с угловой апертурой.
+  statement_en: 'The authors present the functional structure of a vacuum charge storage with an autoelectron
+    aperture injector: K cathode, UE control electrode, autoelectron injector (1), drift space (2), main
+    accumulator GN (3), region of accumulated charge clusters with charge Q (4), high-voltage ceramics
+    (5), storage anode (6); charges are supplied by equal high-voltage pulses on UE and K, torn from the
+    cathode by the injector field-pressure gradient, and cross the drift space; single clusters merge
+    in the accumulator held by the self-consistent field.'
+  quantities: []
+  equations: []
+  materials:
+  - высоковольтная керамика
+  geometry:
+  - functional blocks 1-6
+  procedure_steps:
+  - apply equal HV pulses to UE and K
+  - injector gradient tears the electron layer off the cathode
+  - clusters cross the drift space
+  - clusters merge in the main accumulator
+  measurements: []
+  schematic_refs:
+  - Рис. 12 (функциональная схема вакуумного накопителя)
+  tags:
+  - vacuum-capacitor
+  - storage
+  - schematic
+  - hdcc
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-019
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 28
+  quote_ru: Как показывают предварительные эксперименты, можно достигнуть увеличения ёмкости сферического
+    кластера, по сравнению с
+  statement_en: The authors report preliminary experiments showing the capacitance of a spherical cluster
+    can increase up to about 10^9 times relative to the UE-K interelectrode capacitance; the accumulated
+    charge Q forms a spherical charge cluster pressed by anode 6 against the HV ceramics; accumulation
+    stops when the accumulated clusters create at the Q-cluster surface a pressure gradient of the same
+    order as their own (necessary condition), supplemented by the sufficient condition of zero arrival
+    velocity of the incoming ZK; if a stopped cluster fails to merge, the central spherical structure
+    changes into a bubble structure of charge clusters of different sizes, detectable by the volume charge
+    density; the device belongs to the HDCC (High Density Charge Cluster) class discovered and patented
+    by Shoulders.
+  quantities:
+  - увеличение ёмкости до ~10^9 раз
+  equations: []
+  materials: []
+  geometry:
+  - spherical cluster pressed to HV ceramics
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - capacitance
+  - storage
+  - hdcc
+  - bubble-structure
+  - experiment
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-020
+  type: physical
+  facet: recipe
+  priority: core
+  page: 30
+  quote_ru: Полученные расчёты такого инжектора указывают на то, что можно получать инжекторы с большим
+    градиентом давления.
+  statement_en: 'The authors propose injector design variants: a modified planar injector with angular
+    aperture (calculations show large pressure gradients for aperture angles of order 0.1 radian and less);
+    an axisymmetric injector with angular aperture and tip cathode (theta -> 0 recovers the Shoulders
+    construction); an axisymmetric injector with a hollow channel along the cathode so charges gather
+    in an artificial crater and form a cluster sized by the outlet hole (changing the crater changes ZK
+    dimensions); and an axisymmetric conical injector with small aperture resistant to ZK-generation surface
+    wear, optionally with a hollow channel.'
+  quantities:
+  - апертурный угол ~0,1 рад и меньше
+  equations: []
+  materials: []
+  geometry:
+  - aperture 0.1 rad
+  - hollow channel crater sets cluster size
+  procedure_steps:
+  - choose aperture angle <= 0.1 rad for large pressure gradients
+  - use hollow channel to size the cluster by the outlet hole
+  - use conical small-aperture design for wear resistance
+  measurements: []
+  schematic_refs:
+  - Рис. 13
+  - Рис. 14
+  - Рис. 15 (конструкция Шоулдерса)
+  - Рис. 16
+  - Рис. 17
+  tags:
+  - injector
+  - design
+  - recipe
+  - geometry
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-021
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 32
+  quote_ru: 1. Характеристики электронного облака. Радиус R1=10 мм. Радиус R2=30
+  statement_en: 'The authors estimate cm-scale injector and storage parameters: R1 = 10 mm, R2 = 30 mm,
+    layer length R2-R1 = 20 mm, width H = 20 mm, thickness d = 10 um, cross-section S = Hd = 2e-7 m2,
+    layer volume V = 4e-9 m3; taking the cloud charge density equal to the mean EV density of Shoulders
+    (e = 4e5 C/m3) gives layer charge q = 1.6 mC (equal to a single cluster entering the drift space),
+    N = 1e16 electrons (five orders above EV), concentration n0 = 2.5e24 m-3, source cathode area 40 mm2;
+    three: aperture theta = 1 (57.3 deg) gives U* = U, E* = 2.5e6 V/m = 2.5 V/um (close to working Shoulders-Spindt
+    injectors), D* = 28 Pa, G* = 5.5 kPa/m; four: Nk = Q/q = 56,000 clusters to collect Q = 90 C.'
+  quantities:
+  - R1 = 10 мм
+  - R2 = 30 мм
+  - слой 20 мм x 20 мм x 10 мкм
+  - S = 2·10-7 м2
+  - V = 40·10-10 м3
+  - e = 4·105 Кл/м3
+  - q = 1,6 мКл
+  - N = 1016
+  - n0 = 2,5·1024 м-3
+  - площадь катода 40 мм2
+  - θ = 1 рад (57,3°)
+  - E* = 2,5 В/мкм
+  - D* = 28 Па
+  - G* = 5,5 кПа/м
+  - Nк = 56000 кластеров
+  equations: []
+  materials: []
+  geometry:
+  - R1=10 mm, R2=30 mm, layer 20x20 mm, 10 um thick
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - estimates
+  - injector
+  - storage
+  - parameters
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-022
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 32
+  quote_ru: 2. Электрические характеристики накопителя. По данным эксперимента в накопитель пришло
+  statement_en: 'The authors report the storage electrical characteristics from experiment: charge Q =
+    90 C arrived in the accumulator, storage potential U = 25 kV, electric capacitance C = 3.6 mF against
+    an initial capacitance of 3.0 pF.'
+  quantities:
+  - Q = 90 Кл
+  - U = 25 кВ
+  - C = 3,6 мФ
+  - начальная ёмкость 3,0 пФ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: accumulated charge
+    value: '90'
+    unit: Кл
+    conditions: 1Ts21P lamp storage experiment
+  - quantity: storage potential
+    value: '25'
+    unit: кВ
+    conditions: same experiment
+  - quantity: capacitance growth
+    value: 3.6 mF vs 3.0 pF initial
+    unit: Ф
+    conditions: same experiment
+  schematic_refs: []
+  tags:
+  - storage
+  - experiment
+  - capacitance
+  - 1ts21p
+  - electrical-path
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-023
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 32
+  quote_ru: РЕЖИМ РАБОТЫ ИНЖЕКТОРА №1. Ускоренное движение центра масс несжимаемого слоя зарядов.
+  statement_en: 'The authors compute injector regime 1 (accelerated incompressible layer): acceleration
+    scale a* = 4e8 m/s2, velocity scale v* = 5e3 m/s, exit-time scale tau* = 12e-6 s, beam current-density
+    scale j* = 2e9 A/m2 = 2e5 A/cm2 (three orders below the Shoulders triode ~1e8 A/cm2), beam-current
+    scale i* = 400 A, resistance scale R* = 63 Ohm; with supply pulses equal to the exit time followed
+    by equal pauses, the total time to carry 90 C into the main accumulator is 1.5 s.'
+  quantities:
+  - a* = 4·108 м/с2
+  - v* = 5·103 м/с
+  - τ* = 12·10-6 с
+  - j* = 2·105 А/см2
+  - i* = 400 А
+  - R* = 63 Ом
+  - 90 Кл за 1,5 с
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: charge transfer time (regime 1)
+    value: '1.5'
+    unit: с
+    conditions: pulse/pause scheme for 90 C
+  schematic_refs: []
+  tags:
+  - regime-1
+  - parameters
+  - estimates
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-024
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 33
+  quote_ru: РЕЖИМ РАБОТЫ ИНЖЕКТОРА №2. Вязкое движение центра масс несжимаемого слоя зарядов.
+  statement_en: 'The authors compute injector regime 2 (viscous motion) with volume-reduced viscosity
+    mu = 18.7 kg/(m3*s): velocity scale drops two orders to v* = 50 m/s, exit-time scale grows to T* =
+    6e-4 s, current-density scale j* = 2e7 A/m2 = 2e3 A/cm2, beam current falls 100-fold to i* = 4 A,
+    resistance scale grows 100-fold to R* = 6.3 kOhm; 90 C transfer takes 67.2 s; the cluster-formation
+    time from equation (43) is tau_3k = 4 us, three times less than the charge slide-off time.'
+  quantities:
+  - μ = 18,7 кг/(м3·с)
+  - v* = 50 м/с
+  - T* = 6·10-4 с
+  - j* = 2·103 А/см2
+  - i* = 4 А
+  - R* = 6,3 кОм
+  - 90 Кл за 67,2 с
+  - τ3k = 4 мкс
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: charge transfer time (regime 2)
+    value: '67.2'
+    unit: с
+    conditions: pulse/pause scheme for 90 C
+  - quantity: cluster formation time
+    value: '4'
+    unit: мкс
+    conditions: equation (43) estimate
+  schematic_refs: []
+  tags:
+  - regime-2
+  - parameters
+  - estimates
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-025
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 33
+  quote_ru: 10. Оценим радиус сферического зарядового кластера в главном накопителе из емкостных соображений.
+  statement_en: 'The authors estimate the spherical cluster radius in the main accumulator from capacitance:
+    generalizing C = 4*pi*beta*eps0*R with the dimensionless electrization coefficient beta = 1.2e9 obtained
+    from 1Ts21P-lamp experiments gives R = 2.7 cm (volume 82.5 cm3 versus the 24 cm3 lamp volume — a 3.4-fold
+    discrepancy explained by the cluster protruding from the glass bulb held by the external insulator);
+    the actual cluster charge density is 1.1 C/cm3, only 2.73 times the film density on the anode surface,
+    so the injector charge-density conversion coefficient beta should be 10 (better 100) times larger.'
+  quantities:
+  - β = 1,2·109
+  - R = 2,7 см
+  - объём 82,5 см3
+  - объём лампы 24 см3
+  - плотность 1,1 Кл/см3
+  - 2,73 раза
+  equations:
+  - C = 4\pi\beta\varepsilon_0 R
+  materials: []
+  geometry:
+  - cluster radius 2.7 cm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cluster-radius
+  - capacitance
+  - estimate
+  - 1ts21p
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-026
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 33
+  quote_ru: 12. Рассчитаем градиенты давления у поверхности заряженного сферического кластера из следующих
+    соображений.
+  statement_en: 'The authors compute pressure gradients at a charged spherical cluster surface: field
+    of an external observer E = kQ/r2, pressure D = D*(1+h/R)^-4 with D* = eps0*k^2*Q^2/(2R^4), gradient
+    scale G* = 2*eps0*k^2*Q^2/R^5; for the accumulated charge G* = 8e20 Pa/m; a ZK of charge q = 1.6e-3
+    C with the same pressure gradient has R_zk = 260 um and mean charge density 22 C/cm3 — leaving the
+    plates the cluster raises its mean density from 0.4 to 22 C/cm3, and entering the accumulator it acquires
+    1.1 C/cm3; this 20-fold decrease indicates formation of a bubble structure (bulb''s structure) of
+    ZK in the 1Ts21P main accumulator.'
+  quantities:
+  - G* = 8·1020 Па/м
+  - q = 1,6·10-3 Кл
+  - Rзк = 260 мкм
+  - 22 Кл/см3
+  - 0,4 Кл/см3
+  - 1,1 Кл/см3
+  - уменьшение в 20 раз
+  equations:
+  - E = kQ/r^2
+  - G^* = 2\varepsilon_0 k^2 Q^2/R^5
+  materials: []
+  geometry:
+  - cluster radius 260 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pressure-gradient
+  - cluster-density
+  - bubble-structure
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-027
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 34
+  quote_ru: Последние эксперименты по протеканию постоянного тока (1 А) в водородной плазме атмосферного
+    давления
+  statement_en: 'The authors report hydrogen-plasma experiments (Katorgin group, NPO Energomash, Khimki,
+    from 2005): DC current 1 A at atmospheric pressure with 30 kW electric-energy pump, hydrogen plasma
+    ignited between brass coaxial cylindrical electrodes about 12 cm apart; currents appeared as hundreds
+    of luminous filaments along the cylinder generatrix; at 1 A DC, microsecond chaotic current spikes
+    up to 60 A were registered, explaining the excess energy release (both thermal and electric); the
+    excess energy is supplied by charge clusters-plasmoids formed at electrode-plasma boundaries where
+    the field-strength jump occurs (metal-plasma conductivity transition).'
+  quantities:
+  - ток 1 А
+  - накачка 30 кВт
+  - электроды ~12 см
+  - выбросы до 60 А
+  equations: []
+  materials:
+  - латунные цилиндрические соосные электроды
+  - водородная плазма
+  geometry:
+  - coaxial brass cylinders ~12 cm apart
+  procedure_steps:
+  - ignite hydrogen plasma at atmospheric pressure between coaxial brass electrodes
+  - pump 30 kW of electric energy
+  - drive 1 A DC
+  measurements:
+  - quantity: chaotic current spikes
+    value: up to 60
+    unit: А
+    conditions: microsecond spikes on 1 A DC, atmospheric-pressure hydrogen plasma, 30 kW pump
+  schematic_refs: []
+  tags:
+  - hydrogen-plasma
+  - excess-energy
+  - plasmoids
+  - katorgin
+  - energomash
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-028
+  type: physical
+  facet: experiment
+  priority: core
+  page: 35
+  quote_ru: В наше время, одним из авторов
+  statement_en: The authors report that one of the authors of the hydrogen-plasma work built, on this
+    principle in a private laboratory, an over-unity heating device supplying thermal energy to a consumer
+    with a coefficient of 2, and on other gases registered excess electric energy exceeding by an order
+    of magnitude the energy input into the plasma volume; electrode geometry governs the efficiency of
+    this energy transformation.
+  quantities:
+  - коэффициент 2
+  - избыточная электрическая энергия на порядок выше вводимой
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - over-unity
+  - heater
+  - excess-energy
+  - debt-candidate
+  - core
+  notes: Over-unity claim flagged debt-candidate.
+  relations: []
+- id: SC-BR02-029
+  type: physical
+  facet: procedure
+  priority: core
+  page: 35
+  quote_ru: Для реализации такой кластерно-плазмоидной программы следует создать предложенные прототипы
+    в сантиметровых размерах пока из меди.
+  statement_en: 'The authors propose a cluster-plasmoid experimental program: fabricate the proposed injector
+    prototypes in centimeter sizes from copper; determine at which electrode geometries (tip, planar,
+    cylindrical) and distances breakdown occurs in air; connect electrodes to a 15 kW AC pump built on
+    toroidal coils; measure AC breakdown voltages versus distance and geometry; the known air breakdown
+    value 25 kV/cm comes from Paschen experiments (DC, flat cylindrical electrodes, atmospheric pressure,
+    20 C) and on AC for other geometries can be reduced by an order of magnitude.'
+  quantities:
+  - медь
+  - накачка 15 кВт
+  - 25 кВ/см (Пашен, постоянный ток)
+  - снижение на порядок на переменном токе
+  equations: []
+  materials:
+  - медные электроды
+  - тороидальные катушки
+  geometry:
+  - tip / planar / cylindrical geometries
+  procedure_steps:
+  - fabricate cm-scale copper prototypes
+  - vary electrode geometry and distance to find air breakdown
+  - drive with 15 kW AC toroidal-coil pump
+  - measure AC breakdown voltage vs distance and geometry
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - breakdown
+  - paschen
+  - ac
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-030
+  type: physics
+  facet: theory
+  priority: core
+  page: 35
+  quote_ru: Замечательным свойством исследуемых несимметричных инжекторов сантиметровых и миллиметровых
+    размеров является тот факт, что при
+  statement_en: 'The authors assert that asymmetric cm- and mm-scale injectors possess valve (rectifying)
+    properties at certain geometries: an applied alternating voltage tears the electron cushion off the
+    injector only during the negative half-wave on the cathode (forming the electron coat for 20 ms and
+    tearing it toward the target); during the positive half-wave the pressure gradient, which depends
+    only on the square of the field strength and cannot change direction, presses the electrons to their
+    electrode; nano-scale injectors lose the valve property since both electrodes sit permanently in a
+    polarity-independent conducting electron cloud; the property enables air storage capacitors and a
+    new class of powerful rectifying devices on vacuum triodes; the aperture injector itself lacks the
+    valve property — polarity swap ejects the coat in the other direction, usable for charging two accumulators
+    simultaneously.'
+  quantities:
+  - 20 мс (полуволна)
+  equations: []
+  materials: []
+  geometry:
+  - asymmetric injectors, cm-mm scale
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - valve-property
+  - rectifier
+  - injector
+  - theory
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-031
+  type: physics
+  facet: theory
+  priority: core
+  page: 39
+  quote_ru: Первая модель эмиссии электронов из металла была построена Фаулером и Нордгеймом в 1928 году.
+  statement_en: 'The authors critique the Fowler-Nordheim (1928) tunneling autoemission model J = A*F^2*exp(-B*phi^(3/2)/F):
+    its electrization model assumes each electron leaving the cathode is replaced by one from the current
+    source; in the authors'' alternative model the negative cathode collects an excess-charge atmosphere
+    at its surface whose thickness depends on applied voltage and electrode geometry, the atmosphere electrons
+    are unrelated to the free electrons of the metal, and free electrons of the cathode create no autoemission
+    current — emission arises only when a non-uniform field moves the excess-charge atmosphere.'
+  quantities: []
+  equations:
+  - J = A F^2 \exp(-B\varphi^{3/2}/F)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fowler-nordheim
+  - critique
+  - alternative-model
+  - emission
+  - core
+  notes: F-N formula as printed (OCR-degraded exponent), best-effort reconstruction.
+  relations: []
+- id: SC-BR02-032
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 41
+  quote_ru: Характерные масштабы полей, реализуемые в автоэмиссионном катоде с туннельным эффектом можно
+    найти в монографии
+  statement_en: 'The authors compare field scales: the tunneling model requires (3-5)e7 V/cm for current
+    density ~1e7 A/cm2 at work function 4.5 eV (monograph source), while their model at accelerated incompressible-layer
+    output gives E* = 2.5e6 V/m = 2.5e4 V/cm = 2.5 V/um with j* ~ 2e5 A/cm2 — three orders lower in field
+    and two orders lower in current density; Shoulders reported fields of 20-70 V/um and current densities
+    1e4-1e8 A/cm2, so their model field is an order below the lower bound while the current density falls
+    inside the range — a coincidence they deem not accidental.'
+  quantities:
+  - 'Ф-Н: (3÷5)·107 В/см, 107 А/см2, φ=4,5 эВ'
+  - 'модель: E* = 2,5 В/мкм, j* = 2·105 А/см2'
+  - 'Шоулдерс: 20–70 В/мкм, 104–108 А/см2'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - model-comparison
+  - field-scales
+  - shoulders
+  - core
+  notes: ''
+  relations: []
+- id: SC-BR02-033
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 4
+  quote_ru: Единственное, что нам было известно, так это то, что для проверки американской дезинформации
+    по созданию пучкового оружия военными был
+  statement_en: The authors recount (second-hand) that to verify American beam-weapon disinformation the
+    Moscow Radio-Technical Institute (MRTI) was created; an engineer there built a powerful electron gun
+    and attempted to output a high-current electron beam into the atmosphere — the exiting beam instantly
+    turned into a glowing centimeter-scale object resembling ball lightning, interpreted by the authors
+    as the beam forming centimeter charge clusters that rapidly released the accumulated beam energy;
+    the employee was dismissed.
+  quantities:
+  - сантиметровых размеров объект
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - beam-weapon
+  - ball-lightning
+  - charge-clusters
+  - secondhand
+  - debt-candidate
+  notes: Anecdotal second-hand account; flagged debt-candidate.
+  relations: []
+- id: SC-BR02-034
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 39
+  quote_ru: 25. Области применения разработанных электронных инжекторов нам видятся в вакуумных и воздушных
+    системах накопления заряда
+  statement_en: 'The authors list application areas of the developed injectors: vacuum and air charge-storage
+    systems; ZK and plasmoid generation systems for separate use in bombarding radioactive targets to
+    reduce their radioactivity or for target-surface treatment; non-lethal electric-impact weapon systems;
+    attempts at experimental reproduction of artificial ball lightning at accumulated charge levels of
+    1 to 100 C; and creation of a special plasma saturated with charge clusters and plasmoids — studies
+    of such atmospheric-pressure hydrogen plasma with 30 kW pump indicate the possibility of over-unity
+    power devices for both heat production and over-unity conversion of electric energy input into the
+    plasma.'
+  quantities:
+  - заряд 1–100 Кл
+  - 30 кВт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - applications
+  - radioactivity
+  - ball-lightning
+  - over-unity
+  - plasma
+  - core
+  - debt-candidate
+  notes: Radioactivity-reduction and over-unity claims flagged debt-candidate.
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

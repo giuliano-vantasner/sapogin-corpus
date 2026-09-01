@@ -1,0 +1,1813 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR05
+  section: articles
+  title_ru: Спектр масс полых сверхмассивных чёрных дыр с высокой температурой
+  title_en: Mass spectrum of hollow supermassive black holes with high temperature
+  file: papers/articles/spektr-mass-polykh-sverkhmassivnykh-chyornykh-dyr-s-vysokoy-temperaturoy.pdf
+  source_url: http://146.190.233.254/docs/articles/Спектр масс полых сверхмассивных чёрных дыр с высокой температурой.pdf
+  md5: 6877d03993fb0ace4e9fd9c1c8eba202
+  pages_total: 26
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR05-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Вычисления указывают на возможность существования полых скоплений высокотемпературных нейтронов, спектр
+    масс которых для температур от 1011 до 1012 К попадает в диапазон масс объектов, обнаруженных в центрах галактик
+    и названных «сверхмассивными чёрными дырами».
+  statement_en: The computations indicate the possibility of the existence of hollow clusters of high-temperature
+    neutrons whose mass spectrum, for temperatures from 10^11 to 10^12 K, falls into the mass range of the objects
+    discovered in galactic centers and named 'supermassive black holes'.
+  quantities:
+  - T = 1e11–1e12 K
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - neutron-clusters
+  - supermassive-black-holes
+  - mass-spectrum
+  - debt-candidate
+  notes: 'Central speculative claim: SMBHs identified with hollow self-consistent-field neutron clusters; superscripts
+    flattened (1011 = 10^11).'
+  relations: []
+- id: SC-AR05-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Фундаментальный закон сохранения полного давления, существующий в системе с плоской симметрией, формирует
+    полевые граничные условия. Они заключаются в наличии эквипотенциальной поверхности, в которой давление самосогласованного
+    поля обращается в нуль, а потенциал минимален.
+  statement_en: 'The fundamental law of conservation of full pressure, existing in a system with plane symmetry,
+    forms the field boundary conditions: they consist in the presence of an equipotential surface in which the self-consistent
+    field pressure vanishes and the potential is minimal.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  - full-pressure
+  - equipotential-surface
+  notes: ''
+  relations: []
+- id: SC-AR05-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: В сферической симметрии найдены два класса аналитических решений, описывающих распределения физических
+    параметров в системах с потенциальной ямой и потенциальной щелью.
+  statement_en: In spherical symmetry two classes of analytical solutions are found describing the distributions
+    of physical parameters in systems with a potential well and a potential gap.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - analytic-solutions
+  - potential-well
+  - potential-gap
+  notes: ''
+  relations: []
+- id: SC-AR05-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Решая задачу распределения вещества в сферическом скоплении, он пришёл к неожиданному выводу, что найденное
+    им точное решение приводит к результатам, лишённым физического смысла.
+  statement_en: Independently of Emden, Frenkel in 1948 introduced for constant-temperature systems an analogous
+    method of calculating the fields of gravitating particles and named the macroscopic static fields they create
+    self-consistent; solving the matter-distribution problem for a spherical cluster, he came to the unexpected
+    conclusion that the exact solution he found leads to results devoid of physical meaning.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frenkel
+  - history
+  - self-consistent-fields
+  notes: Quote is the last sentence of the passage; preceding sentences carry the Frenkel-1948 context on the same
+    page.
+  relations: []
+- id: SC-AR05-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: В заметке показано, что правильную физическую трактовку аналитических решений, существующих в сферической
+    симметрии, можно получить только после детального анализа условий и причин равновесия вещества с самосогласованным
+    полем в плоской симметрии.
+  statement_en: The correct physical interpretation of the analytical solutions existing in spherical symmetry can
+    be obtained only after a detailed analysis of the conditions and causes of the equilibrium of matter with the
+    self-consistent field in plane symmetry.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - methodology
+  - plane-symmetry
+  notes: ''
+  relations: []
+- id: SC-AR05-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: запишем трехмерные уравнения гравитационной газостатики, которые в современных обозначениях векторного
+    анализа имеют вид
+  statement_en: 'Generalizing the works of Lane and Emden and using Frenkel''s approach, the three-dimensional equations
+    of gravitational gasostatics are written as: ρg + f = 0 (2.1); div g = −4πGρ (2.2); g = −grad(φ) (2.3); p =
+    ρkT/m (2.4); f = −grad(p) (2.5), with ρ the mass density in an elementary volume, g the macroscopic collective
+    gravity field strength, p the gasokinetic pressure, T the absolute temperature, φ the self-consistent field
+    potential, G the gravitational constant, m the gravitating particle mass, k the Boltzmann constant, f the Bernoulli
+    force.'
+  quantities: []
+  equations:
+  - \rho\mathbf{g} + \mathbf{f} = 0
+  - \mathrm{div}\,\mathbf{g} = -4\pi G\rho
+  - \mathbf{g} = -\mathrm{grad}(\varphi)
+  - p = \rho kT/m
+  - \mathbf{f} = -\mathrm{grad}(p)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-gasostatics
+  notes: 'OCR-degraded: equation glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-007
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: связь напряженности с потенциалом (2.3) не применялась Эмденом при проведении исследования.
+  statement_en: The first equation of the system is the equilibrium condition of an elementary volume, the second
+    is the differential form of Newton's law, (2.3) relates potential to field strength, (2.4) is the uniform-temperature
+    equation of state, (2.5) defines the gasostatic Bernoulli force; notably, the relation (2.3) was not used by
+    Emden in his study.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-gasostatics
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR05-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Покажем, что полная система уравнений (2.1-2.5) отображает коллективное взаимодействие между гравитирующими
+    частицами, в котором проявляется обратное действие поля на частицы, порождающие это поле.
+  statement_en: The complete system of equations (2.1)-(2.5) displays a collective interaction between gravitating
+    particles in which the reverse action of the field on the particles generating this field manifests itself.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - collective-interaction
+  - self-consistent-field
+  notes: ''
+  relations: []
+- id: SC-AR05-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Она указывает на обратное действие поля на плотность распределения частиц.
+  statement_en: Any equilibrium of gravitating particles with uniform temperature is characterized by the scalar
+    integral (3.3), from which follows the exponential Boltzmann distribution function ρ = ρ₀ exp(−m(φ − φ₀)/kT)
+    (3.4); it indicates the reverse action of the field on the density distribution of the particles.
+  quantities: []
+  equations:
+  - \rho = \rho_0\,\exp(-m(\varphi-\varphi_0)/kT)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boltzmann-distribution
+  - reverse-action
+  notes: 'OCR-degraded: formula (3.4) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-010
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Уравнение (3.5) представляет собой трёхмерный полевой аналог уравнения, имеющего вид Е-уравнения Эмдена,
+    описывающего распределение макроскопического потенциала в динамических системах частиц с однородной температурой,
+    которые находятся в статическом равновесии с самосогласованным полем.
+  statement_en: Substituting (3.4) into (2.2) folds the system (2.1)-(2.5) into the single equation Δφ = 4πGρ₀ exp(−m(φ
+    − φ₀)/kT) (3.5), a three-dimensional field analog of the E-Emden equation describing the macroscopic potential
+    distribution in dynamical systems of particles with uniform temperature in static equilibrium with the self-consistent
+    field.
+  quantities: []
+  equations:
+  - \Delta\varphi = 4\pi G\rho_0\,\exp(-m(\varphi-\varphi_0)/kT)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - self-consistent-field
+  notes: ''
+  relations: []
+- id: SC-AR05-011
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Положительность правой части указывает на то, что система состоит из частиц с ньютоновским законом взаимодействия.
+    Уравнение (3.5) приводится Френкелем в [3].
+  statement_en: The positivity of the right-hand side of (3.5) indicates that the system consists of particles with
+    a Newtonian interaction law; equation (3.5) is given by Frenkel in [3].
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - newtonian-interaction
+  - frenkel
+  notes: ''
+  relations: []
+- id: SC-AR05-012
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'Уравнение (4.1) допускает понижение порядка. Оно имеет первый интеграл, соответствующий полному давлению
+    системы [4]:'
+  statement_en: 'For plane symmetry equation (3.5) takes the form φ″ = 4πGρ₀ exp(−m(φ − φ₀)/kT) (4.1), which admits
+    order reduction and has the first integral corresponding to the full pressure of the system: (φ′)²/8πG + p(φ)
+    = P = H(φ′, φ) = const (4.2), where p(φ) = p₀ exp(−m(φ − φ₀)/kT) is the pressure of the gravitating particles
+    in the plane with potential φ and p₀ = n₀kT is the gasokinetic pressure in the plane with potential φ₀.'
+  quantities: []
+  equations:
+  - \varphi'' = 4\pi G\rho_0\,\exp(-m(\varphi-\varphi_0)/kT)
+  - \frac{(\varphi')^2}{8\pi G} + p(\varphi) = P = H(\varphi',\varphi) = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - first-integral
+  - full-pressure
+  - plane-symmetry
+  notes: 'OCR-degraded: equations (4.1), (4.2) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-013
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Первое уравнение системы представляет собой условие равновесия элементарного объема системы гравитирующих
+    частиц. Второе  дифференциальная форма закона Ньютона
+  statement_en: The full pressure P in (4.2) consists of the pressure of the self-consistent field and the pressure
+    of the particles; the first integral (4.2) coincides with the Hamilton function H(φ′,φ) in which the canonically
+    conjugate quantities are the generalized momentum φ′/4πG and the generalized coordinate φ, with the coordinate
+    x playing the role of the generalized time.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamiltonian
+  - first-integral
+  notes: ''
+  relations: []
+- id: SC-AR05-014
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: 'она получает новое математическое определение: сила Бернулли совпадает по величине и направлению с
+    градиентом давления самосогласованного поля, компенсирует силы тяготения и обеспечивает класс равновесий частиц
+    с полем, которое они сами и создают.'
+  statement_en: 'The conservation law (4.2) means that in any plane of the system the pressure gradients of the
+    self-consistent field and of the particles are equal but have different directions; the Bernoulli force, opposite
+    to the particle pressure gradient, receives a new mathematical definition: it coincides in magnitude and direction
+    with the self-consistent field pressure gradient, compensates the gravity forces, and provides the class of
+    equilibria of the particles with the field which they themselves create.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bernoulli-force
+  - equilibrium
+  notes: ''
+  relations: []
+- id: SC-AR05-015
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: 'которой давление самосогласованного поля обращается в нуль, а потенциал минимален. В сферической симметрии
+    найдены два класса аналитических решений, описывающих распределения физических параметров в системах с потенциальной
+    ямой и потенциальной щелью. Вычисления указывают на возможность существования полых скоплений высокотемпературных
+    нейтронов, спектр масс которых для температур от 10 11 до 1012 К попадает в диапазон масс объектов, обнаруженных
+    в центрах галактик и названных «сверхмассивными чёрными дырами». Ключевые слова: газовый шар, полевые граничные
+    условия, гравитационный потенциал, закон сохранения полного давления, эквипотенциальная поверхность, сферическая
+    симметрия, аналитические решения, потенциальная яма, потенциальная щель, полые скопления высокотемпературных
+    нейтронов, центр галактики, сверхмассивные чёрные дыры, спектр масс. СПЕКТР МАСС ПОЛЫХ СВЕРХМАССИВНЫХ ЧЁРНЫХ
+    ДЫР С ВЫСОКОЙ ТЕМПЕРАТУРОЙ 1 В.Г. Сапогин, 2К.В.Сапогин 1 Российская Академия Естествознания, sapogin@mail.ru
+    2 Department of Astronomy, University of Minnesota, 116 Church Street SE, Minneapolis, MN 55455, USA, sapogin@msi.umn.edu
+    При интегрировании Е-уравнения Эмдена для плотности газового шара возникает математическая проблем'
+  statement_en: Substituting the mass density from (2.2) into (2.1) gives the connection of the Bernoulli force
+    with the pressure gradient of the self-consistent field f = ρg = (g div g)/4πG = G (4.3), which together with
+    (2.5) gives the physical condition of matter retention by the self-consistent field G + grad(p) = 0 (4.4); for
+    a one-component plane field gx = [gx(x),0,0] the equality (4.4) leads to the integral of full pressure (4.2).
+  quantities: []
+  equations:
+  - \mathbf{f} = \rho\mathbf{g} = \frac{\mathbf{g}\,\mathrm{div}\,\mathbf{g}}{4\pi G} = \mathbf{G}
+  - \mathbf{G} + \mathrm{grad}(p) = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-condition
+  - bernoulli-force
+  notes: 'OCR-degraded: equation (4.3) glyphs partially lost; reconstructed best-effort (sign convention follows
+    the gravitating-case derivation).'
+  relations: []
+- id: SC-AR05-016
+  type: physical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Равенство (4.4) указывает на неизвестное ранее свойство самосогласованного поля гравитации удерживать
+    неоднородную систему частиц в ограниченной области пространства статическими силами полевого происхождения.
+  statement_en: 'Equality (4.4) points to a previously unknown property of the self-consistent gravitational field:
+    to hold a heterogeneous system of particles in a bounded region of space by static forces of field origin; the
+    collective-interaction system is in static equilibrium with the field precisely when the sum of the pressure
+    gradients of field and particles equals zero in any elementary volume.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention
+  - non-standard-force
+  - debt-candidate
+  notes: Gravity version of the retention claim; suspect physics — flagged for debt clustering.
+  relations: []
+- id: SC-AR05-017
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: 'Как видно из (5.1), распределение потенциала по длине системы зависит от двух параметров: температуры
+    T и потенциала'
+  statement_en: Integrating (4.2) with the extremum of the potential placed at x = 0 (realized when P = p₀) gives
+    the potential distribution along the system φ = φ₀ + φ*·ln[ch(x/l)] (5.1) with spatial scale l = sqrt(kT/(2πGmρ₀))
+    = (1/m)·sqrt(kT/(2πn₀)) (5.2) and potential scale φ* = 2kT/m; the distribution depends on two parameters, T
+    and φ₀, and has the form of potential wells with infinite walls having minimum φ₀ at x = 0.
+  quantities:
+  - l = sqrt(kT/(2πGmρ0))
+  - φ* = 2kT/m
+  equations:
+  - \varphi = \varphi_0 + \varphi^*\ln\left[\mathrm{ch}\left(\frac{x}{l}\right)\right]
+  - l = \sqrt{kT/(2\pi G m\rho_0)}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - potential-distribution
+  - plane-symmetry
+  notes: 'OCR-degraded: equations (5.1), (5.2) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-018
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'где штрихи означают дифференцирование по координате x. Уравнение (4.1) допускает понижение порядка.
+    Оно имеет первый интеграл, соответствующий полному давлению системы [4]:  2  p(  )  P  H (   , )
+     const , (4.2) 8 где p(  )  p0 exp m(   0 ) / kT   давление гравитирующих частиц системы в плоскости
+    с потенциалом , а p0=n0kT  газокинетическое давление гравитирующих частиц системы в плоскости с потенциалом
+      0 .'
+  statement_en: 'The projection of the self-consistent gravity field strength is distributed along the system as
+    gx = −g₀·th(x/l) (5.3) with the strength scale g₀ = φ*/l = 2kT/ml: the field strength vanishes at the plane
+    x = 0 and tends to ±g₀ as x/l → ±∞; the system has no sharp boundaries, since density, concentration, and pressure
+    of the particles have a soliton distribution with maximum at the well bottom ρ/ρ₀ = n/n₀ = p/p₀ = ch⁻²(x/l)
+    (5.4); the field squeezes particles into the minimum of potential energy, and its strength remains homogeneous
+    where matter is absent.'
+  quantities:
+  - g0 = 2kT/(ml)
+  equations:
+  - g_x = -g_0\,\mathrm{th}(x/l)
+  - \frac{\rho}{\rho_0} = \frac{n}{n_0} = \frac{p}{p_0} = \mathrm{ch}^{-2}(x/l)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-distribution
+  - soliton-profile
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-019
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Из соотношений (5.5) и (5.4) видно, что сумма давлений частиц и поля системы в любой плоскости пространства
+    взаимодействия остается постоянной и равной полному давлению системы
+  statement_en: 'The field pressure distribution along the system follows from (5.3): D = (φ′)²/8πG = D₀·th²(x/l)
+    (5.5) with pressure scale D₀ = p₀ = g₀²/(8πG); from (5.5) and (5.4) the sum of the pressures of particles and
+    field in any plane remains constant, equal to the full pressure P = p₀, which is an integral of the system;
+    differentiation of (5.5) shows the field pressure gradient in any plane is opposite to the particle pressure
+    gradient from (5.4) and equal in modulus, dD/dx = −dp/dx = f₀·th(x/l)/ch²(x/l) (5.6), with f₀ = 2p₀/l the pressure-gradient
+    scale.'
+  quantities:
+  - D0 = p0 = g0^2/(8πG)
+  - f0 = 2p0/l
+  equations:
+  - D = D_0\,\mathrm{th}^2(x/l)
+  - P = p_0 = \mathrm{const}
+  - \frac{dD}{dx} = -\frac{dp}{dx} = f_0\,\frac{\mathrm{th}(x/l)}{\mathrm{ch}^2(x/l)}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-pressure
+  - full-pressure-integral
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-020
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Математические равенства (2.5) и (4.3) указывают на двоякую роль самосогласованного поля, формирующего
+    конфигурацию ловушки.
+  statement_en: 'The directions of the gradients clarify the directions of the volume forces holding the system
+    in equilibrium: gravity forces compressing the system are directed to the plane x = 0, while the expanding Bernoulli
+    forces are created by the self-consistent field pressure gradient; equalities (2.5) and (4.3) point to the double
+    role of the self-consistent field forming the trap configuration: on one hand the field creates in the matter
+    a pressure gradient aligned with its strength vector, and on the other hand the same field creates the static
+    force compensating that gradient.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - double-role
+  - trap-configuration
+  notes: ''
+  relations: []
+- id: SC-AR05-021
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: 'Полевые граничные условия, адекватные поставленной задаче, можно сформулировать так: в системе должна
+    существовать поверхность, на которой давление самосогласованного поля обращается в нуль, а потенциал  минимален.'
+  statement_en: 'The field boundary conditions adequate to the problem: the system must contain a surface on which
+    the self-consistent field pressure vanishes and the potential is minimal; in the plane case this surface lies
+    in the plane x = 0; in the spherical case the boundary conditions can be realized only at a finite distance
+    from the center of the system.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  notes: ''
+  relations: []
+- id: SC-AR05-022
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Параметр состояния системы α допускает двойную интерпретацию.
+  statement_en: 'In spherical symmetry, with the radial substitution y(x) = 2(φ − φ₀)/φ* and x = r/R (R the radius
+    of the sphere carrying the field boundary conditions), equation (6.1) becomes xy″ + 2y′ + α²x·exp(2y) = 0 (6.2)
+    with state parameter α² = 2πGm²n₀R²/kT = T*/T = R²/l² (6.3) and temperature scale T* = 2πGm²n₀R²/k (6.4); the
+    parameter α admits a double interpretation: comparing the system temperature with its scale, and comparing the
+    boundary-condition sphere radius with the spatial scale l.'
+  quantities:
+  - alpha^2 = 2πGm^2 n0 R^2/kT = T*/T = R^2/l^2
+  - T* = 2πGm^2 n0 R^2/k
+  equations:
+  - x\,y'' + 2y' + \alpha^2 x\,\exp(2y) = 0
+  - \alpha^2 = 2\pi G m^2 n_0 R^2/kT
+  - T^* = 2\pi G m^2 n_0 R^2/k
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - spherical-symmetry
+  - state-parameter
+  notes: 'OCR-degraded: substitution and equation glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-023
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Как известно, оно не имеет точных решений в элементарных функциях для граничных условий, представляющих
+    физический интерес.
+  statement_en: Equation (6.2) belongs to the class of equations of E-Emden type describing inhomogeneous matter
+    distributions in a gas ball with uniform temperature and is its field analog; as is known, it has no exact solutions
+    in elementary functions for boundary conditions of physical interest.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - no-exact-solution
+  notes: ''
+  relations: []
+- id: SC-AR05-024
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Будем искать приближённые решения (6.2) для граничных условий x  1, y( 1 )  0, y( 1 )  0, которые
+    предполагают существование в кластере сферы нулевого давления поля. Эти решения описывают распределение физических
+    параметров системы в полевых ловушках первого рода.
+  statement_en: Approximate solutions of (6.2) are sought for the boundary conditions x = 1, y(1) = 0, y′(1) = 0,
+    which presuppose the existence in the cluster of a sphere of zero field pressure; these solutions describe the
+    distribution of the physical parameters of the system in first-kind field traps.
+  quantities:
+  - 'BC: x = 1, y(1) = 0, y''(1) = 0'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - first-kind-traps
+  - boundary-conditions
+  notes: ''
+  relations: []
+- id: SC-AR05-025
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: имеет граничные условия =0, p(0)=1. Его не удаётся проинтегрировать в элементарных функциях.
+  statement_en: Passing to the new function y(x) = η(ξ) − ξ with ξ = ln x gives d²η/dξ² + dη/dξ = 1 − α²exp(2η)
+    (6.5) with boundary conditions ξ = 0, η(0) = 0, dη/dξ(0) = 1; order reduction via p(η) = dη/dξ gives the first-order
+    equation p·dp/dη + p = 1 − α²exp(2η) (6.6) with boundary conditions η = 0, p(0) = 1, which cannot be integrated
+    in elementary functions.
+  quantities: []
+  equations:
+  - \frac{d^2\eta}{d\xi^2} + \frac{d\eta}{d\xi} = 1 - \alpha^2\exp(2\eta)
+  - p\,\frac{dp}{d\eta} + p = 1 - \alpha^2\exp(2\eta)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - order-reduction
+  - no-elementary-solution
+  notes: ''
+  relations: []
+- id: SC-AR05-026
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Решение указывает на существование особой точки Эмдена при =s>0, в которой p  0 , а dp / d  
+    .
+  statement_en: 'Numerical solution of equation (6.6) carried out in [5] for the family of integral curves through
+    the boundary-condition point indicates the existence of a special Emden point at η = ηs > 0 where p → 0 and
+    dp/dη → −∞; Fig. 1 shows four integral curves in coordinates p = p(z), z = η − ηs (curve 1 for α = 0.5, curve
+    2 for α = 1.0, curve 3 for α = 1.5, curve 4 for α = 2.0); the position of the special point depends on α²: for
+    small α² it is far from the origin, for α² ≫ 1 it approaches the origin from the right, allowing an approximate
+    solution of (6.6) under the condition α² ≫ 1.'
+  quantities:
+  - alpha = 0.5, 1.0, 1.5, 2.0 (curves 1-4)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - emden-point
+  - numerical-solution
+  notes: ''
+  relations: []
+- id: SC-AR05-027
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: что удовлетворительно даже для α =3 и улучшается с ростом α.
+  statement_en: Resolving (6.6) for the derivative gives (6.7); under the condition α²exp(2η)/p ≫ 1/p − 1 (6.8)
+    it can be shortened to dp/dη = −α²exp(2η)/p (6.9) and integrated in elementary functions to p = 1 − α²[exp(2η)
+    − 1] (6.10); representing (6.8) as α² ≫ (1−p)exp(−2η) = f(η), whose maximum falls at the special Emden point
+    η = ηs, the approximation (6.8) holds under the condition 1/(α²+1) ≪ 1 (6.11), which is satisfactory even for
+    α = 3 and improves with growing α.
+  quantities:
+  - 'validity: 1/(alpha^2+1) << 1, satisfied for alpha >= 3'
+  equations:
+  - \frac{dp}{d\eta} = \frac{1-\alpha^2\exp(2\eta)}{p} - 1
+  - p = 1 - \alpha^2\left[\exp(2\eta) - 1\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - approximation
+  - asymptotics
+  notes: 'OCR-degraded: inline formulas partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-028
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: 'Возвращаясь в (6.10) к функции  ( r ) , получим семейство кривых, описывающих распределение потенциала
+    по длине системы в случае, когда температура системы меньше масштаба (состояния холодного кластера):'
+  statement_en: 'Returning in (6.10) to the function φ(r) gives the family of curves describing the potential distribution
+    along the system when the system temperature is below its scale (the cold-cluster state): φ/φ* = φ₀/φ* + ln[(αr/R)/sqrt(1+α²)·ch(A)]
+    (6.12) with A = Arch(sqrt(1+α²)/α) − sqrt(1+α²)·ln(r/R), α and φ₀ being the distribution parameters.'
+  quantities: []
+  equations:
+  - \frac{\varphi}{\varphi^*} = \frac{\varphi_0}{\varphi^*} + \ln\!\left[\frac{\alpha r}{R\sqrt{1+\alpha^2}}\,\mathrm{ch}(A)\right]
+  - A = \mathrm{Arch}\!\left(\frac{\sqrt{1+\alpha^2}}{\alpha}\right) - \sqrt{1+\alpha^2}\,\ln\!\left(\frac{r}{R}\right)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cold-cluster
+  - potential-distribution
+  notes: 'OCR-degraded: equation (6.12) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-029
+  type: physics
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: Как видно из (6.12), радиальные распределения потенциала зависят от двух параметров. Они имеют вид потенциальных
+    ям с бесконечными стенками, которые имеют минимум   0 на сфере нулевого давления поля.
+  statement_en: As seen from (6.12), the radial potential distributions depend on two parameters; they have the
+    form of potential wells with infinite walls, with minimum φ₀ on the sphere of zero field pressure.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - potential-wells
+  - zero-pressure-sphere
+  notes: ''
+  relations: []
+- id: SC-AR05-030
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: Выражение (6.12) позволяет получить в аналитическом виде основные гравистатические и кинетические характеристики
+    кластера для случая α2>>1.
+  statement_en: 'Expression (6.12) allows obtaining analytically the main gravistatic and kinetic characteristics
+    of the cluster for α² ≫ 1: field strength projection gr/g* = RB/r (6.13) with the new strength scale g* = 2kT/mR
+    and B = sqrt(1+α²)·th(A) − 1; density/concentration/pressure distribution ρ/ρ₀ = p/p₀ = n/n₀ = [(αr/R)/sqrt(1+α²)·ch(A)]⁻²
+    (6.14); self-consistent field pressure D = (g_r²)/8πG = D*·R²B²/r² (6.15) with D* = p₀/α² = g*²/8πG; Bernoulli
+    force projection fr = −(f*R³/(α²r³))·((1+α²)B/ch²(A)) (6.16) with f* = 2p₀/R; radial projection of the field
+    pressure gradient Gr (6.17).'
+  quantities:
+  - g* = 2kT/(mR)
+  - D* = p0/alpha^2
+  - f* = 2p0/R
+  equations:
+  - \frac{g_r}{g^*} = \frac{RB}{r}
+  - \frac{\rho}{\rho_0} = \frac{p}{p_0} = \frac{n}{n_0} = \left[\frac{\alpha r}{R\sqrt{1+\alpha^2}}\,\mathrm{ch}(A)\right]^{-2}
+  - D = D^*\,\frac{R^2 B^2}{r^2}
+  - f_r = -\frac{f^* R^3}{\alpha^2 r^3}\,\frac{(1+\alpha^2)B}{\mathrm{ch}^2(A)}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - analytic-characteristics
+  - scales
+  notes: 'OCR-degraded: formulas (6.13)-(6.17) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-031
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Условие удержания в вид
+  statement_en: The matter retention condition (4.4) takes the form Gr + dp/dr = f*R³B²/(α²r³) (6.18); the sphere
+    of zero field pressure divides all cluster interaction space into an inner region 0 < r/R < 1 (field aligned
+    with radius vector; potential decreases, pressure and concentration grow with r) and an outer region r/R ≥ 1
+    (field opposite; potential grows, pressure and concentration decrease); the system has no sharp boundaries and,
+    the field squeezing matter into the potential-energy minimum, a cavity with practically no matter forms inside
+    the cold cluster.
+  quantities: []
+  equations:
+  - G_r + \frac{dp}{dr} = \frac{f^* R^3 B^2}{\alpha^2 r^3}
+  materials: []
+  geometry:
+  - inner region 0 < r/R < 1; outer region r/R >= 1; cavity in cold cluster
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-condition
+  - cavity
+  - hollow-structure
+  notes: 'OCR-degraded: equation (6.18) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-032
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Условие удержания в виде (6.18) хорошо выполняется в тонких квазиплоских слоях, находящихся у дна потенциальной
+    ямы
+  statement_en: The retention condition (6.18) holds well in thin quasi-plane layers near the bottom of the potential
+    well (B² ≈ 0); at the special point r → ∞ it also holds, the residual decreasing as ~ r⁻³; at the other special
+    point it holds poorly, since at r → 0⁺ the residual tends to infinity.
+  quantities:
+  - residual ~ r^-3 at r to infinity
+  - residual to infinity at r to 0+
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-condition
+  - asymptotics
+  notes: ''
+  relations: []
+- id: SC-AR05-033
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Это указывает на ограниченную область применимости приближённого решения, дающего правильные качественные
+    результаты.
+  statement_en: This (behavior of the retention residual near r → 0) indicates a limited domain of applicability
+    of the approximate solution, which nevertheless gives correct qualitative results; work [6] shows that the approximate
+    solution (6.12) turns out to be exact for any α in cylindrical symmetry.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - applicability-domain
+  - cylindrical-symmetry
+  notes: ''
+  relations: []
+- id: SC-AR05-034
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Оценка числа частиц кластера, удерживаемых самосогласованным полем, получается после интегрирования
+    выражения
+  statement_en: The estimate of the number of cluster particles retained by the self-consistent field is obtained
+    by integrating N₁ = ∫n(r)4πr²dr (6.19) with (6.14) substituted, V = 4πR³/3 being the volume of the zero-pressure
+    sphere; by change of variables and using known integrals, the computation reduces to values of the ψ-function
+    (ψ(z) = Γ′(z)/Γ(z), the logarithmic derivative of the gamma function); the convergence condition 0 < μ < 2 holds
+    for the whole range 3 ≤ α < ∞, and the estimate N₁/N* = (1/2α²)·exp(μd)·[ψ(1/2+μ/4) − ψ(μ/4) − ψ(1/2−μ/4) +
+    ψ(1−μ/4)] (6.20) follows, with N* = 3n₀V the particle-number scale and d = Arch(sqrt(1+α²)/α); from (6.21),
+    as α → ∞ the reduced number of retained particles decreases as N₁/N* ~ 2/α².
+  quantities:
+  - N* = 3 n0 V
+  - N1/N* ~ 2/alpha^2 as alpha to infinity
+  equations:
+  - N_1 = \int_0^\infty n(r)\,4\pi r^2\,dr
+  - \frac{N_1}{N^*} = \frac{1}{2\alpha^2}\exp(\mu d)\left[\psi(1/2+\mu/4) - \psi(\mu/4) - \psi(1/2-\mu/4) + \psi(1-\mu/4)\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - particle-number
+  - gamma-function
+  notes: 'OCR-degraded: integral and psi-function formulas partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-035
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Из (3.2) видно, что любое равновесие гравитирующих частиц с однородной темпера
+  statement_en: From (6.21) follows the additive mass of the cluster M₁ = mN₁ = M₀·f(α) (6.22), where M₀ = mN* is
+    the mass scale of the first-kind field traps.
+  quantities:
+  - M0 = mN*
+  equations:
+  - M_1 = m N_1 = M_0\,f(\alpha)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - additive-mass
+  - first-kind-traps
+  notes: ''
+  relations: []
+- id: SC-AR05-036
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 14
+  quote_ru: Численное моделирование уравнения (6.1) (подробности в [10]) проводилось с шагом 10-4 для полевых граничных
+    условий  ( R )  0  0 ,  ( R )  0 .
+  statement_en: Numerical modeling of equation (6.1) (details in [10]) was carried out with step 10⁻⁴ for the field
+    boundary conditions φ(R) = φ₀ = 0, φ′(R) = 0, using special fourth-order Runge-Kutta formulas [11]; during modeling
+    the condition of zero sum of the pressure gradients of field and particles (4.4) was satisfied automatically,
+    because for radial dependence this condition, expressed through the potential and its derivative, reduces to
+    equation (6.1) after cancellation.
+  quantities:
+  - integration step 1e-4
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - numerically integrate eq. (6.1) with step 1e-4
+  - 'BC: phi(R) = phi_0 = 0, phi''(R) = 0'
+  - fourth-order Runge-Kutta special formulas
+  measurements: []
+  schematic_refs: []
+  tags:
+  - numerical-modeling
+  - runge-kutta
+  notes: Simulation, not laboratory measurement.
+  relations: []
+- id: SC-AR05-037
+  type: physics
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: Из рис. 2 видно, как изменяется заполнение кластера частицами при изменении его температуры в окрестности
+    значения масштаба температуры TT* .
+  statement_en: Fig. 2 presents radial distributions of the reduced particle concentration n/n₀ of the spherical
+    cluster for different state parameters (curve 1 for α = 0.5, curve 2 for α = 0.7, curve 3 for α = 1.0, curve
+    4 for α = 3.0); curve 4 displays the existence of a cavity, curves 1, 2, 3 indicate that with increasing temperature
+    the whole cluster interaction space is mostly filled with particles; for all curves the concentration function
+    and its derivative vanish at the center of the gravitational cluster.
+  quantities:
+  - alpha = 0.5, 0.7, 1.0, 3.0 (curves 1-4)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - numerical-modeling
+  - cavity
+  notes: ''
+  relations: []
+- id: SC-AR05-038
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: В сравнительной таблице 1 представлены приведённые значения r1/R (полости) и r2/R (внешней границы)
+    кластера, которые определялись по приближённым решениям и N1 численному моделированию из условия n  0 ,01 n0
+    .
+  statement_en: Comparative Table 1 presents the reduced values r₁/R (cavity) and r₂/R (outer boundary) of the cluster,
+    determined from approximate solutions and numerical modeling under the condition n = 0.01n₀, and the values
+    N₁/N* = f(α) for the same state parameters α = 3…10; the lower three rows contain numerical-modeling results
+    with accuracy up to 1e-3, the three rows above them the results given by the approximate solution.
+  quantities:
+  - alpha = 3…10
+  - cutoff condition n = 0.01 n0
+  - numerical accuracy 1e-3
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - cavity-radius
+  - outer-boundary
+  - table
+  notes: ''
+  relations: []
+- id: SC-AR05-039
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Точное решение (6.2), найденное Френкелем [3], имеет вид
+  statement_en: The exact solution of (6.2), found by Frenkel [3], is y(x) = ln(x); passing to the potential gives
+    the one-parameter distribution law φ = φ₀ + φ*·ln(r/l) (7.2), where l is the spatial scale (5.2) and φ₀ the
+    distribution parameter.
+  quantities: []
+  equations:
+  - y(x) = \ln(x)
+  - \varphi = \varphi_0 + \varphi^*\ln(r/l)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - exact-solution
+  - frenkel
+  - second-kind-traps
+  notes: 'OCR-degraded: (7.1) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-040
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Как видно из (7.2), разность потенциалов и эквивалентная ей потенциальная энергия системы U  m(  
+    0 ) имеют два знака.
+  statement_en: 'From (7.2), the potential difference and the equivalent potential energy of the system U = m(φ
+    − φ₀) have two signs: negative for matter in the region r/l < 1 and positive in the region r/l ≥ 1; the potential
+    distribution has two special points r = 0 and r = ∞; the value φ = φ₀ falls on the sphere of radius r = l, and
+    the potential energy has no familiar minimum.'
+  quantities: []
+  equations:
+  - U = m(\varphi - \varphi_0)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - potential-energy
+  - second-kind-traps
+  notes: ''
+  relations: []
+- id: SC-AR05-041
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: Напряжённость самосогласованного поля ловушки всегда направлена к центру системы и имеет особенность
+    вида ~ r1 в нуле.
+  statement_en: For second-kind traps the field strength projection is gr/g₀ = l/r (7.3) with g₀ = φ*/l coinciding
+    with the plane-case strength scale; the self-consistent field strength is always directed toward the system
+    center and has a ~r⁻¹ singularity at zero.
+  quantities:
+  - singularity ~ r^-1 at zero
+  equations:
+  - \frac{g_r}{g_0} = \frac{l}{r}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-strength
+  - singularity
+  - second-kind-traps
+  notes: 'OCR-degraded: ''~ r^-1'' flattened; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-042
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: Как видно из (7.4), в ловушках второго рода поле выдавливает частицы в бесконечно глубокую щель, образованную
+    потенциальной энергией системы в начале координат.
+  statement_en: The system is unbounded in space; density, concentration, and pressure of the particles have a distribution
+    with ~r⁻² singularity at zero, ρ/ρ₀ = n/n₀ = p/p₀ = l²/r² (7.4); in second-kind traps the field squeezes particles
+    into an infinitely deep gap formed by the potential energy of the system at the origin.
+  quantities:
+  - singularity ~ r^-2 at zero
+  equations:
+  - \frac{\rho}{\rho_0} = \frac{n}{n_0} = \frac{p}{p_0} = \frac{l^2}{r^2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - density-distribution
+  - potential-gap
+  - singularity
+  notes: ''
+  relations: []
+- id: SC-AR05-043
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: Вещество кластера исчезает только на бесконечно большом расстоянии от центра системы. Это указывает
+    на принципиальное отличие состояний второго рода от состояний, исследованных ранее.
+  statement_en: The cluster matter vanishes only at an infinitely large distance from the system center, which indicates
+    the fundamental difference of second-kind states from those studied earlier; in second-kind field traps the
+    particle concentration is a decreasing function of the growing radius.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - second-kind-traps
+  notes: ''
+  relations: []
+- id: SC-AR05-044
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: Полное давление системы уже не является интегралом уравнения, поскольку оно изменяется по закону
+  statement_en: The field pressure has a ~r⁻² singularity at zero, D/D₀ = l²/r² (7.5) with D₀ = p₀ = g₀²/8πG coinciding
+    with the plane-case scale; the full pressure of the system is no longer an integral of the equation, since it
+    changes as P = D + p = 2p₀l²/r² ≠ const (7.6); the particle pressure gradient is always directed along the self-consistent
+    field strength and has a ~r⁻³ singularity at zero, dp/dr = −f₀l³/r³ (7.7) with f₀ = 2p₀/l; the radial component
+    of the field pressure gradient (compensating Bernoulli force) is directed against the strength and has a ~r⁻³
+    singularity, Gr = 4D/r + dD/dr = f₀l³/r³ (7.8).
+  quantities:
+  - singularity ~ r^-2 (field pressure)
+  - singularity ~ r^-3 (pressure gradients)
+  equations:
+  - \frac{D}{D_0} = \frac{l^2}{r^2}
+  - P = D + p = 2p_0 l^2/r^2 \ne \mathrm{const}
+  - \frac{dp}{dr} = -\frac{f_0 l^3}{r^3}
+  - G_r = \frac{4D}{r} + \frac{dD}{dr} = \frac{f_0 l^3}{r^3}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-pressure
+  - no-full-pressure-integral
+  notes: 'OCR-degraded: formulas partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-045
+  type: physics
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: выполнено во всех точках, кроме особой, при r  0 . В связи с этим, систему, занимающую бесконечный
+    объём, можно искусственно ограничить, выбрав радиус системы r1, внутри которого вещество отсутствует (радиус
+    полости) и внешний радиус системы, за которым вещество также отсутствует,  r2.
+  statement_en: The retention condition for an arbitrary elementary volume in a second-kind field trap, Gr + dp/dr
+    = 0 (7.9), is fulfilled at all points except the singular one at r → 0⁺; therefore the system occupying an infinite
+    volume can be artificially bounded by choosing a system radius r₁ inside which matter is absent (the cavity
+    radius) and an outer system radius r₂ beyond which matter is also absent.
+  quantities: []
+  equations:
+  - G_r + \frac{dp}{dr} = 0
+  materials: []
+  geometry:
+  - cavity radius r1 (no matter inside)
+  - outer radius r2 (no matter beyond)
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention-condition
+  - cavity
+  - artificial-boundary
+  notes: ''
+  relations: []
+- id: SC-AR05-046
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: Из (7.10) видно, что чем меньше масса гравитирующей частицы, тем больше число частиц, которое удерживается
+    полем полого кластера при прочих равных условиях.
+  statement_en: From (7.4) the total number of particles retained by the system is N₂ = ∫n(r)4πr²dr = 2kTd/(mG)
+    (7.10), where d = r₂ − r₁ is the thickness of the layer occupied by particles; the smaller the gravitating-particle
+    mass, the more particles are held by the hollow-cluster field under equal conditions; the additive cluster mass
+    from (7.10) is M₂ = mN₂ = 2kTd/G (7.11), growing with temperature and layer thickness and larger for smaller
+    particle mass; estimates made for first-kind states give similar quantitative results.
+  quantities:
+  - N2 = 2kTd/(mG)
+  - M2 = 2kTd/G
+  equations:
+  - N_2 = \frac{2kTd}{mG}
+  - M_2 = \frac{2kTd}{G}
+  materials: []
+  geometry:
+  - layer thickness d = r2 - r1
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - particle-number
+  - additive-mass
+  - second-kind-traps
+  notes: 'OCR-degraded: denominators partially lost (γ = G gravitational constant); reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-047
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: 'Исключая из (8.1), (8.3) концентрацию, придём к линейной связи между масштабом массы и пространственным
+    масштабом при заданном значении температуры T:'
+  statement_en: 'Studying similarity properties of field traps of gravitating particles with equal mass: the spatial
+    length scale is l = C·(T/n₀)^(1/2) (8.1) with C = m⁻¹(k/2G)^(1/2) = const₁; the trap mass scale is M* = 2kTl/G
+    = F·T^(3/2)/n₀^(3/2) (8.3) with F = const₂; eliminating the concentration gives the linear relation l = E·M*/T
+    (8.5) at given T, with E = C/F = G/(2k) = const₃.'
+  quantities:
+  - C = m^-1 (k/2G)^(1/2)
+  - l = E M*/T at fixed T
+  equations:
+  - l = C\left(T/n_0\right)^{1/2}
+  - M^* = \frac{2kTl}{G} = F\,\frac{T^{3/2}}{n_0^{3/2}}
+  - l = E\,\frac{M^*}{T}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - similarity
+  - scales
+  notes: 'OCR-degraded: formulas partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-048
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: 'Из (8.5) следуют законы подобия:'
+  statement_en: 'From (8.5) follow the similarity laws: (a) for systems of equal temperature the ratio of mass scale
+    to length scale is the same — the larger the cluster mass scale, the larger its length scale, and vice versa;
+    (b) if the mass scales of objects are equal, the hotter object has the smaller spatial scale, and vice versa;
+    (c) if objects have the same spatial scale, their mass-scale-to-temperature ratio is the same; eliminating the
+    temperature shows the object mass scale is always proportional to its particle-number scale n₀l³ (8.6).'
+  quantities: []
+  equations:
+  - M^* = \frac{F}{C}\,n_0 l^3
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - similarity-laws
+  notes: ''
+  relations: []
+- id: SC-AR05-049
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: Из (8.9) видно, что полевые ловушки с потенциальной ямой обладают большей ёмкостью.
+  statement_en: 'With the mass scale of first-kind traps M₀ = mN* = 3n₀mV = 4πR³mn₀ (8.7), the ratio M₀/M* = 2πR³m²n₀G/(kTl)
+    (8.8) and the trap mass M₁/M* = α³·N₁/N* (8.9) show that field traps with a potential well possess greater capacity:
+    their mass can exceed the mass scale by one to two orders of magnitude under equal conditions as the state parameter
+    varies in the range 3 ≤ α ≤ 10 (see Table 1).'
+  quantities:
+  - 'capacity excess: 1–2 orders for alpha = 3…10'
+  equations:
+  - \frac{M_0}{M^*} = \frac{2\pi R^3 m^2 n_0 G}{kTl}
+  - \frac{M_1}{M^*} = \alpha^3\,\frac{N_1}{N^*}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - potential-well
+  - capacity
+  - mass-scale
+  notes: 'OCR-degraded: (8.8), (8.9) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR05-050
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: Выделим три типа состояний, в которых может пребывать полевая ловушка второго рода. Первое состояние
+    – состояние с отрицательной потенциальной энергией U  m(   0 )  0 . В этом состоянии её внешний радиус
+    r2  l . Радиус внутренней полости r1 можно найти из наибольших средних значений концентрации частиц, известных
+    в природе и достигаемых в ядре n1  nn  10 38 cм-3. Тогда массу такого плотно упакованного объекта можно представить
+    в виде M 2  M* (    ) , (8.10) где   r1 / l  n0 / nn  приведённый радиус полости, а   r2 / l  1 
+    приведённый внешний радиус. Из (8.10) видно, что в таких состояниях M 2  M* . Состояния с положительной потенциальной
+    энергией
+  statement_en: 'Three types of states are distinguished for a second-kind field trap: the state with negative potential
+    energy U = m(φ − φ₀) < 0, the state with positive potential energy having a large cavity, and intermediate states.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - state-types
+  - second-kind-traps
+  notes: ''
+  relations: []
+- id: SC-AR05-051
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: Радиус внутренней полости r1 можно найти из наибольших средних значений концентрации частиц, известных
+    в природе и достигаемых в ядре n1  nn  10 38 cм-3.
+  statement_en: In the negative-potential-energy state the outer radius r₂ < l; the inner cavity radius r₁ can be
+    found from the largest mean particle concentrations known in nature, achieved in the atomic nucleus n₁ ≈ n_n
+    ≈ 10³⁸ cm⁻³; the mass of such a densely packed object is M₂ = M*(χ − ξ) (8.10), where ξ = r₁/l = sqrt(n₀/n_n)
+    is the reduced cavity radius and χ = r₂/l < 1 the reduced outer radius, so M₂ < M*.
+  quantities:
+  - n1 ~ n_n ~ 1e38 cm^-3 (nuclear density)
+  - M2 = M*(chi - xi) < M*
+  equations:
+  - M_2 = M^*(\chi - \xi)
+  - \xi = r_1/l = \sqrt{n_0/n_n}
+  materials: []
+  geometry:
+  - outer radius r2 < l
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dense-packing
+  - nuclear-density
+  - mass
+  notes: 'OCR-degraded: superscripts flattened (1038 = 10^38).'
+  relations: []
+- id: SC-AR05-052
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: В промежуточных состояниях при выполнении неравенств 0    1 , а   1 соотношение масс может быть
+    любым.
+  statement_en: 'Positive-potential-energy states with a large cavity are realized under the condition ξ ≫ 1: at
+    χ > 1 + ξ the mass M₂ > M*, at 0 < χ < 1 + ξ the mass M₂ < M*; in intermediate states, with 0 < ξ < 1 and χ
+    > 1, the mass ratio can be anything; with dense packing ξ → 0 in intermediate states the object mass is large
+    under the condition χ ≫ 1: M₂ = M*·χ (8.11); when the layer thickness equals the spatial scale d = l, χ = 1
+    + ξ and M₂ = M*.'
+  quantities:
+  - M2 = M* chi (dense packing, chi >> 1)
+  equations:
+  - M_2 = M^*\,\chi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - state-types
+  - mass
+  notes: 'OCR-degraded: inequality glyphs lost in quote; reconstructed from surrounding text.'
+  relations: []
+- id: SC-AR05-053
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: 'Для полевой ловушки, удерживающей нейтроны, значения постоянных коэф- фициентов: С=1,08371019 (cм
+    K)-1/2; F=2,67851034 г(cмK)-3/2; E=4,045910-16cмK/г.'
+  statement_en: For a field trap holding neutrons the constant coefficients are C = 1.0837·10¹⁹ (cm·K)^(−1/2), F
+    = 2.6785·10³⁴ g·(cm·K)^(−3/2), E = 4.0459·10⁻¹⁶ cm·K/g; from (8.5), for neutrons at temperature T = 10¹² K and
+    mass scale M* varying from 2·10³⁹ g to 2·10⁴² g, the spatial scale l varies from 8·10¹¹ cm to 8·10¹⁴ cm; the
+    inequalities bound the possible n₀ range to 1.8·10²⁰ cm⁻³ … 1.8·10²⁶ cm⁻³, far from the mean nuclear density
+    n_n.
+  quantities:
+  - C = 1.0837e19 (cm K)^-1/2
+  - F = 2.6785e34 g (cm K)^-3/2
+  - E = 4.0459e-16 cm K/g
+  - T = 1e12 K
+  - M* = 2e39…2e42 g
+  - l = 8e11…8e14 cm
+  - n0 = 1.8e20…1.8e26 cm^-3
+  equations: []
+  materials:
+  - neutrons
+  geometry:
+  - l = 8e11–8e14 cm
+  procedure_steps: []
+  measurements:
+  - quantity: spatial scale l for neutron traps at T=1e12 K
+    value: 8e11–8e14
+    unit: cm
+    conditions: M* = 2e39–2e42 g
+  schematic_refs: []
+  tags:
+  - neutron-traps
+  - similarity-constants
+  notes: 'OCR-degraded: superscripts flattened; reconstructed (1019 = 10^19 etc.).'
+  relations: []
+- id: SC-AR05-054
+  type: physics
+  facet: theory
+  priority: normal
+  page: 19
+  quote_ru: 'В таких состояниях при   1   масса M 2  M* , а при 0    1   масса M 2  M * . В промежуточных
+    состояниях при выполнении неравенств 0    1 , а   1 соотношение масс может быть любым. При наличии плотной
+    упаковки   0 в промежуточных состояниях масса объекта будет большой при выполнении условия   1 : M 2 
+    M*  . (8.11) Когда толщина слоя, занятого частицами, равна пространственному масштабу d=l, то   1   , а
+    M 2  M* . 9. Параметры полевых ловушек, состоящих из нейтронов с высокой температурой Для полевой ловушки,
+    удерживающей нейтроны, значения постоянных коэф- фициентов: С=1,08371019 (cм K)-1/2; F=2,67851034 г(cмK)-3/2;
+    E=4,045910-16cмK/г. Из (8.5) следует, что для нейтронов, находящихся при температуре Т=1012К и изменении масштаба
+    массы M* от 21039 г до 21042 г, пространственный масштаб l изменяется в пределах от 81011 cм до 81014 cм.
+    Неравенства ограничивают интервал возможных изменений величины n0 в диапазоне от 1,81020 cм-3 до 1,81026 cм-3.'
+  statement_en: 'Table 2 gives the dependences of the field-trap scales on n₀ assuming the traps consist of neutrons
+    heated to T = 10¹¹ K (an order of magnitude more than in neutron stars), with n₀ varying from 2.0·10²⁰ cm⁻³
+    to 2.0·10²⁶ cm⁻³: M* decreases from 0.599·10⁴¹ g to 0.599·10³⁸ g and l from 0.242·10¹⁵ cm to 0.242·10¹² cm across
+    the grid.'
+  quantities:
+  - T = 1e11 K
+  - n0 = 2.0e20…2.0e26 cm^-3
+  - M* = 0.599e41…0.599e38 g
+  - l = 0.242e15…0.242e12 cm
+  equations: []
+  materials:
+  - neutrons
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: trap mass scale M*
+    value: 0.599e41–0.599e38
+    unit: g
+    conditions: T = 1e11 K, n0 = 2.0e20–2.0e26 cm^-3
+  schematic_refs:
+  - Таблица 2
+  tags:
+  - neutron-traps
+  - table
+  - similarity
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-AR05-055
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 20
+  quote_ru: В таблице 3 размещены результаты численного моделирования параметров сверхмассивных скоплений для ловушек
+    первого и второго родов, находящихся при тех же условиях.
+  statement_en: 'Table 3 contains the results of numerical modeling of the parameters of supermassive clusters for
+    first- and second-kind traps under the same conditions, using an eight-step algorithm: (1) compute spatial scale
+    (5.2) from given n₀ and T; (2) determine the zero-pressure-sphere radius R from (6.3) for given α; (3) cut the
+    concentration distribution at n = 0.01n₀ to get r₁/R and r₂/R; (4) compute N* = 4πR³n₀; (5) take N₁(3)/N* =
+    1.220 at α = 3 and N₁(10)/N* = 0.207 at α = 10 from Table 1; (6) compute the first-kind trap mass from (6.22);
+    (7) for the second-kind trap set cavity radius = r₁ and outer radius = r₂; (8) find N₂ and mass from (7.10),
+    (7.11).'
+  quantities:
+  - N1(3)/N* = 1.220 (alpha=3)
+  - N1(10)/N* = 0.207 (alpha=10)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - compute l from (5.2) for given n0, T
+  - determine R from (6.3) for given alpha
+  - cut distribution at n = 0.01n0 for r1/R, r2/R
+  - compute N* = 4 pi R^3 n0
+  - take N1/N* from Table 1 (1.220 at alpha=3; 0.207 at alpha=10)
+  - compute M1 from (6.22)
+  - set second-kind cavity radius r1 and outer radius r2
+  - compute N2 and M2 from (7.10), (7.11)
+  measurements: []
+  schematic_refs:
+  - Таблица 3
+  tags:
+  - numerical-modeling
+  - algorithm
+  - supermassive-clusters
+  notes: ''
+  relations: []
+- id: SC-AR05-056
+  type: physics
+  facet: theory
+  priority: normal
+  page: 21
+  quote_ru: Из таблицы 3 видно, что масса полевой ловушки первого рода при тех же параметрах всегда больше чем масса
+    полевой ловушки второго рода. С ростом α это отличие возрастает.
+  statement_en: 'From Table 3: the mass of the first-kind field trap at the same parameters is always greater than
+    the mass of the second-kind trap, and the difference grows with α; the first-kind trap mass increases with the
+    state parameter α; at constant α, increasing the concentration n₀ decreases the trap mass and its geometric
+    sizes, and the reverse is also true.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 3
+  tags:
+  - trap-masses
+  - comparison
+  notes: ''
+  relations: []
+- id: SC-AR05-057
+  type: physics
+  facet: theory
+  priority: normal
+  page: 21
+  quote_ru: Моделирование показывает, что увеличение температуры скопления на порядок (для тех же параметров состояния)
+    приводит к увеличению массы полевых ловушек второго рода больше, чем на порядок, и диапазон их массы превышает
+    диапазон масс полевых ловушек первого рода при исходной температуре с незначительным изменением геометрических
+    размеров.
+  statement_en: Modeling shows that an order-of-magnitude increase of cluster temperature (for the same state parameters)
+    increases second-kind trap masses by more than an order of magnitude, and their mass range exceeds that of first-kind
+    traps at the original temperature with only slight change of geometric sizes; at lower n₀ values the outer sizes
+    of the clusters exceed the mean solar-system radius only by a factor of 10 to 18 (the mean radius taken as the
+    semi-major axis of Pluto's orbit ~ 0.6·10¹⁵ cm).
+  quantities:
+  - 'outer sizes: 10–18 solar-system radii'
+  - Pluto orbit semi-major axis ~ 0.6e15 cm
+  equations: []
+  materials: []
+  geometry:
+  - outer cluster sizes up to 10–18 mean solar-system radii
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - temperature-scaling
+  - cluster-sizes
+  notes: ''
+  relations: []
+- id: SC-AR05-058
+  type: physics
+  facet: theory
+  priority: normal
+  page: 23
+  quote_ru: 'При прочих равных условиях полевые ловушки с потенциальной ямой удерживают частиц больше, чем ловушки
+    с потенциальной щелью. В полевых ловушках выделено три типа состояний: состояния с отрицательной потенциальной
+    энергией, состояния с положительной потенциальной энергией и промежуточные состояния. Численное моделирование
+    указывает на возможность существования скоплений нейтронов с температурой от 1011 до 1012 К, диапазон масс которых
+    попадает в диапазон'
+  statement_en: Since in the adopted calculation algorithm ξ = r₁/l ≫ 1, only second-kind traps with positive potential
+    energy entered the table; at T = 10¹¹ K with dense packing in intermediate states the cavity radius is r₁ =
+    3.42·10⁵ cm and the parameter ξ = 1.41·10⁻⁶ ≪ 1 at the upper n₀ value; then the second-kind trap masses fall
+    into the range 10⁶ M☉ ≤ M₂ ≤ 10⁹ M☉ with outer radius r₂ from 8·10¹² cm to 8·10¹⁵ cm; under the same conditions
+    at the lower n₀ the parameter is ξ = 1.41·10⁻⁹ ≪ 1 with r₂ in the same range.
+  quantities:
+  - r1 = 3.42e5 cm (dense packing, T = 1e11 K)
+  - xi = 1.41e-6 << 1 (upper n0)
+  - M2 = 1e6…1e9 solar masses
+  - r2 = 8e12…8e15 cm
+  - xi = 1.41e-9 << 1 (lower n0)
+  equations: []
+  materials: []
+  geometry:
+  - cavity radius r1 = 3.42e5 cm
+  - outer radius r2 = 8e12–8e15 cm
+  procedure_steps: []
+  measurements:
+  - quantity: second-kind trap mass range
+    value: 1e6–1e9
+    unit: solar masses
+    conditions: T = 1e11 K, alpha per Table 3, dense packing
+  schematic_refs: []
+  tags:
+  - neutron-clusters
+  - mass-range
+  - supermassive
+  - debt-candidate
+  notes: Mass range matched to SMBHs; OCR-degraded superscripts flattened.
+  relations:
+  - to: SC-AR05-001
+    kind: supports
+- id: SC-AR05-059
+  type: physics
+  facet: theory
+  priority: normal
+  page: 22
+  quote_ru: 'В заключение для параметра состояния α=3 и n0=0,21021 см-3 приведём масштабы физических величин, описывающих
+    состояние равновесия нейтронного кластера:'
+  statement_en: 'For state parameter α = 3 and n₀ = 0.2·10²¹ cm⁻³ the scales of the physical quantities describing
+    the equilibrium state of the neutron cluster are: temperature scale T* = 9.0·10¹¹ K; potential scale φ* = 1.65·10¹⁹
+    (cm/s)²; strength scale g* = 2.27·10⁴ cm/s²; maximum pressure at the well bottom p₀ = 2.76·10¹⁵ dyn/cm²; field
+    pressure scale D* = 3.07·10¹⁴ dyn/cm²; pressure-gradient scale f* = 7.6 dyn/cm³; increasing n₀ by six orders
+    increases the strength scale by three orders, the pressure by six orders, and the pressure-gradient scale by
+    nine orders.'
+  quantities:
+  - alpha = 3
+  - n0 = 0.2e21 cm^-3
+  - T* = 9.0e11 K
+  - phi* = 1.65e19 (cm/s)^2
+  - g* = 2.27e4 cm/s^2
+  - p0 = 2.76e15 dyn/cm^2
+  - D* = 3.07e14 dyn/cm^2
+  - f* = 7.6 dyn/cm^3
+  equations: []
+  materials:
+  - neutrons
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: max pressure at well bottom p0
+    value: 2.76e15
+    unit: dyn/cm^2
+    conditions: alpha = 3, n0 = 0.2e21 cm^-3, T = 1e11 K
+  - quantity: strength scale g*
+    value: 2.27e4
+    unit: cm/s^2
+    conditions: alpha = 3, n0 = 0.2e21 cm^-3
+  schematic_refs: []
+  tags:
+  - scales
+  - neutron-cluster
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-AR05-060
+  type: physics
+  facet: theory
+  priority: normal
+  page: 22
+  quote_ru: Предложена полная система уравнений, которая описывает класс статических равновесий неизлучающих, взаимодействующих
+    между собой гравитирующих частиц, взвешенных в самосогласованном поле.
+  statement_en: A complete system of equations is proposed describing the class of static equilibria of non-radiating,
+    mutually interacting gravitating particles suspended in a self-consistent field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-gasostatics
+  - static-equilibria
+  notes: Conclusion.
+  relations: []
+- id: SC-AR05-061
+  type: physics
+  facet: theory
+  priority: normal
+  page: 22
+  quote_ru: Равновесная функция распределения системы совпадает с больцмановской и указывает на обратное действие
+    поля на частицы, которые это поле создают.
+  statement_en: 'The equilibrium distribution function of the system coincides with the Boltzmann one and indicates
+    the reverse action of the field on the particles that create this field; in solving the problem the gravity-compensating
+    Bernoulli force receives a new mathematical definition: it is created by a force of field origin coinciding
+    in direction and magnitude with the pressure gradient of the system''s self-consistent gravitational field;
+    each elementary volume of the system is in equilibrium under two forces: the volume density of Newtonian attraction
+    forces and the volume density of Bernoulli repulsion forces.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boltzmann-distribution
+  - reverse-action
+  - bernoulli-force
+  notes: Conclusions.
+  relations: []
+- id: SC-AR05-062
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: 'При интегрировании Е-уравнения Эмдена для плотности газового шара возникает математическая проблема
+    выбора граничных условий. Полную систему уравнений, решаемую относительно гравитационного потенциала, удаётся
+    свести к трёхмерному уравнению такого же вида. Фундаментальный закон сохранения полного давления, существующий
+    в системе с плоской симметрией, формирует полевые граничные условия. Они заключаются в наличии эквипотенциальной
+    поверхности, в которой давление самосогласованного поля обращается в нуль, а потенциал минимален. В сферической
+    симметрии найдены два класса аналитических решений, описывающих распределения физических параметров в системах
+    с потенциальной ямой и потенциальной щелью. Вычисления указывают на возможность существования полых скоплений
+    высокотемпературных нейтронов, спектр масс которых для температур от 10 11 до 1012 К попадает в диапазон масс
+    объектов, обнаруженных в центрах галактик и названных «сверхмассивными чёрными дырами». Ключевые слова: газовый
+    шар, полевые граничные условия, гравитационный потенциал, закон сохранения полного давления, эквипотенциальная
+    поверхность, сферическая симметрия, аналитические решения, потенциальная яма, потенциальная щель, полые скопления
+    высокотемпературных нейтронов, центр галактики, сверхмассивные чёрные дыры, спектр масс. СПЕКТР МАСС ПОЛЫХ СВЕРХМАССИВНЫХ
+    ЧЁРНЫХ ДЫР С ВЫСОКОЙ ТЕМПЕРАТУРОЙ 1 В.Г. Сапогин, 2К.В.Сапогин 1 Российская Академия Естествознания, sapogin@mail.ru
+    2 Department of Astronomy, University of Minnesota, 116 Church Street SE, Minneapolis, MN 55455, USA, sapogin@msi.umn.edu
+    При интегрировании Е-уравнения Эмдена для плотности газового шара возникает математическая проблема выбора граничных
+    условий. Полную систему уравнений, решаемую относительно гравитационного потенциала, удаётся свести к трёхмерному
+    уравнению такого же вида. Фундаментальный закон сохранения полного давления, существующий в системе с плоской
+    симметрией, формирует полевые граничные условия. Они заключаются в наличии эквипотенциальной поверхности, в
+    которой давление самосогласованного поля обращается в нуль, а потенциал минимален. В сферической симметрии найдены
+    два класса аналитических решений, описывающих распределения физических параметров в системах с потенциальной
+    ямой и потенциальной щелью.'
+  statement_en: Under equal conditions, field traps with a potential well retain more particles than traps with
+    a potential gap.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - potential-well
+  - potential-gap
+  - capacity
+  notes: Conclusion.
+  relations: []
+- id: SC-AR05-063
+  type: physics
+  facet: theory
+  priority: normal
+  page: 23
+  quote_ru: Численное моделирование указывает на возможность существования скоплений нейтронов с температурой от
+    1011 до 1012 К, диапазон масс которых попадает в диапазон масс объектов, обнаруженных в центрах галактик и названных
+    «сверхмассивные чёрные дыры».
+  statement_en: Numerical modeling indicates the possibility of the existence of neutron clusters with temperatures
+    from 10^11 to 10^12 K whose mass range falls into the mass range of the objects discovered in galactic centers
+    and named 'supermassive black holes'.
+  quantities:
+  - T = 1e11–1e12 K
+  equations: []
+  materials:
+  - neutrons
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - neutron-clusters
+  - supermassive-black-holes
+  - debt-candidate
+  notes: Conclusion restating the central claim.
+  relations: []
+- id: SC-AR05-064
+  type: physics
+  facet: theory
+  priority: normal
+  page: 24
+  quote_ru: Равновесные состояния частиц с полем, в которых могут пребывать неизлучающие высокотемпературные нейтроны
+    следует отнести к пассивным состояниям ядер галактик.
+  statement_en: The equilibrium states of particles with the field in which non-radiating high-temperature neutrons
+    can reside should be attributed to the passive states of galactic nuclei.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - galactic-nuclei
+  - passive-states
+  - debt-candidate
+  notes: Conclusion.
+  relations: []
+- id: SC-AR05-065
+  type: physics
+  facet: theory
+  priority: normal
+  page: 24
+  quote_ru: Известные методы измерения массы чёрных дыр в центрах галактик по скорости близлежащих звёзд [14,15]
+    не могут ответить на вопрос о том, в каких состояниях полевой ловушки эти объекты находятся.
+  statement_en: The known methods of measuring the masses of black holes in galactic centers from the velocities
+    of nearby stars cannot answer the question of which field-trap states these objects are in.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - black-hole-mass-measurement
+  - limitation
+  notes: Conclusion; references Ghez et al. 2000, 2008.
+  relations: []
+- id: SC-AR05-066
+  type: physics
+  facet: theory
+  priority: normal
+  page: 24
+  quote_ru: Самосогласованная теория полых газовых шаров предсказывает существование низкотемпературных скоплений
+    нейтронов малых размеров. Имея масштаб длины ~ 105 cм при температуре 100 К, они обладают масштабом массы ~
+    2,51022 г, что на три порядка меньше массы Луны.
+  statement_en: 'The self-consistent theory of hollow gas balls predicts the existence of low-temperature neutron
+    clusters of small sizes: with a length scale ~10⁵ cm at temperature 100 K they have a mass scale ~2.5·10²² g,
+    three orders of magnitude less than the Moon''s mass; such light cold thin-wall neutron bubbles left their trace
+    when falling on the lunar surface, forming a certain class of craters having an outer rim of substance melted
+    in the form of a ring and a smooth surface texture inside the rim (see Fig. 3).'
+  quantities:
+  - length scale ~1e5 cm at 100 K
+  - mass scale ~2.5e22 g (~1/1000 Moon mass)
+  equations: []
+  materials:
+  - neutrons
+  geometry:
+  - length scale ~1e5 cm
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - neutron-bubbles
+  - moon-craters
+  - debt-candidate
+  notes: Speculative lunar-crater attribution — flagged for debt clustering; superscripts flattened.
+  relations: []
+- id: SC-AR05-067
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 24
+  quote_ru: Из теории следует, что Тунгусский феномен представлял собой полый, рыхлый космический «снежок» огромной
+    массы, состоящий из ледяных пылинок наноскопических размеров (подробности в [7,10]). Он был выброшен ледяными
+    гейзерами из недр Энцелада – 61 спутника Сатурна.
+  statement_en: According to the theory, the Tunguska phenomenon was a hollow, loose cosmic 'snowball' of enormous
+    mass consisting of ice nanoparticles of nanoscopic sizes, ejected by icy geysers from the depths of Enceladus,
+    the 61st satellite of Saturn; the particle flux density at the fall of such a 'bubble' on the earth will be
+    substantially smaller at the center than in adjacent layers, so the destructions at the epicenter will be minimal,
+    which matches the observations of the Kulik expedition; the memory of the fall is still kept by the mast-like,
+    not felled forest at the epicenter.
+  quantities: []
+  equations: []
+  materials:
+  - ice nanoparticles
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - enceladus
+  - hypothesis
+  - debt-candidate
+  notes: Tunguska-Enceladus attribution — speculative, flagged for debt clustering.
+  relations: []

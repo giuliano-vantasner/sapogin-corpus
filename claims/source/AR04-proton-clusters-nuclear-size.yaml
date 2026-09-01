@@ -1,0 +1,994 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR04
+  section: articles
+  title_ru: Протонные зарядовые кластеры ядерных размеров
+  title_en: Proton charge clusters of nuclear size
+  file: papers/articles/protonnye-zaryadovye-klastery-yadernykh-razmerov.pdf
+  source_url: http://146.190.233.254/docs/articles/Протонные зарядовые кластеры ядерных размеров.pdf
+  md5: 345e361511a6b78ca000cf5ce5861bb7
+  pages_total: 13
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR04-001
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Автономные скопления зарядов были обнаружены Шоулдерсом (США, Бодега, 1987) у поверхности острийного
+    катода в вакууме, получили название “Electrum Validum” (EV) и были применены в технологии обработки металлических
+    поверхностей [1].
+  statement_en: Autonomous accumulations of like charges were discovered by Shoulders (USA, Bodega, 1987) at the
+    surface of a sharp (point) cathode in vacuum, were named 'Electrum Validum' (EV), and were applied in metal-surface-processing
+    technology.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-clusters
+  - EV
+  - Shoulders
+  notes: EVO/charge-cluster generation topic.
+  relations: []
+- id: SC-AR04-002
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 1
+  quote_ru: Скопления зарядов (зарядовые кластеры), наблюдаемые Шоулдерсом, имеют малые размеры (от долей до десятков
+    микрометров), большой отрицательный заряд (от 108 до 1011 электронов в скоплении) и время высвечивания от 30
+    до 100 пс, которое превышает время возможного разлета зарядов за счёт кулоновского расталкивания.
+  statement_en: The charge clusters observed by Shoulders have small sizes (from fractions to tens of micrometers),
+    a large negative charge (from 10^8 to 10^11 electrons in a cluster), and a flash-out (decay) time of 30 to 100
+    ps, which exceeds the time of possible charge dispersal due to Coulomb repulsion.
+  quantities:
+  - 'size: from fractions to tens of micrometers'
+  - 'charge: 10^8–10^11 electrons'
+  - 'decay time: 30–100 ps'
+  equations: []
+  materials: []
+  geometry:
+  - 'cluster size: fractions to tens of micrometers'
+  procedure_steps: []
+  measurements:
+  - quantity: cluster charge
+    value: 1e8–1e11
+    unit: electrons
+    conditions: Shoulders' vacuum observations at sharp cathode
+  - quantity: decay (flash-out) time
+    value: 30–100
+    unit: ps
+    conditions: exceeds Coulomb-dispersal time
+  schematic_refs: []
+  tags:
+  - charge-clusters
+  - EV
+  - parameters
+  - superscripts flattened by pdftotext (108=10^8, 1011=10^11)
+  notes: Superscripts lost in text extraction; values are 10^8 and 10^11 as printed in the original.
+  relations:
+  - to: SC-AR04-027
+    kind: supports
+- id: SC-AR04-003
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: В эти же годы Флейшман и Понс зафиксировали избыточное тепло при электролизе тяжёлой воды. Объяснить
+    причины выделения тепла в этих экспериментах можно было существованием нового класса ядерных реакций, протекающих
+    без появления нейтронов (явление было названо холодный ядерный синтез, ХЯС, [2]).
+  statement_en: In the same years Fleischmann and Pons recorded excess heat during electrolysis of heavy water;
+    the causes of the heat release in these experiments could be explained by the existence of a new class of nuclear
+    reactions proceeding without the appearance of neutrons (the phenomenon was named cold nuclear fusion, CNF).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - LENR
+  - excess-heat
+  - cold-fusion
+  - transmutation
+  notes: ''
+  relations: []
+- id: SC-AR04-004
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 1
+  quote_ru: Некоторые из ядерщиков считают, что избыточное тепло, возникающее при электролизе, можно объяснить реакциями
+    холодного ядерного синтеза, которые были теоретически предсказаны в работах Алвареца [3], Зельдовича и Сахарова
+    [4- 6].
+  statement_en: Some nuclear scientists consider that the excess heat arising in electrolysis can be explained by
+    cold nuclear fusion reactions, which were theoretically predicted in the works of Alvarez, Zeldovich and Sakharov.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cold-fusion
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR04-005
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Позже, сразу несколькими исследователями, экспериментально были обнаружены так называемые низкоэнергетические
+    ядерные реакции (low energy nuclear reactions, LENR), возникающие при протекании тока в тлеющем разряде (см.,
+    например, [7]). Они проявили себя появлением в материале катода новых элементов.
+  statement_en: Later, several researchers experimentally discovered so-called low-energy nuclear reactions (LENR)
+    arising when current flows in a glow discharge; they manifested themselves by the appearance of new elements
+    in the cathode material.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - LENR
+  - glow-discharge
+  - transmutation
+  - cathode
+  notes: Electrical-path core topic.
+  relations:
+  - to: SC-AR04-006
+    kind: supports
+- id: SC-AR04-006
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 2
+  quote_ru: Вместе с трансмутацией на электродах в электрическом разряде через водород или гелий было зарегистрировано
+    спорадически возникающее аномальное выделение тепловой энергии, которое до сих пор не имеет под собой никаких
+    объяснений.
+  statement_en: Together with transmutation on the electrodes in an electric discharge through hydrogen or helium,
+    a sporadically arising anomalous release of thermal energy was registered, which still has no explanation whatsoever.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - LENR
+  - transmutation
+  - anomalous-heat
+  - glow-discharge
+  - debt-candidate
+  notes: Anomalous heat with claimed absence of explanation — candidate debt as unexplained phenomenon.
+  relations:
+  - to: SC-AR04-037
+    kind: supports
+- id: SC-AR04-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Автором в заметке выдвинута гипотеза о том, что возможными инициаторами LENR и ХЯС при электрическом
+    разряде в водороде или гелии могут быть протонные зарядовые кластеры ядерных размеров, в которых отсутствуют
+    нейтроны.
+  statement_en: The author advances the hypothesis that possible initiators of LENR and CNF in an electric discharge
+    in hydrogen or helium can be proton charge clusters of nuclear size, in which neutrons are absent.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - LENR
+  - transmutation
+  - proton-clusters
+  - hypothesis
+  - debt-candidate
+  notes: Central hypothesis of the paper; neutron-free nuclear-size proton clusters are the suspect-physics core.
+  relations:
+  - to: SC-AR04-036
+    kind: derives
+- id: SC-AR04-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Последовательная теория, объясняющая возможную кратковременную локализацию одноимённых зарядов в ограниченной
+    области пространства, развита в [8] и для систем с однородной температурой базируется на уравнениях, которые
+    в обозначениях современного векторного анализа имеют вид (принята система CGS)
+  statement_en: A consistent theory explaining the possible short-term localization of like charges in a bounded
+    region of space is developed in [8] (Sapogin, 'Mechanisms of matter retention by a self-consistent field'),
+    and for systems with uniform temperature it is based on equations written in CGS units.
+  quantities: []
+  equations:
+  - \mathbf{E} + \mathbf{f} = 0
+  - \nabla\cdot\mathbf{E} = 4\pi\rho
+  - \mathbf{E} = -\nabla\varphi
+  - p = \rho kT/q = nkT
+  - \mathbf{f} = -\nabla p
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - gasostatics
+  - charge-clusters
+  notes: 'OCR-degraded: Greek/vector glyphs lost by pdftotext; equations reconstructed best-effort from context
+    (eqs. 1–5 of the source).'
+  relations: []
+- id: SC-AR04-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Первое уравнение системы представляет собой условие равновесия элементарного объема системы зарядов.
+    Второе  дифференциальная форма закона
+  statement_en: The first equation of the system represents the equilibrium condition of an elementary volume of
+    the charge system; the second is the differential form of the law (of Coulomb).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  notes: 'Sentence continues on p.3: ''…Кулона, позволяющая рассчитывать дивергентные статические поля размазанных
+    зарядов.'' (cross-page split by pdftotext).'
+  relations: []
+- id: SC-AR04-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Уравнение (3) дает связь потенциала с напряженностью электрического поля, а (4)  уравнение состояния
+    с однородной температурой. Уравнение (5) является определением газостатической силы Бернулли.
+  statement_en: Equation (3) gives the relation of the potential to the electric field strength, (4) is the equation
+    of state with uniform temperature, and equation (5) is the definition of the gasostatic Bernoulli force.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - gasostatics
+  notes: ''
+  relations: []
+- id: SC-AR04-011
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Из (6) видно, что эта же сила создается градиентом давления самосогласованного    поля G  E(  
+    E ) / 4 , противоположна ему по направлению, действует на массовую плотность зарядов, как и обычный градиент
+    давления, и в статических  равновесиях компенсирует действие объемной силы E , играющей роль объемной кулоновской
+    силы.
+  statement_en: Substituting the charge density from equation (2) into equation (1) gives f = −ρE = −E·div E/4π
+    = −G; the same force is created by the pressure gradient of the self-consistent field G = E·div E/4π, is opposite
+    to it in direction, acts on the mass density of charges like an ordinary pressure gradient, and in static equilibria
+    compensates the volume force ρE, which plays the role of the volume Coulomb force.
+  quantities: []
+  equations:
+  - \mathbf{f} = -\rho\mathbf{E} = -\mathbf{E}(\nabla\cdot\mathbf{E})/4\pi = -\mathbf{G}
+  - \mathbf{G} = \mathbf{E}(\nabla\cdot\mathbf{E})/4\pi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - field-pressure-gradient
+  - charge-clusters
+  notes: 'OCR-degraded: ρ and π glyphs lost in quote; equation (6) reconstructed best-effort.'
+  relations:
+  - to: SC-AR04-013
+    kind: supports
+- id: SC-AR04-012
+  type: physical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Компенсация указывает на неизвестное ранее свойство самосогласованного электрического поля удерживать
+    неоднородную систему одноименных зарядов в ограниченной области пространства силами неэлектромагнитного происхождения.
+  statement_en: 'This compensation points to a previously unknown property of the self-consistent electric field:
+    to hold a heterogeneous system of like charges in a bounded region of space by forces of non-electromagnetic
+    origin.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - charge-clusters
+  - non-electromagnetic-retention
+  - debt-candidate
+  notes: '''Forces of non-electromagnetic origin'' contradicting accepted electrodynamics — flagged for debt clustering.'
+  relations: []
+- id: SC-AR04-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Система коллективного взаимодействия зарядов находится в состоянии газостатического равновесия с самосогласованным
+    полем в том случае, когда равенство градиентов давлений поля и зарядов выполняется в любом элементарном объеме
+    системы.
+  statement_en: 'From (5) and (6) follows the retention condition and mechanism G = ∇p: the collective-interaction
+    system of charges is in a state of gasostatic equilibrium with the self-consistent field precisely when the
+    equality of the pressure gradients of the field and of the charges holds in any elementary volume of the system.'
+  quantities: []
+  equations:
+  - \mathbf{G} = \nabla p
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - gasostatics
+  - charge-clusters
+  notes: Equation reference (7); retention condition sentence 'Из (5) и (6) следуют условие и механизм удержания'
+    precedes the quote on the same page.
+  relations:
+  - to: SC-AR04-014
+    kind: derives
+- id: SC-AR04-014
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Исследование решений системы уравнений (15) указывает на принципиальную возможность существования ограниченных
+    в пространстве полых зарядовых кластеров. Самосогласованное поле системы формирует в них два типа атмосфер (рис.
+    1).
+  statement_en: 'Investigation of the solutions of system (1–5) indicates the fundamental possibility of the existence
+    of spatially bounded hollow charge clusters; the self-consistent field of the system forms two types of atmospheres
+    in them (external: charge density grows along the x axis; internal: charge density decreases along the x axis).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - hollow-clusters
+  - charge-clusters
+  notes: System reference rendered '(15)' in extracted text — original is '(1–5)' (dash glyph lost).
+  relations: []
+- id: SC-AR04-015
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: который является гамильтоновой функцией системы (далее  гамильтониан).
+  statement_en: For a one-component plane field E = [Ex(x),0,0], the equality of the pressure gradients (7) leads
+    to an integral of the full pressure E_x^2/8π − p = (φ′)²/8π − p(φ) = H(φ′,φ) = const, which is the Hamiltonian
+    function (the Hamiltonian) of the system.
+  quantities: []
+  equations:
+  - \frac{E_x^2}{8\pi} - p = \frac{(\varphi')^2}{8\pi} - p(\varphi) = H(\varphi',\varphi) = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamiltonian
+  - full-pressure-integral
+  notes: 'OCR-degraded: equation (8) glyph loss; reconstructed best-effort. Quote anchors the sentence following
+    equation (8).'
+  relations: []
+- id: SC-AR04-016
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: канонически сопряженными величинами являются обобщенный импульс   / 4 и обобщенная координата .
+  statement_en: In the Hamiltonian system the coordinate x plays the role of the generalized time (cyclic variable),
+    and the canonically conjugate quantities are the generalized momentum φ′/4π and the generalized coordinate φ.
+  quantities: []
+  equations:
+  - p_\varphi = \varphi'/4\pi
+  - q_\varphi = \varphi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamiltonian
+  - canonical-variables
+  notes: 'OCR-degraded: φ′ and π glyphs lost in quote.'
+  relations: []
+- id: SC-AR04-017
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: 'В каждой системе существует три типа равновесий зарядов с полем, соответствующих трем значениям полного
+    давления системы: положительному (давление поля больше давления зарядов), нулевому (давление поля равно давлению
+    зарядов) и отрицательному (давление поля меньше давления зарядов).'
+  statement_en: 'From the conservation law, a spectrum of possible distributions is realized in systems of like
+    charges; in each system there exist three types of charge-field equilibria corresponding to three values of
+    the full pressure: positive (field pressure greater than charge pressure), zero (equal), and negative (field
+    pressure less than charge pressure).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - equilibria
+  - full-pressure
+  notes: ''
+  relations: []
+- id: SC-AR04-018
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Из системы (1-5) легко получить уравнение самосогласованной электростатики неизлучающих зарядов. Для
+    этого в системе нужно всё выразить через потенциал и получить из (5), (3), (1) и (4) скалярный интеграл, из
+    которого последует функция распределения Больцмана.
+  statement_en: 'From system (1–5) one easily obtains the equation of self-consistent electrostatics of non-radiating
+    charges: expressing everything through the potential and substituting the Boltzmann distribution function into
+    the right-hand side of (2) gives Δφ = −4πρ₀ exp(∓eφ/kT), where σ is the sign of the single charge of the system
+    and e is the elementary charge.'
+  quantities: []
+  equations:
+  - \Delta\varphi = -4\pi\rho_0\,\exp(\mp e\varphi/kT)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-electrostatics
+  - boltzmann-distribution
+  - emden
+  - charge-clusters
+  notes: 'OCR-degraded: equation (9) glyphs (π, σ, exponent) lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR04-019
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: В плоской симметрии уравнение (9) имеет интеграл полного давления, который является гамильтоновой функцией
+    системы
+  statement_en: In plane symmetry equation (9) has an integral of full pressure which is the Hamiltonian of the
+    system; integrating (10) for the boundary condition φ(0) = φ′(0) = 0 yields the exact even solution y = ±ln(cos
+    ξ).
+  quantities: []
+  equations:
+  - \frac{(\varphi')^2}{8\pi} - p_0\exp(\mp e\varphi/kT) = H(\varphi',\varphi) = C = \mathrm{const}
+  - y = \pm\ln(\cos\xi)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plane-symmetry
+  - exact-solution
+  notes: 'OCR-degraded: equations (10), (11) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR04-020
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: В соотношениях (12) пространственный масштаб системы
+  statement_en: The normalization relations (12) introduce the spatial scale of the system l = (1/e)·sqrt(kT/(4πn₀))
+    and the potential scale φ* = 2kT/e.
+  quantities:
+  - l = (1/e)·sqrt(kT/(4πn₀))
+  - φ* = 2kT/e
+  equations:
+  - l = \frac{1}{e}\sqrt{\frac{kT}{4\pi n_0}}
+  - \varphi^* = 2kT/e
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - scales
+  - normalization
+  notes: 'OCR-degraded: equations (13), (14) partially lost (π glyph absent); reconstructed best-effort.'
+  relations: []
+- id: SC-AR04-021
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Уравнение (15) относится к классу модифицированного E – уравнения Эмдена [9]. Его столетнее исследование
+    показало, что оно не имеет точных аналитических решений в элементарных функциях.
+  statement_en: In spherical symmetry equation (9) takes the form x·y″ + 2y′ = ±α²·x·exp(±2y) with y(x) = ±φ(r)/φ*,
+    x = r/R, and state parameter α² = R²/l² = T*/T, characteristic temperature T* = 4πe²n₀R²/k; this equation belongs
+    to the class of the modified Emden equation, whose century-long study has shown that it has no exact analytical
+    solutions in elementary functions.
+  quantities: []
+  equations:
+  - x\,y'' + 2y' = \pm\alpha^2 x\,\exp(\pm 2y)
+  - \alpha^2 = R^2/l^2 = T^*/T
+  - T^* = 4\pi e^2 n_0 R^2/k
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - spherical-symmetry
+  - no-exact-solution
+  notes: 'OCR-degraded: equations (15)–(17) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR04-022
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Для граничных условий y( 1 )  0, y( 1 )  0 в [8] найдено его приближённое решение, которым можно
+    пользоваться для ограниченного диапазона значений параметра состояния (   3 , полый кластер с температурой
+    ниже характеристической).
+  statement_en: 'For the boundary conditions y(1) = 0, y′(1) = 0 an approximate solution was found in [8], usable
+    for a limited range of the state parameter (α ≥ 3: a hollow cluster with temperature below the characteristic
+    one); it gives the potential φ/φ* = ±ln[(αr/R)·sin A/√(α²−1)] with A = arcsin(√(α²−1)/α) − √(α²−1)·ln(r/R).'
+  quantities:
+  - 'validity: α ≥ 3'
+  equations:
+  - \frac{\varphi}{\varphi^*} = \pm\ln\!\left[\frac{\alpha r}{R}\,\frac{\sin A}{\sqrt{\alpha^2-1}}\right]
+  - A = \arcsin\!\left(\frac{\sqrt{\alpha^2-1}}{\alpha}\right) - \sqrt{\alpha^2-1}\,\ln\!\left(\frac{r}{R}\right)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - approximate-solution
+  - hollow-clusters
+  notes: 'OCR-degraded: α and ′ glyphs lost in quote; equations (18) reconstructed best-effort.'
+  relations: []
+- id: SC-AR04-023
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Нули синуса в решении (18) дают асимптоты, которые и являются границами пространства взаимодействия
+    кластера.
+  statement_en: 'The zeros of the sine in solution (18) give asymptotes which are the boundaries of the cluster
+    interaction space: the inner sphere boundary ln(r₁/R) = [arcsin(√(α²−1)/α) − π/2]/√(α²−1) and the outer sphere
+    boundary (r₂ > r₁) ln(r₂/R) = arcsin(√(α²−1)/α)/√(α²−1).'
+  quantities: []
+  equations:
+  - \ln\frac{r_1}{R} = \left[\arcsin\!\left(\frac{\sqrt{\alpha^2-1}}{\alpha}\right) - \frac{\pi}{2}\right]\big/\sqrt{\alpha^2-1}
+  - \ln\frac{r_2}{R} = \arcsin\!\left(\frac{\sqrt{\alpha^2-1}}{\alpha}\right)\big/\sqrt{\alpha^2-1}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - asymptotes
+  - cluster-boundaries
+  - hollow-clusters
+  notes: 'OCR-degraded: equations (19), (20) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR04-024
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Разлагая в (18) sin(A) в точке r1 (внутренняя асимптота) по малому параметру /r1 получим, что потенциал
+    в тонком слое, прилежащем к полости, обладает логарифмической особенностью
+  statement_en: 'Expanding sin(A) of solution (18) at the inner asymptote r₁ in the small parameter δ/r₁ shows that
+    the potential in the thin layer adjoining the cavity has a logarithmic singularity, and the concentration follows
+    from the Boltzmann distribution with a ~δ⁻² singularity: n/n₀ = R²/(α²δ²); the same asymptotic forms hold at
+    the outer asymptote r₂.'
+  quantities:
+  - concentration singularity ~ δ^-2
+  equations:
+  - \frac{\varphi}{\varphi^*} \simeq \pm\ln\frac{\alpha\delta}{R}
+  - \frac{n}{n_0} = \frac{R^2}{\alpha^2\delta^2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - singularity
+  - asymptotics
+  - hollow-clusters
+  notes: 'OCR-degraded: equations (21), (22) glyphs partially lost; (21) reconstructed best-effort.'
+  relations: []
+- id: SC-AR04-025
+  type: physical
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Как видно из (22), распределение зарядов в сферическом кластере оказывается таким, что самосогласованное
+    поле сваливает их основную часть в потенциальные бесконечно глубокие щели, которые до конца не заполнены.
+  statement_en: As follows from (22), the charge distribution in a spherical cluster is such that the self-consistent
+    field dumps the main part of the charges into potential infinitely deep gaps, which are not filled to the end.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-distribution
+  - potential-gaps
+  - charge-clusters
+  notes: ''
+  relations: []
+- id: SC-AR04-026
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Основной вклад в число частиц зарядового кластера вносят особенности концентрации на асимптотах.
+  statement_en: 'The main contribution to the number of particles of the charge cluster comes from the concentration
+    singularities at the asymptotes: N₁ ~ 4πn₀R²r₁²/(α²δ) at the inner asymptote and N₂ ~ 4πn₀R²r₂²/(α²δ) at the
+    outer asymptote; finally N/N* ~ (α/2β)·[(r₁/R)² + (r₂/R)²], with the particle-number scale N* = 8πn₀l³ and β
+    = δ/R ≪ 1 the parameter of relative emptiness of the gap filling.'
+  quantities:
+  - N* = 8πn₀l³
+  - β = δ/R ≪ 1
+  equations:
+  - N_1 \sim \frac{4\pi n_0 R^2 r_1^2}{\alpha^2\delta}
+  - N_2 \sim \frac{4\pi n_0 R^2 r_2^2}{\alpha^2\delta}
+  - \frac{N}{N^*} \sim \frac{\alpha}{2\beta}\left[\left(\frac{r_1}{R}\right)^2 + \left(\frac{r_2}{R}\right)^2\right]
+  - N^* = 8\pi n_0 l^3
+  - \beta = \delta/R \ll 1
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - particle-number
+  - asymptotics
+  notes: 'OCR-degraded: equations (23)–(27) glyphs partially lost; reconstructed best-effort.'
+  relations:
+  - to: SC-AR04-029
+    kind: derives
+  - to: SC-AR04-030
+    kind: derives
+- id: SC-AR04-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Полученные соотношения были использованы для оценок числа зарядов, удерживаемых в электронном кластере
+    микронных размеров Шоулдерса [1], и дали хорошее совпадение при β=10-6.
+  statement_en: The obtained relations were used to estimate the number of charges retained in Shoulders' micron-size
+    electron cluster and gave good agreement at β = 10⁻⁶.
+  quantities:
+  - β = 10^-6 (fit)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: emptiness parameter β fit to Shoulders cluster
+    value: 1e-6
+    unit: dimensionless
+    conditions: agreement of N/N* estimate with observed 10^8–10^11 electrons
+  schematic_refs: []
+  tags:
+  - charge-clusters
+  - EV
+  - Shoulders
+  - model-validation
+  notes: ''
+  relations:
+  - to: SC-AR04-002
+    kind: supports
+- id: SC-AR04-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Распространим полученные результаты на пространственные размеры порядка ядерных (1 ферми=10-13 см).
+  statement_en: 'The obtained results are extended to spatial sizes of the order of nuclear ones (1 fermi = 10⁻¹³
+    cm): the tables give the number of protons retained by the charge cluster with minimal concentration n₀ (taken
+    on the sphere of zero field pressure) for temperatures from 500 K to 2000 K.'
+  quantities:
+  - 1 fermi = 10^-13 cm
+  - T = 500–2000 K
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 1
+  - Таблица 2
+  tags:
+  - proton-clusters
+  - nuclear-size
+  - transmutation
+  notes: 'OCR-degraded: superscript flattened (10-13 = 10⁻¹³).'
+  relations: []
+- id: SC-AR04-029
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: 'В расчётах для табл. 1 принято: параметр состояния =3, а параметр относительной пустоты заполнения
+    щели β=10-7. В этой же таблице, после вертикальной черточки проставлены радиусы r2 получившихся протонных ядер
+    в ферми. Известно, что радиус ядра никеля около 5 ферми.'
+  statement_en: For Table 1 the calculations use state parameter α = 3 and relative-emptiness parameter β = 10⁻⁷;
+    the number of protons retained by the cluster ranges from 2 to 58 for n₀ from 2·10³⁰ to 14·10³⁰ cm⁻³ and T from
+    500 K to 2000 K, with the radii r₂ of the resulting proton nuclei (in fermi) given after the vertical bar, from
+    2.7 to 14.3 fermi; the radius of the nickel nucleus is known to be about 5 fermi.
+  quantities:
+  - α = 3
+  - β = 10^-7
+  - N = 2…58 protons (Table 1)
+  - r2 = 2.7…14.3 fermi
+  - n0 = 2·10^30…14·10^30 cm^-3
+  - T = 500…2000 K
+  - nickel nucleus radius ≈ 5 fermi
+  equations: []
+  materials: []
+  geometry:
+  - 'proton cluster radii r2: 2.7–14.3 fermi (Table 1)'
+  procedure_steps: []
+  measurements:
+  - quantity: protons held by hollow cluster (α=3, β=1e-7)
+    value: 2–58
+    unit: protons
+    conditions: n0 = 2·10^30…14·10^30 cm^-3, T = 500–2000 K
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - proton-clusters
+  - nuclear-size
+  - transmutation
+  - debt-candidate
+  notes: 'OCR-degraded: α glyph lost before ''=3''; superscripts flattened. Interpretation of computed counts as
+    ''proton nuclei'' is suspect physics — flagged.'
+  relations: []
+- id: SC-AR04-030
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 10
+  quote_ru: В таблице 2 те же расчёты выполнены для параметра состояния =10.
+  statement_en: 'Table 2 repeats the same calculations for state parameter α = 10: the number of protons retained
+    by the cluster ranges from 7 to 152 with radii r₂ from 7 to 36 fermi over the same grid n₀ = 2·10³⁰–14·10³⁰
+    cm⁻³, T = 500–2000 K.'
+  quantities:
+  - α = 10
+  - N = 7…152 protons (Table 2)
+  - r2 = 7…36 fermi
+  equations: []
+  materials: []
+  geometry:
+  - 'proton cluster radii r2: 7–36 fermi (Table 2)'
+  procedure_steps: []
+  measurements:
+  - quantity: protons held by hollow cluster (α=10, β=1e-7)
+    value: 7–152
+    unit: protons
+    conditions: n0 = 2·10^30…14·10^30 cm^-3, T = 500–2000 K
+  schematic_refs:
+  - Таблица 2
+  tags:
+  - proton-clusters
+  - nuclear-size
+  - transmutation
+  - debt-candidate
+  notes: 'OCR-degraded: α glyph lost before ''=10''.'
+  relations: []
+- id: SC-AR04-031
+  type: physics
+  facet: theory
+  priority: core
+  page: 11
+  quote_ru: существует такой класс коллективного взаимодействия между одноименными зарядами динамической системы,
+    в котором возникает обратное действие макроскопического самосогласованного поля на заряды, порождающие это поле;
+  statement_en: There exists a class of collective interaction between like charges of a dynamical system in which
+    the reverse action of the macroscopic self-consistent field on the charges generating that field arises.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - self-consistent-field
+  - collective-interaction
+  - charge-clusters
+  notes: Conclusion bullet 1.
+  relations: []
+- id: SC-AR04-032
+  type: physics
+  facet: theory
+  priority: core
+  page: 11
+  quote_ru: обратное действие поля на заряды при таком взаимодействии всегда приводит к появлению удерживающей объемной
+    плотности газостатических сил полевого происхождения, которая связана с градиентом давления самосогласованного
+    поля, совпадает с ним по величине и противоположна ему по направлению;
+  statement_en: In this class of interaction the reverse action of the field on the charges always leads to the
+    appearance of a retaining volume density of gasostatic forces of field origin, which is connected with the pressure
+    gradient of the self-consistent field, equal to it in magnitude and opposite in direction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gasostatics
+  - retention-forces
+  - charge-clusters
+  notes: Conclusion bullet 2.
+  relations: []
+- id: SC-AR04-033
+  type: physics
+  facet: theory
+  priority: core
+  page: 11
+  quote_ru: двухпараметрическая теория оказывается универсальной и предсказывает существование полых зарядовых кластеров
+    с радиусами от сантиметровых масштабов до ядерных;
+  statement_en: The two-parameter theory turns out to be universal and predicts the existence of hollow charge clusters
+    with radii from centimeter scales down to nuclear ones.
+  quantities:
+  - 'cluster radii: from centimeter scales to nuclear'
+  equations: []
+  materials: []
+  geometry:
+  - 'hollow cluster radii: cm scale down to nuclear scale'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hollow-clusters
+  - universality
+  - charge-clusters
+  notes: Conclusion bullet 5.
+  relations: []
+- id: SC-AR04-034
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: =3 и =10 при значении параметра относительной пустоты заполнения щели β=10-7 может изменяться от 2
+    до 152 при радиусах кластера, изменяющихся от 2,7 ферми до 36 ферми;
+  statement_en: It is shown that the number of protons in clusters without neutrons, for state parameters α = 3
+    and α = 10 at relative-emptiness parameter β = 10⁻⁷, can vary from 2 to 152 with cluster radii varying from
+    2.7 fermi to 36 fermi.
+  quantities:
+  - N = 2…152 protons
+  - radii = 2.7…36 fermi
+  - β = 10^-7
+  - α = 3 and α = 10
+  equations: []
+  materials: []
+  geometry:
+  - 'cluster radii: 2.7–36 fermi'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - proton-clusters
+  - neutron-free
+  - transmutation
+  - debt-candidate
+  notes: 'Conclusion bullet 7; OCR-degraded: α glyphs lost before ''=3'' and ''=10''.'
+  relations:
+  - to: SC-AR04-029
+    kind: generalizes
+- id: SC-AR04-035
+  type: physical
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: поскольку протонные зарядовые кластеры имеют радиусы порядка ферми, то и время их высвечивания должно
+    значительно превышать времена жизни микронных кластеров Шоулдерса;
+  statement_en: Since proton charge clusters have radii of the order of a fermi, their flash-out (decay) time must
+    significantly exceed the lifetimes of Shoulders' micron-size clusters.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - proton-clusters
+  - lifetime
+  - debt-candidate
+  notes: Conclusion bullet 8; lifetime extrapolation across 4+ orders of magnitude in size — suspect, flagged.
+  relations: []
+- id: SC-AR04-036
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: существование протонных кластеров ядерных размеров в электрическом разряде водорода, гелия или их смеси
+    может инициировать большое количество неизвестных безнейтронных ядерных реакций, которые могут вызывать трансмутации
+    как в самой плазме, так и внутри материала катода.
+  statement_en: The existence of proton clusters of nuclear size in an electric discharge in hydrogen, helium or
+    their mixture can initiate a large number of unknown neutron-free nuclear reactions, which can cause transmutations
+    both in the plasma itself and inside the cathode material.
+  quantities: []
+  equations: []
+  materials:
+  - H2/He discharge gas
+  - cathode material
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - LENR
+  - transmutation
+  - proton-clusters
+  - glow-discharge
+  - cathode
+  - debt-candidate
+  notes: Conclusion bullet 9 — central transmutation claim.
+  relations:
+  - to: SC-AR04-007
+    kind: derives
+- id: SC-AR04-037
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: изложенный механизм инициализации неизвестных реакций протонными зарядовыми кластерами ядерных размеров
+    может объяснить наблюдаемое в газовом разряде спорадическое аномальное выделение тепловой энергии.
+  statement_en: The described mechanism of initiation of unknown reactions by proton charge clusters of nuclear
+    size can explain the sporadic anomalous release of thermal energy observed in a gas discharge.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - anomalous-heat
+  - LENR
+  - gas-discharge
+  - proton-clusters
+  - debt-candidate
+  notes: Conclusion bullet 10.
+  relations:
+  - to: SC-AR04-006
+    kind: supports

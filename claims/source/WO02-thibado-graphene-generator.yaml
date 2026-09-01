@@ -1,0 +1,708 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: WO02
+  section: works
+  title_ru: Вечный генератор энергии на графене профессора П.М.Тибадо
+  title_en: The perpetual energy generator on graphene of professor P.M. Thibado
+  file: papers/works/vechnyy-generator-energii-na-grafene-professora-p-m-tibado.pdf
+  source_url: http://146.190.233.254/docs/works/Вечный генератор энергии на графене профессора П.М.Тибадо.pdf
+  md5: 93fb12a0dffb7103278a7cdc7928dcd6
+  pages_total: 7
+  retrieved: '2026-09-01'
+claims:
+- id: SC-WO02-001
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: 'Основной смысл предлагаемого технического устройства заключается в том, что команда профессора P.M.Thibado
+    обнаружила новое физическое явление: тепловое движение графена может генерировать в цепи флуктуационно-индукционный
+    ток, который в дальнейшем можно использовать в качестве вечного генератора электрической энергии.'
+  statement_en: 'In February 2020 the journal Physical Review E published professor P. Thibado''s article ''Fluctuation-induced
+    current from freestanding graphene: toward nanoscale energy harvesting''; the main sense of the proposed technical
+    device is that Thibado''s team discovered a new physical phenomenon: the thermal motion of graphene can generate
+    a fluctuation-induction current in a circuit which can subsequently be used as a perpetual generator of electric
+    energy.'
+  quantities: []
+  equations: []
+  materials:
+  - graphene
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thibado
+  - graphene
+  - fluctuation-induced-current
+  - perpetual-generator
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO02-002
+  type: physical
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Внутри плазмы при комнатной температуре могут возникать различные неустойчивости, которые приводят к
+    генерации отдельных зарядовых кластеров (пузырьков зарядов) наноскопических размеров, состоящих из электронов.
+  statement_en: 'A heated freestanding graphene film is always in continuous mechanical motion; the cause is simple:
+    the thermal motion of the graphene plasma constantly redistributes in space and time the positions of electrons
+    around the ions of the crystal lattice; inside the plasma at room temperature various instabilities can arise
+    leading to the generation of individual charge clusters (bubbles of charges) of nanoscopic sizes consisting
+    of electrons; they generate collective electric fields which act on the crystal-lattice ions and lead to continuous
+    stochastic motion of its surface; the charge bubbles arising in graphene can apparently be observed by illuminating
+    the film through with rays of the visible spectrum of various wavelength.'
+  quantities: []
+  equations: []
+  materials:
+  - graphene film
+  geometry:
+  - charge bubbles of nanoscopic sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - graphene-plasma
+  - charge-bubbles
+  - EVO-generation
+  - debt-candidate
+  notes: Author's reinterpretation of graphene thermal motion via charge bubbles.
+  relations: []
+- id: SC-WO02-003
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Когда инженеры-физики наложили поперёк плёнки графена однородное электрическое поле, то они спровоцировали
+    в плёнке плазменную неустойчивость, которая развивалась поперёк плёнки.
+  statement_en: When engineer-physicists applied a uniform electric field across the graphene film they provoked
+    in the film a plasma instability developing across the film; it manifested itself in strongly inhomogeneous
+    charge regions forming in the graphene; these inhomogeneous electron regions aligned across the graphene film
+    creating structures of dipole electric moments of different directions; the values of the electric moments differed
+    on passing from one microregion of the film to another; they fluctuated in time creating in the whole film a
+    total dipole moment which changed its direction in space and time; the resulting chaotic electric field generated
+    by the integral dipole moment strongly depended on the seed value of the external DC electric field strength.
+  quantities: []
+  equations: []
+  materials:
+  - graphene film
+  geometry:
+  - inhomogeneous charge regions aligned across the film
+  procedure_steps:
+  - apply uniform electric field across graphene film
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plasma-instability
+  - dipole-moments
+  - graphene
+  notes: ''
+  relations: []
+- id: SC-WO02-004
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Первый случай реализовался тогда, когда электрическая энергия, запасённая в элементарном плазменном
+    слое, была порядка его тепловой энергии.
+  statement_en: 'Two different cases of dipole-moment distribution were discovered in principle: the first case
+    was realized when the electric energy stored in the elementary plasma layer was of the order of its thermal
+    energy — in this case the thermal energy made the electric moment of the dipole change chaotically in time and
+    space, which changed the magnitude of the bending deformation of the film caught in the field, and it swayed
+    randomly in time constantly changing its distance relative to the second conducting electrode; the second case
+    of large electric fields stored in the film electric energy orders of magnitude greater than thermal; the dipole
+    structures oriented mainly in one direction and practically did not depend on time; the process of transferring
+    thermal energy to them did not lead to a change of their dipole moment in space; the bending deformation of
+    the film was static and did not allow strongly changing its distance relative to the second conducting electrode.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dipole-structures
+  - energy-ratio
+  - graphene
+  notes: ''
+  relations: []
+- id: SC-WO02-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: 'Они обнаружили экспериментально новое физическое явление, которое возникает в плазме графена, при наложении
+    на него внешнего статического электрического поля. Это явление может иметь название: «Плазменная неустойчивость
+    плёнки графена в поперечном статическом электрическом поле».'
+  statement_en: 'In this sense the researchers can be congratulated: they discovered experimentally a new physical
+    phenomenon arising in the graphene plasma when an external static electric field is applied to it; this phenomenon
+    can be named ''Plasma instability of a graphene film in a transverse static electric field''; but unfortunately
+    the Hamiltonian formalism given in the article has no relation to describing the mentioned effect; here one
+    needs to seek the laws of conversion of the external static field energy into the energy of chaotic oscillations
+    of the plasma dipole moment; from which laws of physics they can be found is not yet clear.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - new-phenomenon
+  - hamiltonian-critique
+  notes: ''
+  relations: []
+- id: SC-WO02-006
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Теоретически он был открыт гением Максвелла.
+  statement_en: The plasma instability allowed revealing one more phenomenon little known to the wide circle of
+    researchers of plasma electrodynamics, which the author calls the law of electrodynamical induction (not to
+    be confused with the law of electromagnetic induction); theoretically it was discovered by the genius Maxwell;
+    the appearance on an electrode of a capacitor consisting of a graphene film of a chaotically changing dipole
+    moment led to the generation around it of an electric induction forming a displacement current; i.e. the change
+    in time of the dipole moment in the graphene volume created a Maxwell displacement current which closed through
+    the vacuum to the second electrode and generated in it a chaotically changing dipole moment of another direction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrodynamical-induction
+  - maxwell
+  - displacement-current
+  - debt-candidate
+  notes: Author's 'law of electrodynamical induction' doctrine.
+  relations: []
+- id: SC-WO02-007
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Закон электродинамической индукции приводил к тому, что заряды на обкладках конденсатора уже создавали
+    свой наведённый дипольный момент.
+  statement_en: 'The law of electrodynamical induction led to the charges on the capacitor plates already creating
+    their own induced dipole moment; further, the displacement currents closed onto the source through the conduction
+    currents arising in the circuit; a closed circuit formed in which two ''electromotive forces for current'' arose
+    as it were: one converted the conduction current arriving from the source into a displacement current, and the
+    other converted the displacement current at the other electrode into a conduction current.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrodynamical-induction
+  - closed-circuit
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO02-008
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: В (2) ток смещения Максвелла iM через поверхность вокруг источников определён скоростью изменения потока
+     вектора электрической индукции D .
+  statement_en: In the general physics course this law is written in differential form j = ∂D/∂t (1), where D is
+    the electric induction vector generated by the region in which the dipole electric moment changes; multiplying
+    both sides of (1) by ds and integrating over the area S covering the whole volume occupied by the variable electric
+    moment of all dipoles gives the unexpected integral notation iM = ∫j·ds = dΦ/dt = ∫(∂D/∂t)·ds (2); in (2) the
+    Maxwell displacement current iM through the surface around the sources is determined by the rate of change of
+    the flux of the electric induction vector D.
+  quantities: []
+  equations:
+  - \mathbf{j} = \partial\mathbf{D}/\partial t
+  - i_M = \int_S \mathbf{j}\,d\mathbf{s} = \frac{d\Phi}{dt} = \int_S \frac{\partial\mathbf{D}}{\partial t}\,d\mathbf{s}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - displacement-current
+  - integral-form
+  notes: 'OCR-degraded: vector glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-WO02-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Записанный в виде (2) электродинамический закон очень похож на закон электромагнитной индукции.
+  statement_en: Written in the form (2) the electrodynamical law is very similar to the law of electromagnetic induction;
+    such a canonical notation indicates the reality of the generation of Maxwell displacement current into vacuum
+    by a variable flux of electric induction through any closed surface surrounding sources in the form of variable
+    dipole moments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - displacement-current
+  notes: ''
+  relations: []
+- id: SC-WO02-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Этот факт подтверждается в любых антенных устройствах, предназначенных для генерации электромагнитных
+    волн, и проявляет себя в упомянутых экспериментах.
+  statement_en: This law allows understanding that unfamiliar fact of electrodynamical phenomena that any time changes
+    of the dipole moment generate variable fields around themselves which create variable charges on the conducting
+    plates; these charges become sources of variable fields and currents in the conductors onto which these displacement
+    currents will be closed; this fact is confirmed in any antenna devices intended for the generation of electromagnetic
+    waves and manifests itself in the mentioned experiments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - antennas
+  - dipole-radiation
+  notes: ''
+  relations: []
+- id: SC-WO02-011
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 4
+  quote_ru: такого источника к диодным структурам фиксировали наличие хаотического индукционного тока, перешедшего
+    в ток проводимости.
+  statement_en: The capacitor in this regime becomes a capacitor with a chaotically changing charge on its plates;
+    a capacitor with a graphene plate turns into a source of fluctuating charge thanks to the law of electrodynamical
+    induction; connecting such a source to diode structures registered the presence of a chaotic induction current
+    passed into a conduction current; in the second case such a current did not arise in the system because the
+    resultant dipole moment was inhomogeneous but practically did not depend on time.
+  quantities: []
+  equations: []
+  materials:
+  - diode structures
+  geometry: []
+  procedure_steps:
+  - connect the fluctuating-charge source to diode structures
+  - register chaotic induction current converted into conduction current
+  measurements: []
+  schematic_refs: []
+  tags:
+  - diode-rectification
+  - fluctuating-charge
+  notes: ' Sentence starts on p.3 (''Подключение'') — cross-page split.'
+  relations: []
+- id: SC-WO02-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Им показалось, что они нашли новый принцип преобразования электрической энергии. И на этом принципе
+    предложили создавать наноразмерные шумовые источники энергии.
+  statement_en: That the bending oscillations of graphene arising from the plasma instability turned the capacitor
+    into a source of chaotic current was an important finding for the researchers; it seemed to them that they had
+    found a new principle of electric energy conversion, and on this principle they proposed creating nanoscale
+    noise sources of energy.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - noise-energy-sources
+  notes: ''
+  relations: []
+- id: SC-WO02-013
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Недостаток заключался в том, что для создания флуктуационно-индуцированного тока в неустойчивой плазме
+    всегда требуется наличие источника постоянного тока. Без него неустойчивость плазмы возникнуть не может.
+  statement_en: 'But the researchers did not notice one flaw of the physical effect they discovered: the flaw was
+    that for creating a fluctuation-induced current in the unstable plasma the presence of a DC current source is
+    always required; without it the plasma instability cannot arise; i.e. for maintaining the energy-generation
+    effect an external DC current source must be used.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - external-source-requirement
+  - critique
+  notes: Author's critique of Thibado's perpetual-generator claim.
+  relations: []
+- id: SC-WO02-014
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Всем понятно, что эффект будет представлять значительный интерес, с точки зрения создания генераторов
+    энергии длительного действия, только тогда, когда упомянутый коэффициент преобразования мощности окажется больше
+    единицы.
+  statement_en: Indeed, at least for persuasiveness, it was necessary to measure the coefficient of conversion of
+    the DC source power into the power of the fluctuation-induction current; it is clear to everyone that the effect
+    will be of significant interest, from the point of view of creating long-duration energy generators, only when
+    the mentioned power conversion coefficient turns out greater than unity; only after that can the discovered
+    physical effect be classified as a perpetual source of inexhaustible energy; we cannot classify the huge number
+    of AC generators built by engineers using mains voltage as sources of inexhaustible energy — their AC power
+    conversion coefficient is less than unity.
+  quantities:
+  - conversion coefficient must exceed unity
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - power-conversion-coefficient
+  - critique
+  notes: ''
+  relations: []
+- id: SC-WO02-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Токовая неустойчивость приведёт к дополнительной раскачке тока в контуре. Затем она выйдет в насыщение.
+  statement_en: 'The law in the form (2) can only suggest a definition of the possibility of the existence of such
+    sources: one needs to create a region in which the dipole moment of the substance changes periodically; this
+    moment will generate the corresponding displacement currents; the displacement currents will hit the corresponding
+    plates of a capacitor; the capacitor plates will become an element of a series LCR circuit tuned to the current
+    instability; the current instability will lead to additional pumping of the current in the circuit, then it
+    will reach saturation; on the circuit inductance one will have an alternating current, part of whose energy
+    must be returned to pumping the initial dipole moment of the substance and part transferred to the consumer;
+    this necessity leads to all continuously supplied sources of energy being closed energy chains in which there
+    are interconnected ''MOTOR'' and ''GENERATOR''; the details of organizing closed energy chains (CEC technologies)
+    can be found in [1].'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - create region with periodically changing dipole moment
+  - couple displacement currents into capacitor plates
+  - close plates into series LCR circuit tuned to current instability
+  - reach saturation
+  - split energy between re-pumping and consumer
+  measurements: []
+  schematic_refs: []
+  tags:
+  - closed-energy-chains
+  - LCR-circuit
+  - current-instability
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO02-016
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Макроскопические конденсаторы, использующие закон электродинамической индукции, были реализованы исследователями
+    в последние 80 лет в технологиях создания различных варикапов.
+  statement_en: 'Macroscopic capacitors using the law of electrodynamical induction were realized by researchers
+    in the last 80 years in the technologies of creating various varicaps; in the first varicaps mechanical variation
+    of capacitance was used: the rotor part of the conducting plates of the capacitor was rotated by a motor around
+    the fixed stator part.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - rotor plates rotating around fixed stator
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicaps
+  - mechanical-capacitance
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO02-017
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 5
+  quote_ru: Они создали первый механо-электрический преобразователь, выходное напряжение которого подключили в схему
+    последовательного колебательного RLC - контура с токовой неустойчивостью. Это позволило им достигнуть напряжения
+    на варикапе около 5 кВ уже в 50-х годах прошлого века.
+  statement_en: In Russia the pioneers of the research of such capacitance were the academicians Mandelshtam and
+    Papaleksi in the 1950s of the last century; they created the first mechano-electric converter whose output voltage
+    was connected into a series oscillating RLC circuit with current instability; this allowed them to achieve a
+    voltage on the varicap of about 5 kV already in the 1950s.
+  quantities:
+  - varicap voltage ~ 5 kV
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: voltage on varicap
+    value: '5'
+    unit: kV
+    conditions: Mandelshtam-Papaleksi mechano-electric converter, series RLC circuit with current instability, 1950s
+  schematic_refs: []
+  tags:
+  - mandelshtam-papaleksi
+  - mechano-electric
+  - current-instability
+  notes: ''
+  relations: []
+- id: SC-WO02-018
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 5
+  quote_ru: 15 лет назад в неопубликованных экспериментах В.А.Джанибекова- Л.Г.Сапогина было получено выпрямленное
+    напряжение порядка 10 В на конденсаторе, состоящего из двух дюралевых пластин (одна покоилась, а другая вращалась
+    с постоянной угловой скоростью).
+  statement_en: 15 years ago in unpublished experiments of V.A. Dzhanibekov and L.G. Sapogin a rectified voltage
+    of the order of 10 V was obtained on a capacitor consisting of two duralumin plates (one rested while the other
+    rotated with constant angular speed); the cylindrical plates had 16 radial slots each and were loaded on an
+    oscillating circuit without a power source; the voltage depended on frequency and appeared at rotation of the
+    rotor plate at any frequency.
+  quantities:
+  - rectified voltage ~ 10 V
+  - 16 radial slots per plate
+  equations: []
+  materials:
+  - duralumin plates
+  geometry:
+  - cylindrical plates with 16 radial slots
+  procedure_steps:
+  - rotate one duralumin plate at constant angular speed opposite a resting plate
+  - load capacitor onto oscillating circuit without power source
+  measurements:
+  - quantity: rectified voltage
+    value: '10'
+    unit: V
+    conditions: rotating-slot duralumin capacitor, oscillating circuit without power source
+  schematic_refs: []
+  tags:
+  - dzhanibekov
+  - rotating-capacitor
+  - unpublished-experiment
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO02-019
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Фактически была сделана проверка теоретического закона электродинамической индукции в форме (2).
+  statement_en: By this method nobody had yet obtained an alternating electric voltage; in fact a check of the theoretical
+    law of electrodynamical induction in the form (2) was made; in this capacitance design the displacement-current
+    density had a radial component due to the centrifugal separation of charges in the rotating plate; the displacement
+    current closed through the vacuum and returned to the second plate creating the necessary alternating electric
+    field of the capacitor which was registered by instruments.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - radial displacement-current component
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrodynamical-induction
+  - displacement-current
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO02-020
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 5
+  quote_ru: Гениальный швейцарский инженер Поль Бауман [3] в своей машине «Тестатика» (1970 г.) сумел создать на
+    прототипе электрофорной машины Д. Вимшурста (machine J.Wimshurst, 1883) механическую ёмкость с самовращением
+    (то есть совместить «Мотор» с «Генератором»).
+  statement_en: The brilliant Swiss engineer Paul Baumann in his 'Testatica' machine (1970) managed to create, on
+    the prototype of the Wimshurst electrostatic machine (1883), a mechanical capacitance with self-rotation (i.e.
+    to combine the 'Motor' with the 'Generator'); this improvement allowed him to build the first on earth mechanical
+    alternating-current generator of long duration not requiring energy input from outside; he managed to create
+    several variants of working devices with electric power in the range from 300 W to 10 kW.
+  quantities:
+  - power range 300 W to 10 kW
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatica
+  - baumann
+  - perpetual-generator
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO02-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Изучение феномена П.Баумана показало, что избыточную энергию в его машине создают физические процессы
+    синтеза/распада микроскопических пузырьков заряда.
+  statement_en: The study of the Baumann phenomenon showed that the excess energy in his machine is created by the
+    physical processes of synthesis/decay of microscopic charge bubbles; they form at high voltages in the gap between
+    the radial electrode of the rotor and the П-shaped capacitor through which the electrode flies; in the electrode
+    gap the electrodynamical induction again arises which drives the electric circuit into the state of current
+    instability; a monograph [4] about this physical process of energy extraction has been published.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - gap between rotor radial electrode and П-shaped capacitor
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-bubbles
+  - synthesis-decay
+  - testatica
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO02-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Предлагаемый в статье профессора П.М.Тибадо конденсатор с обкладкой в виде графеновой плёнки отличается
+    от конденсаторов механического вращения своей неподвижностью.
+  statement_en: The capacitor proposed in professor Thibado's article with a plate in the form of a graphene film
+    differs from mechanical-rotation capacitors by its immobility; this advantage allows proposing a change of the
+    device design for realizing a source of excess energy with the closed energy chain technology in which there
+    will be no moving parts.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - graphene-capacitor
+  - closed-energy-chain
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO02-023
+  type: physics
+  facet: procedure
+  priority: core
+  page: 6
+  quote_ru: На рис. 1 представлен вариант взаимно перпендикулярного расположения двух конденсаторов.
+  statement_en: 'Fig. 1 presents a variant of mutually perpendicular arrangement of two capacitors: the first capacitor
+    1-2 with the graphene film must be connected into a series oscillating LCR circuit with parameters leading to
+    current instability; part of the alternating voltage is returned from the circuit back into the capacitor 3-4
+    made of ordinary conducting plates; a pulse-periodic startup of the circuit operation is provided; at the appearance
+    of alternating voltage on the terminals 3-4 an electric instability of the graphene plasma arises along the
+    film; at large voltages it will not contain a chaotic component; an oscillating dipole moment appears in the
+    film; it generates a Maxwell current and throws it onto the terminals 1-2; the voltage in the circuit also becomes
+    alternating; after the oscillation process is established and the exit from instability, the alternating voltage
+    source must be switched off keeping the circuit connections; the circuit enters a stationary oscillation of
+    the whole closed energy chain; part of the energy must be taken and returned via a transformer circuit assembled
+    on the LCR circuit inductance onto the plates 3-4.'
+  quantities: []
+  equations: []
+  materials:
+  - graphene film
+  - ordinary conducting plates
+  geometry:
+  - mutually perpendicular capacitors
+  procedure_steps:
+  - arrange two capacitors mutually perpendicular
+  - connect graphene-film capacitor 1-2 into series LCR circuit tuned to current instability
+  - return part of AC voltage to capacitor 3-4
+  - provide pulse-periodic startup
+  - after oscillations establish, switch off external AC source keeping connections
+  - feed back part of energy from transformer circuit on L inductance to plates 3-4
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - device-design
+  - closed-energy-chain
+  - graphene
+  - perpetual-generator
+  - debt-candidate
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO02-024
+  type: physics
+  facet: geometry
+  priority: normal
+  page: 7
+  quote_ru: Возможна и продольная ориентация конденсаторов. Пластины 3-4 окружают снаружи пластины 1-2.
+  statement_en: 'A longitudinal orientation of the capacitors is also possible: the plates 3-4 surround the plates
+    1-2 from outside; in this case the oscillating dipole moments are oriented along the system axis; the maximum
+    density of the Maxwell displacement current is on the system axis.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - plates 3-4 surrounding plates 1-2 from outside
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - geometry
+  - displacement-current
+  notes: ''
+  relations: []
+- id: SC-WO02-025
+  type: physics
+  facet: measurement
+  priority: core
+  page: 7
+  quote_ru: Мощность, даваемая таким устройством при 100-омной нагрузке, можно оценить порядка 10-18 Вт.
+  statement_en: 'The flaw of the proposed design of the perpetual energy generator is its small size: all the electrons
+    of the graphene film, of which there are very few, can be driven into oscillation; the power delivered by such
+    a device at a 100-ohm load can be estimated at about 1e-18 W; this terrible shortcoming can be overcome by replacing
+    the proposed construction with macroscopic conducting plates of centimeter sizes; the power of such a device
+    will immediately increase 1e20 times; it would be impossible to assemble it by creating that number of nanoscale
+    energy sources.'
+  quantities:
+  - power at 100-ohm load ~ 1e-18 W
+  - macroscopic plates increase power 1e20 times
+  equations: []
+  materials: []
+  geometry:
+  - macroscopic plates of centimeter sizes
+  procedure_steps: []
+  measurements:
+  - quantity: estimated output power
+    value: 1e-18
+    unit: W
+    conditions: graphene device, 100-ohm load
+  schematic_refs: []
+  tags:
+  - power-estimate
+  - scaling
+  - debt-candidate
+  notes: 'OCR-degraded: superscripts flattened (10-18 = 1e-18; 1020 = 1e20).'
+  relations: []

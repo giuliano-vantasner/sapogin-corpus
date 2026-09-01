@@ -1,0 +1,645 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: MO01
+  section: monography
+  title_ru: Интегральные индуктивности с высокой симметрией
+  title_en: Integrated inductances with high symmetry
+  file: papers/monography/integralnye-induktivnosti-s-vysokoy-simmetriey.pdf
+  source_url: http://146.190.233.254/docs/monography/Интегральные индуктивности с высокой симметрией.pdf
+  md5: 49467108c5be8a662bfea911750cb3bc
+  pages_total: 234
+  retrieved: '2026-08-31'
+claims:
+- id: SC-MO01-001
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 7
+  quote_ru: Применение технологии GaAs и сапфировых кристаллов к концу 80-х гг. позволило создать спиральные
+    индуктивности порядка 25 нГн
+  statement_en: 'The monograph reports the state of the art: late-1980s GaAs and sapphire technology produced
+    spiral inductors of about 25 nH with self-resonance frequency above 3 GHz and geometrical sizes up
+    to 500 um; a planar silicon-crystal inductor gave self-resonance at 2.47 GHz at nominal value 9.3
+    nH, with square flat shape, nine turns, 230 um linear size, 6.5 um conductor width and 5.5 um strip
+    spacing, and maximum Q equal to 3; early-1990s 3D integral structure modeling led to CMOS planar inductors
+    — for a low-noise 800-900 MHz amplifier a two-metal-layer silicon spiral inductance of tens to hundreds
+    nH with about 2 um thickness was realized.'
+  quantities:
+  - ~25 нГн, >3 ГГц, до 500 мкм
+  - 2,47 ГГц при 9,3 нГн
+  - 230 мкм, 9 витков
+  - ширина 6,5 мкм
+  - зазор 5,5 мкм
+  - Q = 3
+  - 800–900 МГц
+  - ~2 мкм толщина
+  equations: []
+  materials:
+  - GaAs
+  - сапфир
+  - кремний
+  - два слоя металла
+  geometry:
+  - square spiral 230 um, 9 turns
+  procedure_steps: []
+  measurements:
+  - quantity: maximum quality factor of silicon planar inductor
+    value: '3'
+    unit: ''
+    conditions: 9.3 nH, 2.47 GHz self-resonance
+  schematic_refs: []
+  tags:
+  - planar-inductor
+  - history
+  - parameters
+  notes: ''
+  relations: []
+- id: SC-MO01-002
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 9
+  quote_ru: Увеличение индуктивности свёрнутой ленты микросоленоида с ростом частоты можно объяснить только
+    увеличением линейной
+  statement_en: 'The author explains the frequency growth of rolled ribbon-microsolenoid inductance by
+    the increase of the linear current density in the ribbon — possible only if the AC forms a thin cord
+    whose diameter becomes smaller than the ribbon width; as the frequency approaches the cutoff the cord
+    "disappears" and the solenoid loses its inductive properties; cord thinning at microwave frequencies
+    is explained via the forces retaining the cylindrical cord: with frequency growth the external source
+    injects fewer like charges per half-period, lowering the volume density of Coulomb repulsion, while
+    the volume density of constricting (Ampere) forces stays constant or falls more slowly; the cutoff
+    frequency is when the cord catastrophically collapses into a pinch, where the inductance of a single
+    inductor rises sharply and then the solenoid loses its inductive properties.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - current cord thinner than ribbon width
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-crowding
+  - pinch
+  - microsolenoid
+  - explanation
+  notes: ''
+  relations: []
+- id: SC-MO01-003
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 9
+  quote_ru: Ключевая работа по упомянутым физическим свойствам, проявляемым планарными индукторами на
+    гигагерцах, вышла в 2001 г.
+  statement_en: 'The author cites the key 2001 experimental work of Kuhn and Ibrahim: studying current
+    flow at high frequencies in single multi-turn square, rectangular and spiral inductors they discovered
+    an effect directly opposite to the skin effect — AC at gigahertz frequencies formed a spatially localized
+    current cord in the conductor of an inductor of any geometry; with frequency growth the cord decreased
+    its cross-section, so the ohmic resistance and inductance of the inductor grew with frequency and
+    the AC flow no longer obeyed Ohm''s law.'
+  quantities:
+  - 2001 г.
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - kuhn-ibrahim
+  - current-crowding
+  - skin-effect
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-MO01-004
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 8
+  quote_ru: В работе [5] приведены частотные зависимости индуктивности ленточных микросоленоидов диаметром
+    800 мкм
+  statement_en: 'The author reports frequency dependencies of ribbon microsolenoids of 800 um diameter,
+    length 1.6 to 2.4 mm, with four to six turns used in power output stages: at low frequencies the inductance
+    equals its static value; then low-frequency inductance jitter appears, tied to mechanical resonance
+    on longitudinal mechanical oscillations of the elastic turns caused by turn-to-turn attraction from
+    co-directed Ampere forces acting each half-period; with further frequency growth toward the cutoff
+    the inductance increases by an order and then abruptly loses its inductive properties; American researchers
+    also discovered frequency-independent inductances of ultrathin conducting layers (Al+Cu, thickness
+    from 200 nm) operating in a definite frequency range.'
+  quantities:
+  - диаметр 800 мкм
+  - длина 1,6–2,4 мм
+  - 4–6 витков
+  - Al+Cu от 200 нм
+  equations: []
+  materials:
+  - Al+Cu
+  geometry:
+  - 800 um diameter solenoids
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - microsolenoid
+  - frequency-dependence
+  - jitter
+  - frequency-independent
+  notes: ''
+  relations: []
+- id: SC-MO01-005
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 80
+  quote_ru: увеличение индуктивности происходит почти в 40 раз до значений 30,8 нГн.
+  statement_en: 'Archimedes-spiral planar inductance calculations: for a spiral with N = 10 turns the
+    inductance grows almost 40-fold to 30.8 nH relative to a ring; for an n = 2 spiral with final radius
+    16.8 mm the inductance scale is 33.2 nH and the growth is almost 1680-fold to 55.8 uH; the estimate
+    method based on the Biot-Savart-Laplace law in polar coordinates shows spirals with N = 10 turns can
+    raise the inductance value relative to a ring loop by factors from 40 to 1500.'
+  quantities:
+  - в ~40 раз до 30,8 нГн
+  - 'n=2: радиус 16,8 мм'
+  - масштаб 33,2 нГн
+  - в ~1680 раз до 55,8 мкГн
+  - 'N=10: рост в 40–1500 раз'
+  equations: []
+  materials: []
+  geometry:
+  - Archimedes spiral, final radius 16.8 mm
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 1.7
+  tags:
+  - archimedes-spiral
+  - inductance-gain
+  - calculation
+  notes: ''
+  relations: []
+- id: SC-MO01-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 96
+  quote_ru: Поясним, что мы под этим понимаем. Наличие трёх областей, в которых магнитное поле распределено
+    по разным законам
+  statement_en: 'For a straight round current the inductance consists of three parts: the first current
+    part tied to the magnetic-field flux in region 1 (field lines transverse to current-density lines),
+    the flux part tied to the flux in current-free region 2, and the second current part tied to the flux
+    in region 3 where field lines are again transverse to current-density lines.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - three regions of coaxial structure
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2.7
+  tags:
+  - coaxial
+  - inductance-parts
+  - theory
+  notes: ''
+  relations: []
+- id: SC-MO01-007
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 152
+  quote_ru: Рассчитаем физические параметры цилиндрической плёнки из используемого фирмой PARC кремния
+  statement_en: 'PARC silicon film parameters (resistivity 10.0 ohm*cm, radial component neglected): the
+    film is placed in a six-turn microcoil with cutoff frequency 2.1 GHz and inductance 10 nH; after insertion
+    the first inductance zero occurs at F1 = 1010 Hz; the frequency scale f* = F1/0.1605 = 62.3 GHz gives
+    a film radius of 900 um, requiring a 2.25-fold increase of the original solenoid radius; for axial
+    film thickness 2 um the inductance scale is L* = 1.6 (unit degraded in source); at f = F1/2 = 5 GHz
+    the film contributes a very large inductance L = 77.3*L* = 124 (same unit), with working frequency
+    2.3 times above the cutoff; at working frequency f0 = f*/(2*pi) = 19.8 GHz the film inductance is
+    negative, L0 = -15.3 nH, usable as a microscopic compensator of parasitic series inductance in integrated
+    circuits — a tenfold radius decrease lowers the negative inductance by two orders; at f = 12 THz the
+    inductance is again positive, LEHF = L*/3 = 533 nH; different working frequencies give a wide spectrum
+    of inductance values on one microcoil.'
+  quantities:
+  - 10,0 ом·см
+  - 6 витков
+  - граничная частота 2,1 ГГц
+  - 10 нГн
+  - F1 = 1010 Гц
+  - f* = 62,3 ГГц
+  - радиус плёнки 900 мкм
+  - толщина 2 мкм
+  - 'f = 5 ГГц: L = 124 (ед.)'
+  - 'f0 = 19,8 ГГц: L0 = −15,3 нГн'
+  - 'f = 12 ТГц: LEHF = 533 нГн'
+  equations:
+  - f^* = F_1/0.1605
+  materials:
+  - кремний (PARC)
+  geometry:
+  - film radius 900 um, thickness 2 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4.3
+  tags:
+  - film-inductance
+  - negative-inductance
+  - compensator
+  - parc
+  - calculation
+  notes: Inductance units partially lost in extraction (L*=1,6; L=124); the negative value is printed
+    in nH.
+  relations: []
+- id: SC-MO01-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 152
+  quote_ru: Из канонических соотношений следует, что приведённая индуктивность линейная, а не квадратичная,
+    как считалось раньше,
+  statement_en: From the canonical relations for ribbon microsolenoids the reduced inductance is a linear,
+    not quadratic as previously believed, function of the turn number; the ratio of the microsolenoid
+    radius to the wire diameter (ribbon width) determines the rate of inductance and reduced-flux growth
+    with turn number.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - microsolenoid
+  - linear-law
+  - correction
+  notes: ''
+  relations: []
+- id: SC-MO01-009
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 173
+  quote_ru: Представленные на рис. 6.1 и 6.2 одиночные индукторы будут работать на переменном токе до
+    критических частот порядка 1 Ггц.
+  statement_en: The author asserts that the single planar inductors considered work on AC up to critical
+    frequencies of order 1 GHz; the laws of current-field interaction are such that a single current inductor
+    whose magnetic field lines are not loaded on conducting matter always has a cutoff frequency — near
+    the critical frequency the current density stops being uniform over the ribbon cross-section and the
+    current cords, with cord cross-section an order smaller than the conductor cross-section; connecting
+    conductors with currents i1 = i2 in opposite directions realizes the largest inductance in a two-layer
+    structure.
+  quantities:
+  - ~1 ГГц
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 6.1
+  - Рис. 6.2 (двухслойная индуктивность)
+  tags:
+  - cutoff-frequency
+  - cord
+  - two-layer
+  notes: ''
+  relations: []
+- id: SC-MO01-010
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 185
+  quote_ru: По соотношению (6.1) легко оценить порядок индуктивности, которую даст тонкая плёнка толщиной
+    50 мкм
+  statement_en: 'Estimate by relation (6.1): a thin film of 50 um thickness with outer radius 0.4 mm and
+    inner radius 0.1 mm gives an inductance of about 12 nH, exceeding the 10 nH of a six-turn ribbon solenoid
+    occupying a 60-fold larger volume; the nanoscale effect of relation (6.2) can raise the inductance
+    of ultrathin films by an order.'
+  quantities:
+  - толщина 50 мкм
+  - радиусы 0,4/0,1 мм
+  - ~12 нГн
+  - в 60 раз больший объём соленоида
+  equations: []
+  materials: []
+  geometry:
+  - film 50 um thick, radii 0.4/0.1 mm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - film-inductance
+  - nanoscale-effect
+  - estimate
+  notes: ''
+  relations: []
+- id: SC-MO01-011
+  type: physics
+  facet: theory
+  priority: normal
+  page: 185
+  quote_ru: Достоинство цилиндрической симметрии заключается в том, что вихревая плотность тока в системе
+    не имеет скачкообразных изменений
+  statement_en: 'The author states the advantage of cylindrical symmetry: the eddy current density has
+    no abrupt changes of current-path direction, whereas abrupt direction changes at high frequencies
+    under skin-effect or "Current Crowding Effects" lead to kinking of the current cord and additional
+    electron ejection onto the substrate; in the first inductor class a two-layer inductance with azimuthal
+    eddy-current direction uses a single-turn conducting current ring instead of generally accepted designs,
+    and in the frequency range where negative inductance is realized can give values several times larger
+    than spiral-inductor systems; the "conducting film in a current ring" planar inductance for system-on-chip
+    has a metal ring on sapphire with one layer of cylindrical conducting or semiconducting film sputtered
+    so the film has no ohmic contact with the ring but has contact via mutual induction.'
+  quantities: []
+  equations: []
+  materials:
+  - сапфир
+  - цилиндрическая проводящая (полупроводящая) плёнка
+  geometry:
+  - single-turn current ring
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cylindrical-symmetry
+  - current-crowding
+  - negative-inductance
+  - design
+  notes: ''
+  relations: []
+- id: SC-MO01-012
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 209
+  quote_ru: Итальянскими технологами через пять лет была создана планарная индуктивность
+  statement_en: 'Italian technologists created a planar inductor five years after the studied one, differing
+    by cylindrical geometry and the number of layers: the spiral inductor was loaded on a layered cylindrical
+    structure of modified silicon layers on a conducting copper substrate with a radial patterned ground
+    shield; because the variable magnetic field geometry was cylindrical — most favorable for axial eddy
+    currents — they obtained quality factors in the range 10 to 15; the experiments confirmed the frequency
+    dependencies of inductance and Q found earlier and discovered that at gigahertz the RPGS-inductor
+    (Radial Patterned Ground Shield) inductance can reach zero and even become negative at higher frequencies,
+    explained by a guessed lumped-element equivalent circuit whose formulas gave surprisingly accurate
+    frequency characteristics matching experiment.'
+  quantities:
+  - Q = 10–15
+  equations: []
+  materials:
+  - модифицированные слои кремния
+  - медная подложка
+  geometry:
+  - cylindrical layered structure
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 7.20 (частотные зависимости цилиндрического индуктора)
+  tags:
+  - rpgs
+  - italian-experiment
+  - negative-inductance
+  - quality-factor
+  notes: ''
+  relations: []
+- id: SC-MO01-013
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 219
+  quote_ru: Сделаем оценки объёмной плотности отрицательной индуктивности в последнем случае.
+  statement_en: 'Estimate of the volume density of negative inductance for a multilayer Al+Cu microinductor
+    occupying a 20 um height with the eddy current filling an area of radius 200 um: L/V = 2.4e5 H/m3
+    — a record value differing by nearly an order of magnitude in modulus from the positive volume inductance
+    density; the diamagnetic susceptibility in this case is frequency-dependent, varying from -19 to -46.'
+  quantities:
+  - высота 20 мкм
+  - радиус 200 мкм
+  - 2,4·105 Гн/м3
+  - восприимчивость −19…−46
+  equations: []
+  materials:
+  - Al и Cu (30 слоёв)
+  geometry:
+  - height 20 um, eddy-current area radius 200 um
+  procedure_steps: []
+  measurements:
+  - quantity: negative inductance volume density
+    value: 2.4e5
+    unit: Гн/м3
+    conditions: 30-layer Al+Cu microinductor estimate
+  schematic_refs:
+  - Рис. 7.26 (частотная зависимость индуктивности 30 слоёв Al и Cu)
+  tags:
+  - negative-inductance
+  - volume-density
+  - diamagnetic
+  - multilayer
+  notes: ''
+  relations: []
+- id: SC-MO01-014
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 219
+  quote_ru: Методом, изложенным в разделе 7.3, была проведена серия резонансных фазовых измерений отрицательной
+    индуктивности латунного
+  statement_en: 'Resonant phase measurements of the negative inductance of a brass cylinder: cylinder
+    length l = 192 ± 1 mm, diameter D = 7.0 ± 0.5 mm; the measuring solenoid was much shorter than the
+    rod (l0 = 23.0 ± 0.5 mm) with 98 turns of 0.23 mm copper wire and inductance about L0 = 21.0 uH pre-measured
+    with a V7-80 instrument in inductance mode; the frequency dependence of inductance was taken by the
+    resonance method at five frequencies in the range 9 kHz to 1.1 MHz.'
+  quantities:
+  - цилиндр 192±1 мм x 7,0±0,5 мм
+  - соленоид 23,0±0,5 мм, 98 витков, провод 0,23 мм
+  - L0 = 21,0 мкГн
+  - диапазон 9 кГц–1,1 МГц
+  equations: []
+  materials:
+  - латунный цилиндр
+  - медный провод
+  geometry:
+  - brass cylinder 192 mm x 7 mm
+  procedure_steps:
+  - wind a 98-turn measuring solenoid over the brass rod
+  - pre-measure solenoid inductance with a V7-80
+  - take the resonance curve at five frequencies 9 kHz-1.1 MHz
+  measurements:
+  - quantity: measuring solenoid inductance
+    value: '21.0'
+    unit: мкГн
+    conditions: V7-80, inductance mode
+  schematic_refs: []
+  tags:
+  - brass-cylinder
+  - negative-inductance
+  - measurement
+  - setup
+  notes: ''
+  relations: []
+- id: SC-MO01-015
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 226
+  quote_ru: Как показывают расчёты, второй нуль частотной зависимости индуктивности RPGS-индуктора должен
+    приходиться
+  statement_en: Calculations show the second zero of the RPGS-inductor inductance frequency dependence
+    should fall at 1.9e12 Hz — a value the 3D EM modeling could not reproduce and experiments did not
+    observe; the theoretical estimates agree well with the Italian experimental results, indicating the
+    RPGS-inductor class belongs to introduced inductances whose basic physical parameters can be pre-computed
+    from the theory; comparisons with American (Dayton university) measurements of a spiral microinductor
+    on ultrathin Al and Cu conducting nanolayers showed the two-layer conducting film inductance is practically
+    constant to 15% over 0.1 to 10 MHz, confirming the positive frequency-independent flux inductance
+    predicted in section 3.3; attention is drawn to layered nanofilms with high volume inductance density
+    up to 2.6e4 H/m3; in films with more than 6 layers a dynamic-inductance regime arises, and for ten
+    layers a second inductance zero was found at F = 6.2 MHz; the 30-layer experiments independently confirm
+    the dynamic-inductance theory and point to passive negative inductance technology with high volume
+    density; calculated nanofilm volume inductance density spans 2.5e6 to 2.5e8 H/m3.
+  quantities:
+  - второй нуль при 1,9·1012 Гц
+  - ±15% на 0,1–10 МГц
+  - до 2,6·104 Гн/м3
+  - 'второй нуль 10 слоёв: 6,2 МГц'
+  - 2,5·106–2,5·108 Гн/м3
+  equations: []
+  materials:
+  - Al и Cu нанослои
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - rpgs
+  - dynamic-inductance
+  - frequency-independent
+  - nanofilm
+  - theory-vs-experiment
+  notes: ''
+  relations: []
+- id: SC-MO01-016
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 227
+  quote_ru: Проведены эксперименты по измерению отрицательной индуктивности макроскопического латунного
+    стержня.
+  statement_en: Experiments measuring the negative inductance of a macroscopic brass rod showed, with
+    15% error, that in the frequency range 0.1 to 100 MHz a state of negative frequency-independent flux
+    inductance arises with volume density 11.5 H/m3 and diamagnetic susceptibility -0.5; the calculated
+    flux inductance of the elementary current layer was 100 nH; experiments and theory show the width
+    of the elementary eddy-current layer excited in a conducting macroscopic cylinder coincides with the
+    wire diameter to high accuracy; these experiments first confirmed the existence of frequency-independent
+    negative flux inductance always arising in macroscopic conducting rods placed in the alternating magnetic
+    field of a coil.
+  quantities:
+  - погрешность 15%
+  - 0,1–100 МГц
+  - 11,5 Гн/м3
+  - восприимчивость −0,5
+  - 100 нГн
+  equations: []
+  materials:
+  - латунный стержень
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: negative flux inductance volume density
+    value: '11.5'
+    unit: Гн/м3
+    conditions: brass rod, 0.1-100 MHz, 15% error
+  schematic_refs: []
+  tags:
+  - brass-rod
+  - negative-inductance
+  - experiment
+  - first-confirmation
+  notes: ''
+  relations: []
+- id: SC-MO01-017
+  type: physics
+  facet: theory
+  priority: normal
+  page: 229
+  quote_ru: К закрытым индукторам отнесём классические соленоиды конечной длины.
+  statement_en: 'The author classifies current inductors by field-line geometry into closed and open:
+    closed — classical finite-length solenoids whose internal mean magnetic field-line density is always
+    higher than outside; placing nanoscale-thin films transverse to the field lines inside can substantially
+    raise the positive inductance, produce frequency-independent inductance and raise the cutoff, while
+    thick or multilayer films can create dynamic-inductance states with positive values different from
+    the original solenoid inductance; filling the whole solenoid space with a conductor gives the maximal
+    negative introduced inductance, and the solenoid-rod system inductance always remains reduced but
+    positive; open — planar spirals with symmetric field lines in both half-spaces: a nanoscale film on
+    one side raises the total positive inductance (frequency-independent), two identical films on both
+    sides raise it further, and a thick or multilayer film on one or both sides gives negative frequency-dependent
+    dynamic inductance growing proportionally to the layer count, with single-turn current rings increasing
+    the achievable volume inductance density.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - closed vs open inductors
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - classification
+  - closed-open
+  - dynamic-inductance
+  - design
+  notes: ''
+  relations: []
+- id: SC-MO01-018
+  type: mathematical
+  facet: recipe
+  priority: normal
+  page: 230
+  quote_ru: Сделаны оценки предельно достижимых положительных и отрицательных токовихревых
+  statement_en: 'Limit estimates for analog microcircuitry: in a layer 1 mm thick with 1 cm2 area one
+    can place 16,000 inductors in 40 layers, creating a positive macroinductance at the 1 mH level, with
+    the negative-inductance value an order higher; the prospect technology "conducting film in a current
+    ring" operating in the nanoscale Foucault-eddy-current effect regime can integrate ~10 nH inductances
+    (per layer up to 500 nm thick) in microchips, while the 10-30 double-layer branch yields passive negative
+    inductances with extremely high volume density of about -2.0e7 H/m3; a seven-step experimental program
+    is proposed: master multilayer film processes per the Ohio work, replicate Al-Cu results from two
+    to 30 layers, verify the nanoscale positive eddy-current inductance effect in a single film, show
+    the film inductance dependence on geometry, investigate independence of film inductance from resistivity,
+    determine the film frequency-range vs resistivity dependence, and demonstrate dynamic eddy-current
+    inductance on a thick single-layer film with the minimal negative value frequency dependence.'
+  quantities:
+  - 1 мм x 1 см2
+  - 16 000 индукторов в 40 слоях
+  - ~1 мГн
+  - −2,0·107 Гн/м3
+  - 10 нГн (до 500 нм слой)
+  equations: []
+  materials:
+  - Al-Cu плёнки
+  geometry:
+  - layer 1 mm thick, 1 cm2 area
+  procedure_steps:
+  - master multilayer film processes
+  - replicate Al-Cu results from 2 to 30 layers
+  - verify the nanoscale positive eddy-current inductance effect
+  - show geometry dependence of film inductance
+  - test resistivity independence
+  - determine frequency-range vs resistivity
+  - demonstrate dynamic eddy-current inductance on a thick single-layer film
+  measurements: []
+  schematic_refs:
+  - Таблица 6.1
+  - Таблица 6.2
+  - Таблица 3.8
+  tags:
+  - recipe
+  - limits
+  - macroinductance
+  - technology-roadmap
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

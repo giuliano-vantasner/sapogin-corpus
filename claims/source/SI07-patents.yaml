@@ -1,0 +1,79 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI07
+  section: site
+  title_ru: Патенты
+  title_en: Patents
+  file: site/patents.md
+  source_url: https://sapogin.com/patents
+  md5: e4a5935c0d5307519c025692690f8119
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI07-001
+  type: physics
+  facet: schematic
+  priority: normal
+  page: § Патент RU 2 622 894 C2
+  quote_ru: Технический результат - расширение диапазона рабочих частот планарной индуктивности без применения в ее конструкции проводящего лепесткового экрана, что существенно упрощает конструкцию планарной
+    индуктивности, т.к. при этом уменьшается число напыляемых проводящих слоев.
+  statement_en: Patent RU 2 622 894 C2 claims the technical result of widening the working-frequency range of a planar inductance without a conducting petal screen, simplifying the design and reducing the
+    number of deposited conducting layers; intended for microwave amplification/conversion of analog signals in integrated circuits.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - patent
+  - planar-inductance
+  - microwave
+  notes: ''
+  relations: []
+- id: SC-SI07-002
+  type: physics
+  facet: schematic
+  priority: normal
+  page: § Патент RU 2 623 100 C1
+  quote_ru: Технический результат - расширение диапазона рабочих частот планарной индуктивности
+  statement_en: Patent RU 2 623 100 C1 claims the technical result of widening the working-frequency range of a planar inductance for radio-engineering analog microcircuits (selective amplifiers, mixers,
+    generators).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - patent
+  - planar-inductance
+  - microwave
+  notes: ''
+  relations: []
+- id: SC-SI07-003
+  type: physics
+  facet: schematic
+  priority: normal
+  page: § Патент RU 2614 188 C1
+  quote_ru: увеличение численных значений L планарной индуктивности, реализуемой как минимум в виде одного витка, расположенного на изолирующей подложке
+  statement_en: Patent RU 2614 188 C1 claims the technical result of increasing the numerical L values of a planar inductance implemented as at least one turn on an insulating substrate (HF/microwave amplifiers,
+    mixers, RLC filters).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - patent
+  - planar-inductance
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

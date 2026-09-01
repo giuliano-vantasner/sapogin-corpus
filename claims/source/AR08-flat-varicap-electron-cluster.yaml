@@ -1,0 +1,783 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR08
+  section: articles
+  title_ru: Физические свойства плоского варикапа с электронным кластером
+  title_en: Physical properties of a flat varicap with an electron cluster
+  file: papers/articles/fizicheskie-svoystva-ploskogo-varikapa-s-elektronnym-klasterom.pdf
+  source_url: http://146.190.233.254/docs/articles/Физические Свойства Плоского Варикапа С Электронным Кластером.pdf
+  md5: 38c59b18c5a539e53ea52f61e8d66c8a
+  pages_total: 8
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR08-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: В заметке предложена элементарная теория, позволяющая найти количественные связи между физическими величинами,
+    сопровождающими эффект появления большой статической ёмкости в варикапе с электронным кластером.
+  statement_en: An elementary theory is proposed that allows finding quantitative connections between the physical
+    quantities accompanying the effect of the appearance of a large static capacitance in a varicap with an electron
+    cluster.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - electron-cluster
+  - capacitance
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Введён параметр электризации электронного кластера. Он показывает во сколько раз ёмкость варикапа с
+    кластером электронов больше, чем ёмкость того же варикапа без кластера.
+  statement_en: A parameter of electrization of the electron cluster is introduced; it shows how many times the
+    capacitance of the varicap with the electron cluster is greater than the capacitance of the same varicap without
+    the cluster; the considered case is electrization of the cluster in which the response-field strength created
+    by the electrons is greater than the external field strength.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrization-parameter
+  - varicap
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-003
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 1
+  quote_ru: Группа экспериментаторов в патенте [1] обнаружила, что электрическая ёмкость вакуумного диода с термоэлектронной
+    эмиссией, имеющего изолированный анод, при высоких напряжениях между катодом и анодом (десятки киловольт) может
+    иметь большие различные значения.
+  statement_en: A group of experimenters in patent [1] (Kholoshchenko, Kovalenko et al., WO 2011031189A1, 'Vacuum
+    capacitor', 2011) discovered that the electrical capacitance of a vacuum diode with thermionic emission having
+    an isolated anode, at high voltages between cathode and anode (tens of kilovolts), can have large differing
+    values.
+  quantities:
+  - 'voltage: tens of kV'
+  equations: []
+  materials:
+  - vacuum diode with thermionic emission
+  - isolated anode
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: capacitance of vacuum diode with isolated anode
+    value: large differing values
+    unit: '-'
+    conditions: cathode-anode voltage of tens of kV
+  schematic_refs: []
+  tags:
+  - vacuum-diode
+  - capacitance
+  - patent
+  - electrical-path
+  notes: Reported experimental effect underlying the paper.
+  relations: []
+- id: SC-AR08-004
+  type: physics
+  facet: schematic
+  priority: core
+  page: 1
+  quote_ru: Из рисунка видно, что диод с вынесенным за стекло анодом 2 представляет собой не просто вакуумный конденсатор,
+    а конденсатор, в котором вместо диэлектрика используется газ электронов.
+  statement_en: 'Fig. 1 shows schematically the distribution of the electron gas inside a vacuum cylindrical diode:
+    1 — diode cathode, 2 — anode removed behind the glass, 3 — glass envelope, 4 — electron gas; the diode with
+    the anode removed behind the glass is not simply a vacuum capacitor but a capacitor in which an electron gas
+    is used instead of a dielectric.'
+  quantities: []
+  equations: []
+  materials:
+  - vacuum cylindrical diode
+  - glass envelope
+  geometry:
+  - anode placed outside the glass envelope
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - diode-design
+  - electron-gas
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-005
+  type: physical
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Силы полевого происхождения универсальны. Они компенсируют кулоновское взаимодействие зарядов противоположного
+    знака в плазмоиде шаровой молнии, которая представляет собой каноническое состояние газообразного вещества в
+    виде тонкостенного пузыря.
+  statement_en: As shown in the monograph [2], a gas of like charges under certain conditions can occupy a finite
+    volume and be held in it by forces of field origin; these forces are connected with the pressure gradient of
+    the own electric field and balance the Coulomb forces of the interacting charges in any elementary volume of
+    the gas; they are universal — they compensate the Coulomb interaction of opposite-sign charges in the plasmoid
+    of ball lightning, which is a canonical state of gaseous substance in the form of a thin-walled bubble.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-origin-forces
+  - ball-lightning
+  - plasmoid
+  - debt-candidate
+  notes: Retention-force doctrine plus ball-lightning plasmoid interpretation — flagged for debt clustering.
+  relations: []
+- id: SC-AR08-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Ядро любого атома также представляет собой тонкостенный пузырь из разноимённых зарядов. Можно построить
+    плазменную модель ядра со сверхвысокой температурой, имеющую диаметр порядка нанометров. Такая модель позволяет
+    обосновать физическую природу ядерных сил, до сих пор скрытую от естествоиспытателя.
+  statement_en: The nucleus of any atom is also a thin-walled bubble of opposite charges; a plasma model of the
+    nucleus with superhigh temperature and diameter of the order of nanometers can be built; such a model allows
+    justifying the physical nature of nuclear forces, so far hidden from the natural scientist.
+  quantities:
+  - nucleus model diameter ~ nanometers
+  equations: []
+  materials: []
+  geometry:
+  - nucleus model diameter ~ 1 nm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nuclear-model
+  - plasma-model
+  - nuclear-forces
+  - debt-candidate
+  notes: Speculative nuclear-structure model — flagged for debt clustering.
+  relations: []
+- id: SC-AR08-007
+  type: physical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: 'Именно это свойство электронов и создаёт условия для неизвестного ранее, исключительно красивого физического
+    явления: КЛАСТЕРИЗАЦИИ ЭЛЕКТРОНОВ В ПУЗЫРЬКИ ЗАРЯДОВ при их выходе из любого источника. Экспериментально это
+    явление было впервые обнаружено в 1987 году американским исследователем К.Шоулдерсом в вакуумном диоде с острийным
+    катодом [3].'
+  statement_en: 'In an electron gas the Coulomb interaction forces between the electrons turn out to be ATTRACTIVE;
+    the charge system is balanced against possible collapse by forces of field origin acting on their mass density;
+    precisely this property of electrons creates the conditions for a previously unknown, exceptionally beautiful
+    physical phenomenon: CLUSTERIZATION OF ELECTRONS INTO BUBBLES OF CHARGE upon their exit from any source; this
+    phenomenon was first discovered experimentally in 1987 by the American researcher K. Shoulders in a vacuum diode
+    with a sharp (point) cathode.'
+  quantities: []
+  equations: []
+  materials:
+  - vacuum diode with sharp cathode
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-clusterization
+  - charge-bubbles
+  - EV
+  - shoulders
+  - electrical-path
+  - debt-candidate
+  notes: 'Central EVO/charge-cluster claim: attractive Coulomb interaction in electron gas is nonstandard physics
+    — flagged.'
+  relations: []
+- id: SC-AR08-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: В газе из положительных зарядов кулоновские силы между частицами РАСТАЛКИВАЮЩИЕ, а компенсируют от возможного
+    разлёта частиц силы полевого происхождения.
+  statement_en: In a gas of positive charges the Coulomb forces between particles are REPULSIVE, and they are compensated
+    against possible dispersal of the particles by forces of field origin.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-origin-forces
+  notes: ''
+  relations: []
+- id: SC-AR08-009
+  type: physics
+  facet: geometry
+  priority: core
+  page: 2
+  quote_ru: Сильно неоднородное поле острийного катода градиентом своего давления (действует на массовую плотность
+    вещества) сбрасывает плёнку зарядов в объём V всегда так, что она, уменьшаясь в объёме, увеличивает свою объёмную
+    плотность зарядов в пузырьке.
+  statement_en: 'Fig. 2 shows schematically a plane capacitor with electron gas: metal plates 1-1 with distance
+    d apart have area S; 2 denotes the charge cluster in the closed volume V = S·l from which electrons cannot exit;
+    the bounded volume of electron gas forms inside the vacuum bulb thanks to the effect of electron clusterization
+    discovered by Shoulders; electrons are supplied from a thin film of charges formed on the cathode surface; the
+    strongly inhomogeneous field of the sharp cathode, by the gradient of its pressure (acting on the mass density
+    of substance), dumps the charge film into the volume V always so that it, decreasing in volume, increases its
+    volume charge density in the bubble.'
+  quantities: []
+  equations: []
+  materials:
+  - cathode charge film
+  geometry:
+  - plates distance d, area S
+  - cluster volume V = S*l
+  procedure_steps:
+  - sharp cathode supplies electron film
+  - cathode field pressure gradient compresses film into volume V raising charge density
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - cluster-formation
+  - cathode
+  - EVO-generation
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-010
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Оба режима формируют в пространстве между катодом и стеклянной колбой зарядовые кластеры, которые перемешиваются
+    и заполняют объём V за конечное время. Окончательно заполненный объём V представляет собой кластер макроскопических
+    размеров, удерживающий все электроны, пришедшие из источника.
+  statement_en: 'As shown in [4], two regimes of output of the electron film from the injector into vacuum are possible:
+    with constant acceleration and with constant velocity; both regimes form charge clusters in the space between
+    the cathode and the glass bulb which mix and fill the volume V in a finite time; the finally filled volume V
+    is a cluster of macroscopic sizes holding all the electrons arrived from the source.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - injector-regimes
+  - macroscopic-cluster
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Тогда напряжённость результирующего поля E внутри области V подчиняется принципу суперпозиции
+  statement_en: 'Under the external field E0 the electron cluster polarizes as shown in Fig. 3: E0 — direction of
+    the external field lines, E'' — response field of the electrons, E — resulting field strength in the cluster;
+    σ0 — surface charge density on the capacitor plates, σ'' — surface charge density of the response field; when
+    one electron moves, a hole forms at its original place (a phenomenological object of solid-state physics with
+    charge equal and opposite to the electron); the resulting field obeys superposition E = E'' + E0 (1), projected
+    on the x axis as E = E'' − E0 (2), with the resulting field vector directed along x.'
+  quantities: []
+  equations:
+  - \mathbf{E} = \mathbf{E}' + \mathbf{E}_0
+  - E = E' - E_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - superposition
+  - polarization
+  - holes
+  notes: 'OCR-degraded: vector glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR08-012
+  type: physical
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: В этом и заключается важнейшее физическое отличие электризации газа электронов от электризации дипольных
+    молекул во внешнем электрическом поле.
+  statement_en: The case considered is electrization of the electron gas in which the response-field strength E'
+    created by the electrons is greater than the external field strength E0; when deriving the standard dielectric
+    relations it is assumed that the response field formed by dipole molecules of a dielectric is always smaller
+    than the external field; herein lies the most important physical difference between electrization of an electron
+    gas and electrization of dipole molecules in an external electric field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrization
+  - response-field
+  - debt-candidate
+  notes: E' > E0 regime is the paper's defining (and physically nonstandard) assumption.
+  relations: []
+- id: SC-AR08-013
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Введём безразмерный параметр электризации газа электронов
+  statement_en: Dividing (2) by the external field and introducing the dimensionless electrization parameter ε =
+    E'/E0 > 1 (4), which shows how many times the field created by the electron cluster exceeds the external field
+    strength; by plane symmetry the response field is related to the surface charge density by E' = σ'/ε₀ (5); correspondingly
+    E/E0 = σ'/σ0 − 1 (6), where σ0 is the surface charge density of the capacitor plates.
+  quantities:
+  - epsilon = E'/E0 > 1
+  equations:
+  - \frac{E}{E_0} = \frac{E'}{E_0} - 1
+  - \varepsilon = E'/E_0 > 1
+  - E' = \sigma'/\varepsilon_0
+  - \frac{E}{E_0} = \frac{\sigma'}{\sigma_0} - 1
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrization-parameter
+  - surface-density
+  - electrical-path
+  notes: 'OCR-degraded: epsilon glyphs lost in text; reconstructed best-effort.'
+  relations: []
+- id: SC-AR08-014
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Она показывает во сколько раз напряжённость результирующего поля в газе электронов больше, чем напряжённость
+    поля, создаваемая обкладками конденсатора.
+  statement_en: For the case when the surface density of the electron gas is much greater than the surface density
+    of the charges on the capacitor plates, ε ≫ 1, and from (6) it follows that ε ≈ E/E0 (7), showing how many times
+    the resulting field strength in the electron gas is greater than the field strength created by the capacitor
+    plates.
+  quantities:
+  - epsilon >> 1 implies E/E0 ~ epsilon
+  equations:
+  - \varepsilon \simeq E/E_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrization-parameter
+  notes: ''
+  relations: []
+- id: SC-AR08-015
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Зависящая от напряжения электроёмкость указывает на то, что это варикап.
+  statement_en: Expressing the electrization parameter through the static capacitance of the plane capacitor gives
+    ε = C/C0 (8), where C0 = ε₀S/d is the capacitance of the plates and C = q'/U0 the capacitance of the capacitor
+    with the electron cluster, which depends on the external voltage on the plates; a voltage-dependent capacitance
+    means the device is a varicap.
+  quantities:
+  - epsilon = C/C0
+  equations:
+  - \varepsilon = \frac{C}{C_0}
+  - C_0 = \varepsilon_0 S/d
+  - C = q'/U_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - varicap
+  - capacitance-ratio
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-016
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Значение этого параметра совпадает с отношением электрической энергии внутреннего конденсатора W к энергии
+    внешнего конденсатора.
+  statement_en: 'From (8) follows another physical meaning of the electrization parameter: it shows how many times
+    the capacitance of the varicap with the electron cluster is greater than the capacitance of the varicap without
+    the cluster; the value of this parameter coincides with the ratio of the electric energy of the internal capacitor
+    W to the energy of the external capacitor.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrization-parameter
+  - energy-ratio
+  notes: ''
+  relations: []
+- id: SC-AR08-017
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Из (12) следует важнейшее свойство, позволяющее увеличивать масштаб ёмкости. Она тем больше, чем больше
+    объём электронного кластера, находящегося между обкладками.
+  statement_en: 'In the gas volume V there are N = ne·V electrons (9); the charge induced by the electrons on the
+    whole plate is q'' = η·e·ne·V (10), accounting that only a fraction η of the electrons of the whole cluster
+    volume goes to the plates; the capacitance of the capacitor with the electron cluster is C = q''/U0 = ηC* (11)
+    with the scale C* = e·ne·V/U0 (12), which also depends on the voltage on the plates; from (12) follows the most
+    important property allowing the capacitance scale to be increased: the larger the volume of the electron cluster
+    between the plates, the larger the capacitance.'
+  quantities:
+  - C = eta C*
+  - C* = e ne V / U0
+  equations:
+  - N = n_e V
+  - q' = \eta\, e\, n_e V
+  - C = q'/U_0 = \eta C^*
+  - C^* = e\,n_e V/U_0
+  materials: []
+  geometry:
+  - cluster volume V between plates
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - capacitance-formula
+  - cluster-volume
+  - electrical-path
+  notes: 'OCR-degraded: eta glyph lost in text; reconstructed best-effort.'
+  relations: []
+- id: SC-AR08-018
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: При фиксированном значении внешнего напряжения она тем больше, чем больше масштаб объёмной плотности
+    заряда.
+  statement_en: From (11) it follows that the volume capacitance density of the varicap is CV = C/V = q'/(VU0) =
+    ρ*/U0 = e·ne/U0 (13); at fixed external voltage it is larger the larger the scale of the volume charge density
+    of the system.
+  quantities:
+  - CV = e ne / U0
+  equations:
+  - C_V = C/V = e\,n_e/U_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - volume-capacitance-density
+  notes: ''
+  relations: []
+- id: SC-AR08-019
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: В третьем режиме накопления ёмкость варикапа с пузырьками зарядов будет самая большая. Она будет увеличиваться
+    пропорционально внешнему напряжению.
+  statement_en: 'In a varicap with an electron cluster three charge-accumulation regimes are possible: in the first
+    regime the electron concentration in the cluster is such that the effective charge q'' = CU0 = const (14) (or
+    the volume-density scale) on the plates of the volume V does not depend on the external voltage, and the varicap
+    capacitance decreases inversely proportional to the external voltage; at high electron concentrations a second
+    regime is possible where the volume charge-density scale depends linearly on the external voltage and the capacitance
+    does not depend on the voltage; at ultrahigh concentrations a third accumulation regime is possible in which
+    a bubble structure forms inside the electron cluster, giving the largest varicap capacitance, increasing proportionally
+    to the external voltage.'
+  quantities: []
+  equations:
+  - q' = C U_0 = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - accumulation-regimes
+  - bubble-structure
+  - varicap
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-020
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Обозначения 1-2-3 соответствуют номеру режима.
+  statement_en: Approximate volt-farad characteristics of the three charge-accumulation regimes of the varicap are
+    presented in Fig. 4; designations 1-2-3 correspond to the regime number.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - volt-farad-characteristics
+  notes: ''
+  relations: []
+- id: SC-AR08-021
+  type: physics
+  facet: measurement
+  priority: core
+  page: 6
+  quote_ru: Оценки для первого режима работы конденсатора с газом электронов для объёма V=Sd=3х5=15 cм3 (примерный
+    объём лампы 1Ц21П) для пяти напряжений на конденсаторе 25 кВ, 1 кВ, 220 В, 5 В и 1 В (выбираем масштаб объёмной
+    плотности заряда 1,6МКл/м3 на порядок меньше, чем в электронном кластере К.Шоулдерса [3]) вынесены в табл.
+    1.
+  statement_en: Estimates for the first regime of operation of the capacitor with electron gas are made for the
+    volume V = Sd = 3×5 = 15 cm³ (the approximate volume of a 1Ts21P tube) for five capacitor voltages 25 kV, 1
+    kV, 220 V, 5 V and 1 V, taking the volume charge-density scale 1.6 μC/m³ an order of magnitude less than in
+    Shoulders' electron cluster; the results are placed in Table 1.
+  quantities:
+  - V = 15 cm^3 (1Ts21P tube)
+  - 'voltages: 25 kV, 1 kV, 220 V, 5 V, 1 V'
+  - charge-density scale 1.6 uC/m^3
+  equations: []
+  materials:
+  - 1Ts21P vacuum tube
+  geometry:
+  - V = Sd = 3x5 = 15 cm^3
+  procedure_steps: []
+  measurements:
+  - quantity: charge-density scale used
+    value: '1.6'
+    unit: uC/m^3
+    conditions: an order of magnitude below Shoulders' electron cluster
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - estimates
+  - 1Ts21P
+  - electrical-path
+  notes: 'OCR-degraded: МКл = μC (microcoulomb).'
+  relations: []
+- id: SC-AR08-022
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 7
+  quote_ru: Таблица 1. Физические параметры работы варикапа в первом режиме
+  statement_en: 'Table 1 (physical parameters of varicap operation in the first regime; columns: U0 — varicap voltage;
+    volume capacitance density (F/m³); capacitance of the electron cluster (mF); geometric capacitance of the plates
+    (pF); electrization coefficient; response charge induced on the cluster plates (C); electric energy of the electron
+    cluster (J)) gives: U0 = 25000 V: CV = 64 F/m³, C = 0.96 mF, C0 = 5.3·10⁻² pF-scale, ε = 1.8·10¹⁰, q'' = 24
+    C, W = 30·10³ J; U0 = 1000 V: CV = 1.6·10³ F/m³, C = 24 mF, ε = 4.5·10¹¹, W = 12·10³ J; U0 = 220 V: CV = 7.6·10³
+    F/m³, C = 114 mF, ε = 2.2·10¹², W = 2.5·10³ J; U0 = 5 V: CV = 3.2·10⁵ F/m³, C = 4800 mF, ε = 9.0·10¹³, W = 600
+    J; U0 = 1 V: CV = 1.6·10⁶ F/m³, C = 24000 mF, ε = 4.5·10¹⁴, W = 12 J; the response charge q'' = 24 C at all
+    voltages.'
+  quantities:
+  - 'U0 = 25 kV: C = 0.96 mF, eps = 1.8e10, q'' = 24 C, W = 30e3 J'
+  - 'U0 = 1 kV: C = 24 mF, eps = 4.5e11, W = 12e3 J'
+  - 'U0 = 220 V: C = 114 mF, eps = 2.2e12, W = 2.5e3 J'
+  - 'U0 = 5 V: C = 4800 mF, eps = 9.0e13, W = 600 J'
+  - 'U0 = 1 V: C = 24000 mF, eps = 4.5e14, W = 12 J'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: cluster capacitance range
+    value: 0.96 mF–24 F
+    unit: '-'
+    conditions: U0 from 25 kV to 1 V, first regime
+  - quantity: response charge
+    value: '24'
+    unit: C
+    conditions: constant over the voltage range
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - table
+  - capacitance
+  - electrization-coefficient
+  - electrical-path
+  notes: 'OCR-degraded: superscripts and units partially flattened; C0 column reads 5.3·10⁻² (pF) for all rows.'
+  relations: []
+- id: SC-AR08-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Из таблицы видно, что на объёме лампы 1Ц21П при изменении внешнего напряжения от 25 кВ до 1 В можно
+    получить эффект увеличения ёмкости конденсатора кластером электронов в диапазоне от 0,96 мФ до 24 Ф при постоянном
+    эффективном заряде отклика 24 Кл.
+  statement_en: 'From the table: on the volume of a 1Ts21P tube, varying the external voltage from 25 kV to 1 V
+    can give the effect of capacitance increase by the electron cluster in the range from 0.96 mF to 24 F at a constant
+    effective response charge of 24 C; a further one-two orders-of-magnitude increase of the capacitor capacitance
+    is possible in the same volume on passing to regimes of high and ultrahigh electron concentration leading to
+    accumulation of bubble structures of charges.'
+  quantities:
+  - capacitance 0.96 mF–24 F
+  - response charge 24 C
+  - voltage range 25 kV–1 V
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - capacitance-increase
+  - bubble-structures
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-024
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 7
+  quote_ru: Результаты расчётов в табл. 1 по порядку величин совпадают с результатами экспериментальных исследований,
+    проведённых в [1].
+  statement_en: The results of the calculations in Table 1 agree by order of magnitude with the results of the experimental
+    studies carried out in [1] (patent WO 2011031189A1).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Таблица 1
+  tags:
+  - model-validation
+  - experiment
+  - electrical-path
+  notes: ''
+  relations:
+  - to: SC-AR08-003
+    kind: supports
+- id: SC-AR08-025
+  type: physics
+  facet: procedure
+  priority: core
+  page: 1
+  quote_ru: Получено соотношение для электроёмкости с кластером электронов. Оценены физические параметры работы
+    варикапа. Оценки по порядку величин совпадают с результатами известных экспериментальных исследований.
+  statement_en: The obtained quantitative connections between the physical quantities of a varicap with electron
+    cluster allow proposing substantiated measurement methodologies for the parameters of various varicaps and transfer
+    the discovered capacitance-increase effect from the engineering-technical level to the level of fundamental
+    research.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - measurement-methodology
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR08-026
+  type: physical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Кулоновские силы взаимодействия между электронами кластера притягивающие. Уравновешивают систему зарядов
+    силы полевого происхождения, обнаруженные В.Сапогиным [2]. Они действуют на массовую плотность электронного
+    кластера и удерживают кластер внутри вакуумного диода с вынесенным анодом от коллапса.
+  statement_en: The Coulomb interaction forces between the electrons of the cluster are attractive; the charge system
+    is balanced by the forces of field origin discovered by V. Sapogin, which act on the mass density of the electron
+    cluster and hold the cluster inside the vacuum diode with removed anode from collapse.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - attraction
+  - field-origin-forces
+  - retention
+  - debt-candidate
+  notes: Conclusion 2 — nonstandard force doctrine, flagged.
+  relations: []
+- id: SC-AR08-027
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 7
+  quote_ru: Эксперименты по формированию стационарного электронного кластера сантиметровых размеров внутри диода
+    с вынесенным анодом [1] следуют считать независимым подтверждением явления кластеризации электронов в микронные
+    пузырьки зарядов, обнаруженных К.Шоулдерсом в 1987 году [3].
+  statement_en: The experiments on forming a stationary electron cluster of centimeter sizes inside a diode with
+    removed anode [1] should be considered an independent confirmation of the phenomenon of electron clusterization
+    into micron charge bubbles discovered by K. Shoulders in 1987.
+  quantities:
+  - 'cluster size: centimeters'
+  equations: []
+  materials: []
+  geometry:
+  - stationary electron cluster of centimeter sizes
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-cluster
+  - EV
+  - independent-confirmation
+  - electrical-path
+  - debt-candidate
+  notes: Conclusion 3.
+  relations: []
+- id: SC-AR08-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: В объёме кластера электронов в 15 см3 электроёмкость может изменяться от 0,96 мФ до 24 Ф при изменении
+    напряжения от 25 кВ до 1 В с постоянным зарядом отклика в 24 Кл.
+  statement_en: In the volume of an electron cluster of 15 cm³ the capacitance can vary from 0.96 mF to 24 F with
+    the voltage varying from 25 kV to 1 V at a constant response charge of 24 C.
+  quantities:
+  - volume 15 cm^3
+  - capacitance 0.96 mF–24 F
+  - voltage 25 kV–1 V
+  - response charge 24 C
+  equations: []
+  materials: []
+  geometry:
+  - cluster volume 15 cm^3
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - capacitance
+  - conclusion
+  notes: Conclusion 5.
+  relations: []

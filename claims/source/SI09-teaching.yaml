@@ -1,0 +1,301 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI09
+  section: site
+  title_ru: Преподавание
+  title_en: Teaching
+  file: site/teaching.md
+  source_url: https://sapogin.com/teaching
+  md5: 3794cdf7cc68f8cc43a153e9c3625084
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI09-001
+  type: physics
+  facet: theory
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: За последние пять лет своими экспериментальными исследованиями на «консервных банках» он обогатил современную физику двумя новыми фундаментальными законами.
+  statement_en: Sapogin asserts that schoolteacher A. Atamanchenko enriched modern physics with two new fundamental laws through his 'tin can' experimental research over the last five years.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - atamanchenko
+  - fundamental-laws
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI09-002
+  type: physics
+  facet: theory
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: Оказалось, что переменный поток электродинамической индукции, создаваемый внутри любого конденсатора, генерирует на его обкладках ток смещения Максвелла, величина которого зависит от скорости
+    изменения потока индукции.
+  statement_en: Sapogin asserts (first 'law') that the varying flux of electrodynamic induction created inside any capacitor generates on its plates a Maxwell displacement current whose magnitude depends
+    on the rate of change of the induction flux.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - edi-law
+  - displacement-current
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI09-003
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: приоритет экспериментального открытия закона электродинамической индукции принадлежит швейцарцу П. Бауману, который первым в мире изобрёл неисчерпаемый механо-электрический источник переменного
+    тока, названный им «Тестатика». Ток смещения возникал у него в П-образных конденсаторах, через пластины которых двигался дипольный момент, создаваемый вращающейся пластиной радиального электрета.
+  statement_en: Sapogin asserts experimental priority for the law of electrodynamic induction belongs to Swiss P. Baumann, inventor of the first inexhaustible mechano-electric AC source, the 'Testatika';
+    the displacement current arose in his П-shaped capacitors through whose plates a dipole moment moved, produced by a rotating radial-electret plate.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - baumann
+  - testatika
+  - edi-law
+  - priority-claim
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI09-004
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: На установке А. Атаманченко был получен размах переменного напряжения на принимающем конденсаторе в киловольты. Напряжение измерялось электрометрами и возникало при вращении дипольного момента
+    порядка 10 нКл*м с частотой 0,5 Гц.
+  statement_en: 'Sapogin reports Atamanchenko''s 2020 replication (replacing the radial electret by two hollow oppositely charged metal cylinders on a mechanical rotation axis): peak-to-peak AC voltage
+    on the receiving capacitor reached kilovolts, measured by electrometers, arising from rotating a dipole moment of order 10 nC*m at 0.5 Hz.'
+  quantities:
+  - 'AC voltage swing: kilovolts'
+  - dipole moment ~ 10 нКл*м
+  - rotation frequency 0.5 Hz
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: AC voltage swing on receiving capacitor
+    value: kilovolts
+    unit: V
+    conditions: rotating dipole ~10 nC*m at 0.5 Hz, electrometer measurement
+  - quantity: dipole moment
+    value: ~10
+    unit: nC*m
+    conditions: two hollow oppositely charged cylinders
+  - quantity: rotation frequency
+    value: '0.5'
+    unit: Hz
+    conditions: mechanical rotation axis
+  schematic_refs: []
+  tags:
+  - atamanchenko
+  - displacement-current
+  - experiment
+  - measurement
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI09-005
+  type: physics
+  facet: theory
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: ёмкостные трансформаторы на токе смещения Максвелла, которые он использовал, могут преобразовывать входную электрическую мощность переменного тока, как с понижением выходной мощности, так и
+    с её сверхединичным превышением. В ёмкостных трансформаторах не выполняются привычные законы сохранения энергии так, как они выполняются в законе электромагнитной индукции.
+  statement_en: Sapogin asserts capacitive transformers on the Maxwell displacement current can convert input AC power either with step-down or with over-unity output, and that the usual energy conservation
+    laws do not hold in capacitive transformers the way they do in electromagnetic induction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - capacitive-transformer
+  - over-unity
+  - displacement-current
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI09-006
+  type: physics
+  facet: theory
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: Решение самосогласованной задачи протекания переменного тока с азимутальной компонентой в проводящих средах показало, что диаметр кольцевых токов в стали при комнатной температуре может быть
+    на порядки меньше, чем 0,1 нм.
+  statement_en: Sapogin asserts the self-consistent solution of AC flow with azimuthal component in conducting media shows the diameter of ring currents in steel at room temperature can be orders of magnitude
+    below 0.1 nm.
+  quantities:
+  - ring current diameter in steel << 0.1 nm at room temperature
+  equations: []
+  materials: []
+  geometry:
+  - ring currents, diameter orders below 0.1 nm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - steel
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI09-007
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: все постоянные магниты, созданные человечеством, указывают на существование в них сверхпроводящего состояния кольцевых токов Ампера-Фуко при комнатной температуре. Токи таких диаметров не выделяют
+    тепловой энергии.
+  statement_en: Sapogin asserts all permanent magnets made by humanity point to a superconducting state of Ampère–Foucault ring currents at room temperature, and currents of such diameters release no thermal
+    energy.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - permanent-magnets
+  - ring-currents
+  - room-temperature-superconductivity
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI09-008
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: Время жизни кольцевых токов порядка 100 лет (а может быть и вечность?).
+  statement_en: Sapogin asserts the lifetime of ring currents is of order 100 years (perhaps forever).
+  quantities:
+  - ring current lifetime ~ 100 years
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - lifetime
+  notes: ''
+  relations: []
+- id: SC-SI09-009
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: У кольцевых токов не нашли точки Кюри, в связи с чем, их сверхпроводимость сохраняется даже при температуре плавления металла!
+  statement_en: Sapogin asserts no Curie point was found for ring currents, so their superconductivity persists even up to the metal's melting temperature.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - curie-point
+  - superconductivity
+  notes: ''
+  relations: []
+- id: SC-SI09-010
+  type: physics
+  facet: measurement
+  priority: core
+  page: § Преподавание (вступительная статья)
+  quote_ru: Расчёты показывают, что у кольцевых токов Ампера-Фуко удельное сопротивление на шесть десять порядков меньше, чем у меди (16 нОм*м).
+  statement_en: Sapogin asserts calculations give Ampère–Foucault ring currents a resistivity six to ten orders of magnitude below that of copper (16 nOhm*m).
+  quantities:
+  - 'ring current resistivity: 6..10 orders below copper (16 нОм*м)'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: ring current resistivity vs copper
+    value: 6..10 orders lower
+    unit: relative
+    conditions: calculated; copper reference 16 nOhm*m
+  schematic_refs: []
+  tags:
+  - ring-currents
+  - resistivity
+  - superconductivity
+  notes: ''
+  relations: []
+- id: SC-SI09-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Вертикальные колебания на пружине в однородном поле силы тяжести
+  quote_ru: 'Показано, что вертикальные колебания груза на пружине делятся на два класса: малые колебания с отрицательной полной энергией и колебания с положительной полной энергией.'
+  statement_en: 'Sapogin reports the pedagogical study shows vertical mass-on-spring oscillations divide into two classes: small oscillations with negative total energy and oscillations with positive total
+    energy.'
+  quantities:
+  - 2 classes of oscillations by total energy sign
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mechanics
+  - pedagogy
+  notes: ''
+  relations: []
+- id: SC-SI09-012
+  type: physics
+  facet: procedure
+  priority: normal
+  page: § Измерение величины заряда механическим школьным электрометром
+  quote_ru: Модель позволяет получить зависимость измеряемого прибором заряда как функцию от угла отклонения измерительной стрелки от вертикали. Зависимость связана с масштабом заряда прибора, который может
+    измерять электрометр. Масштаб заряда совпадает с максимальным значением заряда и определяется эффективной массой вращающейся стрелки и её геометрической длиной.
+  statement_en: Sapogin reports a physico-mathematical model of the mechanical school electrometer giving measured charge as a function of needle deflection angle from vertical; the charge scale equals
+    the maximum measurable charge and is set by the effective mass and geometric length of the rotating needle.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - needle effective mass and geometric length set the charge scale
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrometer
+  - measurement-model
+  - pedagogy
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

@@ -1,0 +1,745 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: WO03
+  section: works
+  title_ru: Глобальное потепление и технология «Божественного Огня»
+  title_en: Global warming and the 'Divine Fire' technology
+  file: papers/works/globalnoe-poteplenie-i-tekhnologiya-bozhestvennogo-ognya.pdf
+  source_url: http://146.190.233.254/docs/works/Глобальное потепление и технология «Божественного Огня»
+  md5: 4e6fd9165ea48cc246a3a11bf0a271f1
+  pages_total: 5
+  retrieved: '2026-09-01'
+claims:
+- id: SC-WO03-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: В заметке обращено внимание на существование экологически чистого источника переменного тока, который
+    не нуждается в «затравочной энергии». Его работа не требует угля, нефти, газа, ядерного топлива, электрохимических
+    источников тока.
+  statement_en: 'The opinion exists that the speed of global warming can be reduced by lowering the carbon dioxide
+    content of the atmosphere; decarbonization of electric energy production should be understood only in the context
+    of searching for its ''clean'' technologies; the note draws attention to the existence of an ecologically clean
+    source of alternating current which does not need ''seed energy'': its operation requires no coal, oil, gas,
+    nuclear fuel, or electrochemical current sources; it gives no harmful radiation and has no radioactive waste;
+    the sources were created by P. Baumann in Switzerland in the 1970s of the last century.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - divine-fire
+  - testatica
+  - clean-energy
+  - baumann
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Её внедрение в повседневную жизнь планеты за ближайшие 10 лет поможет увеличить мощность экологического
+    производства электроэнергии на земле в сотни раз.
+  statement_en: The closed chain of physical phenomena explaining the operation of the source was found in multi-year
+    scientific research; the chain showed that P. Baumann's technology should be considered a technology of cosmic
+    level, allegorically, the technology of the 'Divine Fire'; its implementation into the everyday life of the
+    planet over the next 10 years will help increase the power of ecological electricity production on earth hundreds
+    of times.
+  quantities:
+  - 'power increase: hundreds of times within 10 years'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - divine-fire
+  - energy-scaling
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: На мой взгляд, причины глобального потепления климата на Земле могут быть и другими.
+  statement_en: In the author's view the causes of global warming of the Earth's climate can be different; they
+    are only partially connected with the negative aspects of electric energy production; there are two possible
+    causes, and one of them is cosmic; the phase of global warming has been proceeding for millions of years; the
+    warming has led to the slow transition of the earth from the 'glacial period' to the 'water period', which began
+    with the melting of glaciers at the poles of the Earth.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - global-warming
+  - cosmic-causes
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: 'Потепление может быть обусловлено разными космическими процессами: либо медленным приближением Земли
+    к Солнцу, либо увеличением светимости Солнца при его переходе к красному гиганту, либо неуправляемым процессом
+    медленного перегрева магмы Земли.'
+  statement_en: 'The warming can be caused by different cosmic processes: either the slow approach of the Earth
+    to the Sun, or the increase of the Sun''s luminosity during its transition to a red giant, or the uncontrolled
+    process of slow overheating of the Earth''s magma; it makes sense to check the existence of these processes,
+    which are significantly more powerful compared with the greenhouse effect.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cosmic-processes
+  - global-warming
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Но моё глубокое убеждение в том, что прежней прохладной жизни на планете в ближайшие миллионы лет ожидать
+    не придётся.
+  statement_en: The author's deep conviction is that the former cool life on the planet need not be expected in
+    the coming millions of years.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - global-warming
+  - forecast
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Поскольку усвоенные виды энергии, в конечном счёте, превращаются в тепло, то обогрев человечества тоже
+    вносит свой небольшой вклад в замеченное потепление климата на Земле.
+  statement_en: The second cause is that civilization began extracting a sufficient quantity of energy on the planet,
+    thereby improving its quality of life; a technically developed civilization will no longer be able to live without
+    it; since the assimilated kinds of energy ultimately turn into heat, the heating of humanity also makes its
+    small contribution to the noticed warming of the Earth's climate.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - waste-heat
+  - global-warming
+  notes: ''
+  relations: []
+- id: SC-WO03-007
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Если снизить электроснабжение городов даже на короткое время, то они утонут в фекальных сточных водах.
+  statement_en: 'Reducing this contribution is also not simple: if the power supply of cities is reduced even for
+    a short time, they will drown in fecal sewage; ''smart'' houses will become ''stupid''; ecological catastrophes
+    and epidemics will arise in cities.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - blackout-consequences
+  notes: ''
+  relations: []
+- id: SC-WO03-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Требование декарбонизации производства электрической энергии следует понимать только в контексте поиска
+    экологически «чистых» технологий её производства с последующей заменой технологий, считающихся «грязными», на
+    новые технологии – «чистые».
+  statement_en: The requirement of decarbonization of electric energy production should be understood only in the
+    context of searching for ecologically 'clean' technologies of its production with the subsequent replacement
+    of technologies considered 'dirty' by new 'clean' technologies.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - decarbonization
+  notes: ''
+  relations: []
+- id: SC-WO03-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: По-видимому, будут развиваться два направления, связанные с ветряной энергетикой и энергетикой солнечных
+    батарей.
+  statement_en: Many countries began paying attention to alternative energy sources with cleaner ecology; apparently
+    two directions will develop, connected with wind energy and solar-battery energy; their advantages are that
+    they are more compact, autonomous, and local; the sources can be realized without the costs of creating kilometer-long
+    networks of electric energy transmission to the consumer.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - alternative-energy
+  - wind
+  - solar
+  notes: ''
+  relations: []
+- id: SC-WO03-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Источники выдают энергию тогда, когда в них поступает «затравочная энергия».
+  statement_en: 'But the listed sources have their own ''Achilles heel'' hindering their victorious march on the
+    planet: the sources deliver energy when ''seed energy'' enters them; solar batteries will work when the sun
+    shines on them and they are not covered with a thick layer of dirt, and windmills — when wind blows at the speed
+    for which they are designed; at the same time the land surface occupied by solar batteries will not receive
+    the habitual density of solar energy, and windmills will produce powerful low-frequency noise harmful to humans.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - seed-energy
+  - wind
+  - solar
+  - limitations
+  notes: ''
+  relations: []
+- id: SC-WO03-011
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Неустранимые недостатки потребуют устанавливать в них управляемые системы аккумуляции, которые будут
+    раздавать энергию во время отсутствия «затравочной».
+  statement_en: The irremovable shortcomings will require installing controllable accumulation systems in them which
+    will distribute energy during the absence of 'seed' energy; this will undoubtedly increase its cost; the sources
+    will require modernization every 10 years.
+  quantities:
+  - modernization every 10 years
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - accumulation-systems
+  - cost
+  notes: ''
+  relations: []
+- id: SC-WO03-012
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Речь идёт о технологии воспроизводства электрической энергии переменного тока, которая появилась в 70-х
+    годах прошлого века в Швейцарии.
+  statement_en: 'The note draws attention to one more variant of alternative energy which does not require ''seed
+    energy'' for its operation and is free of the mentioned shortcomings: we are talking about the technology of
+    reproduction of alternating-current electric energy which appeared in the 1970s of the last century in Switzerland;
+    mechano-electric devices of long-duration energy generation which received the name ''Testatika'' were created
+    by Paul Baumann at various powers in the range from 300 W to 10 kW.'
+  quantities:
+  - power range 300 W to 10 kW
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatica
+  - baumann
+  - divine-fire
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-013
+  type: physics
+  facet: recipe
+  priority: core
+  page: 2
+  quote_ru: Конструктивное решение устройства П. Баумана представляло собой усовершенствованный вариант электрической
+    машины Д. Вимшурста (1883 г).
+  statement_en: 'The constructive solution of Baumann''s device was an improved variant of the Wimshurst electric
+    machine (1883): the pair of dielectric disks with applied electrization layers was replaced by Baumann with
+    a pair of acrylic disks; tens of radial strips of electret were glued onto the disks; the brushes removing the
+    electric charge from the electrization layer were removed; U-shaped plates of a capacitor connected to a high-voltage
+    Tesla transformer transmit the charge to Leyden jars.'
+  quantities: []
+  equations: []
+  materials:
+  - acrylic disks
+  - electret radial strips
+  - U-shaped capacitor plates
+  - Tesla transformer
+  - Leyden jars
+  geometry:
+  - pair of acrylic disks with radial electret strips
+  procedure_steps:
+  - replace dielectric disks of Wimshurst machine with acrylic disks
+  - glue tens of radial electret strips on the disks
+  - remove charge-removing brushes
+  - connect U-shaped capacitor plates to high-voltage Tesla transformer feeding Leyden jars
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatica
+  - device-design
+  - electret
+  - baumann
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-WO03-014
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: 'Встречное механическое вращение акриловых дисков приводило к неожиданному результату: происходила длительная
+    генерация электрической энергии переменного тока, часть которой можно было передавать потребителю.'
+  statement_en: 'The counter mechanical rotation of the acrylic disks led to an unexpected result: a long-duration
+    generation of alternating-current electric energy occurred, part of which could be transferred to the consumer.'
+  quantities: []
+  equations: []
+  materials:
+  - acrylic disks
+  geometry: []
+  procedure_steps:
+  - rotate acrylic disks mechanically in counter directions
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatica
+  - energy-generation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: Законы сохранения энергии, известные в электростатике, не проявляют себя в схеме генерации по причине
+    зависимости всех полей и токов, возникающих в устройстве, от времени.
+  statement_en: The other part of the energy was used for rotating the disks; the device stops generating electric
+    energy when the mechanical rotation of the electrets is forcibly stopped; the energy conservation laws known
+    in electrostatics do not manifest themselves in the generation scheme because of the dependence of all fields
+    and currents arising in the device on time.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-conservation-violation
+  - debt-candidate
+  notes: Strong anti-conservation claim — flagged for debt clustering.
+  relations: []
+- id: SC-WO03-016
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 3
+  quote_ru: 300-ваттный автономный источник обладает размерами небольшого кейса.
+  statement_en: The 300-watt autonomous source has the dimensions of a small case; it is simple to operate and has
+    a high ecological parameter; its continuous operation requires no coal, oil, gas, nuclear fuel, or electrochemical
+    current sources; the source gives no harmful radiation and has no radioactive waste.
+  quantities:
+  - power 300 W
+  - 'size: small case'
+  equations: []
+  materials: []
+  geometry:
+  - dimensions of a small case
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatica
+  - autonomous-source
+  - ecological
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-017
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: Единственный замеченный недостаток работающего устройства – появление озона в пластинах U-образного
+    конденсатора и небольшого шума при вращении дисков.
+  statement_en: The only noticed flaw of the working device is the appearance of ozone in the plates of the U-shaped
+    capacitor and a small noise during the rotation of the disks; the source can autonomously supply small houses
+    with electric energy for a long time.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ozone
+  - noise
+  - household-supply
+  notes: ''
+  relations: []
+- id: SC-WO03-018
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Исследования маломощных устройств, проведённые профессором по заказу общины в 1985 году, настолько его
+    изумили, что он стал сомневаться в существовании любых законов сохранения, найденных «бумажной» физикой.
+  statement_en: Unfortunately P. Baumann could not understand the physical-technical bases of the operation of his
+    unique source; he wrote no articles himself and took no patents on his devices; readers first learned of the
+    existence of such devices and of the attempt to explain the physical bases of their operation from the brochure
+    of professor S. Marinov (Tesla Institute, Austria); the studies of low-power devices carried out by the professor
+    by order of the community in 1985 so astonished him that he began to doubt the existence of any conservation
+    laws found by 'paper' physics.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - marinov
+  - conservation-laws
+  - history
+  notes: ''
+  relations: []
+- id: SC-WO03-019
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 3
+  quote_ru: Насколько мне известно, ни одной стране мира создать работающую копию этого устройства пока не удалось.
+  statement_en: Sites still exist on which video clips of the Testatika operation are posted; many in the world
+    know of its existence; but many consider it a GREAT BLUFF; detailed photographs of the 300 W machine were posted
+    on the internet by the Faradey-Lab laboratory (director Frolov A.V.) over the last 20 years; as far as the author
+    knows, no country in the world has yet managed to create a working copy of this device.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - replication-failures
+  - faradey-lab
+  - caveat
+  notes: Replication caveat acknowledged.
+  relations: []
+- id: SC-WO03-020
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Оказалось, что при движении осциллирующего заряда в потенциальной яме привычные законы сохранения энергии
+    не выполняются, и возможно как уменьшение полной энергии заряда, так и её увеличение.
+  statement_en: '30 years ago an initiative group was organized for researching the physical mechanisms of the operation
+    of the Testatika machine; the group began with studying the ideas expressed by S. Marinov; the technology of
+    extracting electric energy turned out so science-intensive that several scientific directions had to be developed
+    to understand the physics of its operation; among them: the regularities of motion of a wave-packet-charge in
+    static force fields at nuclear and subnuclear scales were studied — it turned out that in the motion of an oscillating
+    charge in a potential well the habitual energy conservation laws do not hold, and both a decrease and an increase
+    of the total energy of the charge are possible.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-conservation-violation
+  - oscillating-charge
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Каноническое описание определило Гамильтонову функцию рассматриваемых коллективных систем в виде интеграла
+    «живых сил»  интеграла полного давления.
+  statement_en: The mechanisms of matter retention by a self-consistent field were investigated; a canonical physics
+    of collective phenomena connected with gravitation (interaction of mass particles), with electricity (interaction
+    of like-sign charges), and with magnetism (interaction of variable currents) was built; the canonical description
+    defined the Hamilton function of the considered collective systems as the integral of 'living forces' — the
+    integral of full pressure; the integral allowed understanding how plane and cylindrical layers, as well as bubbles
+    of like-sign charges, can be held by the pressure of the collective electric field of the system analogously
+    to how magnetic-field pressure holds hot plasma in thermonuclear fusion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - full-pressure-integral
+  - hamilton-function
+  - retention
+  notes: ''
+  relations: []
+- id: SC-WO03-022
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Обнаружено существование электрической токовой неустойчивости в последовательном колебательном контуре
+    с переменной ёмкостью, объясняющей физику параметрического резонанса Мандельштама- Папалекси.
+  statement_en: The existence of an electric current instability in a series oscillating circuit with variable capacitance
+    was discovered, explaining the physics of the Mandelshtam-Papaleksi parametric resonance; at certain L-C-R parameters
+    of the circuit the energy conservation law also fails; in the absence of an external current source both damped
+    and growing oscillations are possible in it; the causes of the arising growing oscillations are explained by
+    the superunity conversion of mechano-electric power by the variable capacitance.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-instability
+  - parametric-resonance
+  - superunity-conversion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: Оказалось, что на синтез пузырька из электронов затрачивается небольшая энергия, а в процессах распада
+    выделяется на два-три порядка больше.
+  statement_en: The processes of synthesis/decay of microscopic charge bubbles in the plates of a U-shaped capacitor
+    were investigated; it turned out that a small energy is spent on the synthesis of a bubble from electrons, while
+    in the decay processes two-three orders more is released; the energy conservation laws in the processes of synthesis/decay
+    of bubbles from electrons again do not hold.
+  quantities:
+  - 'decay energy release: 2–3 orders above synthesis cost'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-bubbles
+  - synthesis-decay
+  - energy-conservation-violation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-024
+  type: physics
+  facet: theory
+  priority: core
+  page: 4
+  quote_ru: В электрических цепях, содержащих КОДМ, возможны преобразования электрической мощности, как в сторону
+    понижения, так и в сторону её повышения.
+  statement_en: The processes of alternating-current flow in capacitors with an oscillating dipole moment (ODDM)
+    were studied; in electric circuits containing an ODDM, conversions of electric power both in the direction of
+    lowering and in the direction of raising it are possible; the latter fact led to the final understanding of
+    the phenomenon of the appearance of electric energy in P. Baumann's installation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ODDM
+  - power-conversion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-025
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: технологию П. Баумана, следует считать технологией космического уровня, иносказательно, технологией
+    «Божественного огня».
+  statement_en: 'The completed scientific research convinced the author: the technology of extracting electric energy
+    proposed by Paul Bauman should be considered a technology of cosmic level, allegorically — the technology of
+    the ''Divine Fire''; the wonderful fire possesses fantastic properties: it burns, shines, and heats continuously,
+    requiring no fuel for its burning; the physical principle of the ''Divine Fire'' technology allows creating
+    alternating-current sources in which there are no moving mechanical parts.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - divine-fire
+  - no-moving-parts
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-026
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: «реактором» в устройствах является КОДМ.
+  statement_en: 'The ''reactor'' in the devices is the ODDM: its variable electric dipole moment generates in the
+    capacitor circuit a Maxwell displacement current proportional to the rate of change of the flux of the electric
+    induction vector; the law of electrodynamical induction is a powerful alternative to the law of electromagnetic
+    induction; at the generation of displacement current the energy conservation law does not manifest itself; the
+    possibility of creating ODDMs with superunity power conversion appears; the power conversion supports the continuous
+    regime of energy generation in the ''Testatika''; it is provided by the physical aspects of the interaction
+    of micron charge bubbles participating in synthesis/decay processes with the plates of the capacitor electrodes.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ODDM-reactor
+  - electrodynamical-induction
+  - superunity-conversion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: выделение энергии, генерируемое неподвижными обкладками КОДМ, впервые наблюдалось в скандально известных
+    экспериментах Флейшмана и Понса, а также в других экспериментах протекания тока в различных средах.
+  statement_en: The energy release generated by the immobile ODDM plates was first observed in the scandalously
+    known Fleischmann-Pons experiments and also in other experiments of current flow in various media; the experiments
+    were not accompanied by the appearance of neutrons; there was no synthesis of nuclei in them; the energy release
+    had a different physical nature which, in the author's opinion, is connected with the process of synthesis/decay
+    of charge bubbles discussed in the note.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fleischmann-pons
+  - charge-bubbles
+  - no-neutrons
+  - LENR
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: «реакторы» на КОДМ дают самую высокую объёмную плотность электрической мощности, что открывает новую
+    область энергетики – сверхэффективную персональную энергетику.
+  statement_en: ODDM reactors give the highest volume density of electric power, which opens a new field of power
+    engineering — super-efficient personal power engineering; the cost of creating, launching, and adjusting ODDM
+    electric-energy generation devices turns out to be the lowest in the world among the existing methods of its
+    production; the absence of moving mechanical parts increases the ecological parameter of the devices and the
+    danger of repetition of the terror from energy competitors who killed Stefan Marinov.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - personal-energy
+  - cost
+  - marinov
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-WO03-029
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Уверен, что в ближайшие десять лет внедрение технологий «Божественного огня» увеличит мощность экологического
+    производства электроэнергии землян в сотни раз.
+  statement_en: 'Appeal to ecologists: direct your inexhaustible energy to implementing the unique technology into
+    the everyday life of the planet — thereby you will make the first step in replacing ''dirty'' technologies of
+    electricity production with ''clean'' ones; the author is confident that in the coming ten years the implementation
+    of the ''Divine Fire'' technologies will increase the ecological electricity production of earthlings hundreds
+    of times.'
+  quantities:
+  - 'power increase: hundreds of times within 10 years'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - divine-fire
+  - forecast
+  - debt-candidate
+  notes: ''
+  relations: []

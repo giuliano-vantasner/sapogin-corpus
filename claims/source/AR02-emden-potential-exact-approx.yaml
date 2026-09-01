@@ -1,0 +1,988 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR02
+  section: articles
+  title_ru: Об одном классе точных и приближённых решений E − уравнения Эмдена для потенциала
+  title_en: On one class of exact and approximate solutions of the E-Emden equation for the potential
+  file: papers/articles/ob-odnom-klasse-tochnykh-i-priblizhyonnykh-resheniy-e-uravneniya-emdena-dlya-pot.pdf
+  source_url: http://146.190.233.254/docs/articles/Об одном классе точных и приближённых решений Е − уравнения эмдена
+    для потенциала.pdf
+  md5: d097b9c06645af96f08a5983be588f27
+  pages_total: 5
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR02-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Полную систему уравнений, решаемую относительно потенциала, удаётся свести к трёхмерному уравнению такого
+    же вида.
+  statement_en: The complete system of equations, solved for the potential, can be reduced to a three-dimensional
+    equation of the same kind (an E-Emden-type equation for the potential).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - self-consistent-gravity
+  notes: ''
+  relations: []
+- id: SC-AR02-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Показано, что корректный выбор граничных условий в уравнении для по- тенциала при решении сферической
+    задачи самосогласованной теории гравитации не может быть произволен, а диктуется первым интегралом полного давления,
+    существующим в плоской системе. Полученное решение описывает распределение плотности вещества в астрофизических
+    объектах.
+  statement_en: 'The correct choice of boundary conditions in the equation for the potential, when solving the spherical
+    problem of the self-consistent theory of gravitation, cannot be arbitrary: it is dictated by the first integral
+    of the full pressure existing in the plane system; the obtained solution describes the distribution of matter
+    density in astrophysical objects.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  - full-pressure-integral
+  - astrophysics
+  notes: ''
+  relations: []
+- id: SC-AR02-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Решая сферическую задачу распределения плотности g = − grad ( ϕ ) ; (2.3) в системе с однородной температурой,
+    Эмден не нашёл p = ρkT / m ; (2.4) аналитического решения, которое давало бы максимум r f = − grad ( p ) . (2.5)
+    плотности в центре шара.
+  statement_en: Solving the spherical problem of density distribution in a system with uniform temperature, Emden
+    did not find an analytical solution that would give a density maximum at the center of the ball.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR02-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Независимо от исследований Эмдена, по- Здесь ρ – плотность массы в элементарном объеме, g – видимому,
+    даже ничего не зная о них, Френкель в 1948 напряженность макроскопического поля гравитации, p – году вводит
+    для систем с постоянной температурой ана- давление внутри системы, T – абсолютная температура логичный способ
+    расчета полей гравитирующих частиц и системы, ϕ – потенциал самосогласованного поля, G – называет макроскопические
+    статические поля, создавае- гравитационная постоянная, m – масса гравитирующей мые ими, самосогласованными [3].
+  statement_en: Independently of Emden's studies (apparently without knowing anything about them), Frenkel in 1948
+    introduced, for systems with constant temperature, an analogous method of calculating the fields of gravitating
+    particles and called the macroscopic static fields created by them self-consistent.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frenkel
+  - self-consistent-fields
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR02-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Пытаясь решить витирующих частиц. Второе − дифференциальная форма задачу распределения вещества в сферическом
+    скопле- закона Ньютона, позволяющая рассчитывать дивергент- нии, он пришёл к неожиданному выводу, что полученные
+    ные статические поля размазанных масс. Уравнение (2.3) решения приводят к результатам, лишённым физическо- дает
+    связь потенциала с напряженностью гравитационно- го смысла.
+  statement_en: Trying to solve the problem of matter distribution in a spherical cluster, Frenkel came to the unexpected
+    conclusion that the obtained solutions lead to results devoid of physical meaning.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - frenkel
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR02-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: запишем трехмерные уравнения ных уравнений второго порядка. Вместе с уравнением гравитационной статики,
+    которые в современных обо- Лэна-Эмдена оно играло важную роль на первом этапе значениях векторного анализа имеют
+    вид
+  statement_en: 'Generalizing the works of Lane and Emden and using Frenkel''s approach, the three-dimensional equations
+    of gravitational statics are written as: ρg + f = 0 (2.1); div g = −4πGρ (2.2); g = −grad φ (2.3); p = ρkT/m
+    (2.4); f = −grad p (2.5), where ρ is the mass density in an elementary volume, g the macroscopic gravity field
+    strength, p the pressure inside the system, T the absolute temperature, φ the self-consistent field potential,
+    G the gravitational constant, m the mass of a gravitating particle, k the Boltzmann constant.'
+  quantities: []
+  equations:
+  - \rho\mathbf{g} + \mathbf{f} = 0
+  - \mathrm{div}\,\mathbf{g} = -4\pi G\rho
+  - \mathbf{g} = -\mathrm{grad}(\varphi)
+  - p = \rho kT/m
+  - \mathbf{f} = -\mathrm{grad}(p)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-statics
+  - self-consistent-gravity
+  notes: ''
+  relations: []
+- id: SC-AR02-007
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Первое уравнение системы представляет собой кель построил их для потенциала гравитационного поля, условие
+    равновесия элементарного объема системы гра- создаваемого коллективом скопления. Пытаясь решить витирующих частиц.
+    Второе − дифференциальная форма задачу распределения вещества в сферическом скопле- закона Ньютона, позволяющая
+    рассчитывать дивергент- нии, он пришёл к неожиданному выводу, что полученные ные статические поля размазанных
+    масс.
+  statement_en: The first equation of the system represents the equilibrium condition of an elementary volume of
+    the system of gravitating particles; the second is the differential form of Newton's law, allowing calculation
+    of divergent static fields of smeared masses.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-statics
+  notes: ''
+  relations: []
+- id: SC-AR02-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Уравнение (2.3) решения приводят к результатам, лишённым физическо- дает связь потенциала с напряженностью
+    гравитационно- го смысла. го поля, а (2.4) − уравнение состояния с однородной тем- В предлагаемой заметке показано,
+    что коррект- пературой. Уравнение (2.5) является определением газо- ный выбор граничных условий при решении
+    сфериче- статической силы Бернулли. Заметим, что связь на- ской задачи распределения вещества в самосогласован-
+    пряженности с потенциалом (2.3) не применялась ной системе не может быть произволен, а диктуется фун- Эмденом
+    при проведении исследования.
+  statement_en: Equation (2.3) gives the relation of the potential to the gravitational field strength, (2.4) is
+    the equation of state with uniform temperature, and (2.5) is the definition of the gasostatic Bernoulli force;
+    notably, the relation (2.3) of strength to potential was not used by Emden in his study.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-statics
+  - bernoulli-force
+  notes: ''
+  relations: []
+- id: SC-AR02-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: 'тирующими частицами, в котором проявляется обратное нически сопряженные величины: обобщенный импульс
+    действие поля на частицы, порождающие это поле.'
+  statement_en: The complete system of equations (2.1)-(2.5) displays a collective interaction between gravitating
+    particles in which the reverse action of the field on the particles generating this field manifests itself.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - collective-interaction
+  - self-consistent-gravity
+  notes: Quote is the continuation of a hyphenated sentence ('грави-/тирующими') split across the page break.
+  relations: []
+- id: SC-AR02-010
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Из (3.2) видно, что любое равновесие гравити- лений самосогласованного поля и частиц системы равны рующих
+    частиц с однородной температурой характеризу- между собой, но имеют различные направления. Объём- ется скалярным
+    интегралом
+  statement_en: Substituting (2.5) and (2.3) into (2.1) and using the equation of state (2.4) gives grad(mφ/kT +
+    ln ρ/ρ₀) = 0 (3.2); any equilibrium of gravitating particles with uniform temperature is characterized by the
+    scalar integral mφ/kT + ln(ρ/ρ₀) = const (3.3), from which the exponential Boltzmann distribution function ρ/ρ₀
+    = p/p₀ = exp(−mφ/kT) (3.4) follows.
+  quantities: []
+  equations:
+  - \mathrm{grad}\left(\frac{m\varphi}{kT} + \ln\frac{\rho}{\rho_0}\right) = 0
+  - \frac{m\varphi}{kT} + \ln\frac{\rho}{\rho_0} = \mathrm{const}
+  - \frac{\rho}{\rho_0} = \frac{p}{p_0} = \exp(-m\varphi/kT)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boltzmann-distribution
+  - scalar-integral
+  notes: ''
+  relations: []
+- id: SC-AR02-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Уравнение (3.5) представляет собой трёхмерный f = − ρg = divg = G g , (4.3) полевой аналог уравнения,
+    имеющего вид Е-уравнения 4πG Эмдена, описывающего распределение макроскопическо- которое вместе с (2.5) даёт
+    физическое условие удержа- го потенциала в динамических системах частиц с одно- ния вещества самосогласованным
+    полем r родной температурой, которые находятся в статическом Gg + grad ( p ) = 0 . (4.4) равновесии с самосогласованным
+    полем.
+  statement_en: Substituting (3.4) into (2.2) folds the system (2.1)-(2.5) into the single equation Δφ = 4πGρ₀ exp(−mφ/kT)
+    (3.5), which is a three-dimensional field analog of the E-Emden equation describing the distribution of the
+    macroscopic potential in dynamical systems of particles with uniform temperature in static equilibrium with
+    the self-consistent field.
+  quantities: []
+  equations:
+  - \Delta\varphi = 4\pi G\rho_0\,\exp(-m\varphi/kT)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - self-consistent-gravity
+  notes: ''
+  relations: []
+- id: SC-AR02-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Положитель- Равенство (4.4) указывает на неизвестное ранее свойство ность правой части указывает на
+    то, что система состоит самосогласованного поля гравитации удерживать неод- из частиц с ньютоновским законом
+    междучастичного нородную систему частиц в ограниченной области про- взаимодействия. Уравнение (3.5) впервые
+    получено странства статическими силами полевого происхожде- Френкелем в [3].
+  statement_en: The positivity of the right-hand side of (3.5) indicates that the system consists of particles with
+    a Newtonian law of interparticle interaction; equation (3.5) was first obtained by Frenkel.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - newtonian-interaction
+  - frenkel
+  notes: ''
+  relations: []
+- id: SC-AR02-013
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: 'Уравнение (4.1) допускает понижение порядка. Оно имеет первый интеграл, соответствующий полному 5.
+    Распределение основных физических параметров давлению системы [4]:'
+  statement_en: 'For plane symmetry equation (3.5) reduces to φ″ = 4πGρ₀ exp(−mφ/kT) (4.1), which admits order reduction
+    and has the first integral corresponding to the full pressure of the system: (φ′)²/8πG + p₀ exp(−mφ/kT) = P
+    = H(φ′/4π, φ) = const (4.2), where p₀ = n₀kT is the pressure of the gravitating particles in the plane φ = 0.'
+  quantities: []
+  equations:
+  - \varphi'' = 4\pi G\rho_0\,\exp(-m\varphi/kT)
+  - \frac{(\varphi')^2}{8\pi G} + p_0\exp(-m\varphi/kT) = P = H(\varphi'/4\pi, \varphi) = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - first-integral
+  - full-pressure
+  - plane-symmetry
+  notes: ''
+  relations: []
+- id: SC-AR02-014
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Первый интеграл (4.2) совпадает с функцией Гамильтона, в которой кано-
+  statement_en: 'The full pressure P in (4.2) consists of two terms: the pressure of the self-consistent field of
+    the system and the gasokinetic pressure of the particles; the first integral (4.2) coincides with the Hamilton
+    function in which the canonically conjugate quantities are the generalized momentum φ′/4πG and the generalized
+    coordinate φ, with the coordinate x playing the role of the generalized time.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamiltonian
+  - first-integral
+  notes: ' Quote truncated to a single column run: two-column pdftotext layout interleaves columns; full sentence
+    in source.'
+  relations: []
+- id: SC-AR02-015
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: сила Бернулли совпадает по величине и на- из которого следует показательная функция распределе- правлению
+    с градиентом давления самосогласованного ния Больцмана поля, компенсирует ньютоновские силы тяготения и ρ p
+    = = exp(− mϕ / kT ) . (3.4) обеспечивает класс равновесий частиц с полем, которое ρ 0 p0 они сами и создают.
+  statement_en: Equality (4.2) holds in the absence of any external static gravity fields; the law of conservation
+    (4.2) means that in any plane of the system the pressure gradients of the self-consistent field and of the particles
+    are equal but have opposite directions; the Bernoulli force, opposite to the particle pressure gradient, coincides
+    in magnitude and direction with the pressure gradient of the self-consistent field, compensates the Newtonian
+    gravitational forces, and provides the class of equilibria of the particles with the field which they themselves
+    create.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bernoulli-force
+  - retention
+  - self-consistent-gravity
+  notes: ''
+  relations: []
+- id: SC-AR02-016
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: 'Подставляя в (2.1) плотность массы из уравнения ний (2.1) - (2.5) в одно уравнение (проведем согласова-
+    (2.2), получим связь силы Бернулли с градиентом давле- r ние) ния самосогласованного поля Gg Δϕ = 4πGρ 0 exp(−
+    mϕ / kT ) . (3.5) r r r g r r Уравнение (3.5) представляет собой трёхмерный f = − ρg = divg = G g , (4.3) полевой
+    аналог уравнения, имеющего вид Е-уравнения 4πG Эмдена, описывающего распределение макроскопическо- которое вместе
+    с (2.5) даёт физическое условие удержа- го потенциала в динамических системах частиц с одно- ния вещества самосогласованным
+    полем r родной температурой, которые находятся в статическом Gg + grad ( p ) = 0 . (4.4) равновесии с самосогласованным
+    полем. Положитель- Равенство (4.4) указывает на неизвестное ранее свойство ность правой части указывает на то,
+    что система состоит самосогласованного поля гравитации удерживать неод- из частиц с ньютоновским законом междучастичного
+    нородную систему частиц в ограниченной области про- взаимодействия. Уравнение (3.5) впервые получено странства
+    статическими силами полевого происхожде- Френкелем в [3]. ния. Из него следует, что система коллективного 4.
+    Первый интеграл Е-уравнения Эмдена взаимодействия частиц находится в статическом для плоской симметрии равновесии
+    с самосогласованным полем гравитации в том случае, если равенство нулю суммы градиентов Уравнение (3.5) для
+    плоской симметрии преоб- давлений поля и частиц выполнено в любом элемен- разуем к виду (штрихи означают дифференцирование
+    по тарном объеме системы. Условие (4.4) достаточно же- координате x) сткое и позволяет отбросить нефизические
+    решения, су- ϕ ′′ = 4πGρ 0 exp( − mϕ / kT ) . (4.1) ществующие у системы (2.1) – (2.5). Уравнение (4.1) допускает
+    понижение порядка. Оно имеет первый интеграл, соответствующий полному 5. Распределение основных физических параметров
+    давлению системы [4]: плоской системы (ϕ ′)2 + p exp( −mϕ / kT ) = P = H ( ϕ ′ / 4π ,ϕ ) = const ,(4.2) 0 Введём
+    параметр состояния системы 8πG α = P / p0 > 0 . Тогда из (4.2) следует распределение по- где p0=n0kT − давление
+    гравитирующих частиц системы в плоскости ϕ = 0 . тенциала по длине системы Полное давление P системы в (4.2)
+    состоит из 2kT ⎡ 1 ⎛ x ⎞⎤ ϕ= ln ⎢ ch⎜ α ⎟⎥ , (5.1) двух слагаемых: первое слагаемое представляет собой m ⎣ α
+    ⎝ l ⎠⎦ давление самосогласованного поля'
+  statement_en: 'Substituting the mass density from (2.2) into (2.1) gives the connection of the Bernoulli force
+    with the pressure gradient of the self-consistent field: f = −ρg = (g div g)/4πG = Gg (4.3), which together
+    with (2.5) gives the physical condition of matter retention by the self-consistent field Gg + grad(p) = 0 (4.4).'
+  quantities: []
+  equations:
+  - \mathbf{f} = -\rho\mathbf{g} = \frac{\mathbf{g}\,\mathrm{div}\,\mathbf{g}}{4\pi G} = \mathbf{G}_g
+  - \mathbf{G}_g + \mathrm{grad}(p) = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bernoulli-force
+  - retention-condition
+  notes: ''
+  relations: []
+- id: SC-AR02-017
+  type: physical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Равенство (4.4) указывает на неизвестное ранее свойство ность правой части указывает на то, что система
+    состоит самосогласованного поля гравитации удерживать неод- из частиц с ньютоновским законом междучастичного
+    нородную систему частиц в ограниченной области про- взаимодействия. Уравнение (3.5) впервые получено странства
+    статическими силами полевого происхожде- Френкелем в [3]. ния.
+  statement_en: 'Equality (4.4) points to a previously unknown property of the self-consistent gravitational field:
+    to hold a heterogeneous system of particles in a bounded region of space by static forces of field origin.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - retention
+  - non-standard-force
+  - debt-candidate
+  notes: Gravity analog of the AR07 non-electromagnetic retention claim — flagged for debt clustering.
+  relations: []
+- id: SC-AR02-018
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Из него следует, что система коллективного 4. Первый интеграл Е-уравнения Эмдена взаимодействия частиц
+    находится в статическом для плоской симметрии равновесии с самосогласованным полем гравитации в том случае,
+    если равенство нулю суммы градиентов Уравнение (3.5) для плоской симметрии преоб- давлений поля и частиц выполнено
+    в любом элемен- разуем к виду (штрихи означают дифференцирование по тарном объеме системы. Условие (4.4) достаточно
+    же- координате x) сткое и позволяет отбросить нефизические решения, су- ϕ ′′ = 4πGρ 0 exp( − mϕ / kT ) . (4.1)
+    ществующие у системы (2.1) – (2.5).
+  statement_en: From (4.4) it follows that the collective-interaction system of particles is in static equilibrium
+    with the self-consistent gravitational field precisely when the sum of the pressure gradients of field and particles
+    equals zero in any elementary volume of the system; condition (4.4) is rigid enough to discard the unphysical
+    solutions existing for system (2.1)-(2.5).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - equilibrium-condition
+  notes: ''
+  relations: []
+- id: SC-AR02-019
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Введём параметр состояния системы
+  statement_en: 'Introducing the state parameter α = P/p₀ > 0, from (4.2) follows the potential distribution along
+    the system: φ = (2kT/m)·ln[(1/α)·ch(αx/l)] (5.1) with spatial scale l = sqrt(kT/(2πGmρ₀)) (5.2); the arbitrary
+    constant of integration was chosen from the condition φ ≥ φ₀ = −(2kT/m)·ln α, where φ₀ is the potential at the
+    bottom of the well.'
+  quantities:
+  - l = sqrt(kT/(2πGmρ0))
+  - φ0 = −(2kT/m)·ln α
+  equations:
+  - \varphi = \frac{2kT}{m}\,\ln\!\left[\frac{1}{\alpha}\,\mathrm{ch}\!\left(\alpha\frac{x}{l}\right)\right]
+  - l = \sqrt{kT/(2\pi G m\rho_0)}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - state-parameter
+  - potential-distribution
+  notes: 'OCR-degraded: inline formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR02-020
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Как видно из (5.1), распределение потенциала граничные условия можно осуществить на конечном рас- по
+    длине системы имеет вид потенциальных ям с бес- стоянии от центра системы. конечными стенками.
+  statement_en: 'As seen from (5.1), the potential distribution along the system has the form of potential wells
+    with infinite walls: for 0 < α ≤ 1 the minimum potential in the well is positive or zero with gentle walls;
+    for α > 1 the minimum becomes negative and the walls grow steeper with α.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - potential-wells
+  notes: ''
+  relations: []
+- id: SC-AR02-021
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Изменение плотности, концентрации частиц, га- ϕ ′′ + 2ϕ ′ / r = 4πGmn0 exp( − mϕ / kT ) , (6.1) зокинетического
+    давления системы по её длине описыва- ется одним соотношением
+  statement_en: 'The variation of density, particle concentration, and gasokinetic pressure along the system length
+    is described by the single relation ρ/ρ₀ = n/n₀ = p/p₀ = [ (1/α)·ch(αx/l) ]⁻² (5.3); from (5.3) and Fig. 1 the
+    system has no sharp boundaries: the field squeezes particles into the minimum of potential energy and remains
+    homogeneous where matter is absent, taking field-strength values gx = ±g*, with g* = 2kT/ml = 8πGp₀ the field-strength
+    scale.'
+  quantities:
+  - g* = 2kT/(ml) = 8πGp0
+  equations:
+  - \frac{\rho}{\rho_0} = \frac{n}{n_0} = \frac{p}{p_0} = \left[\frac{1}{\alpha}\,\mathrm{ch}\!\left(\alpha\frac{x}{l}\right)\right]^{-2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - density-distribution
+  notes: 'OCR-degraded: superscripts partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR02-022
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: состояния α>0. Кривая 1 соответствует значению α=0.5,
+  statement_en: 'Figure 1 presents the reduced density, concentration, and pressure ρ/ρ₀ = n/n₀ = p/p₀ against the
+    reduced system length x/l, computed by (5.3) for state parameter values α > 0: curve 1 for α = 0.5, curve 2
+    for α = 1, curve 3 for α = 2, curve 4 for α = 5.'
+  quantities:
+  - α = 0.5, 1, 2, 5 (curves 1-4)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - density-distribution
+  - figure
+  notes: ' Quote truncated to a single column run: two-column pdftotext layout interleaves columns; full sentence
+    in source.'
+  relations: []
+- id: SC-AR02-023
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Как ϕ ≥ ϕ0 = − ln α , где ϕ 0 − потенциал на дне ямы. показано в следующем параграфе, сформулированные
+    m Как видно из (5.1), распределение потенциала граничные условия можно осуществить на конечном рас- по длине
+    системы имеет вид потенциальных ям с бес- стоянии от центра системы.
+  statement_en: The boundary conditions adequate to the problem (existence in the system of a surface on which the
+    self-consistent field pressure vanishes and the potential is minimal) can be realized, in the spherical case,
+    at a finite distance from the center of the system; in the plane case this point is chosen at the origin.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  notes: ''
+  relations: []
+- id: SC-AR02-024
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: 'Запишем уравнение (3.5) в сферической симмет- ла становится отрицательным, а стенки ямы с ростом α
+    рии, учитывая только радиальную зависимость потен- становятся всё более крутыми. циала:'
+  statement_en: 'In spherical symmetry, keeping only the radial dependence of the potential, equation (3.5) becomes
+    φ″ + 2φ′/r = 4πGmn₀ exp(−mφ/kT) (6.1), where n₀ = ρ₀/m is the particle concentration on the zero-potential sphere;
+    passing to y(x) = −mφ(r)/2kT with x = r/R (R the radius of the sphere on which the field boundary condition
+    is set) gives xy″ + 2y′ + β²x·exp(2y) = 0 (6.2) with β² = 2πGm²n₀R²/kT = T*/T = R²/l² (6.3) and the characteristic
+    temperature T* = 2πGm²n₀R²/k (6.4); the state parameter β admits a double interpretation: comparing the system
+    temperature with the characteristic one, and comparing the radius of the boundary-condition sphere with the
+    spatial scale l.'
+  quantities:
+  - beta^2 = 2πGm^2 n0 R^2/kT = T*/T = R^2/l^2
+  - T* = 2πGm^2 n0 R^2/k
+  equations:
+  - \varphi'' + 2\varphi'/r = 4\pi G m n_0\,\exp(-m\varphi/kT)
+  - x\,y'' + 2y' + \beta^2 x\,\exp(2y) = 0
+  - \beta^2 = 2\pi G m^2 n_0 R^2 / kT = T^*/T = R^2/l^2
+  - T^* = 2\pi G m^2 n_0 R^2/k
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - spherical-symmetry
+  - state-parameter
+  notes: 'OCR-degraded: equation glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR02-025
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Будем искать решения (6.2) для граничных усло- вий x = 1, y( 1 ) = y0 , y ′( 1 ) = 0 , которые предполагают
+    существование в кластере сферы нулевого давления поля
+  statement_en: Solutions of (6.2) are sought for the boundary conditions x = 1, y(1) = y₀, y′(1) = 0, which presuppose
+    the existence in the cluster of a sphere of zero field pressure (index '0' marks the value of the function y
+    at the extremum).
+  quantities: []
+  equations:
+  - x=1:\ y(1)=y_0,\ y'(1)=0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - boundary-conditions
+  - zero-pressure-sphere
+  notes: ''
+  relations: []
+- id: SC-AR02-026
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: имеет граничные условия η=η0=y0, p(η0)=1. Его не удаёт- Возвращаясь в (6.10) к функции ϕ ( r ) , получим
+    ся проинтегрировать в элементарных функциях.
+  statement_en: Passing to the new function y(x) = η(ξ) − ξ with ξ = ln x reduces (6.2) to d²η/dξ² + dη/dξ = 1 −
+    β²exp(2η) (6.5) with boundary conditions ξ = 0, η(0) = η₀ = y₀, dη/dξ(0) = 1; order reduction via p(η) = dη/dξ
+    gives the first-order equation p·dp/dη + p = 1 − β²exp(2η) (6.6) with η = η₀ = y₀, p(η₀) = 1, which cannot be
+    integrated in elementary functions.
+  quantities: []
+  equations:
+  - \frac{d^2\eta}{d\xi^2} + \frac{d\eta}{d\xi} = 1 - \beta^2\exp(2\eta)
+  - p\,\frac{dp}{d\eta} + p = 1 - \beta^2\exp(2\eta)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - order-reduction
+  - no-elementary-solution
+  notes: ''
+  relations: []
+- id: SC-AR02-027
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'Численное решение уравнения (6.6) для семейст- распределение потенциала по длине системы в случае ва
+    интегральных кривых, проходящих через точку гра- когда температура системы меньше характеристической ничного
+    условия, указывает на существование особой (холодный кластер): точки Эмдена при η=η*>η0, в которой p → 0 , а'
+  statement_en: 'Numerical solution of equation (6.6) for the family of integral curves passing through the boundary-condition
+    point indicates the existence of a special Emden point at η = η* > η₀ where p → 0 and dp/dη → −∞; Fig. 2 shows
+    four integral curves in coordinates p = p(z), z = η − η₀ (curve 1 for β = 0.5, curve 2 for β = 1.0, curve 3
+    for β = 1.5, curve 4 for β = 2.0); the position of the special Emden point depends on β²: for β² ≪ 1 it is far
+    from the origin z = 0, for β² ≫ 1 it approaches the origin from the right, which allows an approximate solution
+    of (6.6) under the condition β² ≫ 1.'
+  quantities:
+  - beta = 0.5, 1.0, 1.5, 2.0 (curves 1-4)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - emden-point
+  - numerical-solution
+  notes: ''
+  relations: []
+- id: SC-AR02-028
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: ближение (6.8) выполнено при условии
+  statement_en: Resolving (6.6) for the derivative gives dp/dη = (1 − β²exp(2η))/p − 1 (6.7); under the condition
+    β²exp(2η)/p ≫ 1/p − 1 (6.8) the equation can be shortened to dp/dη = −β²exp(2η)/p (6.9) and integrated to p
+    = 1 − β²[exp(2η) − exp(2η₀)] (6.10); the approximation (6.8) holds under the condition β²exp(2η₀) ≫ 1 (6.11),
+    the maximum of f(η) = (1−p)exp(−2η) being attained at η = η*.
+  quantities:
+  - 'validity: beta^2 exp(2 eta_0) >> 1'
+  equations:
+  - \frac{dp}{d\eta} = \frac{1-\beta^2\exp(2\eta)}{p} - 1
+  - \frac{dp}{d\eta} = -\frac{\beta^2\exp(2\eta)}{p}
+  - p = 1 - \beta^2\left[\exp(2\eta) - \exp(2\eta_0)\right]
+  - \beta^2\exp(2\eta_0) \gg 1
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - approximation
+  - asymptotics
+  notes: 'OCR-degraded: inline formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR02-029
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'Возвращаясь в (6.10) к функции ϕ ( r ) , получим ся проинтегрировать в элементарных функциях. двухпараметрическое
+    семейство кривых, описывающих Численное решение уравнения (6.6) для семейст- распределение потенциала по длине
+    системы в случае ва интегральных кривых, проходящих через точку гра- когда температура системы меньше характеристической
+    ничного условия, указывает на существование особой (холодный кластер):'
+  statement_en: 'Returning in (6.10) to the function φ(r) gives the two-parameter family of curves describing the
+    potential distribution along the system when the system temperature is below the characteristic one (cold cluster):
+    φ/φ* = ln[ (βr/R)/sqrt(β²exp(−2φ₀/φ*) + 1) · ch(A) ] (6.12) with φ* = 2kT/m the potential scale, A = Arch[(β²
+    + exp(2φ₀/φ*))/β] − ln(r/R)·sqrt(β²exp(−2φ₀/φ*) + 1), under the condition β²exp(−2φ₀/φ*) ≫ 1 (6.13).'
+  quantities:
+  - phi* = 2kT/m
+  - 'validity: beta^2 exp(-2 phi_0/phi*) >> 1'
+  equations:
+  - \frac{\varphi}{\varphi^*} = \ln\!\left[\frac{\beta r/R}{\sqrt{\beta^2\exp(-2\varphi_0/\varphi^*) + 1}}\,\mathrm{ch}(A)\right]
+  - A = \mathrm{Arch}\!\left(\frac{\beta^2 + \exp(2\varphi_0/\varphi^*)}{\beta}\right) - \ln\!\left(\frac{r}{R}\right)\sqrt{\beta^2\exp(-2\varphi_0/\varphi^*)
+    + 1}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - exact-solution
+  - cold-cluster
+  notes: 'OCR-degraded: equation (6.12) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR02-030
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Как видно из (6.12), потенциал самосогласо- При выполнении условия ванного поля, создаваемый частицами
+    кластера, пред- β 2 exp( 2η ) / p >> 1 / p − 1 (6.8) ставляет собой потенциальную яму с бесконечными уравнение
+    (6.7) может быть укорочено стенками и с минимумом ϕ = ϕ 0 на сфере нулевого dp β 2 exp( 2η ) давления поля.
+  statement_en: As seen from (6.12), the self-consistent field potential created by the cluster particles is a potential
+    well with infinite walls and with minimum φ = φ₀ on the sphere of zero field pressure; this sphere divides all
+    cluster interaction space into an inner region 0 < r/R < 1 (field aligned with the radius vector; potential
+    decreases with r while pressure and concentration grow) and an outer region r/R ≥ 1 (field opposite to the radius
+    vector; potential grows while pressure and concentration decrease); at the boundaries of the two regions the
+    concentration decreases smoothly, so the system has no sharp boundaries.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - inner region 0 < r/R < 1; outer region r/R >= 1
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - potential-well
+  - zero-pressure-sphere
+  - hollow-structure
+  notes: ''
+  relations: []
+- id: SC-AR02-031
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Поскольку поле выдавливает вещество в минимум потенциальной энергии, при больших β2 внутри хо- лодного
+    кластера образуется полость, в которой ве- щество практически отсутствует. Полученные ре- зультаты уточняют
+    решение, найденное в [5].
+  statement_en: Since the field squeezes matter into the minimum of potential energy, at large β² a cavity forms
+    inside the cold cluster in which matter is practically absent; the obtained results refine the solution found
+    in [5].
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - cavity inside cold cluster at large beta^2
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cavity
+  - cold-cluster
+  notes: ''
+  relations: []
+- id: SC-AR02-032
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 4
+  quote_ru: Проводилось численное моделирование точного уравнения (6.1) с граничными условиями
+  statement_en: 'Numerical modeling of the exact equation (6.1) with boundary conditions φ(r = R) = 0, φ′(r = R)
+    = 0 was carried out; Fig. 3 presents the distributions along the system length of the reduced particle concentration
+    of a spherical cluster with uniform temperature: curve 1 computed for β = 0.5, curve 2 for β = 0.7, curve 3
+    for β = 1.0, curve 4 for β = 3.0.'
+  quantities:
+  - beta = 0.5, 0.7, 1.0, 3.0 (curves 1-4)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - solve eq. (6.1) numerically with BC phi(r=R)=0, phi'(r=R)=0
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - numerical-modeling
+  notes: Numerical experiment (simulation), not laboratory measurement.
+  relations: []
+- id: SC-AR02-033
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: сти значения T∼T* . Кривая 4 отображает существование
+  statement_en: 'From Fig. 3 one sees how the filling of the cluster with particles changes as its temperature varies
+    near T ~ T*: curve 4 displays the existence of a cavity, while curves 3, 2, 1 indicate that with increasing
+    temperature the entire cluster interaction space is mostly filled with particles; for all curves the particle
+    concentration at the center of the gas ball vanishes.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - numerical-modeling
+  - cavity
+  notes: ' Quote truncated to a single column run: two-column pdftotext layout interleaves columns; full sentence
+    in source.'
+  relations: []
+- id: SC-AR02-034
+  type: physics
+  facet: geometry
+  priority: normal
+  page: 5
+  quote_ru: 'В заключение покажем, что решённая задача 2. Чандрасекар С. Введение в учение о строении звезд. имеет
+    отношение к астрофизическим объектам. Сделаем М.: − Изд-во ИЛ, 1950. оценки для полого газового шара, состоящего
+    из кисло- 3. Френкель Я.И. Статистическая физика. М.-Л.: − рода, при максимальной плотности на сфере нулевого
+    Изд-во АН СССР, 1948. давления поля ρ 0 =1,33 кг/м3, находящегося при темпе- 4. Сапогин В.Г. Плоские самосогласованные
+    гамиль- ратуре Т=293 К с соответствующим давлением 105 Па.'
+  statement_en: 'Estimates for a hollow gas ball of oxygen with maximum density on the zero-field-pressure sphere
+    ρ₀ = 1.33 kg/m³ at T = 293 K and corresponding pressure 10⁵ Pa, with gravitating-particle mass equal to the
+    oxygen molecule mass 5.32·10⁻²⁶ kg, give: spatial scale l = 1.2·10⁷ m; for state parameter β = 3 the radius
+    of the zero-field-pressure sphere R = 3.6·10⁷ m (about 5 Earth radii); cavity radius (distribution cut off at
+    n = 0.2n₀, see Fig. 3) r₁ = 0.6R = 2.16·10⁷ m; outer radius r₂ = 1.6R = 5.76·10⁷ m; at mean gas density in the
+    layer ⟨ρ⟩ = 0.133 kg/m³ the estimated mass of the hollow gas ball reaches 10²³ kg, somewhat exceeding the mass
+    of the Moon.'
+  quantities:
+  - rho0 = 1.33 kg/m^3
+  - T = 293 K
+  - p = 1e5 Pa
+  - m = 5.32e-26 kg (O2)
+  - l = 1.2e7 m
+  - beta = 3
+  - R = 3.6e7 m (~5 Earth radii)
+  - r1 = 0.6R = 2.16e7 m
+  - r2 = 1.6R = 5.76e7 m
+  - layer density 0.133 kg/m^3
+  - mass = 1e23 kg (> Moon mass)
+  equations: []
+  materials:
+  - oxygen gas
+  geometry:
+  - R = 3.6e7 m
+  - cavity radius r1 = 2.16e7 m
+  - outer radius r2 = 5.76e7 m
+  procedure_steps: []
+  measurements:
+  - quantity: hollow oxygen ball mass
+    value: 1e23
+    unit: kg
+    conditions: beta=3, layer density 0.133 kg/m^3
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - astrophysics
+  - hollow-ball
+  - estimates
+  notes: 'OCR-degraded: superscripts flattened (103 = 10^3 etc.).'
+  relations: []
+- id: SC-AR02-035
+  type: physics
+  facet: geometry
+  priority: normal
+  page: 5
+  quote_ru: Сделаем оценки для полого газового шара, со- стоящего из ледяных нанопылинок диаметром 40 нано- метров
+    с массой пылинки m=3⋅10-20 кг, при максимальной плотности на сфере нулевого давления поля ρ 0 =80 кг/м3,
+  statement_en: 'Estimates for a hollow gas ball of icy nanoparticles of diameter 40 nanometers with particle mass
+    m = 3·10⁻²⁰ kg, maximum density on the zero-field-pressure sphere ρ₀ = 80 kg/m³, at temperature T = 250 K and
+    concentration n₀ = 2.7·10²¹ m⁻³ give: spatial scale l = 1.85·10³ m; for β = 3 the zero-pressure-sphere radius
+    R = 5.6·10³ m; cavity radius r₁ = 0.6R = 3.3·10³ m; outer radius r₂ = 1.6R = 8.9·10³ m; at mean layer density
+    ⟨ρ⟩ = 8 kg/m³ the estimated ball mass reaches 22 billion tons.'
+  quantities:
+  - diameter = 40 nm
+  - m = 3e-20 kg
+  - rho0 = 80 kg/m^3
+  - T = 250 K
+  - n0 = 2.7e21 m^-3
+  - l = 1.85e3 m
+  - beta = 3
+  - R = 5.6e3 m
+  - r1 = 3.3e3 m
+  - r2 = 8.9e3 m
+  - layer density 8 kg/m^3
+  - mass = 22 billion tons
+  equations: []
+  materials:
+  - icy nanoparticles (ice)
+  geometry:
+  - nanoparticle diameter 40 nm
+  - R = 5.6e3 m
+  - cavity radius r1 = 3.3e3 m
+  - outer radius r2 = 8.9e3 m
+  procedure_steps: []
+  measurements:
+  - quantity: hollow ice-nanoparticle ball mass
+    value: 2.2e10
+    unit: tons
+    conditions: beta=3, layer density 8 kg/m^3
+  schematic_refs: []
+  tags:
+  - astrophysics
+  - hollow-ball
+  - estimates
+  - nanoparticle
+  notes: 'OCR-degraded: superscripts flattened.'
+  relations: []
+- id: SC-AR02-036
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 5
+  quote_ru: Такой космический «снежок» с по- перечником ~ 20 км при падении не может взорвать- ся. Опускаясь со
+    скоростью ~ 40 км/с на поверхность Земли, он может произвести огромные разрушения, очень похожие на разрушения,
+    вызванные Тунгусским феноменом.
+  statement_en: Such a cosmic 'snowball' with a diameter of ~20 km cannot explode when falling; descending at ~40
+    km/s onto the Earth's surface, it could produce huge destructions very similar to those caused by the Tunguska
+    phenomenon; because of the inner cavity free of nanoparticles, the flux density of particles striking the surface
+    at the center of the impact will be substantially smaller than in adjacent layers, so the destructions at the
+    epicenter will be minimal.
+  quantities:
+  - diameter ~ 20 km
+  - descent speed ~ 40 km/s
+  equations: []
+  materials: []
+  geometry:
+  - ball diameter ~ 20 km
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - tunguska
+  - hypothesis
+  - debt-candidate
+  notes: Tunguska-impact interpretation of the hollow-ball solution — speculative, flagged for debt clustering.
+  relations: []

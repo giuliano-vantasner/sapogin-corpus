@@ -1,0 +1,18 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE02
+  section: teaching
+  title_ru: Альтернативный выбор физического лабораторного эксперимента в школе
+  title_en: Alternative choice of physics laboratory experiment at school
+  file: papers/teaching/alternativnyy-vybor-fizicheskogo-laboratornogo-eksperimenta-v-shkole.pdf
+  source_url: http://146.190.233.254/docs/teaching/Альтернативный выбор физического лабораторного эксперимента
+    в школе.pdf
+  md5: 7967ebd49c4887c14dd3f0e13a402d20
+  pages_total: 33
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true

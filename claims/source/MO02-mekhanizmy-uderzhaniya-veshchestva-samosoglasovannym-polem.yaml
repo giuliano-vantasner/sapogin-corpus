@@ -1,0 +1,879 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: MO02
+  section: monography
+  title_ru: Механизмы удержания вещества самосогласованным полем
+  title_en: Mechanisms of matter retention by a self-consistent field
+  file: papers/monography/mekhanizmy-uderzhaniya-veshchestva-samosoglasovannym-polem.pdf
+  source_url: http://146.190.233.254/docs/monography/Механизмы удержания вещества самосогласованным полем.pdf
+  md5: 8d91dc320e365451c97f02cadbe6080d
+  pages_total: 255
+  retrieved: '2026-08-31'
+claims:
+- id: SC-MO02-001
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 4
+  quote_ru: В этом случае должны образоваться две “атмосферы” − внутренняя и внешняя, каждая со своей
+    высотой.
+  statement_en: 'The author argues that charging a thin-walled metal sphere must create two charge "atmospheres"
+    — internal and external — each with its own height depending on temperature, surface curvature radius
+    and the imparted charge (isotropy principle of Coulomb-force directions); analogous atmospheres form
+    on a flat isolated plate; experiments with a "tunneling" microscope are reinterpreted: current arises
+    when the excess-charge atmosphere on the tip (conical geometry) touches the opposite-sign charge atmosphere
+    of the substrate, and the measured height of the external atmosphere on a tip lies in the range of
+    several micrometers.'
+  quantities:
+  - 'высота внешней атмосферы: несколько мкм'
+  equations: []
+  materials: []
+  geometry:
+  - conical tip atmosphere
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - atmospheres
+  - isotropy
+  - tunneling-microscope
+  - reinterpretation
+  notes: ''
+  relations: []
+- id: SC-MO02-002
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 5
+  quote_ru: Эксперименты с высокой точностью показали, что остающийся на шаре заряд равен нулю.
+  statement_en: 'The author analyzes Cavendish-type experiments (removable hemispherical shell over a
+    charged ball): high-precision experiments showed zero residual charge on the ball, which he explains
+    by the removed shell not leaving its internal charge atmosphere on the ball; the internal atmosphere
+    height under the same conditions is less than the external one — fractions of a micrometer — and cannot
+    be detected by any gross mechanical or electric measurements; due to Coulomb interaction the charge
+    concentration in the external atmosphere grows outward and in the internal atmosphere inward; for
+    large negative charges the concentration near the internal cavity can reach or exceed the mean electron
+    concentration of the solid, giving the atmosphere the hardness of metal.'
+  quantities:
+  - 'внутренняя атмосфера: доли мкм'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - charge a ball with a snug removable conductive shell
+  - remove the shell with insulating handles
+  - measure the residual ball charge
+  measurements:
+  - quantity: residual ball charge
+    value: '0'
+    unit: Кл
+    conditions: Cavendish-type experiments, high precision
+  schematic_refs: []
+  tags:
+  - cavendish
+  - internal-atmosphere
+  - concentration
+  - hardness
+  notes: ''
+  relations: []
+- id: SC-MO02-003
+  type: physics
+  facet: phenomenology
+  priority: normal
+  page: 6
+  quote_ru: Ни одно из них не может прояснить самый древний парадокс экс- периментальной электростатики.
+  statement_en: The author states that none of the four known interactions (gravitational, strong, weak,
+    electromagnetic) can clarify the oldest paradox of experimental electrostatics — what compensates
+    Coulomb repulsion of the excess charge once it has formed a surface atmosphere; nuclear forces act
+    at 1e-15 m and cannot explain micron charge atmospheres; he quotes Matveev's 1983 textbook remark
+    that electrostatics does not study why surface charges do not leave the conductor and the nature of
+    the retaining forces, and notes two opposite unsubstantiated views exist, with the second admitting
+    autonomous bounded systems of excess charges — charge clusters (ZK) studied for the last 20 years,
+    with experimental discovery priority belonging to K. Shoulders.
+  quantities:
+  - 'ядерные силы: 10-15 м'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - paradox
+  - four-interactions
+  - matveev
+  - shoulders
+  - priority
+  notes: ''
+  relations: []
+- id: SC-MO02-004
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 7
+  quote_ru: EV, образующиеся при создании сильного (от 2 до 10 кВ) электри- ческого поля между катодом
+    и анодом, имеют малые размеры
+  statement_en: 'The author summarizes EV (Elektrum Validum) properties per Shoulders: EVs form under
+    a strong field of 2 to 10 kV between cathode and anode, are small (fractions to tens of micrometers)
+    and carry a large electron charge (1e8 to 1e11 electrons per sphere); individual EVs are rare — they
+    usually form ring-like structures about 20 um in diameter consisting of EV chains; the mean EV lifetime
+    is about 30 ps, for whose observation a special picoscope with 0.1 ps resolution was built; the mean
+    electron concentration in EV is 6.6e23 cm-3, an order above the mean electron concentration of solids,
+    and without a crystal lattice EV shows the hardness of diamond abrasive — given a channel smaller
+    than its diameter it drills a wider one, and its passage through a film leaves a hole with burnt edges;
+    pulsed EV generation at the tip cathode quickly wears its surface; EV flow interaction with a radioactive
+    substrate reduces its radioactivity; EVs moving through gas are accompanied by a visible stream of
+    particles (streamer) preceded by a narrow beam of light; EV decay releases energy as X-rays or explodes
+    upon reaching a critically low charge density.'
+  quantities:
+  - 2–10 кВ
+  - 108–1011 электронов
+  - кольца ~20 мкм
+  - время жизни ~30 пс
+  - пикоскоп 0,1 пс
+  - 6,6·1023 см-3
+  equations: []
+  materials: []
+  geometry:
+  - fractions to tens of micrometers
+  - rings ~20 um of EV chains
+  procedure_steps: []
+  measurements:
+  - quantity: mean electron concentration in EV
+    value: 6.6e23
+    unit: см-3
+    conditions: per Shoulders measurements
+  schematic_refs: []
+  tags:
+  - ev
+  - shoulders
+  - properties
+  - picoscope
+  - radioactivity
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Объяснение, предложенное самим Шоулдерсом, ос- новано на работе
+  statement_en: 'The author reports Shoulders'' own explanation of ZK properties, based on the concept
+    of a polarized vacuum possessing zero-point oscillation energy: Shoulders asserted the initial electron
+    motion at EV formation is maintained in equilibrium or even compressed by zero-point oscillation energy,
+    and that EV is a perfect spherical generator built on an asymmetric vibrator exciting vector and scalar
+    longitudinal waves without electric or magnetic fields; no quantitative relations allowing EV calculation
+    are given, which the author criticizes as narrow-professional jargon, arguing part of the ZK properties
+    coincide with those of excess-charge atmospheres — evidence of the same physical nature of the retaining
+    forces and of an unknown property of collective charge interaction manifesting only at high concentration.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - zero-point-energy
+  - critique
+  - longitudinal-waves
+  notes: ''
+  relations: []
+- id: SC-MO02-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Возьмем тонкостенную уединенную металличе- скую сферу в вакууме радиусом от 5 до 10 см
+  statement_en: 'The author proposes constructing an unusual object: charge a thin-walled isolated metal
+    sphere in vacuum of radius 5 to 10 cm with a negative charge four-five orders above the largest EV
+    charge; after micron charge atmospheres form, mentally remove the sphere — under the retaining forces
+    the atmospheres converge and a charge cluster arises with energy in the range 10 to 230 kJ; the object
+    is lighter than a dust mote (no heavier than 1e-14 kg), can float freely in the atmosphere moving
+    with air flows and act on surrounding metal objects as a charged body; its moving electrons radiate
+    electromagnetic waves in a wide frequency range, heating adjacent atmosphere; irreversible contact
+    losses guarantee decay — in some cases radiation with silent disappearance, in others an explosion
+    upon reaching critical charge-concentration loss; similar objects often arise during thunderstorms
+    and in experiments modeling large currents in gas atmospheres.'
+  quantities:
+  - радиус 5–10 см
+  - заряд на 4–5 порядков выше EV
+  - энергия 10–230 кДж
+  - масса не тяжелее 10-14 кг
+  equations: []
+  materials: []
+  geometry:
+  - sphere radius 5-10 cm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thought-experiment
+  - ball-lightning
+  - decay
+  - energy
+  notes: ''
+  relations: []
+- id: SC-MO02-007
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Второй физический объект можно построить на основе первого, за- менив в нем электроны на нейтроны
+  statement_en: 'A second object: replace electrons by neutrons, increase the sphere radius to 5 km and
+    the neutron concentration to nuclear — repulsion forces are replaced by attraction; the sign change
+    only means the particle concentration in a gravitational cluster (GK) decreases outward in the external
+    atmosphere and inward in the internal one; under certain conditions a cavity can appear inside the
+    substance, with smooth concentration decrease on the outer and inner boundaries; such an object may
+    interest researchers of matter distribution in "cold" neutron stars; at high temperatures or when
+    the separating sphere radii are small compared with the internal atmosphere thickness the inner cavity
+    disappears; the author also answers the Gauss-theorem objection, stating the investigation showed
+    the limited applicability of the Gauss theorem for calculating fluxes of static self-consistent fields.'
+  quantities:
+  - радиус 5 км
+  - ядерная концентрация
+  equations: []
+  materials:
+  - нейтроны
+  geometry:
+  - radius 5 km
+  - internal cavity
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gravitational-cluster
+  - neutrons
+  - gauss-theorem
+  - cold-neutron-stars
+  notes: ''
+  relations: []
+- id: SC-MO02-008
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 96
+  quote_ru: l 2 =0,35 мкм, T 2 =0,35 пс.
+  statement_en: 'Estimates for the nonrelativistic like-charge gas (Section 9): spatial scale l2 = 0.35
+    um, time scale T2 = 0.35 ps; the maximal potential phi_m = 0.3 V occurs at distance h = 18 um with
+    tau2 = 19 ps; at distance x = 1 cm the potential is -7.6 kV, field Ex = 10 kV/cm, concentration n
+    = 2.0e9 cm-3 and velocity v = 5.0e9 cm/s; the kinetic energy changes by a factor of 2.6e3, showing
+    large-distance flow analysis requires the relativistic refinement made in Section 10.'
+  quantities:
+  - l2 = 0,35 мкм
+  - T2 = 0,35 пс
+  - φm = 0,3 В
+  - h = 18 мкм
+  - τ2 = 19 пс
+  - φ = −7,6 кВ при 1 см
+  - Ex = 10 кВ/см
+  - n = 2,0·109 см-3
+  - υ = 5,0·109 см/с
+  - рост кинетической энергии 2,6·103
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - estimates
+  - nonrelativistic
+  - self-acceleration
+  notes: ''
+  relations: []
+- id: SC-MO02-009
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 129
+  quote_ru: Так, кислород, удерживаемый самосогласованным полем, при тем- пературе
+  statement_en: 'Polytropic estimates (Section 11): oxygen held by a self-consistent field at temperature
+    2.7e5 K and density 1.2 kg/m3 for polytropic index n=1 has total pressure P = p0 = 1e5 Pa, g_n = 1.3e-2
+    m/s2, phi_n = 1.7e5 m2/s2, l = 1.3e7 m, L = 4.1e7 m, T0 = 328 K; for n=5: P = 2.2e7 Pa, g_n = 19.2e-2
+    m/s2, phi_n = 1.1e8 m2/s2, l = 5.7e7 m, L = 1.4e9 m, T0 = 7.1e4 K; for neutrons at nuclear density
+    1.675e17 kg/m3 and the same temperature, n=1 gives P = 6.3e40 Pa, g_n = 1e16 m/s2, phi_n = 7.5e23
+    m2/s2, l = 7.5e7 m, L = 2.4e8 m, T0 = 4.6e19 K, and n=5 gives P = 2.6e29 Pa, g_n = 2.1e10 m/s2, phi_n
+    = 7.86e12 m2/s2, l = 3.7e2 m, L = 900 m, T0 = 1.9e8 K.'
+  quantities:
+  - 'кислород: P = 105–2,2·107 Па'
+  - l = 1,3·107–5,7·107 м
+  - 'нейтроны: P = 6,3·1040–2,6·1029 Па'
+  - gн до 1016 м/с2
+  - T0 до 4,6·1019 К
+  equations: []
+  materials:
+  - кислород
+  - нейтроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - polytropic
+  - estimates
+  - oxygen
+  - neutrons
+  notes: ''
+  relations: []
+- id: SC-MO02-010
+  type: mathematical
+  facet: measurement
+  priority: normal
+  page: 163
+  quote_ru: Пространственный масштаб l=97,6 нм, единица потенциала 0,17 В.
+  statement_en: 'Isothermal like-charge system estimates: spatial scale l = 97.6 nm, potential unit 0.17
+    V, distance to the zero-pressure plane L = 10 nm, maximal potential in that plane 8.9 mV, minimal
+    concentration 0.9e22 m-3, interaction-space length R = 61 nm; for electron concentrations near nuclear
+    (n0 = 1e36 m-3) at positive pressure: E0 = -6e11 V/cm, l = 2.9e-13 cm, phi_e = 0.17 V; field pressure
+    W0 = 1.5e16 Pa, electron pressure p0 = 1.4e16 Pa, and at distance 15e-13 cm the charge concentration
+    drops 100-fold; at negative pressure for beta = 10: E0 = -1.8e11 V/cm, W0 = 1.4e15 Pa, l = 9.8e-13
+    cm, phi_m = 8.9 mV, L = 0.98e-13 cm, R = 6e-13 cm.'
+  quantities:
+  - l = 97,6 нм
+  - 0,17 В
+  - L = 10 нм
+  - φm = 8,9 мВ
+  - R = 61 нм
+  - 'n0 = 1036 м-3: E0 = −6·1011 В/см'
+  - W0 = 1,5·1016 Па
+  - p0 = 1,4·1016 Па
+  equations: []
+  materials:
+  - электроны
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - isothermal
+  - estimates
+  - nuclear-concentration
+  notes: ''
+  relations: []
+- id: SC-MO02-011
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 209
+  quote_ru: Радиус r1=9,99988⋅10 м, r2=1,000012⋅10-1 м, d=2,4мкм, объем V0=0,3см3.
+  statement_en: 'Estimated parameters of a second hollow cluster (candidate ball-lightning framework)
+    with r1 = 9.99988e-2 m and r2 = 1.000012e-1 m (a ~10 cm sphere), layer thickness d = 2.4 um, volume
+    V0 = 0.3 cm3: charge count N = 1.5e16, total charge Q = 2.4 mC, mass M = 1.4e-14 kg; electric energy
+    We = 2.6e5 J, thermal energy U = 1.9e-3 J, field energy Wf = 1.2e-3 J, interaction energy Wi = -6.8e-3
+    J; the inert mass decreases by m = Wi/c2 = -7.5e-20 kg; mean concentration in the layer nl = 5e22
+    m-3, mean concentration over the outer sphere 3.6e18 m-3; boundary parameters: nb = 5.9e25 m-3, phi
+    = -6.9 V, Ex = -1.04e9 V/m, D = p = 4.8e6 Pa, pressure gradient -9.6e15 Pa/m, boundary force F = 6e5
+    N.'
+  quantities:
+  - r1 ≈ 10 см (9,99988·10-2 м)
+  - d = 2,4 мкм
+  - N = 1,5·1016
+  - Q = 2,4 мКл
+  - M = 1,4·10-14 кг
+  - We = 2,6·105 Дж
+  - Wi = −6,8·10-3 Дж
+  - nb = 5,9·1025 м-3
+  - F = 6·105 Н
+  equations: []
+  materials: []
+  geometry:
+  - 10-cm hollow sphere, 2.4 um wall
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ball-lightning
+  - estimate
+  - parameters
+  - core
+  notes: Exponent of r1 printed incompletely ("9,99988⋅10 м"); reconstructed from context as 9.99988e-2
+    m.
+  relations: []
+- id: SC-MO02-012
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 209
+  quote_ru: Второй кластер имеет характерные параметры, которые могут осу- ществиться в шаровой молнии
+  statement_en: 'The author concludes the first cluster matches tip-cathode experiments at cathode temperature
+    2e3 K — its charge approaches the upper experimental bound, small sizes carry large electric, thermal
+    and field energy, the mass change is equivalent to 1.1e10 eV, and the boundary charge concentration
+    exceeds the mean solid electron concentration, giving the experimentally observed diamond-abrasive
+    hardness; the second cluster matches a high-temperature ball lightning: a thin-walled charge bubble
+    with micrometer walls; for x/R from 1e-8 to 1e-6 its charge spans Q = 24e-6 to 2.4e-3 C, the charge
+    mass 1.4e-16 to 1.4e-14 kg (extremely light), the electric energy We from 26 to 2.6e5 J matching observations,
+    boundary forces from 60 to 6e5 N, inert-mass decrease equivalent to 0.75e14 to 4.2e16 eV, and boundary
+    electron concentrations 5.9e21 to 5.9e25 m-3.'
+  quantities:
+  - T = 2·103 К
+  - 1,1·1010 эВ
+  - Q = 24·10-6–2,4·10-3 Кл
+  - We = 26–2,6·105 Дж
+  - силы 60–6·105 Н
+  - 0,75·1014–4,2·1016 эВ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ball-lightning
+  - parameters
+  - matches-experiment
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-013
+  type: physics
+  facet: theory
+  priority: normal
+  page: 210
+  quote_ru: Применение интегральных теорем к рассмотренным равновесным состояниям зарядов требует осторожности.
+  statement_en: 'The author cautions that applying integral theorems to the considered equilibrium charge
+    states requires care: when computing the flux of the self-consistent field strength vector by the
+    Gauss theorem, the closed surface must be positioned and sized so it does not cross the zero-pressure
+    surface or the boundary of the interaction space; the flux cannot be correctly computed through a
+    concentric sphere located inside the interaction space.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gauss-theorem
+  - methodology
+  notes: ''
+  relations: []
+- id: SC-MO02-014
+  type: mathematical
+  facet: measurement
+  priority: core
+  page: 210
+  quote_ru: В заключение оценим физические параметры ядра, которое состоит из одних протонов
+  statement_en: 'Estimate of a nucleus consisting only of protons (or only of electrons) held by the self-consistent
+    field: for cluster radius R = 4e-15 m, T = 3e2 K, rho0 = 1.6e21 C/m3 and x/R = 3e-8: characteristic
+    temperature T* = 1.7e7 K, alpha^2 = 5.7e4 (cold cluster); interaction-layer radii r1 = 3.974e-15 m
+    and r2 = 4.026e-15 m, thickness d = 5.24e-17 m, layer volume 1.05e-44 m3; charge count N = 9, total
+    charge Q = 1.44e-18 C, charge mass M = 6.5e-21 kg (protons) or 8.2e-30 kg (electrons); electric energy
+    We = 2.33e-12 J, thermal energy U = 5.6e-20 J, field energy Wf = 4e-20 J, interaction energy Wi =
+    -4.2e-19 J = -2.6 eV; mean concentration in the layer nl = 8.57e44 m-3, mean concentration over the
+    outer sphere 3.4e43 m-3 (of nuclear order); boundary concentration nb = 1.92e50 m-3, six orders above
+    nuclear; phi = -0.61 V, Ex = -4.3e20 V/m, D = p = 9.1e44 Pa, pressure gradient -1.5e67 Pa/m, expanding
+    boundary force F = 1.8e17 N; the estimates point to the possible existence of neutron-free nuclei
+    and electron-only nuclei as an autonomous prototype of Cooper pairs.'
+  quantities:
+  - R = 4·10-15 м
+  - N = 9
+  - Q = 1,44·10-18 Кл
+  - We = 2,33·10-12 Дж
+  - Wi = −2,6 эВ
+  - nb = 1,92·1050 м-3
+  - F = 1,8·1017 Н
+  equations: []
+  materials:
+  - протоны
+  - электроны
+  geometry:
+  - nuclear-size cluster
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nucleus
+  - proton-cluster
+  - cooper-pairs
+  - nuclear-size
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-015
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 214
+  quote_ru: Соотношения (17.31) − (17.34) позволяют рассчитать дополни- тельные физические параметры исследуемого
+    кластера
+  statement_en: 'Additional parameters of the Shoulders-crater cluster (x/R = 1e-6, charge count N2):
+    total charge Q = 3e-9 C, cluster charge mass M = 1.7e-20 kg, stored electric energy We = 2.8e-3 J,
+    self-consistent field energy Wf = 5e-10 J, internal energy U = 7.5e-10 J, interaction energy Wi =
+    -4.8e-9 J, inert mass decreased by 5.3e-26 kg, mean layer concentration nl = 4e24 m-3; boundary estimates
+    for N2: concentration nb = 6.9e29 m-3, an order above the solid electron concentration; potential
+    phi = -4.0 V; field strength Ex = -6.5e7 kV/m; field and charge pressure D = p = 1.9e11 Pa; pressure
+    gradient -7.2e23 Pa/m; boundary-expanding force F = p*4*pi*R^2 = 480 N — the values indicate good
+    agreement of theory with experiment.'
+  quantities:
+  - Q = 3·10-9 Кл
+  - We = 2,8·10-3 Дж
+  - Wi = −4,8·10-9 Дж
+  - nl = 4·1024 м-3
+  - nb = 6,9·1029 м-3
+  - φ = −4,0 В
+  - D = p = 1,9·1011 Па
+  - F = 480 Н
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 20.3
+  tags:
+  - crater
+  - cluster-parameters
+  - experiment-agreement
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-016
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 216
+  quote_ru: Одним из важных теоретических результатов следует считать существование в сферическом случае
+    внутренней атмосферы зарядов
+  statement_en: 'The conclusion highlights: in the spherical case an internal charge atmosphere exists
+    whose concentration grows toward the system center; it forms inside a thin-walled metal sphere carrying
+    negative excess charge, with height from thousandths to hundreds of micrometers depending on accumulated
+    charge, temperature and radius; the high-concentration layer has metal properties and should reflect
+    coherent radiation well — interferometric methods with visible-light wavelengths are sensitive enough
+    to measure the height dependence on the imparted charge; glowing ball-shaped charge clusters have
+    long been observed in high-current experiments in various media (first glowing balls in a Leyden-jar
+    discharge; long-lived glowing objects in liquids); in unpublished MRTI experiments a high-current
+    cylindrical electron beam output into a gas atmosphere turned into glowing balls with lifetimes sufficient
+    for visualization, and the retention mechanism explains static states of glowing balls in any media
+    from a unified viewpoint.'
+  quantities:
+  - высота от тысячных долей до сотен мкм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - internal-atmosphere
+  - interferometry
+  - glowing-balls
+  - mrti
+  notes: ''
+  relations: []
+- id: SC-MO02-017
+  type: physics
+  facet: theory
+  priority: core
+  page: 217
+  quote_ru: На наш взгляд, постоянный ток в любом проводнике состоит из двух взаимодействующих между собой
+    составляющих
+  statement_en: 'The author asserts that DC in any conductor consists of two interacting components: the
+    conduction current inside the conductor and the current of excess charges flowing along the conductor
+    surface, whose carrier mobilities differ strongly; introducing the "surface current of excess charges"
+    enables a non-quantum explanation of autoelectron emission: at room temperature a charge atmosphere
+    always exists in the near-cathode region of a vacuum diode (fed by a small number of thermoelectrons
+    and charges from the external accelerating field); raising the cathode-anode voltage increases the
+    atmosphere height — more excess charges maintain the arising displacement current and the external
+    electrostatic field elastically deforms the atmosphere height; at a threshold external field strength
+    the atmosphere height reaches the cathode-anode distance and the current must appear jump-wise when
+    the atmosphere touches the anode — whereas the quantum model of autoelectron emission has no threshold
+    values or current jumps.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - surface-current
+  - autoemission
+  - non-quantum
+  - threshold
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 218
+  quote_ru: На очереди стоит также создание теории возникновения зарядо- вого кластера на острийном катоде.
+  statement_en: The author states that creating a theory of charge-cluster generation on a tip cathode
+    is pending; it would replace the semi-intuitive experiments described in Shoulders patents with generation
+    devices having preset physical parameters (diameter, layer thickness, surface charge concentration,
+    accumulated charge, lifetime); only this path should yield clusters with charges in the range 1e-6
+    to 1e-3 C, approaching the charge that, in the author's opinion, can be stored by ball lightning and
+    hence the possibility of its artificial reproduction; cluster-generation technology could produce
+    new energy capsules with limited but controlled lifetime — ecologically clean engines on new physical
+    principles (special conditions would make the cluster explode before radiating at a fixed time after
+    birth) — and also various kinds of "humane" weapons using low-charge ball lightning causing short-term
+    incapacitation.
+  quantities:
+  - заряд 10-6–10-3 Кл
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - generation-theory
+  - patents
+  - ball-lightning
+  - energy-capsules
+  - weapon
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-019
+  type: physics
+  facet: theory
+  priority: core
+  page: 219
+  quote_ru: прямопролетных генераторов СВЧ, в которых расплывающиеся сгруппированные сгустки электронов
+    будут заменены зарядовыми
+  statement_en: 'The author lists further applications: replacing spreading bunched electron bunches by
+    charge clusters in straight-through microwave generators should create a new class of microwave devices
+    with output power far exceeding klystrons, traveling-wave and backward-wave tubes; explosions of non-radiated
+    clusters can generate gamma quanta; the most promising task is nonlinear interaction of charge clusters
+    with the wall of a metal resonator where an image charge arises — a path to understanding devices
+    where the usual energy-conservation laws are absent; the discovered elastic deformation of the excess-charge
+    atmosphere thickness sensitive to temperature gradient allows microwave generators on a new physical
+    principle: a vacuum diode in the no-current mode placed in a resonator tuned to the atmosphere-height
+    oscillation frequency will generate oscillations whose frequency depends on the cathode temperature
+    gradient and external field — attractive for a new generation of micron-size solid-state vacuum-electronics
+    devices.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - microwave
+  - klystron
+  - gamma
+  - resonator
+  - new-principle
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-020
+  type: physics
+  facet: process
+  priority: core
+  page: 238
+  quote_ru: Одним из наиболее значительных возможных приложений EV- технологий станет переработка
+  statement_en: The author describes a Shoulders-proposed technology revealing a fundamentally new class
+    of nuclear transformations and reactions in which a flux of high-energy charge clusters serves as
+    the incident "nuclei"; his latest experiments showed a new class of low-energy cluster nuclear reactions
+    arises in the target, in some cases producing new substances absent from the target; Shoulders considers
+    the direction exceptionally promising since such transformations can reduce nuclide radioactivity
+    and be used for nuclear-waste utilization; the author adds the search for nuclear-size clusters —
+    nuclei of only protons (or only electrons, a generalized Cooper-pair analog explaining superconductivity)
+    whose possible existence the theory indicates; generation requires energies comparable to one electronvolt,
+    and decreasing cluster size to nuclear dimensions should sharply increase its lifetime because such
+    systems display quantum properties of ordinary nuclei.
+  quantities:
+  - энергии ~1 эВ
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nuclear-transformations
+  - cluster-reactions
+  - radioactivity
+  - cooper-pairs
+  - transmutation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-021
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 222
+  quote_ru: EV можно рассматривать как атом без ядра или сферический
+  statement_en: 'Per the appendix (Shoulders material): EV can be viewed as an atom without a nucleus
+    or a spherical oscillator of like charges; EVs display solitary-wave properties with a compaction
+    count equal to the Avogadro number; these charged electron bunches possess binding energies exceeding
+    atomic ones, permitting new types of nuclear reactions in matter; EV diameter is relatively small
+    (about 0.1 um) with a high negative charge (usually about 1e11 electrons, minimum 1e8); an upper ion-concentration
+    limit exists: 1 positive ion per 100,000 electrons; under an applied field EVs can reach speeds of
+    order 1/10 the speed of light; the most frequently encountered quantum-level structure has diameter
+    about 1 um, though EVs of order 1/10 um were observed; most probably a spheroid, it may be toroidal
+    with fine structure; single EVs are rare — spheroids tend to form closed chains (quasi-stable ring-like
+    structures about 20 um in diameter) that freely rotate and interweave, with inter-EV distance about
+    the spheroid diameter; chains form chaotically at the cathode then automatically rearrange into rings,
+    and strike surfaces without rotation, shear or tilt.'
+  quantities:
+  - ~0,1 мкм
+  - ~1011 электронов
+  - 1 ион на 100 000 электронов
+  - 1/10 скорости света
+  - кольца ~20 мкм
+  equations: []
+  materials: []
+  geometry:
+  - ~1 um spheroids
+  - ring chains ~20 um
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. П1 (Электрум Валидум и цепочка EV)
+  tags:
+  - ev
+  - properties
+  - appendix
+  - shoulders
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-022
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 237
+  quote_ru: Величина остаточного заряда после столкновения EV диаметром 3 мкм с электродом составляет
+  statement_en: 'EV quantitative parameters (appendix): residual charge after collision of a 3 um EV with
+    an electrode is 2e10 electrons; a 10 um EV loses 3.5e14 electrons over a 1 mm path; there are indications
+    EV may explode upon reaching a critically low charge or density; Shoulders estimated the EV current
+    density at approximately 6e11 A/cm3, the emission current at about 1.7e6 A, the characteristic lifetime
+    at 3e-11 s, and the charge density at about 6.6e23 electrons/cm3, approaching the mean charge density
+    of a solid; Shoulders explains EV retention by zero-point oscillation energy of the polarized vacuum/ether
+    (Bergstrom), asserting the initial electron motion is maintained in equilibrium or compressed by the
+    input electromagnetic zero-point energy; since the zero-point energy supply rate is limited, there
+    is a finite energy-extraction rate, upon exceeding which (likely at EV contact with metal) the EV
+    explodes, releasing its energy in a radiation band — for 1 um spheroids apparently the soft X-ray
+    region; the constant diameter of drilled holes in aluminum oxide suggests either a very-high-energy
+    mechanism unaffected by the process or constant energy pumping, and Shoulders chooses the latter.'
+  quantities:
+  - 2·1010 электронов (остаточный, 3 мкм EV)
+  - 3,5·1014 электронов/мм (10 мкм EV)
+  - 6·1011 А/см3
+  - 1,7·106 А
+  - 3·10-11 с
+  - 6,6·1023 электронов/см3
+  equations: []
+  materials:
+  - оксид алюминия
+  geometry:
+  - EV diameters 3 and 10 um
+  procedure_steps: []
+  measurements:
+  - quantity: EV current density
+    value: 6e11
+    unit: А/см3
+    conditions: Shoulders estimate
+  - quantity: EV lifetime
+    value: 3e-11
+    unit: с
+    conditions: Shoulders estimate
+  schematic_refs: []
+  tags:
+  - ev
+  - parameters
+  - zero-point
+  - x-ray
+  - evo
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-023
+  type: physical
+  facet: process
+  priority: core
+  page: 238
+  quote_ru: Одним из наиболее значительных возможных приложений EV- технологий станет переработка
+  statement_en: The appendix names radioactive-waste processing with EVs (conversion into non-radioactive
+    elements) as one of the most significant EV-technology applications; Shoulders filed a patent application
+    for the process called "Plasma injection processing", with similar applications by other researchers
+    (Rod Neal, Stan Gleeson etc.); an EV can serve as an accelerator with sufficient energy to inject
+    a large group of nuclei into a target and generate a group nuclear reaction; EV structure allows it
+    to enclose about 1e5 nuclides; EVs can absorb ions until the total system charge becomes positive
+    — such EVs are called nuclide EVs (NEV); per Shoulders, NEV acts as a supermassive negative ion with
+    a high charge-to-mass ratio, enabling a simple nuclear accelerator; NEVs can be created by mechanical
+    energy stored in the crystal lattice and released by fractoemission of electrons, and in acoustic/water
+    systems by charge separation in a collapsing bubble; analysis of palladium waste after NEV processing
+    showed increased amounts of Mg, Ca, Si, Ga and Au; local fractoemission from NEV impacts provides
+    significant reaction energy and may cause extremely fast energy propagation initiating or sustaining
+    the reaction.
+  quantities:
+  - ~105 нуклидов
+  equations: []
+  materials:
+  - палладий
+  - Mg, Ca, Si, Ga, Au
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nev
+  - waste-processing
+  - plasma-injection
+  - palladium
+  - transmutation
+  - core
+  notes: ''
+  relations: []
+- id: SC-MO02-024
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 239
+  quote_ru: Шоулдерс делает вывод, что “такие ядерные реакции являются в
+  statement_en: The appendix quotes Shoulders' conclusion that "such nuclear reactions are fundamentally
+    reactions involving a large number of nuclei, not an isolated atomic-level reaction"; they proceed
+    within several tens of nanoseconds; the first step is a "loading" process weakening the material structure,
+    then a very fast fracture generates an NEV densely loaded with nuclides (100,000 deuterons in an electrolytic
+    cell for cold nuclear fusion); the NEV is accelerated into the receiving material by applying voltage
+    in the kilovolt range but possesses a speed equivalent to megavolt application thanks to the fracture
+    acceleration mechanism; Shoulders offers a special explanation of these results as occurring "through
+    cluster nuclear reactions with an unknown form of bonding"; Shoulders experiments showed complete
+    elimination of radioactivity in a highly radioactive material.
+  quantities:
+  - 100 000 дейтонов
+  - десятки наносекунд
+  - киловольты (эквивалент мегавольт)
+  equations: []
+  materials:
+  - дейтероны
+  - электролитический элемент
+  geometry: []
+  procedure_steps:
+  - load the material structure
+  - generate NEV by rapid fracture
+  - accelerate NEV into the target material with kV-range voltage
+  measurements:
+  - quantity: radioactivity
+    value: complete elimination
+    unit: ''
+    conditions: highly radioactive material after EV processing
+  schematic_refs: []
+  tags:
+  - nev
+  - cold-fusion
+  - cluster-reactions
+  - radioactivity-elimination
+  - transmutation
+  - core
+  - debt-candidate
+  notes: ''
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

@@ -1,0 +1,777 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TC07
+  section: technologies
+  title_ru: Электрические накопители избыточной энергии искусственной плазменной неустойчивости – энергетическая
+    бездна человечества
+  title_en: Electric storages of the excess energy of an artificial plasma instability — the energy abyss of humanity
+  file: papers/technologies/elektricheskie-nakopiteli-izbytochnoy-energii-iskusstvennoy-plazmennoy-neustoych.pdf
+  source_url: http://146.190.233.254/docs/technologies/Электрические накопители избыточной энергии искусственной
+    плазменной неустойчивости – энергетическая бездна человечества.pdf
+  md5: 194d3a54e769ef69b540768e17d10be2
+  pages_total: 10
+  retrieved: '2026-09-01'
+claims:
+- id: SC-TC07-001
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 1
+  quote_ru: Им удалось построить небольших размеров установку, очень похожую на электрофорную машину, но в которой
+    отсутствовали щётки, снимающие заряд. В начальный момент нужно закрутить диск (диски) установки и она сразу
+    начинает вырабатывать электрическую энергию, как-будто бы из ничего. Чтобы прекратить её работу необходимо механически
+    остановить вращение дисков.
+  statement_en: 'About 40 years ago Swiss engineers cut a window into a new direction of energetics: they broke
+    the usual energy chain and built a small installation very similar to an electrostatic (electrophorus) machine
+    but without charge-removing brushes; at the initial moment one spins the disk(s) and it immediately starts producing
+    electric energy as if from nothing; to stop it one must mechanically halt the disk rotation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - testatika
+  - избыточн
+  - electrostatic-machine
+  notes: ''
+  relations: []
+- id: SC-TC07-002
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 2
+  quote_ru: В настоящее время ею построены несколько различных установок на мощность 100 Вт, 300 Вт, 3 кВт и 10
+    кВт, которые используются общиной для своего производства.
+  statement_en: Inventor Paul Baumann calls his devices Testatik Machine M/L Converter of the religious group 'Methernitha'
+    (Linden, Switzerland); the community takes no patents on them for religious reasons, pays nothing to the electric
+    companies supplying Linden, and does not want to sell the devices; at present several different installations
+    at 100 W, 300 W, 3 kW, and 10 kW have been built and are used by the community for its own production.
+  quantities:
+  - P = 100 Вт, 300 Вт, 3 кВт, 10 кВт (парк установок)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - testatika
+  - methernitha
+  - избыточн
+  notes: ''
+  relations: []
+- id: SC-TC07-003
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 2
+  quote_ru: Исследования маломощных устройств, проведённые профессором (ему поручила это сделать община), настолько
+    его изумили, что он стал сомневаться в фундаментальности любых законов сохранения, известных в физике.
+  statement_en: First information on how the installations are arranged appeared in Austria in 1989 in professor
+    Stefan Marinov's book; his studies of the low-power devices (commissioned by the community) amazed him so much
+    that he began to doubt the fundamentality of any conservation laws known in physics.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - marinov
+  - testatika
+  - conservation-laws
+  - history
+  notes: ''
+  relations: []
+- id: SC-TC07-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Но это совсем не означает, что в природе не существует систем, в которых законы сохранения не выполняются.
+    Таких систем существует достаточно много, особенно с диссипацией.
+  statement_en: Many physical systems exist in nature where the energy conservation law holds quite accurately (celestial
+    mechanics), but this does not mean that systems where conservation laws do not hold do not exist in nature —
+    there are quite many such systems, especially with dissipation; the presence of dissipation did not allow humanity
+    to build a perpetual motion machine using mechanical motion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - conservation-laws
+  - dissipation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC07-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Новая электромеханическая физическая система соединяет в себе одновременно вращающийся мотор и генератор,
+    разъединяющий заряды. Пока диск крутится, она непрерывно выделяет энергию, то есть система имеет положительный
+    энергетический инкремент. Вырабатываемой избыточной энергии за период движения системы оказывается достаточным,
+    чтобы перекрыть все диссипативные потери, существующие в установке за тот же период.
+  statement_en: 'The new electromechanical physical system combines a rotating motor and a charge-separating generator
+    simultaneously: while the disk spins it continuously releases energy — the system has a positive energy increment;
+    the excess energy produced per period of system motion suffices to cover all dissipative losses existing in
+    the installation over the same period.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - мотор-генератор
+  - positive-increment
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC07-006
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 2
+  quote_ru: Насколько нам известно, подобную установку не удалось пока повторить никому, не смотря на то, что её
+    подробные цветные чертежи выложены в Интернет российской лабораторией Faradey-Lab уже на протяжении последних
+    15 лет.
+  statement_en: Neither the inventors nor professor Marinov could give a convincing explanation of the chain of
+    physical phenomena in the Testatika; as far as the authors know, nobody has yet managed to replicate such an
+    installation despite its detailed colored drawings having been placed on the Internet by the Russian Faraday-Lab
+    for the last 15 years.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - replication
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC07-007
+  type: physical
+  facet: recipe
+  priority: core
+  page: 3
+  quote_ru: её основной узел представляет собой колебательный контур, в котором в качестве электроёмкости используются
+    неподвижные П-образные пластины конденсатора. Внутри пластин П-образного конденсатора вращается один или два
+    акрилловых диска, с набором радиально наклеенных на них из тонкой фольги проводящих секторов (см. фиг. 11 на
+    с. 28 в [1]). Вращение диска с проводящими секторами периодически изменяет электрическую ёмкость П-образного
+    конденсатора в определённых пределах. Изменение ёмкости П-образного конденсатора и приводило к увеличению избыточной
+    энергии в Тестатике.
+  statement_en: The main node of the Testatika installation is an oscillatory circuit in which the capacitance is
+    the fixed П-shaped capacitor plates; inside them rotate one or two acrylic disks with a set of conducting sectors
+    of thin foil glued radially on them (fig. 11, p. 28 in [1]); the rotation of the disk with conducting sectors
+    periodically changes the electric capacitance of the П-shaped capacitor within certain limits — this capacitance
+    change led to the increase of excess energy in the Testatika.
+  quantities: []
+  equations: []
+  materials:
+  - акрилловые диски
+  - проводящие секторы из тонкой фольги
+  - П-образные пластины конденсатора
+  geometry: []
+  procedure_steps:
+  - закрутить диск(и) с проводящими секторами внутри П-образного конденсатора
+  - вращение периодически изменяет ёмкость П-образного конденсатора
+  - изменение ёмкости увеличивает избыточную энергию в контуре
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  - Фиг. 11 на с. 28 в [1] (Маринов)
+  tags:
+  - recipe
+  - testatika
+  - excess-energy
+  - избыточн
+  - varicap
+  notes: ''
+  relations: []
+- id: SC-TC07-008
+  type: physical
+  facet: schematic
+  priority: normal
+  page: 4
+  quote_ru: 'На рис. 1 помечены: 1 – акрилловый диск с накленными на него проводящими секторами, 2 – один проводящий
+    сектор (электрическая стрелка), 3 – пластины П-образного конденсатора.'
+  statement_en: 'Fig. 1 shows schematically a fragment of the acrylic disk with the П-shaped capacitor; marked:
+    1 — acrylic disk with glued conducting sectors, 2 — one conducting sector (electric arrow), 3 — П-shaped capacitor
+    plates; the upper part of the figure is the front view, the lower one the top view.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - schematic
+  - testatika
+  notes: ''
+  relations: []
+- id: SC-TC07-009
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 4
+  quote_ru: У него одна из обкладок была неподвижна, а вторая вращалась с постоянной угловой скоростью электродвигателем,
+    частоту вращения которого можно было изменять.
+  statement_en: 'The physical properties of such a system were first studied in the 1930s in Russia by Mandelstam
+    and Papalexi: their first experiments used oscillatory circuits with an air capacitor in which one plate was
+    fixed and the other rotated by an electric motor at constant angular velocity whose rotation frequency could
+    be varied.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - мандельштам-папалекси
+  - varicap
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-TC07-010
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 4
+  quote_ru: Механическое вращение одной из пластин конденсатора всегда приводило к тому, что на обкладках конденсатора
+    накапливался электрический заряд до тех пор, пока воздушный конденсатор не пробивался.
+  statement_en: Mechanical rotation of one of the capacitor plates always led to electric charge accumulating on
+    the plates until the air capacitor broke down — the same effect as in the Testatika and the electrophorus machine;
+    they discovered direct conversion of mechanical energy into electric energy with a positive energy increment.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - varicap
+  - мандельштам-папалекси
+  - breakdown
+  notes: ''
+  relations: []
+- id: SC-TC07-011
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Современный физик-теоретик, прекрасно владеющий знаниями фундаментальных законов электростатики, объяснит,
+    что никакого дополнительного выделения энергии в таком колебательном контуре быть не может.
+  statement_en: 'A modern theoretical physicist, fluent in the fundamental laws of electrostatics, will explain
+    that no additional energy release is possible in such an oscillatory circuit: all static charges accumulated
+    on the capacitor plates are immovable, and in rotation move along closed trajectories; the distributed charges
+    of the moving plate can be represented as an atmosphere of point charges immovable relative to the plate, and
+    the motion of a point charge in an inhomogeneous electrostatic field along the same closed contour does not
+    change its energy over a full revolution and does no work (circulation theorem for the static electric field
+    strength).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrostatics
+  - circulation-theorem
+  - theory
+  notes: ''
+  relations: []
+- id: SC-TC07-012
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 5
+  quote_ru: 'Теоретик абсолютно прав. Но эксперимент указывает на нечто неожиданное: механическое вращение в рассмотренной
+    системе может быть преобразовано в электрическую энергию, которая затем накапливается до пробоя конденсатора.'
+  statement_en: 'The theoretician is absolutely right — but the experiment points to something unexpected: mechanical
+    rotation in the considered system can be converted into electric energy which then accumulates until the capacitor
+    breaks down (the theoretician who cannot explain the experiment declares everything pseudoscience).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - experiment
+  - debt-candidate
+  notes: ''
+  relations:
+  - to: SC-TC07-011
+    kind: contradicts
+- id: SC-TC07-013
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Мандельштам и Папалекси так же не нашли удовлетворительного объяснения возникающему нарастанию энергии,
+    закопали непонятное в термин «параметрический резонанс» и предложили новое научное направление по созданию параметрических
+    генераторов переменного тока, которые в настоящее время реализованы в радиотехнике и СВЧ - технике.
+  statement_en: Mandelstam and Papalexi also found no satisfactory explanation of the arising energy growth, buried
+    the incomprehensible in the term 'parametric resonance', and proposed a new scientific direction of parametric
+    AC generators now realized in radio and microwave engineering; the research direction most interesting for future
+    energetics remained unnoticed.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - parametric-resonance
+  - мандельштам-папалекси
+  - history
+  notes: ''
+  relations: []
+- id: SC-TC07-014
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 5
+  quote_ru: Были зафиксированы светящиеся объекты, локализованные в пространстве и имеющие размеры от миллиметров
+    до сантиметров. Время высвечивания объекта увеличивалось с увеличением его объёма.
+  statement_en: For the last 30 years physical laboratories of many countries ran experiments on powerful short
+    electric pulses in various conducting media; glowing objects localized in space with sizes from millimeters
+    to centimeters were recorded; the object decay (glow) time increased with its volume; researchers noted the
+    macroscopic charge separation inside the object held in a bounded region of space by a self-consistent electric
+    field; experimentally the object can reside in three different electrization states — electrically neutral,
+    positively charged, and negatively charged; these properties allow attributing it to the class of plasmoids
+    and microplasmoids.
+  quantities:
+  - 'размеры объектов: от миллиметров до сантиметров'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - plasmoid
+  - experiment
+  - charge-separation
+  notes: ''
+  relations: []
+- id: SC-TC07-015
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: 'Исследование статических решений модели указывает на возможность существования трёх видов плазмоидов
+    в двухкомпонентной плазме: электронейтрального, заряженного положительно (электронный кластер в дырочной плазме),
+    либо заряженного отрицательно (электронный кластер в электронной плазме), что совпадает с наблюдениями.'
+  statement_en: 'The temporal process of plasmoid-chain formation (bead lightning) under an external DC current
+    was first proposed in [7] (Pustovoit); the authors simplified the model for the absence of external current
+    and studied the plasma instability at single-plasmoid formation; the static solutions of the model indicate
+    the possible existence of three kinds of plasmoids in two-component plasma: electrically neutral, positively
+    charged (electron cluster in hole plasma), or negatively charged (electron cluster in electron plasma), matching
+    observations.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - plasmoid
+  - пустовойт
+  - model
+  notes: ''
+  relations: []
+- id: SC-TC07-016
+  type: physical
+  facet: process
+  priority: core
+  page: 6
+  quote_ru: Затем в плазме быстро развивается электрическая неустойчивость, которая в конечном счёте формирует одиночный
+    либо положительный, либо отрицательный плазмоид. Заряды плазмоида удерживаются в пространстве самосогласованным
+    полем.
+  statement_en: 'Non-static solutions indicate the following temporal sequence of plasmoid formation under electric-instability
+    development: at some moment a spatially bounded region with electrically neutral plasma arises in the atmosphere;
+    then the electric instability develops rapidly in the plasma, ultimately forming a single positive or negative
+    plasmoid; the plasmoid charges are held in space by the self-consistent field; the electric energy accumulated
+    by the plasmoid radiates into the atmosphere and the object ceases to exist; to take the energy accumulated
+    by the plasmoid before it radiates, it must be created artificially inside the П-shaped capacitor plates as
+    done in the Testatika.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - plasmoid
+  - self-consistent-field
+  - process
+  notes: ''
+  relations: []
+- id: SC-TC07-017
+  type: physical
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: Она отличается от магнитной тем, что в свободном состоянии указывает направление напряжённости внешнего
+    электрического поля и при высоких напряжённостях внешнего поля имеет достаточно большой электрический дипольный
+    момент. Чем больше длина стрелки и чем больше напряжённость внешнего поля, тем больше дипольный момент электрической
+    стрелки.
+  statement_en: 'Each conducting sector glued radially on the circle is an electric arrow: it differs from the magnetic
+    one in that in the free state it points along the external electric field strength and at high external field
+    strengths has a rather large electric dipole moment; the longer the arrow and the higher the external field
+    strength, the larger the arrow''s dipole moment.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electric-arrow
+  - dipole
+  notes: ''
+  relations: []
+- id: SC-TC07-018
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 7
+  quote_ru: Когда стрелка попадает во внешнее электрическое поле, то на её концах искусственно образуются плазмоиды.
+    Положительно заряженный плазмоид будет находится на «северном» конце стрелки, а отрицательно заряженный плазмоид
+    – на «южном» конце стрелки.
+  statement_en: 'When the arrow enters the external electric field, plasmoids form artificially at its ends: the
+    positively charged plasmoid resides on the ''north'' end of the arrow, the negatively charged plasmoid on the
+    ''south'' end; the charges accumulated by the П-shaped capacitor plates are usually opposite in sign to the
+    arrow charges but may coincide at some moments.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - plasmoid
+  - electric-arrow
+  notes: ''
+  relations: []
+- id: SC-TC07-019
+  type: physical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Расположение электрической стрелки под углом к оси П-образного конденсатора сразу создаёт момент электрических
+    сил, который стремится притянуть концы стрелки к электродам и вернуть стрелку в положение равновесия.
+  statement_en: Placing the electric arrow at an angle to the П-shaped capacitor axis immediately creates a moment
+    of electric forces tending to attract the arrow ends to the electrodes and return the arrow to equilibrium;
+    turning the arrow by the same angle in the other direction creates the same moment of opposite direction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electric-arrow
+  - torque
+  notes: ''
+  relations: []
+- id: SC-TC07-020
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Мы утверждаем, что на каждый элемент объёма протяжённого одноимённо заряженного тела, находящееся во
+    внешнем неоднородном электрическом поле
+  statement_en: 'In the Testatika the interaction of the artificial plasmoid charges with the П-shaped capacitor
+    charges is not described by Coulomb interaction: the Coulomb model is built only for point charges, which are
+    not realized in nature, and is inapplicable to distributed charges; the authors assert that two volume forces
+    act on each volume element of an extended like-charged body in an external inhomogeneous electric field: the
+    electric force f1 = ρE, to be summed over all plasmoid charges of the arrow, and the force connected with the
+    field pressure gradient, proportional to f2 = E·divE/4π, acting on the local distribution of the mass density
+    of the plasmoid charges.'
+  quantities: []
+  equations:
+  - \mathbf{f}_1 = \rho \mathbf{E}
+  - \mathbf{f}_2 = \mathbf{E}\,\mathrm{div}\mathbf{E}/4\pi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bisil
+  - self-consistent-field
+  - distributed-charges
+  - debt-candidate
+  notes: quote truncated before OCR-degraded formula glyphs; force expressions kept in equations.
+  relations: []
+- id: SC-TC07-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Бисиловое взаимодействие протяжённых заряженных тел обладает асимметрией. Закон зависимости силы взаимодействия
+    двух одноимённо заряженных тел от расстояния – один, а тех же разноимённо заряженных тел –
+  statement_en: 'The bisil (two-force) interaction of extended charged bodies possesses an asymmetry: the law of
+    dependence of the interaction force on distance is one for two like-charged bodies and another for the same
+    oppositely charged bodies — this happens because of the different directions of action of the electric and gradient
+    forces.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bisil
+  - asymmetry
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC07-022
+  type: physical
+  facet: process
+  priority: core
+  page: 8
+  quote_ru: Подходя близко к пластине конденсатора, стрелка разряжается через наименьшее расстояние газового промежутка
+    и изменяет знаки зарядов на своих концах. Сразу же изменяется и сила взаимодействия концов стрелки с пластинами
+    конденсатора. Она скачком увеличивается и становится отталкивающей.
+  statement_en: When the end of the electric arrow approaches the П-capacitor plate, its charges attract to the
+    plate; the charge atmosphere at the arrow end changes its shape and structure at each next moment, and the self-consistent
+    electric fields of the system depend on time and do positive work on the arrow; approaching the plate closely,
+    the arrow discharges through the smallest gas-gap distance and changes the signs of the charges at its ends
+    — the interaction force of the arrow ends with the plates jumps up and becomes repelling; the moment of electric
+    force keeps its direction in space and continues rotating the wheel with conducting sectors in the same direction,
+    again doing positive work; the microdischarges cause dry crackling and ozone formation, which is observed in
+    the Testatika.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electric-arrow
+  - discharge
+  - testatika
+  - process
+  notes: ''
+  relations: []
+- id: SC-TC07-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Так работает мотор Тестатики. На этом принципе возможно создание разнообразных роторных двигателей и
+    микродвигателей постоянного и переменного тока нового поколения.
+  statement_en: This is how the Testatika motor works; on this principle the creation of various rotary engines
+    and micro-engines of direct and alternating current of a new generation is possible.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - motor
+  - program
+  notes: ''
+  relations: []
+- id: SC-TC07-024
+  type: physical
+  facet: process
+  priority: normal
+  page: 8
+  quote_ru: Если разряда стрелки на пластины П-образного конденсатора не происходит, то момент электрической силы
+    изменяет своё направление в пространстве и начнёт возвращать стрелку в положение равновесия. В этом случае будет
+    реализовано финитное по углу движение стрелки.
+  statement_en: If no discharge of the arrow onto the П-shaped capacitor plates occurs, the moment of electric force
+    changes its direction in space and begins returning the arrow to equilibrium — in this case a finite-in-angle
+    motion of the arrow is realized.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electric-arrow
+  - finite-motion
+  notes: ''
+  relations: []
+- id: SC-TC07-025
+  type: physical
+  facet: process
+  priority: core
+  page: 8
+  quote_ru: В момент разряда электрической стрелки на пластины конденсатора её дипольный электрический момент за
+    миллисекунды изменяет своё направление на противоположное. Изменение дипольного момента всегда приведёт к изменению
+    вектора электрической индукции в этом же пространстве.
+  statement_en: 'How the Testatika generator works: at the moment of the electric arrow''s discharge onto the capacitor
+    plates its electric dipole moment reverses direction within milliseconds; a change of dipole moment always leads
+    to a change of the electric induction vector in the same space.'
+  quantities:
+  - t(обращения дипольного момента) ~ миллисекунды
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - generator
+  - dipole
+  - testatika
+  notes: ''
+  relations: []
+- id: SC-TC07-026
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: очередь, породит вектор плотности тока смещения Максвелла, который   пропорционален скорости изменения
+    электрической индукции
+  statement_en: The change of the electric induction vector in turn generates the Maxwell displacement-current density
+    vector proportional to the rate of change of the electric induction (jсм = ∂D/∂t); since the П-shaped capacitor
+    is in the circuit closed onto an inductance, the short displacement-current pulse causes in the inductance a
+    short pulse of the same conduction current; the sequence of conducting sectors moving periodically in the П-capacitor
+    plates produces an alternating impulse current on the DC background, periodically supplying excess energy into
+    the system; on this second operating principle of the Testatika, electromechanical AC generators of a new generation
+    can be built.
+  quantities: []
+  equations:
+  - \mathbf{j}_{см} = \partial \mathbf{D}/\partial t
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - generator
+  - testatika
+  - maxwell-current
+  notes: quote starts mid-sentence and contains the source's private-use OCR glyphs verbatim; formula in equations.
+  relations: []
+- id: SC-TC07-027
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Избыточной энергии, поставляемой генератором, будет достаточно как для создания высокого напряжения
+    на пластинах П-образного конденсатора, так и для компенсации диссипативных потерь системы.
+  statement_en: The excess energy supplied by the generator will suffice both for creating high voltage on the П-shaped
+    capacitor plates and for compensating the system's dissipative losses; all other electric elements used in the
+    Testatika should be attributed to its storage part and may differ between installations.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - energy-balance
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC07-028
+  type: physics
+  facet: theory
+  priority: core
+  page: 9
+  quote_ru: Причина этого в том, что такая энергетика использует физические свойства электрического поля, которое
+    оказывается первичным по отношению к полю магнитному.
+  statement_en: The innovative dual-purpose direction of energetics using the alternating electric fields of plasma
+    instability for energy production is a powerful alternative to producing electric energy via the Faraday electromagnetic-induction
+    effect — the reason being that such energetics uses the physical properties of the electric field, which turns
+    out to be primary relative to the magnetic field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - energy-alternative
+  - plasma-instability
+  notes: ''
+  relations: []
+- id: SC-TC07-029
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: 'Изложенная концепция избыточной энергетики плазменной неустойчивости имеет несомненные преимущества:
+    простота, экологическая безвредность, мобильность, дешевизна, автономность, компактность, широкий диапазон выходных
+    мощностей, получаемых из «ничего». Она не «требует» человеческих жертв.'
+  statement_en: 'The stated concept of excess energetics of plasma instability has undoubted advantages: simplicity,
+    ecological harmlessness, mobility, cheapness, autonomy, compactness, a wide range of output powers obtained
+    ''from nothing''; it does not ''require'' human victims.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - advantages
+  notes: ''
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

@@ -1,0 +1,343 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI06
+  section: site
+  title_ru: Монографии
+  title_en: Monographs
+  file: site/monography.md
+  source_url: https://sapogin.com/monography
+  md5: ca854203007c94d704df05855b164c6f
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI06-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: Исследование является продолжением работ Эмдена (1907 г.), посвящённых равновесию газовых шаров, и работ Лауэ (1914 г.) - Френкеля (1953 г.), описывающих равновесие газа одноимённых зарядов
+    с однородной температурой.
+  statement_en: Sapogin states the monograph continues Emden's (1907) work on gas-sphere equilibrium and the Laue (1914)–Frenkel (1953) works describing the equilibrium of a like-charge gas with homogeneous
+    temperature.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - emden
+  - laue
+  - frenkel
+  notes: ''
+  relations: []
+- id: SC-SI06-002
+  type: physical
+  facet: theory
+  priority: normal
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: упомянутые системы коллективного взаимодействия удерживаются от гравитационного коллапса, либо кулоновского расталкивания объёмными силами полевого происхождения
+  statement_en: Sapogin asserts the mentioned collectively interacting systems are held from gravitational collapse or Coulomb dispersal by volume forces of field origin, tied to the pressure gradient of
+    the corresponding collective field, as plasma can be confined by external magnetic-field pressure gradient.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - confinement
+  - field-forces
+  notes: ''
+  relations: []
+- id: SC-SI06-003
+  type: physical
+  facet: theory
+  priority: normal
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: Для системы гравитирующих частиц градиент давления оказывает расталкивающее действие, а в системах заряда одного знака притягивающее действие, компенсирующее кулоновское расталкивание.
+  statement_en: Sapogin asserts the pressure gradient is repulsive for gravitating particles and attractive in like-charge systems, compensating Coulomb repulsion.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - pressure-gradient
+  notes: ''
+  relations: []
+- id: SC-SI06-004
+  type: physics
+  facet: theory
+  priority: core
+  page: § Механизмы удержания вещества самосогласованным полем
+  quote_ru: Существование этих сил позволяет объяснить возможность существования нейтронных сверхмассивных чёрных дыр с очень высокой температурой и зарядовых кластеров микронных размеров, обнаруженных
+    в экспериментах К.Шоулдерса, исследующих новые аспекты протекания тока в вакуумном диоде с острийной геометрией катода.
+  statement_en: Sapogin asserts the existence of these forces explains the possible existence of neutron supermassive black holes with very high temperature and of micron-sized charge clusters discovered
+    in Shoulders' experiments on new aspects of current flow in a vacuum diode with tip-shaped cathode.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - black-holes
+  - charge-cluster
+  - shoulders
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI06-005
+  type: physics
+  facet: schematic
+  priority: normal
+  page: § Интегральные индуктивности с высокой симметрией
+  quote_ru: токовихревые положительные и отрицательные пассивные многослойные индуктивности с высокой объёмной плотностью
+  statement_en: Sapogin's monograph covers current-eddy positive and negative passive multilayer inductances with high volumetric density among its classes of integrated inductances.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - inductors
+  - negative-inductance
+  - schematic
+  notes: ''
+  relations: []
+- id: SC-SI06-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Интегральные индуктивности с высокой симметрией
+  quote_ru: Для тонкой плёнки, с наноскопической толщиной, положительная индуктивность соленоида может существенно возрасти. При этом должна возникнуть частотно-независимая индуктивность. Она не имеет частоты
+    среза.
+  statement_en: Sapogin asserts that for a film of nanoscopic thickness the solenoid's positive inductance can rise substantially, with a frequency-independent inductance appearing that has no cutoff frequency.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - thin-film
+  - frequency-independent-inductance
+  notes: ''
+  relations: []
+- id: SC-SI06-007
+  type: physics
+  facet: process
+  priority: normal
+  page: § Интегральные индуктивности с высокой симметрией
+  quote_ru: проблема дальнейшей интеграции приемлемых значений положительной пассивной индуктивности порядка 10 нГн (на один слой до 500 нм толщины) в микрочипах может быть разрешена в направлении создания
+    перспективной технологии «проводящая плёнка в токовом кольце», работающей в режиме наноразмерного эффекта вихревых токов Фуко.
+  statement_en: Sapogin asserts the problem of integrating passive positive inductances of order 10 nH (per layer up to 500 nm thick) in microchips can be solved via the prospective 'conducting film in
+    the current ring' technology operating in the nanoscale Foucault eddy-current effect regime.
+  quantities:
+  - positive inductance ~ 10 nH per layer <= 500 nm thick
+  equations: []
+  materials: []
+  geometry:
+  - conducting film inside current ring; layer thickness up to 500 nm
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - inductors
+  - nanoscale-effect
+  - geometry
+  notes: ''
+  relations: []
+- id: SC-SI06-008
+  type: physics
+  facet: process
+  priority: normal
+  page: § Интегральные индуктивности с высокой симметрией
+  quote_ru: позволит получать пассивные отрицательные индуктивности с предельно высокой объёмной плотностью ~ 2,010^(7) Гн/м3.
+  statement_en: Sapogin asserts the multilayer branch (10 to 30 double layers) of the same technology allows passive negative inductances with extremely high volumetric density ~2.0e7 H/m^3.
+  quantities:
+  - negative inductance density ~ 2.0e7 H/m^3
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - negative-inductance
+  - multilayer
+  notes: ''
+  relations: []
+- id: SC-SI06-009
+  type: physics
+  facet: measurement
+  priority: normal
+  page: § Интегральные индуктивности с высокой симметрией
+  quote_ru: Показано, что в слое толщиной в 1 мм и площадью 1 см^(2) можно разместить 16 000 индукторов в 40 слоях. Это позволит создать положительную макроиндуктивность, значение которой будет лежать на
+    уровне 1 мГн. Для отрицательной индуктивности последнее значение будет больше на порядок.
+  statement_en: Sapogin reports estimates that a 1-mm-thick, 1-cm^2 layer can host 16,000 inductors in 40 layers, giving a positive macroinductance at the 1 mH level, with the negative inductance value
+    an order of magnitude larger.
+  quantities:
+  - 16,000 inductors in 40 layers on 1 mm x 1 cm^2
+  - positive macroinductance ~ 1 mH
+  - negative ~ 10 mH
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: positive macroinductance
+    value: '1'
+    unit: mH
+    conditions: 16,000 inductors, 40 layers, 1 mm thick 1 cm^2 layer
+  - quantity: negative macroinductance
+    value: ~10
+    unit: mH
+    conditions: one order above positive value
+  schematic_refs: []
+  tags:
+  - inductors
+  - integration-density
+  notes: ''
+  relations: []
+- id: SC-SI06-010
+  type: physics
+  facet: procedure
+  priority: normal
+  page: § Интегральные индуктивности с высокой симметрией
+  quote_ru: Повторить полученные ими результаты на многослойных плёнках Al-Cu, начиная с двухслойных структур и заканчивая структурами с 30 слоями.
+  statement_en: Sapogin proposes replicating the Ohio researchers' (2009) results on Al-Cu multilayer films, from two-layer structures up to 30 layers, as step 2 of an experimental programme on eddy-current
+    inductances.
+  quantities:
+  - 2..30 double layers Al-Cu
+  equations: []
+  materials:
+  - Al
+  - Cu
+  geometry: []
+  procedure_steps:
+  - master multilayer film inductance processes per the 2009 Ohio technology
+  - replicate on Al-Cu multilayer films from 2 to 30 layers
+  - verify nanoscale positive eddy inductance effect in a single film of variable thickness
+  - show inductance dependence on geometry
+  - investigate independence of film inductance from resistivity
+  - determine frequency-range dependence on resistivity
+  - demonstrate dynamic eddy inductance on a thick single film
+  measurements: []
+  schematic_refs: []
+  tags:
+  - procedure
+  - al-cu-films
+  - inductors
+  notes: ''
+  relations: []
+- id: SC-SI06-011
+  type: experimental
+  facet: experiment
+  priority: core
+  page: § Технологии персональной энергетики на пузырьковых структурах зарядов (физические основы)
+  quote_ru: Опыты К.Шоулдерса, Г.Месяца, Б.Каторгина показали, что протекание тока в вакууме или в горячей плазме характеризуется образованием микроскопических структур газообразного вещества в виде пузырька
+    зарядов или скоплений из пузырьков заряда. На синтез одного пузырька затрачивается электрической энергии на три порядка меньше, чем он потом излучает при распаде.
+  statement_en: Sapogin reports the experiments of Shoulders, Mesyats and Katorgin showed current flow in vacuum or hot plasma features formation of microscopic gas-like structures as charge bubbles or
+    clusters of charge bubbles, and synthesizing one bubble consumes three orders of magnitude less electric energy than it later radiates upon decay.
+  quantities:
+  - 'synthesis energy : decay energy = 1 : 1000'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shoulders
+  - mesyats
+  - katorgin
+  - charge-bubbles
+  - evo
+  - over-unity
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-SI06-012
+  type: physics
+  facet: theory
+  priority: core
+  page: § Технологии персональной энергетики на пузырьковых структурах зарядов (физические основы)
+  quote_ru: Этот факт указывает на существование физического механизма необратимого нарастания энергии в процессах синтеза/распада любых пузырьков зарядов. Механизм объясняет причины существенного увеличения
+    температуры плазмы газового разряда, солнечной короны, возрастания световой энергии в светодиодных и газонаполненных лампах. Он же объясняет причины нарастания электрической энергии зарядов проводника
+    при любых способах их разделения.
+  statement_en: Sapogin asserts the 1000x synthesis/decay asymmetry points to a physical mechanism of irreversible energy growth in synthesis/decay of any charge bubbles, explaining the significant temperature
+    increase of gas-discharge plasma and the solar corona, the growth of light energy in LEDs and gas-filled lamps, and the growth of electric energy of conductor charges under any method of their separation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - irreversible-energy-growth
+  - over-unity
+  - charge-bubbles
+  - evo
+  notes: ''
+  relations: []
+- id: SC-SI06-013
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: § Технологии персональной энергетики на пузырьковых структурах зарядов (физические основы)
+  quote_ru: Рассмотрен эффект макроскопического центробежного разделения зарядов плазмы при вращении металлического стержня комнатной температуры. Обсуждается применение эффекта в самовращающихся конденсаторах
+    с радиальными проводящими пластинами.
+  statement_en: Sapogin considers the effect of macroscopic centrifugal charge separation in plasma during rotation of a room-temperature metal rod and its application in self-rotating capacitors with radial
+    conducting plates.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - centrifugal-charge-separation
+  - self-rotating-capacitor
+  - experiment
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-SI06-014
+  type: physics
+  facet: theory
+  priority: core
+  page: § Технологии персональной энергетики на пузырьковых структурах зарядов (физические основы)
+  quote_ru: Найдены параллели с физическим принципом работы устройства «Тестатика» Поля Баумана (1987 г., Швейцария), поставляющего энергию переменного тока потребителю и не требующего подведения энергии
+    извне.
+  statement_en: Sapogin asserts parallels were found with the operating principle of Paul Baumann's 'Testatika' device (1987, Switzerland), which supplies AC energy to the consumer without external energy
+    input.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - baumann
+  - over-unity
+  - electrical-path
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

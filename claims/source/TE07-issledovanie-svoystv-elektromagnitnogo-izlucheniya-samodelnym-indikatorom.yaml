@@ -1,0 +1,305 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE07
+  section: teaching
+  title_ru: Исследование свойств электромагнитного излучения самодельным индикатором
+  title_en: Investigating the properties of electromagnetic radiation with a homemade indicator
+  file: papers/teaching/issledovanie-svoystv-elektromagnitnogo-izlucheniya-samodelnym-indikatorom.pdf
+  source_url: http://146.190.233.254/docs/teaching/Исследование свойств электромагнитного излучения самодельным
+    индикатором.pdf
+  md5: f32a343816ced4d6d17f977f74b1074d
+  pages_total: 9
+  retrieved: '2026-08-31'
+claims:
+- id: SC-TE07-001
+  type: physical
+  facet: schematic
+  priority: normal
+  page: 1
+  quote_ru: Основное техническое устройство, позволяющее поставить описанные ниже опыты, - это прибор
+    для обнаружения скрытой электропроводки,
+  statement_en: The core device for the demonstrations is a hidden-wiring detector described by A. Borison
+    in the journal "Radio" (1991, No. 8, p. 77); the author presents its schematic so the device can be
+    built at school; EM-radiation detection is signalled by LED HL1 lighting up; main nodes are the LED
+    indicator and the antenna.
+  quantities: []
+  equations: []
+  materials:
+  - LED indicator HL1
+  - antenna
+  geometry: []
+  procedure_steps:
+  - build the hidden-wiring detector from the published schematic (Radio, 1991, No. 8, p. 77)
+  - use LED HL1 lighting as the EM-radiation detection signal
+  measurements: []
+  schematic_refs:
+  - рис. (прибора схема)
+  tags:
+  - schematic
+  - EM-indicator
+  - detector
+  notes: ''
+  relations: []
+- id: SC-TE07-002
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 2
+  quote_ru: 'Наблюдаемый эффект. При прохождении через лампочку переменного электрического тока индикатор
+    обнаруживает ЭМИ: он загорается.'
+  statement_en: 'The author reports demonstration experience No. 1: when alternating current passes through
+    a lamp (indicator placed 20-25 cm away), the EM-radiation indicator detects EM radiation (LED lights);
+    with no current in the circuit the LED does not light, i.e. no EM radiation.'
+  quantities:
+  - индикатор и лампочка на расстоянии 20–25 см
+  equations: []
+  materials:
+  - лампочка на 220 В
+  - индикатор ЭМИ
+  geometry:
+  - indicator and lamp 20-25 cm apart
+  procedure_steps:
+  - place EM indicator and lamp 20-25 cm apart
+  - connect lamp to AC mains
+  - observe LED; switch the lamp off and observe again
+  measurements: []
+  schematic_refs: []
+  tags:
+  - experiment
+  - EM-radiation
+  - alternating-current
+  notes: ''
+  relations: []
+- id: SC-TE07-003
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 2
+  quote_ru: Следовательно, мы приходим к выводу о том, что ускоренно движущиеся заряды создают ЭМИ и ЭМП.
+  statement_en: The author asserts the lesson conclusion that accelerated charges create electromagnetic
+    radiation and an electromagnetic field; a stationary charged ebonite rod moved with acceleration near
+    the indicator antenna lights the LED for the whole time of accelerated motion (experience No. 2).
+  quantities: []
+  equations: []
+  materials:
+  - эбонитовая палочка
+  - шерстяная ткань
+  geometry: []
+  procedure_steps:
+  - rub the ebonite rod on wool
+  - move the rod with acceleration near the stationary indicator antenna
+  measurements: []
+  schematic_refs: []
+  tags:
+  - EM-radiation
+  - accelerated-charges
+  - phenomenology
+  notes: ''
+  relations: []
+- id: SC-TE07-004
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 3
+  quote_ru: Наблюдаемый эффект. Индикатор фиксирует наличие ЭМИ.
+  statement_en: 'The author reports experience No. 3: with the charged ebonite rod fixed in a stand and
+    the indicator moved with acceleration relative to it, the indicator detects EM radiation — the second
+    student hypothesis is confirmed, that only the relative motion of the indicator and the charge matters.'
+  quantities: []
+  equations: []
+  materials:
+  - эбонитовая палочка
+  - штатив
+  geometry: []
+  procedure_steps:
+  - fix and charge the ebonite rod in a stand
+  - move the indicator with acceleration relative to the stationary charged rod
+  - observe the LED
+  measurements: []
+  schematic_refs: []
+  tags:
+  - experiment
+  - EM-radiation
+  - relative-motion
+  notes: Standard electrodynamics treats radiation as not relative; flagged as debt-candidate by extractor.
+  relations: []
+- id: SC-TE07-005
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 3
+  quote_ru: Следовательно, неподвижные заряды электромагнитное излучение не создают.
+  statement_en: The author asserts from experiences No. 4 and 5 that charges stationary relative to the
+    indicator antenna create no EM radiation (LED goes out when the accelerated rod is stopped), and uniformly
+    moving charges create no EM radiation (rod carried at constant speed past the antenna does not trigger
+    the indicator).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - accelerate the charged rod toward the stationary antenna and stop it
+  - carry the charged rod at constant speed past the antenna
+  measurements: []
+  schematic_refs: []
+  tags:
+  - EM-radiation
+  - stationary-charges
+  - uniform-motion
+  - phenomenology
+  notes: ''
+  relations: []
+- id: SC-TE07-006
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 4
+  quote_ru: Наблюдаемые эффекты. Индикатор срабатывает, обнаруживая ЭМИ в разных точках около шнура и
+    на различных расстояниях от него.
+  statement_en: 'The author reports experience No. 6: the indicator triggers at different points around
+    the cord of a burning lamp at various distances, but at a far enough distance from the cord it stops
+    triggering — EM radiation exists at points of space around a wire carrying alternating current but
+    weakens with distance.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - circle the indicator around the cord of a burning lamp
+  - increase the distance stepwise and repeat
+  measurements: []
+  schematic_refs: []
+  tags:
+  - experiment
+  - EM-radiation
+  - spatial-distribution
+  notes: ''
+  relations: []
+- id: SC-TE07-007
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 5
+  quote_ru: Наблюдаемый эффект. Во втором случае (при наличии штукатурки на стене как среды) светодиод
+    индикатора гаснет на расстоянии, которое меньше, чем в первом случае.
+  statement_en: 'The author reports experience No. 7: measuring the distance at which the LED goes out,
+    first for a wire in air and then for hidden wiring behind a plastered wall, the extinction distance
+    with plaster is smaller than in air — EM radiation penetrates the medium (plaster) and the medium
+    partially absorbs it.'
+  quantities: []
+  equations: []
+  materials:
+  - штукатурка
+  geometry: []
+  procedure_steps:
+  - place the indicator at the distance where it just stops detecting EM radiation from a wire; measure
+    with a ruler
+  - repeat for hidden wiring behind a plastered wall
+  - compare extinction distances
+  measurements: []
+  schematic_refs: []
+  tags:
+  - experiment
+  - EM-radiation
+  - absorption
+  - media
+  notes: ''
+  relations: []
+- id: SC-TE07-008
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 5
+  quote_ru: Наблюдаемый эффект. Чем больше ускорение палочки, тем ярче горит индикатор.
+  statement_en: 'The author reports experience No. 9: an oscillating charged ebonite rod at fixed distance
+    from the indicator lights the LED brighter at higher oscillation frequency, and asserts the conclusion
+    that the intensity of EM radiation depends on the magnitude of the acceleration of the moving charges:
+    the greater the acceleration, the greater the radiation intensity.'
+  quantities: []
+  equations: []
+  materials:
+  - эбонитовая палочка
+  geometry: []
+  procedure_steps:
+  - oscillate one end of the charged rod at the same distance from the indicator with two different frequencies
+  - compare LED brightness
+  measurements: []
+  schematic_refs: []
+  tags:
+  - EM-radiation
+  - intensity
+  - acceleration
+  - phenomenology
+  notes: ''
+  relations: []
+- id: SC-TE07-009
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 5
+  quote_ru: Наблюдаемый эффект. Индикатор не фиксирует ЭМИ в первом случае и фиксирует во втором.
+  statement_en: 'The author reports experience No. 10: placing a metal cup (e.g. calorimeter vessel) over
+    the glass bulb of a switched-on lamp stops the indicator from detecting EM radiation; removing the
+    cup restores detection — metal shields EM radiation as a screen.'
+  quantities: []
+  equations: []
+  materials:
+  - металлический стакан
+  - стеклянный баллон электролампы
+  geometry: []
+  procedure_steps:
+  - place a metal cup over the glass bulb of a switched-on lamp and bring the indicator near
+  - remove the cup and repeat
+  measurements: []
+  schematic_refs: []
+  tags:
+  - experiment
+  - EM-shielding
+  - metal
+  - screen
+  notes: ''
+  relations: []
+- id: SC-TE07-010
+  type: physics
+  facet: procedure
+  priority: normal
+  page: 7
+  quote_ru: Считаем, что вся потенциальная энергия упруго деформированной пружины передается шайбе (цилиндру)
+    4 при ее отпускании. Силы сопротивления движению шайбы не учитываем.
+  statement_en: The spring-stiffness lab work assumes the entire potential energy of the elastically deformed
+    spring is transferred to the steel washer (cylinder) on release and motion-resistance forces are neglected;
+    from energy conservation the spring stiffness k is then computed from the washer mass m, the lift
+    height H and the spring deformation (equations lost in the extracted text).
+  quantities: []
+  equations:
+  - \tfrac{1}{2}kx^2 = mgH \Rightarrow k = 2mgH/x^2
+  materials:
+  - пружина
+  - направляющий стержень (велосипедная спица)
+  - стальная шайба (цилиндр)
+  - миллиметровая линейка 0–30 см
+  - фиксатор
+  geometry:
+  - guide rod with sliding steel washer
+  - millimetre ruler measuring range 0-30 cm
+  procedure_steps:
+  - compress the spring with the washer, storing elastic potential energy
+  - release the washer and measure the lift height H
+  - compute k from energy conservation with measured m, H, deformation
+  measurements: []
+  schematic_refs:
+  - рисунок 1 (установка)
+  - рис. 2 (энергетическая схема)
+  tags:
+  - procedure
+  - spring-stiffness
+  - energy-conservation
+  - lab-work
+  notes: Formula lines blank in extracted text (images); k-formula is best-effort reconstruction from
+    the stated variables, OCR-degraded.
+  relations: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

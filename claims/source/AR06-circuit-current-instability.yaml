@@ -1,0 +1,846 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR06
+  section: articles
+  title_ru: Токовая неустойчивость колебательного контура при гармонической модуляции реактивного параметра
+  title_en: Current instability of an oscillating circuit under harmonic modulation of a reactive parameter
+  file: papers/articles/tokovaya-neustoychivost-kolebatelnogo-kontura-pri-garmonicheskoy-modulyatsii-rea.pdf
+  source_url: http://146.190.233.254/docs/articles/Токовая неустойчивость колебательного контура при гармонической
+    модуляции реактивного параметра.pdf
+  md5: 06766dd7e4e41c001a58e9190b804ea1
+  pages_total: 8
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR06-001
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: 'Найдена физико-математическая модель, которая описывает периодическое изменение заряда в последовательном
+    колебательном контуре без источника тока с механически изменяющейся по гармоническому закону ёмкостью. В уравнение
+    входят три безразмерных параметра системы: добротность, отношение частоты модуляции ёмкости к частоте колебательного
+    контура, и приведённая амплитуда модуляции реактивного параметра.'
+  statement_en: 'A physical-mathematical model has been found describing the periodic change of charge in a series
+    oscillating circuit without a current source, with capacitance varying mechanically according to a harmonic
+    law; the equation contains three dimensionless system parameters: the quality factor, the ratio of the capacitance
+    modulation frequency to the circuit frequency, and the reduced amplitude of the reactive-parameter modulation.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - oscillating-circuit
+  - parametric-modulation
+  - electrical-path
+  notes: Electrical-path core topic (charge accumulation via mechanical capacitance modulation).
+  relations: []
+- id: SC-AR06-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: 'Численное моделирование показывает, что в рассмотренной системе могут существовать три класса периодических
+    решений: в низкодобротном колебательном контуре они имеют вид затухающих колебаний; в контуре со средней добротностью
+    они имеют вид биений, возникающих при параметрическом резонансе Мандельштама-Папалекси, а в высокодобротном
+    контуре может развиваться токовая неустойчивость. Она проявляет себя в том, что приводит к неограниченному росту
+    колебаний заряда и тока ёмкости для определённых значений глубины модуляции реактивного параметра.'
+  statement_en: 'Numerical modeling shows that three classes of periodic solutions can exist in the system: in a
+    low-Q circuit they are damped oscillations; in a medium-Q circuit they are beats arising from the Mandelshtam-Papaleksi
+    parametric resonance; in a high-Q circuit a current instability can develop, which manifests itself in unlimited
+    growth of charge oscillations and capacitance current for certain values of the reactive-parameter modulation
+    depth.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - current-instability
+  - parametric-resonance
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR06-003
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 1
+  quote_ru: Для глубины модуляции в 20% амплитуда заряда в контуре увеличивается в 6 раз на восьми периодах колебаний.
+    Для глубины модуляции в 80% на том же количестве периодов амплитуда зарядов в контуре возрастает более, чем
+    в 10 000 раз.
+  statement_en: For a modulation depth of 20% the charge amplitude in the circuit increases 6-fold over eight oscillation
+    periods; for a modulation depth of 80%, over the same number of periods, the charge amplitude in the circuit
+    grows more than 10,000-fold.
+  quantities:
+  - 6x growth in 8 periods at 20% modulation depth
+  - '>10000x growth in 8 periods at 80% modulation depth'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: charge amplitude growth
+    value: 6x
+    unit: dimensionless
+    conditions: modulation depth 20%, 8 periods
+  - quantity: charge amplitude growth
+    value: '>10000x'
+    unit: dimensionless
+    conditions: modulation depth 80%, 8 periods
+  schematic_refs: []
+  tags:
+  - current-instability
+  - gain
+  - electrical-path
+  notes: Simulation results (numerical modeling), not laboratory measurements.
+  relations:
+  - to: SC-AR06-002
+    kind: supports
+- id: SC-AR06-004
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: 'Токовая неустойчивость колебательного контура представляет интерес для создания широкого класса высокоэффективных
+    электротехнических устройств накопления заряда, использующих механо- электрический принцип. Ключевые слова:
+    последовательный колебательный контур, модуляция реактивного параметра, параметрический резонанс, токовая неустойчивость
+    колебательного контура, механо-электрический принцип.'
+  statement_en: The current instability of the oscillating circuit is of interest for creating a wide class of high-performance
+    electrical charge-storage devices using the mechano-electric principle.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-storage
+  - mechano-electric
+  - electrical-path
+  - applications
+  notes: ''
+  relations: []
+- id: SC-AR06-005
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 2
+  quote_ru: У конденсатора одна из обкладок была неподвижна, а вторая, с радиальными прорезями, вращалась с постоянной
+    угловой скоростью электродвигателем, частоту вращения которого можно было изменять.
+  statement_en: 'In the 1950s in Russia academicians L.I. Mandelshtam and N.D. Papaleksi studied the physical properties
+    of an electric oscillating circuit using a variable-capacitance air capacitor: one plate was fixed, and the
+    second, with radial slots, was rotated at constant angular speed by an electric motor whose rotation frequency
+    could be varied.'
+  quantities: []
+  equations: []
+  materials:
+  - variable air capacitor (one plate with radial slots)
+  geometry:
+  - rotor plate with radial slots rotated at constant angular speed
+  procedure_steps:
+  - rotate slotted capacitor plate with electric motor at variable constant speed
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mandelshtam-papaleksi
+  - variable-capacitor
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR06-006
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 2
+  quote_ru: Как показали эксперименты, механическое изменение ёмкости в последовательном контуре без источника питания
+    всегда приводило к тому, что на обкладках конденсатора накапливался избыточный электрический заряд.
+  statement_en: As the experiments showed, mechanical change of capacitance in a series circuit without a power
+    source always led to accumulation of excess electric charge on the capacitor plates.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-charge
+  - mechano-electric
+  - electrical-path
+  notes: ''
+  relations:
+  - to: SC-AR06-007
+    kind: supports
+- id: SC-AR06-007
+  type: physical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: На наш взгляд, они обнаружили неизвестную ранее в физике, механо-элекрическую систему, в которой происходило
+    циклическое преобразование механической энергии, поступающей извне в электроёмкость, в электрическую энергию
+    колебаний контура.
+  statement_en: In the authors' view, Mandelshtam and Papaleksi discovered a mechano-electric system previously
+    unknown in physics, in which cyclic conversion of mechanical energy supplied from outside into the capacitance
+    into electric energy of circuit oscillations took place.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mechano-electric
+  - energy-conversion
+  - electrical-path
+  notes: Interpretive framing of the M-P experiments by the authors.
+  relations: []
+- id: SC-AR06-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: 'Моделирование показывает, что в зависимости от значения добротности контура уравнение имеет три класса
+    решений: затухающие периодические колебания, параметрический резонанс и решения с токовой неустойчивостью.'
+  statement_en: 'Numerical modeling of the second-order linear ODE describing these processes shows that, depending
+    on the circuit quality factor, the equation has three classes of solutions: damped periodic oscillations, parametric
+    resonance, and solutions with current instability.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - solution-classes
+  notes: ''
+  relations: []
+- id: SC-AR06-009
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Накачка энергии в контур происходит через механическое гармоническое изменение ёмкости.
+  statement_en: Energy pumping into the circuit occurs through mechanical harmonic variation of the capacitance
+    (schematic in Fig. 1 shows the inclusion of the elements of the studied electric circuit).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - energy-pumping
+  - variable-capacitance
+  - electrical-path
+  notes: ''
+  relations: []
+- id: SC-AR06-010
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Если в такой схеме возникают периодические колебания, то в любой момент времени сумма переменных напряжений
+    в контуре равна нулю
+  statement_en: 'If periodic oscillations arise in such a circuit, the sum of the alternating voltages in the circuit
+    is zero at any moment: UL + UR + UC = 0 (1), where UL = L·di/dt is the inductance voltage, UR = R·dq/dt the
+    active-resistance voltage (Ohm''s law), UC = q/C(t) the capacitance voltage, and i = dq/dt; the active resistance
+    R is the total value including the ohmic resistance of the real inductance, of the connections, and of the capacitance
+    due to the air dielectric.'
+  quantities: []
+  equations:
+  - U_L + U_R + U_C = 0
+  - U_L = L\,di/dt
+  - U_R = R\,dq/dt
+  - U_C = q/C(t)
+  - i = dq/dt
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - kirchhoff-law
+  - circuit-equation
+  notes: 'OCR-degraded: equation glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR06-011
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Предположим, что закон изменения ёмкости во времени имеет гармонический вид
+  statement_en: 'The law of capacitance variation in time is assumed harmonic: C = C₀ + ΔC·cos(ωt) (2), where ω
+    is the frequency of its variation, ΔC the amplitude of capacitance modulation, C₀ the unperturbed capacitance;
+    the dimensionless reduced-amplitude parameter of modulation relative to the unperturbed value is 0 ≤ ΔC/C₀ ≤
+    1 (3).'
+  quantities:
+  - 0 <= dC/C0 <= 1
+  equations:
+  - C = C_0 + \Delta C\cos(\omega t)
+  - 0 \le \Delta C/C_0 \le 1
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - harmonic-modulation
+  notes: ''
+  relations: []
+- id: SC-AR06-012
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Разделив обе части (4) на L, получим точное уравнение периодических колебаний заряда в контуре при наличии
+    гармонического изменения одного из реактивных параметров
+  statement_en: 'Expressing all voltages through the charge and its derivatives gives L·q″ + R·q′ + q/(C₀(1 + ΔC·cos(ωt)))
+    = 0 (4); dividing by L gives the exact equation of periodic charge oscillations in the circuit with harmonic
+    variation of one of the reactive parameters: q″ + (R/L)q′ + q/(LC₀(1 + ΔC·cos(ωt))) = 0 (5).'
+  quantities: []
+  equations:
+  - L\frac{d^2q}{dt^2} + R\frac{dq}{dt} + \frac{q}{C_0(1+\Delta C\cos\omega t)} = 0
+  - \frac{d^2q}{dt^2} + \frac{R}{L}\frac{dq}{dt} + \frac{q}{LC_0(1+\Delta C\cos\omega t)} = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - equation-of-motion
+  - exact-equation
+  notes: 'OCR-degraded: equation glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR06-013
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Тогда уравнение (5) примет окончательный вид
+  statement_en: Passing to dimensionless variables with the reduced charge y = q(x)/q₀ and reduced time x = ω₀t
+    = t/sqrt(LC₀) = 2πt/T₀ (ω₀ = 1/sqrt(LC₀), T₀ the natural period), equation (5) takes the final form y″ + y′/Q
+    + y/(1 + ε·cos(nx)) = 0 (7).
+  quantities:
+  - x = omega_0 t = t/sqrt(L C0)
+  equations:
+  - x = \omega_0 t = \frac{t}{\sqrt{LC_0}} = 2\pi t/T_0
+  - y'' + y'/Q + \frac{y}{1+\varepsilon\cos(nx)} = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dimensionless-equation
+  notes: 'OCR-degraded: equation (7) glyphs partially lost; reconstructed best-effort (epsilon denotes the reduced
+    modulation amplitude).'
+  relations: []
+- id: SC-AR06-014
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Заметим, что похожая структура интегро-дифференциального уравнения для негармонического изменения ёмкости
+    была предложена в [1], но численное моделирование его не проводилось.
+  statement_en: A similar structure of an integro-differential equation for non-harmonic capacitance variation was
+    proposed in [1] (Papaleksi), but its numerical modeling was not carried out.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR06-015
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'Решения уравнения (7) зависят от безразмерных параметров:'
+  statement_en: 'Solutions of equation (7) depend on the dimensionless parameters: Q = ω₀L/R — the quality factor
+    of the oscillating circuit; ε — the reduced-amplitude parameter of capacitance modulation; n = ω/ω₀ — the ratio
+    of the frequency of harmonic variation of the reactive parameter to the resonant frequency of the circuit; the
+    initial reduced starting current y′(0); and the reduced initial charge y(0) accumulated on the capacitance.'
+  quantities:
+  - Q = omega_0 L/R
+  equations:
+  - Q = \omega_0 L/R
+  - n = \omega/\omega_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dimensionless-parameters
+  notes: ''
+  relations: []
+- id: SC-AR06-016
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Структура уравнения (7) не встречается в математических справочниках (см., [2]).
+  statement_en: 'The structure of equation (7) is not found in mathematical handbooks; the substitution y = z(x)·exp(−x/2Q)
+    reduces it to the Hill equation for z(x) (equation 2.30, p. 374 in [2]): z″ + Ω²z = 0 (differentiation in time
+    t) with eigenfrequency Ω² = ω₀²/(1 + ε·cos(nω₀t)) − 1/4Q², depending on the parameters ε, n, Q, ω₀ and time
+    t.'
+  quantities: []
+  equations:
+  - y = z(x)\exp(-x/2Q)
+  - z'' + \Omega^2 z = 0
+  - \Omega^2 = \frac{\omega_0^2}{1+\varepsilon\cos(n\omega_0 t)} - \frac{1}{4Q^2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hill-equation
+  notes: 'OCR-degraded: formula glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR06-017
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'Каноническое уравнение Хилла для смещения z(x) описывает уникальную колебательную систему, в которой
+    обобщённая «жесткость» пружинного маятника с единичной массой зависит от двух конкурирующих факторов: статической
+    диссипации системы ~ 1 / 4Q 2 и 1 динамической раскачки периодической возвращающей «силой» ~'
+  statement_en: 'The canonical Hill equation for the displacement z(x) describes a unique oscillatory system in
+    which the generalized ''stiffness'' of a unit-mass spring pendulum depends on two competing factors: static
+    dissipation of the system ~1/4Q² and dynamic pumping by the periodic restoring ''force'' ~1/(1 + ε·cos(nω₀t));
+    the pumping factor depends on the ratio n = ω/ω₀ and has the optimal value ω/ω₀ = 2 (parametric resonance).'
+  quantities:
+  - optimal frequency ratio omega/omega_0 = 2 (parametric resonance)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - parametric-resonance
+  - competing-factors
+  notes: ''
+  relations: []
+- id: SC-AR06-018
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: При   0 (раскачки нет) и изменении Q в пределах 1 / 2  Q   система чисто диссипативная и уравнение
+    описывает только затухающие колебания. Закона сохранения механической энергии нет.
+  statement_en: 'For this mechanical analogy: at ε = 0 (no pumping) and Q → ∞ (no dissipation) the equation passes
+    into harmonic oscillations with frequency ω₀ and the mechanical energy conservation law holds; at ε = 0 (no
+    pumping) and Q varying within 1/2 < Q < ∞ the system is purely dissipative and the equation describes only damped
+    oscillations, with no mechanical energy conservation law.'
+  quantities:
+  - 1/2 < Q < infinity (dissipative regime)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - limiting-cases
+  - dissipation
+  notes: 'OCR-degraded: epsilon and Q-bound glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR06-019
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: В общем случае 0    1 периодические колебания в контуре с диссипацией происходят под действием возвращающей
+    «силы раскачки», зависящей от времени и координаты. Энергия контура не сохраняется и может иметь вид убывающих
+    или нарастающих во времени колебаний на переменной частоте, близкой к резонансу.
+  statement_en: In the general case 0 < ε < 1, periodic oscillations in the circuit with dissipation occur under
+    the action of a restoring 'pumping force' depending on time and coordinate; the circuit energy is not conserved
+    and can take the form of decreasing or growing oscillations at a variable frequency close to resonance; the
+    work of the external variable force continuously changes the circuit energy; the rate of change of the total
+    energy is determined by the rates of change of the dissipation and pumping factors.
+  quantities:
+  - 0 < epsilon < 1 (general case)
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-nonconservation
+  - pumping-force
+  notes: ''
+  relations: []
+- id: SC-AR06-020
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: 'Пример похожей периодической раскачки механических колебаний в гравитационном поле: физический маятник
+    в вязкой среде, у которого гармонически изменяется длина подвеса.'
+  statement_en: An example of similar periodic pumping of mechanical oscillations in a gravitational field is a
+    physical pendulum in a viscous medium whose suspension length varies harmonically; a long energy-transfer process
+    can convert pendulum oscillations finite in angle into infinite ones, with angular velocity increasing to infinity.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mechanical-analogy
+  - pendulum
+  notes: ''
+  relations: []
+- id: SC-AR06-021
+  type: experimental
+  facet: procedure
+  priority: core
+  page: 5
+  quote_ru: Будем решать уравнение (8) численным моделированием по схеме Рунге-Кутта четвёртого порядка с удвоенной
+    точностью для восьми периодов основного колебания.
+  statement_en: 'Equation (7) is solved by numerical modeling with the fourth-order Runge-Kutta scheme at double
+    precision for eight periods of the main oscillation; two classes of initial conditions are used: (a) zero seed
+    charge on the capacitor y(0) = 0 (q(0) = 0) with starting current y′(0) = 1 (q′(0) = q₀ω₀); (b) zero starting
+    current y′(0) = 0 with initial charge equal to its scale y(0) = 1; the relative capacitance modulation is taken
+    as 20% (ε = 0.2) or 80% (ε = 0.8).'
+  quantities:
+  - modulation 20% (epsilon=0.2) or 80% (epsilon=0.8)
+  - 8 periods of main oscillation
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - integrate eq. (7) with 4th-order Runge-Kutta at double precision
+  - simulate 8 periods of the main oscillation
+  - 'IC class 1: y(0)=0, y''(0)=1'
+  - 'IC class 2: y(0)=1, y''(0)=0'
+  - relative modulation 20% or 80%
+  measurements: []
+  schematic_refs: []
+  tags:
+  - numerical-modeling
+  - runge-kutta
+  - initial-conditions
+  - electrical-path
+  notes: Source text says 'уравнение (8)' while the derived equation is numbered (7) — source typo.
+  relations: []
+- id: SC-AR06-022
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 5
+  quote_ru: Как показывает численное моделирование (8), в низкодобротном контуре могут существовать затухающие периодические
+    колебания.
+  statement_en: As numerical modeling shows, damped periodic oscillations can exist in a low-Q circuit; Fig. 2 shows
+    the time dependences of the damped oscillations (lower part) and of the capacitance (upper part); the parameters
+    are Q = 4, frequency ratio n = 2 (Mandelshtam-Papaleksi parametric resonance), capacitance modulation 20% (ε
+    = 0.2), 16 pumping periods, 8 damped oscillation periods; the amplitude ratio for the first two oscillation
+    periods is ~2; the lower graph indicates damping at low Q (dissipation dominating over pumping); similar solutions
+    are obtained for the second initial-conditions set.
+  quantities:
+  - Q = 4
+  - n = 2
+  - modulation 20%
+  - amplitude ratio first two periods ~ 2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: amplitude ratio of first two periods
+    value: '2'
+    unit: dimensionless
+    conditions: Q = 4, n = 2, 20% modulation
+  schematic_refs:
+  - Рис. 2
+  tags:
+  - low-q
+  - damped-oscillations
+  notes: ''
+  relations: []
+- id: SC-AR06-023
+  type: experimental
+  facet: experiment
+  priority: normal
+  page: 6
+  quote_ru: Как показывает численное моделирование, в контуре со средней добротностью при параметрическом резонансе
+    могут существовать незатухающие периодические биения заряда.
+  statement_en: 'In a medium-Q circuit at parametric resonance, undamped periodic charge beats can exist (Fig. 3:
+    time dependences of parametric beats, lower part, and of capacitance, upper part); the parameters are Q = 10.53,
+    same initial conditions, frequency ratio n = 2, modulation 20%, 16 pumping periods, 8.5 beat periods with extreme
+    values of the reduced charge in the range from −0.8 to +0.8; in the system the dissipation and pumping factors
+    compensate each other; parametric resonance was first discovered in [1].'
+  quantities:
+  - Q = 10.53
+  - n = 2
+  - modulation 20%
+  - 8.5 beat periods
+  - reduced charge extremes -0.8..+0.8
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: reduced-charge beat extremes
+    value: -0.8..+0.8
+    unit: dimensionless
+    conditions: Q = 10.53, n = 2, 20% modulation
+  schematic_refs:
+  - Рис. 3
+  tags:
+  - parametric-resonance
+  - beats
+  - medium-q
+  notes: ''
+  relations: []
+- id: SC-AR06-024
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 6
+  quote_ru: В контуре с высокой добротностью может существовать режим раскачки периодических колебаний заряда, возникающий
+    за счёт проявления токовой неустойчивости колебательного контура. В этом случае фактор раскачки колебаний оказывается
+    больше фактора диссипации.
+  statement_en: In a high-Q circuit a regime of pumping of periodic charge oscillations can exist, arising from
+    the current instability of the oscillating circuit, with the pumping factor exceeding the dissipation factor;
+    Fig. 4 (Q = 100, frequency ratio n = 2, capacitance modulation 20%, first initial-conditions set) shows 16 pumping
+    periods and 8.5 periods of growing oscillations; for these values the charge amplitude increases 6-fold for
+    the second boundary condition; at a reduced-amplitude parameter of 80%, over the same number of periods the
+    charge amplitude grows more than 10,000-fold (not shown in Fig. 4); the electric energy is continuously supplied
+    to the circuit by the dynamic-pumping factor 'reduced amplitude of capacitance modulation'.
+  quantities:
+  - Q = 100
+  - n = 2
+  - modulation 20%
+  - 6x growth in 8.5 periods
+  - '>10000x growth at 80% modulation'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: charge amplitude growth
+    value: 6x
+    unit: dimensionless
+    conditions: Q = 100, n = 2, 20% modulation
+  - quantity: charge amplitude growth
+    value: '>10000x'
+    unit: dimensionless
+    conditions: 80% modulation, same number of periods
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - current-instability
+  - high-q
+  - gain
+  - electrical-path
+  notes: Numerical results.
+  relations:
+  - to: SC-AR06-003
+    kind: supports
+- id: SC-AR06-025
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 7
+  quote_ru: Причина этого заключалась в том, что параллельно переменной ёмкости был установлен пробойник на 5 кВ,
+    который защищал колебательный контур от срыва в токовую неустойчивость и переводил его работу в режим параметрических
+    биений.
+  statement_en: The current-instability regime of the oscillating circuit could not be discovered in the Mandelshtam-Papaleksi
+    experiments because a 5 kV spark gap was installed in parallel with the variable capacitance; it protected the
+    circuit from breakdown into current instability and switched its operation to the parametric-beats mode.
+  quantities:
+  - 'spark gap rating: 5 kV'
+  equations: []
+  materials:
+  - 5 kV spark gap (probe breaker)
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mandelshtam-papaleksi
+  - spark-gap
+  - current-instability
+  - debt-candidate
+  notes: Historical claim about the M-P setup including a protective 5 kV spark gap — unverifiable detail, flagged.
+  relations: []
+- id: SC-AR06-026
+  type: physics
+  facet: recipe
+  priority: core
+  page: 7
+  quote_ru: Возникающий в ней радиальный электрический пробой между П – образными пластинами статора 3 должен направлять
+    основную часть энергии в колебательный контур, а не на нагрев воздуха, окружающего пластины конденсатора с разноимёнными
+    зарядами.
+  statement_en: 'Experiments to detect the current-instability regime require a different design for the variable
+    air capacitance, shown in Fig. 5: a rotor-disk with a set of radial conducting sectors 2 and П-shaped stator
+    plates 3; the radial electric breakdown arising between the П-shaped stator plates must direct the main part
+    of the energy into the oscillating circuit rather than into heating the air surrounding the capacitor plates
+    carrying opposite charges.'
+  quantities: []
+  equations: []
+  materials:
+  - variable air capacitance
+  - radial conducting sectors (rotor-disk)
+  - П-shaped stator plates
+  geometry:
+  - rotor-disk with radial conducting sectors
+  - П-shaped stator plates
+  procedure_steps:
+  - use rotor-disk with radial conducting sectors
+  - arrange П-shaped stator plates
+  - radial electric breakdown between stator plates directs energy into the oscillating circuit
+  measurements: []
+  schematic_refs:
+  - Рис. 5
+  tags:
+  - device-design
+  - breakdown
+  - electrical-path
+  notes: Proposed experimental device for detecting current instability.
+  relations: []
+- id: SC-AR06-027
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 8
+  quote_ru: Аналогичный конструктив ёмкости используется в швейцарской машине Поля Баумана (Paul Baumann, 1985)
+    «Тестатика», вырабатывающей высоковольтную электрическую энергию [3,4,5]. То есть, в основе работы машины «Тестатика»
+    лежит механо-электрический принцип, открытый в 50-х годах Мандельштамом-Папалекси [1].
+  statement_en: A similar capacitance design is used in the Swiss machine of Paul Baumann (1985) 'Testatika', which
+    generates high-voltage electric energy; that is, the operation of the Testatika machine is based on the mechano-electric
+    principle discovered in the 1950s by Mandelshtam and Papaleksi.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - testatika
+  - baumann
+  - mechano-electric
+  - debt-candidate
+  notes: Testatika is a claimed free-energy machine; attribution of its operation to the M-P parametric principle
+    is suspect — flagged for debt clustering.
+  relations: []
+- id: SC-AR06-028
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: 8
+  quote_ru: Отметим, что этот принцип известен миллионы лет жгутиковым бактериям, которые перемещаются в межклеточной
+    жидкости. Опубликованные в январе 2018 года в Nature работы биологов объяснили принцип их перемещения, названный
+    flagellar motors [6]. Внутри осесимметричного тела бактерии, диаметром порядка 100 нм, располагаются несколько
+    слоёв мембран. Каждая мембрана выполнена в виде пропеллера и содержит в себе проводящие радиальные сектора (как
+    на рис. 5). Различные бактерии имеют от 13 до 17 радиальных секторов в роторе. Можно оценить среднее количество
+    разделённых зарядов для пробойной напряженности электрического поля в жидкости 5 мВ/нм. Для всей мембраны оно
+    составляет порядок 20 электронов. То есть, на одном проводящем секторе мембраны размещается от одного до двух
+    электронов. Такое разделение разноимённых зарядов и создает вращение бактерии, приводя её к перемещению в межклеточной
+    жидкости.
+  statement_en: This mechano-electric principle has been known for millions of years to flagellate bacteria moving
+    in intercellular fluid; works published in Nature in January 2018 explained their movement principle, named
+    flagellar motors; inside the axisymmetric bacterium body of about 100 nm diameter several membrane layers are
+    located, each membrane made as a propeller and containing conducting radial sectors (as in Fig. 5); different
+    bacteria have from 13 to 17 radial sectors in the rotor.
+  quantities:
+  - bacterium body diameter ~ 100 nm
+  - 13–17 radial sectors in rotor
+  equations: []
+  materials:
+  - bacterial membranes
+  geometry:
+  - body diameter ~ 100 nm
+  - 13–17 radial sectors
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 5
+  tags:
+  - flagellar-motors
+  - bacteria
+  - analogy
+  - debt-candidate
+  notes: Biological analogy mapping bacterial flagellar motors onto the mechano-electric principle — interpretive,
+    flagged.
+  relations: []
+- id: SC-AR06-029
+  type: experimental
+  facet: measurement
+  priority: normal
+  page: 8
+  quote_ru: Можно оценить среднее количество разделённых зарядов для пробойной напряженности электрического поля
+    в жидкости 5 мВ/нм.
+  statement_en: 'The mean number of separated charges can be estimated for the breakdown electric-field strength
+    in liquid of 5 mV/nm: for the whole membrane it is of the order of 20 electrons; one conducting sector of the
+    membrane hosts from one to two electrons; such separation of opposite charges creates the bacterium''s rotation,
+    leading it to move in the intercellular fluid.'
+  quantities:
+  - 'breakdown field strength in liquid: 5 mV/nm'
+  - 'total separated charges per membrane: ~20 electrons'
+  - 'charges per sector: 1–2 electrons'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: separated charges per membrane
+    value: '20'
+    unit: electrons
+    conditions: breakdown field 5 mV/nm in liquid
+  - quantity: charges per conducting sector
+    value: 1–2
+    unit: electrons
+    conditions: 13–17 sectors
+  schematic_refs: []
+  tags:
+  - charge-estimate
+  - breakdown-field
+  notes: Order-of-magnitude estimate by the authors.
+  relations: []
+- id: SC-AR06-030
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: В перспективе, они составят мощную альтернативу современным устройствам, работающим на законе электромагнитной
+    индукции.
+  statement_en: The current instability of the oscillating circuit discovered in the note is of undoubted interest
+    for creating a wide class of electrotechnical devices using the mechano-electric principle of charge accumulation;
+    in perspective they will constitute a powerful alternative to modern devices operating on the law of electromagnetic
+    induction.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charge-accumulation
+  - alternative-to-induction
+  - electrical-path
+  - debt-candidate
+  notes: Forward-looking device claim (free-energy flavor) — flagged for debt clustering.
+  relations: []

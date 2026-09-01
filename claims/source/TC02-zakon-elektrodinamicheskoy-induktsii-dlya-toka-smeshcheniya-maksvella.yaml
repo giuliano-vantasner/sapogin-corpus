@@ -1,0 +1,1967 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TC02
+  section: technologies
+  title_ru: Закон электродинамической индукции для тока смещения Максвелла
+  title_en: The law of electrodynamic induction for the Maxwell displacement current
+  file: papers/technologies/zakon-elektrodinamicheskoy-induktsii-dlya-toka-smeshcheniya-maksvella.pdf
+  source_url: http://146.190.233.254/docs/technologies/Закон электродинамической индукции для тока смещения Максвелла.pdf
+  md5: c8a2352518dde555739f966eb0d6ec03
+  pages_total: 21
+  retrieved: '2026-09-01'
+claims:
+- id: SC-TC02-001
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 1
+  quote_ru: Последние 50 лет проводились многочисленные эксперименты, в которых фиксировалось аномальное выделение
+    энергии переменного тока. В опытах использовались два электрода конденсатора, между которыми помещались различные
+    проводящие среды (газообразные, жидкие, твёрдые).
+  statement_en: For the last 50 years numerous experiments have been run in which anomalous release of alternating-current
+    energy was recorded; the experiments used two capacitor electrodes with various conducting media (gaseous, liquid,
+    solid) placed between them.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - electrical
+  - anomalous-heating
+  notes: ''
+  relations: []
+- id: SC-TC02-002
+  type: physics
+  facet: theory
+  priority: core
+  page: 1
+  quote_ru: Анализ электрических свойств обсуждаемых схем указал на существование в них неизвестного ранее физического
+    принципа преобразования мощности током смещения Максвелла.
+  statement_en: Analysis of the electrical properties of the discussed circuits points to the existence in them
+    of a previously unknown physical principle of power conversion by the Maxwell displacement current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - maxwell-current
+  - power-conversion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Из (1) видно, что плотность тока смещения в любой точке пространства обусловлена скоростью изменения
+    вектора электрического смещения.
+  statement_en: The density of the displacement current at any point of space is determined by the rate of change
+    of the electric displacement vector.
+  quantities: []
+  equations:
+  - \mathbf{j}_{см} = \partial \mathbf{D} / \partial t,\quad \mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - ток-смещения
+  - maxwell
+  notes: equation from (1) in the source; formula line is OCR-degraded, LaTeX is best-effort.
+  relations: []
+- id: SC-TC02-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Сам Максвелл считал, что среди двух токов, вводимых им в электродинамику, истинным электрическим током
+    является ток
+  statement_en: Maxwell himself considered that of the two currents he introduced into electrodynamics, the displacement
+    current is the true electric current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - maxwell
+  - ток-смещения
+  notes: quote truncated at the page-1 footer; continues on page 2 with 'смещения (см. дискуссии в [1])'.
+  relations: []
+- id: SC-TC02-005
+  type: physics
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: При процессах заряда ёмкости один ток проводимости может переходить в два тока смещения. А при разряде
+    ёмкости, два тока смещения могут переходить в один ток проводимости, который будет проявлять свойства тока смещения.
+  statement_en: In capacitor charging, one conduction current can pass into two displacement currents; in discharging,
+    two displacement currents can pass into one conduction current that displays the properties of a displacement
+    current; each displacement current can be a source of electromagnetic energy whose flux density reverses direction
+    depending on the charge/discharge phase.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - energy-flow
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-006
+  type: physical
+  facet: theory
+  priority: core
+  page: 2
+  quote_ru: Каждый диполь реального диэлектрика представляет собой область размерами в нанометры. Заряды диполя
+    смещаются прямолинейно на расстояние d по оси z.
+  statement_en: Each dipole of a real dielectric is a region of nanometer size; the dipole charges shift linearly
+    by a distance d along the z axis (the external field restructures the gas of neutral molecules into a gas of
+    dipoles with electric dipole moment).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - dielectric
+  - dipole
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC02-007
+  type: physical
+  facet: theory
+  priority: core
+  page: 3
+  quote_ru: который противоположен первому току смещения и пропорционален скорости изменения поля отклика.
+  statement_en: The growing dipole moment of the matter response forms a second displacement current opposite to
+    the first one and proportional to the rate of change of the response field (the displacement current of the
+    capacitor's own field response).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  notes: quote is the clean tail of a sentence whose head contains OCR-degraded formula glyphs.
+  relations: []
+- id: SC-TC02-008
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Рассмотренные квазистатические заряд/разряд конденсатора формируют два канала движения электромагнитной
+    энергии, а не один, как считалось ранее. Первый из них, «проводящий» канал, связан с проводниками, подключенными
+    к обкладкам конденсатора, и порождается током проводимости. Второй канал, «непроводящий», перебрасывает электромагнитную
+    энергию через боковую поверхность конденсатора. Он связан с током смещения.
+  statement_en: 'Quasistatic charge/discharge of a capacitor forms two channels of electromagnetic energy motion,
+    not one as previously believed: a ''conducting'' channel through the wires connected to the plates (conduction
+    current) and a ''non-conducting'' channel that transfers electromagnetic energy through the lateral surface
+    of the capacitor (displacement current).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 2
+  - Рис. 3
+  tags:
+  - electrical
+  - energy-flow
+  - ток-смещения
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-009
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Нужно понимать, что такая циркуляция потоков электромагнитной энергии может возникать только в случае,
+    когда источник электромагнитного поля находится внутри конденсатора. Этим источником служит область с газом
+    непрерывно осциллирующих диполей, помещённая внутри обкладок конденсатора. Область активна. Она является «реактором»
+    (источником тока смещения) закольцованной схемы и заменяет собой диэлектрик, находящийся внутри обкладок конденсатора,
+    представленный на рис. 1.
+  statement_en: 'Such circulation of electromagnetic energy fluxes arises only when the source of the electromagnetic
+    field is inside the capacitor: the source is a region of gas of continuously oscillating dipoles placed between
+    the plates — an active region, the ''reactor'' (source of displacement current) of the looped circuit, replacing
+    the dielectric.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 1
+  tags:
+  - electrical
+  - КОДМ
+  - reactor
+  - ток-смещения
+  notes: ''
+  relations: []
+- id: SC-TC02-010
+  type: physics
+  facet: theory
+  priority: core
+  page: 5
+  quote_ru: Амплитуда любого тока смещения будет пропорциональна частоте
+  statement_en: The amplitude of any displacement current is proportional to the AC frequency, while the amplitude
+    of the instantaneous power of the conduction current replaced by the displacement current is proportional to
+    the square of the frequency; this frequency dependence increases the 'efficiency' of heat release proportionally
+    to the square of the frequency.
+  quantities:
+  - i0 ∝ ν
+  - P0 ∝ ν^2
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - power
+  - debt-candidate
+  notes: source formula glyphs (ω) OCR-lost inside the quote; values as stated. quote_ru truncated before an OCR-degraded
+    private-use glyph / page-footer artifact; full sentence carries the lost formula symbol.
+  relations: []
+- id: SC-TC02-011
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 5
+  quote_ru: Эксперименты показывают, что токи смещения, имеющие частоту в гигагерцы, эффективно сжигают проводники
+  statement_en: Experiments show that displacement currents with gigahertz frequencies effectively burn the conductors
+    of microchips onto whose lateral surface the electromagnetic fields generated by these currents fall.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - microwave
+  notes: quote_ru truncated before an OCR-degraded private-use glyph / page-footer artifact; full sentence carries
+    the lost formula symbol.
+  relations: []
+- id: SC-TC02-012
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: В этом заключается важнейшая физическая причина аномального нагрева любой проводящей среды током проводимости,
+    который сформирован током смещения. Нагрев оказывается аномальным для тока Джоуля-Ленца и естественным для тока
+    смещения Максвелла.
+  statement_en: 'This is the most important physical cause of the anomalous heating of any conducting medium by
+    a conduction current formed by a displacement current: the heating is anomalous for the Joule-Lenz current and
+    natural for the Maxwell displacement current.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - anomalous-heating
+  - ток-смещения
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-013
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: 'Это механо-электрические опыты: Мандельштама- Папалекси [3], П. Баумана с машиной «Тестатика» [4],
+    В. Джанибекова- Л. Сапогина с вращающейся электроёмкостью (результаты не опубликованы).'
+  statement_en: 'The huge body of recent experiments on alternating current in various conducting media between
+    capacitor plates ran into this unique property of the displacement current: mechano-electric experiments of
+    Mandelstam-Papalexi, P. Bauman with the ''Testatika'' machine, and V. Dzhanibekov-L. Sapogin with a rotating
+    capacitance (results unpublished).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - testatika
+  - varicap
+  - ток-смещения
+  notes: ''
+  relations: []
+- id: SC-TC02-014
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 6
+  quote_ru: 'Это   скандальные     эксперименты,   обнаружившие     прямое преобразованием «электричества в электричество»
+    током смещения в неподвижном конденсаторе: опыты Флейшмана-Понса [5] по электролизу в тяжёлой воде; опыты Каторгина-Марина
+    [6] по протеканию тока в водородной плазме; эксперименты Вачаева-Иванова в жидкости и многие, многие другие.'
+  statement_en: 'Scandalous experiments discovered direct ''electricity into electricity'' conversion by the displacement
+    current in a stationary capacitor: the Fleischmann-Pons heavy-water electrolysis experiments, the Katorgin-Marin
+    current-flow experiments in hydrogen plasma, the Vachaev-Ivanov liquid experiments, and many others.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - excess-energy
+  - anomalous-heat
+  - fleischmann-pons
+  - каторгин-марин
+  - вачаев-иванов
+  notes: ''
+  relations: []
+- id: SC-TC02-015
+  type: physical
+  facet: procedure
+  priority: core
+  page: 6
+  quote_ru: Осциллограмма должна показать наличие переменной или хаотической составляющей тока. Это будет указывать
+    на формировании в жидкости пузырьков зарядов, которые, двигаясь между обкладками конденсатора, раскачивают ток
+    смещения, «аномально» нагревающий жидкость.
+  statement_en: 'When replicating the Fleischmann-Pons and Vachaev-Ivanov experiments one must record the current-vs-time
+    dependence: the oscillogram must show an alternating or chaotic current component, which will indicate the formation
+    in the liquid of charge bubbles which, moving between the capacitor plates, swing the displacement current that
+    ''anomalously'' heats the liquid.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - регистрировать зависимость тока в цепи от времени
+  - искать на осциллограмме переменную или хаотическую составляющую тока
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - charge-bubbles
+  - evo
+  - кластер
+  - procedure
+  - replication
+  notes: ''
+  relations: []
+- id: SC-TC02-016
+  type: physics
+  facet: theory
+  priority: core
+  page: 6
+  quote_ru: ток смещения Максвелла возникает как при поступательном, так и при вращательном движении диполей в ограниченном
+    объёме пространства V
+  statement_en: The Maxwell displacement current arises both in translational and in rotational motion of dipoles
+    in a bounded volume of space V filled with gas of continuously oscillating dipoles (the 'reactor' generating
+    alternating electric current).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 4
+  tags:
+  - electrical
+  - ток-смещения
+  - КОДМ
+  notes: ''
+  relations: []
+- id: SC-TC02-017
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: В (2) часть тока смещения Максвелла iM через проводящую поверхность S вокруг источников определена
+  statement_en: Part of the Maxwell displacement current iM through a conducting surface S around the sources is
+    determined by the rate of change of the flux F of the electric displacement vector D (integral electrodynamic
+    induction law, eq. (2)).
+  quantities: []
+  equations:
+  - i_M = \int_S \mathbf{j}_{см} \cdot d\mathbf{s} = \frac{\partial F}{\partial t} = \frac{\partial}{\partial t}
+    \int_S \mathbf{D} \cdot d\mathbf{s}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - law
+  - mathematical
+  notes: equation (2) line OCR-degraded; LaTeX best-effort. quote_ru truncated before an OCR-degraded private-use
+    glyph / page-footer artifact; full sentence carries the lost formula symbol.
+  relations: []
+- id: SC-TC02-018
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Математическая структура закона (2) совпадает со структурой закона электромагнитной индукции. Каноническая
+    форма записи закона указывает на формирование тока смещения Максвелла либо в вакууме, либо в веществе переменным
+    потоком электрической индукции через любую замкнутую поверхность, окружающую источники в виде газа переменных
+    дипольных моментов.
+  statement_en: 'The mathematical structure of law (2) coincides with the structure of the law of electromagnetic
+    induction: the displacement current is formed, in vacuum or in matter, by a variable flux of electric induction
+    through any closed surface surrounding sources in the form of a gas of varying dipole moments.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - law
+  - ток-смещения
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-019
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Из этого можно заключить, что любой переменный ток, текущий в омическом проводнике, индуктивности или
+    через ёмкость является истинным током (током смещения), который был подарен гением Максвелла.
+  statement_en: Any alternating current flowing in an ohmic conductor, an inductance, or through a capacitance is
+    a true current (a displacement current); it is formed by 'bound' electrons held by the atomic nuclei of the
+    crystal lattice.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - ток-смещения
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-020
+  type: physics
+  facet: theory
+  priority: core
+  page: 7
+  quote_ru: Отметим, что закон электромагнитной индукции определяется источниками вторичного (магнитного) поля,
+    а закон электродинамической индукции определяется источниками первичного
+  statement_en: The law of electromagnetic induction is determined by sources of the secondary (magnetic) field,
+    while the law of electrodynamic induction is determined by sources of the primary (electric) field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - law
+  - induction
+  notes: quote truncated at the page-7 footer; sentence continues on page 8 '(электрического) поля'.
+  relations: []
+- id: SC-TC02-021
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Поэтому он более эффективен, чем первый. Электростатические законы сохранения энергии не проявляют себя
+    в этом законе по причине того, что все поля и токи зависят от времени. Вследствие этого следует ожидать преобразование
+    мощности переменного тока, как с её понижением, так и с её повышением.
+  statement_en: The electrodynamic induction law is therefore more effective than the electromagnetic one; electrostatic
+    energy conservation laws do not manifest themselves in it because all fields and currents depend on time — power
+    conversion of alternating current should be expected both downward and upward.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - excess-energy
+  - power-conversion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-022
+  type: physical
+  facet: recipe
+  priority: core
+  page: 8
+  quote_ru: Закон (2) создаст новое направление энергетики, в которой преобразование мощности переменного тока будет
+    осуществляться током смещения Максвелла. Преобразователь имеет простое схемное решение. Создаётся газ осциллирующих
+    диполей. Он помещается вместо диэлектрика в конденсатор, нагруженный на омическое сопротивление (см. рис. 5).
+    Преобразованная мощность, генерируемая газом диполей в мощность переменного тока, выделится на омическом сопротивлении
+    R.
+  statement_en: 'Law (2) creates a new direction of energetics in which AC power conversion is performed by the
+    Maxwell displacement current: an oscillating-dipole gas is created and placed instead of the dielectric into
+    a capacitor loaded by an ohmic resistance R; the power converted by the dipole gas into AC power is released
+    on R.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - создать газ осциллирующих диполей
+  - поместить его вместо диэлектрика в конденсатор
+  - нагрузить конденсатор на омическое сопротивление R
+  measurements: []
+  schematic_refs:
+  - Рис. 5
+  tags:
+  - electrical
+  - recipe
+  - КОДМ
+  - ток-смещения
+  - power-conversion
+  notes: ''
+  relations: []
+- id: SC-TC02-023
+  type: physics
+  facet: theory
+  priority: core
+  page: 8
+  quote_ru: Схему можно настроить на режим сверхединичного преобразования мощности. Он возникает тогда, когда амплитудное
+    значение мощности переменного тока в конденсаторе будет меньше, чем мощность, выделяемая на омическом сопротивлении,
+    либо наоборот.
+  statement_en: The circuit can be tuned to a super-unity power conversion mode, which arises when the amplitude
+    of the AC power in the capacitor is less than the power released on the ohmic resistance, or vice versa.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - electrical
+  - super-unity
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-024
+  type: physical
+  facet: process
+  priority: core
+  page: 8
+  quote_ru: В первом режиме токи смещения перебрасывают дополнительную мощность из боковой поверхности конденсатора
+    через боковую поверхность омического сопротивления потоком электромагнитного поля.
+  statement_en: In the first mode the displacement currents throw additional power from the lateral surface of the
+    capacitor through the lateral surface of the ohmic resistance by the electromagnetic field flux, allowing the
+    increase of the released thermal power to be regulated within a range limited by the design.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - energy-flow
+  - power
+  notes: ''
+  relations: []
+- id: SC-TC02-025
+  type: physical
+  facet: process
+  priority: core
+  page: 9
+  quote_ru: Переход к неисчерпаемому экологически чистому источнику электрической энергии потребует добавить канал
+    обратного движения энергии из омического сопротивления в газ диполей.
+  statement_en: 'The transition to an inexhaustible ecologically clean source of electric energy requires adding
+    a channel of backward energy motion from the ohmic resistance into the dipole gas: part of the power released
+    on the resistance must be taken and fed to maintain continuous oscillation of the dipole gas.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - отбирать часть мощности, выделяемой на омическом сопротивлении
+  - передавать её для поддержания непрерывной осцилляции газа диполей
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - excess-energy
+  - feedback
+  - recipe
+  notes: ''
+  relations: []
+- id: SC-TC02-026
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 9
+  quote_ru: Опыт 1. Берём две обкладки П-образного конденсатора. Внутрь помещаем заряженный металлический шарик
+    (см. рис. 6). К точке a левой пластины конденсатора подключаем электрометр. К точке b правой пластины конденсатора
+    тоже подключаем электрометр. Периодическое движение заряда из точки A в точку B и обратно будет вызывать эффект
+    электризации пластин.
+  statement_en: 'Experiment 1: two plates of a П-shaped capacitor with a charged metal ball inside; electrometers
+    are connected to points a and b of the left and right plates; periodic motion of the charge from point A to
+    point B and back causes the plates'' electrization effect — the displacement current formed by the field change
+    charges and discharges the electrometers.'
+  quantities: []
+  equations: []
+  materials:
+  - заряженный металлический шарик
+  - П-образный конденсатор
+  - электрометры
+  geometry: []
+  procedure_steps:
+  - поместить заряженный металлический шарик между обкладками П-образного конденсатора
+  - подключить электрометры к точкам a и b пластин
+  - периодически перемещать заряд из точки A в точку B и обратно
+  measurements: []
+  schematic_refs:
+  - Рис. 6
+  tags:
+  - electrical
+  - ток-смещения
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-TC02-027
+  type: physical
+  facet: experiment
+  priority: core
+  page: 10
+  quote_ru: Ток смещения уходит через пластины второго конденсатора и становится источником переменного выходного
+    напряжения, которое всегда больше, чем напряжение на первом конденсаторе.
+  statement_en: In the 'прямопролётный клистрон' (straight-through klystron) the displacement current leaves through
+    the plates of the second grid capacitor and becomes the source of an alternating output voltage which is always
+    greater than the voltage on the first capacitor (the electrization-by-displacement-current effect was first
+    seen in microwave-electronics devices).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - klystron
+  - ток-смещения
+  - voltage-gain
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-028
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 10
+  quote_ru: Измерения указали на появление размаха потенциала на электрометрах в киловольты при вращении дипольного
+    момента величиной 10 нКлм с частотой 0,5 Гц.
+  statement_en: CODM experiments conducted jointly with A. Atamanchenko in 2021 in Taganrog showed a kilovolt-scale
+    potential swing on the electrometers when a dipole moment of 10 nC·m rotated at 0.5 Hz (mechanically rotating
+    electric dipole between П-shaped plates).
+  quantities:
+  - p = 10 нКл·м
+  - f = 0,5 Гц
+  - 'размах потенциала: киловольты'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: размах потенциала на электрометрах
+    value: киловольты
+    unit: В
+    conditions: дипольный момент 10 нКл·м, вращение 0,5 Гц
+  schematic_refs:
+  - Рис. 7
+  - Рис. 8
+  tags:
+  - electrical
+  - КОДМ
+  - experiment
+  - measurement
+  notes: ''
+  relations: []
+- id: SC-TC02-029
+  type: physical
+  facet: recipe
+  priority: core
+  page: 10
+  quote_ru: Опыт 3. В экспериментах П. Баумана в машине «Тестатика» [4] на два акриловых диска были наклеены десятки
+    радиальных пластин электрета. Это увеличило количество вращающихся дипольных моментов. Встречное вращение подняло
+    частоту электризации П- образных пластин. Ток смещения уходил в П-образные пластины конденсатора и выбрасывал
+    часть своей мощности на высоковольтный трансформатор Теслы для потребителя.
+  statement_en: 'Experiment 3 (P. Bauman''s ''Testatika'' machine): dozens of radial electret plates were glued
+    onto two acrylic disks, multiplying the number of rotating dipole moments; counter-rotation raised the electrization
+    frequency of the П-shaped plates; the displacement current went into the П-shaped capacitor plates and threw
+    part of its power into a high-voltage Tesla transformer for the consumer.'
+  quantities: []
+  equations: []
+  materials:
+  - два акриловых диска
+  - десятки радиальных пластин электрета
+  - высоковольтный трансформатор Теслы
+  geometry: []
+  procedure_steps:
+  - наклеить десятки радиальных электретных пластин на два акриловых диска
+  - вращать диски навстречу друг другу
+  - снимать ток смещения П-образными пластинами
+  - передавать часть мощности на высоковольтный трансформатор Теслы
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - testatika
+  - recipe
+  - электрет
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-030
+  type: physical
+  facet: process
+  priority: core
+  page: 11
+  quote_ru: Самовращение замкнуло каналы передачи электромагнитной энергии обратно в «газ осциллирующих диполей»,
+    и машина стала неисчерпаемым источником переменного тока.
+  statement_en: Part of the energy went to the self-rotation of the electret plates and friction losses (the known
+    rotation effect of the high-voltage Franklin arrow); the self-rotation closed the electromagnetic energy transfer
+    channels back into the 'gas of oscillating dipoles', and the machine became an inexhaustible source of alternating
+    current.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - testatika
+  - excess-energy
+  - self-rotation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-031
+  type: physical
+  facet: recipe
+  priority: core
+  page: 11
+  quote_ru: Мощность любого устройства «Тестатика» можно повысить в несколько раз, не изменяя его габаритов. Для
+    этого нужно увеличить количество съёмных П-образных пластин до количества радиальных электретов, расположенных
+    на одном диске, что увеличит число независимых каналов съёма энергии.
+  statement_en: 'The power of any Testatika device can be raised several times without changing its dimensions:
+    increase the number of removable П-shaped plates up to the number of radial electrets on one disk, which multiplies
+    the number of independent energy-takeoff channels.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - число съёмных П-образных пластин = числу радиальных электретов на одном диске
+  procedure_steps:
+  - увеличить количество съёмных П-образных пластин до количества радиальных электретов на одном диске
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - testatika
+  - recipe
+  - power-scaling
+  notes: ''
+  relations: []
+- id: SC-TC02-032
+  type: physics
+  facet: phenomenology
+  priority: core
+  page: 11
+  quote_ru: Серия опытов 4. В последние 50 лет исследователи обнаружили эффекты высоковольтной электрофизики, которые
+    внутри конденсатора порождали газ осциллирующих диполей, состоящий из зарядовых кластеров.
+  statement_en: In the last 50 years researchers discovered high-voltage electrophysics effects which generated,
+    inside a capacitor, a gas of oscillating dipoles consisting of charge clusters.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - high-voltage
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC02-033
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 11
+  quote_ru: Опыты Кена Шоулдерса [7] в 70-х годах показали, что на неподвижном острийном катоде в вакууме при напряжениях
+    в киловольты могут возникать пузырьки зарядов из электронов, которые дрейфуют внутри диода (конденсатора).
+  statement_en: Ken Shoulders' 1970s experiments showed that on a stationary point cathode in vacuum, at kilovolt
+    voltages, bubbles of electron charges can arise and drift inside the diode (capacitor); this open high-voltage
+    electrophysics effect turned the diode gap into a 'reactor' of displacement current.
+  quantities:
+  - U ~ киловольты
+  equations: []
+  materials:
+  - острийный катод
+  - вакуум
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - shoulders
+  - electrical
+  - charge-cluster
+  notes: ''
+  relations: []
+- id: SC-TC02-034
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 12
+  quote_ru: почему газовый пузырёк из электронов живёт достаточно долго и не разрывается кулоновскими силами?
+  statement_en: 'The physical puzzle left by Shoulders'' experiments: why does the gas bubble of electrons live
+    long enough and not rupture under Coulomb forces? (Fundamental science considered it a misinterpretation of
+    the experiment.)'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - debt-candidate
+  - stability
+  notes: ''
+  relations: []
+- id: SC-TC02-035
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 12
+  quote_ru: Одноимённые заряды, сообщённые сферической металлической поверхности, также не сбрасываются кулоновским
+    расталкиванием.
+  statement_en: Like charges imparted to a spherical metal surface are also not shed by Coulomb repulsion — a paradox
+    observed but unexplained in electrostatics.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrostatics
+  - paradox
+  - кластер
+  - evo
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-036
+  type: physics
+  facet: theory
+  priority: core
+  page: 12
+  quote_ru: газ одноимённых зарядов может удерживаться в ограниченной области пространства давлением собственного
+    поля, так же, как давление магнитного поля может удерживать горячую плазму в токамаке.
+  statement_en: A gas of like charges can be held in a bounded region of space by the pressure of its own field,
+    just as magnetic-field pressure can hold hot plasma in a tokamak; the physical term 'gradient of the electric
+    field pressure acting on the mass density of charges', introduced in the paradigm, did not exist in the physics
+    of electric phenomena.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - self-consistent-field
+  - полевой-конфайнмент
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-037
+  type: physical
+  facet: experiment
+  priority: core
+  page: 12
+  quote_ru: Опыты Флейшмана и Понса [5] исследовали высоковольтный электролиз в тяжёлой воде. Думаю, что между неподвижными
+    катодом и анодом возникали пузырьки зарядов, не замеченные ими. Кластеры слетали с шероховатой поверхности электродов
+    как «эктоны» в опытах Г. Месяца [9].
+  statement_en: The Fleischmann-Pons experiments studied high-voltage electrolysis in heavy water; in the author's
+    view, charge bubbles unnoticed by the authors arose between the stationary cathode and anode, and the clusters
+    flew off the rough electrode surface like 'ectons' in G. Mesyats' experiments.
+  quantities: []
+  equations: []
+  materials:
+  - тяжёлая вода
+  - электроды (катод и анод)
+  geometry:
+  - шероховатая поверхность электродов
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - fleischmann-pons
+  - excess-energy
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC02-038
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 13
+  quote_ru: Как такового, холодного ядерного синтеза в опытах не было.
+  statement_en: There was no cold nuclear fusion as such in the Fleischmann-Pons experiments (the bubbles of charges
+    created the displacement current and released anomalous thermal energy inside the conducting liquid).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - cold-fusion
+  - debt-candidate
+  - anomalous-heat
+  notes: ''
+  relations: []
+- id: SC-TC02-039
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 13
+  quote_ru: В опытах Каторгина-Марина [6] между электродами конденсатора зажигалась движущаяся водородная плазма
+    высокой температуры. На шероховатостях поверхности трубчатых электродов возникали сотни токовых шнуров, обогащённые
+    зарядовыми кластерами и плазмоидами с большой величиной заряда в одном кластере (около 1 мкКл).
+  statement_en: In the Katorgin-Marin experiments a moving high-temperature hydrogen plasma was ignited between
+    the capacitor electrodes; on the roughnesses of the tubular electrodes hundreds of current filaments arose,
+    enriched with charge clusters and plasmoids with a large charge per cluster (about 1 µC).
+  quantities:
+  - q(кластера) ≈ 1 мкКл
+  equations: []
+  materials:
+  - водородная плазма
+  - трубчатые электроды
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: заряд в одном кластере
+    value: около 1
+    unit: мкКл
+    conditions: токовые шнуры на трубчатых электродах, водородная плазма
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - каторгин-марин
+  - plasma
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC02-040
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 13
+  quote_ru: Измерения указали на отсутствие законов сохранения мощности. Возникающий ток смещения увеличивал тепловую
+    мощность на омическом сопротивлении в 2-3 раза, по сравнению с мощностью, забираемой из сети.
+  statement_en: 'The measurements indicated the absence of power conservation laws: the arising displacement current
+    increased the thermal power on the ohmic resistance 2-3 times compared with the power drawn from the mains.'
+  quantities:
+  - P_тепловая / P_сети = 2–3
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: кратность увеличения тепловой мощности
+    value: 2-3
+    unit: ×
+    conditions: омическое сопротивление, водородная плазма, питание от сети
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - каторгин-марин
+  - electrical
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-041
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 13
+  quote_ru: с боковой поверхности плазменного конденсатора ток смещения выбрасывает мощное вредное излучение, которое
+    пока нечем экранировать и от которого погибают люди.
+  statement_en: 'The negative side of devices using high-voltage electrophysics: from the lateral surface of the
+    plasma capacitor the displacement current throws out powerful harmful radiation which cannot yet be shielded
+    and from which people die.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - radiation
+  - safety
+  - plasma-capacitor
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC02-042
+  type: physical
+  facet: recipe
+  priority: core
+  page: 13
+  quote_ru: создание пластикового кожуха, внутри которого будет циркулировать охлаждающая, дважды дистиллированная,
+    вода.
+  statement_en: The only way to shield the harmful radiation the author can conceive is a plastic housing with cooling
+    twice-distilled water circulating inside; the water may reduce the redistribution of energy fluxes, and the
+    housing can reduce the harmful radiation by no more than 80 times.
+  quantities:
+  - кратность снижения излучения ≤ 80
+  equations: []
+  materials:
+  - пластиковый кожух
+  - дважды дистиллированная вода
+  geometry: []
+  procedure_steps:
+  - создать пластиковый кожух вокруг конденсатора
+  - циркулировать внутри кожуха охлаждающей дважды дистиллированной водой
+  measurements: []
+  schematic_refs: []
+  tags:
+  - recipe
+  - shielding
+  - radiation
+  - safety
+  notes: ''
+  relations: []
+- id: SC-TC02-043
+  type: physical
+  facet: recipe
+  priority: core
+  page: 13
+  quote_ru: На выводы 1-2 подаётся низкочастотное напряжение, которое в неподвижном сеточном конденсаторе раскачивает
+    осцилляции дипольных моментов с постоянной ориентацией. Через выходы 3-4 уходит часть тока смещения, который
+    на омическом сопротивлении выделяет тепловую мощность, пропорциональную квадрату частоты тока.
+  statement_en: 'The simplest circuit solution for the new ''reactor'' technology is provided by the straight-through
+    klystron — a ''flat capacitor inside a flat capacitor'' cell: low-frequency voltage fed to terminals 1-2 swings
+    the oscillations of dipole moments of constant orientation in the stationary grid capacitor, and part of the
+    displacement current leaves through outputs 3-4, releasing thermal power on an ohmic resistance proportional
+    to the square of the current frequency.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - подать низкочастотное напряжение на выводы 1-2 сеточного конденсатора
+  - снимать часть тока смещения с выходов 3-4
+  - выделять тепловую мощность на омическом сопротивлении
+  measurements: []
+  schematic_refs:
+  - Рис. 9
+  tags:
+  - electrical
+  - klystron
+  - recipe
+  - КОДМ
+  notes: ''
+  relations: []
+- id: SC-TC02-044
+  type: physical
+  facet: recipe
+  priority: core
+  page: 13
+  quote_ru: При расстоянии между остриём и обкладкой порядка 1 мм в воздухе на сотнях вольт можно поджигать низковольтный
+    разряд И. Журавкова (по терминологии И. Журавкова
+  statement_en: 'The efficiency of displacement-current conversion in the ''reactor'' can be increased by using,
+    instead of electrodes 1-2, electrodes whose points face the capacitor plates: at a point-to-plate distance of
+    about 1 mm in air, at hundreds of volts, I. Zhuravkov''s low-voltage discharge (''subcritical'' in his terminology)
+    can be ignited.'
+  quantities:
+  - U ~ сотни вольт
+  equations: []
+  materials: []
+  geometry:
+  - расстояние остриё-обкладка ≈ 1 мм
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 10
+  tags:
+  - electrical
+  - discharge
+  - zhuravkov
+  - recipe
+  - point-electrodes
+  notes: quote_ru truncated before an OCR-degraded private-use glyph / page-footer artifact; full sentence carries
+    the lost formula symbol.
+  relations: []
+- id: SC-TC02-045
+  type: physical
+  facet: material
+  priority: core
+  page: 14
+  quote_ru: Его можно осуществить на сетевом напряжении.
+  statement_en: Zhuravkov's subcritical discharge has a breakdown field strength of 250 V/mm and can be realized
+    at mains voltage.
+  quantities:
+  - E_пробоя = 250 В/мм
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - discharge
+  - breakdown
+  notes: the 250 В/мм value sits in an OCR-degraded formula line; extracted from the sentence 'имеет пробивную напряжённость
+    поля ... 250 В/мм'.
+  relations: []
+- id: SC-TC02-046
+  type: physical
+  facet: recipe
+  priority: core
+  page: 14
+  quote_ru: Разряд создаст смесь кластеров, плазмоидов и пузырьков зарядов в конденсаторе. Появится область излучения,
+    размер которой будет во много раз меньше, чем расстояние между электродами в плазме (эксперименты Каторгина-Марина
+    дают длину токового шнура в 12 см). Замена воздуха на проводящую жидкость из водопроводного крана ещё больше
+    увеличит эффективность короткого «реактора» тока смещения [10].
+  statement_en: The discharge creates a mixture of clusters, plasmoids, and charge bubbles in the capacitor; a radiation
+    region appears whose size is many times smaller than the electrode distance in plasma (the Katorgin-Marin experiments
+    give a current-filament length of 12 cm); replacing air with conducting tap water further increases the efficiency
+    of the short displacement-current 'reactor'.
+  quantities:
+  - длина токового шнура = 12 см (Каторгин-Марин)
+  equations: []
+  materials:
+  - проводящая жидкость из водопроводного крана
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 10
+  tags:
+  - evo
+  - кластер
+  - recipe
+  - reactor
+  - electrical
+  notes: ''
+  relations: []
+- id: SC-TC02-047
+  type: physical
+  facet: recipe
+  priority: core
+  page: 14
+  quote_ru: Если сделать «реактор» (рис. 10) на печатной плате, то можно исследовать физические свойства нового
+    элемента электрической/радиотехнической цепи
+  statement_en: If the 'reactor' (fig. 10) is made on a printed circuit board, the physical properties of a new
+    electric/radio-engineering circuit element can be studied at various R/C element values; the inductive element
+    L will play the role of the Tesla inductance.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps:
+  - изготовить «реактор» на печатной плате
+  - варьировать значения R/C-элементов
+  - исследовать влияние индуктивного элемента L (роль индуктивности Теслы)
+  measurements: []
+  schematic_refs:
+  - Рис. 10
+  tags:
+  - electrical
+  - PCB
+  - recipe
+  - experiment
+  notes: ''
+  relations: []
+- id: SC-TC02-048
+  type: physical
+  facet: process
+  priority: core
+  page: 15
+  quote_ru: «Реактор» будет увеличивать/уменьшать мощность AC-AC преобразования (которая зависит от частоты), не
+    требуя для этого дополнительных источников постоянного тока.
+  statement_en: The 'reactor' will increase/decrease the power of AC-AC conversion (which depends on frequency)
+    without requiring additional direct-current sources.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - AC-AC
+  - reactor
+  - power-conversion
+  notes: ''
+  relations: []
+- id: SC-TC02-049
+  type: physics
+  facet: theory
+  priority: core
+  page: 15
+  quote_ru: Приведём математическое доказательство того, что в законе электродинамической индукции на определённых
+    частотах переменного тока не выполняются привычные законы сохранения энергии. Этот экспериментальный факт был
+    зарегистрирован профессором С. Мариновым в опытах швейцарца П. Баумана и опубликован в брошюре [4] с названием.
+    “THE THORNY WAY OF TRUTH”. Part V,
+  statement_en: A mathematical proof is given that in the law of electrodynamic induction, at certain AC frequencies,
+    the usual energy conservation laws do not hold; this experimental fact was registered by professor S. Marinov
+    in the experiments of the Swiss P. Bauman and published in the brochure 'THE THORNY WAY OF TRUTH', Part V (TESLA
+    INSTITUT, Wien, 1989, p. 35).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - energy-conservation
+  - marinov
+  - bauman
+  - testatika
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-050
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 15
+  quote_ru: Заряд на обкладках конденсатора зависит от времени по закону
+  statement_en: 'In the CODM reactor calculation (fig. 11) the charge on the capacitor plates depends on time as
+    q = q0 sin ωt, and the voltage on the plates is in phase with the charge: Uc = (q0/C) sin ωt = U0 sin ωt (eqs.
+    (3)-(4)).'
+  quantities: []
+  equations:
+  - q = q_0 \sin \omega t
+  - U_c = \frac{q_0}{C}\sin \omega t = U_0 \sin \omega t
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 11
+  tags:
+  - mathematical
+  - КОДМ
+  - oscillation
+  notes: formula lines OCR-degraded; LaTeX best-effort.
+  relations: []
+- id: SC-TC02-051
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: линейно зависит от частоты.
+  statement_en: Part of the displacement current flows through the conducting channel 1 as iM = dq/dt = i0 cos ωt,
+    where the current amplitude i0 = ω q0 = 2πν q0 depends linearly on the frequency (eq. (5)).
+  quantities: []
+  equations:
+  - i_M = \frac{dq}{dt} = i_0 \cos \omega t
+  - i_0 = \omega q_0 = 2\pi \nu q_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - ток-смещения
+  notes: quote line contains OCR-degraded formula glyphs; LaTeX best-effort. quote_ru truncated before an OCR-degraded
+    private-use glyph / page-footer artifact; full sentence carries the lost formula symbol.
+  relations: []
+- id: SC-TC02-052
+  type: physics
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Закон Кирхгофа выполняется только на масштабе угловой частоты. На других частотах он не выполняется.
+  statement_en: Kirchhoff's law holds only at the scale of the angular frequency ω0 = 1/RC; at other frequencies
+    it does not hold.
+  quantities: []
+  equations:
+  - \omega_0 = 1/RC
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - kirchhoff
+  - electrical
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-053
+  type: physical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Причина этого в существовании дополнительной электродвижущей силы, возникающей на омическом сопротивлении
+    из- за существования непроводящего канала передачи электромагнитной энергии 2.
+  statement_en: The cause is the existence of an additional electromotive force arising on the ohmic resistance
+    because of the existence of the non-conducting channel 2 of electromagnetic energy transfer.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - emf
+  - energy-flow
+  notes: ''
+  relations: []
+- id: SC-TC02-054
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Мощность, выбрасываемая/принимаемая конденсатором, осциллирует с удвоенной частотой
+  statement_en: The energy stored by the capacitor is positive at any moment, Wc = (q0²/2C) sin²ωt; the power thrown
+    out/accepted by the capacitor oscillates at the doubled frequency, Pc = dWc/dt = Pc0 sin 2ωt with amplitude
+    Pc0 = 2πν q0²/2C (eqs. (8)-(9)).
+  quantities: []
+  equations:
+  - W_c = \frac{q_0^2}{2C}\sin^2 \omega t
+  - P_c = P_{c0} \sin 2\omega t
+  - P_{c0} = 2\pi \nu q_0^2 / 2C
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - power
+  notes: formula lines OCR-degraded; LaTeX best-effort.
+  relations: []
+- id: SC-TC02-055
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Мощность, выделяемая на активном сопротивлении, положительна в любой момент времени
+  statement_en: The power released on the active resistance is positive at any moment, PM = i²R = PM0 cos²ωt, where
+    the amplitude PM0 = 4π²ν²q0²R is proportional to the square of the frequency (eq. (10)).
+  quantities: []
+  equations:
+  - P_M = i^2 R = P_{M0} \cos^2 \omega t
+  - P_{M0} = 4\pi^2 \nu^2 q_0^2 R
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - power
+  notes: formula lines OCR-degraded; LaTeX best-effort.
+  relations: []
+- id: SC-TC02-056
+  type: mathematical
+  facet: theory
+  priority: core
+  page: 16
+  quote_ru: Отношение амплитудных значений мощностей увеличивается с ростом частоты
+  statement_en: 'The ratio of the amplitude power values grows with frequency: PM0/PC0 = 4πνRC = ν/ν*, where ν*
+    = (4πRC)^-1 = ω0/4π = ν0/2 is the characteristic frequency of the capacitor-ohmic-resistance system, half the
+    system frequency scale ν0 (eqs. (11)-(12)).'
+  quantities: []
+  equations:
+  - \frac{P_{M0}}{P_{C0}} = 4\pi \nu RC = \nu/\nu_*
+  - \nu_* = (4\pi RC)^{-1} = \omega_0/4\pi = \nu_0/2
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - mathematical
+  - power-conversion
+  - frequency
+  notes: formula lines OCR-degraded; LaTeX best-effort.
+  relations: []
+- id: SC-TC02-057
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: Этот случай реализуется тогда, когда амплитуды мощности, перекачиваемой по каналам между омическим сопротивлением
+    и конденсатором, одинаковы. Сколько мощности выбрасывается, столько и возвращается.
+  statement_en: 'At ν = ν* the conversion coefficient η = 1: this case is realized when the amplitudes of power
+    pumped through the channels between the ohmic resistance and the capacitor are equal — as much power is thrown
+    out as returns.'
+  quantities:
+  - ν = ν* ⇒ η = 1
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - power-conversion
+  - energy-balance
+  notes: ''
+  relations: []
+- id: SC-TC02-058
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: амплитудное значение мощности на конденсаторе больше, чем амплитудное значение мощности активного сопротивления.
+    Дополнительная мощность забирается током смещения и переносится с омического сопротивления на конденсатор.
+  statement_en: For ν < ν* the amplitude power value on the capacitor exceeds that on the active resistance; the
+    extra power is taken by the displacement current and carried from the ohmic resistance to the capacitor.
+  quantities:
+  - ν < ν*
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - power-conversion
+  - ток-смещения
+  notes: ''
+  relations: []
+- id: SC-TC02-059
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: в системе возникает сверхединичное преобразование мощности в омическом сопротивлении. Суть преобразования
+    в том, что ток смещения перебрасывает дополнительную мощность из конденсатора в омическое сопротивление по каналу
+    2.
+  statement_en: 'For ν > ν* super-unity power conversion arises in the ohmic resistance: the displacement current
+    throws additional power from the capacitor into the ohmic resistance through channel 2.'
+  quantities:
+  - ν > ν*
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - super-unity
+  - electrical
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-060
+  type: physics
+  facet: theory
+  priority: core
+  page: 17
+  quote_ru: Она разделяет области ниже единичного преобразования мощности в омическом сопротивлении (отмечена цифрой
+    1) и сверхединичного преобразования мощности в том же сопротивлении (отмечена цифрой 2).
+  statement_en: The frequency dependence of the power conversion coefficient (eq. (11), fig. 12) is a straight line
+    in the indicated variables, separating the below-unity conversion region (marked 1) from the super-unity conversion
+    region (marked 2) in the same resistance.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs:
+  - Рис. 12
+  tags:
+  - power-conversion
+  - frequency
+  notes: ''
+  relations: []
+- id: SC-TC02-061
+  type: physical
+  facet: measurement
+  priority: core
+  page: 18
+  quote_ru: Амплитудное значение тока смещения 69 мА. Амплитуда мощности на омическом сопротивлении 37,6 Вт превышает
+    амплитуду мощности на ёмкости в 5 раз.
+  statement_en: 'Design estimate for conversion coefficient η = 5 at mains frequency 50 Hz with amplitude voltage
+    220 V: characteristic frequency ν* = 10 Hz; for C = 1 µF, R = (40πC)^-1 = 7.9 kΩ; charge amplitude on the capacitance
+    2.2·10^-4 C; displacement current amplitude 69 mA; power amplitude on the ohmic resistance 37.6 W exceeds the
+    power amplitude on the capacitance 5 times.'
+  quantities:
+  - η = 5
+  - ν = 50 Гц
+  - U0 = 220 В
+  - ν* = 10 Гц
+  - C = 1 мкФ
+  - R = 7,9 кОм
+  - q0 = 2,2·10^-4 Кл
+  - i0 = 69 мА
+  - P_R = 37,6 Вт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: амплитуда тока смещения
+    value: '69'
+    unit: мА
+    conditions: сетевая частота 50 Гц, C=1 мкФ, η=5
+  - quantity: амплитуда мощности на омическом сопротивлении
+    value: 37,6
+    unit: Вт
+    conditions: превышает амплитуду мощности на ёмкости в 5 раз
+  schematic_refs: []
+  tags:
+  - power-conversion
+  - design-estimate
+  - electrical
+  notes: values as stated; some source lines have OCR-degraded glyphs (η, ν, superscripts).
+  relations: []
+- id: SC-TC02-062
+  type: physical
+  facet: measurement
+  priority: core
+  page: 18
+  quote_ru: Потоки электромагнитной энергии перераспределяются. Большая часть потоков уходит в ёмкость.
+  statement_en: 'Super-unity power conversion into the capacitor occurs for η = 1/5: the electromagnetic energy
+    fluxes redistribute, most of the flux going into the capacitance; for ν = 50 Hz the characteristic frequency
+    ν* = 250 Hz, at C = 1 µF the new ohmic resistance is 320 Ω; the 7.5 W power amplitude on the capacitance is
+    5 times the 1.5 W amplitude on the ohmic resistance.'
+  quantities:
+  - η = 1/5
+  - ν* = 250 Гц
+  - R = 320 Ом
+  - P_C = 7,5 Вт
+  - P_R = 1,5 Вт
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: амплитуда мощности на ёмкости
+    value: 7,5
+    unit: Вт
+    conditions: η=1/5, C=1 мкФ, R=320 Ом
+  - quantity: амплитуда мощности на омическом сопротивлении
+    value: 1,5
+    unit: Вт
+    conditions: η=1/5
+  schematic_refs: []
+  tags:
+  - power-conversion
+  - design-estimate
+  - electrical
+  notes: quote_ru truncated before an OCR-degraded private-use glyph / page-footer artifact; full sentence carries
+    the lost formula symbol.
+  relations: []
+- id: SC-TC02-063
+  type: experimental
+  facet: measurement
+  priority: core
+  page: 18
+  quote_ru: Измерения указывали на то, что на калориметре в различных режимах работы плазменного конденсатора выделялось
+    мощности больше, чем забиралось из электрической розетки.
+  statement_en: In the Katorgin-Marin experiments the measurements indicated that in various operating regimes of
+    the plasma capacitor more power was released on the calorimeter than was drawn from the electric socket (inputting
+    electromagnetic energy through the capacitor lowers it because cos φ between current and voltage on the capacitance
+    is small).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - избыточн
+  - каторгин-марин
+  - calorimetry
+  - electrical
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-064
+  type: physics
+  facet: theory
+  priority: core
+  page: 18
+  quote_ru: Оказалось, что при движении осциллирующего заряда в потенциальной яме, привычные законы сохранения энергии
+    не выполняются, и возможно как уменьшение полной энергии заряда, так и её увеличение.
+  statement_en: 'Studying the motion of a wave packet-charge in static force fields at nuclear and subnuclear scales
+    showed that for an oscillating charge moving in a potential well the usual energy conservation laws do not hold:
+    both decrease and increase of the total charge energy are possible.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-conservation
+  - debt-candidate
+  - wave-packet
+  notes: ''
+  relations: []
+- id: SC-TC02-065
+  type: physics
+  facet: theory
+  priority: core
+  page: 19
+  quote_ru: Обнаружено существование электрической токовой неустойчивости в последовательном колебательном контуре
+    с переменной ёмкостью, объясняющей физику параметрического резонанса Мандельштама- Папалекси. При определённых
+    значениях L-C-R параметров контура закон сохранения энергии тоже не выполняется. При отсутствии внешнего источника
+    тока, в нём возможны как затухающие, так и нарастающие колебания. Нарастающие колебания объяснены сверхединичным
+    преобразованием механо-электрической мощности в переменной ёмкости.
+  statement_en: 'An electric current instability was discovered in a series oscillatory circuit with variable capacitance,
+    explaining the physics of the Mandelstam-Papalexi parametric resonance; at certain L-C-R parameters of the circuit
+    the energy conservation law does not hold either: without an external current source both damped and growing
+    oscillations are possible, the growing ones explained by super-unity conversion of mechano-electric power in
+    the variable capacitance.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - токовая-неустойчивость
+  - parametric-resonance
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-066
+  type: experimental
+  facet: experiment
+  priority: core
+  page: 19
+  quote_ru: Оказалось, что на синтез пузырька из электронов затрачивается небольшая энергия, а в процессах распада
+    ее выделяется на два-три порядка больше. Законы сохранения энергии в процессах синтеза/распада пузырьков из
+    электронов снова не выполняются.
+  statement_en: 'Processes of synthesis/decay of microscopic charge bubbles in the plates of a U-shaped capacitor
+    were studied: the synthesis of a bubble from electrons takes a small energy, while the decay processes release
+    two-three orders of magnitude more; energy conservation laws again do not hold in the synthesis/decay of electron
+    bubbles.'
+  quantities:
+  - E_распада / E_синтеза = 10^2–10^3
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - evo
+  - кластер
+  - excess-energy
+  - избыточн
+  - energy-balance
+  - synthesis-decay
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-067
+  type: physics
+  facet: theory
+  priority: core
+  page: 19
+  quote_ru: В электрических цепях, содержащих КОДМ, возможны преобразования электрической мощности как в сторону
+    понижения, так и в сторону её повышения.
+  statement_en: In electric circuits containing a CODM (capacitor with oscillating dipole moment), electric power
+    conversion is possible both downward and upward; the latter led to the final understanding of the phenomenon
+    of electric energy appearance in P. Bauman's installation.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - КОДМ
+  - power-conversion
+  - excess-energy
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-068
+  type: physics
+  facet: theory
+  priority: core
+  page: 19
+  quote_ru: «реактором» в устройствах является КОДМ. Его переменный электрический дипольный момент генерирует в
+    цепи конденсатора ток смещения Максвелла, пропорциональный скорости изменения потока вектора электрической индукции;
+  statement_en: 'The ''reactor'' in the devices is the CODM: its alternating electric dipole moment generates, in
+    the capacitor circuit, a Maxwell displacement current proportional to the rate of change of the electric induction
+    vector flux.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - КОДМ
+  - ток-смещения
+  - reactor
+  notes: ''
+  relations: []
+- id: SC-TC02-069
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: При генерации тока смещения законы сохранения энергии не выполняются;
+  statement_en: The law of electrodynamic induction, lost for centuries, is a powerful alternative to the law of
+    electromagnetic induction; when displacement current is generated, the energy conservation laws do not hold.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - law
+  - energy-conservation
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-070
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: Преобразование мощности поддерживает непрерывный режим генерации энергии в «Тестатике». Его обеспечивают
+    физические аспекты взаимодействия микронных пузырьков зарядов, участвующих в процессах синтеза/распада, с обкладками
+    конденсатора [10];
+  statement_en: The possibility appears of creating a CODM with super-unity power conversion; the power conversion
+    supports the continuous energy generation regime in the 'Testatika', provided by the physical aspects of the
+    interaction of micron charge bubbles participating in synthesis/decay processes with the capacitor plates.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - 'пузырьки зарядов: микронные размеры'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - evo
+  - кластер
+  - testatika
+  - super-unity
+  notes: ''
+  relations: []
+- id: SC-TC02-071
+  type: experimental
+  facet: phenomenology
+  priority: core
+  page: 20
+  quote_ru: Опыты не сопровождались появлением нейтронов. В них не было холодного синтеза ядер;
+  statement_en: Energy release generated by the stationary plates of a CODM was first observed in the scandalously
+    known Fleischmann-Pons experiments and other experiments of alternating current in various media; the experiments
+    were not accompanied by neutron appearance — there was no cold synthesis of nuclei in them.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fleischmann-pons
+  - excess-energy
+  - neutrons
+  - cold-fusion
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-072
+  type: physical
+  facet: phenomenology
+  priority: core
+  page: 20
+  quote_ru: выделение энергии в опытах ФП имело другую физическую природу. По моему мнению, она связана с процессом
+    синтеза/распада пузырьков зарядов, обсуждаемым в заметке;
+  statement_en: The energy release in the FP experiments had a different physical nature which, in the author's
+    opinion, is connected with the charge-bubble synthesis/decay process discussed in the note.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - evo
+  - fleischmann-pons
+  - anomalous-heat
+  notes: ''
+  relations: []
+- id: SC-TC02-073
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: «реакторы» на КОДМ дают самую высокую объёмную плотность электрической мощности, что открывает новую
+    область энергетики – сверхэффективную персональную энергетику;
+  statement_en: CODM 'reactors' give the highest volumetric density of electric power, opening a new field of energetics
+    — super-efficient personal energetics.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electrical
+  - power-density
+  - personal-energy
+  notes: ''
+  relations: []
+- id: SC-TC02-074
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: стоимость создания, запуска и налаживания устройств генерации электрической энергии КОДМ оказывается
+    самой низкой среди существующих способов её производства в мире;
+  statement_en: The cost of creating, launching, and commissioning CODM electric-energy generation devices turns
+    out to be the lowest among the existing ways of producing it in the world.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - cost
+  - electrical
+  - debt-candidate
+  notes: ''
+  relations: []
+- id: SC-TC02-075
+  type: physics
+  facet: theory
+  priority: core
+  page: 20
+  quote_ru: внедрение технологии «Божественного огня» в любой стране позволит повысить эффективность использования
+    электрической энергии на порядок, без изменения мощности её генерации.
+  statement_en: The introduction of the 'Divine fire' technology in any country will raise the efficiency of electric
+    energy use by an order of magnitude without changing its generation power.
+  quantities:
+  - эффективность использования электроэнергии × 10
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - excess-energy
+  - efficiency
+  - debt-candidate
+  notes: ''
+  relations: []
+coverage:
+  extractor: C3-Devices
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

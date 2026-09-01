@@ -1,0 +1,142 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: SI08
+  section: site
+  title_ru: Принцип Вечного Движения
+  title_en: The Principle of Perpetual Motion
+  file: site/perpetual_motion.md
+  source_url: https://sapogin.com/perpetual_motion
+  md5: 0c8979a17774b1d54729cbcadd955864
+  retrieved: '2026-08-31'
+claims:
+- id: SC-SI08-001
+  type: physics
+  facet: theory
+  priority: core
+  page: § Работающий Вечный Двигатель (вд) Упразднил Запреты Академической Математики
+  quote_ru: Вертушку вращает механический принцип Стокса, утерянный в веках.
+  statement_en: Sapogin asserts the perpetual-motion wheel is rotated by the mechanical Stokes principle, lost over the centuries, claiming the device won its centuries-long contest against theoreticians.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - perpetual-motion
+  - stokes-principle
+  - over-unity
+  notes: ''
+  relations: []
+- id: SC-SI08-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Полевой Конфайнмент
+  quote_ru: 'Найден интеграл «живых сил» в плоской симметрии. Он позволяет обосновать конфайнмент массовых частиц самосогласованным полем. Также, найдена пара сил полевого происхождения: сила сжатия и сила
+    расширения. Они удерживают слой в статическом состоянии равновесия.'
+  statement_en: Sapogin asserts the 'living forces' integral was found in planar symmetry, justifying confinement of mass particles by a self-consistent field, and a pair of field-originated forces (compression
+    and expansion) was found holding the layer in static equilibrium.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - confinement
+  - living-forces-integral
+  notes: ''
+  relations: []
+- id: SC-SI08-003
+  type: mathematical
+  facet: geometry
+  priority: normal
+  page: § Полевой Конфайнмент
+  quote_ru: Определена толщина слоя. Она совпадает с удвоенным пространственным масштабом.
+  statement_en: Sapogin asserts the layer thickness was determined and equals twice the spatial scale.
+  quantities:
+  - layer thickness = 2 x spatial scale
+  equations: []
+  materials: []
+  geometry:
+  - planar layer of thickness 2x spatial scale
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - layer-thickness
+  - geometry
+  notes: ''
+  relations: []
+- id: SC-SI08-004
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: § Полевой Конфайнмент
+  quote_ru: Приближённое решение проверено численным моделированием. Найдено точное решение для распределения потенциала в полевой ловушке второго рода.
+  statement_en: Sapogin asserts an approximate solution for matter distribution in a hollow cold uniform-temperature cluster in first-kind field traps was verified by numerical modelling, and an exact potential-distribution
+    solution was found for a second-kind field trap.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - field-traps
+  - exact-solution
+  - numerical-verification
+  notes: ''
+  relations: []
+- id: SC-SI08-005
+  type: physics
+  facet: theory
+  priority: normal
+  page: § Полевой Конфайнмент
+  quote_ru: Оценки показывают, что спектры масс полых скоплений нейтронов с температурой от 1011 до 1012 К могут быть отождествлены с массами объектов, наблюдаемых в центрах галактик.
+  statement_en: Sapogin asserts estimates show the mass spectra of hollow neutron clusters with temperatures from 10^11 to 10^12 K can be identified with the masses of objects observed in galactic centres.
+  quantities:
+  - temperature 1e11..1e12 K (printed 'от 1011 до 1012 К')
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - neutron-clusters
+  - black-holes
+  - astrophysics
+  notes: Source flattens superscripts in this entry.
+  relations: []
+- id: SC-SI08-006
+  type: physical
+  facet: phenomenology
+  priority: normal
+  page: § Полевой Конфайнмент
+  quote_ru: Высказана гипотеза о существовании газовых пузырей-невидимок с низкой температурой, малых радиусов и большой массы. Заполненные шарики, вылетая из тёмной плазмы Солнца, за счёт расширения и
+    охлаждения газа превращаются в тонкостенные пузыри с жидкой стенкой.
+  statement_en: Sapogin hypothesizes the existence of 'invisible' gas bubbles of low temperature, small radii and large mass; filled balls ejected from the Sun's dark plasma turn, through gas expansion
+    and cooling, into thin-wall bubbles with a liquid wall.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - gas-bubbles
+  - invisible-bubbles
+  - hypothesis
+  notes: ''
+  relations: []
+coverage:
+  extractor: SiteExtractor
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: false

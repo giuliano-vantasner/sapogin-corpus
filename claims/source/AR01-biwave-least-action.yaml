@@ -1,0 +1,1919 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: AR01
+  section: articles
+  title_ru: Биволновая природа принципа наименьшего действия релятивистской частицы-заряда
+  title_en: Bi-wave nature of the least-action principle of a relativistic charge-particle
+  file: papers/articles/bivolnovaya-priroda-printsipa-naimenshego-deystviya-relyativistskoy-chastitsy-za.pdf
+  source_url: http://146.190.233.254/docs/articles/Биволновая природа принципа наименьшего действия релятивистской
+    частицы-заряда.pdf
+  md5: a51040bd0570515acabbb908e9cf0b0f
+  pages_total: 19
+  retrieved: '2026-09-01'
+claims:
+- id: SC-AR01-001
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Исследуются биволновые свойства принципа наименьшего действия, описывающего релятивистское движение
+    свободной заряженной материальной точки. Они следуют из анализа движения частицы-заряда в статических и переменных
+    полях скалярного и векторного потенциалов с высокой симметрией.
+  statement_en: The bi-wave properties of the least-action principle describing the relativistic motion of a free
+    charged material point follow from analysis of the motion of a charge-particle in static and variable fields
+    of scalar and vector potentials with high symmetry.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-wave
+  - least-action
+  - relativistic-particle
+  notes: ''
+  relations: []
+- id: SC-AR01-002
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Анализ позволяет построить полный интеграл уравнения Гамильтона-Якоби, который представляет собой малое
+    локализованное возбуждение функции действия, обнаруженное ранее Г.Сивашинским.
+  statement_en: The analysis allows one to construct the complete integral of the Hamilton-Jacobi equation, which
+    represents a small localized excitation of the action function, discovered earlier by G. Sivashinsky.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamilton-jacobi
+  - sivashinsky
+  - localized-excitation
+  notes: ''
+  relations: []
+- id: SC-AR01-003
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Интеграл содержит в себе две плоские волны действия, связанные с движущейся частицей-зарядом. Одна из
+    них совпадает с де Бройлевской волной (временная волна действия), имеющей фазовую скорость больше скорости света.
+    Другая плоская волна (координатная волна действия) движется с фазовой скоростью меньше скорости света.
+  statement_en: 'The complete integral contains two plane action waves associated with the moving charge-particle:
+    one coincides with the de Broglie wave (the temporal action wave), whose phase velocity is greater than the
+    speed of light; the other plane wave (the coordinate action wave) moves with a phase velocity smaller than the
+    speed of light.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-wave
+  - de-broglie-wave
+  - coordinate-wave
+  - superluminal-phase-velocity
+  notes: ''
+  relations:
+  - to: SC-AR01-004
+    kind: supports
+- id: SC-AR01-004
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: Длина её волны зависит от скорости и при малых скоростях движения совпадает с комптоновской длиной волны.
+  statement_en: The wavelength of the coordinate action wave depends on velocity and coincides with the Compton
+    wavelength at small motion velocities.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - coordinate-wave
+  - compton-wavelength
+  notes: ''
+  relations: []
+- id: SC-AR01-005
+  type: physical
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: В системе отсчёта, в которой покоится частица-заряд, она отображается в «пространстве действия» отрезком
+    дрожащей струны, вытянутой в направлении её движения. Участок струны имеет пространственный масштаб, который
+    ограничен комптоновской длиной волны, зависящей от скорости, и временной масштаб, который также зависит от скорости
+    движения частицы-заряда.
+  statement_en: In the reference frame where the charge-particle is at rest, it is represented in 'action space'
+    by a segment of a trembling string stretched along its direction of motion; the string segment has a spatial
+    scale bounded by the velocity-dependent Compton wavelength and a time scale that also depends on the velocity
+    of the charge-particle.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - string segment spatial scale bounded by Compton wavelength (velocity-dependent)
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - particle-model
+  - trembling-string
+  - zitterbewegung
+  notes: ''
+  relations: []
+- id: SC-AR01-006
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: В работах [1-4] было отмечено, что если плоская электромагнитная волна распространяется с фазовой скоростью,
+    не равной скорости света в вакууме, то при   kc (фазовая скорость волны меньше скорости света в вакууме) существует
+    выделенная инерциальная система отсчёта K1 , движущаяся с постоянной скоростью V   / k , в которой фаза волны
+    вырождается и зависит только от координаты.
+  statement_en: 'For a plane electromagnetic wave propagating with phase velocity different from the speed of light
+    in vacuum: when ω < kc (phase velocity less than c) there exists a distinguished inertial frame K1, moving with
+    constant velocity V = ω/k, in which the wave phase degenerates and depends only on the coordinate.'
+  quantities: []
+  equations:
+  - \psi = \omega t - kx
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plane-waves
+  - phase-degeneracy
+  notes: 'OCR-degraded: inequality glyphs (ω <) lost in quote; V = ω/k from continuation on same page.'
+  relations: []
+- id: SC-AR01-007
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: При   kc (фазовая скорость плоской волны больше скорости света в вакууме) она вырождается и зависит
+    только от времени в системе отсчёта K 2 , имеющей постоянную скорость V  kc2 /  . Обе системы отсчёта перемещаются
+    вдоль направления распространения волны. Если же рассматривается электромагнитная волна с   kc , то систем
+    отсчёта, в которых возможно вырождение фазы плоской волны не существует.
+  statement_en: When ω > kc (phase velocity of the plane wave greater than the speed of light in vacuum) the phase
+    degenerates and depends only on time in the frame K2 moving with constant velocity V = kc²/ω; both frames move
+    along the propagation direction; for an electromagnetic wave with ω = kc there exist no reference frames in
+    which degeneracy of the plane-wave phase is possible.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - plane-waves
+  - phase-degeneracy
+  notes: 'OCR-degraded: ω, ω² glyphs lost in quote.'
+  relations: []
+- id: SC-AR01-008
+  type: physics
+  facet: theory
+  priority: normal
+  page: 2
+  quote_ru: Отмеченным свойством вырождения обладают не только плоские электромагнитные волны, но и произвольные
+    плоские волновые процессы, имеющие фазу (1) и   k. Так, фаза де Бройлевской волны материи вырождается в системе
+    отсчёта K 2 [10].
+  statement_en: The degeneracy property is possessed not only by plane electromagnetic waves but by arbitrary plane
+    wave processes having phase (1) with ω ≠ k; in particular, the phase of the de Broglie matter wave degenerates
+    in the frame K2.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - de-broglie-wave
+  - phase-degeneracy
+  notes: 'OCR-degraded: ω ≠ ω-k glyphs lost.'
+  relations: []
+- id: SC-AR01-009
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: В [1,4,7-9] было замечено, что движение заряженных частиц в плоских электромагнитных волнах, описываемых
+    векторным и скалярным потенциалами, характеризуется полным набором, состоящих из трёх точных интегралов движения;
+    два из них соответствуют циклическим поперечным координатам x,y
+  statement_en: Motion of charged particles in plane electromagnetic waves described by vector and scalar potentials
+    is characterized by a complete set of three exact integrals of motion; two of them correspond to the cyclic
+    transverse coordinates x, y (p⊥ + A⊥ = C⊥ = const) and are projections of the full momentum of the particle.
+  quantities: []
+  equations:
+  - \mathbf{p}_\perp + \mathbf{A}_\perp = \mathbf{C}_\perp = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - integrals-of-motion
+  - plane-waves
+  notes: 'OCR-degraded: equation (5) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-010
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: а третий возникает, как следствие волнового характера поля
+  statement_en: 'The third integral of motion arises as a consequence of the wave character of the field: Y = k(γ
+    + φ) − ω(p_z + A_z) = const; it was first obtained in [5-7] and presented in form (6) in [8,9].'
+  quantities: []
+  equations:
+  - Y = k(\gamma + \varphi) - \omega(p_z + A_z) = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - integrals-of-motion
+  - plane-waves
+  notes: 'OCR-degraded: equation (6) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-011
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: В дальнейшем обобщённым 4-импульсом частицы, движущейся в полях векторного и скалярного потенциалов,
+    будем называть 4-вектор
+  statement_en: The generalized 4-momentum of a particle moving in fields of vector and scalar potentials is defined
+    as the 4-vector C^i = (γ + φ, p + A), whose temporal component is the total energy of the particle and whose
+    spatial components form the full momentum of the particle, consisting of the kinetic part p and the potential
+    part A.
+  quantities: []
+  equations:
+  - C^i = (\gamma + \varphi,\ \mathbf{p} + \mathbf{A})
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - generalized-4-momentum
+  - definitions
+  notes: 'OCR-degraded: 4-vector glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-012
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: интеграл движения (6) в системе отсчёта K1 , превращается в полную механическую энергию заряда, которая
+    сохраняется в статическом неоднородном поле
+  statement_en: 'With the Lorentz-invariant calibration (7), which in a plane wave is representable as (8) (φ_t
+    + A_zz = 0 or ωφ = kAz), the integral of motion (6) in the frame K1 turns into the total mechanical energy of
+    the charge, which is conserved in a static inhomogeneous field: Y1'' = γ'' + φ'' = const.'
+  quantities: []
+  equations:
+  - \partial\varphi/\partial t + \mathrm{div}\mathbf{A} = 0
+  - \omega\varphi = kA_z
+  - Y_{1'} = \gamma' + \varphi' = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - integrals-of-motion
+  - calibration
+  - energy-conservation
+  notes: 'OCR-degraded: equations (7)-(9) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-013
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: а в системе отсчёта K 2 интеграл (6) переходит в продольную проекцию полного импульса частицы
+  statement_en: 'In the frame K2 the integral (6) passes into the longitudinal projection of the full momentum of
+    the particle: Y2'' = p_z'' + A_z'' = const; then in K2 one obtains three conserved components p + A = C = const.'
+  quantities: []
+  equations:
+  - Y_{2'} = p_z' + A_z' = \mathrm{const}
+  - \mathbf{p} + \mathbf{A} = \mathbf{C} = \mathrm{const}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - integrals-of-motion
+  - momentum-conservation
+  notes: 'OCR-degraded: equations (10), (11) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-014
+  type: physics
+  facet: theory
+  priority: normal
+  page: 3
+  quote_ru: Все три компоненты полного импульса будут сохраняться при движении заряда только в однородном нестатическом
+    поле.
+  statement_en: All three components of the full momentum are conserved during charge motion only in a homogeneous
+    non-static field.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - momentum-conservation
+  notes: ''
+  relations: []
+- id: SC-AR01-015
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Из (11) следует, что движение заряда в однородном, но переменном электрическом поле векторного потенциала
+    характеризуется сохранением всех   пространственных компонент
+  statement_en: From (11) it follows that motion of a charge in a homogeneous but variable electric field of vector
+    potential is characterized by conservation of all spatial components of the generalized 4-momentum C^i = (γ
+    + φ, p + A) — the full momentum of the particle; this reveals a previously unnoted deep symmetry of time and
+    coordinate, since in an inhomogeneous but static field of scalar potential the temporal component (the total
+    energy) is conserved.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - time-coordinate-symmetry
+  - conservation-laws
+  notes: Pairs with the item-1 statement on p.3 (temporal component conserved in static inhomogeneous scalar-potential
+    field).
+  relations:
+  - to: SC-AR01-017
+    kind: supports
+- id: SC-AR01-016
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Как будет показано ниже, эта симметрия оказывается связанной с существованием канонической формы релятивистского
+    действия заряженной частицы в произвольном электромагнитном поле векторного и скалярного потенциалов. Из них
+    следуют два возможных способа канонического описания релятивистского движения заряженной материальной точки,
+    соответствующие двум интегралам движения полной энергии (9) и полного импульса (11).
+  statement_en: 'This symmetry is connected with the existence of a canonical form of the relativistic action of
+    a charged particle in an arbitrary electromagnetic field of vector and scalar potentials; from it follow two
+    possible methods of canonical description of the relativistic motion of a charged material point, corresponding
+    to the two integrals of motion: full energy (9) and full momentum (11).'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - canonical-action
+  - time-coordinate-symmetry
+  notes: ''
+  relations: []
+- id: SC-AR01-017
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Одна из них совпадает с де Бройлевской волной материи [10]
+  statement_en: 'Two plane action waves are associated with the moving charge: the first coincides with the de Broglie
+    matter wave, with ω = 2πE/h and k = 2πp/h (relations (12) in ordinary units), and the parameters of the second
+    are expressed through the energy E and momentum p of the charge as K = 2πE/(hc), Ω = 2πpc/h (13); as seen from
+    (13), its wavelength coincides with the Compton wavelength at small particle velocities — a parameter inherent
+    to the electron that was discovered in Compton''s experiments on scattering of gamma quanta on electrons at
+    rest.'
+  quantities: []
+  equations:
+  - \omega = 2\pi E/h,\ k = 2\pi p/h
+  - K = 2\pi E/(hc),\ \Omega = 2\pi pc/h
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-wave
+  - de-broglie-wave
+  - compton-wavelength
+  notes: 'OCR-degraded: equations (12), (13) glyphs lost; reconstructed best-effort. Quote anchors the sentence
+    introducing the two waves.'
+  relations: []
+- id: SC-AR01-018
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Отметим, что если когда-нибудь пойдёт речь о приоритете в этой области знаний, то исторически базовые
+    соотношения для двух плоских волн действия были опубликованы в 1982 году в работе [16] одного из авторов этой
+    заметки. Последующее развитие поднятой проблемы были опубликованы в работах [17, 19].
+  statement_en: Historically, the basic relations for the two plane action waves were published in 1982 in work
+    [16] by one of the authors of this note; subsequent development of the problem was published in works [17, 19].
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - priority
+  - history
+  notes: ''
+  relations: []
+- id: SC-AR01-019
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: В 1983 году появилась работа Г.Сивашинского [12], которая была получена журналом Nuova Cimento 13 июля
+    1982 года. В ней он предложил модифицированное уравнение Гамильтона-Якоби и оригинальную интерпретацию заряженной
+    частицы как малого возмущения функции действия, локализованного в пространстве в размерах комптоновской длины
+    волны.
+  statement_en: In 1983 G. Sivashinsky's work [12] appeared (received by Nuovo Cimento on 13 July 1982), in which
+    he proposed a modified Hamilton-Jacobi equation and an original interpretation of the charged particle as a
+    small perturbation of the action function, localized in space within the Compton wavelength.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sivashinsky
+  - hamilton-jacobi
+  - localized-excitation
+  notes: ''
+  relations: []
+- id: SC-AR01-020
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 4
+  quote_ru: Точность существующих экспериментальных данных, служащих основанием волновой теории материи [11], не
+    позволило в начале прошлого века выявить влияние второй волны действия на дифракцию нерелятивистских электронов.
+    Причина этого заключалась в том, что длины волн, участвующие в дифракции электронов, отличаются друг от друга
+    на несколько порядков, и влияние второй волны действия на дифракцию практически не проявляется.
+  statement_en: The precision of the existing experimental data underlying the wave theory of matter did not allow,
+    at the beginning of the last century, detection of the influence of the second action wave on diffraction of
+    nonrelativistic electrons; the wavelengths participating in electron diffraction differ from each other by several
+    orders of magnitude, so the influence of the second action wave on diffraction practically does not manifest
+    itself.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-diffraction
+  - experimental-limits
+  notes: ''
+  relations: []
+- id: SC-AR01-021
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: При решении модифицированного уравнения Гамильтона ─ Якоби в [12] функция действия с учетом малого локализованного
+    возбуждения для свободной частицы была получена в виде
+  statement_en: Solving the modified Hamilton-Jacobi equation, Sivashinsky [12] obtained the action function with
+    the small localized excitation for a free particle in the form S = −Et + pr + s(Er/c² − pt).
+  quantities: []
+  equations:
+  - S = -Et + \mathbf{p}\mathbf{r} + s(Er/c^2 - \mathbf{p}\mathbf{t})
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - sivashinsky
+  - action-function
+  notes: 'OCR-degraded: formula glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-022
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Такое представление позволяет окончательно уточнить явление корпускулярно-волнового дуализма, открытого
+    в физике в начале прошлого века, которое в этом случае переходит в явление корпускулярно-биволнового дуализма.
+    То есть, при движении любой массовой частицы-заряда возникает не один плоский волновой процесс, как считалось
+    ранее, а два. Каждый из них имеет свои пространственные и временные масштабы, зависящие от скорости его движения.
+    Масштабы будут различны в разных инерциальных системах отсчёта.
+  statement_en: 'This representation finally refines the corpuscular-wave dualism (discovered at the beginning of
+    the last century) into a corpuscular-bi-wave dualism: during motion of any massive charge-particle there arise
+    not one plane wave process, as previously believed, but two, each with its own spatial and temporal scales depending
+    on the velocity of motion; the scales differ in different inertial reference frames.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-wave
+  - dualism
+  notes: ''
+  relations: []
+- id: SC-AR01-023
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Для описания нерелятивистского движения частицы-заряда в микромире достаточно использовать одну де Бройлевскую
+    волну, забывая о существовании второй волны действия. В этом случае принцип наименьшего действия для частицы-заряда
+    совпадает с принципом наименьшего времени. Они становятся эквивалентными. А вот при релятивистском движении
+    частицы -заряда в микромире достаточно использовать одну Комптоновскую волну действия, забывая о существовании
+    первой волны.
+  statement_en: For describing nonrelativistic motion of a charge-particle in the microworld it suffices to use
+    one de Broglie wave, forgetting the second action wave; in that case the least-action principle for the charge-particle
+    coincides with the least-time principle — they become equivalent. For relativistic motion of the charge-particle
+    it suffices to use one Compton action wave, forgetting the first wave.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - least-action
+  - least-time
+  - bi-wave
+  notes: ''
+  relations: []
+- id: SC-AR01-024
+  type: physics
+  facet: theory
+  priority: normal
+  page: 5
+  quote_ru: Может быть, в этом и заключается Великая Тайна Явления Релятивизма, которая позволяет понять, почему
+    одиночные массовые частицы-заряды не могут двигаться со скоростью больше скорости света. При приближении скорости
+    движения к скорости света между двумя волновыми процессами возникает своеобразный резонанс. Он и ограничивает
+    предельную скорость движения массовой частицы- заряда.
+  statement_en: 'Perhaps herein lies the Great Secret of the Phenomenon of Relativism, which explains why single
+    massive charge-particles cannot move faster than light: as the velocity approaches the speed of light, a peculiar
+    resonance arises between the two wave processes, and it is this resonance that limits the limiting velocity
+    of a massive charge-particle.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - relativity-limit
+  - resonance
+  - debt-candidate
+  notes: Speculative mechanism for the relativistic speed limit — flagged as suspect physics for debt clustering.
+  relations: []
+- id: SC-AR01-025
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: Симметричную форму действия релятивистской частицы-заряда, совершающей движение в заданном поле электромагнитных
+    потенциалов, можно представить в виде
+  statement_en: The symmetric form of the action of a relativistic charge-particle moving in a given field of electromagnetic
+    potentials can be represented as S = ∫[(p + A)dr − (γ + φ)dt], where A, φ are the electromagnetic field potentials
+    and p, γ are the relativistic momentum and energy of the charge-particle.
+  quantities: []
+  equations:
+  - S = \int\left[(\mathbf{p}+\mathbf{A})\,d\mathbf{r} - (\gamma+\varphi)\,dt\right]
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - canonical-action
+  - symmetric-form
+  notes: 'OCR-degraded: equation (14) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-026
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: где A,  – потенциалы электромагнитного поля; p,  – релятивистские импульс и энергия частицы-заряда,
+    связанные соотношениями
+  statement_en: The relativistic momentum and energy of the charge-particle are related by p² + 1 = γ², γ = (1 −
+    u²)^(−1/2), u = p/γ, where u is the dimensionless velocity of the charge-particle.
+  quantities: []
+  equations:
+  - p^2 + 1 = \gamma^2
+  - \gamma = (1 - u^2)^{-1/2}
+  - u = p/\gamma
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - relativistic-relations
+  notes: 'OCR-degraded: equation (15) glyphs lost; reconstructed best-effort (dimensionless units, c = 1).'
+  relations: []
+- id: SC-AR01-027
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: получим уравнения движения заряда в канонической форме, приводимой Я.Френкелем в [13]
+  statement_en: 'Applying the least-action principle δS = 0 to (14) and integrating by parts (with δp·dr = δγ·dt
+    and vanishing endpoint variations) yields the equations of motion of the charge in the canonical form given
+    by Ya. Frenkel [13]: dC/dt = (u∇)A − ∇φ, dH/dt = ∂φ/∂t − u·∂A/∂t, where C = p + A is the full relativistic momentum
+    (p — kinetic momentum, A — potential momentum, in the terminology of [13]) and H = γ + φ is the total relativistic
+    energy of the charge-particle.'
+  quantities: []
+  equations:
+  - \frac{d\mathbf{C}}{dt} = (\mathbf{u}\nabla)\mathbf{A} - \nabla\varphi
+  - \frac{dH}{dt} = \frac{\partial\varphi}{\partial t} - \mathbf{u}\cdot\frac{\partial\mathbf{A}}{\partial t}
+  - \mathbf{C} = \mathbf{p} + \mathbf{A}
+  - H = \gamma + \varphi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - equations-of-motion
+  - canonical-form
+  - frenkel
+  notes: 'OCR-degraded: equations (16)-(18) glyphs lost; reconstructed best-effort (equivalent to Lorentz force
+    and work-rate equations).'
+  relations: []
+- id: SC-AR01-028
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: 'Отметим симметрию уравнений движения в форме (16):'
+  statement_en: 'The equations of motion in form (16) are symmetric: all components of the generalized 4-momentum
+    p^i = (γ + φ, p + A) of the particle, the variables r, t, and the potentials A, φ enter on an equal footing.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - symmetry
+  - equations-of-motion
+  notes: Item 1 of the listed symmetry properties.
+  relations: []
+- id: SC-AR01-029
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: 2.Если в некоторой инерциальной системе отсчёта неоднородное распределение потенциалов не зависит от
+    времени, то сохраняется полная релятивистская энергия заряженной материальной точки.
+  statement_en: If in some inertial reference frame the inhomogeneous distribution of potentials does not depend
+    on time, then the total relativistic energy of the charged material point is conserved.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - energy-conservation
+  - time-coordinate-symmetry
+  notes: Item 2 of the listed symmetry properties.
+  relations: []
+- id: SC-AR01-030
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: 3.Если в некоторой системе отсчёта неоднородные потенциалы не зависят хотя бы от одной координаты, то
+    при движении точки помимо полной энергии будет сохраняться соответствующая компонента полного релятивистского
+    импульса частицы-заряда.
+  statement_en: If in some reference frame the inhomogeneous potentials do not depend on at least one coordinate,
+    then during the motion of the point, besides the total energy, the corresponding component of the full relativistic
+    momentum of the charge-particle is conserved.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - momentum-conservation
+  - time-coordinate-symmetry
+  notes: Item 3 of the listed symmetry properties.
+  relations: []
+- id: SC-AR01-031
+  type: physics
+  facet: theory
+  priority: normal
+  page: 6
+  quote_ru: 4.Если в некоторой системе отсчёта потенциалы не зависят от координат, а зависят только от времени,
+    то при движении точки будет сохраняться полный релятивистский импульс частицы-заряда.
+  statement_en: If in some reference frame the potentials do not depend on coordinates but depend only on time,
+    then during the motion of the point the full relativistic momentum of the charge-particle is conserved.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - momentum-conservation
+  - time-coordinate-symmetry
+  notes: Item 4 of the listed symmetry properties.
+  relations: []
+- id: SC-AR01-032
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Последний случай движения возможен только в динамике заряженной материальной точки. Получить такие же
+    результаты в динамике материальной точки, движущейся в полях скалярного потенциала, не представляется возможным.
+  statement_en: The last case of motion is possible only in the dynamics of a charged material point; the same results
+    cannot be obtained in the dynamics of a material point moving in fields of a scalar potential.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - charged-particle
+  - vector-potential
+  notes: ''
+  relations: []
+- id: SC-AR01-033
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Его удобно назвать энергетическим.
+  statement_en: 'The canonical Hamilton equations are written with time as the independent variable by representing
+    the action (14) as the energy form S = ∫[C·dr − H(C, r, t)dt]; applying the least-action principle to it gives
+    the energy representation of the canonical Hamilton equations (20): dr/dt = ∂H/∂C, dC/dt = −∂H/∂r, dH/dt = ∂H/∂t,
+    in which the role of the generalized momenta is played by the components of the full relativistic momentum of
+    the particle, and the role of the generalized coordinates by the components of the radius vector.'
+  quantities: []
+  equations:
+  - S = \int\left[\mathbf{C}\,d\mathbf{r} - H(\mathbf{C},\mathbf{r},t)\,dt\right]
+  - d\mathbf{r}/dt = \partial H/\partial\mathbf{C}
+  - d\mathbf{C}/dt = -\partial H/\partial\mathbf{r}
+  - dH/dt = \partial H/\partial t
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamilton-equations
+  - energy-representation
+  notes: 'OCR-degraded: equations (19), (20) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-034
+  type: physics
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: Симметрию времени и координаты в интегральном инварианте Пуанкаре-Картана обнаружил Гантмахер [14].
+    Он заметил, что структура инварианта не изменяется, если время принять за координату, а энергию, взятую с противоположным
+    знаком, – за импульс. Тогда роль гамильтоновой функции играет несохраняющаяся величина – компонента кинетического
+    импульса частицы, взятая с противоположным знаком. Роль независимой переменной переходит к сопряжённой пространственной
+    координате.
+  statement_en: 'Gantmakher [14] discovered the symmetry of time and coordinate in the Poincare-Cartan integral
+    invariant: the structure of the invariant does not change if time is taken as a coordinate and the energy, taken
+    with the opposite sign, as a momentum; then the role of the Hamilton function is played by a non-conserved quantity
+    — a component of the kinetic momentum of the particle taken with the opposite sign — and the role of the independent
+    variable passes to the conjugate spatial coordinate.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - poincare-cartan
+  - gantmakher
+  - time-coordinate-symmetry
+  notes: ''
+  relations: []
+- id: SC-AR01-035
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 7
+  quote_ru: В соответствии с [14] запишем импульсное представление действия (1) в виде
+  statement_en: 'Applying the Gantmakher approach to charge-particle dynamics yields canonical Hamilton equations
+    with the coordinate as independent variable: in the orthogonal system q, r⊥ the impulse representation of the
+    action is S = ∫[C⊥·dr⊥ + h dt − C(C⊥, h, r⊥, t, q)dq], where h = −(γ + φ) (22) and C = −C_q = −(p_q + A_q) (23).'
+  quantities: []
+  equations:
+  - S = \int\left[\mathbf{C}_\perp d\mathbf{r}_\perp + h\,dt - \mathsf{C}(\mathbf{C}_\perp, h, \mathbf{r}_\perp,
+    t, q)\,dq\right]
+  - h = -(\gamma + \varphi)
+  - \mathsf{C} = -C_q = -(p_q + A_q)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - impulse-representation
+  - canonical-action
+  notes: 'OCR-degraded: equations (21)-(23) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-036
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: в которых роль независимой переменной «времени» играет координата q, а время t становится «координатой»
+    [14]. Из (25) видно, что если
+  statement_en: 'The impulse representation of the Hamilton equations (25) is obtained by varying (21): in it the
+    coordinate q plays the role of the independent variable ''time'' and time t becomes a ''coordinate''; if C =
+    C(C⊥, h, r⊥, t) then a new ''energy'' C is conserved, coinciding with the component (23) of the full relativistic
+    momentum of the charge-particle.'
+  quantities: []
+  equations:
+  - d\mathbf{r}_\perp/dq = \partial\mathsf{C}/\partial\mathbf{C}_\perp
+  - dt/dq = \partial\mathsf{C}/\partial h
+  - d\mathbf{C}_\perp/dq = -\partial\mathsf{C}/\partial\mathbf{r}_\perp
+  - dh/dq = -\partial\mathsf{C}/\partial t
+  - d\mathsf{C}/dq = \partial\mathsf{C}/\partial q
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - impulse-representation
+  - hamilton-equations
+  notes: 'OCR-degraded: equations (25) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-037
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: 'Действие (21) при сохранении (23) можно укоротить по произведению: новая энергия на новое время'
+  statement_en: The action (21) at conserved (23) can be shortened by the product of the new energy and the new
+    time, giving (27); the conservation law relates the new time q to the coordinates and time through dq = −(C
+    + A_q)dt/[(C + A_q)² + (C⊥ − A⊥)² + 1]^(1/2) and (C⊥ − A⊥)dq = −(C + A_q)dr⊥.
+  quantities: []
+  equations:
+  - dq = -\frac{(\mathsf{C}+A_q)\,dt}{\left[(\mathsf{C}+A_q)^2 + (\mathbf{C}_\perp-\mathbf{A}_\perp)^2 + 1\right]^{1/2}}
+  - (\mathbf{C}_\perp-\mathbf{A}_\perp)\,dq = -(\mathsf{C}+A_q)\,d\mathbf{r}_\perp
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shortened-action
+  notes: 'OCR-degraded: equation (27) and the connecting relations glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-038
+  type: physics
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Для (27) будет справедлив вариационный принцип в форме Мопертюи – S q  0 Лагранжа
+  statement_en: 'For the shortened action (27) the Maupertuis-Lagrange variational principle δSq = 0 holds: the
+    shortened action is stationary on all trajectories of the charged material point satisfying the conservation
+    law of the component (23) of the full relativistic momentum and passing through the end point (t2, r⊥2) at an
+    arbitrary moment q.'
+  quantities: []
+  equations:
+  - \delta S_q = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - maupertuis-lagrange-principle
+  - shortened-action
+  notes: ''
+  relations: []
+- id: SC-AR01-039
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 8
+  quote_ru: Тогда вариационный принцип для действия (27) имеет вид
+  statement_en: For trajectories with fixed endpoints (δq1 = 0, δq2 = δq, hδt|1 = 0, δt2 = δt, C⊥δr⊥|1 = 0, δS =
+    −Cδq) the variational principle for the action takes the form (28) δ∫(C⊥dr⊥ − h dt) = 0 with fixed lower (t1,
+    r⊥1) and upper (t2, r⊥2) integration limits; using the connecting relations, from (28) one obtains the transverse
+    spatial and temporal parts of the equations of motion in form (16).
+  quantities: []
+  equations:
+  - \delta\int\left(\mathbf{C}_\perp d\mathbf{r}_\perp - h\,dt\right) = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - variational-principle
+  - shortened-action
+  notes: 'OCR-degraded: equation (28) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-040
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Для решения системы (25) воспользуемся каноническим преобразованием, которое сводит решение (25) к решению
+    уравнения Гамильтона – Якоби
+  statement_en: The system (25) is solved by a canonical transformation reducing it to the Hamilton-Jacobi equation
+    ∂S/∂q + C(C⊥, h, r⊥, t, q) = 0 (29); substituting the impulse representation of the Hamilton function (26) with
+    ∂S/∂t = h, ∂S/∂r⊥ = C⊥ yields the Hamilton-Jacobi equation (∇S − A)² − (∂S/∂t + φ)² + 1 = 0 (30).
+  quantities: []
+  equations:
+  - \partial S/\partial q + \mathsf{C}(\mathbf{C}_\perp, h, \mathbf{r}_\perp, t, q) = 0
+  - \left(\nabla S - \mathbf{A}\right)^2 - \left(\partial S/\partial t + \varphi\right)^2 + 1 = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamilton-jacobi
+  - canonical-transformation
+  notes: 'OCR-degraded: equations (29), (30) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-041
+  type: physics
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: такое же, как и из энергетических представлений. Это говорит о том, что в уравнении (30) все переменные
+    равноправны и они не несут физического смысла, заложенного в системах канонических уравнений (20), (25).
+  statement_en: The Hamilton-Jacobi equation (30) obtained from the impulse representation is the same as the one
+    from the energy representations; this shows that in equation (30) all variables are on an equal footing and
+    carry none of the physical meaning embedded in the systems of canonical equations (20), (25).
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamilton-jacobi
+  - variable-symmetry
+  notes: ''
+  relations: []
+- id: SC-AR01-042
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Известным частным интегралом свободно движущейся частицы-заряда является функция действия
+  statement_en: The known partial integral of a freely moving charge-particle is the action function SE = px − γt
+    (31), corresponding to the energy representation; the complete integral of equation (30) for motion along the
+    x axis with momentum p can be built from this partial integral.
+  quantities: []
+  equations:
+  - S_E = px - \gamma t
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - partial-integral
+  - action-function
+  notes: 'OCR-degraded: equation (31) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-043
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Выражение (32) с точностью до постоянного множителя совпадает с функцией малого возмущения действия
+    свободной частицы [12].
+  statement_en: The impulse representation of the action of the charged material point is Sp = pt − γx (32), obtained
+    from (31) by treating the energy (with opposite sign) as momentum and the momentum as energy; the expression
+    (32) coincides, up to a constant multiplier, with Sivashinsky's small-perturbation function of the free-particle
+    action [12].
+  quantities: []
+  equations:
+  - S_p = pt - \gamma x
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - impulse-representation
+  - sivashinsky
+  notes: 'OCR-degraded: equation (32) glyphs lost; reconstructed best-effort.'
+  relations:
+  - to: SC-AR01-021
+    kind: supports
+- id: SC-AR01-044
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 9
+  quote_ru: Свойство аддитивности действия не изменяет функцию Лагранжа, поскольку она определена с точностью до
+    прибавления к ней полной производной по времени от произвольной функции координат и времени [15].
+  statement_en: The additivity property of the action does not change the Lagrange function, since the latter is
+    defined up to addition of the full time derivative of an arbitrary function of coordinates and time [15]; the
+    arbitrary function whose full time derivative vanishes coincides with (32).
+  quantities: []
+  equations:
+  - \frac{dS_p}{dt} = \frac{\partial S_p}{\partial t} + \frac{\partial S_p}{\partial x}u = p - \gamma u = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - additivity
+  - lagrange-function
+  notes: 'OCR-degraded: connecting formula glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-045
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: где S 0 – аддитивная постоянная. Функция (33) и будет полным интегралом уравнения Гамильтона – Якоби,
+    описывающего свободное движение релятивистской частицы-заряда.
+  statement_en: The function (32) can be chosen as the new momentum P = Sp conjugate to the coordinate Q; the point
+    canonical transformation from p and x has the generating function S = SE + PQ + S0 (33), where S0 is an additive
+    constant; the function (33) is the complete integral of the Hamilton-Jacobi equation describing the free motion
+    of the relativistic charge-particle.
+  quantities: []
+  equations:
+  - S = S_E + PQ + S_0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - complete-integral
+  - generating-function
+  - hamilton-jacobi
+  notes: 'OCR-degraded: equation (33) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-046
+  type: physics
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: 'При релятивистском движении частицы-заряда производящая функция (33) осуществляет непрерывное каноническое
+    преобразование от p и x к интегралам движения: импульсное представление действия – угол.'
+  statement_en: 'In the new canonical variables P = const, Q = const; at relativistic motion of the charge-particle
+    the generating function (33) performs a continuous canonical transformation from p and x to the integrals of
+    motion: the impulse representation of the action — angle.'
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - canonical-transformation
+  - integrals-of-motion
+  notes: ''
+  relations: []
+- id: SC-AR01-047
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 10
+  quote_ru: форма записи функции Лагранжа для заряда в электромагнитном поле
+  statement_en: The action of a charged particle moving in a given electromagnetic field consists of the free-particle
+    action and the particle-field interaction action, S = ∫(−mc ds + A_i dx^i), i = 0,1,2,3 (34), where A^i = (φ,
+    A) is the 4-potential; from (34) follows the known Lagrange function for a charge in an electromagnetic field,
+    L = −(1 − u²)^(1/2) + A·u − φ, where u is the dimensionless velocity.
+  quantities: []
+  equations:
+  - S = \int\left(-mc\,ds + A_i\,dx^i\right)
+  - L = -\sqrt{1-u^2} + \mathbf{A}\mathbf{u} - \varphi
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - lagrange-function
+  - electromagnetic-field
+  notes: 'OCR-degraded: equations (34), (35) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-048
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: 'Последовательно учитывая в (36) релятивистские соотношения (15) замечаем, что (35) и (36) эквивалентны.
+    Функция Лагранжа (36) позволяет записать каноническую форму релятивистского действия заряженной частицы в симметричном
+    виде (совпадает с (14)):'
+  statement_en: The Lagrange function can be written in the symmetric form L = (p + A)·u − (γ + φ) (36); successively
+    using the relativistic relations (15) in (36) shows that (35) and (36) are equivalent, and (36) gives the canonical
+    form of the relativistic action of the charged particle in symmetric form coinciding with (14).
+  quantities: []
+  equations:
+  - L = (\mathbf{p}+\mathbf{A})\mathbf{u} - (\gamma+\varphi)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - lagrange-function
+  - symmetric-form
+  notes: 'OCR-degraded: equation (36) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-049
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: Считая L  Lu , r , t , из (36) получим соотношения
+  statement_en: Treating L = L(u, r, t), from (36) one obtains the relations ∂L/∂u = C = p + A (40), ∂L/∂r = grad(uA)
+    − grad φ (41), and ∂L/∂t = −∂φ/∂t + u·∂A/∂t (42).
+  quantities: []
+  equations:
+  - \partial L/\partial\mathbf{u} = \mathbf{C} = \mathbf{p}+\mathbf{A}
+  - \partial L/\partial\mathbf{r} = \mathrm{grad}(\mathbf{u}\mathbf{A}) - \mathrm{grad}\varphi
+  - \partial L/\partial t = -\partial\varphi/\partial t + \mathbf{u}\partial\mathbf{A}/\partial t
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - lagrange-function
+  - relations
+  notes: 'OCR-degraded: equations (40)-(42) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-050
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 11
+  quote_ru: Тогда система канонических уравнений движения примет симметричный вид
+  statement_en: Varying the action (37) (with δA^i = (∂A^i/∂x^k)δx^k and δp·dr = δγ·dt), the system of canonical
+    equations of motion takes the symmetric form dC_q/dt = −∂φ/∂q + u·∂A/∂q (45) and dH/dt = ∂φ/∂t − u·∂A/∂t (46),
+    which can be obtained as a particular case from (16); in (45)-(46) the coordinate q takes the values x, y, z.
+  quantities: []
+  equations:
+  - \frac{dC_q}{dt} = -\frac{\partial\varphi}{\partial q} + u\frac{\partial A}{\partial q}
+  - \frac{dH}{dt} = \frac{\partial\varphi}{\partial t} - u\frac{\partial A}{\partial t}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - canonical-equations
+  - symmetric-form
+  notes: 'OCR-degraded: equations (45), (46) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-051
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: первое уравнение в (47) даёт обычное уравнение движения, а второе – известное выражение для работы в
+    электромагнитном поле.
+  statement_en: Comparing (45) with (41) and (46) with (42) gives the relations dC/dt = ∂L/∂r and dH/dt = −∂L/∂t
+    (47); taking into account the total derivatives dA/dt = ∂A/∂t + (u∇)A and dφ/dt = ∂φ/∂t + u·(∂φ/∂r), the first
+    equation in (47) gives the usual equation of motion, and the second gives the known expression for the work
+    in the electromagnetic field.
+  quantities: []
+  equations:
+  - \frac{d\mathbf{C}}{dt} = \frac{\partial L}{\partial \mathbf{r}}
+  - \frac{dH}{dt} = -\frac{\partial L}{\partial t}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - equations-of-motion
+  - work
+  notes: 'OCR-degraded: equations (47), (48) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-052
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Известно [18], что релятивистское движение частицы-заряда в статическом электромагнитном поле описывается
+    укороченным действием
+  statement_en: 'As known from [18], the relativistic motion of a charge-particle in a static electromagnetic field
+    is described by the shortened action St = ∫(p + A)dr (49), for which the Maupertuis-Lagrange variational principle
+    δSt = δ∫(p + A)dr = 0 (50) is formulated: the shortened action St has a minimum on all trajectories of the charged
+    particle satisfying the energy conservation law and passing through a fixed end point at an arbitrary moment
+    of time.'
+  quantities: []
+  equations:
+  - S_t = \int(\mathbf{p}+\mathbf{A})\,d\mathbf{r}
+  - \delta S_t = \delta\int(\mathbf{p}+\mathbf{A})\,d\mathbf{r} = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shortened-action
+  - maupertuis-lagrange-principle
+  notes: 'OCR-degraded: equations (49), (50) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-053
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Покажем, что изоимпульсное движение (движение, при котором сохраняется полный импульс частицы) допускает
+    ещё одну форму укороченного действия – действия, укороченного по координатам, вследствие чего (49) можно назвать
+    действием, укороченным по времени.
+  statement_en: Isoimpulse motion (motion in which the full momentum of the particle is conserved) admits one more
+    form of shortened action — the action shortened by the coordinates, Sr = ∫(γ + φ)dt (51); therefore (49) can
+    be called the action shortened by time.
+  quantities: []
+  equations:
+  - S_r = \int(\gamma+\varphi)\,dt
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - shortened-action
+  - isoimpulse-motion
+  notes: 'OCR-degraded: equation (51) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-054
+  type: physics
+  facet: theory
+  priority: normal
+  page: 12
+  quote_ru: Из (52) следует, что укороченное по координатам действие стационарно на всех траекториях заряженных
+    частиц, удовлетворяющих закону сохранения полного импульса и проходящих в конечный фиксированный момент времени
+    через произвольную точку в пространстве.
+  statement_en: From (52) it follows that the coordinate-shortened action is stationary on all trajectories of charged
+    particles satisfying the full-momentum conservation law and passing, at the final fixed moment of time, through
+    an arbitrary point in space.
+  quantities: []
+  equations:
+  - \delta S_r = \delta\int_{t_0}^{t}(\gamma+\varphi)\,dt = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - variational-principle
+  - shortened-action
+  notes: 'OCR-degraded: equation (52) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-055
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: 'приводит к следствию: свободное движение заряда'
+  statement_en: Principle (52), rewritten in the form (55), leads to the consequence that the free motion of a charge
+    (Ac = 0, A⊥c = 0, φ = 0) occurs in such a way that in a fixed time it traverses the shortest distance, i.e.
+    it moves along a straight line; the differential dq of the generalized coordinate conjugate to the full momentum
+    must be connected with the time differential by dq = (C − Ac)dt/[(C − Ac)² + A⊥c² + 1] (54).
+  quantities: []
+  equations:
+  - dq = \frac{(\mathsf{C}-A_c)\,dt}{\left[(\mathsf{C}-A_c)^2 + A_{\perp c}^2 + 1\right]}
+  - \delta S_r = \delta\int\left(\left[(\mathsf{C}-A_c)^2 + A_{\perp c}^2 + 1\right]^{1/2} + \varphi\right)dt =
+    0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - free-motion
+  - straight-line
+  notes: 'OCR-degraded: equations (54), (55) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-056
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: Свет в среде с однородным, но переменным во времени, показателем преломления n  n(t ) распространяется
+    по кратчайшему пути – по прямой.
+  statement_en: 'An additional optical principle suggested by the revealed symmetry of the action: light in a medium
+    with a homogeneous but time-variable refractive index n = n(t) propagates along the shortest path — a straight
+    line (δ∫ds = δ∫u dt = δ∫dt/n = 0 (56)).'
+  quantities: []
+  equations:
+  - \delta\int ds = \delta\int u\,dt = \delta\int \frac{dt}{n} = 0
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - optical-principle
+  - refractive-index
+  notes: 'OCR-degraded: equation (56) and n(t) glyphs partially lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-057
+  type: physics
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: Из вариации (56) следует, что необходимым и достаточным условием реализации такого оптического принципа
+    является условие отсутствия зависимости показателя преломления от координат
+  statement_en: From the variation (56) it follows that the necessary and sufficient condition for realizing this
+    optical principle is the absence of coordinate dependence of the refractive index (dn = (∂n/∂t)dt).
+  quantities: []
+  equations:
+  - dn = \frac{\partial n}{\partial t}\,dt
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - optical-principle
+  - refractive-index
+  notes: 'OCR-degraded: condition formula glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-058
+  type: physics
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: Сформулированный оптический принцип и принцип наименьшего времени Ферма совпадают в среде, показатель
+    которой не зависит от времени и координат.
+  statement_en: The formulated optical principle and Fermat's least-time principle coincide in a medium whose refractive
+    index does not depend on time or coordinates.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - fermat-principle
+  - optical-principle
+  notes: ''
+  relations: []
+- id: SC-AR01-059
+  type: physics
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: Заряженная частица совершает прямолинейное  движение  в переменном однородном электрическом поле
+  statement_en: A charged particle performs rectilinear motion in a variable homogeneous electric field (Ac = Ac(t),
+    A⊥c = A⊥c(t), φ = φ(t)), just as a light ray does in a medium with a homogeneous but time-variable refractive
+    index.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - optical-mechanical-analogy
+  - rectilinear-motion
+  notes: ''
+  relations: []
+- id: SC-AR01-060
+  type: physics
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: Отмеченная выше симметрия канонических способов описания движения заряженной материальной точки приводит
+    к существованию двух решений релятивистского уравнения Гамильтона-Якоби в виде полного интеграла свободной частицы-заряда.
+  statement_en: The symmetry of the canonical description methods leads to the existence of two solutions of the
+    relativistic Hamilton-Jacobi equation in the form of the complete integral of a free charge-particle; these
+    solutions possess the degeneracy property characteristic of the phase of plane wave processes.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - hamilton-jacobi
+  - phase-degeneracy
+  notes: Quote anchors the section passage; the assertion is stated in the surrounding sentences of the same page.
+  relations: []
+- id: SC-AR01-061
+  type: physics
+  facet: theory
+  priority: normal
+  page: 14
+  quote_ru: То есть первая каноническая форма действия свободного заряда в инерциальной системе отсчёта, где последний
+    покоится, обладает свойством вырождения, характерным для волнового процесса, фазовая скорость которого больше
+    скорости света в вакууме и равна
+  statement_en: 'The first canonical form of the action of a free charge, SE = px − γt (58), transformed to the
+    frame moving with the particle velocity u = p/γ gives SE′ = −t′ (59): in the frame where the charge is at rest
+    it possesses the degeneracy property characteristic of a wave process whose phase velocity is greater than the
+    speed of light in vacuum and equals 1/u = γ/p; in this frame k′ = 0 and the action depends only on time.'
+  quantities:
+  - phase velocity = 1/u = γ/p > c
+  equations:
+  - S_E = px - \gamma t
+  - S_E' = -t'
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - temporal-wave
+  - phase-degeneracy
+  - superluminal-phase-velocity
+  notes: 'OCR-degraded: equations (58), (59) glyphs lost; reconstructed best-effort.'
+  relations:
+  - to: SC-AR01-003
+    kind: supports
+- id: SC-AR01-062
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Равенство S E  S E выражает собой известный факт, что релятивистское действие свободной заряженной
+    материальной точки совпадает, с точностью до констант, с четырёхмерным интервалом. Отсюда следует, что применение
+    релятивистских соотношений автоматически приводит к первому выражению преобразований Лоренца, которые естественным
+    образом связаны с действием свободного заряда.
+  statement_en: Representing (58) with the relativistic relations gives SE = −γ(t − px/γ) = −(t − ux)/√(1−u²) =
+    −t′ (60), in which one of the inverse Lorentz transformation relations forms; the equality SE = SE′ expresses
+    the known fact that the relativistic action of a free charged material point coincides, up to constants, with
+    the four-dimensional interval; application of the relativistic relations automatically leads to the first expression
+    of the Lorentz transformations, which are naturally connected with the action of a free charge.
+  quantities: []
+  equations:
+  - S_E = -\gamma(t - ux) = -\frac{t-ux}{\sqrt{1-u^2}} = -t'
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - action-interval
+  - lorentz-transformation
+  notes: 'OCR-degraded: equation (60) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-063
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Заметим, что свойством вырождения фазы не обладает нерелятивистская форма действия свободной частицы,
+    записанная в обычных единицах
+  statement_en: 'The nonrelativistic form of the free-particle action, written in ordinary units as S = pr − Et
+    with E = p²/(2m), does not possess the phase-degeneracy property: in the frame moving with the particle velocity
+    it vanishes (p = 0).'
+  quantities: []
+  equations:
+  - S = \mathbf{p}\mathbf{r} - Et,\quad E = p^2/(2m)
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - nonrelativistic-action
+  - phase-degeneracy
+  notes: 'OCR-degraded: formula glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-064
+  type: physics
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Поскольку в системе отсчёта, где частица-заряд покоится, действие зависит только от времени, первый
+    волновой процесс, возникающий при движении заряженной материальной точки, назовём временной волной действия.
+    Покажем, что она совпадает с де Бройлевской волной материи.
+  statement_en: Since in the rest frame of the charge-particle the action depends only on time, the first wave process
+    arising in the motion of a charged material point is named the temporal action wave; it is shown to coincide
+    with the de Broglie matter wave.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - temporal-wave
+  - de-broglie-wave
+  notes: ''
+  relations: []
+- id: SC-AR01-065
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 15
+  quote_ru: Сравнивая (61) с фазой плоской волны (1) приходим к известным зависимостям временного и пространственного
+    периодов первой волны действия от скорости движения частицы-заряда
+  statement_en: 'Dividing (59) by the time T0 = h/(mc²) and comparing with the plane-wave phase (1) gives the known
+    dependencies of the temporal and spatial periods of the first action wave on the particle velocity: Tb = T0/γ
+    = T0√(1−u²), λb = T0√(1−u²)/u (62); in the frame moving with the charge, p = 0, γ = 1, k′ = 2π/λb = 0, ω′ =
+    2π/T0 = ω0. The normal dispersion of the de Broglie action wave is ω = √(k² + ω0²) (63).'
+  quantities:
+  - T0 = h/(mc^2)
+  - Tb = T0 sqrt(1-u^2)
+  - lambda_b = T0 sqrt(1-u^2)/u
+  equations:
+  - T_b = T_0/\gamma = T_0\sqrt{1-u^2}
+  - \lambda_b = T_0\sqrt{1-u^2}/u
+  - \omega = \sqrt{k^2 + \omega_0^2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - temporal-wave
+  - dispersion
+  - periods
+  notes: 'OCR-degraded: equations (61)-(63) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-066
+  type: physical
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: Если предположить, что временной период первой волны действия характеризует период поперечного шредингеровского
+    дрожания частицы - струны, то частица-заряд уменьшает свой период дрожания с ростом скорости его движения по
+    отношению к лабораторной системе отсчёта. Парадоксально, но с периодом дрожания заряда происходит «сокращение
+    Лоренца»
+  statement_en: If the temporal period of the first action wave is assumed to characterize the period of the transverse
+    Schrödinger trembling (zitterbewegung) of the particle-string, then the charge-particle decreases its trembling
+    period as its velocity relative to the laboratory frame grows; paradoxically, the trembling period of the charge
+    undergoes a 'Lorentz contraction', Tb = T0√(1−u²).
+  quantities:
+  - Tb = T0 sqrt(1-u^2)
+  equations:
+  - T_b = T_0\sqrt{1-u^2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - zitterbewegung
+  - trembling-period
+  - lorentz-contraction
+  - debt-candidate
+  notes: Interpretive model claim (string picture); the source's own equation numbering repeats '(71)' for both
+    this and (69)-related formula — typo in source.
+  relations: []
+- id: SC-AR01-067
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: То есть вторая каноническая форма действия свободной заряженной материальной точки в системе отсчёта,
+    где заряд покоится, обладает свойством вырождения, характерным для плоского волнового процесса, фазовая скорость
+    которого меньше скорости света в вакууме
+  statement_en: 'The second canonical form of the action of a free charged material point, Sp = pt − γx (65), transformed
+    to the frame moving with the charge-particle gives S′p = −x′ (66): in the frame where the charge is at rest
+    it possesses the degeneracy property characteristic of a plane wave process whose phase velocity is less than
+    the speed of light in vacuum, Ω/K = p/γ = u (67); in this frame ω′ = 0 and the action depends only on the coordinate.'
+  quantities:
+  - phase velocity = p/gamma = u < c
+  equations:
+  - S_p = pt - \gamma x
+  - S_p' = -x'
+  - \Omega/K = p/\gamma = u
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - coordinate-wave
+  - phase-degeneracy
+  notes: 'OCR-degraded: equations (65)-(67) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-068
+  type: physics
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: Так как в системе отсчёта, в которой частица-заряд покоится, действие зависит только от продольной координаты,
+    то второй волновой процесс, связанный с движущейся частицей-зарядом, по аналогии с (58) назовём координатной
+    волной действия.
+  statement_en: Since in the rest frame of the charge-particle the action depends only on the longitudinal coordinate,
+    the second wave process associated with the moving charge-particle is named, by analogy with (58), the coordinate
+    action wave.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - coordinate-wave
+  notes: ''
+  relations: []
+- id: SC-AR01-069
+  type: mathematical
+  facet: theory
+  priority: normal
+  page: 16
+  quote_ru: и, сравнивая с фазой (1), получим искомые зависимости временного и пространственного периода второй
+    волны действия от скорости в виде
+  statement_en: 'Dividing (68) by the time T0 = h/(mc²) and comparing with the phase (1) gives the dependencies
+    of the temporal and spatial periods of the second action wave on velocity: Tk = T0/p = T0√(1−u²)/u, λk = T0√(1−u²)
+    (69); in the frame moving with the charge-particle Ω′ = 0, K′ = 2π/λ0 = 2π/T0 = ω0. The coordinate action wave
+    possesses dispersion Ω = √(K² − ω0²) (70).'
+  quantities:
+  - Tk = T0/p = T0 sqrt(1-u^2)/u
+  - lambda_k = T0 sqrt(1-u^2)
+  equations:
+  - T_k = T_0/p = T_0\sqrt{1-u^2}/u
+  - \lambda_k = T_0\sqrt{1-u^2}
+  - \Omega = \sqrt{K^2 - \omega_0^2}
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - coordinate-wave
+  - dispersion
+  - periods
+  notes: 'OCR-degraded: equations (68)-(70) glyphs lost; reconstructed best-effort.'
+  relations: []
+- id: SC-AR01-070
+  type: physical
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: Если предположить, что пространственный период координатной волны действия  характеризует продольный
+    размер заряженной частицы- струны, то заряд изменяет свой размер «продольной части» области локализации в зависимости
+    от скорости её движения по отношению к лабораторной системе отсчёта. Нетрудно видеть, что с продольным размером
+    заряда происходит сокращение Лоренца
+  statement_en: If the spatial period of the coordinate action wave is assumed to characterize the longitudinal
+    size of the charged particle-string, then the charge changes the size of the 'longitudinal part' of its localization
+    region depending on its velocity relative to the laboratory frame; the longitudinal size of the charge undergoes
+    the Lorentz contraction, λ = λ0√(1−u²) (71).
+  quantities:
+  - lambda = lambda_0 sqrt(1-u^2)
+  equations:
+  - \lambda = \lambda_0\sqrt{1-u^2}
+  materials: []
+  geometry:
+  - 'longitudinal localization size: lambda_0 sqrt(1-u^2)'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - coordinate-wave
+  - lorentz-contraction
+  - particle-string
+  - debt-candidate
+  notes: 'Source numbering typo: this formula is also labeled (71) in the source.'
+  relations: []
+- id: SC-AR01-071
+  type: physics
+  facet: theory
+  priority: normal
+  page: 17
+  quote_ru: Этот факт следует учитывать при построении квазиклассических релятивистских уравнений движения электрона
+    в центральном поле и записи адекватных условий квантования такого движения. Нетрудно видеть, что покоящийся
+    электрон имеет продольный размер, совпадающий с комптоновской длиной волны.
+  statement_en: This fact (Lorentz contraction of the longitudinal size) must be taken into account when constructing
+    quasi-classical relativistic equations of electron motion in a central field and writing adequate quantization
+    conditions for such motion; a resting electron has a longitudinal size coinciding with the Compton wavelength.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - resting electron longitudinal size = Compton wavelength
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - electron-size
+  - compton-wavelength
+  - quasi-classical
+  notes: ''
+  relations: []
+- id: SC-AR01-072
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: 11.Биволновая природа принципа наименьшего действия будет выполняться только при движениях частицы-заряда
+    на расстояниях больших её «продольного размера» порядка комптоновской длины волны.
+  statement_en: The bi-wave nature of the least-action principle holds only for motions of the charge-particle over
+    distances greater than its 'longitudinal size' of the order of the Compton wavelength.
+  quantities: []
+  equations: []
+  materials: []
+  geometry:
+  - 'applicability: distances > Compton wavelength'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-wave
+  - applicability-bound
+  - compton-wavelength
+  notes: Conclusion 11.
+  relations: []
+- id: SC-AR01-073
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: 12.Принцип не будет выполняться при ядерных и субядерных размерах пространственного движения частицы-заряда.
+    По- видимому, в этом случае будет доминировать модель «волнового пакета из дебройлевских волн», предложенная
+    в [20,21].
+  statement_en: The principle will not hold at nuclear and subnuclear sizes of the spatial motion of the charge-particle;
+    apparently, in that case the 'wave packet of de Broglie waves' model proposed in [20,21] will dominate.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-wave
+  - applicability-bound
+  - nuclear-size
+  - debt-candidate
+  notes: Conclusion 12.
+  relations: []
+- id: SC-AR01-074
+  type: experimental
+  facet: phenomenology
+  priority: normal
+  page: 18
+  quote_ru: 13.Модель частицы-заряда в виде малого локализованного возмущения функции действия находит многолетнее
+    экспериментальное подтверждение в известном явлении распада свободного нейтрона. В момент освобождения нейтрона
+    из ядра электрон прижимается к протону силой около 300 Н. И кажется, что электрон никогда не сможет выбраться
+    из потенциальной ямы глубиной 1,44 Мэв. Освобождает электрон непрерывное дрожание его струны, которое приводит
+    к осцилляции его заряда [20,21]. Дрожание увеличивает полную энергию электрона до тех пор, пока электрическое
+    взаимодействие электрона с протоном не прекращается, и электрон становится свободным.
+  statement_en: 'The model of the charge-particle as a small localized perturbation of the action function finds
+    long-term experimental confirmation in the known phenomenon of free neutron decay: at the moment of liberation
+    of the neutron from the nucleus, the electron is pressed to the proton by a force of about 300 N, and it seems
+    the electron could never escape the potential well 1.44 MeV deep; what liberates the electron is the continuous
+    trembling of its string, which leads to oscillation of its charge — the trembling increases the total energy
+    of the electron until the electric interaction of the electron with the proton ceases and the electron becomes
+    free.'
+  quantities:
+  - 'force pressing electron to proton: ~300 N'
+  - 'potential well depth: 1.44 MeV (as printed: ''Мэв'')'
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements:
+  - quantity: electron-proton attraction force at neutron liberation
+    value: '300'
+    unit: N
+    conditions: free neutron decay, model interpretation
+  - quantity: potential well depth
+    value: '1.44'
+    unit: MeV
+    conditions: electron in neutron
+  schematic_refs: []
+  tags:
+  - neutron-decay
+  - trembling-string
+  - zitterbewegung
+  - debt-candidate
+  notes: Claimed experimental confirmation of the string-trembling model via neutron beta decay — strongly nonstandard
+    interpretation, flagged for debt clustering.
+  relations: []
+- id: SC-AR01-075
+  type: physics
+  facet: theory
+  priority: normal
+  page: 18
+  quote_ru: 14. Картина дифракции релятивистской биволновой частицы-заряда, падающей на щель шириной десятки пикометров,
+    пока не известна. И не понятно, как создать для проведения дифракционных опытов естественную преграду таких
+    размеров?
+  statement_en: The diffraction picture of a relativistic bi-wave charge-particle falling on a slit tens of picometers
+    wide is not yet known, and it is unclear how to create a natural barrier of such sizes for diffraction experiments.
+  quantities:
+  - 'slit width: tens of picometers'
+  equations: []
+  materials: []
+  geometry:
+  - 'slit width: tens of pm'
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - diffraction
+  - open-problem
+  notes: Conclusion 14 — named open problem.
+  relations: []
+- id: SC-AR01-076
+  type: physics
+  facet: theory
+  priority: normal
+  page: 4
+  quote_ru: Ниже показано, что отмеченной симметрии соответствуют две плоские волны действия, связанные с движущимся
+    зарядом.
+  statement_en: The symmetry noted above corresponds to two plane action waves associated with the moving charge.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - bi-wave
+  - symmetry
+  notes: ''
+  relations: []
+- id: SC-AR01-077
+  type: physics
+  facet: theory
+  priority: normal
+  page: 1
+  quote_ru: 'Две формы действия углубляют понятия: равноправие времени и координаты, равноправие изоэнергетического
+    и изоимпульсного движений заряда.'
+  statement_en: The two forms of action deepen the concepts of the equality of time and coordinate and the equality
+    of isoenergetic and isoimpulse motions of the charge.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - isoenergetic-motion
+  - isoimpulse-motion
+  - symmetry
+  notes: ''
+  relations: []
+- id: SC-AR01-078
+  type: physics
+  facet: theory
+  priority: normal
+  page: 13
+  quote_ru: С вариационным принципом (55) можно провести очень простую оптическую аналогию. Для этого сформулируем
+    ещё один оптический принцип, который подсказывает выявленная симметрия действия.
+  statement_en: With the variational principle (55) one can carry out a very simple optical analogy, formulating
+    one more optical principle suggested by the revealed symmetry of the action.
+  quantities: []
+  equations: []
+  materials: []
+  geometry: []
+  procedure_steps: []
+  measurements: []
+  schematic_refs: []
+  tags:
+  - optical-mechanical-analogy
+  notes: ''
+  relations: []

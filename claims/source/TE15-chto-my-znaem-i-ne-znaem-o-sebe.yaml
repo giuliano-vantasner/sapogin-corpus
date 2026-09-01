@@ -1,0 +1,17 @@
+schema: sapogin-corpus/source-claims/1
+document:
+  doc_id: TE15
+  section: teaching
+  title_ru: Что мы знаем и не знаем о себе
+  title_en: What we know and do not know about ourselves
+  file: papers/teaching/chto-my-znaem-i-ne-znaem-o-sebe.pdf
+  source_url: http://146.190.233.254/docs/teaching/Что мы знаем и не знаем о себе.pdf
+  md5: 311b7dced7ed25402f84535e6fdf33b4
+  pages_total: 31
+  retrieved: '2026-08-31'
+claims: []
+coverage:
+  extractor: C2-Volumes
+  extracted: '2026-08-31'
+  reviewed_by: null
+  zero_claim_document: true
