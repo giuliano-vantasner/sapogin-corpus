@@ -17,6 +17,7 @@ import math
 import random
 import re
 import sys
+import urllib.parse
 from collections import Counter
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -39,7 +40,7 @@ def tok(text):
 
 
 def load():
-    global claims, clusters, synthesis, bucket_of, DF, N, docs
+    global claims, clusters, synthesis, bucket_of, DF, N, docs, N_doc_sources
     rows = [json.loads(l) for l in (ROOT / "claims" / "claims.jsonl").read_text().splitlines() if l.strip()]
     clusters = json.loads((ROOT / "clusters" / "clusters.json").read_text())
     claim_cluster = {cid: c["cluster"] for c in clusters for cid in c["claim_ids"]}
@@ -72,6 +73,7 @@ def load():
         synthesis = {m.stem: m.read_text() for m in sorted(sdir.glob("*.md"))}
     DF = Counter()
     N = len(claims)
+    N_doc_sources = len(docs)
     for c in claims:
         DF.update(set(tok(" ".join([c["statement"], c["quote"], " ".join(c["tags"]), c["id"]]))))
 
@@ -186,8 +188,8 @@ class Handler(BaseHTTPRequestHandler):
     def route(self):
         path, _, qs = self.path.partition("?")
         path = self._utf8(path)
-        q = {k: self._utf8(v) for k, v in
-             (kv.split("=", 1) for kv in qs.split("&") if "=" in kv)}
+        q = {k: self._utf8(urllib.parse.unquote_plus(v))
+             for k, v in (kv.split("=", 1) for kv in qs.split("&") if "=" in kv)}
         path = path.rstrip("/") or "/"
 
         if path == "/mcp":
@@ -198,6 +200,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "text/markdown; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
+            self.send_header("Cache-Control", "no-store")
             self.end_headers()
             self.wfile.write(body)
             return
@@ -207,6 +210,22 @@ class Handler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "text/plain")
             self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+
+        if path == "/sitemap.xml":
+            base = self._base()
+            urls = ["/", "/llms.txt", "/openapi.json", "/api/stats"]
+            urls += [f"/#cluster={c['cluster']}" for c in clusters]
+            body = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+                    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                    + "".join(f"<url><loc>{base}{u}</loc></url>\n" for u in urls)
+                    + "</urlset>\n").encode()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/xml; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.send_header("Cache-Control", "no-store")
             self.end_headers()
             self.wfile.write(body)
             return
@@ -286,16 +305,7 @@ class Handler(BaseHTTPRequestHandler):
             return self._json(random.sample(pool, min(n, len(pool))))
 
         if path == "/api/stats":
-            return self._json({
-                "claims": len(claims), "documents": len(docs),
-                "clusters": len(clusters), "buckets": len(set(bucket_of.values())),
-                "syntheses": sorted(synthesis),
-                "core": sum(1 for c in claims if c["priority"] == "core"),
-                "mcp": self._base() + "/mcp",
-                "endpoints": [self._base() + e for e in
-                              ["/api/search?q=", "/api/claim/<id>", "/api/clusters",
-                               "/api/cluster/<id>", "/api/buckets", "/api/synthesis/<bucket>",
-                               "/api/random?n=", "/api/stats"]]})
+            return self._json(stats_payload(self._base()))
 
         self._json({"error": "unknown endpoint", "try": "/api/stats"}, 404)
 
@@ -347,12 +357,21 @@ MCP_TOOLS = [
     {"name": "search_claims",
      "description": "Full-text search over 1,641 provenance-pinned Sapogin 'Canonical Physics' claims (English statements, Russian quotes, tags, SC-* ids). Filters: bucket, priority (core|normal), facet (theory|phenomenology|experiment|measurement|recipe|material|process|procedure|schematic|geometry), doc, section, cluster.",
      "inputSchema": {"type": "object", "properties": {
-         "q": {"type": "string"}, "bucket": {"type": "string"},
-         "priority": {"type": "string"}, "facet": {"type": "string"},
-         "doc": {"type": "string"}, "section": {"type": "string"},
+         "q": {"type": "string", "examples": ["varicap capacitance",
+              "протонные кластеры", "charge cluster"]},
+         "bucket": {"type": "string", "examples": ["transmutation-nuclear",
+              "electrical-devices"]},
+         "priority": {"type": "string", "enum": ["core", "normal"]},
+         "facet": {"type": "string", "examples": ["recipe", "measurement",
+              "experiment", "geometry"]},
+         "doc": {"type": "string", "examples": ["AR04", "TC08"]},
+         "section": {"type": "string"},
          "cluster": {"type": "string"},
-         "limit": {"type": "integer", "default": 15}},
-         "required": ["q"]}},
+         "limit": {"type": "integer", "default": 15, "maximum": 100}},
+         "required": ["q"]},
+     "examples": [{"q": "charge cluster catalysis", "priority": "core", "limit": 5},
+                  {"q": "протонные кластеры", "limit": 5},
+                  {"q": "displacement current", "bucket": "electrical-devices"}]},
     {"name": "get_claim",
      "description": "Full record of one claim by SC-* id: statement, verbatim quote_ru, quantities, materials, geometry, procedure_steps, measurements, schematic_refs, source pdf path+page.",
      "inputSchema": {"type": "object", "properties": {"id": {"type": "string"}}, "required": ["id"]}},
@@ -413,14 +432,22 @@ def _tool_synthesis(a):
         "error": f"no synthesis for {b}", "available": sorted(synthesis)}
 
 
-def _tool_stats(a):
-    return {"claims": N, "documents": len(docs), "clusters": len(clusters),
+def stats_payload(base: str) -> dict:
+    n_site = sum(1 for d in docs.values() if d.get("section") == "site")
+    return {"claims": N, "sources": N_doc_sources, "papers": N_doc_sources - n_site,
+            "site_pages": n_site, "clusters": len(clusters),
             "buckets": sorted(set(bucket_of.values())),
             "core": sum(1 for c in claims if c["priority"] == "core"),
             "syntheses": sorted(synthesis),
-            "api": ["/api/search?q=", "/api/claim/<id>", "/api/clusters",
-                    "/api/cluster/<id>", "/api/buckets", "/api/synthesis/<bucket>",
-                    "/api/random?n=", "/api/stats"]}
+            "mcp": base + "/mcp",
+            "api": [base + e for e in
+                    ["/api/search?q=", "/api/claim/<id>", "/api/clusters",
+                     "/api/cluster/<id>", "/api/buckets", "/api/synthesis/<bucket>",
+                     "/api/random?n=", "/api/stats"]]}
+
+
+def _tool_stats(a):
+    return stats_payload("")
 
 
 MCP_DISPATCH = {
@@ -491,7 +518,28 @@ foundations-canonical, general. Priority "core" = transmutation / catalysis /
 EVO / electrical path.
 
 Practical layer first: recipes, materials, geometry, procedures, measurements.
-Source PDFs under /papers/<section>/<file>.pdf (paths returned by the API).
+Sources: /papers/<section>/<file>.pdf and /site/<page>.md (paths returned by
+the API; fetchable directly).
+
+## Worked examples
+
+JSON API:
+  curl '{BASE}/api/search?q=charge%20cluster%20catalysis&priority=core&limit=5'
+  curl '{BASE}/api/claim/SC-AR04-005'
+  curl '{BASE}/api/synthesis/catalysis'
+  curl '{BASE}/api/stats'
+
+MCP (raw JSON-RPC over POST {BASE}/mcp):
+  {"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18"}}
+  {"jsonrpc":"2.0","id":2,"method":"tools/list"}
+  {"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"search_claims",
+   "arguments":{"q":"varicap capacitance","priority":"core","limit":5}}}
+  {"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"get_claim",
+   "arguments":{"id":"SC-TC08-098"}}}
+
+Typical agent flow: /api/stats -> /api/search (facet=recipe or priority=core)
+-> /api/claim/<id> for verbatim quote + page -> /api/synthesis/<bucket> for
+the practical digest -> fetch the source PDF/text for full context.
 """
 
 ROBOTS = """User-agent: *
@@ -501,39 +549,137 @@ Allow: /
 # JSON API: /api/search?q= ... see /llms.txt and /openapi.json
 """
 
+CLAIM_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "id": {"type": "string", "description": "SC-* claim id", "example": "SC-AR04-005"},
+        "cluster": {"type": "string", "example": "transmutation-nuclear-02"},
+        "bucket": {"type": "string", "example": "transmutation-nuclear"},
+        "doc": {"type": "string", "description": "document id", "example": "AR04"},
+        "title": {"type": "string", "description": "English document title"},
+        "section": {"type": "string", "example": "articles"},
+        "type": {"type": "string", "description": "claim type",
+                 "enum": ["experimental", "physical", "physics", "mathematical", "phenomenological"]},
+        "facet": {"type": "string",
+                  "description": "practical-layer facet",
+                  "enum": ["theory", "phenomenology", "experiment", "measurement",
+                           "recipe", "material", "process", "procedure", "schematic", "geometry"]},
+        "priority": {"type": "string", "enum": ["core", "normal"]},
+        "page": {"type": "integer"},
+        "pdf": {"type": "string", "description": "source path under /papers or /site (fetchable)"},
+        "statement": {"type": "string", "description": "faithful English rendering"},
+        "quote": {"type": "string", "description": "verbatim source-language quote"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "quantities": {"type": "array", "items": {"type": "string"}},
+        "materials": {"type": "array", "items": {"type": "string"}},
+        "geometry": {"type": "array", "items": {"type": "string"}},
+        "steps": {"type": "array", "items": {"type": "string"},
+                  "description": "extracted procedure steps"},
+        "measurements": {"type": "array", "items": {"type": "string"}},
+        "schematic_refs": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["id", "statement"],
+}
+
+CLAIM_BRIEF = {
+    "type": "object",
+    "properties": {
+        "id": {"type": "string", "example": "SC-AR04-005"},
+        "cluster": {"type": "string"}, "bucket": {"type": "string"},
+        "doc": {"type": "string"}, "page": {"type": "integer"},
+        "priority": {"type": "string"}, "statement": {"type": "string"},
+        "pdf": {"type": "string"},
+    },
+}
+
+SEARCH_RESPONSE = {
+    "type": "object",
+    "properties": {
+        "query": {"type": "string"},
+        "total": {"type": "integer", "description": "all matches (results are capped by limit)",
+                  "example": 67},
+        "results": {"type": "array", "items": CLAIM_BRIEF},
+    },
+}
+
+STATS_RESPONSE = {
+    "type": "object",
+    "properties": {
+        "claims": {"type": "integer", "example": 1641},
+        "sources": {"type": "integer", "description": "papers + site pages", "example": 65},
+        "papers": {"type": "integer", "example": 54},
+        "site_pages": {"type": "integer", "example": 11},
+        "clusters": {"type": "integer", "example": 145},
+        "buckets": {"type": "array", "items": {"type": "string"}},
+        "core": {"type": "integer", "description": "core-priority claim count", "example": 980},
+        "syntheses": {"type": "array", "items": {"type": "string"}},
+        "mcp": {"type": "string", "description": "absolute MCP endpoint"},
+        "api": {"type": "array", "items": {"type": "string"},
+                "description": "absolute endpoint templates"},
+    },
+}
+
 OPENAPI = {
     "openapi": "3.0.3",
     "info": {"title": "sapogin-corpus API", "version": "1.0.0",
              "description": "Search and explore 1,641 provenance-pinned claims from Sapogin's 'Canonical Physics' (LENR/EVO corpus). Also available as an MCP streamable-HTTP server at /mcp."},
     "servers": [{"url": "/"}],
+    "components": {"schemas": {
+        "Claim": CLAIM_SCHEMA, "ClaimBrief": CLAIM_BRIEF,
+        "SearchResponse": SEARCH_RESPONSE, "StatsResponse": STATS_RESPONSE,
+        "Cluster": {"type": "object", "properties": {
+            "cluster": {"type": "string", "example": "evo-charge-clusters-06"},
+            "bucket": {"type": "string"}, "size": {"type": "integer"},
+            "core": {"type": "integer"},
+            "keywords": {"type": "array", "items": {"type": "string"}}}},
+        "Synthesis": {"type": "object", "properties": {
+            "bucket": {"type": "string", "example": "catalysis"},
+            "markdown": {"type": "string", "description": "practical-first synthesis, GFM"}},
+        },
+    }},
     "paths": {
-        "/api/search": {"get": {"summary": "Full-text claim search",
+        "/api/search": {"get": {"summary": "Full-text claim search (idf-ranked)",
             "parameters": [
-                {"name": "q", "in": "query", "schema": {"type": "string"}},
-                {"name": "bucket", "in": "query", "schema": {"type": "string"}},
+                {"name": "q", "in": "query", "required": True,
+                 "schema": {"type": "string"},
+                 "examples": {"en": {"value": "charge cluster catalysis"},
+                              "ru": {"value": "протонные кластеры"}}},
+                {"name": "bucket", "in": "query", "schema": {"type": "string"},
+                 "examples": {"v": {"value": "electrical-devices"}}},
                 {"name": "priority", "in": "query", "schema": {"type": "string", "enum": ["core", "normal"]}},
-                {"name": "facet", "in": "query", "schema": {"type": "string"}},
+                {"name": "facet", "in": "query", "schema": {"type": "string",
+                 "enum": ["theory", "phenomenology", "experiment", "measurement",
+                          "recipe", "material", "process", "procedure", "schematic", "geometry"]}},
                 {"name": "doc", "in": "query", "schema": {"type": "string", "description": "doc_id e.g. AR04"}},
                 {"name": "section", "in": "query", "schema": {"type": "string"}},
                 {"name": "cluster", "in": "query", "schema": {"type": "string"}},
-                {"name": "limit", "in": "query", "schema": {"type": "integer", "maximum": 100}}],
-            "responses": {"200": {"description": "ranked claim results"}}}},
+                {"name": "limit", "in": "query", "schema": {"type": "integer", "default": 15, "maximum": 100}}],
+            "responses": {"200": {"description": "Ranked claims; `total` is the full match count, `results` capped at `limit`.",
+                                  "content": {"application/json": {"schema": {"$ref": "#/components/schemas/SearchResponse"}}}}}}},
         "/api/claim/{id}": {"get": {"summary": "Full claim record",
-            "parameters": [{"name": "id", "in": "path", "required": True, "schema": {"type": "string"}}],
-            "responses": {"200": {"description": "claim"}}}},
-        "/api/clusters": {"get": {"summary": "List clusters", "responses": {"200": {"description": "clusters"}}}},
+            "parameters": [{"name": "id", "in": "path", "required": True,
+                            "schema": {"type": "string"}, "example": "SC-AR04-005"}],
+            "responses": {"200": {"description": "The complete claim: statement, verbatim quote, practical-layer fields, source path+page.",
+                                  "content": {"application/json": {"schema": {"$ref": "#/components/schemas/Claim"}}}}}}},
+        "/api/clusters": {"get": {"summary": "List clusters",
+            "responses": {"200": {"description": "All 145 proposal clusters",
+                                  "content": {"application/json": {"schema": {"type": "array", "items": {"$ref": "#/components/schemas/Cluster"}}}}}}}},
         "/api/cluster/{id}": {"get": {"summary": "Cluster detail",
             "parameters": [{"name": "id", "in": "path", "required": True, "schema": {"type": "string"}}],
             "responses": {"200": {"description": "cluster"}}}},
         "/api/buckets": {"get": {"summary": "Bucket summary", "responses": {"200": {"description": "buckets"}}}},
-        "/api/synthesis/{bucket}": {"get": {"summary": "Bucket synthesis markdown",
-            "parameters": [{"name": "bucket", "in": "path", "required": True, "schema": {"type": "string"}}],
-            "responses": {"200": {"description": "markdown"}}}},
+        "/api/synthesis/{bucket}": {"get": {"summary": "Bucket synthesis markdown (practical-first digest)",
+            "parameters": [{"name": "bucket", "in": "path", "required": True,
+                            "schema": {"type": "string"}, "example": "catalysis"}],
+            "responses": {"200": {"description": "Synthesis markdown",
+                                  "content": {"application/json": {"schema": {"$ref": "#/components/schemas/Synthesis"}}}}}}},
         "/api/random": {"get": {"summary": "Random claim sample",
             "parameters": [{"name": "n", "in": "query", "schema": {"type": "integer"}},
                            {"name": "bucket", "in": "query", "schema": {"type": "string"}}],
             "responses": {"200": {"description": "claims"}}}},
-        "/api/stats": {"get": {"summary": "Corpus overview", "responses": {"200": {"description": "stats"}}}},
+        "/api/stats": {"get": {"summary": "Corpus overview (start here)",
+            "responses": {"200": {"description": "Counts, bucket list, absolute endpoint URLs",
+                                  "content": {"application/json": {"schema": {"$ref": "#/components/schemas/StatsResponse"}}}}}}},
     },
 }
 

@@ -5,6 +5,16 @@
 <title>sapogin-corpus explorer — 1,641 LENR/EVO claims, clusters, syntheses</title>
 <meta name="description" content="Search and explore 1,641 provenance-pinned claims from Sapogin's Canonical Physics (LENR/EVO corpus): 145 clusters, 8 buckets, practical-first syntheses. Open JSON API under /api, MCP server at /mcp, machine docs at /llms.txt and /openapi.json.">
 <link rel="mcp-server" href="/mcp">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Dataset",
+ "name": "sapogin-corpus: Sapogin 'Canonical Physics' claim corpus",
+ "description": "1,641 provenance-pinned source claims (LENR/EVO/charge-cluster research) extracted from sapogin.com and 54 papers; 145 clusters, 8 buckets, practical-first syntheses. Agent access: MCP server at /mcp (streamable HTTP, no auth); JSON API at /api/search, /api/claim/{id}, /api/cluster/{id}, /api/synthesis/{bucket}, /api/stats; machine guide at /llms.txt; spec at /openapi.json.",
+ "url": "/", "identifier": ["SC-AR04-005"],
+ "keywords": ["LENR", "EVO", "charge clusters", "transmutation", "catalysis", "Canonical Physics", "Sapogin"],
+ "distribution": [
+   {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "/api/stats"},
+   {"@type": "DataDownload", "encodingFormat": "text/markdown", "contentUrl": "/llms.txt"}]}
+</script>
 <link rel="alternate" type="text/markdown" href="/llms.txt" title="Agent guide (llms.txt)">
 <link rel="alternate" type="application/json" href="/openapi.json" title="OpenAPI spec">
 <style>
