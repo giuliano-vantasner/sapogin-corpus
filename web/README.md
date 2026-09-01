@@ -1,11 +1,24 @@
 # sapogin-corpus explorer + agent API
 
 Human UI at `/` (cluster graph, browse index, full-text search, syntheses,
-drag-resizable results panel). Agents get the same corpus two ways:
+drag-resizable results panel). Agents get the same corpus three ways — all
+open, no tokens, no auth:
 
-## 1. HTTP JSON API (any agent — curl, scripts, no browser)
+## 1. MCP server (preferred): `POST /mcp`
 
-Base: `http://127.0.0.1:8420` (loopback only; expose via Pangolin if needed)
+Streamable-HTTP transport, JSON-RPC 2.0, stateless. Point any MCP client at:
+
+```
+http://127.0.0.1:8420/mcp
+```
+
+Tools: `search_claims`, `get_claim`, `list_clusters`, `get_cluster`,
+`get_synthesis`, `corpus_stats`. Verified with the official `mcp` Python SDK
+(`mcp.client.streamable_http`, protocol 2025-11-25). Claude Desktop / any
+MCP client: add an HTTP-type MCP server with that URL — done, no widget, no
+token.
+
+## 2. JSON API
 
 | Endpoint | Purpose |
 |---|---|
@@ -18,26 +31,25 @@ Base: `http://127.0.0.1:8420` (loopback only; expose via Pangolin if needed)
 | `/api/synthesis/<bucket>` | practical-first synthesis markdown |
 | `/api/random?n=5[&bucket=]` | sample claims for exploration |
 
-Ranking: idf-weighted over statement (×2), tags (×3), quote (×1), exact-id
-match (×25). Cyrillic fully supported (`q=протонные кластеры`).
+Machine-readable spec: `/openapi.json`. Ranking: idf-weighted over statement
+(×2), tags (×3), quote (×1), exact-id match (×25). Cyrillic fully supported.
 
-```bash
-curl -s 'http://127.0.0.1:8420/api/search?q=varicap%20capacitance&priority=core&limit=5'
-curl -s http://127.0.0.1:8420/api/claim/SC-AR04-005
-```
+## 3. Discovery (how agents find this unprompted)
 
-## 2. WebMCP (MCP-capable clients, e.g. Claude Desktop)
+- `/llms.txt` — agent-readable site guide (llmstxt.org convention)
+- `/robots.txt` — allows all, comments name the MCP + API endpoints
+- `/.well-known/ai-plugin.json` — plugin-style manifest, auth: none
+- `/openapi.json` — OpenAPI 3 spec of the whole API
+- Every response carries `Link: </mcp>; rel="mcp-server"`
+- `index.html` carries `<link rel="mcp-server">` + meta description
 
-The page registers six tools via the WebMCP widget (bottom-right):
-`search_claims`, `get_claim`, `list_clusters`, `get_cluster`,
-`get_synthesis`, `corpus_stats`.
+## Source PDFs
 
-Connect: run `npx -y @jason.today/webmcp@latest --mcp` as an MCP server in
-your client, generate a token, click the blue widget, paste the token. Tools
-then appear in the client's tool list.
+Under `/papers/<section>/<file>.pdf` (paths returned by the API), page
+anchors like `papers/articles/x.pdf#page=5`.
 
 ## Regenerate derived data
 
-After claims/clusters/synthesis change:
-`python3 tools/build_web.py` (web/data.js) — the API server reads sources
-directly at startup; restart the `sapogin-web` service to reload.
+After claims/clusters/synthesis change: `python3 tools/build_web.py`
+(web/data.js for the UI). The API/MCP server reads sources at startup —
+restart the `sapogin-web` service to reload.
