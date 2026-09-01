@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """Cluster source claims into candidate physics paths.
 
-Deterministic TF-IDF + greedy agglomerative clustering over claim statements
-(statement_en + tags + quantities). Emits:
+Two-stage deterministic clustering:
+  1. Bucket by curated topic family (tags + statement keywords, ordered rules
+     aligned with governance/policy.yaml core topics and the Sapogin topic
+     map) — first matching rule wins.
+  2. Within each bucket: TF-IDF + greedy agglomerative (mean-of-top-5 cosine),
+     per-bucket idf. CLUSTER_THRESHOLD env overrides the 0.22 default.
+
+Emits:
   clusters/clusters.json        machine-readable: clusters, members, keywords
   clusters/cluster-report.md    human-readable summary with core-priority flags
   clusters/debt-candidates.md   claims tagged debt-candidate, grouped
@@ -13,6 +19,7 @@ user accepts the campaign split").
 """
 import json
 import math
+import os
 import re
 import sys
 from collections import Counter, defaultdict
@@ -30,9 +37,67 @@ may might will would shall should must have has had he she they them their his h
 we you i""".split()
 )
 
+# Ordered topic-family rules: (bucket, substrings). FIRST match wins, so the
+# most specific families come first. Aligned with policy.yaml core topics
+# (transmutation, catalysis, EVO, electrical path) and the Sapogin topic map.
+BUCKETS: list[tuple[str, tuple[str, ...]]] = [
+    ("transmutation-nuclear", (
+        "transmut", "изотоп", "ядерн", "протонн", "nucleus", "nuclear",
+        "isotop", "протонные зарядовые", "нейтрон")),
+    ("catalysis", ("catalys", "катализ", "каталит")),
+    ("evo-charge-clusters", (
+        "кластер", "cluster", "evo", "shoulders", "шоулдерс",
+        "зарядов", "charge cluster")),
+    ("electrical-devices", (
+        "варикап", "varicap", "диод", "diode", "устройств", "установк",
+        "инжектор", "injector", "testatika", "тестатика", "конденсатор",
+        "capacitor", "генератор", "generator", "электрометр", "electrometer",
+        "квантовый", "energy converter", "преобразовател", "контур",
+        "circuit", "колеба", "oscillat", "эдс", "emf", "термоэлектрон",
+        "thermoelectron", "модуляц", "modulat", "нестабильн", "instabilit")),
+    ("discharge-plasma", (
+        "разряд", "discharge", "плазм", "plasma", "взрыв", "explos",
+        "skin", "поверхностн", "плотность тока", "current densit",
+        "провод", "wire", "molten", "оплавлен")),
+    ("emden-gravity-cosmic", (
+        "emden", "эмден", "гравит", "gravit", "черн", "black hole",
+        "звезд", "star", "тунгуск", "tunguska", "космолог", "cosmolog",
+        "планет", "planet", "enceladus", "энцелад")),
+    ("foundations-canonical", (
+        "canonical", "каноническ", "биволн", "biwave", "наименьшего действия",
+        "least action", "лагранж", "lagrang", "волнов", "wave")),
+]
+FALLBACK_BUCKET = "general"
+
 
 def tokens(text: str) -> list[str]:
     return [t for t in TOKEN.findall((text or "").lower()) if t not in STOP and len(t) > 1]
+
+
+def bucket_of(r: dict) -> str:
+    blob = " ".join([r.get("statement_en") or "", " ".join(r.get("tags") or []),
+                     r.get("doc_title_en") or "", r.get("doc_title_ru") or ""]).lower()
+    for name, subs in BUCKETS:
+        if any(s in blob for s in subs):
+            return name
+    return FALLBACK_BUCKET
+
+
+def greedy_cluster(vecs: list[dict], threshold: float) -> list[list[int]]:
+    clusters: list[list[int]] = []
+    for i, v in enumerate(vecs):
+        best, best_s = None, 0.0
+        for ci, members in enumerate(clusters):
+            scores = sorted((sum(x * vecs[j].get(t, 0.0) for t, x in v.items())
+                             for j in members), reverse=True)
+            mean = sum(scores[: min(5, len(scores))]) / min(5, len(scores))
+            if mean > best_s:
+                best, best_s = ci, mean
+        if best is not None and best_s >= threshold:
+            clusters[best].append(i)
+        else:
+            clusters.append([i])
+    return clusters
 
 
 def main() -> int:
@@ -41,68 +106,60 @@ def main() -> int:
         print("claims/claims.jsonl is empty — run tools/build_jsonl.py first", file=sys.stderr)
         return 1
 
-    docs = []
-    for r in rows:
-        parts = [r.get("statement_en") or "", " ".join(r.get("tags") or []),
-                 " ".join(r.get("quantities") or []), r.get("doc_title_en") or ""]
-        docs.append(tokens(" ".join(parts)))
+    threshold = float(os.environ.get("CLUSTER_THRESHOLD", "0.10"))
 
-    df = Counter()
-    for toks in docs:
-        df.update(set(toks))
-    n = len(docs)
-    idf = {t: math.log((n + 1) / (c + 1)) + 1.0 for t, c in df.items()}
+    by_bucket: dict[str, list[int]] = defaultdict(list)
+    for i, r in enumerate(rows):
+        by_bucket[bucket_of(r)].append(i)
 
-    vecs = []
-    for toks in docs:
-        tf = Counter(toks)
-        v = {t: (1.0 + math.log(c)) * idf.get(t, 1.0) for t, c in tf.items()}
-        norm = math.sqrt(sum(x * x for x in v.values())) or 1.0
-        vecs.append({t: x / norm for t, x in v.items()})
-
-    def cos(a: dict, b: dict) -> float:
-        if len(a) > len(b):
-            a, b = b, a
-        return sum(x * b.get(t, 0.0) for t, x in a.items())
-
-    THRESHOLD = 0.22
-    clusters: list[list[int]] = []
-    for i, v in enumerate(vecs):
-        best, best_s = None, 0.0
-        for ci, members in enumerate(clusters):
-            scores = sorted((cos(v, vecs[j]) for j in members), reverse=True)
-            mean = sum(scores[: min(5, len(scores))]) / min(5, len(scores))
-            if mean > best_s:
-                best, best_s = ci, mean
-        if best is not None and best_s >= THRESHOLD:
-            clusters[best].append(i)
-        else:
-            clusters.append([i])
-
-    clusters.sort(key=len, reverse=True)
     out_clusters = []
     lines = ["# Cluster report (PROPOSAL — requires user-accepted campaign split)", ""]
-    for ci, members in enumerate(clusters, 1):
-        kw = Counter()
-        for j in members:
-            kw.update(vecs[j])
-        keywords = [t for t, _ in kw.most_common(12)]
-        ids = [rows[j]["id"] for j in members]
-        core = [rows[j]["id"] for j in members if rows[j].get("priority") == "core"]
-        secs = sorted({rows[j].get("section") or "?" for j in members})
-        facets = sorted({rows[j].get("facet") or "?" for j in members})
-        out_clusters.append(
-            {"cluster": ci, "size": len(members), "keywords": keywords,
-             "claim_ids": ids, "core_ids": core, "sections": secs, "facets": facets}
-        )
-        lines += [
-            f"## Cluster {ci} — {len(members)} claims — keywords: {', '.join(keywords[:8])}",
-            f"- sections: {', '.join(secs)}; facets: {', '.join(facets)}",
-            f"- core-priority claims: {len(core)}"
-            + (f" ({', '.join(core[:8])}{' …' if len(core) > 8 else ''})" if core else ""),
-            f"- claims: {', '.join(ids[:12])}{' …' if len(ids) > 12 else ''}",
-            "",
-        ]
+    for bucket, idxs in sorted(by_bucket.items(), key=lambda kv: -len(kv[1])):
+        docs = []
+        for i in idxs:
+            r = rows[i]
+            toks = tokens(" ".join([
+                r.get("statement_en") or "",
+                " ".join(r.get("tags") or []),
+                " ".join(r.get("quantities") or []),
+                r.get("doc_title_en") or ""]))
+            docs.append(toks)
+        df = Counter()
+        for toks in docs:
+            df.update(set(toks))
+        n = len(docs)
+        idf = {t: math.log((n + 1) / (c + 1)) + 1.0 for t, c in df.items()}
+        vecs = []
+        for toks in docs:
+            tf = Counter(toks)
+            v = {t: (1.0 + math.log(c)) * idf.get(t, 1.0) for t, c in tf.items()}
+            norm = math.sqrt(sum(x * x for x in v.values())) or 1.0
+            vecs.append({t: x / norm for t, x in v.items()})
+        groups = greedy_cluster(vecs, threshold) if n > 2 else [list(range(n))]
+
+        lines.append(f"## {bucket} — {len(idxs)} claims, {len(groups)} clusters")
+        lines.append("")
+        for gi, members in enumerate(groups, 1):
+            kw = Counter()
+            for j in members:
+                kw.update(vecs[j])
+            keywords = [t for t, _ in kw.most_common(12)]
+            ids = [rows[idxs[j]]["id"] for j in members]
+            core = [rows[idxs[j]]["id"] for j in members if rows[idxs[j]].get("priority") == "core"]
+            secs = sorted({rows[idxs[j]].get("section") or "?" for j in members})
+            facets = sorted({rows[idxs[j]].get("facet") or "?" for j in members})
+            out_clusters.append(
+                {"cluster": f"{bucket}-{gi:02d}", "bucket": bucket, "size": len(members),
+                 "keywords": keywords, "claim_ids": ids, "core_ids": core,
+                 "sections": secs, "facets": facets})
+            lines += [
+                f"### {bucket}-{gi:02d} — {len(members)} claims — keywords: {', '.join(keywords[:8])}",
+                f"- sections: {', '.join(secs)}; facets: {', '.join(facets)}",
+                f"- core-priority claims: {len(core)}"
+                + (f" ({', '.join(core[:8])}{' …' if len(core) > 8 else ''})" if core else ""),
+                f"- claims: {', '.join(ids[:12])}{' …' if len(ids) > 12 else ''}",
+                "",
+            ]
 
     debt = defaultdict(list)
     for r in rows:
@@ -120,8 +177,8 @@ def main() -> int:
     (OUTDIR / "cluster-report.md").write_text("\n".join(lines))
     (OUTDIR / "debt-candidates.md").write_text("\n".join(debt_lines) + "\n")
     sizes = ", ".join(str(c["size"]) for c in out_clusters)
-    print(f"{len(out_clusters)} clusters (sizes {sizes}); debt candidates: "
-          f"{sum(len(v) for v in debt.values())}")
+    print(f"{len(out_clusters)} clusters in {len(by_bucket)} buckets (sizes {sizes}); "
+          f"debt candidates: {sum(len(v) for v in debt.values())}")
     return 0
 
 

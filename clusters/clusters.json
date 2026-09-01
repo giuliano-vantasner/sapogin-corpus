@@ -1,0 +1,7126 @@
+[
+ {
+  "cluster": "evo-charge-clusters-01",
+  "bucket": "evo-charge-clusters",
+  "size": 45,
+  "keywords": [
+   "field",
+   "cluster",
+   "potential",
+   "exact",
+   "matter",
+   "solutions",
+   "concentration",
+   "pressure",
+   "self-consistent",
+   "cavity",
+   "equation",
+   "temperature"
+  ],
+  "claim_ids": [
+   "SC-AR02-005",
+   "SC-AR02-025",
+   "SC-AR02-029",
+   "SC-AR02-030",
+   "SC-AR02-031",
+   "SC-AR02-032",
+   "SC-AR02-033",
+   "SC-AR03-006",
+   "SC-AR03-008",
+   "SC-AR03-009",
+   "SC-AR05-031",
+   "SC-AR05-037",
+   "SC-BR01-002",
+   "SC-BR01-005",
+   "SC-BR01-015",
+   "SC-DI01-002",
+   "SC-DI01-004",
+   "SC-DI01-007",
+   "SC-DI01-010",
+   "SC-DI01-013",
+   "SC-DI01-014",
+   "SC-DI01-015",
+   "SC-DI01-016",
+   "SC-DI01-017",
+   "SC-DI02-002",
+   "SC-DI02-009",
+   "SC-DI02-010",
+   "SC-DI02-011",
+   "SC-MO02-011",
+   "SC-MO02-012",
+   "SC-MO02-015",
+   "SC-MO03-012",
+   "SC-PM02-002",
+   "SC-SI01-005",
+   "SC-SI04-010",
+   "SC-SI08-004",
+   "SC-WO01-037",
+   "SC-WO01-038",
+   "SC-WO01-039",
+   "SC-WO01-040",
+   "SC-WO01-058",
+   "SC-WO01-059",
+   "SC-WO01-060",
+   "SC-WO06-005",
+   "SC-WO06-007"
+  ],
+  "core_ids": [
+   "SC-AR03-006",
+   "SC-AR03-008",
+   "SC-AR03-009",
+   "SC-DI01-002",
+   "SC-DI01-004",
+   "SC-DI01-007",
+   "SC-DI01-013",
+   "SC-DI01-014",
+   "SC-DI01-015",
+   "SC-DI01-016",
+   "SC-DI01-017",
+   "SC-DI02-009",
+   "SC-DI02-010",
+   "SC-DI02-011",
+   "SC-MO02-011",
+   "SC-MO02-012",
+   "SC-MO02-015",
+   "SC-MO03-012",
+   "SC-SI04-010",
+   "SC-WO01-058",
+   "SC-WO01-059",
+   "SC-WO06-005",
+   "SC-WO06-007"
+  ],
+  "sections": [
+   "articles",
+   "brochure",
+   "dissertation",
+   "monography",
+   "perpetual_motion",
+   "site",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-02",
+  "bucket": "evo-charge-clusters",
+  "size": 35,
+  "keywords": [
+   "mass",
+   "10",
+   "supermassive",
+   "black",
+   "holes",
+   "spectrum",
+   "hollow",
+   "temperature",
+   "high",
+   "scale",
+   "11",
+   "12"
+  ],
+  "claim_ids": [
+   "SC-AR05-001",
+   "SC-AR05-004",
+   "SC-AR05-024",
+   "SC-AR05-028",
+   "SC-AR05-030",
+   "SC-AR05-034",
+   "SC-AR05-035",
+   "SC-AR05-038",
+   "SC-AR05-043",
+   "SC-AR05-046",
+   "SC-AR05-048",
+   "SC-AR05-055",
+   "SC-AR05-057",
+   "SC-AR05-058",
+   "SC-AR05-059",
+   "SC-AR05-063",
+   "SC-AR05-066",
+   "SC-BR01-013",
+   "SC-BR01-016",
+   "SC-BR01-017",
+   "SC-BR01-022",
+   "SC-BR01-026",
+   "SC-MO03-013",
+   "SC-PM02-003",
+   "SC-PM02-009",
+   "SC-PM02-010",
+   "SC-PM02-011",
+   "SC-PM02-012",
+   "SC-PM02-015",
+   "SC-PM02-020",
+   "SC-SI02-003",
+   "SC-SI06-004",
+   "SC-SI08-005",
+   "SC-TC06-008",
+   "SC-WO01-061"
+  ],
+  "core_ids": [
+   "SC-PM02-020",
+   "SC-SI06-004",
+   "SC-WO01-061"
+  ],
+  "sections": [
+   "articles",
+   "brochure",
+   "monography",
+   "perpetual_motion",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-03",
+  "bucket": "evo-charge-clusters",
+  "size": 40,
+  "keywords": [
+   "varicap",
+   "capacitance",
+   "electron",
+   "cluster",
+   "physical",
+   "properties",
+   "technology",
+   "flat",
+   "diode",
+   "promoting",
+   "electrical-path",
+   "creating"
+  ],
+  "claim_ids": [
+   "SC-AR08-001",
+   "SC-AR08-002",
+   "SC-AR08-003",
+   "SC-AR08-004",
+   "SC-AR08-012",
+   "SC-AR08-013",
+   "SC-AR08-014",
+   "SC-AR08-015",
+   "SC-AR08-016",
+   "SC-AR08-017",
+   "SC-AR08-018",
+   "SC-AR08-019",
+   "SC-AR08-020",
+   "SC-AR08-021",
+   "SC-AR08-022",
+   "SC-AR08-023",
+   "SC-AR08-024",
+   "SC-AR08-025",
+   "SC-AR08-028",
+   "SC-MO03-009",
+   "SC-SI02-013",
+   "SC-TC05-044",
+   "SC-WO01-031",
+   "SC-WO06-006",
+   "SC-WO06-011",
+   "SC-WO06-012",
+   "SC-WO06-013",
+   "SC-WO06-016",
+   "SC-WO06-019",
+   "SC-WO06-021",
+   "SC-WO06-022",
+   "SC-WO06-024",
+   "SC-WO06-026",
+   "SC-WO06-027",
+   "SC-WO06-028",
+   "SC-WO06-029",
+   "SC-WO06-030",
+   "SC-WO06-031",
+   "SC-WO06-032",
+   "SC-WO06-033"
+  ],
+  "core_ids": [
+   "SC-AR08-001",
+   "SC-AR08-002",
+   "SC-AR08-003",
+   "SC-AR08-004",
+   "SC-AR08-012",
+   "SC-AR08-013",
+   "SC-AR08-015",
+   "SC-AR08-017",
+   "SC-AR08-019",
+   "SC-AR08-021",
+   "SC-AR08-022",
+   "SC-AR08-023",
+   "SC-AR08-024",
+   "SC-AR08-025",
+   "SC-AR08-028",
+   "SC-MO03-009",
+   "SC-SI02-013",
+   "SC-TC05-044",
+   "SC-WO01-031",
+   "SC-WO06-006",
+   "SC-WO06-011",
+   "SC-WO06-012",
+   "SC-WO06-013",
+   "SC-WO06-016",
+   "SC-WO06-019",
+   "SC-WO06-021",
+   "SC-WO06-022",
+   "SC-WO06-024",
+   "SC-WO06-027",
+   "SC-WO06-028",
+   "SC-WO06-029",
+   "SC-WO06-030",
+   "SC-WO06-031",
+   "SC-WO06-033"
+  ],
+  "sections": [
+   "articles",
+   "monography",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "recipe",
+   "schematic",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-04",
+  "bucket": "evo-charge-clusters",
+  "size": 67,
+  "keywords": [
+   "charges",
+   "coulomb",
+   "forces",
+   "charge",
+   "cluster",
+   "electrostatics",
+   "shoulders",
+   "phenomenon",
+   "physical",
+   "field",
+   "ken",
+   "electrons"
+  ],
+  "claim_ids": [
+   "SC-AR08-005",
+   "SC-AR08-007",
+   "SC-AR08-008",
+   "SC-AR08-009",
+   "SC-AR08-010",
+   "SC-AR08-011",
+   "SC-AR08-026",
+   "SC-AR08-027",
+   "SC-BR02-008",
+   "SC-MO03-001",
+   "SC-MO03-002",
+   "SC-MO03-003",
+   "SC-PM01-013",
+   "SC-SI01-011",
+   "SC-SI04-003",
+   "SC-SI04-009",
+   "SC-TC02-035",
+   "SC-TC02-036",
+   "SC-TC03-003",
+   "SC-TC03-015",
+   "SC-TC05-003",
+   "SC-TC05-015",
+   "SC-TC06-005",
+   "SC-TC06-043",
+   "SC-TC06-044",
+   "SC-TC06-045",
+   "SC-TC08-031",
+   "SC-TC08-032",
+   "SC-TC08-037",
+   "SC-TC08-038",
+   "SC-TC08-039",
+   "SC-TC08-040",
+   "SC-TC08-045",
+   "SC-TC08-105",
+   "SC-TC08-130",
+   "SC-WO01-005",
+   "SC-WO01-006",
+   "SC-WO01-007",
+   "SC-WO01-008",
+   "SC-WO01-009",
+   "SC-WO01-010",
+   "SC-WO01-011",
+   "SC-WO01-012",
+   "SC-WO01-013",
+   "SC-WO01-015",
+   "SC-WO01-016",
+   "SC-WO01-017",
+   "SC-WO01-018",
+   "SC-WO01-020",
+   "SC-WO01-021",
+   "SC-WO01-024",
+   "SC-WO01-032",
+   "SC-WO01-033",
+   "SC-WO01-046",
+   "SC-WO01-047",
+   "SC-WO01-048",
+   "SC-WO01-049",
+   "SC-WO01-050",
+   "SC-WO01-051",
+   "SC-WO01-054",
+   "SC-WO01-063",
+   "SC-WO01-068",
+   "SC-WO01-074",
+   "SC-WO01-075",
+   "SC-WO01-077",
+   "SC-WO01-086",
+   "SC-WO07-005"
+  ],
+  "core_ids": [
+   "SC-AR08-005",
+   "SC-AR08-007",
+   "SC-AR08-009",
+   "SC-AR08-010",
+   "SC-AR08-026",
+   "SC-AR08-027",
+   "SC-BR02-008",
+   "SC-MO03-001",
+   "SC-MO03-002",
+   "SC-MO03-003",
+   "SC-PM01-013",
+   "SC-SI01-011",
+   "SC-SI04-003",
+   "SC-SI04-009",
+   "SC-TC02-035",
+   "SC-TC02-036",
+   "SC-TC03-003",
+   "SC-TC03-015",
+   "SC-TC05-003",
+   "SC-TC05-015",
+   "SC-TC06-005",
+   "SC-TC06-043",
+   "SC-TC06-044",
+   "SC-TC06-045",
+   "SC-TC08-031",
+   "SC-TC08-032",
+   "SC-TC08-037",
+   "SC-TC08-038",
+   "SC-TC08-039",
+   "SC-TC08-040",
+   "SC-TC08-045",
+   "SC-TC08-105",
+   "SC-WO01-005",
+   "SC-WO01-007",
+   "SC-WO01-009",
+   "SC-WO01-011",
+   "SC-WO01-012",
+   "SC-WO01-013",
+   "SC-WO01-016",
+   "SC-WO01-017",
+   "SC-WO01-018",
+   "SC-WO01-020",
+   "SC-WO01-021",
+   "SC-WO01-024",
+   "SC-WO01-032",
+   "SC-WO01-033",
+   "SC-WO01-046",
+   "SC-WO01-047",
+   "SC-WO01-048",
+   "SC-WO01-049",
+   "SC-WO01-050",
+   "SC-WO01-051",
+   "SC-WO01-054",
+   "SC-WO01-063",
+   "SC-WO01-074",
+   "SC-WO01-086",
+   "SC-WO07-005"
+  ],
+  "sections": [
+   "articles",
+   "brochure",
+   "monography",
+   "perpetual_motion",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "measurement",
+   "phenomenology",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-05",
+  "bucket": "evo-charge-clusters",
+  "size": 5,
+  "keywords": [
+   "glowing",
+   "milliseconds",
+   "seconds",
+   "microseconds",
+   "very",
+   "media",
+   "localized",
+   "formation",
+   "long-lived",
+   "formations",
+   "lifetime",
+   "water"
+  ],
+  "claim_ids": [
+   "SC-AR09-001",
+   "SC-AR09-002",
+   "SC-MO02-016",
+   "SC-SI02-019",
+   "SC-WO01-026"
+  ],
+  "core_ids": [
+   "SC-AR09-001",
+   "SC-AR09-002",
+   "SC-SI02-019",
+   "SC-WO01-026"
+  ],
+  "sections": [
+   "articles",
+   "monography",
+   "site",
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-06",
+  "bucket": "evo-charge-clusters",
+  "size": 84,
+  "keywords": [
+   "instability",
+   "formation",
+   "electron",
+   "plasma",
+   "electrical",
+   "clusters",
+   "lightning",
+   "uniform",
+   "toward",
+   "solutions",
+   "nonstationary",
+   "two-component"
+  ],
+  "claim_ids": [
+   "SC-AR09-003",
+   "SC-AR09-004",
+   "SC-AR09-005",
+   "SC-AR09-006",
+   "SC-AR09-007",
+   "SC-AR09-008",
+   "SC-AR09-009",
+   "SC-AR09-010",
+   "SC-AR09-011",
+   "SC-AR09-012",
+   "SC-AR09-013",
+   "SC-AR09-014",
+   "SC-AR09-015",
+   "SC-AR09-016",
+   "SC-AR09-017",
+   "SC-AR09-018",
+   "SC-AR09-019",
+   "SC-AR09-020",
+   "SC-AR09-021",
+   "SC-AR09-022",
+   "SC-AR09-023",
+   "SC-AR09-024",
+   "SC-AR09-025",
+   "SC-AR09-026",
+   "SC-AR09-027",
+   "SC-AR09-028",
+   "SC-AR10-001",
+   "SC-AR10-002",
+   "SC-AR10-003",
+   "SC-AR10-004",
+   "SC-AR10-005",
+   "SC-AR10-006",
+   "SC-AR10-007",
+   "SC-AR10-008",
+   "SC-AR10-009",
+   "SC-AR10-010",
+   "SC-AR10-011",
+   "SC-AR10-012",
+   "SC-AR10-013",
+   "SC-AR10-014",
+   "SC-AR10-015",
+   "SC-AR10-016",
+   "SC-AR10-017",
+   "SC-AR10-018",
+   "SC-AR10-019",
+   "SC-AR10-020",
+   "SC-AR10-021",
+   "SC-AR10-022",
+   "SC-AR10-023",
+   "SC-AR10-024",
+   "SC-AR10-025",
+   "SC-AR10-026",
+   "SC-AR10-027",
+   "SC-AR10-028",
+   "SC-AR10-029",
+   "SC-AR10-030",
+   "SC-AR10-031",
+   "SC-BR04-032",
+   "SC-SI01-009",
+   "SC-SI01-010",
+   "SC-SI02-004",
+   "SC-SI02-005",
+   "SC-SI02-006",
+   "SC-SI02-007",
+   "SC-SI02-012",
+   "SC-SI02-017",
+   "SC-SI02-018",
+   "SC-SI02-020",
+   "SC-SI02-021",
+   "SC-SI10-010",
+   "SC-TC03-002",
+   "SC-TC05-002",
+   "SC-TC07-014",
+   "SC-TC07-015",
+   "SC-TC07-016",
+   "SC-TC07-018",
+   "SC-TC08-012",
+   "SC-TC08-042",
+   "SC-WO01-041",
+   "SC-WO01-042",
+   "SC-WO01-043",
+   "SC-WO01-044",
+   "SC-WO01-045",
+   "SC-WO04-003"
+  ],
+  "core_ids": [
+   "SC-AR09-003",
+   "SC-AR09-004",
+   "SC-AR09-005",
+   "SC-AR09-007",
+   "SC-AR09-012",
+   "SC-AR09-013",
+   "SC-AR09-014",
+   "SC-AR09-015",
+   "SC-AR09-018",
+   "SC-AR09-020",
+   "SC-AR09-021",
+   "SC-AR09-022",
+   "SC-AR09-023",
+   "SC-AR09-024",
+   "SC-AR09-026",
+   "SC-AR09-027",
+   "SC-AR09-028",
+   "SC-AR10-001",
+   "SC-AR10-004",
+   "SC-AR10-005",
+   "SC-AR10-010",
+   "SC-AR10-012",
+   "SC-AR10-013",
+   "SC-AR10-014",
+   "SC-AR10-017",
+   "SC-AR10-018",
+   "SC-AR10-020",
+   "SC-AR10-022",
+   "SC-AR10-025",
+   "SC-AR10-028",
+   "SC-AR10-029",
+   "SC-AR10-030",
+   "SC-AR10-031",
+   "SC-BR04-032",
+   "SC-SI01-009",
+   "SC-SI01-010",
+   "SC-SI02-004",
+   "SC-SI02-005",
+   "SC-SI02-006",
+   "SC-SI02-007",
+   "SC-SI02-012",
+   "SC-SI02-017",
+   "SC-SI02-018",
+   "SC-SI02-020",
+   "SC-SI02-021",
+   "SC-SI10-010",
+   "SC-TC03-002",
+   "SC-TC05-002",
+   "SC-TC07-014",
+   "SC-TC07-015",
+   "SC-TC07-016",
+   "SC-TC07-018",
+   "SC-WO01-041",
+   "SC-WO01-042",
+   "SC-WO04-003"
+  ],
+  "sections": [
+   "articles",
+   "brochure",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-07",
+  "bucket": "evo-charge-clusters",
+  "size": 9,
+  "keywords": [
+   "crater",
+   "impact",
+   "titanium",
+   "inelastic",
+   "release",
+   "spherical",
+   "surface",
+   "melt",
+   "cluster",
+   "melted",
+   "incident",
+   "bubble"
+  ],
+  "claim_ids": [
+   "SC-BR01-003",
+   "SC-BR01-023",
+   "SC-BR02-007",
+   "SC-DI01-008",
+   "SC-DI01-018",
+   "SC-MO03-014",
+   "SC-SI04-011",
+   "SC-TC06-006",
+   "SC-WO01-062"
+  ],
+  "core_ids": [
+   "SC-BR02-007",
+   "SC-DI01-008",
+   "SC-DI01-018",
+   "SC-MO03-014",
+   "SC-SI04-011",
+   "SC-TC06-006",
+   "SC-WO01-062"
+  ],
+  "sections": [
+   "brochure",
+   "dissertation",
+   "monography",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-08",
+  "bucket": "evo-charge-clusters",
+  "size": 2,
+  "keywords": [
+   "tunguska",
+   "objects",
+   "gravitation",
+   "balls",
+   "proposed",
+   "phenomenon",
+   "theory",
+   "singly",
+   "catastrophes",
+   "fallen",
+   "emit",
+   "watch"
+  ],
+  "claim_ids": [
+   "SC-BR01-029",
+   "SC-TC06-007"
+  ],
+  "core_ids": [
+   "SC-BR01-029"
+  ],
+  "sections": [
+   "brochure",
+   "technologies"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-09",
+  "bucket": "evo-charge-clusters",
+  "size": 46,
+  "keywords": [
+   "cathode",
+   "current",
+   "shoulders",
+   "10",
+   "injector",
+   "charge",
+   "evo",
+   "maxwell",
+   "aperture",
+   "electrodes",
+   "kv",
+   "mesyats"
+  ],
+  "claim_ids": [
+   "SC-BR02-001",
+   "SC-BR02-002",
+   "SC-BR02-003",
+   "SC-BR02-006",
+   "SC-BR02-011",
+   "SC-BR02-018",
+   "SC-BR02-019",
+   "SC-BR02-020",
+   "SC-BR02-025",
+   "SC-BR02-026",
+   "SC-BR02-027",
+   "SC-BR02-029",
+   "SC-BR02-032",
+   "SC-BR02-033",
+   "SC-BR02-034",
+   "SC-DI01-001",
+   "SC-DI02-001",
+   "SC-MO02-004",
+   "SC-MO03-016",
+   "SC-MO03-017",
+   "SC-SI02-022",
+   "SC-SI04-005",
+   "SC-SI04-006",
+   "SC-SI04-007",
+   "SC-SI06-011",
+   "SC-SI10-009",
+   "SC-TC03-001",
+   "SC-TC03-004",
+   "SC-TC03-025",
+   "SC-TC03-026",
+   "SC-TC05-001",
+   "SC-TC05-004",
+   "SC-TC05-023",
+   "SC-TC05-024",
+   "SC-TC05-025",
+   "SC-TC05-038",
+   "SC-TC05-043",
+   "SC-TC06-033",
+   "SC-TC06-049",
+   "SC-TC06-061",
+   "SC-TC08-030",
+   "SC-TC08-077",
+   "SC-WO01-003",
+   "SC-WO01-022",
+   "SC-WO01-083",
+   "SC-WO01-084"
+  ],
+  "core_ids": [
+   "SC-BR02-001",
+   "SC-BR02-002",
+   "SC-BR02-003",
+   "SC-BR02-006",
+   "SC-BR02-011",
+   "SC-BR02-018",
+   "SC-BR02-019",
+   "SC-BR02-020",
+   "SC-BR02-025",
+   "SC-BR02-026",
+   "SC-BR02-027",
+   "SC-BR02-029",
+   "SC-BR02-032",
+   "SC-BR02-034",
+   "SC-DI01-001",
+   "SC-DI02-001",
+   "SC-MO02-004",
+   "SC-MO03-016",
+   "SC-MO03-017",
+   "SC-SI02-022",
+   "SC-SI04-005",
+   "SC-SI04-006",
+   "SC-SI04-007",
+   "SC-SI06-011",
+   "SC-SI10-009",
+   "SC-TC03-001",
+   "SC-TC03-004",
+   "SC-TC03-025",
+   "SC-TC03-026",
+   "SC-TC05-001",
+   "SC-TC05-004",
+   "SC-TC05-023",
+   "SC-TC05-024",
+   "SC-TC05-025",
+   "SC-TC05-038",
+   "SC-TC05-043",
+   "SC-TC06-033",
+   "SC-TC06-049",
+   "SC-TC06-061",
+   "SC-TC08-030",
+   "SC-TC08-077",
+   "SC-WO01-022",
+   "SC-WO01-083",
+   "SC-WO01-084"
+  ],
+  "sections": [
+   "brochure",
+   "dissertation",
+   "monography",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "recipe",
+   "schematic",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-10",
+  "bucket": "evo-charge-clusters",
+  "size": 6,
+  "keywords": [
+   "injector",
+   "layer",
+   "scale",
+   "r2",
+   "aperture",
+   "90",
+   "time",
+   "3k",
+   "tau",
+   "resistance",
+   "field-emission",
+   "current-density"
+  ],
+  "claim_ids": [
+   "SC-BR02-016",
+   "SC-BR02-017",
+   "SC-BR02-021",
+   "SC-BR02-023",
+   "SC-BR02-024",
+   "SC-TC06-041"
+  ],
+  "core_ids": [
+   "SC-BR02-016",
+   "SC-BR02-017",
+   "SC-BR02-021",
+   "SC-BR02-023",
+   "SC-BR02-024",
+   "SC-TC06-041"
+  ],
+  "sections": [
+   "brochure",
+   "technologies"
+  ],
+  "facets": [
+   "measurement",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-11",
+  "bucket": "evo-charge-clusters",
+  "size": 4,
+  "keywords": [
+   "micron-sized",
+   "charge-cluster",
+   "emf",
+   "shoulders",
+   "canonical",
+   "experiments",
+   "physics",
+   "dc",
+   "asserts",
+   "matched",
+   "experiment",
+   "evo"
+  ],
+  "claim_ids": [
+   "SC-BR03-011",
+   "SC-BR03-029",
+   "SC-SI01-013",
+   "SC-SI01-014"
+  ],
+  "core_ids": [
+   "SC-BR03-011",
+   "SC-BR03-029",
+   "SC-SI01-013",
+   "SC-SI01-014"
+  ],
+  "sections": [
+   "brochure",
+   "site"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-12",
+  "bucket": "evo-charge-clusters",
+  "size": 5,
+  "keywords": [
+   "closed",
+   "circuit",
+   "excess",
+   "revolution",
+   "energy",
+   "electric",
+   "electrostatic",
+   "mechanical",
+   "circulation-theorem",
+   "rotation",
+   "instability",
+   "circulation"
+  ],
+  "claim_ids": [
+   "SC-BR04-021",
+   "SC-BR04-036",
+   "SC-MO03-030",
+   "SC-MO03-032",
+   "SC-TC07-011"
+  ],
+  "core_ids": [
+   "SC-BR04-021",
+   "SC-MO03-030",
+   "SC-MO03-032"
+  ],
+  "sections": [
+   "brochure",
+   "monography",
+   "technologies"
+  ],
+  "facets": [
+   "phenomenology",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-13",
+  "bucket": "evo-charge-clusters",
+  "size": 5,
+  "keywords": [
+   "microwave",
+   "new",
+   "resonator",
+   "generators",
+   "retention",
+   "clusters",
+   "engines",
+   "ecologically",
+   "clean",
+   "non-radiated",
+   "generation",
+   "matter"
+  ],
+  "claim_ids": [
+   "SC-DI01-009",
+   "SC-DI02-016",
+   "SC-DI02-017",
+   "SC-MO02-018",
+   "SC-MO02-019"
+  ],
+  "core_ids": [
+   "SC-DI02-016",
+   "SC-DI02-017",
+   "SC-MO02-018",
+   "SC-MO02-019"
+  ],
+  "sections": [
+   "dissertation",
+   "monography"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-14",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "relativistic",
+   "108",
+   "estimates",
+   "gravitational-cluster",
+   "6e14",
+   "2e8",
+   "8e8",
+   "comparatively",
+   "scale",
+   "0e13",
+   "weakness",
+   "interaction-space"
+  ],
+  "claim_ids": [
+   "SC-DI02-012"
+  ],
+  "core_ids": [],
+  "sections": [
+   "dissertation"
+  ],
+  "facets": [
+   "measurement"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-15",
+  "bucket": "evo-charge-clusters",
+  "size": 3,
+  "keywords": [
+   "ev",
+   "zero-point",
+   "atmospheres",
+   "oscillation",
+   "upon",
+   "retention",
+   "polarized",
+   "maintained",
+   "compressed",
+   "quantitative",
+   "230",
+   "10"
+  ],
+  "claim_ids": [
+   "SC-MO02-005",
+   "SC-MO02-006",
+   "SC-MO02-022"
+  ],
+  "core_ids": [
+   "SC-MO02-022"
+  ],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "measurement",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-16",
+  "bucket": "evo-charge-clusters",
+  "size": 4,
+  "keywords": [
+   "two-force",
+   "cm-scale",
+   "attract",
+   "repel",
+   "structure",
+   "bubble",
+   "200",
+   "3000",
+   "separated",
+   "applicable",
+   "coulomb-barrier",
+   "structures"
+  ],
+  "claim_ids": [
+   "SC-MO03-008",
+   "SC-MO03-019",
+   "SC-MO03-026",
+   "SC-WO01-030"
+  ],
+  "core_ids": [
+   "SC-MO03-008",
+   "SC-MO03-019",
+   "SC-MO03-026",
+   "SC-WO01-030"
+  ],
+  "sections": [
+   "monography",
+   "works"
+  ],
+  "facets": [
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-17",
+  "bucket": "evo-charge-clusters",
+  "size": 12,
+  "keywords": [
+   "plasmoids",
+   "decay",
+   "plasmoid",
+   "expansion",
+   "radiation",
+   "energy",
+   "radiating",
+   "plasma",
+   "charge",
+   "non-radiating",
+   "synthesis",
+   "boiling"
+  ],
+  "claim_ids": [
+   "SC-MO03-015",
+   "SC-MO03-020",
+   "SC-MO03-021",
+   "SC-TC08-041",
+   "SC-TC08-102",
+   "SC-TC08-104",
+   "SC-TC08-106",
+   "SC-TC08-107",
+   "SC-TC08-133",
+   "SC-TC08-134",
+   "SC-WO01-064",
+   "SC-WO01-065"
+  ],
+  "core_ids": [
+   "SC-MO03-015",
+   "SC-MO03-021",
+   "SC-TC08-102",
+   "SC-TC08-104",
+   "SC-TC08-106",
+   "SC-TC08-107",
+   "SC-TC08-133",
+   "SC-WO01-064",
+   "SC-WO01-065"
+  ],
+  "sections": [
+   "monography",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-18",
+  "bucket": "evo-charge-clusters",
+  "size": 9,
+  "keywords": [
+   "rod",
+   "end",
+   "40",
+   "separation",
+   "personal",
+   "number",
+   "structures",
+   "energy",
+   "253",
+   "bubble",
+   "technologies",
+   "foundations"
+  ],
+  "claim_ids": [
+   "SC-MO03-022",
+   "SC-MO03-023",
+   "SC-MO03-024",
+   "SC-MO03-025",
+   "SC-MO03-027",
+   "SC-MO03-028",
+   "SC-MO03-029",
+   "SC-TC08-051",
+   "SC-TC08-052"
+  ],
+  "core_ids": [
+   "SC-MO03-022",
+   "SC-MO03-023",
+   "SC-MO03-024",
+   "SC-MO03-025",
+   "SC-MO03-027",
+   "SC-MO03-028",
+   "SC-MO03-029",
+   "SC-TC08-051",
+   "SC-TC08-052"
+  ],
+  "sections": [
+   "monography",
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "procedure",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-19",
+  "bucket": "evo-charge-clusters",
+  "size": 10,
+  "keywords": [
+   "bauman",
+   "testatika",
+   "ways",
+   "extracting",
+   "short-lived",
+   "100",
+   "sector",
+   "bubbles",
+   "radial",
+   "sectors",
+   "design",
+   "plasma"
+  ],
+  "claim_ids": [
+   "SC-MO03-031",
+   "SC-TC08-007",
+   "SC-TC08-008",
+   "SC-TC08-009",
+   "SC-TC08-011",
+   "SC-TC08-015",
+   "SC-TC08-023",
+   "SC-TC08-025",
+   "SC-TC08-026",
+   "SC-TC08-054"
+  ],
+  "core_ids": [
+   "SC-MO03-031",
+   "SC-TC08-007",
+   "SC-TC08-011",
+   "SC-TC08-015",
+   "SC-TC08-025",
+   "SC-TC08-026"
+  ],
+  "sections": [
+   "monography",
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-20",
+  "bucket": "evo-charge-clusters",
+  "size": 2,
+  "keywords": [
+   "pm",
+   "abolished",
+   "prohibitions",
+   "academic",
+   "mathematics",
+   "perpetual",
+   "machine",
+   "working",
+   "motion",
+   "analogs",
+   "half-period",
+   "absorbs"
+  ],
+  "claim_ids": [
+   "SC-PM01-014",
+   "SC-PM01-016"
+  ],
+  "core_ids": [
+   "SC-PM01-014",
+   "SC-PM01-016"
+  ],
+  "sections": [
+   "perpetual_motion"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-21",
+  "bucket": "evo-charge-clusters",
+  "size": 7,
+  "keywords": [
+   "sapogin",
+   "asserts",
+   "conductor",
+   "physics",
+   "evo-generation",
+   "canonical",
+   "electrical-path",
+   "p-n",
+   "junction",
+   "p-n-junction",
+   "expelled",
+   "nanowire"
+  ],
+  "claim_ids": [
+   "SC-SI01-025",
+   "SC-SI01-026",
+   "SC-SI01-027",
+   "SC-SI01-038",
+   "SC-SI05-002",
+   "SC-SI10-002",
+   "SC-SI10-003"
+  ],
+  "core_ids": [
+   "SC-SI01-025",
+   "SC-SI01-026",
+   "SC-SI01-027",
+   "SC-SI05-002",
+   "SC-SI10-002",
+   "SC-SI10-003"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-22",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "marakhtanov",
+   "180",
+   "43e9",
+   "crit",
+   "atomic",
+   "04e9",
+   "hundred",
+   "layers",
+   "microseconds",
+   "several",
+   "cooled",
+   "exploded"
+  ],
+  "claim_ids": [
+   "SC-SI01-028"
+  ],
+  "core_ids": [
+   "SC-SI01-028"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "experiment"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-23",
+  "bucket": "evo-charge-clusters",
+  "size": 3,
+  "keywords": [
+   "brochures",
+   "charge-cluster",
+   "extraction",
+   "sapogin",
+   "regimes",
+   "asserts",
+   "field-emission-cathode",
+   "charge-films",
+   "estimates",
+   "size",
+   "accelerating",
+   "theory-derived"
+  ],
+  "claim_ids": [
+   "SC-SI03-009",
+   "SC-SI03-010",
+   "SC-SI03-012"
+  ],
+  "core_ids": [
+   "SC-SI03-009",
+   "SC-SI03-010",
+   "SC-SI03-012"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-24",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "dissertation",
+   "investigates",
+   "total-pressure-integral",
+   "non-radiating-charges",
+   "based",
+   "non-radiating",
+   "homogeneous",
+   "diverse",
+   "integral",
+   "fundamental",
+   "inhomogeneous",
+   "doctoral"
+  ],
+  "claim_ids": [
+   "SC-SI04-001"
+  ],
+  "core_ids": [],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-25",
+  "bucket": "evo-charge-clusters",
+  "size": 4,
+  "keywords": [
+   "lectures",
+   "electrophysics",
+   "baumann",
+   "sapogin",
+   "lecture",
+   "shabanov",
+   "crater",
+   "shoulders",
+   "testatika",
+   "radial",
+   "experiment",
+   "ussr"
+  ],
+  "claim_ids": [
+   "SC-SI05-008",
+   "SC-SI05-013",
+   "SC-SI05-014",
+   "SC-SI05-016"
+  ],
+  "core_ids": [
+   "SC-SI05-008",
+   "SC-SI05-013",
+   "SC-SI05-014",
+   "SC-SI05-016"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "procedure"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-26",
+  "bucket": "evo-charge-clusters",
+  "size": 78,
+  "keywords": [
+   "energy",
+   "bubbles",
+   "plasma",
+   "synthesis",
+   "charge",
+   "decay",
+   "super-unity",
+   "conversion",
+   "evo",
+   "devices",
+   "sources",
+   "bluff"
+  ],
+  "claim_ids": [
+   "SC-SI06-012",
+   "SC-SI10-017",
+   "SC-SI10-018",
+   "SC-SI10-019",
+   "SC-SI10-020",
+   "SC-SI10-021",
+   "SC-TC01-002",
+   "SC-TC01-003",
+   "SC-TC01-004",
+   "SC-TC01-005",
+   "SC-TC01-008",
+   "SC-TC01-009",
+   "SC-TC01-026",
+   "SC-TC01-028",
+   "SC-TC01-036",
+   "SC-TC01-038",
+   "SC-TC01-039",
+   "SC-TC01-040",
+   "SC-TC01-042",
+   "SC-TC01-043",
+   "SC-TC01-047",
+   "SC-TC02-066",
+   "SC-TC06-001",
+   "SC-TC06-002",
+   "SC-TC06-023",
+   "SC-TC06-026",
+   "SC-TC06-029",
+   "SC-TC06-030",
+   "SC-TC06-031",
+   "SC-TC06-032",
+   "SC-TC06-034",
+   "SC-TC06-035",
+   "SC-TC06-038",
+   "SC-TC06-039",
+   "SC-TC06-040",
+   "SC-TC06-042",
+   "SC-TC06-046",
+   "SC-TC06-052",
+   "SC-TC06-053",
+   "SC-TC06-054",
+   "SC-TC06-055",
+   "SC-TC06-062",
+   "SC-TC06-063",
+   "SC-TC06-064",
+   "SC-TC08-001",
+   "SC-TC08-005",
+   "SC-TC08-006",
+   "SC-TC08-010",
+   "SC-TC08-016",
+   "SC-TC08-017",
+   "SC-TC08-018",
+   "SC-TC08-019",
+   "SC-TC08-020",
+   "SC-TC08-021",
+   "SC-TC08-022",
+   "SC-TC08-024",
+   "SC-TC08-034",
+   "SC-TC08-035",
+   "SC-TC08-043",
+   "SC-TC08-044",
+   "SC-TC08-046",
+   "SC-TC08-047",
+   "SC-TC08-048",
+   "SC-TC08-050",
+   "SC-TC08-053",
+   "SC-TC08-055",
+   "SC-TC08-056",
+   "SC-TC08-073",
+   "SC-TC08-088",
+   "SC-TC08-090",
+   "SC-TC08-091",
+   "SC-TC08-103",
+   "SC-TC08-138",
+   "SC-TC08-140",
+   "SC-TC08-143",
+   "SC-WO01-053",
+   "SC-WO05-024",
+   "SC-WO06-025"
+  ],
+  "core_ids": [
+   "SC-SI06-012",
+   "SC-SI10-017",
+   "SC-SI10-018",
+   "SC-SI10-019",
+   "SC-SI10-020",
+   "SC-SI10-021",
+   "SC-TC01-002",
+   "SC-TC01-003",
+   "SC-TC01-004",
+   "SC-TC01-005",
+   "SC-TC01-009",
+   "SC-TC01-026",
+   "SC-TC01-028",
+   "SC-TC01-036",
+   "SC-TC01-038",
+   "SC-TC01-039",
+   "SC-TC01-040",
+   "SC-TC01-042",
+   "SC-TC01-043",
+   "SC-TC01-047",
+   "SC-TC02-066",
+   "SC-TC06-001",
+   "SC-TC06-002",
+   "SC-TC06-023",
+   "SC-TC06-026",
+   "SC-TC06-029",
+   "SC-TC06-030",
+   "SC-TC06-031",
+   "SC-TC06-032",
+   "SC-TC06-034",
+   "SC-TC06-035",
+   "SC-TC06-038",
+   "SC-TC06-039",
+   "SC-TC06-040",
+   "SC-TC06-042",
+   "SC-TC06-046",
+   "SC-TC06-052",
+   "SC-TC06-053",
+   "SC-TC06-055",
+   "SC-TC06-062",
+   "SC-TC06-063",
+   "SC-TC06-064",
+   "SC-TC08-001",
+   "SC-TC08-005",
+   "SC-TC08-017",
+   "SC-TC08-018",
+   "SC-TC08-019",
+   "SC-TC08-022",
+   "SC-TC08-024",
+   "SC-TC08-034",
+   "SC-TC08-035",
+   "SC-TC08-043",
+   "SC-TC08-044",
+   "SC-TC08-046",
+   "SC-TC08-047",
+   "SC-TC08-048",
+   "SC-TC08-053",
+   "SC-TC08-055",
+   "SC-TC08-056",
+   "SC-TC08-073",
+   "SC-TC08-090",
+   "SC-TC08-103",
+   "SC-TC08-140",
+   "SC-TC08-143",
+   "SC-WO01-053",
+   "SC-WO05-024",
+   "SC-WO06-025"
+  ],
+  "sections": [
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "process",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-27",
+  "bucket": "evo-charge-clusters",
+  "size": 4,
+  "keywords": [
+   "notes",
+   "works",
+   "lists",
+   "mode",
+   "varicap",
+   "sapogin",
+   "discusses",
+   "influence",
+   "vacuum",
+   "knowledge",
+   "new-generation",
+   "1987"
+  ],
+  "claim_ids": [
+   "SC-SI11-002",
+   "SC-SI11-004",
+   "SC-SI11-005",
+   "SC-WO01-001"
+  ],
+  "core_ids": [
+   "SC-SI11-002",
+   "SC-SI11-004",
+   "SC-SI11-005",
+   "SC-WO01-001"
+  ],
+  "sections": [
+   "site",
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "phenomenology",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-28",
+  "bucket": "evo-charge-clusters",
+  "size": 19,
+  "keywords": [
+   "induction",
+   "law",
+   "electrodynamic",
+   "displacement",
+   "maxwell",
+   "current",
+   "experiments",
+   "electrical",
+   "bubbles",
+   "capacitor",
+   "conversion",
+   "evo"
+  ],
+  "claim_ids": [
+   "SC-TC02-015",
+   "SC-TC02-032",
+   "SC-TC02-033",
+   "SC-TC02-034",
+   "SC-TC02-037",
+   "SC-TC02-039",
+   "SC-TC02-046",
+   "SC-TC02-070",
+   "SC-TC02-072",
+   "SC-TC06-013",
+   "SC-TC06-016",
+   "SC-TC06-017",
+   "SC-TC06-018",
+   "SC-TC06-024",
+   "SC-TC06-028",
+   "SC-TC08-003",
+   "SC-TC08-049",
+   "SC-TC08-065",
+   "SC-TC08-069"
+  ],
+  "core_ids": [
+   "SC-TC02-015",
+   "SC-TC02-032",
+   "SC-TC02-033",
+   "SC-TC02-034",
+   "SC-TC02-037",
+   "SC-TC02-039",
+   "SC-TC02-046",
+   "SC-TC02-070",
+   "SC-TC02-072",
+   "SC-TC06-013",
+   "SC-TC06-016",
+   "SC-TC06-017",
+   "SC-TC06-018",
+   "SC-TC06-028",
+   "SC-TC08-003",
+   "SC-TC08-049",
+   "SC-TC08-065",
+   "SC-TC08-069"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-29",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "nano-technologies",
+   "armageddon",
+   "noose",
+   "let",
+   "approach",
+   "leave",
+   "confinement",
+   "tubular",
+   "conductor",
+   "like",
+   "surface",
+   "electrons"
+  ],
+  "claim_ids": [
+   "SC-TC04-013"
+  ],
+  "core_ids": [
+   "SC-TC04-013"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-30",
+  "bucket": "evo-charge-clusters",
+  "size": 81,
+  "keywords": [
+   "current",
+   "bubbles",
+   "energy",
+   "displacement",
+   "plasma",
+   "short-lived",
+   "ways",
+   "extracting",
+   "charge",
+   "dipole",
+   "capacitor",
+   "circuit"
+  ],
+  "claim_ids": [
+   "SC-TC06-003",
+   "SC-TC06-004",
+   "SC-TC06-009",
+   "SC-TC06-010",
+   "SC-TC06-011",
+   "SC-TC06-012",
+   "SC-TC06-014",
+   "SC-TC06-015",
+   "SC-TC06-019",
+   "SC-TC06-020",
+   "SC-TC06-021",
+   "SC-TC06-022",
+   "SC-TC06-025",
+   "SC-TC06-027",
+   "SC-TC06-056",
+   "SC-TC06-057",
+   "SC-TC06-058",
+   "SC-TC06-059",
+   "SC-TC06-060",
+   "SC-TC08-002",
+   "SC-TC08-004",
+   "SC-TC08-013",
+   "SC-TC08-027",
+   "SC-TC08-028",
+   "SC-TC08-057",
+   "SC-TC08-058",
+   "SC-TC08-059",
+   "SC-TC08-060",
+   "SC-TC08-061",
+   "SC-TC08-062",
+   "SC-TC08-063",
+   "SC-TC08-064",
+   "SC-TC08-066",
+   "SC-TC08-067",
+   "SC-TC08-068",
+   "SC-TC08-070",
+   "SC-TC08-071",
+   "SC-TC08-072",
+   "SC-TC08-074",
+   "SC-TC08-075",
+   "SC-TC08-076",
+   "SC-TC08-078",
+   "SC-TC08-079",
+   "SC-TC08-080",
+   "SC-TC08-081",
+   "SC-TC08-082",
+   "SC-TC08-083",
+   "SC-TC08-084",
+   "SC-TC08-085",
+   "SC-TC08-086",
+   "SC-TC08-087",
+   "SC-TC08-089",
+   "SC-TC08-092",
+   "SC-TC08-093",
+   "SC-TC08-094",
+   "SC-TC08-095",
+   "SC-TC08-096",
+   "SC-TC08-097",
+   "SC-TC08-098",
+   "SC-TC08-099",
+   "SC-TC08-100",
+   "SC-TC08-109",
+   "SC-TC08-110",
+   "SC-TC08-116",
+   "SC-TC08-117",
+   "SC-TC08-118",
+   "SC-TC08-119",
+   "SC-TC08-120",
+   "SC-TC08-121",
+   "SC-TC08-122",
+   "SC-TC08-123",
+   "SC-TC08-124",
+   "SC-TC08-125",
+   "SC-TC08-126",
+   "SC-TC08-141",
+   "SC-TC08-142",
+   "SC-WO01-014",
+   "SC-WO01-023",
+   "SC-WO02-002",
+   "SC-WO06-014",
+   "SC-WO06-020"
+  ],
+  "core_ids": [
+   "SC-TC06-003",
+   "SC-TC06-004",
+   "SC-TC06-009",
+   "SC-TC06-010",
+   "SC-TC06-011",
+   "SC-TC06-012",
+   "SC-TC06-014",
+   "SC-TC06-015",
+   "SC-TC06-019",
+   "SC-TC06-020",
+   "SC-TC06-021",
+   "SC-TC06-022",
+   "SC-TC06-025",
+   "SC-TC06-027",
+   "SC-TC06-056",
+   "SC-TC06-057",
+   "SC-TC06-058",
+   "SC-TC06-059",
+   "SC-TC06-060",
+   "SC-TC08-002",
+   "SC-TC08-004",
+   "SC-TC08-027",
+   "SC-TC08-028",
+   "SC-TC08-058",
+   "SC-TC08-059",
+   "SC-TC08-060",
+   "SC-TC08-061",
+   "SC-TC08-062",
+   "SC-TC08-063",
+   "SC-TC08-064",
+   "SC-TC08-066",
+   "SC-TC08-067",
+   "SC-TC08-068",
+   "SC-TC08-070",
+   "SC-TC08-071",
+   "SC-TC08-074",
+   "SC-TC08-075",
+   "SC-TC08-076",
+   "SC-TC08-078",
+   "SC-TC08-079",
+   "SC-TC08-080",
+   "SC-TC08-081",
+   "SC-TC08-082",
+   "SC-TC08-083",
+   "SC-TC08-085",
+   "SC-TC08-086",
+   "SC-TC08-089",
+   "SC-TC08-092",
+   "SC-TC08-093",
+   "SC-TC08-094",
+   "SC-TC08-095",
+   "SC-TC08-096",
+   "SC-TC08-098",
+   "SC-TC08-099",
+   "SC-TC08-100",
+   "SC-TC08-109",
+   "SC-TC08-116",
+   "SC-TC08-117",
+   "SC-TC08-119",
+   "SC-TC08-120",
+   "SC-TC08-121",
+   "SC-TC08-122",
+   "SC-TC08-123",
+   "SC-TC08-124",
+   "SC-TC08-125",
+   "SC-TC08-126",
+   "SC-TC08-141",
+   "SC-TC08-142",
+   "SC-WO01-023",
+   "SC-WO02-002",
+   "SC-WO06-014",
+   "SC-WO06-020"
+  ],
+  "sections": [
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "process",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-31",
+  "bucket": "evo-charge-clusters",
+  "size": 2,
+  "keywords": [
+   "gandurin",
+   "experimentally",
+   "appearance",
+   "mechanical",
+   "2017",
+   "st",
+   "experiment",
+   "electric-moment",
+   "petersburg",
+   "stimulated",
+   "designs",
+   "verified"
+  ],
+  "claim_ids": [
+   "SC-TC08-014",
+   "SC-TC08-029"
+  ],
+  "core_ids": [
+   "SC-TC08-014"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "experiment"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-32",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "fleming",
+   "hg",
+   "01",
+   "bulb",
+   "cylinder",
+   "filament",
+   "mm",
+   "air",
+   "two-electron",
+   "1904",
+   "fused",
+   "valves"
+  ],
+  "claim_ids": [
+   "SC-WO01-002"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-33",
+  "bucket": "evo-charge-clusters",
+  "size": 2,
+  "keywords": [
+   "contradiction",
+   "barrier",
+   "schottky",
+   "studied",
+   "prize",
+   "fowler",
+   "nordheim",
+   "fowler-nordheim",
+   "nobel",
+   "tunneling",
+   "1928",
+   "potential"
+  ],
+  "claim_ids": [
+   "SC-WO01-004",
+   "SC-WO01-019"
+  ],
+  "core_ids": [
+   "SC-WO01-019"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-34",
+  "bucket": "evo-charge-clusters",
+  "size": 8,
+  "keywords": [
+   "gravitational",
+   "exotic",
+   "quantum",
+   "sarfatti",
+   "orders",
+   "universe",
+   "phenomenon",
+   "shoulders",
+   "particles",
+   "cluster",
+   "ken",
+   "model"
+  ],
+  "claim_ids": [
+   "SC-WO01-034",
+   "SC-WO01-066",
+   "SC-WO01-067",
+   "SC-WO01-069",
+   "SC-WO01-070",
+   "SC-WO01-071",
+   "SC-WO01-072",
+   "SC-WO01-073"
+  ],
+  "core_ids": [
+   "SC-WO01-072",
+   "SC-WO01-073"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-35",
+  "bucket": "evo-charge-clusters",
+  "size": 2,
+  "keywords": [
+   "hamilton",
+   "mechanics",
+   "trajectories",
+   "full-pressure",
+   "generalized",
+   "conservation",
+   "bernoulli",
+   "equations",
+   "motion",
+   "history",
+   "exist",
+   "rewritten"
+  ],
+  "claim_ids": [
+   "SC-WO01-035",
+   "SC-WO01-036"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-36",
+  "bucket": "evo-charge-clusters",
+  "size": 4,
+  "keywords": [
+   "perpetual",
+   "machines",
+   "sciences",
+   "motion",
+   "century",
+   "inventors",
+   "academies",
+   "shoulders",
+   "generators",
+   "nature",
+   "ken",
+   "energy"
+  ],
+  "claim_ids": [
+   "SC-WO01-076",
+   "SC-WO01-078",
+   "SC-WO01-079",
+   "SC-WO05-010"
+  ],
+  "core_ids": [
+   "SC-WO01-078",
+   "SC-WO01-079"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-37",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "mills",
+   "hydrino",
+   "atom",
+   "states",
+   "hydrogen",
+   "randal",
+   "cold-fusion",
+   "especially",
+   "regarding",
+   "bohr",
+   "nonrelativistic",
+   "levels"
+  ],
+  "claim_ids": [
+   "SC-WO01-081"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-38",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "past",
+   "above-mentioned",
+   "repeated",
+   "alarming",
+   "adequacy",
+   "caveat",
+   "confidence",
+   "replication-failures",
+   "noted",
+   "decades",
+   "laboratories",
+   "countries"
+  ],
+  "claim_ids": [
+   "SC-WO01-088"
+  ],
+  "core_ids": [
+   "SC-WO01-088"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-39",
+  "bucket": "evo-charge-clusters",
+  "size": 3,
+  "keywords": [
+   "magnetism",
+   "science-intensive",
+   "physics",
+   "gravitation",
+   "electricity",
+   "canonical",
+   "recognition",
+   "sciences",
+   "object",
+   "technologies",
+   "discovery",
+   "scientific-technical"
+  ],
+  "claim_ids": [
+   "SC-WO04-004",
+   "SC-WO04-006",
+   "SC-WO04-008"
+  ],
+  "core_ids": [
+   "SC-WO04-006"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-40",
+  "bucket": "evo-charge-clusters",
+  "size": 1,
+  "keywords": [
+   "pounds",
+   "wheel",
+   "ft",
+   "bessler",
+   "feet",
+   "inches",
+   "revolutions",
+   "minute",
+   "lift",
+   "weight",
+   "rpm",
+   "lifting"
+  ],
+  "claim_ids": [
+   "SC-WO05-002"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "measurement"
+  ]
+ },
+ {
+  "cluster": "evo-charge-clusters-41",
+  "bucket": "evo-charge-clusters",
+  "size": 11,
+  "keywords": [
+   "promoting",
+   "technology",
+   "higher",
+   "creating",
+   "foundations",
+   "temperature",
+   "pressure",
+   "cluster",
+   "varicap",
+   "gas",
+   "balloon",
+   "electron"
+  ],
+  "claim_ids": [
+   "SC-WO06-001",
+   "SC-WO06-002",
+   "SC-WO06-003",
+   "SC-WO06-004",
+   "SC-WO06-008",
+   "SC-WO06-009",
+   "SC-WO06-010",
+   "SC-WO06-015",
+   "SC-WO06-017",
+   "SC-WO06-018",
+   "SC-WO06-023"
+  ],
+  "core_ids": [
+   "SC-WO06-002",
+   "SC-WO06-003",
+   "SC-WO06-004",
+   "SC-WO06-009",
+   "SC-WO06-010",
+   "SC-WO06-015",
+   "SC-WO06-017",
+   "SC-WO06-018",
+   "SC-WO06-023"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "procedure",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-01",
+  "bucket": "electrical-devices",
+  "size": 152,
+  "keywords": [
+   "energy",
+   "instability",
+   "electric",
+   "circuit",
+   "modulation",
+   "electrometer",
+   "oscillations",
+   "excess",
+   "testatika",
+   "capacitance",
+   "charge",
+   "harmonic"
+  ],
+  "claim_ids": [
+   "SC-AR06-001",
+   "SC-AR06-002",
+   "SC-AR06-003",
+   "SC-AR06-004",
+   "SC-AR06-005",
+   "SC-AR06-006",
+   "SC-AR06-007",
+   "SC-AR06-008",
+   "SC-AR06-009",
+   "SC-AR06-010",
+   "SC-AR06-011",
+   "SC-AR06-012",
+   "SC-AR06-013",
+   "SC-AR06-014",
+   "SC-AR06-015",
+   "SC-AR06-016",
+   "SC-AR06-017",
+   "SC-AR06-018",
+   "SC-AR06-019",
+   "SC-AR06-020",
+   "SC-AR06-021",
+   "SC-AR06-022",
+   "SC-AR06-023",
+   "SC-AR06-024",
+   "SC-AR06-025",
+   "SC-AR06-026",
+   "SC-AR06-027",
+   "SC-AR06-028",
+   "SC-AR06-029",
+   "SC-AR06-030",
+   "SC-BR04-002",
+   "SC-BR04-003",
+   "SC-BR04-004",
+   "SC-BR04-006",
+   "SC-BR04-007",
+   "SC-BR04-008",
+   "SC-BR04-009",
+   "SC-BR04-010",
+   "SC-BR04-011",
+   "SC-BR04-012",
+   "SC-BR04-013",
+   "SC-BR04-014",
+   "SC-BR04-015",
+   "SC-BR04-016",
+   "SC-BR04-017",
+   "SC-BR04-019",
+   "SC-BR04-024",
+   "SC-BR04-026",
+   "SC-BR04-029",
+   "SC-BR04-030",
+   "SC-BR04-031",
+   "SC-BR04-034",
+   "SC-BR04-035",
+   "SC-SI02-030",
+   "SC-SI02-031",
+   "SC-SI02-032",
+   "SC-SI02-033",
+   "SC-SI03-014",
+   "SC-SI03-015",
+   "SC-SI05-005",
+   "SC-SI06-013",
+   "SC-SI06-014",
+   "SC-SI09-003",
+   "SC-SI09-004",
+   "SC-SI09-011",
+   "SC-SI09-012",
+   "SC-SI10-005",
+   "SC-SI10-014",
+   "SC-SI10-016",
+   "SC-TC02-001",
+   "SC-TC02-013",
+   "SC-TC02-014",
+   "SC-TC02-028",
+   "SC-TC02-029",
+   "SC-TC02-031",
+   "SC-TC02-049",
+   "SC-TC02-065",
+   "SC-TC03-006",
+   "SC-TC03-017",
+   "SC-TC03-028",
+   "SC-TC03-029",
+   "SC-TC03-030",
+   "SC-TC05-006",
+   "SC-TC05-026",
+   "SC-TC05-027",
+   "SC-TC05-028",
+   "SC-TC07-001",
+   "SC-TC07-002",
+   "SC-TC07-003",
+   "SC-TC07-004",
+   "SC-TC07-006",
+   "SC-TC07-007",
+   "SC-TC07-008",
+   "SC-TC07-009",
+   "SC-TC07-010",
+   "SC-TC07-012",
+   "SC-TC07-013",
+   "SC-TC07-017",
+   "SC-TC07-019",
+   "SC-TC07-021",
+   "SC-TC07-022",
+   "SC-TC07-023",
+   "SC-TC07-024",
+   "SC-TC07-025",
+   "SC-TC07-026",
+   "SC-TC07-027",
+   "SC-TC07-028",
+   "SC-TC07-029",
+   "SC-TE03-001",
+   "SC-TE03-002",
+   "SC-TE03-003",
+   "SC-TE03-004",
+   "SC-TE03-005",
+   "SC-TE03-006",
+   "SC-TE03-007",
+   "SC-TE03-008",
+   "SC-TE03-009",
+   "SC-TE06-001",
+   "SC-TE06-002",
+   "SC-TE06-003",
+   "SC-TE06-004",
+   "SC-TE06-005",
+   "SC-TE06-006",
+   "SC-TE06-007",
+   "SC-TE06-008",
+   "SC-TE06-009",
+   "SC-TE06-010",
+   "SC-TE06-011",
+   "SC-TE06-012",
+   "SC-TE11-001",
+   "SC-TE11-002",
+   "SC-TE11-003",
+   "SC-TE11-004",
+   "SC-TE11-005",
+   "SC-TE11-006",
+   "SC-WO02-017",
+   "SC-WO02-018",
+   "SC-WO02-020",
+   "SC-WO03-012",
+   "SC-WO03-013",
+   "SC-WO03-017",
+   "SC-WO03-019",
+   "SC-WO03-022",
+   "SC-WO05-018",
+   "SC-WO05-019",
+   "SC-WO05-022",
+   "SC-WO05-025",
+   "SC-WO05-026",
+   "SC-WO05-027",
+   "SC-WO05-029",
+   "SC-WO05-032",
+   "SC-WO07-008"
+  ],
+  "core_ids": [
+   "SC-AR06-001",
+   "SC-AR06-002",
+   "SC-AR06-003",
+   "SC-AR06-004",
+   "SC-AR06-006",
+   "SC-AR06-007",
+   "SC-AR06-009",
+   "SC-AR06-021",
+   "SC-AR06-024",
+   "SC-AR06-025",
+   "SC-AR06-026",
+   "SC-AR06-027",
+   "SC-AR06-030",
+   "SC-BR04-002",
+   "SC-BR04-007",
+   "SC-BR04-008",
+   "SC-BR04-009",
+   "SC-BR04-010",
+   "SC-BR04-011",
+   "SC-BR04-013",
+   "SC-BR04-014",
+   "SC-BR04-015",
+   "SC-BR04-016",
+   "SC-BR04-017",
+   "SC-BR04-024",
+   "SC-BR04-026",
+   "SC-BR04-030",
+   "SC-BR04-035",
+   "SC-SI02-030",
+   "SC-SI02-031",
+   "SC-SI02-032",
+   "SC-SI02-033",
+   "SC-SI03-014",
+   "SC-SI03-015",
+   "SC-SI05-005",
+   "SC-SI06-013",
+   "SC-SI06-014",
+   "SC-SI09-003",
+   "SC-SI09-004",
+   "SC-SI10-005",
+   "SC-SI10-014",
+   "SC-TC02-001",
+   "SC-TC02-013",
+   "SC-TC02-014",
+   "SC-TC02-028",
+   "SC-TC02-029",
+   "SC-TC02-031",
+   "SC-TC02-049",
+   "SC-TC02-065",
+   "SC-TC03-006",
+   "SC-TC03-017",
+   "SC-TC03-028",
+   "SC-TC03-030",
+   "SC-TC05-006",
+   "SC-TC05-026",
+   "SC-TC05-028",
+   "SC-TC07-001",
+   "SC-TC07-002",
+   "SC-TC07-006",
+   "SC-TC07-007",
+   "SC-TC07-009",
+   "SC-TC07-010",
+   "SC-TC07-012",
+   "SC-TC07-017",
+   "SC-TC07-021",
+   "SC-TC07-022",
+   "SC-TC07-023",
+   "SC-TC07-025",
+   "SC-TC07-026",
+   "SC-TC07-027",
+   "SC-TC07-028",
+   "SC-WO02-017",
+   "SC-WO02-018",
+   "SC-WO02-020",
+   "SC-WO03-012",
+   "SC-WO03-013",
+   "SC-WO03-017",
+   "SC-WO03-019",
+   "SC-WO03-022",
+   "SC-WO05-018",
+   "SC-WO05-019",
+   "SC-WO05-022",
+   "SC-WO05-025",
+   "SC-WO05-027",
+   "SC-WO05-032",
+   "SC-WO07-008"
+  ],
+  "sections": [
+   "articles",
+   "brochure",
+   "site",
+   "teaching",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "process",
+   "recipe",
+   "schematic",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-02",
+  "bucket": "electrical-devices",
+  "size": 9,
+  "keywords": [
+   "patent",
+   "planar",
+   "inductance",
+   "ru",
+   "planar-inductance",
+   "range",
+   "film",
+   "non-inverting",
+   "extended",
+   "metal",
+   "frequency",
+   "c1"
+  ],
+  "claim_ids": [
+   "SC-AR07-037",
+   "SC-PA01-001",
+   "SC-PA01-003",
+   "SC-PA01-005",
+   "SC-PA02-001",
+   "SC-PA02-005",
+   "SC-PA03-001",
+   "SC-SI07-001",
+   "SC-SI07-002"
+  ],
+  "core_ids": [
+   "SC-AR07-037"
+  ],
+  "sections": [
+   "articles",
+   "patents",
+   "site"
+  ],
+  "facets": [
+   "material",
+   "recipe",
+   "schematic",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-03",
+  "bucket": "electrical-devices",
+  "size": 15,
+  "keywords": [
+   "cathode",
+   "electron",
+   "gradient",
+   "injector",
+   "aperture",
+   "field-emission",
+   "angular",
+   "force",
+   "field",
+   "pressure",
+   "core",
+   "electrons"
+  ],
+  "claim_ids": [
+   "SC-BR02-004",
+   "SC-BR02-005",
+   "SC-BR02-009",
+   "SC-BR02-010",
+   "SC-BR02-012",
+   "SC-BR02-013",
+   "SC-BR02-014",
+   "SC-BR02-015",
+   "SC-BR02-022",
+   "SC-BR02-028",
+   "SC-BR02-030",
+   "SC-BR02-031",
+   "SC-TC03-016",
+   "SC-TC05-016",
+   "SC-TC07-020"
+  ],
+  "core_ids": [
+   "SC-BR02-004",
+   "SC-BR02-005",
+   "SC-BR02-012",
+   "SC-BR02-014",
+   "SC-BR02-015",
+   "SC-BR02-022",
+   "SC-BR02-028",
+   "SC-BR02-030",
+   "SC-BR02-031",
+   "SC-TC03-016",
+   "SC-TC05-016",
+   "SC-TC07-020"
+  ],
+  "sections": [
+   "brochure",
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "material",
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-04",
+  "bucket": "electrical-devices",
+  "size": 36,
+  "keywords": [
+   "temperature",
+   "thermoelectron",
+   "emf",
+   "gas",
+   "gradient",
+   "dc",
+   "based",
+   "converting",
+   "principle",
+   "sources",
+   "physical",
+   "authors"
+  ],
+  "claim_ids": [
+   "SC-BR03-001",
+   "SC-BR03-002",
+   "SC-BR03-003",
+   "SC-BR03-004",
+   "SC-BR03-005",
+   "SC-BR03-006",
+   "SC-BR03-007",
+   "SC-BR03-008",
+   "SC-BR03-009",
+   "SC-BR03-010",
+   "SC-BR03-012",
+   "SC-BR03-013",
+   "SC-BR03-014",
+   "SC-BR03-015",
+   "SC-BR03-016",
+   "SC-BR03-017",
+   "SC-BR03-018",
+   "SC-BR03-019",
+   "SC-BR03-020",
+   "SC-BR03-021",
+   "SC-BR03-022",
+   "SC-BR03-023",
+   "SC-BR03-024",
+   "SC-BR03-025",
+   "SC-BR03-026",
+   "SC-BR03-027",
+   "SC-BR03-028",
+   "SC-BR03-030",
+   "SC-DI02-004",
+   "SC-DI02-006",
+   "SC-DI02-015",
+   "SC-MO02-017",
+   "SC-SI03-005",
+   "SC-SI03-007",
+   "SC-SI03-008",
+   "SC-SI05-001"
+  ],
+  "core_ids": [
+   "SC-BR03-014",
+   "SC-BR03-017",
+   "SC-BR03-021",
+   "SC-BR03-022",
+   "SC-BR03-023",
+   "SC-BR03-024",
+   "SC-BR03-027",
+   "SC-BR03-028",
+   "SC-DI02-004",
+   "SC-DI02-015",
+   "SC-MO02-017",
+   "SC-SI03-005",
+   "SC-SI03-008",
+   "SC-SI05-001"
+  ],
+  "sections": [
+   "brochure",
+   "dissertation",
+   "monography",
+   "site"
+  ],
+  "facets": [
+   "experiment",
+   "material",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "process",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-05",
+  "bucket": "electrical-devices",
+  "size": 3,
+  "keywords": [
+   "laue",
+   "equation",
+   "emden",
+   "equilibrium",
+   "retention",
+   "history",
+   "self-consistent",
+   "solutions",
+   "like",
+   "condition",
+   "fundamental",
+   "fields"
+  ],
+  "claim_ids": [
+   "SC-DI01-003",
+   "SC-DI02-018",
+   "SC-WO04-016"
+  ],
+  "core_ids": [],
+  "sections": [
+   "dissertation",
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-06",
+  "bucket": "electrical-devices",
+  "size": 4,
+  "keywords": [
+   "inductance",
+   "inductances",
+   "integrated",
+   "frequency",
+   "layers",
+   "symmetry",
+   "high",
+   "film",
+   "negative",
+   "10",
+   "negative-inductance",
+   "nh"
+  ],
+  "claim_ids": [
+   "SC-MO01-004",
+   "SC-MO01-007",
+   "SC-MO01-012",
+   "SC-MO01-018"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "recipe"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-07",
+  "bucket": "electrical-devices",
+  "size": 2,
+  "keywords": [
+   "btg",
+   "archimedes",
+   "fuel-free",
+   "jump",
+   "rossi-focardi",
+   "beletsky",
+   "generators",
+   "motion",
+   "machine",
+   "dome-shaped",
+   "floats",
+   "trajectory"
+  ],
+  "claim_ids": [
+   "SC-PM01-011",
+   "SC-TC01-019"
+  ],
+  "core_ids": [
+   "SC-PM01-011",
+   "SC-TC01-019"
+  ],
+  "sections": [
+   "perpetual_motion",
+   "technologies"
+  ],
+  "facets": [
+   "phenomenology",
+   "recipe"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-08",
+  "bucket": "electrical-devices",
+  "size": 109,
+  "keywords": [
+   "displacement",
+   "maxwell",
+   "current",
+   "power",
+   "capacitor",
+   "induction",
+   "conversion",
+   "energy",
+   "super-unity",
+   "law",
+   "electrical",
+   "dipole"
+  ],
+  "claim_ids": [
+   "SC-SI01-018",
+   "SC-SI01-019",
+   "SC-SI01-021",
+   "SC-SI03-006",
+   "SC-SI09-002",
+   "SC-SI10-006",
+   "SC-SI10-007",
+   "SC-SI10-015",
+   "SC-SI10-024",
+   "SC-TC02-002",
+   "SC-TC02-005",
+   "SC-TC02-007",
+   "SC-TC02-008",
+   "SC-TC02-009",
+   "SC-TC02-016",
+   "SC-TC02-022",
+   "SC-TC02-023",
+   "SC-TC02-024",
+   "SC-TC02-025",
+   "SC-TC02-026",
+   "SC-TC02-027",
+   "SC-TC02-030",
+   "SC-TC02-041",
+   "SC-TC02-043",
+   "SC-TC02-044",
+   "SC-TC02-047",
+   "SC-TC02-050",
+   "SC-TC02-053",
+   "SC-TC02-054",
+   "SC-TC02-056",
+   "SC-TC02-057",
+   "SC-TC02-058",
+   "SC-TC02-059",
+   "SC-TC02-062",
+   "SC-TC02-063",
+   "SC-TC02-067",
+   "SC-TC02-068",
+   "SC-TC03-007",
+   "SC-TC03-008",
+   "SC-TC03-009",
+   "SC-TC03-012",
+   "SC-TC03-014",
+   "SC-TC03-018",
+   "SC-TC03-019",
+   "SC-TC03-020",
+   "SC-TC03-021",
+   "SC-TC03-022",
+   "SC-TC03-023",
+   "SC-TC03-024",
+   "SC-TC03-032",
+   "SC-TC03-034",
+   "SC-TC03-035",
+   "SC-TC03-037",
+   "SC-TC05-007",
+   "SC-TC05-008",
+   "SC-TC05-009",
+   "SC-TC05-010",
+   "SC-TC05-011",
+   "SC-TC05-012",
+   "SC-TC05-013",
+   "SC-TC05-014",
+   "SC-TC05-017",
+   "SC-TC05-018",
+   "SC-TC05-019",
+   "SC-TC05-020",
+   "SC-TC05-021",
+   "SC-TC05-022",
+   "SC-TC05-029",
+   "SC-TC05-030",
+   "SC-TC05-031",
+   "SC-TC05-032",
+   "SC-TC05-033",
+   "SC-TC05-034",
+   "SC-TC05-035",
+   "SC-TC05-036",
+   "SC-TC05-037",
+   "SC-TC05-039",
+   "SC-TC05-040",
+   "SC-TC05-041",
+   "SC-TC05-042",
+   "SC-TC05-045",
+   "SC-TC05-046",
+   "SC-TC05-047",
+   "SC-TC05-048",
+   "SC-TC07-005",
+   "SC-WO02-003",
+   "SC-WO02-004",
+   "SC-WO02-006",
+   "SC-WO02-007",
+   "SC-WO02-008",
+   "SC-WO02-009",
+   "SC-WO02-010",
+   "SC-WO02-011",
+   "SC-WO02-014",
+   "SC-WO02-015",
+   "SC-WO02-016",
+   "SC-WO02-019",
+   "SC-WO02-021",
+   "SC-WO02-023",
+   "SC-WO02-024",
+   "SC-WO03-023",
+   "SC-WO03-024",
+   "SC-WO03-026",
+   "SC-WO04-028",
+   "SC-WO05-023",
+   "SC-WO07-004",
+   "SC-WO07-010",
+   "SC-WO07-011",
+   "SC-WO07-012"
+  ],
+  "core_ids": [
+   "SC-SI01-018",
+   "SC-SI01-019",
+   "SC-SI01-021",
+   "SC-SI03-006",
+   "SC-SI09-002",
+   "SC-SI10-006",
+   "SC-SI10-007",
+   "SC-SI10-015",
+   "SC-SI10-024",
+   "SC-TC02-002",
+   "SC-TC02-005",
+   "SC-TC02-007",
+   "SC-TC02-008",
+   "SC-TC02-009",
+   "SC-TC02-016",
+   "SC-TC02-022",
+   "SC-TC02-023",
+   "SC-TC02-024",
+   "SC-TC02-025",
+   "SC-TC02-026",
+   "SC-TC02-027",
+   "SC-TC02-030",
+   "SC-TC02-041",
+   "SC-TC02-043",
+   "SC-TC02-044",
+   "SC-TC02-047",
+   "SC-TC02-050",
+   "SC-TC02-053",
+   "SC-TC02-054",
+   "SC-TC02-056",
+   "SC-TC02-057",
+   "SC-TC02-058",
+   "SC-TC02-059",
+   "SC-TC02-062",
+   "SC-TC02-063",
+   "SC-TC02-067",
+   "SC-TC02-068",
+   "SC-TC03-007",
+   "SC-TC03-008",
+   "SC-TC03-009",
+   "SC-TC03-012",
+   "SC-TC03-014",
+   "SC-TC03-018",
+   "SC-TC03-019",
+   "SC-TC03-020",
+   "SC-TC03-021",
+   "SC-TC03-022",
+   "SC-TC03-023",
+   "SC-TC03-024",
+   "SC-TC03-032",
+   "SC-TC03-034",
+   "SC-TC03-035",
+   "SC-TC03-037",
+   "SC-TC05-007",
+   "SC-TC05-008",
+   "SC-TC05-009",
+   "SC-TC05-010",
+   "SC-TC05-011",
+   "SC-TC05-012",
+   "SC-TC05-014",
+   "SC-TC05-017",
+   "SC-TC05-018",
+   "SC-TC05-019",
+   "SC-TC05-020",
+   "SC-TC05-021",
+   "SC-TC05-030",
+   "SC-TC05-031",
+   "SC-TC05-032",
+   "SC-TC05-034",
+   "SC-TC05-036",
+   "SC-TC05-037",
+   "SC-TC05-045",
+   "SC-TC05-046",
+   "SC-TC05-047",
+   "SC-TC05-048",
+   "SC-TC07-005",
+   "SC-WO02-003",
+   "SC-WO02-004",
+   "SC-WO02-006",
+   "SC-WO02-007",
+   "SC-WO02-011",
+   "SC-WO02-014",
+   "SC-WO02-015",
+   "SC-WO02-019",
+   "SC-WO02-021",
+   "SC-WO02-023",
+   "SC-WO03-023",
+   "SC-WO03-024",
+   "SC-WO03-026",
+   "SC-WO04-028",
+   "SC-WO05-023",
+   "SC-WO07-004",
+   "SC-WO07-010",
+   "SC-WO07-011",
+   "SC-WO07-012"
+  ],
+  "sections": [
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "material",
+   "measurement",
+   "phenomenology",
+   "procedure",
+   "process",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-09",
+  "bucket": "electrical-devices",
+  "size": 2,
+  "keywords": [
+   "schematic",
+   "proposes",
+   "kodm",
+   "store",
+   "vacuum-charge-store",
+   "sapogin",
+   "over-unity",
+   "brochures",
+   "demand",
+   "oscillating-dipole",
+   "notes",
+   "aperture"
+  ],
+  "claim_ids": [
+   "SC-SI03-011",
+   "SC-SI11-006"
+  ],
+  "core_ids": [
+   "SC-SI03-011",
+   "SC-SI11-006"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "schematic"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-10",
+  "bucket": "electrical-devices",
+  "size": 12,
+  "keywords": [
+   "breakthrough",
+   "bluff",
+   "electricity",
+   "personal",
+   "technologies",
+   "inexhaustible",
+   "sources",
+   "electrical",
+   "charge-separation",
+   "capacitor",
+   "plates",
+   "plasma"
+  ],
+  "claim_ids": [
+   "SC-SI03-017",
+   "SC-TC01-007",
+   "SC-TC01-020",
+   "SC-TC01-022",
+   "SC-TC01-023",
+   "SC-TC01-027",
+   "SC-TC01-029",
+   "SC-TC01-030",
+   "SC-TC01-031",
+   "SC-TC01-032",
+   "SC-TC01-033",
+   "SC-TC01-034"
+  ],
+  "core_ids": [
+   "SC-SI03-017",
+   "SC-TC01-007",
+   "SC-TC01-020",
+   "SC-TC01-027",
+   "SC-TC01-029",
+   "SC-TC01-030",
+   "SC-TC01-032",
+   "SC-TC01-033",
+   "SC-TC01-034"
+  ],
+  "sections": [
+   "site",
+   "technologies"
+  ],
+  "facets": [
+   "measurement",
+   "phenomenology",
+   "process",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-11",
+  "bucket": "electrical-devices",
+  "size": 3,
+  "keywords": [
+   "plasmoids",
+   "kholoshenko",
+   "lectures",
+   "electrophysics",
+   "discharge",
+   "vacuum-capacitor",
+   "lecture",
+   "pulsed",
+   "vc",
+   "covers",
+   "explosive",
+   "sapogin"
+  ],
+  "claim_ids": [
+   "SC-SI05-007",
+   "SC-SI05-009",
+   "SC-SI05-015"
+  ],
+  "core_ids": [
+   "SC-SI05-007",
+   "SC-SI05-009",
+   "SC-SI05-015"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-12",
+  "bucket": "electrical-devices",
+  "size": 9,
+  "keywords": [
+   "graphene",
+   "thibado",
+   "generator",
+   "professor",
+   "perpetual",
+   "physical",
+   "energy",
+   "film",
+   "static",
+   "external",
+   "proposed",
+   "fluctuation-induced"
+  ],
+  "claim_ids": [
+   "SC-SI11-001",
+   "SC-SI11-007",
+   "SC-WO02-001",
+   "SC-WO02-005",
+   "SC-WO02-012",
+   "SC-WO02-013",
+   "SC-WO02-022",
+   "SC-WO02-025",
+   "SC-WO07-001"
+  ],
+  "core_ids": [
+   "SC-SI11-001",
+   "SC-SI11-007",
+   "SC-WO02-001",
+   "SC-WO02-005",
+   "SC-WO02-013",
+   "SC-WO02-022",
+   "SC-WO02-025",
+   "SC-WO07-001"
+  ],
+  "sections": [
+   "site",
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-13",
+  "bucket": "electrical-devices",
+  "size": 1,
+  "keywords": [
+   "explosive",
+   "conductor",
+   "new",
+   "wire",
+   "billions",
+   "dollars",
+   "invested",
+   "get",
+   "rid",
+   "bypass",
+   "hypothesis",
+   "dead"
+  ],
+  "claim_ids": [
+   "SC-TC04-016"
+  ],
+  "core_ids": [
+   "SC-TC04-016"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-14",
+  "bucket": "electrical-devices",
+  "size": 2,
+  "keywords": [
+   "indicator",
+   "radiation",
+   "em-radiation",
+   "em",
+   "intensity",
+   "led",
+   "experience",
+   "lights",
+   "investigating",
+   "homemade",
+   "acceleration",
+   "author"
+  ],
+  "claim_ids": [
+   "SC-TE07-002",
+   "SC-TE07-008"
+  ],
+  "core_ids": [],
+  "sections": [
+   "teaching"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-15",
+  "bucket": "electrical-devices",
+  "size": 2,
+  "keywords": [
+   "rotation",
+   "storage",
+   "allow",
+   "mechanical",
+   "measuring",
+   "obtained",
+   "panegyric",
+   "relations",
+   "parameters",
+   "electric",
+   "personal",
+   "immobile"
+  ],
+  "claim_ids": [
+   "SC-WO05-017",
+   "SC-WO05-031"
+  ],
+  "core_ids": [
+   "SC-WO05-031"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "procedure",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "electrical-devices-16",
+  "bucket": "electrical-devices",
+  "size": 5,
+  "keywords": [
+   "film",
+   "nanoscale",
+   "varicaps",
+   "nm",
+   "application",
+   "properties",
+   "plate",
+   "capacitance",
+   "double",
+   "voltage",
+   "physical",
+   "structure"
+  ],
+  "claim_ids": [
+   "SC-WO07-002",
+   "SC-WO07-003",
+   "SC-WO07-006",
+   "SC-WO07-007",
+   "SC-WO07-009"
+  ],
+  "core_ids": [
+   "SC-WO07-002",
+   "SC-WO07-003",
+   "SC-WO07-006",
+   "SC-WO07-007",
+   "SC-WO07-009"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-01",
+  "bucket": "general",
+  "size": 9,
+  "keywords": [
+   "arrow",
+   "excess",
+   "mechanism",
+   "self-rotating",
+   "generation",
+   "electric",
+   "authors",
+   "energy",
+   "mm",
+   "assert",
+   "breakdown",
+   "electrical-path"
+  ],
+  "claim_ids": [
+   "SC-BR04-001",
+   "SC-BR04-005",
+   "SC-BR04-018",
+   "SC-BR04-020",
+   "SC-BR04-022",
+   "SC-BR04-023",
+   "SC-BR04-025",
+   "SC-BR04-028",
+   "SC-WO05-001"
+  ],
+  "core_ids": [
+   "SC-BR04-001",
+   "SC-BR04-018",
+   "SC-BR04-022",
+   "SC-BR04-023",
+   "SC-BR04-025",
+   "SC-WO05-001"
+  ],
+  "sections": [
+   "brochure",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "recipe",
+   "schematic",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-02",
+  "bucket": "general",
+  "size": 14,
+  "keywords": [
+   "self-consistent",
+   "field",
+   "retention",
+   "charge",
+   "system",
+   "pressure",
+   "mechanisms",
+   "states",
+   "total",
+   "matter",
+   "equilibrium",
+   "dissertation"
+  ],
+  "claim_ids": [
+   "SC-DI01-005",
+   "SC-DI01-006",
+   "SC-DI01-011",
+   "SC-DI01-012",
+   "SC-DI01-021",
+   "SC-DI01-022",
+   "SC-DI02-003",
+   "SC-DI02-007",
+   "SC-DI02-014",
+   "SC-DI02-019",
+   "SC-MO02-013",
+   "SC-SI02-001",
+   "SC-SI04-008",
+   "SC-SI08-002"
+  ],
+  "core_ids": [
+   "SC-DI01-005",
+   "SC-DI01-021",
+   "SC-DI01-022"
+  ],
+  "sections": [
+   "dissertation",
+   "monography",
+   "site"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-03",
+  "bucket": "general",
+  "size": 1,
+  "keywords": [
+   "25",
+   "420",
+   "81",
+   "24",
+   "2003",
+   "102",
+   "defense",
+   "university",
+   "16",
+   "dissertation",
+   "formal",
+   "seven"
+  ],
+  "claim_ids": [
+   "SC-DI01-023"
+  ],
+  "core_ids": [],
+  "sections": [
+   "dissertation"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-04",
+  "bucket": "general",
+  "size": 2,
+  "keywords": [
+   "l2",
+   "cm",
+   "t2",
+   "estimates",
+   "kv",
+   "distance",
+   "relativistic",
+   "ps",
+   "35",
+   "section",
+   "potential",
+   "like-charge"
+  ],
+  "claim_ids": [
+   "SC-DI02-005",
+   "SC-MO02-008"
+  ],
+  "core_ids": [],
+  "sections": [
+   "dissertation",
+   "monography"
+  ],
+  "facets": [
+   "measurement"
+  ]
+ },
+ {
+  "cluster": "general-05",
+  "bucket": "general",
+  "size": 10,
+  "keywords": [
+   "inductances",
+   "inductors",
+   "inductance",
+   "multilayer",
+   "high",
+   "monographs",
+   "layers",
+   "nh",
+   "negative",
+   "10",
+   "density",
+   "positive"
+  ],
+  "claim_ids": [
+   "SC-MO01-001",
+   "SC-MO01-005",
+   "SC-MO01-010",
+   "SC-MO01-013",
+   "SC-MO01-015",
+   "SC-SI06-005",
+   "SC-SI06-007",
+   "SC-SI06-008",
+   "SC-SI06-009",
+   "SC-SI06-010"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography",
+   "site"
+  ],
+  "facets": [
+   "measurement",
+   "procedure",
+   "process",
+   "schematic",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-06",
+  "bucket": "general",
+  "size": 2,
+  "keywords": [
+   "lines",
+   "transverse",
+   "tied",
+   "flux",
+   "current-density",
+   "region",
+   "part",
+   "inductance",
+   "field",
+   "current",
+   "integrated",
+   "high"
+  ],
+  "claim_ids": [
+   "SC-MO01-006",
+   "SC-MO01-017"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-07",
+  "bucket": "general",
+  "size": 2,
+  "keywords": [
+   "atmosphere",
+   "internal",
+   "external",
+   "charge",
+   "atmospheres",
+   "height",
+   "concentration",
+   "isotropy",
+   "tip",
+   "ball",
+   "shell",
+   "hardness"
+  ],
+  "claim_ids": [
+   "SC-MO02-001",
+   "SC-MO02-002"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "general-08",
+  "bucket": "general",
+  "size": 15,
+  "keywords": [
+   "inductance",
+   "patent",
+   "planar",
+   "ru",
+   "h2",
+   "range",
+   "claim",
+   "c1",
+   "frequency",
+   "50",
+   "electrical",
+   "film"
+  ],
+  "claim_ids": [
+   "SC-PA01-002",
+   "SC-PA01-004",
+   "SC-PA01-006",
+   "SC-PA02-002",
+   "SC-PA02-003",
+   "SC-PA02-004",
+   "SC-PA03-002",
+   "SC-PA03-003",
+   "SC-PA03-004",
+   "SC-PA03-005",
+   "SC-PA03-006",
+   "SC-PA03-007",
+   "SC-PA03-008",
+   "SC-PA03-009",
+   "SC-SI06-006"
+  ],
+  "core_ids": [],
+  "sections": [
+   "patents",
+   "site"
+  ],
+  "facets": [
+   "material",
+   "measurement",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-09",
+  "bucket": "general",
+  "size": 18,
+  "keywords": [
+   "breakthrough",
+   "electricity",
+   "bluff",
+   "stokes",
+   "technologies",
+   "motion",
+   "personal",
+   "inexhaustible",
+   "sources",
+   "perpetual",
+   "power",
+   "machine"
+  ],
+  "claim_ids": [
+   "SC-PM01-001",
+   "SC-PM01-004",
+   "SC-PM01-006",
+   "SC-PM01-007",
+   "SC-PM01-009",
+   "SC-PM01-017",
+   "SC-SI08-001",
+   "SC-TC01-001",
+   "SC-TC01-012",
+   "SC-TC01-014",
+   "SC-TC01-015",
+   "SC-TC01-016",
+   "SC-TC01-017",
+   "SC-TC01-021",
+   "SC-TC01-024",
+   "SC-TC01-025",
+   "SC-TC01-035",
+   "SC-WO05-028"
+  ],
+  "core_ids": [
+   "SC-PM01-001",
+   "SC-PM01-006",
+   "SC-PM01-007",
+   "SC-PM01-017",
+   "SC-SI08-001",
+   "SC-TC01-001",
+   "SC-TC01-012",
+   "SC-TC01-015",
+   "SC-TC01-016",
+   "SC-TC01-017",
+   "SC-TC01-021",
+   "SC-TC01-025",
+   "SC-TC01-035",
+   "SC-WO05-028"
+  ],
+  "sections": [
+   "perpetual_motion",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-10",
+  "bucket": "general",
+  "size": 3,
+  "keywords": [
+   "selected",
+   "articles",
+   "scientific",
+   "sivashinsky",
+   "sapogin",
+   "frequencies",
+   "characteristic",
+   "electrical-path",
+   "investigates",
+   "prospective",
+   "planar-inductance",
+   "inductance"
+  ],
+  "claim_ids": [
+   "SC-SI02-011",
+   "SC-SI02-014",
+   "SC-SI02-015"
+  ],
+  "core_ids": [
+   "SC-SI02-014",
+   "SC-SI02-015"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-11",
+  "bucket": "general",
+  "size": 5,
+  "keywords": [
+   "over-unity",
+   "energy",
+   "sapogin",
+   "electrical-path",
+   "brochures",
+   "closed-loop",
+   "closed-loop-energy-chain",
+   "electric",
+   "proposes",
+   "chain",
+   "source",
+   "ac"
+  ],
+  "claim_ids": [
+   "SC-SI03-013",
+   "SC-SI03-016",
+   "SC-SI09-005",
+   "SC-SI10-008",
+   "SC-SI11-008"
+  ],
+  "core_ids": [
+   "SC-SI03-013",
+   "SC-SI03-016",
+   "SC-SI09-005",
+   "SC-SI10-008",
+   "SC-SI11-008"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "phenomenology",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-12",
+  "bucket": "general",
+  "size": 3,
+  "keywords": [
+   "lectures",
+   "electrophysics",
+   "sapogin",
+   "innovative",
+   "edi-law",
+   "asserts",
+   "electrical-path",
+   "capacitance",
+   "engineering",
+   "displacement-current",
+   "mechanical",
+   "total"
+  ],
+  "claim_ids": [
+   "SC-SI05-003",
+   "SC-SI05-004",
+   "SC-SI05-010"
+  ],
+  "core_ids": [
+   "SC-SI05-003",
+   "SC-SI05-004"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "experiment",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-13",
+  "bucket": "general",
+  "size": 1,
+  "keywords": [
+   "spatial",
+   "scale",
+   "layer",
+   "thickness",
+   "twice",
+   "layer-thickness",
+   "equals",
+   "determined",
+   "geometry",
+   "perpetual",
+   "principle",
+   "motion"
+  ],
+  "claim_ids": [
+   "SC-SI08-003"
+  ],
+  "core_ids": [],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "geometry"
+  ]
+ },
+ {
+  "cluster": "general-14",
+  "bucket": "general",
+  "size": 2,
+  "keywords": [
+   "atamanchenko",
+   "two",
+   "experiment",
+   "15000",
+   "through",
+   "years",
+   "500",
+   "schoolteacher",
+   "enriched",
+   "tin",
+   "five",
+   "fundamental-laws"
+  ],
+  "claim_ids": [
+   "SC-SI09-001",
+   "SC-TC04-023"
+  ],
+  "core_ids": [
+   "SC-SI09-001",
+   "SC-TC04-023"
+  ],
+  "sections": [
+   "site",
+   "technologies"
+  ],
+  "facets": [
+   "measurement",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-15",
+  "bucket": "general",
+  "size": 16,
+  "keywords": [
+   "ring",
+   "currents",
+   "ring-currents",
+   "superconductivity",
+   "armageddon",
+   "nano-technologies",
+   "ampere-foucault",
+   "approach",
+   "temperature",
+   "teaching",
+   "lifetime",
+   "nm"
+  ],
+  "claim_ids": [
+   "SC-SI09-006",
+   "SC-SI09-007",
+   "SC-SI09-008",
+   "SC-SI09-009",
+   "SC-SI09-010",
+   "SC-SI10-004",
+   "SC-TC04-004",
+   "SC-TC04-017",
+   "SC-TC04-018",
+   "SC-TC04-019",
+   "SC-TC04-020",
+   "SC-TC04-021",
+   "SC-TC04-022",
+   "SC-TC04-024",
+   "SC-TC04-025",
+   "SC-TC04-026"
+  ],
+  "core_ids": [
+   "SC-SI09-006",
+   "SC-SI09-007",
+   "SC-SI09-008",
+   "SC-SI09-009",
+   "SC-SI09-010",
+   "SC-SI10-004",
+   "SC-TC04-004",
+   "SC-TC04-017",
+   "SC-TC04-018",
+   "SC-TC04-019",
+   "SC-TC04-020",
+   "SC-TC04-021",
+   "SC-TC04-025",
+   "SC-TC04-026"
+  ],
+  "sections": [
+   "site",
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "phenomenology",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-16",
+  "bucket": "general",
+  "size": 4,
+  "keywords": [
+   "release",
+   "fleischmann-pons",
+   "experiments",
+   "observed",
+   "synthesis",
+   "various",
+   "heat",
+   "media",
+   "anomalous-heat",
+   "decay",
+   "scandalously",
+   "accompanied"
+  ],
+  "claim_ids": [
+   "SC-SI10-013",
+   "SC-TC01-006",
+   "SC-TC02-071",
+   "SC-WO03-027"
+  ],
+  "core_ids": [
+   "SC-SI10-013",
+   "SC-TC01-006",
+   "SC-TC02-071",
+   "SC-WO03-027"
+  ],
+  "sections": [
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-17",
+  "bucket": "general",
+  "size": 28,
+  "keywords": [
+   "displacement",
+   "maxwell",
+   "current",
+   "induction",
+   "law",
+   "electrodynamic",
+   "power",
+   "electrical",
+   "sources",
+   "electric",
+   "debt-candidate",
+   "frequency"
+  ],
+  "claim_ids": [
+   "SC-TC02-003",
+   "SC-TC02-004",
+   "SC-TC02-006",
+   "SC-TC02-010",
+   "SC-TC02-012",
+   "SC-TC02-017",
+   "SC-TC02-018",
+   "SC-TC02-019",
+   "SC-TC02-020",
+   "SC-TC02-021",
+   "SC-TC02-040",
+   "SC-TC02-042",
+   "SC-TC02-048",
+   "SC-TC02-051",
+   "SC-TC02-052",
+   "SC-TC02-055",
+   "SC-TC02-060",
+   "SC-TC02-061",
+   "SC-TC02-069",
+   "SC-TC02-073",
+   "SC-TC02-074",
+   "SC-TC02-075",
+   "SC-TC03-010",
+   "SC-TC03-031",
+   "SC-TC03-033",
+   "SC-TC03-038",
+   "SC-TC03-039",
+   "SC-WO03-028"
+  ],
+  "core_ids": [
+   "SC-TC02-006",
+   "SC-TC02-010",
+   "SC-TC02-012",
+   "SC-TC02-017",
+   "SC-TC02-018",
+   "SC-TC02-019",
+   "SC-TC02-020",
+   "SC-TC02-021",
+   "SC-TC02-040",
+   "SC-TC02-042",
+   "SC-TC02-048",
+   "SC-TC02-051",
+   "SC-TC02-052",
+   "SC-TC02-055",
+   "SC-TC02-060",
+   "SC-TC02-061",
+   "SC-TC02-069",
+   "SC-TC02-073",
+   "SC-TC02-074",
+   "SC-TC02-075",
+   "SC-TC03-010",
+   "SC-TC03-033",
+   "SC-TC03-038",
+   "SC-TC03-039",
+   "SC-WO03-028"
+  ],
+  "sections": [
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "material",
+   "measurement",
+   "process",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-18",
+  "bucket": "general",
+  "size": 3,
+  "keywords": [
+   "nano-technologies",
+   "approach",
+   "armageddon",
+   "current",
+   "variants",
+   "filament",
+   "solutions",
+   "phenomenon",
+   "distribution",
+   "cylindrical",
+   "20",
+   "electrical"
+  ],
+  "claim_ids": [
+   "SC-TC04-008",
+   "SC-TC04-009",
+   "SC-TC04-010"
+  ],
+  "core_ids": [
+   "SC-TC04-008",
+   "SC-TC04-009",
+   "SC-TC04-010"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-19",
+  "bucket": "general",
+  "size": 6,
+  "keywords": [
+   "indicator",
+   "radiation",
+   "electromagnetic",
+   "investigating",
+   "homemade",
+   "properties",
+   "em",
+   "em-radiation",
+   "rod",
+   "antenna",
+   "author",
+   "led"
+  ],
+  "claim_ids": [
+   "SC-TE07-001",
+   "SC-TE07-003",
+   "SC-TE07-004",
+   "SC-TE07-005",
+   "SC-TE07-009",
+   "SC-TE07-010"
+  ],
+  "core_ids": [],
+  "sections": [
+   "teaching"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "procedure",
+   "schematic"
+  ]
+ },
+ {
+  "cluster": "general-20",
+  "bucket": "general",
+  "size": 8,
+  "keywords": [
+   "warming",
+   "fire",
+   "global",
+   "divine",
+   "technology",
+   "energy",
+   "earth",
+   "electric",
+   "which",
+   "production",
+   "cosmic",
+   "debt-candidate"
+  ],
+  "claim_ids": [
+   "SC-WO03-003",
+   "SC-WO03-004",
+   "SC-WO03-008",
+   "SC-WO03-009",
+   "SC-WO03-011",
+   "SC-WO03-014",
+   "SC-WO03-015",
+   "SC-WO03-025"
+  ],
+  "core_ids": [
+   "SC-WO03-014",
+   "SC-WO03-015",
+   "SC-WO03-025"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-21",
+  "bucket": "general",
+  "size": 1,
+  "keywords": [
+   "cities",
+   "contribution",
+   "drown",
+   "fecal",
+   "sewage",
+   "smart",
+   "houses",
+   "become",
+   "stupid",
+   "catastrophes",
+   "epidemics",
+   "blackout-consequences"
+  ],
+  "claim_ids": [
+   "SC-WO03-007"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-22",
+  "bucket": "general",
+  "size": 2,
+  "keywords": [
+   "professor",
+   "marinov",
+   "book",
+   "austria",
+   "bases",
+   "first",
+   "found",
+   "devices",
+   "existence",
+   "appeared",
+   "1989",
+   "description"
+  ],
+  "claim_ids": [
+   "SC-WO03-018",
+   "SC-WO05-021"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-23",
+  "bucket": "general",
+  "size": 1,
+  "keywords": [
+   "weeks",
+   "days",
+   "months",
+   "newton",
+   "after",
+   "operation",
+   "40",
+   "two",
+   "karl",
+   "hesse-kassel",
+   "acquired",
+   "engine"
+  ],
+  "claim_ids": [
+   "SC-WO05-003"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "experiment"
+  ]
+ },
+ {
+  "cluster": "general-24",
+  "bucket": "general",
+  "size": 3,
+  "keywords": [
+   "storage",
+   "flaws",
+   "panegyric",
+   "bhaskara",
+   "rotation",
+   "museum",
+   "counter",
+   "energy",
+   "rim",
+   "tubes",
+   "years",
+   "disks"
+  ],
+  "claim_ids": [
+   "SC-WO05-004",
+   "SC-WO05-020",
+   "SC-WO05-030"
+  ],
+  "core_ids": [
+   "SC-WO05-020"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "general-25",
+  "bucket": "general",
+  "size": 2,
+  "keywords": [
+   "forces",
+   "spinner",
+   "rotation",
+   "moment",
+   "motor",
+   "howard",
+   "m0",
+   "m1",
+   "long",
+   "angular",
+   "velocity",
+   "rotational"
+  ],
+  "claim_ids": [
+   "SC-WO05-006",
+   "SC-WO05-016"
+  ],
+  "core_ids": [
+   "SC-WO05-016"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "emden-gravity-cosmic-01",
+  "bucket": "emden-gravity-cosmic",
+  "size": 124,
+  "keywords": [
+   "equation",
+   "potential",
+   "field",
+   "mass",
+   "system",
+   "pressure",
+   "temperature",
+   "particles",
+   "solutions",
+   "exact",
+   "hollow",
+   "black"
+  ],
+  "claim_ids": [
+   "SC-AR02-001",
+   "SC-AR02-002",
+   "SC-AR02-003",
+   "SC-AR02-004",
+   "SC-AR02-006",
+   "SC-AR02-007",
+   "SC-AR02-008",
+   "SC-AR02-009",
+   "SC-AR02-010",
+   "SC-AR02-011",
+   "SC-AR02-012",
+   "SC-AR02-013",
+   "SC-AR02-014",
+   "SC-AR02-015",
+   "SC-AR02-016",
+   "SC-AR02-017",
+   "SC-AR02-018",
+   "SC-AR02-019",
+   "SC-AR02-020",
+   "SC-AR02-021",
+   "SC-AR02-022",
+   "SC-AR02-023",
+   "SC-AR02-024",
+   "SC-AR02-026",
+   "SC-AR02-027",
+   "SC-AR02-028",
+   "SC-AR02-034",
+   "SC-AR02-035",
+   "SC-AR02-036",
+   "SC-AR03-001",
+   "SC-AR03-002",
+   "SC-AR03-003",
+   "SC-AR03-004",
+   "SC-AR03-005",
+   "SC-AR03-007",
+   "SC-AR05-002",
+   "SC-AR05-003",
+   "SC-AR05-005",
+   "SC-AR05-006",
+   "SC-AR05-007",
+   "SC-AR05-008",
+   "SC-AR05-009",
+   "SC-AR05-010",
+   "SC-AR05-011",
+   "SC-AR05-012",
+   "SC-AR05-013",
+   "SC-AR05-014",
+   "SC-AR05-015",
+   "SC-AR05-016",
+   "SC-AR05-017",
+   "SC-AR05-018",
+   "SC-AR05-019",
+   "SC-AR05-020",
+   "SC-AR05-021",
+   "SC-AR05-022",
+   "SC-AR05-023",
+   "SC-AR05-025",
+   "SC-AR05-026",
+   "SC-AR05-027",
+   "SC-AR05-029",
+   "SC-AR05-032",
+   "SC-AR05-033",
+   "SC-AR05-036",
+   "SC-AR05-039",
+   "SC-AR05-040",
+   "SC-AR05-041",
+   "SC-AR05-042",
+   "SC-AR05-044",
+   "SC-AR05-045",
+   "SC-AR05-047",
+   "SC-AR05-049",
+   "SC-AR05-050",
+   "SC-AR05-052",
+   "SC-AR05-054",
+   "SC-AR05-056",
+   "SC-AR05-060",
+   "SC-AR05-061",
+   "SC-AR05-062",
+   "SC-AR05-064",
+   "SC-AR05-065",
+   "SC-AR05-067",
+   "SC-BR01-001",
+   "SC-BR01-004",
+   "SC-BR01-006",
+   "SC-BR01-007",
+   "SC-BR01-008",
+   "SC-BR01-009",
+   "SC-BR01-010",
+   "SC-BR01-011",
+   "SC-BR01-018",
+   "SC-BR01-019",
+   "SC-BR01-020",
+   "SC-BR01-025",
+   "SC-BR01-027",
+   "SC-DI01-019",
+   "SC-DI01-020",
+   "SC-SI01-001",
+   "SC-SI01-002",
+   "SC-SI01-036",
+   "SC-SI01-037",
+   "SC-SI02-002",
+   "SC-SI02-028",
+   "SC-SI02-029",
+   "SC-SI03-001",
+   "SC-SI03-002",
+   "SC-SI03-003",
+   "SC-SI03-004",
+   "SC-SI06-001",
+   "SC-SI06-003",
+   "SC-WO04-001",
+   "SC-WO04-002",
+   "SC-WO04-009",
+   "SC-WO04-010",
+   "SC-WO04-011",
+   "SC-WO04-012",
+   "SC-WO04-013",
+   "SC-WO04-014",
+   "SC-WO04-015",
+   "SC-WO04-017",
+   "SC-WO04-018",
+   "SC-WO04-020",
+   "SC-WO04-022",
+   "SC-WO04-023",
+   "SC-WO04-025"
+  ],
+  "core_ids": [
+   "SC-DI01-020",
+   "SC-WO04-010",
+   "SC-WO04-011",
+   "SC-WO04-012",
+   "SC-WO04-013",
+   "SC-WO04-014",
+   "SC-WO04-018",
+   "SC-WO04-022",
+   "SC-WO04-025"
+  ],
+  "sections": [
+   "articles",
+   "brochure",
+   "dissertation",
+   "site",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "emden-gravity-cosmic-02",
+  "bucket": "emden-gravity-cosmic",
+  "size": 3,
+  "keywords": [
+   "tunguska",
+   "km",
+   "50",
+   "fall",
+   "tons",
+   "object",
+   "theory",
+   "diameters",
+   "230",
+   "hundred",
+   "hypotheses",
+   "comet"
+  ],
+  "claim_ids": [
+   "SC-BR01-024",
+   "SC-BR01-028",
+   "SC-BR01-030"
+  ],
+  "core_ids": [],
+  "sections": [
+   "brochure"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "emden-gravity-cosmic-03",
+  "bucket": "emden-gravity-cosmic",
+  "size": 14,
+  "keywords": [
+   "wheel",
+   "friction",
+   "moment",
+   "motion",
+   "energy",
+   "angular",
+   "personal",
+   "inexhaustible",
+   "gravitational",
+   "velocity",
+   "debt-candidate",
+   "perpetual"
+  ],
+  "claim_ids": [
+   "SC-PM01-002",
+   "SC-PM01-003",
+   "SC-PM01-005",
+   "SC-PM01-008",
+   "SC-PM01-010",
+   "SC-TC01-010",
+   "SC-TC01-011",
+   "SC-TC01-013",
+   "SC-TC01-018",
+   "SC-WO05-009",
+   "SC-WO05-012",
+   "SC-WO05-013",
+   "SC-WO05-014",
+   "SC-WO05-015"
+  ],
+  "core_ids": [
+   "SC-PM01-002",
+   "SC-PM01-005",
+   "SC-PM01-008",
+   "SC-PM01-010",
+   "SC-TC01-011",
+   "SC-TC01-013",
+   "SC-TC01-018",
+   "SC-WO05-009",
+   "SC-WO05-013",
+   "SC-WO05-014"
+  ],
+  "sections": [
+   "perpetual_motion",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "emden-gravity-cosmic-04",
+  "bucket": "emden-gravity-cosmic",
+  "size": 5,
+  "keywords": [
+   "technology",
+   "divine",
+   "fire",
+   "warming",
+   "planet",
+   "global",
+   "life",
+   "years",
+   "increase",
+   "hundreds",
+   "times",
+   "global-warming"
+  ],
+  "claim_ids": [
+   "SC-WO03-002",
+   "SC-WO03-005",
+   "SC-WO03-006",
+   "SC-WO03-010",
+   "SC-WO03-029"
+  ],
+  "core_ids": [
+   "SC-WO03-002",
+   "SC-WO03-029"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "emden-gravity-cosmic-05",
+  "bucket": "emden-gravity-cosmic",
+  "size": 1,
+  "keywords": [
+   "baryakhtar",
+   "published",
+   "1990",
+   "prepared",
+   "familiarized",
+   "supported",
+   "rector",
+   "kazan",
+   "chemical-technological",
+   "institute",
+   "dyakonov",
+   "ras"
+  ],
+  "claim_ids": [
+   "SC-WO04-007"
+  ],
+  "core_ids": [],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "emden-gravity-cosmic-06",
+  "bucket": "emden-gravity-cosmic",
+  "size": 4,
+  "keywords": [
+   "rotation",
+   "electric",
+   "panegyric",
+   "storage",
+   "wheel",
+   "personal",
+   "weights",
+   "inexhaustible",
+   "more",
+   "200",
+   "years",
+   "energy"
+  ],
+  "claim_ids": [
+   "SC-WO05-005",
+   "SC-WO05-007",
+   "SC-WO05-008",
+   "SC-WO05-011"
+  ],
+  "core_ids": [
+   "SC-WO05-007",
+   "SC-WO05-008"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-01",
+  "bucket": "transmutation-nuclear",
+  "size": 6,
+  "keywords": [
+   "well",
+   "potential",
+   "subnuclear",
+   "force",
+   "motion",
+   "charge-particle",
+   "mev",
+   "hold",
+   "wave",
+   "300",
+   "44",
+   "bi-wave"
+  ],
+  "claim_ids": [
+   "SC-AR01-073",
+   "SC-AR01-074",
+   "SC-SI02-010",
+   "SC-TC02-064",
+   "SC-TC08-131",
+   "SC-WO03-020"
+  ],
+  "core_ids": [
+   "SC-TC02-064",
+   "SC-WO03-020"
+  ],
+  "sections": [
+   "articles",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-02",
+  "bucket": "transmutation-nuclear",
+  "size": 6,
+  "keywords": [
+   "10",
+   "fermi",
+   "protons",
+   "500",
+   "retained",
+   "152",
+   "36",
+   "number",
+   "2000",
+   "proton",
+   "cm",
+   "14"
+  ],
+  "claim_ids": [
+   "SC-AR04-001",
+   "SC-AR04-027",
+   "SC-AR04-028",
+   "SC-AR04-029",
+   "SC-AR04-030",
+   "SC-AR04-034"
+  ],
+  "core_ids": [
+   "SC-AR04-001",
+   "SC-AR04-027",
+   "SC-AR04-028",
+   "SC-AR04-029",
+   "SC-AR04-030",
+   "SC-AR04-034"
+  ],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-03",
+  "bucket": "transmutation-nuclear",
+  "size": 3,
+  "keywords": [
+   "time",
+   "decay",
+   "flash-out",
+   "clusters",
+   "significantly",
+   "30",
+   "shoulders",
+   "proton",
+   "electrons",
+   "lifetimes",
+   "charge",
+   "10"
+  ],
+  "claim_ids": [
+   "SC-AR04-002",
+   "SC-AR04-035",
+   "SC-WO01-085"
+  ],
+  "core_ids": [
+   "SC-AR04-002",
+   "SC-AR04-035",
+   "SC-WO01-085"
+  ],
+  "sections": [
+   "articles",
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-04",
+  "bucket": "transmutation-nuclear",
+  "size": 36,
+  "keywords": [
+   "lenr",
+   "cold",
+   "nuclear",
+   "transmutation",
+   "current",
+   "charge",
+   "energy",
+   "reactions",
+   "bubbles",
+   "heat",
+   "plasma",
+   "discharge"
+  ],
+  "claim_ids": [
+   "SC-AR04-003",
+   "SC-AR04-004",
+   "SC-AR04-005",
+   "SC-AR04-006",
+   "SC-AR04-007",
+   "SC-AR04-036",
+   "SC-AR04-037",
+   "SC-MO03-006",
+   "SC-MO03-018",
+   "SC-SI02-023",
+   "SC-SI02-024",
+   "SC-SI02-025",
+   "SC-SI02-026",
+   "SC-SI02-027",
+   "SC-SI10-012",
+   "SC-SI10-022",
+   "SC-TC02-038",
+   "SC-TC03-005",
+   "SC-TC05-005",
+   "SC-TC06-037",
+   "SC-TC06-047",
+   "SC-TC08-101",
+   "SC-TC08-108",
+   "SC-TC08-111",
+   "SC-TC08-112",
+   "SC-TC08-113",
+   "SC-TC08-115",
+   "SC-TC08-127",
+   "SC-TC08-128",
+   "SC-TC08-129",
+   "SC-TC08-136",
+   "SC-TC08-137",
+   "SC-TC08-139",
+   "SC-WO01-028",
+   "SC-WO01-080",
+   "SC-WO01-082"
+  ],
+  "core_ids": [
+   "SC-AR04-003",
+   "SC-AR04-005",
+   "SC-AR04-006",
+   "SC-AR04-007",
+   "SC-AR04-036",
+   "SC-AR04-037",
+   "SC-MO03-006",
+   "SC-MO03-018",
+   "SC-SI02-023",
+   "SC-SI02-024",
+   "SC-SI02-025",
+   "SC-SI02-026",
+   "SC-SI02-027",
+   "SC-SI10-012",
+   "SC-SI10-022",
+   "SC-TC02-038",
+   "SC-TC03-005",
+   "SC-TC05-005",
+   "SC-TC06-037",
+   "SC-TC06-047",
+   "SC-TC08-101",
+   "SC-TC08-108",
+   "SC-TC08-111",
+   "SC-TC08-112",
+   "SC-TC08-113",
+   "SC-TC08-115",
+   "SC-TC08-127",
+   "SC-TC08-137",
+   "SC-TC08-139",
+   "SC-WO01-028",
+   "SC-WO01-080",
+   "SC-WO01-082"
+  ],
+  "sections": [
+   "articles",
+   "monography",
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "procedure",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-05",
+  "bucket": "transmutation-nuclear",
+  "size": 3,
+  "keywords": [
+   "self-consistent-field",
+   "uniform",
+   "gasostatics",
+   "equation",
+   "region",
+   "bounded",
+   "space",
+   "field",
+   "like",
+   "proton",
+   "size",
+   "charge-clusters"
+  ],
+  "claim_ids": [
+   "SC-AR04-008",
+   "SC-AR04-010",
+   "SC-AR04-012"
+  ],
+  "core_ids": [
+   "SC-AR04-008",
+   "SC-AR04-012"
+  ],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-06",
+  "bucket": "transmutation-nuclear",
+  "size": 22,
+  "keywords": [
+   "pressure",
+   "field",
+   "proton",
+   "size",
+   "system",
+   "clusters",
+   "charge",
+   "charges",
+   "charge-clusters",
+   "hamiltonian",
+   "equation",
+   "self-consistent-field"
+  ],
+  "claim_ids": [
+   "SC-AR04-009",
+   "SC-AR04-011",
+   "SC-AR04-013",
+   "SC-AR04-014",
+   "SC-AR04-015",
+   "SC-AR04-016",
+   "SC-AR04-017",
+   "SC-AR04-018",
+   "SC-AR04-019",
+   "SC-AR04-021",
+   "SC-AR04-022",
+   "SC-AR04-023",
+   "SC-AR04-024",
+   "SC-AR04-025",
+   "SC-AR04-026",
+   "SC-AR04-031",
+   "SC-AR04-032",
+   "SC-AR04-033",
+   "SC-TC04-003",
+   "SC-TC04-012",
+   "SC-WO03-021",
+   "SC-WO04-005"
+  ],
+  "core_ids": [
+   "SC-AR04-011",
+   "SC-AR04-013",
+   "SC-AR04-014",
+   "SC-AR04-018",
+   "SC-AR04-022",
+   "SC-AR04-023",
+   "SC-AR04-024",
+   "SC-AR04-025",
+   "SC-AR04-026",
+   "SC-AR04-031",
+   "SC-AR04-032",
+   "SC-AR04-033",
+   "SC-TC04-003",
+   "SC-TC04-012",
+   "SC-WO03-021",
+   "SC-WO04-005"
+  ],
+  "sections": [
+   "articles",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-07",
+  "bucket": "transmutation-nuclear",
+  "size": 2,
+  "keywords": [
+   "scale",
+   "sqrt",
+   "kt",
+   "normalization",
+   "2kt",
+   "spatial",
+   "12",
+   "introduce",
+   "relations",
+   "scales",
+   "clusters",
+   "eps0"
+  ],
+  "claim_ids": [
+   "SC-AR04-020",
+   "SC-WO01-056"
+  ],
+  "core_ids": [
+   "SC-WO01-056"
+  ],
+  "sections": [
+   "articles",
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-08",
+  "bucket": "transmutation-nuclear",
+  "size": 7,
+  "keywords": [
+   "cm",
+   "50",
+   "canonical",
+   "temperature",
+   "10",
+   "thin-wall",
+   "radius",
+   "nucleus",
+   "charge-gas",
+   "geometry",
+   "bubble",
+   "sizes"
+  ],
+  "claim_ids": [
+   "SC-AR05-051",
+   "SC-AR05-053",
+   "SC-SI01-007",
+   "SC-SI01-016",
+   "SC-SI04-002",
+   "SC-WO04-024",
+   "SC-WO04-026"
+  ],
+  "core_ids": [
+   "SC-SI01-007",
+   "SC-SI01-016",
+   "SC-SI04-002",
+   "SC-WO04-024",
+   "SC-WO04-026"
+  ],
+  "sections": [
+   "articles",
+   "site",
+   "works"
+  ],
+  "facets": [
+   "geometry",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-09",
+  "bucket": "transmutation-nuclear",
+  "size": 9,
+  "keywords": [
+   "cluster",
+   "forces",
+   "model",
+   "physical",
+   "charge",
+   "shoulders",
+   "density",
+   "binding",
+   "nucleus",
+   "bubble",
+   "exceeding",
+   "diameter"
+  ],
+  "claim_ids": [
+   "SC-AR08-006",
+   "SC-MO02-021",
+   "SC-MO03-004",
+   "SC-MO03-005",
+   "SC-MO03-010",
+   "SC-MO03-011",
+   "SC-WO01-025",
+   "SC-WO01-027",
+   "SC-WO01-057"
+  ],
+  "core_ids": [
+   "SC-MO02-021",
+   "SC-MO03-004",
+   "SC-MO03-005",
+   "SC-MO03-010",
+   "SC-MO03-011",
+   "SC-WO01-025",
+   "SC-WO01-027",
+   "SC-WO01-057"
+  ],
+  "sections": [
+   "articles",
+   "monography",
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-10",
+  "bucket": "transmutation-nuclear",
+  "size": 1,
+  "keywords": [
+   "matryoshka",
+   "pellet",
+   "mass",
+   "clusterization",
+   "liquids",
+   "matter",
+   "interpret",
+   "inverse-square",
+   "molecules",
+   "star",
+   "manifest",
+   "newly"
+  ],
+  "claim_ids": [
+   "SC-BR01-012"
+  ],
+  "core_ids": [],
+  "sections": [
+   "brochure"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-11",
+  "bucket": "transmutation-nuclear",
+  "size": 6,
+  "keywords": [
+   "pa",
+   "estimates",
+   "n0",
+   "kg",
+   "s2",
+   "m2",
+   "pressure",
+   "phi",
+   "field",
+   "self-consistent",
+   "p0",
+   "maximal"
+  ],
+  "claim_ids": [
+   "SC-BR01-014",
+   "SC-BR01-021",
+   "SC-DI02-013",
+   "SC-MO02-009",
+   "SC-MO02-010",
+   "SC-MO02-014"
+  ],
+  "core_ids": [
+   "SC-MO02-014"
+  ],
+  "sections": [
+   "brochure",
+   "dissertation",
+   "monography"
+  ],
+  "facets": [
+   "measurement"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-12",
+  "bucket": "transmutation-nuclear",
+  "size": 4,
+  "keywords": [
+   "working",
+   "energetics",
+   "perpetual",
+   "pm",
+   "abolished",
+   "prohibitions",
+   "academic",
+   "mathematics",
+   "machine",
+   "power",
+   "cannot",
+   "motion"
+  ],
+  "claim_ids": [
+   "SC-BR03-031",
+   "SC-PM01-012",
+   "SC-PM01-015",
+   "SC-PM01-018"
+  ],
+  "core_ids": [
+   "SC-PM01-012",
+   "SC-PM01-015"
+  ],
+  "sections": [
+   "brochure",
+   "perpetual_motion"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-13",
+  "bucket": "transmutation-nuclear",
+  "size": 1,
+  "keywords": [
+   "paradox",
+   "matveev",
+   "priority",
+   "experimental",
+   "electrostatics",
+   "surface",
+   "excess",
+   "forces",
+   "none",
+   "strong",
+   "clarify",
+   "oldest"
+  ],
+  "claim_ids": [
+   "SC-MO02-003"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-14",
+  "bucket": "transmutation-nuclear",
+  "size": 1,
+  "keywords": [
+   "gauss-theorem",
+   "internal",
+   "object",
+   "cavity",
+   "inner",
+   "sphere",
+   "atmosphere",
+   "concentration",
+   "neutron",
+   "neutrons",
+   "matter",
+   "replace"
+  ],
+  "claim_ids": [
+   "SC-MO02-007"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-15",
+  "bucket": "transmutation-nuclear",
+  "size": 5,
+  "keywords": [
+   "shoulders",
+   "cluster",
+   "cluster-nuclear-reactions",
+   "physical",
+   "radioactivity",
+   "waste",
+   "ken",
+   "new",
+   "aspect",
+   "phenomenon",
+   "reactions",
+   "reduction"
+  ],
+  "claim_ids": [
+   "SC-MO02-020",
+   "SC-MO03-007",
+   "SC-WO01-029",
+   "SC-WO01-055",
+   "SC-WO01-089"
+  ],
+  "core_ids": [
+   "SC-MO02-020",
+   "SC-MO03-007",
+   "SC-WO01-029",
+   "SC-WO01-055",
+   "SC-WO01-089"
+  ],
+  "sections": [
+   "monography",
+   "works"
+  ],
+  "facets": [
+   "process",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-16",
+  "bucket": "transmutation-nuclear",
+  "size": 2,
+  "keywords": [
+   "nev",
+   "reaction",
+   "shoulders",
+   "evs",
+   "fracture",
+   "processing",
+   "application",
+   "nuclides",
+   "fast",
+   "material",
+   "000",
+   "appendix"
+  ],
+  "claim_ids": [
+   "SC-MO02-023",
+   "SC-MO02-024"
+  ],
+  "core_ids": [
+   "SC-MO02-023",
+   "SC-MO02-024"
+  ],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "phenomenology",
+   "process"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-17",
+  "bucket": "transmutation-nuclear",
+  "size": 4,
+  "keywords": [
+   "binding",
+   "orders",
+   "uranium-235",
+   "energy",
+   "u-235",
+   "cases",
+   "interaction",
+   "binding-energy",
+   "some",
+   "above",
+   "three",
+   "exceed"
+  ],
+  "claim_ids": [
+   "SC-SI01-017",
+   "SC-SI04-004",
+   "SC-WO01-052",
+   "SC-WO04-027"
+  ],
+  "core_ids": [
+   "SC-SI01-017",
+   "SC-SI04-004",
+   "SC-WO01-052",
+   "SC-WO04-027"
+  ],
+  "sections": [
+   "site",
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-18",
+  "bucket": "transmutation-nuclear",
+  "size": 1,
+  "keywords": [
+   "plasmoid",
+   "lecture",
+   "covers",
+   "plasmoid-nuclear-forces",
+   "lectures",
+   "electrophysics",
+   "origin",
+   "forces",
+   "sapogin",
+   "physical",
+   "transmutation",
+   "nuclear"
+  ],
+  "claim_ids": [
+   "SC-SI05-006"
+  ],
+  "core_ids": [
+   "SC-SI05-006"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-19",
+  "bucket": "transmutation-nuclear",
+  "size": 4,
+  "keywords": [
+   "baumann",
+   "coal",
+   "oil",
+   "fuel",
+   "electrochemical",
+   "source",
+   "requires",
+   "notes",
+   "operation",
+   "works",
+   "sources",
+   "clean"
+  ],
+  "claim_ids": [
+   "SC-SI11-003",
+   "SC-SI11-009",
+   "SC-WO03-001",
+   "SC-WO03-016"
+  ],
+  "core_ids": [
+   "SC-SI11-003",
+   "SC-SI11-009",
+   "SC-WO03-001",
+   "SC-WO03-016"
+  ],
+  "sections": [
+   "site",
+   "works"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-20",
+  "bucket": "transmutation-nuclear",
+  "size": 3,
+  "keywords": [
+   "bluff",
+   "breakthrough",
+   "ehb",
+   "inexhaustible",
+   "electricity",
+   "personal",
+   "sources",
+   "technologies",
+   "plasma",
+   "1000",
+   "reactor",
+   "mechanism"
+  ],
+  "claim_ids": [
+   "SC-TC01-037",
+   "SC-TC01-044",
+   "SC-TC01-048"
+  ],
+  "core_ids": [
+   "SC-TC01-037",
+   "SC-TC01-044"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-21",
+  "bucket": "transmutation-nuclear",
+  "size": 4,
+  "keywords": [
+   "decay",
+   "energy",
+   "nucleus",
+   "plasma",
+   "release",
+   "synthesis",
+   "ways",
+   "short-lived",
+   "bubbles",
+   "extracting",
+   "any",
+   "stage"
+  ],
+  "claim_ids": [
+   "SC-TC08-033",
+   "SC-TC08-036",
+   "SC-TC08-114",
+   "SC-TC08-135"
+  ],
+  "core_ids": [
+   "SC-TC08-033",
+   "SC-TC08-036",
+   "SC-TC08-114",
+   "SC-TC08-135"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "transmutation-nuclear-22",
+  "bucket": "transmutation-nuclear",
+  "size": 1,
+  "keywords": [
+   "rutherford",
+   "force-center",
+   "sphere",
+   "trajectories",
+   "charged",
+   "single",
+   "class",
+   "radius",
+   "interaction",
+   "describe",
+   "center",
+   "alpha-particle"
+  ],
+  "claim_ids": [
+   "SC-TC08-132"
+  ],
+  "core_ids": [],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-01",
+  "bucket": "foundations-canonical",
+  "size": 51,
+  "keywords": [
+   "relativistic",
+   "charge-particle",
+   "principle",
+   "bi-wave",
+   "least-action",
+   "nature",
+   "motion",
+   "momentum",
+   "action",
+   "dt",
+   "full",
+   "energy"
+  ],
+  "claim_ids": [
+   "SC-AR01-001",
+   "SC-AR01-002",
+   "SC-AR01-009",
+   "SC-AR01-010",
+   "SC-AR01-011",
+   "SC-AR01-012",
+   "SC-AR01-013",
+   "SC-AR01-014",
+   "SC-AR01-015",
+   "SC-AR01-016",
+   "SC-AR01-019",
+   "SC-AR01-021",
+   "SC-AR01-025",
+   "SC-AR01-026",
+   "SC-AR01-027",
+   "SC-AR01-028",
+   "SC-AR01-029",
+   "SC-AR01-030",
+   "SC-AR01-031",
+   "SC-AR01-032",
+   "SC-AR01-033",
+   "SC-AR01-034",
+   "SC-AR01-035",
+   "SC-AR01-036",
+   "SC-AR01-037",
+   "SC-AR01-038",
+   "SC-AR01-039",
+   "SC-AR01-040",
+   "SC-AR01-041",
+   "SC-AR01-042",
+   "SC-AR01-043",
+   "SC-AR01-044",
+   "SC-AR01-045",
+   "SC-AR01-046",
+   "SC-AR01-047",
+   "SC-AR01-048",
+   "SC-AR01-049",
+   "SC-AR01-050",
+   "SC-AR01-051",
+   "SC-AR01-052",
+   "SC-AR01-053",
+   "SC-AR01-054",
+   "SC-AR01-055",
+   "SC-AR01-056",
+   "SC-AR01-057",
+   "SC-AR01-058",
+   "SC-AR01-059",
+   "SC-AR01-060",
+   "SC-AR01-062",
+   "SC-AR01-077",
+   "SC-AR01-078"
+  ],
+  "core_ids": [],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-02",
+  "bucket": "foundations-canonical",
+  "size": 25,
+  "keywords": [
+   "wave",
+   "velocity",
+   "action",
+   "phase",
+   "frame",
+   "charge-particle",
+   "compton",
+   "moving",
+   "wavelength",
+   "bi-wave",
+   "speed",
+   "light"
+  ],
+  "claim_ids": [
+   "SC-AR01-003",
+   "SC-AR01-004",
+   "SC-AR01-005",
+   "SC-AR01-006",
+   "SC-AR01-007",
+   "SC-AR01-008",
+   "SC-AR01-017",
+   "SC-AR01-023",
+   "SC-AR01-024",
+   "SC-AR01-061",
+   "SC-AR01-063",
+   "SC-AR01-064",
+   "SC-AR01-065",
+   "SC-AR01-066",
+   "SC-AR01-067",
+   "SC-AR01-068",
+   "SC-AR01-069",
+   "SC-AR01-070",
+   "SC-AR01-071",
+   "SC-AR01-072",
+   "SC-AR01-076",
+   "SC-SI02-008",
+   "SC-SI02-009",
+   "SC-SI05-011",
+   "SC-SI05-012"
+  ],
+  "core_ids": [],
+  "sections": [
+   "articles",
+   "site"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-03",
+  "bucket": "foundations-canonical",
+  "size": 1,
+  "keywords": [
+   "published",
+   "historically",
+   "basic",
+   "authors",
+   "note",
+   "subsequent",
+   "development",
+   "problem",
+   "works",
+   "17",
+   "19",
+   "priority"
+  ],
+  "claim_ids": [
+   "SC-AR01-018"
+  ],
+  "core_ids": [],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-04",
+  "bucket": "foundations-canonical",
+  "size": 2,
+  "keywords": [
+   "dualism",
+   "diffraction",
+   "beginning",
+   "century",
+   "differ",
+   "each",
+   "scales",
+   "last",
+   "influence",
+   "wave",
+   "second",
+   "finally"
+  ],
+  "claim_ids": [
+   "SC-AR01-020",
+   "SC-AR01-022"
+  ],
+  "core_ids": [],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-05",
+  "bucket": "foundations-canonical",
+  "size": 1,
+  "keywords": [
+   "diffraction",
+   "slit",
+   "tens",
+   "picometers",
+   "picture",
+   "falling",
+   "wide",
+   "yet",
+   "unclear",
+   "how",
+   "natural",
+   "barrier"
+  ],
+  "claim_ids": [
+   "SC-AR01-075"
+  ],
+  "core_ids": [],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-06",
+  "bucket": "foundations-canonical",
+  "size": 4,
+  "keywords": [
+   "field",
+   "pressure",
+   "physics",
+   "asserts",
+   "sapogin",
+   "strength",
+   "collective",
+   "canonical",
+   "gradient",
+   "current",
+   "square",
+   "factor"
+  ],
+  "claim_ids": [
+   "SC-SI01-003",
+   "SC-SI01-004",
+   "SC-SI01-039",
+   "SC-SI01-041"
+  ],
+  "core_ids": [
+   "SC-SI01-041"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-07",
+  "bucket": "foundations-canonical",
+  "size": 1,
+  "keywords": [
+   "bubble",
+   "radius",
+   "sphere",
+   "electrostatics",
+   "thin-wall",
+   "metal",
+   "arises",
+   "surface",
+   "equal",
+   "physics",
+   "charged",
+   "asserts"
+  ],
+  "claim_ids": [
+   "SC-SI01-012"
+  ],
+  "core_ids": [],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-08",
+  "bucket": "foundations-canonical",
+  "size": 1,
+  "keywords": [
+   "sequence",
+   "bubbles",
+   "space-charge",
+   "scw",
+   "observed",
+   "carrying",
+   "bead",
+   "lightning",
+   "plasmoid",
+   "space-charge-waves",
+   "bead-lightning",
+   "periodic"
+  ],
+  "claim_ids": [
+   "SC-SI01-015"
+  ],
+  "core_ids": [
+   "SC-SI01-015"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-09",
+  "bucket": "foundations-canonical",
+  "size": 8,
+  "keywords": [
+   "electrical-path",
+   "physics",
+   "asserts",
+   "sapogin",
+   "ring",
+   "currents",
+   "canonical",
+   "current",
+   "ac",
+   "ring-currents",
+   "conductor",
+   "possible"
+  ],
+  "claim_ids": [
+   "SC-SI01-020",
+   "SC-SI01-023",
+   "SC-SI01-024",
+   "SC-SI01-030",
+   "SC-SI01-032",
+   "SC-SI01-033",
+   "SC-SI01-034",
+   "SC-SI01-040"
+  ],
+  "core_ids": [
+   "SC-SI01-020",
+   "SC-SI01-023",
+   "SC-SI01-024",
+   "SC-SI01-030",
+   "SC-SI01-032",
+   "SC-SI01-033",
+   "SC-SI01-034",
+   "SC-SI01-040"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-10",
+  "bucket": "foundations-canonical",
+  "size": 1,
+  "keywords": [
+   "diameter",
+   "nm",
+   "approaching",
+   "bohr",
+   "orbit",
+   "hydrogen",
+   "order",
+   "magnitude",
+   "below",
+   "first",
+   "ring-current",
+   "geometry"
+  ],
+  "claim_ids": [
+   "SC-SI01-031"
+  ],
+  "core_ids": [
+   "SC-SI01-031"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "geometry"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-11",
+  "bucket": "foundations-canonical",
+  "size": 1,
+  "keywords": [
+   "patent",
+   "ru",
+   "2614",
+   "188",
+   "c1",
+   "claims",
+   "technical",
+   "result",
+   "increasing",
+   "numerical",
+   "inductance",
+   "implemented"
+  ],
+  "claim_ids": [
+   "SC-SI07-003"
+  ],
+  "core_ids": [],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "schematic"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-12",
+  "bucket": "foundations-canonical",
+  "size": 1,
+  "keywords": [
+   "boson",
+   "dzhan",
+   "long-lived",
+   "predicted",
+   "independently",
+   "unitary",
+   "binding",
+   "larger",
+   "higgs",
+   "unitary-quantum-theory",
+   "personal",
+   "electricity"
+  ],
+  "claim_ids": [
+   "SC-TC01-041"
+  ],
+  "core_ids": [],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "foundations-canonical-13",
+  "bucket": "foundations-canonical",
+  "size": 3,
+  "keywords": [
+   "displacement",
+   "induction",
+   "sources",
+   "maxwell",
+   "law",
+   "currents",
+   "electrical",
+   "electrodynamic",
+   "dipole",
+   "current",
+   "variable",
+   "fields"
+  ],
+  "claim_ids": [
+   "SC-TC02-011",
+   "SC-TC03-011",
+   "SC-TC03-013"
+  ],
+  "core_ids": [
+   "SC-TC02-011",
+   "SC-TC03-011",
+   "SC-TC03-013"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-01",
+  "bucket": "discharge-plasma",
+  "size": 17,
+  "keywords": [
+   "inductance",
+   "cylinder",
+   "film",
+   "conducting",
+   "cylindrical",
+   "eddy-current",
+   "planar",
+   "review",
+   "integral",
+   "foucault",
+   "dynamic",
+   "frequencies"
+  ],
+  "claim_ids": [
+   "SC-AR07-001",
+   "SC-AR07-002",
+   "SC-AR07-003",
+   "SC-AR07-011",
+   "SC-AR07-015",
+   "SC-AR07-016",
+   "SC-AR07-019",
+   "SC-AR07-020",
+   "SC-AR07-022",
+   "SC-AR07-023",
+   "SC-AR07-024",
+   "SC-AR07-025",
+   "SC-AR07-028",
+   "SC-AR07-031",
+   "SC-AR07-033",
+   "SC-AR07-038",
+   "SC-SI02-016"
+  ],
+  "core_ids": [
+   "SC-AR07-001",
+   "SC-AR07-002",
+   "SC-AR07-003",
+   "SC-AR07-019",
+   "SC-AR07-020",
+   "SC-AR07-023",
+   "SC-AR07-031",
+   "SC-AR07-038"
+  ],
+  "sections": [
+   "articles",
+   "site"
+  ],
+  "facets": [
+   "geometry",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-02",
+  "bucket": "discharge-plasma",
+  "size": 6,
+  "keywords": [
+   "lines",
+   "inductance",
+   "conducting",
+   "inductor",
+   "magnetic",
+   "solenoid",
+   "field",
+   "created",
+   "cylindrical",
+   "inductors",
+   "planar",
+   "film"
+  ],
+  "claim_ids": [
+   "SC-AR07-004",
+   "SC-AR07-005",
+   "SC-AR07-009",
+   "SC-AR07-043",
+   "SC-AR07-044",
+   "SC-AR07-046"
+  ],
+  "core_ids": [
+   "SC-AR07-005",
+   "SC-AR07-009",
+   "SC-AR07-043"
+  ],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "experiment",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-03",
+  "bucket": "discharge-plasma",
+  "size": 1,
+  "keywords": [
+   "term",
+   "turned",
+   "fantastic",
+   "technologists",
+   "called",
+   "doubt",
+   "many",
+   "probably",
+   "2011",
+   "york",
+   "monograph",
+   "mention"
+  ],
+  "claim_ids": [
+   "SC-AR07-006"
+  ],
+  "core_ids": [],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-04",
+  "bucket": "discharge-plasma",
+  "size": 14,
+  "keywords": [
+   "inductance",
+   "film",
+   "thickness",
+   "nm",
+   "positive",
+   "frequency-independent",
+   "eddy-current",
+   "conducting",
+   "integral",
+   "50",
+   "review",
+   "planar"
+  ],
+  "claim_ids": [
+   "SC-AR07-007",
+   "SC-AR07-008",
+   "SC-AR07-010",
+   "SC-AR07-021",
+   "SC-AR07-026",
+   "SC-AR07-027",
+   "SC-AR07-032",
+   "SC-AR07-034",
+   "SC-AR07-035",
+   "SC-AR07-039",
+   "SC-AR07-040",
+   "SC-AR07-041",
+   "SC-AR07-045",
+   "SC-AR07-047"
+  ],
+  "core_ids": [
+   "SC-AR07-007",
+   "SC-AR07-008",
+   "SC-AR07-021",
+   "SC-AR07-026",
+   "SC-AR07-027",
+   "SC-AR07-032",
+   "SC-AR07-034",
+   "SC-AR07-039",
+   "SC-AR07-040",
+   "SC-AR07-041",
+   "SC-AR07-047"
+  ],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "experiment",
+   "geometry",
+   "material",
+   "measurement",
+   "recipe",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-05",
+  "bucket": "discharge-plasma",
+  "size": 7,
+  "keywords": [
+   "b1",
+   "b0",
+   "field",
+   "magnetic",
+   "b1z",
+   "sin",
+   "response-field",
+   "film",
+   "mean",
+   "external",
+   "over",
+   "electric"
+  ],
+  "claim_ids": [
+   "SC-AR07-012",
+   "SC-AR07-013",
+   "SC-AR07-014",
+   "SC-AR07-017",
+   "SC-AR07-018",
+   "SC-AR07-029",
+   "SC-AR07-030"
+  ],
+  "core_ids": [],
+  "sections": [
+   "articles"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-06",
+  "bucket": "discharge-plasma",
+  "size": 3,
+  "keywords": [
+   "ring",
+   "nh",
+   "single-turn",
+   "cmos",
+   "100",
+   "range",
+   "inductance",
+   "film",
+   "system-on-chip",
+   "sputtered",
+   "design",
+   "current"
+  ],
+  "claim_ids": [
+   "SC-AR07-036",
+   "SC-AR07-042",
+   "SC-MO01-011"
+  ],
+  "core_ids": [
+   "SC-AR07-036",
+   "SC-AR07-042"
+  ],
+  "sections": [
+   "articles",
+   "monography"
+  ],
+  "facets": [
+   "geometry",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-07",
+  "bucket": "discharge-plasma",
+  "size": 2,
+  "keywords": [
+   "plasmoid",
+   "electric",
+   "layer",
+   "exist",
+   "hole",
+   "dipole",
+   "moment",
+   "displaced",
+   "latter",
+   "double-layer",
+   "forming",
+   "two"
+  ],
+  "claim_ids": [
+   "SC-BR04-033",
+   "SC-SI01-008"
+  ],
+  "core_ids": [
+   "SC-BR04-033"
+  ],
+  "sections": [
+   "brochure",
+   "site"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-08",
+  "bucket": "discharge-plasma",
+  "size": 1,
+  "keywords": [
+   "ua",
+   "um",
+   "beam",
+   "tungsten",
+   "beams",
+   "cm2",
+   "db",
+   "480",
+   "331",
+   "520",
+   "237",
+   "220"
+  ],
+  "claim_ids": [
+   "SC-DI02-008"
+  ],
+  "core_ids": [
+   "SC-DI02-008"
+  ],
+  "sections": [
+   "dissertation"
+  ],
+  "facets": [
+   "measurement"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-09",
+  "bucket": "discharge-plasma",
+  "size": 4,
+  "keywords": [
+   "cord",
+   "ribbon",
+   "growth",
+   "integrated",
+   "cross-section",
+   "high",
+   "microsolenoid",
+   "inductances",
+   "symmetry",
+   "ac",
+   "single",
+   "frequency"
+  ],
+  "claim_ids": [
+   "SC-MO01-002",
+   "SC-MO01-003",
+   "SC-MO01-008",
+   "SC-MO01-009"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-10",
+  "bucket": "discharge-plasma",
+  "size": 2,
+  "keywords": [
+   "mm",
+   "l0",
+   "23",
+   "brass",
+   "macroscopic",
+   "measuring",
+   "rod",
+   "negative",
+   "100",
+   "192",
+   "98",
+   "mhz"
+  ],
+  "claim_ids": [
+   "SC-MO01-014",
+   "SC-MO01-016"
+  ],
+  "core_ids": [],
+  "sections": [
+   "monography"
+  ],
+  "facets": [
+   "measurement"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-11",
+  "bucket": "discharge-plasma",
+  "size": 16,
+  "keywords": [
+   "sun",
+   "bubbles",
+   "wall",
+   "invisible",
+   "liquid",
+   "plasma",
+   "dark",
+   "temperature",
+   "gas",
+   "10",
+   "bubble",
+   "mass"
+  ],
+  "claim_ids": [
+   "SC-PM02-001",
+   "SC-PM02-004",
+   "SC-PM02-005",
+   "SC-PM02-006",
+   "SC-PM02-007",
+   "SC-PM02-008",
+   "SC-PM02-013",
+   "SC-PM02-014",
+   "SC-PM02-016",
+   "SC-PM02-017",
+   "SC-PM02-018",
+   "SC-PM02-019",
+   "SC-PM02-021",
+   "SC-SI01-035",
+   "SC-SI08-006",
+   "SC-WO04-021"
+  ],
+  "core_ids": [],
+  "sections": [
+   "perpetual_motion",
+   "site",
+   "works"
+  ],
+  "facets": [
+   "measurement",
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-12",
+  "bucket": "discharge-plasma",
+  "size": 6,
+  "keywords": [
+   "forces",
+   "pressure",
+   "effect",
+   "asserts",
+   "current",
+   "skin",
+   "sapogin",
+   "magnetism",
+   "physics",
+   "canonical",
+   "solutions",
+   "case"
+  ],
+  "claim_ids": [
+   "SC-SI01-006",
+   "SC-SI01-022",
+   "SC-SI01-029",
+   "SC-SI06-002",
+   "SC-TC04-007",
+   "SC-WO04-019"
+  ],
+  "core_ids": [
+   "SC-SI01-006",
+   "SC-SI01-022",
+   "SC-SI01-029",
+   "SC-TC04-007",
+   "SC-WO04-019"
+  ],
+  "sections": [
+   "site",
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "phenomenology",
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-13",
+  "bucket": "discharge-plasma",
+  "size": 2,
+  "keywords": [
+   "transistors",
+   "transistor",
+   "advanced",
+   "chinese",
+   "manufacturing",
+   "problem",
+   "began",
+   "explode",
+   "nm",
+   "nanotechnologies",
+   "sub-5-nm",
+   "hit"
+  ],
+  "claim_ids": [
+   "SC-SI10-001",
+   "SC-TC04-001"
+  ],
+  "core_ids": [
+   "SC-SI10-001",
+   "SC-TC04-001"
+  ],
+  "sections": [
+   "site",
+   "technologies"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-14",
+  "bucket": "discharge-plasma",
+  "size": 1,
+  "keywords": [
+   "current-discreteness",
+   "katorgin",
+   "mesyats",
+   "ectons",
+   "similar",
+   "phenomena",
+   "hydrogen-plasma",
+   "npo",
+   "energomash",
+   "khimki",
+   "avalanches",
+   "explosive"
+  ],
+  "claim_ids": [
+   "SC-SI10-011"
+  ],
+  "core_ids": [
+   "SC-SI10-011"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-15",
+  "bucket": "discharge-plasma",
+  "size": 1,
+  "keywords": [
+   "displacement-current",
+   "devices",
+   "critical",
+   "introduced",
+   "energy-extraction",
+   "current-based",
+   "some",
+   "explodes",
+   "chain",
+   "over-unity",
+   "critical-current-density",
+   "density"
+  ],
+  "claim_ids": [
+   "SC-SI10-023"
+  ],
+  "core_ids": [
+   "SC-SI10-023"
+  ],
+  "sections": [
+   "site"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-16",
+  "bucket": "discharge-plasma",
+  "size": 4,
+  "keywords": [
+   "inexhaustible",
+   "sources",
+   "radiation",
+   "plasma",
+   "displacement",
+   "anomalous-heat",
+   "personal",
+   "bluff",
+   "breakthrough",
+   "katorgin-marin",
+   "drawback",
+   "electrolysis"
+  ],
+  "claim_ids": [
+   "SC-TC01-045",
+   "SC-TC01-046",
+   "SC-TC03-027",
+   "SC-TC03-036"
+  ],
+  "core_ids": [
+   "SC-TC01-045",
+   "SC-TC01-046",
+   "SC-TC03-027"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "measurement",
+   "recipe"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-17",
+  "bucket": "discharge-plasma",
+  "size": 1,
+  "keywords": [
+   "breakdown",
+   "discharge",
+   "250",
+   "zhuravkov",
+   "subcritical",
+   "mains",
+   "voltage",
+   "electrodynamic",
+   "strength",
+   "mm",
+   "displacement",
+   "induction"
+  ],
+  "claim_ids": [
+   "SC-TC02-045"
+  ],
+  "core_ids": [
+   "SC-TC02-045"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "material"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-18",
+  "bucket": "discharge-plasma",
+  "size": 7,
+  "keywords": [
+   "armageddon",
+   "current",
+   "electrical",
+   "nano-technologies",
+   "approach",
+   "conductor",
+   "charges",
+   "20",
+   "diameter",
+   "nanotech",
+   "skin",
+   "skin-effect"
+  ],
+  "claim_ids": [
+   "SC-TC04-002",
+   "SC-TC04-005",
+   "SC-TC04-006",
+   "SC-TC04-011",
+   "SC-TC04-014",
+   "SC-TC04-015",
+   "SC-WO04-029"
+  ],
+  "core_ids": [
+   "SC-TC04-002",
+   "SC-TC04-005",
+   "SC-TC04-011",
+   "SC-TC04-014",
+   "SC-TC04-015"
+  ],
+  "sections": [
+   "technologies",
+   "works"
+  ],
+  "facets": [
+   "theory"
+  ]
+ },
+ {
+  "cluster": "discharge-plasma-19",
+  "bucket": "discharge-plasma",
+  "size": 2,
+  "keywords": [
+   "distance",
+   "radiation",
+   "indicator",
+   "experience",
+   "em",
+   "em-radiation",
+   "investigating",
+   "electromagnetic",
+   "homemade",
+   "around",
+   "air",
+   "plaster"
+  ],
+  "claim_ids": [
+   "SC-TE07-006",
+   "SC-TE07-007"
+  ],
+  "core_ids": [],
+  "sections": [
+   "teaching"
+  ],
+  "facets": [
+   "experiment"
+  ]
+ },
+ {
+  "cluster": "catalysis-01",
+  "bucket": "catalysis",
+  "size": 1,
+  "keywords": [
+   "plasmoids",
+   "authors",
+   "assert",
+   "appearing",
+   "sharp",
+   "protrusions",
+   "metallized",
+   "grids",
+   "operated",
+   "high",
+   "voltages",
+   "wastewater"
+  ],
+  "claim_ids": [
+   "SC-BR04-027"
+  ],
+  "core_ids": [
+   "SC-BR04-027"
+  ],
+  "sections": [
+   "brochure"
+  ],
+  "facets": [
+   "process"
+  ]
+ },
+ {
+  "cluster": "catalysis-02",
+  "bucket": "catalysis",
+  "size": 4,
+  "keywords": [
+   "nickel",
+   "bubbles",
+   "heating",
+   "super-unity",
+   "patterson",
+   "energy",
+   "charge",
+   "temperature",
+   "gradient",
+   "conversion",
+   "devices",
+   "mizuno"
+  ],
+  "claim_ids": [
+   "SC-TC06-036",
+   "SC-TC06-048",
+   "SC-TC06-050",
+   "SC-TC06-051"
+  ],
+  "core_ids": [
+   "SC-TC06-036",
+   "SC-TC06-048",
+   "SC-TC06-050",
+   "SC-TC06-051"
+  ],
+  "sections": [
+   "technologies"
+  ],
+  "facets": [
+   "experiment",
+   "phenomenology",
+   "recipe"
+  ]
+ },
+ {
+  "cluster": "catalysis-03",
+  "bucket": "catalysis",
+  "size": 1,
+  "keywords": [
+   "potapov",
+   "department",
+   "taganrog",
+   "cavitation",
+   "range",
+   "15",
+   "generators",
+   "heat",
+   "appeared",
+   "giving",
+   "output",
+   "due"
+  ],
+  "claim_ids": [
+   "SC-WO01-087"
+  ],
+  "core_ids": [
+   "SC-WO01-087"
+  ],
+  "sections": [
+   "works"
+  ],
+  "facets": [
+   "phenomenology"
+  ]
+ }
+]
