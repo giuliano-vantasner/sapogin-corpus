@@ -48,8 +48,9 @@ core_priority_topics:
   - EVO generation
   - electrical path
 analysis_lens:
-  framework: CQED (substrate-framework QED module family) — battle testing
-  designated_by_user: pending   # rebind here if Dan names a different codebase
+  framework: CQED (substrate-framework QED module family, read-only analysis
+    dependency — used as a lens only; this corpus repo is fully independent)
+  designated_by_user: deferred_2026-09-01   # rebind here if Dan names a codebase
 campaign_order:
   - practical_layer_first
   - mathematical_models_and_theory_after
