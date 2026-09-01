@@ -10,11 +10,14 @@ from pathlib import Path
 
 import yaml
 
+from corpus_common import cluster_summary, cluster_title
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
 def main() -> int:
     rows = [json.loads(l) for l in (ROOT / "claims" / "claims.jsonl").read_text().splitlines() if l.strip()]
+    statement_of = {r["id"]: (r.get("statement_en") or "") for r in rows}
     clusters = json.loads((ROOT / "clusters" / "clusters.json").read_text())
 
     claim_cluster: dict[str, str] = {}
@@ -67,6 +70,8 @@ def main() -> int:
     out = {
         "generated": "see git log", "buckets": sorted(buckets.values(), key=lambda b: -b["size"]),
         "clusters": [{"id": c["cluster"], "bucket": c["bucket"], "size": c["size"],
+                      "title": cluster_title(c["keywords"]),
+                      "summary": cluster_summary(c, statement_of),
                       "keywords": c["keywords"], "core": len(c["core_ids"])} for c in clusters],
         "claims": claims, "edges": edges, "synthesis": synthesis,
     }

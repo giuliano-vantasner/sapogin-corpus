@@ -4,7 +4,7 @@ Practical-first synthesis of the 629 claims in this bucket (352 theory / 277 pra
 per `claims/claims.jsonl`; membership concatenated from `clusters/clusters.json` bucket
 "evo-charge-clusters", 41 sub-clusters). Heaviest contributors: TC08 (125), WO01 (76), TC06 (58),
 WO06 (33), AR10 (31), AR09 (28), AR08 (27), MO03 (25), BR02 (22), AR05 (19). Every assertion is
-pinned to SC-* ids. Verdicts come later, in campaigns; this file organizes the art, it does not
+pinned to SC-* ids. This file organizes the art, it does not
 adjudicate it.
 
 ## The art (practical layer)
@@ -387,7 +387,7 @@ art: Earnshaw-type prohibition vs "field-origin forces" (SC-WO01-008 vs SC-BR02-
 energy-conservation vs the 1:1000 synthesis/decay asymmetry and the 160 µJ vs 154 mJ cluster
 energy-balance claim (SC-TC06-002 vs SC-TC02-066; SC-WO01-051).
 
-## Open questions for campaigns
+## Open questions
 
 1. Are Shoulders' EVs, Mesyats' ectons and the hydrogen-plasma current portions one object class?
    Compare parameters: 30–100 ps lifetime vs µs ecton/η spikes; 10⁸–10¹¹ e vs ~30 мкКл portions

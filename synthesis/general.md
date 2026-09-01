@@ -1,7 +1,7 @@
 # general — synthesis
 
 Practical-first synthesis of the 161 claims in this bucket. Every assertion
-is pinned to SC-* ids. Verdicts come later, in campaigns; this file organizes
+is pinned to SC-* ids. This file organizes
 the art, it does not adjudicate it.
 
 Bucket composition: TC02 (23), TC04 (14), WO03 (12), TC01 (11), WO05 (9),
@@ -400,7 +400,7 @@ planar-confinement statements with layer thickness = 2× spatial scale
 [SC-SI08-002, SC-SI08-003]; the Atamanchenko "two new fundamental laws"
 program claim [SC-SI09-001].
 
-## Open questions for campaigns
+## Open questions
 
 1. The 2–3× thermal excess [SC-TC02-040] vs the η = 5 and η = 10 design
    points [SC-TC02-061, SC-TC03-033]: do the three figures come from the
@@ -436,8 +436,7 @@ program claim [SC-SI09-001].
     quantitatively anywhere in the corpus, or asserted only?
 11. Bucketing hygiene: the device claims flagged below split from their own
     document siblings (e.g. PA01-001/003/005 vs PA01-002/004/006) — should
-    the clusters be re-cut so each device family is whole before campaigns
-    start?
+    the clusters be re-cut so each device family is whole?
 
 ## MISBUCKETED — device claims that belong in `electrical-devices`
 
@@ -445,7 +444,7 @@ The bucketing put these device-flavored claims in `general` while their
 siblings from the same documents landed in `electrical-devices`
 (PA01-001/003/005, MO01-004/007/012/018, SI09-002, SI05-007/009/015,
 TC04-016, TE07-002/008, WO05-017/031, SI03-017, TC01-007/019/020/022/023…).
-Flagged for re-bucketing before campaign work:
+Flagged for re-bucketing:
 
 - Planar-inductance patents: SC-PA01-002, SC-PA01-004, SC-PA01-006,
   SC-PA02-002, SC-PA02-003, SC-PA02-004, SC-PA03-002, SC-PA03-003,

@@ -11,8 +11,8 @@ gradient-injector hardware with the 1Ц21П storage experiment (BR02, BR03,
 DI02); (5) the planar-inductance patents PA01–PA03 with the AR07 nanofilm
 effect (AR07-037 here; the full eddy-current model lives in synthesis/
 discharge-plasma.md); (6) nanofilm/graphene varicaps and closed energy
-chains (WO02, WO07, SI11). Every assertion is pinned to SC-* ids. Verdicts
-come later, in campaigns; this file organizes the art, it does not
+chains (WO02, WO07, SI11). Every assertion is pinned to SC-* ids.
+This file organizes the art, it does not
 adjudicate it.
 
 ## The art (practical layer)
@@ -385,7 +385,7 @@ reactive-parameter modulation, y″ + y′/Q + y/(1 + ε·cos nx) = 0, reducible
 to a Hill equation with pumping ~1/(1+ε·cos) against dissipation ~1/4Q²
 (SC-AR06-012, SC-AR06-013, SC-AR06-016, SC-AR06-017); its three solution
 classes (SC-AR06-002, SC-BR04-009) and the parametric-resonance optimum
-n = 2 (SC-AR06-017) are the quantitative claims a campaign can check
+n = 2 (SC-AR06-017) are the quantitative claims one can check
 symbolically/numerically first. On top of it sits the "law of
 electrodynamic induction" — i_M = dΦ_D/dt, D = P + ε₀E — asserted as the
 displacement-current counterpart of Faraday's law (SC-WO02-008, SC-TC05-010,
@@ -406,7 +406,7 @@ transmutation bucket's gasostatics. Debt-candidate registry:
 clusters/debt-candidates.md (AR06, BR02, BR03, BR04, TC01, TC02, TC03,
 TC05, TC07, WO02, WO03, WO05, WO07, PM01 entries).
 
-## Open questions for campaigns
+## Open questions
 
 1. Numerically reproduce the growth factors 6× / 4.9× / >10⁴× of
    SC-AR06-003 and SC-BR04-011 by RK4 on eq. (7) (SC-AR06-021): do the

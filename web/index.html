@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <title>sapogin-corpus explorer — 1,641 LENR/EVO claims, clusters, syntheses</title>
 <meta name="description" content="Search and explore 1,641 provenance-pinned claims from Sapogin's Canonical Physics (LENR/EVO corpus): 145 clusters, 8 buckets, practical-first syntheses. Open JSON API under /api, MCP server at /mcp, machine docs at /llms.txt and /openapi.json.">
 <link rel="mcp-server" href="/mcp">
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "Dataset",
  "name": "sapogin-corpus: Sapogin 'Canonical Physics' claim corpus",
- "description": "1,641 provenance-pinned source claims (LENR/EVO/charge-cluster research) extracted from sapogin.com and 54 papers; 145 clusters, 8 buckets, practical-first syntheses. Agent access: MCP server at /mcp (streamable HTTP, no auth); JSON API at /api/search, /api/claim/{id}, /api/cluster/{id}, /api/synthesis/{bucket}, /api/stats; machine guide at /llms.txt; spec at /openapi.json.",
- "url": "/", "identifier": ["SC-AR04-005"],
+ "description": "1,641 provenance-pinned source claims (LENR/EVO/charge-cluster research) extracted from sapogin.com and 54 papers; 145 clusters, 8 buckets, practical-first syntheses. Agent access: MCP server at /mcp (streamable HTTP, no auth); JSON API at /api/search, /api/claim/{id}, /api/cluster/{id}, /api/synthesis/{bucket}, /api/docs, /api/stats; permalinks /claim/{id} and /cluster/{id}; full dump /api/export.json[l]; machine guide at /llms.txt; spec at /openapi.json.",
+ "url": "/", "identifier": "sapogin-corpus",
  "keywords": ["LENR", "EVO", "charge clusters", "transmutation", "catalysis", "Canonical Physics", "Sapogin"],
  "distribution": [
    {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "/api/stats"},
+   {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "/api/export.json"},
+   {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "/api/export.jsonl"},
    {"@type": "DataDownload", "encodingFormat": "text/markdown", "contentUrl": "/llms.txt"}]}
 </script>
 <link rel="alternate" type="text/markdown" href="/llms.txt" title="Agent guide (llms.txt)">
@@ -97,12 +101,14 @@
     search_claims, get_claim, list_clusters, get_cluster, get_synthesis,
     corpus_stats). JSON API: <code>/api/search?q=&hellip;</code>,
     <code>/api/claim/&lt;SC-ID&gt;</code>, <code>/api/cluster/&lt;id&gt;</code>,
-    <code>/api/synthesis/&lt;bucket&gt;</code>, <code>/api/stats</code>.
+    <code>/api/synthesis/&lt;bucket&gt;</code>, <code>/api/docs</code>,
+    <code>/api/export.jsonl</code>, <code>/api/stats</code>.
     Docs: <a href="/llms.txt">/llms.txt</a> &middot;
-    <a href="/openapi.json">/openapi.json</a>.
+    <a href="/openapi.json">/openapi.json</a> &middot;
+    <a href="/.well-known/mcp.json">/.well-known/mcp.json</a>.
     Sources: <code>/papers/&lt;section&gt;/&lt;file&gt;.pdf</code> and
     <code>/site/&lt;page&gt;.md</code>. Permalinks:
-    <code>/#claim=SC-AR04-005</code>.</p>
+    <code>/claim/SC-AR04-005</code> (JSON; <code>/#claim=&hellip;</code> in the browser UI).</p>
     <p>Enable JavaScript for the interactive graph UI.</p>
   </section>
   </main>

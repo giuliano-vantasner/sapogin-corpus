@@ -1,7 +1,7 @@
 # emden-gravity-cosmic — synthesis
 
 Practical-first synthesis of the 151 claims in this bucket. Every assertion
-is pinned to SC-* ids. Verdicts come later, in campaigns; this file organizes
+is pinned to SC-* ids. This file organizes
 the art, it does not adjudicate it.
 
 Bucket composition: AR05 (46), AR02 (29), BR01 (16), WO04 (16), WO05 (9),
@@ -310,7 +310,7 @@ SC-SI02-002, SC-SI02-028, SC-SI03-002]; figure/curve inventories
 mainstream, comet-nucleus parameters) [SC-BR01-030]; canonical-methods
 framing and recognition history [SC-WO04-001, SC-WO04-002, SC-WO04-009].
 
-## Open questions for campaigns
+## Open questions
 
 1. Which cavity cutoff is the faithful reading of the theory — r₁ = 0.6R at
    n = 0.2n₀ [SC-AR02-034] or r₁ = 0.24R at n = 0.01n₀ [SC-BR01-018]? The

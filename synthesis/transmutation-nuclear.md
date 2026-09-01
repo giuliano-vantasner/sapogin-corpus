@@ -1,7 +1,7 @@
 # transmutation-nuclear — synthesis
 
 Practical-first synthesis of the 131 claims in this bucket. Every assertion
-is pinned to SC-* ids. Verdicts come later, in campaigns; this file organizes
+is pinned to SC-* ids. This file organizes
 the art, it does not adjudicate it. The dominant source is AR04 (proton
 charge clusters of nuclear size, 37 claims), flanked by the Shoulders EV/NEV
 appendix (MO02), the monograph energy balances (MO03), the E-CAT/ХТЯ analysis
@@ -233,7 +233,7 @@ bucket and is only cross-referenced here.
   bursts; downward-moving nuclei and decay products are absent
   (SC-TC08-112, SC-TC08-113); heat output of ХТЯ is asserted both present
   (SC-TC08-113) and absent/endothermic (SC-TC08-114) — an internal conflict
-  for campaigns.
+  for future work.
 - **Anomalous heat without neutrons**: F–P heavy-water electrolysis
   (SC-WO01-080, SC-TC06-037); Energomash hydrogen plasma with conversion
   coefficient > 2 (SC-WO01-085); the corpus's own bubble reinterpretation
@@ -276,7 +276,7 @@ the binding-energy estimates (SC-SI01-017, SC-SI04-004). Debt-candidate
 registry: clusters/debt-candidates.md (AR04, MO02, MO03, TC01, TC02, TC06,
 TC08, WO01, WO03, WO04 entries).
 
-## Open questions for campaigns
+## Open questions
 
 1. Re-derive and recompute AR04 Таблица 1–2 from the stated system
    (SC-AR04-018–SC-AR04-026): do α = 3/10, β = 10⁻⁷ actually yield

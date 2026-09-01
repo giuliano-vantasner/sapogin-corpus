@@ -23,7 +23,7 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "
 /* ---------- graph ---------- */
 const container = $("#graph");
 const graph = new vis.Network(container, { nodes: [], edges: [] }, {
-  layout: { improvedLayout: true },
+  layout: { improvedLayout: false },   // true logs a console warning on these graphs
   physics: { solver: "barnesHut", barnesHut: { gravitationalConstant: -5200, springLength: 95 } },
   interaction: { hover: true, tooltipDelay: 120 },
   nodes: { shape: "dot", font: { color: "#d7dae0", size: 13 } },
@@ -127,8 +127,8 @@ function browseSide() {
   $("#side").innerHTML = `<h2>Browse the corpus</h2>
     <p class="meta">${D.claims.length} source claims · 65 documents · ${D.clusters.length} clusters · ${D.buckets.length} buckets.
     Pick a cluster below, click a node in the graph, or search.
-    <span class="pri-core">core</span> = transmutation / catalysis / EVO / electrical path (Tiziano priority).
-    Clusters are PROPOSALS pending Dan's campaign split.</p>
+    <span class="pri-core">core</span> = transmutation / catalysis / EVO / electrical path (priority path).
+    Clusters are provisional proposals.</p>
     <h3>By bucket</h3>
     ${rows}`;
 }
@@ -160,6 +160,7 @@ function showCluster(id) {
   $("#side").innerHTML = `<h2>${esc(id)}</h2>
     <p class="meta">${meta.bucket} · ${meta.size} claims · ${meta.core} core</p>
     <p class="meta">keywords: ${esc(meta.keywords.join(", "))}</p>
+    ${meta.summary ? `<p class="meta">${esc(meta.summary)}</p>` : ""}
     ${syn ? `<div class="md">${marked.parse(syn)}</div>` : `<p class="meta">no synthesis yet for ${esc(meta.bucket)}</p>`}
     <h3>Claims (${members.length})</h3>
     ${members.map(c => claimCard(c)).join("")}`;

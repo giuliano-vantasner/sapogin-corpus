@@ -15,8 +15,8 @@ bubbles). Cross-bucket: the devices that consume these inductances and
 discharges are synthesized in synthesis/electrical-devices.md (notably
 SC-AR07-037 and PA01–PA03 there); the charge-bubble phenomenology these
 forces are meant to explain is in synthesis/transmutation-nuclear.md.
-Every assertion is pinned to SC-* ids. Verdicts come later, in campaigns;
-this file organizes the art, it does not adjudicate it.
+Every assertion is pinned to SC-* ids.
+This file organizes the art, it does not adjudicate it.
 
 ## The art (practical layer)
 
@@ -284,7 +284,7 @@ and the material frequency scales (SC-AR07-031, SC-AR07-034, SC-AR07-039,
 SC-AR07-040) are checkable geometry arithmetic. Debt-candidate registry:
 clusters/debt-candidates.md (AR07, TC04, WO04, SI01, PM02 entries).
 
-## Open questions for campaigns
+## Open questions
 
 1. Symbolic/numeric re-derivation of the dynamic-inductance curve: are
    F₁/f* = 0.1605, F₂/f* = 18.69, L_min = −9.536 L*, L∞ = L*/3

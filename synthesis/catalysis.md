@@ -12,7 +12,7 @@ essentially unpopulated: only 39 records corpus-wide carry any relations, none t
 ids, and the six claims themselves have empty `relations` arrays — so the mechanism map is built
 from shared tags/entities (catalysis, rossi/e-cat, patterson, mizuno, potapov, никель, керамика,
 катализ), not from the relation graph. Every assertion is pinned to SC-* ids; cross-bucket pins
-are marked [cross-bucket]. Verdicts come later, in campaigns; this file organizes the art, it
+are marked [cross-bucket]. This file organizes the art, it
 does not adjudicate it.
 
 ## The art (practical layer)
@@ -77,7 +77,7 @@ does not adjudicate it.
 | [cross-bucket] SC-AR04-029 | Proton-cluster Table 1: N = 2…58 protons, r2 = 2,7…14,3 fermi (Ni nucleus ≈ 5 fermi); n0 = 2·10³⁰…14·10³⁰ см⁻³; T = 500…2000 K | AR04 p.10 |
 
 (The first six rows are the bucket's entire quantitative patrimony; the cross-bucket rows are the
-numbers any surface→catalysis campaign must reckon with.)
+numbers any surface→catalysis analysis must reckon with.)
 
 ## Testable protocols
 
@@ -125,7 +125,7 @@ numbers any surface→catalysis campaign must reckon with.)
   heated-zone temperature growth (SC-TC06-051); ordinary vs heavy water (SC-TC06-048);
   temperature gradient, which sets charge-bubble concentration at a Ni point cathode
   (SC-TC06-051).
-- **Mechanism map — cluster → surface → catalysis (Tiziano's key question, assembled from the
+- **Mechanism map — cluster → surface → catalysis (the key question, assembled from the
   bucket plus the mined cross-bucket claims):**
   1. SURFACE: rough/pointed surfaces are the cluster birth sites — Shoulders' tip cathode
      [cross-bucket: SC-TC03-001], Mesyats' ectons on cathode roughnesses [cross-bucket:
@@ -152,7 +152,7 @@ numbers any surface→catalysis campaign must reckon with.)
      (SC-TC06-048) [cross-bucket: SC-TC02-015].
 - **Cross-bucket discipline note.** Katorgin's calorimetry (coefficient 2–5, [cross-bucket:
   SC-MO03-017]) and the Rossi numbers ([cross-bucket: SC-TC08-108/109/123]) belong to the
-  evo-charge-clusters campaigns; catalysis campaigns should treat them as boundary conditions, not
+  evo-charge-clusters work; catalysis analysis should treat them as boundary conditions, not
   re-litigate them.
 - **Replication caveats carried by the sources.** Not all excess-energy experiments repeated
   elsewhere [cross-bucket: SC-WO01-088]; the Potapov/cavitation COP 5–15 claim carries the
@@ -181,7 +181,7 @@ and SC-TC08-136 are extractor-unflagged. None of these models is
 needed to run the three testable protocols above; all of them are what the protocols would
 adjudicate.
 
-## Open questions for campaigns
+## Open questions
 
 1. Quantify the tip-grid effect: what voltage, grid geometry, and chemistry produce the "×tens"
    catalysis-rate increase, and is the effect thermal (local heating) or non-thermal? Only
