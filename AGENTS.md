@@ -202,7 +202,8 @@ from the first line and keep the split structure on every later change.
 - Subagents: ≤3 concurrent (user directive). Each subagent task states its
   frozen slice, schema, and acceptance checks; subagents do not run repo-wide
   validators mid-flight.
-- Gitops (Dan, 2026-09-01): main is home — work and land on main by
-  default; a review PR's branch is deleted the moment it merges or closes
-  (head and fork), and stale branches are swept on sight. Main should
-  always answer "what is deployed" at a glance.
+- Gitops (Dan, 2026-09-01): main is home; the cycle is dev on a short-lived
+  branch → push → merge to main (PR when a commissioned review is attached)
+  → delete the branch (head and fork) in the same session. Stale branches
+  are swept on sight. Main should always answer "what is deployed" at a
+  glance.
