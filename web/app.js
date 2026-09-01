@@ -110,7 +110,7 @@ function defaultSide() {
     electrical path (Tiziano priority).</p>`;
 }
 function pdfLink(c) {
-  return c.pdf ? `<a href="../${esc(c.pdf)}#page=${c.page || 1}" target="_blank" style="color:var(--accent);font-size:12px">source PDF${c.page ? " p." + c.page : ""}</a>` : "";
+  return c.pdf ? `<a href="${esc(c.pdf)}#page=${c.page || 1}" target="_blank" style="color:var(--accent);font-size:12px">source PDF${c.page ? " p." + c.page : ""}</a>` : "";
 }
 function claimCard(c, sel) {
   return `<div class="claim ${sel ? "sel" : ""}" data-id="${c.id}">
@@ -145,7 +145,6 @@ function showClaim(id) {
     <div class="kv"><b>cluster:</b> <span style="cursor:pointer;color:var(--accent)" onclick="openCluster('${c.cluster}')">${esc(c.cluster)}</span></div>
     <div class="kv"><b>type/facet:</b> ${esc(c.type)} / ${esc(c.facet)} · <b>priority:</b> ${esc(c.priority)}</div>
     ${kv("tags", c.tags)}${kv("quantities", c.quantities)}${kv("materials", c.materials)}
-    ${kv("geometry", c.geometry)}${kv("procedure", c.steps)}${kv("measurements", c.meas)}${kv("schematics", c.schematics)}
     <h3>Cluster context</h3>
     <p class="meta">open the full cluster via its name above or the view button.</p>`;
   $("#side").scrollTop = 0;
