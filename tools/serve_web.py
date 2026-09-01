@@ -46,6 +46,13 @@ def load():
     bucket_of = {c["cluster"]: c["bucket"] for c in clusters}
     manifest = yaml.safe_load((ROOT / "papers" / "MANIFEST.yaml").read_text())
     docs = {d["doc_id"]: d for d in manifest["documents"]}
+    for i, page in enumerate(["home", "articles", "brochure", "dissertation",
+                              "lectures", "monography", "patents",
+                              "perpetual_motion", "teaching", "technologies",
+                              "works"], 1):
+        docs[f"SI{i:02d}"] = {"doc_id": f"SI{i:02d}", "section": "site",
+                              "title_ru": f"sapogin.com /{page}",
+                              "file": f"site/{page}.md"}
     for r in rows:
         d = docs.get(r["doc_id"], {})
         cl = claim_cluster.get(r["id"])
@@ -87,6 +94,8 @@ def score(c, terms):
 class Handler(BaseHTTPRequestHandler):
     def _json(self, obj, code=200):
         body = json.dumps(obj, ensure_ascii=False).encode()
+        if getattr(self, "_head_only", False):
+            body = b""
         self.send_response(code)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
@@ -98,15 +107,19 @@ class Handler(BaseHTTPRequestHandler):
     def _static(self, path):
         if path == "/":
             path = "/index.html"
-        f = (WEB / path.lstrip("/")).resolve()
-        if not str(f).startswith(str(WEB.resolve())) or not f.is_file():
-            self._json({"error": "not found"}, 404)
+        for prefix, base in (("/papers/", ROOT / "papers"), ("/site/", ROOT / "site")):
+            if path.startswith(prefix):
+                f = (base / path[len(prefix):]).resolve()
+                allowed = str(base.resolve())
+                break
+        else:
+            f = (WEB / path.lstrip("/")).resolve()
+            allowed = str(WEB.resolve())
+        if not str(f).startswith(allowed) or not f.is_file():
+            self._json({"error": "not found", "hint": "see /llms.txt"}, 404)
             return
-        # allow the papers symlink
-        try:
-            f.relative_to(WEB.resolve())
-        except ValueError:
-            pass
+        if getattr(self, "_head_only", False):
+            body = b""
         ctype = {".html": "text/html", ".js": "text/javascript", ".css": "text/css",
                  ".json": "application/json", ".md": "text/markdown", ".yaml": "text/yaml"}.get(
                      f.suffix, "application/octet-stream")
@@ -117,6 +130,25 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
         self.wfile.write(body)
+
+    def do_HEAD(self):
+        self._head_only = True
+        self.do_GET()
+
+    def do_DELETE(self):
+        # stateless server: nothing to terminate
+        self.send_response(204)
+        self.send_header("Content-Length", "0")
+        self.end_headers()
+
+    def do_OPTIONS(self):
+        self.send_response(204)
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type, Mcp-Session-Id")
+        self.send_header("Access-Control-Max-Age", "86400")
+        self.send_header("Content-Length", "0")
+        self.end_headers()
 
     def do_GET(self):
         try:
@@ -144,6 +176,13 @@ class Handler(BaseHTTPRequestHandler):
         except (UnicodeDecodeError, UnicodeEncodeError):
             return s
 
+    def _base(self):
+        host = (self.headers.get("X-Forwarded-Host")
+                or self.headers.get("Host") or "127.0.0.1:8420")
+        proto = (self.headers.get("X-Forwarded-Proto")
+                 or ("https" if "vantasner.io" in host else "http"))
+        return f"{proto}://{host}"
+
     def route(self):
         path, _, qs = self.path.partition("?")
         path = self._utf8(path)
@@ -155,7 +194,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.mcp_endpoint()
 
         if path == "/llms.txt":
-            body = LLMSTXT.encode()
+            body = LLMSTXT.replace("{BASE}", self._base()).encode()
             self.send_response(200)
             self.send_header("Content-Type", "text/markdown; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
@@ -184,7 +223,9 @@ class Handler(BaseHTTPRequestHandler):
             })
 
         if path == "/openapi.json":
-            return self._json(OPENAPI)
+            spec = json.loads(json.dumps(OPENAPI))
+            spec["servers"] = [{"url": self._base() + "/"}]
+            return self._json(spec)
 
         if not path.startswith("/api"):
             return self._static(path)
@@ -250,9 +291,11 @@ class Handler(BaseHTTPRequestHandler):
                 "clusters": len(clusters), "buckets": len(set(bucket_of.values())),
                 "syntheses": sorted(synthesis),
                 "core": sum(1 for c in claims if c["priority"] == "core"),
-                "endpoints": ["/api/search?q=", "/api/claim/<id>", "/api/clusters",
-                              "/api/cluster/<id>", "/api/buckets", "/api/synthesis/<bucket>",
-                              "/api/random?n=", "/api/stats"]})
+                "mcp": self._base() + "/mcp",
+                "endpoints": [self._base() + e for e in
+                              ["/api/search?q=", "/api/claim/<id>", "/api/clusters",
+                               "/api/cluster/<id>", "/api/buckets", "/api/synthesis/<bucket>",
+                               "/api/random?n=", "/api/stats"]]})
 
         self._json({"error": "unknown endpoint", "try": "/api/stats"}, 404)
 
@@ -274,6 +317,21 @@ class Handler(BaseHTTPRequestHandler):
             self.send_response(202)
             self.send_header("Content-Length", "0")
             self.end_headers()
+            return
+        if msg.get("method") == "initialize":
+            import uuid
+            self._mcp_session = uuid.uuid4().hex
+        if getattr(self, "_mcp_session", None):
+            body = json.dumps(resp, ensure_ascii=False).encode()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Mcp-Session-Id", self._mcp_session)
+            self.send_header("Link", '</mcp>; rel="mcp-server"')
+            self.end_headers()
+            if not getattr(self, "_head_only", False):
+                self.wfile.write(body)
             return
         self._json(resp)
 
@@ -400,7 +458,8 @@ def mcp_dispatch(msg):
         except Exception as e:  # noqa: BLE001
             payload = {"error": str(e)}
         return {"jsonrpc": "2.0", "id": mid, "result": {
-            "content": [{"type": "text", "text": json.dumps(payload, ensure_ascii=False, indent=1)}]}}
+            "content": [{"type": "text", "text": json.dumps(payload, ensure_ascii=False, indent=1)}],
+            "structuredContent": payload}}
     return {"jsonrpc": "2.0", "id": mid,
             "error": {"code": -32601, "message": f"Method not found: {method}"}}
 
@@ -415,13 +474,15 @@ LLMSTXT = """# sapogin-corpus
 
 Agents can explore three ways, all open (no auth):
 
-1. MCP (preferred): streamable-HTTP server at /mcp — tools: search_claims,
-   get_claim, list_clusters, get_cluster, get_synthesis, corpus_stats.
-   Point any MCP client at http://127.0.0.1:8420/mcp (POST, JSON-RPC 2.0).
-2. JSON API: /api/search?q= (filters: bucket, priority, facet, doc, section,
-   cluster, limit), /api/claim/<SC-ID>, /api/clusters, /api/cluster/<id>,
-   /api/buckets, /api/synthesis/<bucket>, /api/random?n=, /api/stats.
-   Machine-readable spec: /openapi.json
+1. MCP (preferred): streamable-HTTP server at {BASE}/mcp — tools:
+   search_claims, get_claim, list_clusters, get_cluster, get_synthesis,
+   corpus_stats. Point any MCP client at {BASE}/mcp (POST, JSON-RPC 2.0).
+2. JSON API: {BASE}/api/search?q= (filters: bucket, priority, facet, doc,
+   section, cluster, limit), {BASE}/api/claim/<SC-ID>, {BASE}/api/clusters,
+   {BASE}/api/cluster/<id>, {BASE}/api/buckets,
+   {BASE}/api/synthesis/<bucket>, {BASE}/api/random?n=, {BASE}/api/stats.
+   Machine-readable spec: {BASE}/openapi.json
+   UI permalinks: {BASE}/#cluster=<cluster-id> or {BASE}/#claim=<SC-ID>
 3. Human UI: / (graph + browse + search; agents may also read web/data.js).
 
 Key buckets: transmutation-nuclear, catalysis, evo-charge-clusters,

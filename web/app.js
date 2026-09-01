@@ -111,6 +111,7 @@ graph.on("click", p => {
 });
 $("#modeBtn").onclick = () => {
   selectedCluster = null; bucketFilter = null; render(); browseSide();
+  history.replaceState(null, "", location.pathname);
 };
 
 /* ---------- side panel ---------- */
@@ -138,7 +139,11 @@ function showBucketInSide(name) {
     ${cls.map(c => `<div class="brow" onclick="openCluster('${c.id}')"><span class="cid">${esc(c.id)}</span><span class="meta">${c.size} claims · ${c.core} core</span></div>`).join("")}`;
 }
 function pdfLink(c) {
-  return c.pdf ? `<a href="${esc(c.pdf)}#page=${c.page || 1}" target="_blank" style="color:var(--accent);font-size:12px">source PDF${c.page ? " p." + c.page : ""}</a>` : "";
+  if (!c.pdf) return "";
+  const isText = c.pdf.endsWith(".md");
+  const anchor = isText ? "" : `#page=${c.page || 1}`;
+  const label = (isText ? "source text" : "source PDF") + (c.page ? " p." + c.page : "");
+  return `<a href="${esc(c.pdf)}${anchor}" target="_blank" style="color:var(--accent);font-size:12px">${label}</a>`;
 }
 function claimCard(c, sel) {
   return `<div class="claim ${sel ? "sel" : ""}" data-id="${c.id}">
@@ -160,6 +165,7 @@ function showCluster(id) {
     ${members.map(c => claimCard(c)).join("")}`;
   bindCards();
   $("#side").scrollTop = 0;
+  history.replaceState(null, "", `#cluster=${id}`);
 }
 function showClaim(id) {
   const c = byId[id];
@@ -177,6 +183,7 @@ function showClaim(id) {
     <h3>Cluster context</h3>
     <p class="meta">open the full cluster via its name above or the view button.</p>`;
   $("#side").scrollTop = 0;
+  history.replaceState(null, "", `#claim=${id}`);
 }
 window.openCluster = id => { selectedCluster = id; render(); showCluster(id); };
 function bindCards() {
@@ -247,6 +254,21 @@ $("#search").addEventListener("input", e => {
   }, 180);
 });
 
+function applyHash() {
+  const h = decodeURIComponent(location.hash || "");
+  let m = h.match(/^#claim=(SC-[A-Za-z0-9-]+)/);
+  if (m) {
+    const c = byId[m[1].toUpperCase()];
+    if (c) { selectedCluster = c.cluster; render(); showClaim(c.id); return; }
+  }
+  m = h.match(/^#cluster=([A-Za-z0-9-]+)/);
+  if (m && D.clusters.find(x => x.id === m[1])) {
+    selectedCluster = m[1]; render(); showCluster(m[1]); return;
+  }
+}
+window.addEventListener("hashchange", applyHash);
+
 browseSide();
 render();
+applyHash();
 

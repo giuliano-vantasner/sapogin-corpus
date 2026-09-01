@@ -71,6 +71,32 @@
   <div class="chips" id="chips"></div>
   <button class="btn" id="modeBtn">view: graph</button>
 </header>
+<noscript>
+  <main style="display:block">
+  <section style="max-width:860px;margin:24px auto;padding:0 18px;font-size:14px;line-height:1.5">
+    <h2>sapogin-corpus — 1,641 provenance-pinned claims (LENR/EVO research)</h2>
+    <p>Every experimental, physical, and mathematical claim extracted from
+    Vladimir Sapogin's "Canonical Physics" (sapogin.com): 65 documents
+    (54 papers + 11 site pages), 145 proposal clusters in 8 topic buckets
+    (transmutation-nuclear, catalysis, evo-charge-clusters, electrical-devices,
+    discharge-plasma, emden-gravity-cosmic, foundations-canonical, general),
+    plus practical-first syntheses. Priority <span class="pri-core">core</span> =
+    transmutation / catalysis / EVO / electrical path.</p>
+    <p><b>Agents:</b> this page is a JS app — use the machine surface instead.
+    MCP server: <code>POST /mcp</code> (streamable HTTP, no auth; tools:
+    search_claims, get_claim, list_clusters, get_cluster, get_synthesis,
+    corpus_stats). JSON API: <code>/api/search?q=&hellip;</code>,
+    <code>/api/claim/&lt;SC-ID&gt;</code>, <code>/api/cluster/&lt;id&gt;</code>,
+    <code>/api/synthesis/&lt;bucket&gt;</code>, <code>/api/stats</code>.
+    Docs: <a href="/llms.txt">/llms.txt</a> &middot;
+    <a href="/openapi.json">/openapi.json</a>.
+    Sources: <code>/papers/&lt;section&gt;/&lt;file&gt;.pdf</code> and
+    <code>/site/&lt;page&gt;.md</code>. Permalinks:
+    <code>/#claim=SC-AR04-005</code>.</p>
+    <p>Enable JavaScript for the interactive graph UI.</p>
+  </section>
+  </main>
+</noscript>
 <main>
   <div id="graph"></div>
   <div id="dragbar" title="drag to resize the results panel"></div>
