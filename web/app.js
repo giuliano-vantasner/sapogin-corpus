@@ -92,6 +92,11 @@ function fitSoon() {
   }, 2600);
 }
 
+window.addEventListener("sapogin:graph-visible", () => {
+  graph.redraw();
+  fitSoon();
+});
+
 function render() {
   const { nodes, edges } = selectedCluster ? claimData(selectedCluster) : overviewData();
   graph.setData({ nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) });
@@ -272,4 +277,3 @@ window.addEventListener("hashchange", applyHash);
 browseSide();
 render();
 applyHash();
-

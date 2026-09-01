@@ -1,0 +1,152 @@
+/* Phone layout: one readable workspace at a time; desktop remains the split view. */
+#mobileViewBtn {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  body {
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    padding: max(10px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) 10px max(12px, env(safe-area-inset-left));
+  }
+
+  header h1 {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  #search {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    min-height: 44px;
+  }
+
+  .chips {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    padding: 1px 0 5px;
+    scrollbar-width: thin;
+  }
+
+  .chip {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    min-height: 44px;
+    padding-inline: 12px;
+  }
+
+  #modeBtn,
+  #mobileViewBtn {
+    min-height: 44px;
+  }
+
+  #modeBtn {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    justify-self: start;
+  }
+
+  body[data-context-action="false"] #modeBtn {
+    display: none;
+  }
+
+  #mobileViewBtn {
+    display: inline-flex;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  main {
+    position: relative;
+    display: block;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  #graph,
+  #side {
+    position: absolute;
+    inset: 0;
+    width: 100% !important;
+    min-width: 0;
+    max-width: none;
+  }
+
+  #graph {
+    display: none;
+  }
+
+  #dragbar {
+    display: none;
+  }
+
+  #side {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 12px max(16px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+    overflow-wrap: anywhere;
+  }
+
+  body.mobile-graph #graph {
+    display: block;
+  }
+
+  body.mobile-graph #side {
+    display: none;
+  }
+
+  #legend {
+    display: none;
+    padding-right: max(12px, env(safe-area-inset-right));
+    padding-bottom: max(5px, env(safe-area-inset-bottom));
+    padding-left: max(12px, env(safe-area-inset-left));
+  }
+
+  body.mobile-graph #legend {
+    display: flex;
+  }
+
+  .claim,
+  .brow,
+  .crow,
+  summary {
+    min-height: 44px;
+  }
+
+  .crow,
+  summary {
+    display: flex;
+    align-items: center;
+  }
+
+  .md,
+  .md table {
+    max-width: 100%;
+  }
+
+  .md table {
+    display: block;
+    overflow-x: auto;
+  }
+}
