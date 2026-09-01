@@ -181,6 +181,18 @@ Each cluster/path from the GitNexus clustering becomes a campaign under
   `claim` nodes via the JSONL loader in `tools/gitnexus_ingest.py`; clustering
   queries use `gitnexus cypher`.
 
+## Code layout (Dan, 2026-09-01)
+
+Code in this repo follows separation of concerns: the directory tells the
+architecture story at a glance, and each file owns exactly one
+responsibility (the `code-structure` skill carries the pattern). The reward
+is direct: mlops-kelvin and axis-marbell — or any new agent — can land,
+review, and change the code without a guided tour. Known debt:
+`tools/serve_web.py` (HTTP plumbing, routes, API payloads, MCP, and served
+text assets in one file) and the monolithic `web/app.js`; the commissioned
+cleanup pass will split them. Land new web/tools work as separate modules
+from the first line and keep the split structure on every later change.
+
 ## Agent conduct
 
 - The user's word is absolute. Dan's steering (executed verification, scope

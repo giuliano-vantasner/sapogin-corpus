@@ -65,7 +65,9 @@ is actually handed off or closure is disputed.
 
 ## Decomposition and Ownership
 List dependency-ordered local work and one child contract per authorized worker.
-Give workers disjoint write surfaces and raw sourced inputs. Use a distinct
+Give workers disjoint write surfaces and raw sourced inputs. Code units land
+as single-responsibility files and modules: a unit that would widen an
+existing god file extracts a module instead of appending. Use a distinct
 merger by default; when the user or repository owner explicitly authorizes
 self-merge, record the override without treating it as independent scientific
 review.

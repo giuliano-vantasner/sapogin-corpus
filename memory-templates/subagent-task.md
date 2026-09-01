@@ -26,7 +26,7 @@ State the exact object this worker must produce and the relevant success gates. 
 List exact release, claim ids, paths, equations, data, parent contract, and write surface. Provide facts rather than the parent agent's expected interpretation.
 
 ## Invariants and Boundaries
-State conventions and accepted invariants. Name files the worker may edit and surfaces owned by others.
+State conventions and accepted invariants. Name files the worker may edit and surfaces owned by others. Code slices keep separation of concerns — one responsibility per file; a worker's diff leaves the tree easier to navigate than it found it (the `code-structure` skill).
 
 ## Candidate and Method
 Record the assigned candidate or independent review route, claim-appropriate
