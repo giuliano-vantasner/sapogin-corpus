@@ -35,19 +35,25 @@ let selectedCluster = null;
 
 function overviewData() {
   const nodes = [], edges = [];
-  if (!bucketFilter)
-    for (const b of D.buckets)
+  if (!bucketFilter) {
+    const R = 620;
+    D.buckets.forEach((b, i) => {
+      const a = (2 * Math.PI * i) / D.buckets.length - Math.PI / 2;
       nodes.push({
-        id: "B:" + b.name, label: `${b.name}\n${b.size}`,
+        id: "B:" + b.name, label: `${b.name}\n${b.size} claims · ${b.clusters} clusters`,
         value: Math.sqrt(b.size) * 3, color: bucketColor(b.name),
         shape: "box", font: { size: 15, color: "#fff" }, physics: false,
+        x: Math.round(R * Math.cos(a)), y: Math.round(R * Math.sin(a)),
       });
+    });
+  }
   for (const c of D.clusters) {
     if (bucketFilter && c.bucket !== bucketFilter) continue;
     nodes.push({
-      id: "C:" + c.id, label: `${c.id}\n${c.size}`,
+      id: "C:" + c.id,
+      label: c.size >= 8 ? `${c.id}\n${c.size}` : "",
       value: 2 + Math.sqrt(c.size) * 1.6, color: bucketColor(c.bucket),
-      title: `${c.id} — ${c.size} claims, ${c.core} core\nkeywords: ${c.keywords.slice(0, 6).join(", ")}`,
+      title: `${c.id} — ${c.size} claims, ${c.core} core\nkeywords: ${c.keywords.slice(0, 6).join(", ")}\n(click to open)`,
     });
     if (!bucketFilter) edges.push({ from: "B:" + c.bucket, to: "C:" + c.id });
   }
@@ -77,37 +83,59 @@ function claimData(clusterId) {
   return { nodes, edges };
 }
 
+function fitSoon() {
+  setTimeout(() => { try { graph.fit({ animation: { duration: 400, easingFunction: "easeOutQuad" } }); } catch {} }, 350);
+  // freeze the layout once it has spread — physics otherwise keeps pushing
+  // nodes outward and every fit zooms further out (blank-looking canvas)
+  setTimeout(() => {
+    try { graph.setOptions({ physics: { enabled: false } }); graph.fit({ animation: { duration: 500 } }); } catch {}
+  }, 2600);
+}
+
 function render() {
   const { nodes, edges } = selectedCluster ? claimData(selectedCluster) : overviewData();
   graph.setData({ nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) });
   $("#modeBtn").textContent = selectedCluster
-    ? `view: ${selectedCluster} (back)` : "view: clusters";
+    ? `◀ back to browse (${selectedCluster})` : "view: graph";
   renderLegend();
+  fitSoon();
 }
+graph.on("stabilizationIterationsDone", () => { try { graph.fit({ animation: false }); } catch {} });
 
 graph.on("click", p => {
   if (!p.nodes.length) return;
   const id = p.nodes[0];
   if (id.startsWith("C:")) { selectedCluster = id.slice(2); render(); showCluster(selectedCluster); }
   else if (id.startsWith("S:")) showClaim(id.slice(2));
-  else if (id.startsWith("B:")) { bucketFilter = id.slice(2); render(); }
+  else if (id.startsWith("B:")) { bucketFilter = id.slice(2); render(); showBucketInSide(id.slice(2)); }
 });
 $("#modeBtn").onclick = () => {
-  if (selectedCluster) { selectedCluster = null; render(); defaultSide(); }
-  else { bucketFilter = null; render(); }
+  selectedCluster = null; bucketFilter = null; render(); browseSide();
 };
 
 /* ---------- side panel ---------- */
-function defaultSide() {
-  $("#side").innerHTML = `<h2>sapogin-corpus</h2>
+function browseSide() {
+  const rows = D.buckets.map(b => {
+    const cls = D.clusters.filter(c => c.bucket === b.name).sort((a, z) => z.size - a.size);
+    const items = cls.map(c =>
+      `<div class="crow" onclick="openCluster('${c.id}')"><span>${esc(c.id)}</span><span>${c.size} claims${c.core ? ` · ${c.core} core` : ""}</span></div>`).join("");
+    return `<details open>
+      <summary><span class="sw" style="background:${bucketColor(b.name)}"></span>${esc(b.name)} — ${b.size} claims, ${b.clusters} clusters</summary>
+      ${items}</details>`;
+  }).join("");
+  $("#side").innerHTML = `<h2>Browse the corpus</h2>
     <p class="meta">${D.claims.length} source claims · 65 documents · ${D.clusters.length} clusters · ${D.buckets.length} buckets.
-    Click a cluster node to open it; a claim node to inspect it.
-    Search matches ids, English statements, tags, and Russian quotes.</p>
-    <h3>Data model</h3>
-    <p class="meta">SC-* = source claim (verbatim-faithful, provenance-pinned,
-    data not doctrine). Clusters are PROPOSALS pending Dan's campaign split.
-    <span class="pri-core">core</span> = transmutation / catalysis / EVO /
-    electrical path (Tiziano priority).</p>`;
+    Pick a cluster below, click a node in the graph, or search.
+    <span class="pri-core">core</span> = transmutation / catalysis / EVO / electrical path (Tiziano priority).
+    Clusters are PROPOSALS pending Dan's campaign split.</p>
+    <h3>By bucket</h3>
+    ${rows}`;
+}
+function showBucketInSide(name) {
+  const cls = D.clusters.filter(c => c.bucket === name).sort((a, z) => z.size - a.size);
+  $("#side").innerHTML = `<h2>${esc(name)}</h2>
+    <p class="meta">${cls.length} clusters — click to open (also in the graph).</p>
+    ${cls.map(c => `<div class="brow" onclick="openCluster('${c.id}')"><span class="cid">${esc(c.id)}</span><span class="meta">${c.size} claims · ${c.core} core</span></div>`).join("")}`;
 }
 function pdfLink(c) {
   return c.pdf ? `<a href="${esc(c.pdf)}#page=${c.page || 1}" target="_blank" style="color:var(--accent);font-size:12px">source PDF${c.page ? " p." + c.page : ""}</a>` : "";
@@ -145,6 +173,7 @@ function showClaim(id) {
     <div class="kv"><b>cluster:</b> <span style="cursor:pointer;color:var(--accent)" onclick="openCluster('${c.cluster}')">${esc(c.cluster)}</span></div>
     <div class="kv"><b>type/facet:</b> ${esc(c.type)} / ${esc(c.facet)} · <b>priority:</b> ${esc(c.priority)}</div>
     ${kv("tags", c.tags)}${kv("quantities", c.quantities)}${kv("materials", c.materials)}
+    ${kv("geometry", c.geometry)}${kv("procedure", c.steps)}${kv("measurements", c.meas)}${kv("schematics", c.schematics)}
     <h3>Cluster context</h3>
     <p class="meta">open the full cluster via its name above or the view button.</p>`;
   $("#side").scrollTop = 0;
@@ -158,6 +187,28 @@ function focusClaim(id) {
   try { graph.selectNodes(["S:" + id]); graph.focus("S:" + id, { scale: 1.1, animation: true }); } catch {}
 }
 
+/* ---------- dragbar: resize the results panel ---------- */
+const dragbar = $("#dragbar"), side = $("#side");
+const savedW = parseInt(localStorage.getItem("sideWidth") || "480", 10);
+if (savedW >= 320) side.style.width = savedW + "px";
+let dragging = false;
+dragbar.addEventListener("pointerdown", e => {
+  dragging = true; dragbar.classList.add("active");
+  dragbar.setPointerCapture(e.pointerId);
+  document.body.style.cursor = "col-resize";
+});
+dragbar.addEventListener("pointermove", e => {
+  if (!dragging) return;
+  const w = Math.min(Math.max(window.innerWidth - e.clientX, 320), Math.floor(window.innerWidth * 0.85));
+  side.style.width = w + "px";
+});
+dragbar.addEventListener("pointerup", e => {
+  dragging = false; dragbar.classList.remove("active");
+  document.body.style.cursor = "";
+  localStorage.setItem("sideWidth", String(parseInt(side.style.width, 10) || 480));
+  try { graph.redraw(); } catch {}
+});
+
 /* ---------- chips + legend ---------- */
 const chips = $("#chips");
 for (const b of D.buckets) {
@@ -169,6 +220,7 @@ for (const b of D.buckets) {
     document.querySelectorAll(".chip").forEach(x => x.classList.remove("on"));
     if (bucketFilter) el.classList.add("on");
     render();
+    bucketFilter ? showBucketInSide(b.name) : browseSide();
   };
   chips.appendChild(el);
 }
@@ -177,7 +229,7 @@ function renderLegend() {
     ? `<span><span class="sw" style="background:#ffb84d"></span>core claim ★</span>
        <span><span class="sw" style="background:#6b7684"></span>normal claim</span>
        <span>edges: extracted relations + same-document shared tags (≥3)</span>`
-    : `<span>node size ∝ claims; click a bucket hub to filter, a cluster to open</span>`;
+    : `<span>node size ∝ claims · hover a dot for keywords · click to open · or use the Browse panel</span>`;
 }
 
 /* ---------- search box ---------- */
@@ -188,11 +240,12 @@ $("#search").addEventListener("input", e => {
     const q = e.target.value.trim();
     if (q.length < 2) return;
     const hits = mini.search(q).slice(0, 25);
-    $("#side").innerHTML = `<h2>Search — ${hits.length} hits</h2>` +
+    $("#side").innerHTML = `<h2>Search — ${hits.length} hits</h2>
+      <p class="meta">top 25 · drag the blue handle to widen this panel</p>` +
       (hits.map(h => claimCard(byId[h.id])).join("") || `<p class="meta">no matches</p>`);
     bindCards();
   }, 180);
 });
 
-defaultSide();
+browseSide();
 render();
