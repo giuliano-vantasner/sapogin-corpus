@@ -37,7 +37,7 @@ def main() -> int:
             failed += 1
             print(f"FAIL {rel}: {r.stderr.strip()[:200]}", file=sys.stderr)
             txt.unlink(missing_ok=True)
-    for other in sorted(p for p in (ROOT / "papers").glob("*/*") if p.suffix.lower() not in (".pdf", ".yaml", ".md")):
+    for other in sorted(p for p in (ROOT / "papers").glob("*/*") if p.is_file() and p.suffix.lower() not in (".pdf", ".yaml", ".md")):
         skipped += 1
         print(f"SKIP {other.relative_to(ROOT)}: not a PDF (OCR/manual fallback needed)", file=sys.stderr)
     print(f"text extracted: {ok} ok, {skipped} skipped, {failed} failed -> {OUT}")

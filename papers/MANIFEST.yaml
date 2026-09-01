@@ -1,0 +1,599 @@
+# Sapogin corpus — papers provenance manifest
+# Source inventory: /tmp/sapogin-inventory.json (54 documents referenced by https://sapogin.com/)
+# doc_id scheme: <SECTION2><NN> in inventory order. retrieved = actual download date.
+generated: 2026-09-01
+documents:
+  - doc_id: AR01
+    section: articles
+    title_ru: "Биволновая природа принципа наименьшего действия релятивистской частицы-заряда"
+    file: papers/articles/bivolnovaya-priroda-printsipa-naimenshego-deystviya-relyativistskoy-chastitsy-za.pdf
+    source_url: "http://146.190.233.254/docs/articles/Биволновая природа принципа наименьшего действия релятивистской частицы-заряда.pdf"
+    drive_id: null
+    md5: a51040bd0570515acabbb908e9cf0b0f
+    bytes: 576490
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR02
+    section: articles
+    title_ru: "Об одном классе точных и приближённых решений Е − уравнения эмдена для потенциала"
+    file: papers/articles/ob-odnom-klasse-tochnykh-i-priblizhyonnykh-resheniy-e-uravneniya-emdena-dlya-pot.pdf
+    source_url: "http://146.190.233.254/docs/articles/Об одном классе точных и приближённых решений Е − уравнения эмдена для потенциала.pdf"
+    drive_id: null
+    md5: d097b9c06645af96f08a5983be588f27
+    bytes: 345704
+    content_type_magic: "%PDF-1.4"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR03
+    section: articles
+    title_ru: "Об одном классе точных решений уравнения Эмдена"
+    file: papers/articles/ob-odnom-klasse-tochnykh-resheniy-uravneniya-emdena.pdf
+    source_url: "http://146.190.233.254/docs/articles/Об одном классе точных решений уравнения Эмдена.pdf"
+    drive_id: null
+    md5: 2ffb08ec270c05a566709d002211d7bf
+    bytes: 233434
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR04
+    section: articles
+    title_ru: "Протонные зарядовые кластеры ядерных размеров"
+    file: papers/articles/protonnye-zaryadovye-klastery-yadernykh-razmerov.pdf
+    source_url: "http://146.190.233.254/docs/articles/Протонные зарядовые кластеры ядерных размеров.pdf"
+    drive_id: null
+    md5: 345e361511a6b78ca000cf5ce5861bb7
+    bytes: 551314
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR05
+    section: articles
+    title_ru: "Спектр масс полых сверхмассивных чёрных дыр с высокой температурой"
+    file: papers/articles/spektr-mass-polykh-sverkhmassivnykh-chyornykh-dyr-s-vysokoy-temperaturoy.pdf
+    source_url: "http://146.190.233.254/docs/articles/Спектр масс полых сверхмассивных чёрных дыр с высокой температурой.pdf"
+    drive_id: null
+    md5: 6877d03993fb0ace4e9fd9c1c8eba202
+    bytes: 802892
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR06
+    section: articles
+    title_ru: "Токовая неустойчивость колебательного контура при гармонической модуляции реактивного параметра"
+    file: papers/articles/tokovaya-neustoychivost-kolebatelnogo-kontura-pri-garmonicheskoy-modulyatsii-rea.pdf
+    source_url: "http://146.190.233.254/docs/articles/Токовая неустойчивость колебательного контура при гармонической модуляции реактивного параметра.pdf"
+    drive_id: null
+    md5: 06766dd7e4e41c001a58e9190b804ea1
+    bytes: 582672
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR07
+    section: articles
+    title_ru: "Токовихревая планарная интегральная индуктивность цилиндрической проводящей плёнки (обзор)"
+    file: papers/articles/tokovikhrevaya-planarnaya-integralnaya-induktivnost-tsilindricheskoy-provodyashc.pdf
+    source_url: "http://146.190.233.254/docs/articles/Токовихревая планарная интегральная индуктивность цилиндрической проводящей плёнки (обзор).pdf"
+    drive_id: null
+    md5: f36469c4b3e02b77938621a1fd36786c
+    bytes: 660647
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR08
+    section: articles
+    title_ru: "Физические Свойства Плоского Варикапа С Электронным Кластером"
+    file: papers/articles/fizicheskie-svoystva-ploskogo-varikapa-s-elektronnym-klasterom.pdf
+    source_url: "http://146.190.233.254/docs/articles/Физические Свойства Плоского Варикапа С Электронным Кластером.pdf"
+    drive_id: null
+    md5: 38c59b18c5a539e53ea52f61e8d66c8a
+    bytes: 697209
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR09
+    section: articles
+    title_ru: "Электрическая неустойчивость к формированию плоских электронных кластеров в двухкомпонентной плазме"
+    file: papers/articles/elektricheskaya-neustoychivost-k-formirovaniyu-ploskikh-elektronnykh-klasterov-v.pdf
+    source_url: "http://146.190.233.254/docs/articles/Электрическая неустойчивость к формированию плоских электронных кластеров в двухкомпонентной плазме.pdf"
+    drive_id: null
+    md5: e83b56573fb5b1a5669f1942b56cf6d5
+    bytes: 536002
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: AR10
+    section: articles
+    title_ru: "Электрическая неустойчивость однородной плазмы к формированию нестационарных электронных кластеров"
+    file: papers/articles/elektricheskaya-neustoychivost-odnorodnoy-plazmy-k-formirovaniyu-nestatsionarnyk.pdf
+    source_url: "http://146.190.233.254/docs/articles/Электрическая неустойчивость однородной плазмы к формированию нестационарных электронных кластеров.pdf"
+    drive_id: null
+    md5: 6c4c921735586ff0c61bcc6fed44ef9a
+    bytes: 299033
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: BR01
+    section: brochure
+    title_ru: "Газовые шары Эмдена в самосогласованной теории гравитации"
+    file: papers/brochure/gazovye-shary-emdena-v-samosoglasovannoy-teorii-gravitatsii.pdf
+    source_url: "http://146.190.233.254/docs/brochure/Газовые шары Эмдена в самосогласованной теории гравитации.pdf"
+    drive_id: null
+    md5: cdf340945879c973341b2d71abaf0aa7
+    bytes: 6242288
+    content_type_magic: "%PDF-1.4"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: BR02
+    section: brochure
+    title_ru: "Градиентный электронный инжектор автоэмиссионного катода с угловой апертурой"
+    file: papers/brochure/gradientnyy-elektronnyy-inzhektor-avtoemissionnogo-katoda-s-uglovoy-aperturoy.pdf
+    source_url: "http://146.190.233.254/docs/brochure/Градиентный электронный инжектор автоэмиссионного катода с угловой апертурой.pdf"
+    drive_id: null
+    md5: 6fbf7ed2bbcd7baf66b1fd9a2fdd0b32
+    bytes: 825849
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: BR03
+    section: brochure
+    title_ru: "Источники постоянного тока на физическом принципе преобразования градиента температуры в ЭДС газом термоэлектронов"
+    file: papers/brochure/istochniki-postoyannogo-toka-na-fizicheskom-printsipe-preobrazovaniya-gradienta.pdf
+    source_url: "http://146.190.233.254/docs/brochure/Источники постоянного тока на физическом принципе преобразования градиента температуры в ЭДС газом термоэлектронов.pdf"
+    drive_id: null
+    md5: 3bfbb5f95aaf6f45dad6e62acf91771b
+    bytes: 605938
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: BR04
+    section: brochure
+    title_ru: "Механизм генерации избыточной энергии самовращающейся электрической стрелкой"
+    file: papers/brochure/mekhanizm-generatsii-izbytochnoy-energii-samovrashchayushcheysya-elektricheskoy.pdf
+    source_url: "http://146.190.233.254/docs/brochure/Механизм генерации избыточной энергии самовращающейся электрической стрелкой.pdf"
+    drive_id: null
+    md5: 92e2e5d83727d3f01704a361a5e40fe7
+    bytes: 1958545
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: DI01
+    section: dissertation
+    title_ru: "Автореферат"
+    file: papers/dissertation/avtoreferat.pdf
+    source_url: "http://146.190.233.254/docs/dissertation/Автореферат.pdf"
+    drive_id: null
+    md5: 49c978e4cac490c57dfbc8fdbaa6dde6
+    bytes: 820972
+    content_type_magic: "%PDF-1.4"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: DI02
+    section: dissertation
+    title_ru: "Механизмы удержания вещества самосогласованным полем"
+    file: papers/dissertation/mekhanizmy-uderzhaniya-veshchestva-samosoglasovannym-polem.pdf
+    source_url: "http://146.190.233.254/docs/dissertation/Механизмы удержания вещества самосогласованным полем.pdf"
+    drive_id: null
+    md5: e2f29d84f36c2be72030533411e8deb5
+    bytes: 8898370
+    content_type_magic: "%PDF-1.4"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: MO01
+    section: monography
+    title_ru: "Интегральные индуктивности с высокой симметрией"
+    file: papers/monography/integralnye-induktivnosti-s-vysokoy-simmetriey.pdf
+    source_url: "http://146.190.233.254/docs/monography/Интегральные индуктивности с высокой симметрией.pdf"
+    drive_id: null
+    md5: 49467108c5be8a662bfea911750cb3bc
+    bytes: 4880949
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: MO02
+    section: monography
+    title_ru: "Механизмы удержания вещества самосогласованным полем"
+    file: papers/monography/mekhanizmy-uderzhaniya-veshchestva-samosoglasovannym-polem.pdf
+    source_url: "http://146.190.233.254/docs/monography/Механизмы удержания вещества самосогласованным полем.pdf"
+    drive_id: null
+    md5: 8d91dc320e365451c97f02cadbe6080d
+    bytes: 6427711
+    content_type_magic: "%PDF-1.4"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: MO03
+    section: monography
+    title_ru: "Технологии персональной энергетики на пузырьковых структурах зарядов (физические основы)"
+    file: papers/monography/tekhnologii-personalnoy-energetiki-na-puzyrkovykh-strukturakh-zaryadov-fizichesk.pdf
+    source_url: "http://146.190.233.254/docs/monography/Технологии персональной энергетики на пузырьковых структурах зарядов (физические основы).pdf"
+    drive_id: null
+    md5: fd99d780ff2413eb3d4a4a9a0e696b05
+    bytes: 1308227
+    content_type_magic: "%PDF-1.4"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: PA01
+    section: patents
+    title_ru: "Патент RU 2 622 894 C2"
+    file: papers/patents/patent-ru-2-622-894-c2.pdf
+    source_url: "http://146.190.233.254/docs/patents/Патент RU 2 622 894 C2.pdf"
+    drive_id: null
+    md5: 5b69b08ef938637d52d5d2d42d416e70
+    bytes: 4012383
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: PA02
+    section: patents
+    title_ru: "Патент RU 2 623 100 C1"
+    file: papers/patents/patent-ru-2-623-100-c1.pdf
+    source_url: "http://146.190.233.254/docs/patents/Патент RU 2 623 100 C1.pdf"
+    drive_id: null
+    md5: 743bcd2fd68d53f309874028b6050d7b
+    bytes: 738175
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: PA03
+    section: patents
+    title_ru: "Патент RU 2614 188 C1"
+    file: papers/patents/patent-ru-2614-188-c1.pdf
+    source_url: "http://146.190.233.254/docs/patents/Патент RU 2614 188 C1.pdf"
+    drive_id: null
+    md5: 056efc237999df6f5e5d419f3af01901
+    bytes: 956880
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: PM01
+    section: perpetual_motion
+    title_ru: "princip_vechny_dvigatel"
+    file: papers/perpetual_motion/princip-vechny-dvigatel.pdf
+    source_url: "https://drive.google.com/file/d/1XPLlyNYeub6w85pbvVm2O-HA9RHzRo0d/view?usp=sharing"
+    drive_id: 1XPLlyNYeub6w85pbvVm2O-HA9RHzRo0d
+    md5: 3da334c2dce07bc2f8da3a815fe272ee
+    bytes: 448167
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: "Google Drive file; title_ru taken from Drive-stored filename (Latin transliteration, no Russian title on source); retrieved via uc?export=download flow with cookie jar"
+  - doc_id: PM02
+    section: perpetual_motion
+    title_ru: "polevoy_konfonament"
+    file: papers/perpetual_motion/polevoy-konfonament.pdf
+    source_url: "https://drive.google.com/file/d/1u3rlxmdkjE8-CIH6pN3361mp6l3Ih0ax/view?usp=sharing"
+    drive_id: 1u3rlxmdkjE8-CIH6pN3361mp6l3Ih0ax
+    md5: 8c97f71d59ba049de9bf705bd10246a5
+    bytes: 1485296
+    content_type_magic: "%PDF-1.7"
+    retrieved: 2026-09-01
+    notes: "Google Drive file; title_ru taken from Drive-stored filename (Latin transliteration, no Russian title on source); retrieved via uc?export=download flow with cookie jar"
+  - doc_id: TE01
+    section: teaching
+    title_ru: "60 Лет в Строю"
+    file: papers/teaching/60-let-v-stroyu.pdf
+    source_url: "http://146.190.233.254/docs/teaching/60 Лет в Строю.pdf"
+    drive_id: null
+    md5: 10ae4be2542064bd0d660d16509c7f54
+    bytes: 427335
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE02
+    section: teaching
+    title_ru: "Альтернативный выбор физического лабораторного эксперимента в школе"
+    file: papers/teaching/alternativnyy-vybor-fizicheskogo-laboratornogo-eksperimenta-v-shkole.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Альтернативный выбор физического лабораторного эксперимента в школе.pdf"
+    drive_id: null
+    md5: 7967ebd49c4887c14dd3f0e13a402d20
+    bytes: 1175295
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE03
+    section: teaching
+    title_ru: "Вертикальные колебания на пружине в однородном поле силы тяжести"
+    file: papers/teaching/vertikalnye-kolebaniya-na-pruzhine-v-odnorodnom-pole-sily-tyazhesti.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Вертикальные колебания на пружине в однородном поле силы тяжести.pdf"
+    drive_id: null
+    md5: 94d05f554b21fa49a01f716f326cd434
+    bytes: 544069
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE04
+    section: teaching
+    title_ru: "Дифференцированный подход при выполнении лабораторных работ по физике"
+    file: papers/teaching/differentsirovannyy-podkhod-pri-vypolnenii-laboratornykh-rabot-po-fizike.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Дифференцированный подход при выполнении лабораторных работ по физике.pdf"
+    drive_id: null
+    md5: 5e3b87c98445330f678fd5c3bbd34805
+    bytes: 646902
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE05
+    section: teaching
+    title_ru: "Игра – особая форма усвоения материала (физика)"
+    file: papers/teaching/igra-osobaya-forma-usvoeniya-materiala-fizika.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Игра – особая форма усвоения материала (физика).pdf"
+    drive_id: null
+    md5: 4733fbc1c98462aa1d4e6ed711c13148
+    bytes: 1586165
+    content_type_magic: "%PDF-1.4"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE06
+    section: teaching
+    title_ru: "Измерение величины заряда механическим школьным электрометром"
+    file: papers/teaching/izmerenie-velichiny-zaryada-mekhanicheskim-shkolnym-elektrometrom.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Измерение величины заряда механическим школьным электрометром.pdf"
+    drive_id: null
+    md5: 34ceca9e7e08d6ad265b367268127b10
+    bytes: 498085
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE07
+    section: teaching
+    title_ru: "Исследование свойств электромагнитного излучения самодельным индикатором"
+    file: papers/teaching/issledovanie-svoystv-elektromagnitnogo-izlucheniya-samodelnym-indikatorom.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Исследование свойств электромагнитного излучения самодельным индикатором.pdf"
+    drive_id: null
+    md5: f32a343816ced4d6d17f977f74b1074d
+    bytes: 458037
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE08
+    section: teaching
+    title_ru: "Медицинский шприц в физическом эксперименте"
+    file: papers/teaching/meditsinskiy-shprits-v-fizicheskom-eksperimente.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Медицинский шприц в физическом эксперименте.pdf"
+    drive_id: null
+    md5: 70831b91aee0ab21e70d46882ae37475
+    bytes: 924597
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE09
+    section: teaching
+    title_ru: "Неутолённое любопытство (физика в рассказах)"
+    file: papers/teaching/neutolyonnoe-lyubopytstvo-fizika-v-rasskazakh.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Неутолённое любопытство (физика в рассказах).pdf"
+    drive_id: null
+    md5: 581e8f011a708458709c059791903057
+    bytes: 10087730
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE10
+    section: teaching
+    title_ru: "Пособие для учителей о профилактике зависимости детей от курения"
+    file: papers/teaching/posobie-dlya-uchiteley-o-profilaktike-zavisimosti-detey-ot-kureniya.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Пособие для учителей о профилактике зависимости детей от курения.pdf"
+    drive_id: null
+    md5: dbf190ceebbd9dbf8bc9de2e8d4c67f0
+    bytes: 3731681
+    content_type_magic: "%PDF-1.7"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE11
+    section: teaching
+    title_ru: "Проект электростатического электрометра с измерительной шкалой"
+    file: papers/teaching/proekt-elektrostaticheskogo-elektrometra-s-izmeritelnoy-shkaloy.pdf
+    source_url: "http://146.190.233.254/docs/teaching/проект электростатического электрометра с измерительной шкалой.pdf"
+    drive_id: null
+    md5: 7dce566abb36c0eef2148878e0b10cf9
+    bytes: 315576
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: "inventory URL (as linked by sapogin.com) returns HTTP 404 twice; server stores file under all-lowercase name — retrieved successfully from lowercase variant"
+  - doc_id: TE12
+    section: teaching
+    title_ru: "Сделайте физику интересной для учащихся"
+    file: papers/teaching/sdelayte-fiziku-interesnoy-dlya-uchashchikhsya.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Сделайте физику интересной для учащихся.pdf"
+    drive_id: null
+    md5: 45d07a662355dce78c11d21dc979ce67
+    bytes: 2785072
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE13
+    section: teaching
+    title_ru: "Физика автомобиля для школьников"
+    file: papers/teaching/fizika-avtomobilya-dlya-shkolnikov.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Физика автомобиля для школьников.pdf"
+    drive_id: null
+    md5: c689aff8822b02bfbaffa4b9dc6080d8
+    bytes: 234163
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE14
+    section: teaching
+    title_ru: "Цикл исследовательских экспериментальных работ по изучению упругой деформации пружины"
+    file: papers/teaching/tsikl-issledovatelskikh-eksperimentalnykh-rabot-po-izucheniyu-uprugoy-deformatsi.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Цикл исследовательских экспериментальных работ по изучению упругой деформации пружины.pdf"
+    drive_id: null
+    md5: afb736e200d4df35d647b6ff024eec81
+    bytes: 432180
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TE15
+    section: teaching
+    title_ru: "Что мы знаем и не знаем о себе"
+    file: papers/teaching/chto-my-znaem-i-ne-znaem-o-sebe.pdf
+    source_url: "http://146.190.233.254/docs/teaching/Что мы знаем и не знаем о себе.pdf"
+    drive_id: null
+    md5: 311b7dced7ed25402f84535e6fdf33b4
+    bytes: 686763
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC01
+    section: technologies
+    title_ru: "inexhaustible_sources_of_electricity_bluff_or_breakthrough_technologies"
+    file: papers/technologies/inexhaustible-sources-of-electricity-bluff-or-breakthrough-technologies.pdf
+    source_url: "http://146.190.233.254/docs/technologies/inexhaustible_sources_of_electricity_bluff_or_breakthrough_technologies.pdf"
+    drive_id: null
+    md5: 507969022b2e8ab34b3342ba1aa1b540
+    bytes: 299212
+    content_type_magic: "%PDF-1.3"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC02
+    section: technologies
+    title_ru: "Закон электродинамической индукции для тока смещения Максвелла"
+    file: papers/technologies/zakon-elektrodinamicheskoy-induktsii-dlya-toka-smeshcheniya-maksvella.pdf
+    source_url: "http://146.190.233.254/docs/technologies/Закон электродинамической индукции для тока смещения Максвелла.pdf"
+    drive_id: null
+    md5: c8a2352518dde555739f966eb0d6ec03
+    bytes: 871471
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC03
+    section: technologies
+    title_ru: "Неисчерпаемык источники энергии на токе смещения Максвелла"
+    file: papers/technologies/neischerpaemyk-istochniki-energii-na-toke-smeshcheniya-maksvella.pdf
+    source_url: "http://146.190.233.254/docs/technologies/Неисчерпаемык источники энергии на токе смещения Максвелла.pdf"
+    drive_id: null
+    md5: 65dd35af0f1b2458c44541ea44a88525
+    bytes: 697654
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC04
+    section: technologies
+    title_ru: "Приближение «Армагеддона» передовых нанотехнологий"
+    file: papers/technologies/priblizhenie-armageddona-peredovykh-nanotekhnologiy.pdf
+    source_url: "http://146.190.233.254/docs/technologies/Приближение «Армагеддона» передовых нанотехнологий.pdf"
+    drive_id: null
+    md5: e45b39f7131ea056f27bbbeb95d728d7
+    bytes: 629852
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC05
+    section: technologies
+    title_ru: "Устройства сверхединичного преобразования мощности на токе смещения Максвелла"
+    file: papers/technologies/ustroystva-sverkhedinichnogo-preobrazovaniya-moshchnosti-na-toke-smeshcheniya-ma.pdf
+    source_url: "http://146.190.233.254/docs/technologies/Устройства сверхединичного преобразования мощности на токе смещения Максвелла.pdf"
+    drive_id: null
+    md5: 1dbe5c9c2f9956eaf91b22cbe753582b
+    bytes: 777406
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC06
+    section: technologies
+    title_ru: "Устройства сверхединичного преобразования энергии на пузырьках зарядов (физический аспект)"
+    file: papers/technologies/ustroystva-sverkhedinichnogo-preobrazovaniya-energii-na-puzyrkakh-zaryadov-fizic.pdf
+    source_url: "http://146.190.233.254/docs/technologies/Устройства сверхединичного преобразования энергии на пузырьках зарядов (физический аспект).pdf"
+    drive_id: null
+    md5: 5291809c4c2e373448925f804e36bc0b
+    bytes: 567795
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC07
+    section: technologies
+    title_ru: "Электрические накопители избыточной энергии искусственной плазменной неустойчивости – энергетическая бездна человечества"
+    file: papers/technologies/elektricheskie-nakopiteli-izbytochnoy-energii-iskusstvennoy-plazmennoy-neustoych.pdf
+    source_url: "http://146.190.233.254/docs/technologies/Электрические накопители избыточной энергии искусственной плазменной неустойчивости – энергетическая бездна человечества.pdf"
+    drive_id: null
+    md5: 194d3a54e769ef69b540768e17d10be2
+    bytes: 481155
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: TC08
+    section: technologies
+    title_ru: "СПОСОБЫ ИЗВЛЕЧЕНИЯ ЭНЕРГИИ КОРОТКОЖИВУЩИМИ ПУЗЫРЬКАМИ ЗАРЯДОВ ПЛАЗМЫ"
+    file: papers/technologies/sposoby-izvlecheniya-energii-korotkozhivushchimi-puzyrkami-zaryadov-plazmy.pdf
+    source_url: "https://drive.google.com/file/d/1_CJwQwP3emB0hHqwhiNsiJxODpocVpMH/view?usp=share_link"
+    drive_id: 1_CJwQwP3emB0hHqwhiNsiJxODpocVpMH
+    md5: 50bb4e295d93b2db67329f4f7686afd9
+    bytes: 1495809
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: WO01
+    section: works
+    title_ru: "Вечный генератор энергии на графене профессора П.М.Тибадо"
+    file: papers/works/vechnyy-generator-energii-na-grafene-professora-p-m-tibado.pdf
+    source_url: "http://146.190.233.254/docs/works/Вечный генератор энергии на графене профессора П.М.Тибадо.pdf"
+    drive_id: null
+    md5: 93fb12a0dffb7103278a7cdc7928dcd6
+    bytes: 374373
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: WO02
+    section: works
+    title_ru: "Глобальное потепление и технология «Божественного Огня»"
+    file: papers/works/globalnoe-poteplenie-i-tekhnologiya-bozhestvennogo-ognya.pdf
+    source_url: "http://146.190.233.254/docs/works/Глобальное потепление и технология «Божественного Огня».pdf"
+    drive_id: null
+    md5: 4e6fd9165ea48cc246a3a11bf0a271f1
+    bytes: 606184
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: WO03
+    section: works
+    title_ru: "Зарядовый кластер Кена Шоулдерса (физический аспект явления)"
+    file: papers/works/zaryadovyy-klaster-kena-shouldersa-fizicheskiy-aspekt-yavleniya.pdf
+    source_url: "http://146.190.233.254/docs/works/Зарядовый кластер Кена Шоулдерса (физический аспект явления).pdf"
+    drive_id: null
+    md5: 0b2c069f51b11fdce7dfa38e760c925f
+    bytes: 553495
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: WO04
+    section: works
+    title_ru: "Каноническая физика гравитации, электричества и магнетизма для наукоёмных технологий"
+    file: papers/works/kanonicheskaya-fizika-gravitatsii-elektrichestva-i-magnetizma-dlya-naukoyomnykh.pdf
+    source_url: "http://146.190.233.254/docs/works/Каноническая физика гравитации, электричества и магнетизма для наукоёмных технологий.pdf"
+    drive_id: null
+    md5: 4dbdff0fa85366ba6c2da0303854ea9e
+    bytes: 552491
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: WO05
+    section: works
+    title_ru: "Панегирик Неисчерпаемому Персональному Накопителю Электрической Энергии"
+    file: papers/works/panegirik-neischerpaemomu-personalnomu-nakopitelyu-elektricheskoy-energii.pdf
+    source_url: "http://146.190.233.254/docs/works/Панегирик неисчерпаемому персональному накопителю электрической энергии.pdf"
+    drive_id: null
+    md5: acbeb2f46cf6c0c53aed5aed4e07bb95
+    bytes: 390636
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: "inventory URL (as linked by sapogin.com) returns HTTP 404 twice; server stores file under all-lowercase name — retrieved successfully from lowercase variant"
+  - doc_id: WO06
+    section: works
+    title_ru: "Физические основы продвижения технологии создания варикапа с электронным кластером"
+    file: papers/works/fizicheskie-osnovy-prodvizheniya-tekhnologii-sozdaniya-varikapa-s-elektronnym-kl.pdf
+    source_url: "http://146.190.233.254/docs/works/Физические основы продвижения технологии создания варикапа с электронным кластером.pdf"
+    drive_id: null
+    md5: 96ffc0c52d43365f60dcb87485aee303
+    bytes: 420087
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
+  - doc_id: WO07
+    section: works
+    title_ru: "Физические свойства наноразмерных варикапов и их применение"
+    file: papers/works/fizicheskie-svoystva-nanorazmernykh-varikapov-i-ikh-primenenie.pdf
+    source_url: "http://146.190.233.254/docs/works/Физические свойства наноразмерных варикапов и их применение.pdf"
+    drive_id: null
+    md5: 6ae9f83ea7b7f3c2c4a4096e0b7f4bd0
+    bytes: 438264
+    content_type_magic: "%PDF-1.5"
+    retrieved: 2026-09-01
+    notes: ""
